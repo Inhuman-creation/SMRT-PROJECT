@@ -1,14 +1,10 @@
 import customtkinter as ctk
 import tkinter as tk
+from InitializationFunctions import variableinitialization
 
 
 #NEED TO CREATE A FUNCTION WHICH CALLS MAIN AND INITIALIZES VARIABLES
-
-#creates variable to use for button 1
-var1="test1"
-var2="test2"
-var3="test3"
-var4="test4"
+flashword,var1,var2,var3,var4=variableinitialization()
 
 #creates function for button to work
 def button_function1():
@@ -41,8 +37,7 @@ frame=ctk.CTkFrame(master=app,width=800,height=400,
 
 frame.pack(padx=20,pady=20)
 
-#flashcard word variable
-flashword="por que"
+#flashcard framework
 flashcard=ctk.CTkLabel(master=frame,text=flashword,text_color="black",
                        font=flashfont,bg_color="white",
                        width=600,height=300,
