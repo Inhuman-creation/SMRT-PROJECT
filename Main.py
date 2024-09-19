@@ -1,8 +1,7 @@
 import ChoiceGUI
 import MenuGUI
 from ChoiceGUI import MultipleChoiceGUI
-from MenuGUI import menuGUI
+from MenuGUI import Menu
 
-
-menuGUI()
+object1 = Menu()
 #MultipleChoiceGUI()
