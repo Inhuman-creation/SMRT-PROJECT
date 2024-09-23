@@ -3,7 +3,7 @@
 1. Install the the latest 64 bit version of [python](https://www.python.org/downloads/)
 2. Install [PyCharm](https://www.jetbrains.com/pycharm/download/?section=windows)
 3. In PyCharm [connect your Python interpreter](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html)
-   1. Click "<No interpreter>" in the bottom right of PyCharm
+   1. Click "\<No interpreter\>" in the bottom right of PyCharm
    2. If you see your Python interpreter displayed, click it. Else, continue
    3. Click "Add New Interpreter >"
    4. Click "Add Local Interpreter..."
