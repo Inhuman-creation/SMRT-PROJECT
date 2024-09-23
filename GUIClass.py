@@ -34,7 +34,7 @@ class GUI:
         return [flashword, string1, string2, string3, string4, definition]
 
     def menuGUI(self):
-        frame = ctk.CTkFrame(master=None,height=1000,width=1000)
+        frame = ctk.CTkFrame(master=self.app,height=1000,width=1000)
         frame._state_before_windows_set_titlebar_color = 'zoomed'
         frame.pack(expand=1,fill="both")
 
@@ -85,7 +85,7 @@ class GUI:
         #initializes variables needed for GUI display
         flashword, var1, var2, var3, var4, definition=self.variableinitialization()
         #creates frame for choice gui
-        frame = ctk.CTkFrame(master=None, height=1000, width=1000)
+        frame = ctk.CTkFrame(master=self.app, height=1000, width=1000)
         frame._state_before_windows_set_titlebar_color = 'zoomed'
         frame.pack(expand=1, fill="both")
 
