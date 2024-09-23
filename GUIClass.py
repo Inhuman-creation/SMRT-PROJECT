@@ -6,14 +6,21 @@ import tkinter as tk
 class GUI:
     def __init__(self):
 
-        app = ctk.CTk()
-        app.geometry("1000x1000")
-        app._state_before_windows_set_titlebar_color = 'zoomed'
-        app.title("SMRT")
+        self.app = ctk.CTk()
+        self.app.geometry("1000x1000")
+        self.app._state_before_windows_set_titlebar_color = 'zoomed'
+        self.app.title("SMRT")
 
         # sets default color theme
         ctk.set_appearance_mode("Dark")
         ctk.set_default_color_theme("blue")
+
+        # Start the menu GUI
+        self.menuGUI()
+
+        # Start the main event loop
+        self.app.mainloop()
+
 
     #INITIALIZES CHOICE GUI VARIABLES
     def variableinitialization(self):
@@ -73,8 +80,6 @@ class GUI:
                                 width=350, height=200, command=exit_Button)
         button4.place(relx=0.50, rely=0.81, relwidth=.3, relheight=.2, anchor=tk.CENTER)
 
-
-        frame.mainloop()
 
     def choiceGUI(self):
         #initializes variables needed for GUI display
@@ -146,6 +151,3 @@ class GUI:
         backbutton = ctk.CTkButton(master=frame, text="Back", font=backbuttonfont, hover_color="green",
                                    width=100, height=50, command=back_function)
         backbutton.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
-
-        # prevents window from closing at the end of the code
-        frame.mainloop()
