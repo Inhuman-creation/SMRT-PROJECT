@@ -1,5 +1,4 @@
 import customtkinter as ctk
-#from customtkinter import CTk
 import tkinter as tk
 
 
