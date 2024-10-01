@@ -1,9 +1,12 @@
 import customtkinter as ctk
 import tkinter as tk
+from WalkingWindow import WalkingWindow
 
 
 class GUI:
     def __init__(self):
+        self.study_window = WalkingWindow(size=10)
+        self.study_window.read_from_csv("Spanish.csv", num_rows=10)
 
         self.app = ctk.CTk()
         self.app.geometry("1000x1000")
@@ -82,7 +85,7 @@ class GUI:
 
     def choiceGUI(self):
         #initializes variables needed for GUI display
-        flashword, var1, var2, var3, var4, definition=self.variableinitialization()
+        flashword, var1, var2, var3, var4 = self.study_window.get_random_words(5)
         #creates frame for choice gui
         frame = ctk.CTkFrame(master=self.app, height=1000, width=1000)
         frame._state_before_windows_set_titlebar_color = 'zoomed'
@@ -97,13 +100,13 @@ class GUI:
 
         # creates function for button to work
         def button_function1():
-            print(var1)
+            print(flashword.english)
 
         def button_function2():
-            print(var2)
+            print(var2.english)
 
         def button_function3():
-            print(var3)
+            print(var3.english)
 
         def button_function4():
             var4 = "it works"
@@ -115,7 +118,7 @@ class GUI:
             GUI.menuGUI(self)
 
 
-        flashcard = ctk.CTkLabel(master=frame, text=flashword, text_color="black",
+        flashcard = ctk.CTkLabel(master=frame, text=flashword.spanish, text_color="black",
                                  font=flashfont, bg_color="white",
                                  width=800, height=500,
                                  fg_color="grey75", corner_radius=0,
@@ -124,25 +127,25 @@ class GUI:
 
         # creates buttons for multiple choice selection
 
-        button1 = ctk.CTkButton(master=frame, text=var1, font=buttonfont, hover_color="green",
+        button1 = ctk.CTkButton(master=frame, text=flashword.english, font=buttonfont, hover_color="green",
                                 width=480, height=250, command=button_function1)
         button1.place(relx=0.25, rely=0.58, relwidth=.4, relheight=.25, anchor=tk.CENTER)
 
         # creates button number 2
 
-        button2 = ctk.CTkButton(master=frame, text=var2, font=buttonfont, hover_color="green",
+        button2 = ctk.CTkButton(master=frame, text=var2.english, font=buttonfont, hover_color="green",
                                 width=480, height=250, command=button_function2)
         button2.place(relx=0.75, rely=0.58, relwidth=.4, relheight=.25, anchor=tk.CENTER)
 
         # creates button number 3
 
-        button3 = ctk.CTkButton(master=frame, text=var3, font=buttonfont, hover_color="green",
+        button3 = ctk.CTkButton(master=frame, text=var3.english, font=buttonfont, hover_color="green",
                                 width=480, height=250, command=button_function3)
         button3.place(relx=0.25, rely=0.85, relwidth=.4, relheight=.25, anchor=tk.CENTER)
 
         # creates button number 4
 
-        button4 = ctk.CTkButton(master=frame, text=var4, font=buttonfont, hover_color="green",
+        button4 = ctk.CTkButton(master=frame, text=var4.english, font=buttonfont, hover_color="green",
                                 width=480, height=250, command=button_function4)
         button4.place(relx=0.75, rely=0.85, relwidth=.4, relheight=.25, anchor=tk.CENTER)
 
