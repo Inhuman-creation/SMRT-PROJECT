@@ -56,7 +56,8 @@ class GUI:
 
         def exit_Button():
             print("exit")
-            exit(0)
+            self.app.destroy()
+            # exit(0)
 
         # creates buttons to navigate the menu
 
