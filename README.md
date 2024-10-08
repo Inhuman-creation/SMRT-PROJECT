@@ -29,5 +29,5 @@ The following steps should be taken to add a new feature to the Main Menu. Featu
 			self.current_frame.destroy()
 		self.current_frame = FeatureGUI(self)
 ```
-1. In MenuGUI.py, replace a placeholder or create a new CTkbutton that has its command set to `controller.show_feature_gui()`
-2. Implement your feature as described in the Software Requirements Specification. Don't forget to give the user a button to go back or to the Main Menu
+6. In MenuGUI.py, replace a placeholder or create a new CTkbutton that has its command set to `controller.show_feature_gui()`
+7. Implement your feature as described in the Software Requirements Specification. Don't forget to give the user a button to go back or to the Main Menu
