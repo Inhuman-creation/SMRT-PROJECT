@@ -22,10 +22,12 @@ The following steps should be taken to add a new feature to the Main Menu. Featu
 	- `controller` will usually refer to the instance of the GUI class from Main.py
 4. Import the `FeatureGUI` at the top of Main.py. Example: `from FeatureGUI import FeatureGUI`
 	- FYI the first time `FeatureGUI` is typed here, it refers to the file or module. The second time, it refers to the class
-5. In Main.py, at the bottom of the GUI class' `__init__()` function, create a function named `show_feature_gui(self)` Example:<br>
-	`def show_feature_gui(self):`<br>
- 	`	if self.current_frame:`<br>
-		`	self.current_frame.destroy()`<br>
-	`	self.current_frame = FeatureGUI(self)`<br>
-6. In MenuGUI.py, replace a placeholder or create a new CTkbutton that has its command set to `controller.show_feature_gui()`
-7. Implement your feature as described in the Software Requirements Specification. Don't forget to give the user a button to go back or to the Main Menu
+5. In Main.py, at the bottom of the GUI class' `__init__()` function, create a function named `show_feature_gui(self)` Example:<br>```
+```
+	def show_feature_gui(self):
+		if self.current_frame:
+			self.current_frame.destroy()
+		self.current_frame = FeatureGUI(self)
+```
+1. In MenuGUI.py, replace a placeholder or create a new CTkbutton that has its command set to `controller.show_feature_gui()`
+2. Implement your feature as described in the Software Requirements Specification. Don't forget to give the user a button to go back or to the Main Menu
