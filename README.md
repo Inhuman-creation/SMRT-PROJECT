@@ -23,7 +23,7 @@ The following steps should be taken to add a new feature to the Main Menu. Featu
 4. Import the `FeatureGUI` at the top of Main.py. Example: `from FeatureGUI import FeatureGUI`
 	- FYI the first time `FeatureGUI` is typed here, it refers to the file or module. The second time, it refers to the class
 5. In Main.py, at the bottom of the GUI class' `__init__()` function, create a function named `show_feature_gui(self)` Example:
-```
+```python
 	def show_feature_gui(self):
 		if self.current_frame:
 			self.current_frame.destroy()
