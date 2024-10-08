@@ -22,7 +22,7 @@ The following steps should be taken to add a new feature to the Main Menu. Featu
 	- `controller` will usually refer to the instance of the GUI class from Main.py
 4. Import the `FeatureGUI` at the top of Main.py. Example: `from FeatureGUI import FeatureGUI`
 	- FYI the first time `FeatureGUI` is typed here, it refers to the file or module. The second time, it refers to the class
-5. In Main.py, at the bottom of the GUI class' `__init__()` function, create a function named `show_feature_gui(self)`
+5. In Main.py, at the bottom of the GUI class' `__init__()` function, create a function named `show_feature_gui(self)`<br>
 	`if self.current_frame:`<br>
 		`self.current_frame.destroy()`<br>
 	`self.current_frame = FeatureGUI(self)`<br>
