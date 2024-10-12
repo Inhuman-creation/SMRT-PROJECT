@@ -63,15 +63,14 @@ class ChoiceGUI:
             x = -1  # init temporary position variables
             y = -1
             if i % 2 == 1: # x values
-                x = 0.25
+                x = 0.25 # first and third buttons
             else:
-                x = 0.75
+                x = 0.75 # second and fourth
             
             if i < 2: # y values
-                y = 0.58
+                y = 0.58  # first and second buttons
             else:
-                y = 0.85
-
+                y = 0.85  # third and fourth buttons
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
         # end button placement for loop
 
