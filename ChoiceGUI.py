@@ -56,7 +56,6 @@ class ChoiceGUI:
                     # the use of partial() allows arguments to be passed to command
                 )
             )
-        # end button creation for loop
 
         # Place the buttons
         for i in range(4):
@@ -72,7 +71,6 @@ class ChoiceGUI:
             else:
                 y = 0.85  # third and fourth buttons
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
-        # end button placement for loop
 
         # Create back button
         back_button = ctk.CTkButton(
