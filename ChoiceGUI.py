@@ -13,9 +13,9 @@ class ChoiceGUI:
 
         # Initialize variables for GUI display
         flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
+        choices = [var1, var2, var3]  # put into list to make them able to be looped over (iterable)
         answer_position = random.randint(0, 3)  # determines where the right answer will be placed
-        choices = [var1, var2, var3]  # put into list to make them looped over (iterable)
-        choices.insert(answer_position, flashword)
+        choices.insert(answer_position, flashword)  
 
         # Create frame for choice GUI
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000)
