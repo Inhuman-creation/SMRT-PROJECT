@@ -2,7 +2,9 @@
 
 import customtkinter as ctk
 import tkinter as tk
-
+from Word import Word
+import random
+from functools import partial
 
 class ChoiceGUI:
     def __init__(self, controller):
@@ -10,7 +12,10 @@ class ChoiceGUI:
         self.app = controller.app
 
         # Initialize variables for GUI display
-        flashword, var1, var2, var3, var4 = self.controller.study_window.get_random_words(5)
+        flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
+        answer_position = random.randint(0, 3)  # determines where the right answer will be placed
+        choices = [var1, var2, var3]  # put into list to make them looped over (iterable)
+        choices.insert(answer_position, flashword)
 
         # Create frame for choice GUI
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000)
@@ -21,21 +26,18 @@ class ChoiceGUI:
         buttonfont = ctk.CTkFont(family="Times New Roman", size=55, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Times New Roman", size=25, weight="bold")
 
-        # Button functions
-        def button_function1():
-            print(flashword.english)
-
-        def button_function2():
-            print(var2.english)
-
-        def button_function3():
-            print(var3.english)
-
-        def button_function4():
-            print(var4.english)
-
+        # button functions
         def back_function():
             self.controller.show_menu_gui()
+
+        def display_feedback(word: Word):
+            if flashword.check_definition(word.english):
+                print("Correct\n")
+            else:
+                print("Incorrect")
+                print("flashword:", flashword.english)
+                print("word:", word.english)
+                print()
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
@@ -45,29 +47,33 @@ class ChoiceGUI:
         flashcard.place(relx=0.5, rely=0.2, relwidth=.5, relheight=.3, anchor=tk.CENTER)
 
         # Create multiple choice buttons
-        button1 = ctk.CTkButton(
-            master=self.frame, text=flashword.english, font=buttonfont,
-            width=480, height=250, command=button_function1
-        )
-        button1.place(relx=0.25, rely=0.58, relwidth=.4, relheight=.25, anchor=tk.CENTER)
+        buttons = []
+        for i in range(4):
+            buttons.append(
+                ctk.CTkButton(
+                    master=self.frame, text=choices[i].english.lower(), font=buttonfont,
+                    width=480, height=250, command=partial(display_feedback, choices[i]) 
+                    # the use of partial() allows arguments to be passed to command
+                )
+            )
+        # end button creation for loop
 
-        button2 = ctk.CTkButton(
-            master=self.frame, text=var2.english, font=buttonfont,
-            width=480, height=250, command=button_function2
-        )
-        button2.place(relx=0.75, rely=0.58, relwidth=.4, relheight=.25, anchor=tk.CENTER)
+        # Place the buttons
+        for i in range(4):
+            x = -1  # init temporary position variables
+            y = -1
+            if i % 2 == 1: # x values
+                x = 0.25
+            else:
+                x = 0.75
+            
+            if i < 2: # y values
+                y = 0.58
+            else:
+                y = 0.85
 
-        button3 = ctk.CTkButton(
-            master=self.frame, text=var3.english, font=buttonfont,
-            width=480, height=250, command=button_function3
-        )
-        button3.place(relx=0.25, rely=0.85, relwidth=.4, relheight=.25, anchor=tk.CENTER)
-
-        button4 = ctk.CTkButton(
-            master=self.frame, text=var4.english, font=buttonfont,
-            width=480, height=250, command=button_function4
-        )
-        button4.place(relx=0.75, rely=0.85, relwidth=.4, relheight=.25, anchor=tk.CENTER)
+            buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
+        # end button placement for loop
 
         # Create back button
         back_button = ctk.CTkButton(
