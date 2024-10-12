@@ -33,16 +33,21 @@ class ChoiceGUI:
         def display_feedback(word: Word):
             feedback_text = ""
             if flashword.check_definition(word.english):
-                feedback_text = "Correct"
+                feedback_text = "🎉 Correct! 🎉"
             else:
-                feedback_text = "Incorrect\n{} means {}".format(flashword.spanish, word.english)
-
+                feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())
             feedback_label = ctk.CTkLabel(
                 master = self.frame, text=feedback_text, text_color="black",
                 font=flashfont, fg_color="grey75"
             )
-            feedback_label.place(relx=0.5, rely=0.5, relwidth=.5, relheight=.3, anchor=tk.CENTER)
-            # TODO: create button to clear the feedback label and display the next flashcard
+            feedback_label.place(relx=0.5, rely=0.5, relwidth=.3, relheight=.2, anchor=tk.CENTER)
+            feedback_button = ctk.CTkButton(
+                master=self.frame, text="OK", font=buttonfont,
+                width=160, height=100, command=self.controller.show_choice_gui,
+                fg_color="#000080"
+            )
+            feedback_button.place(relx=0.5, rely=0.65, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+            # TODO: update relevant count variables before displaying the feedback
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
