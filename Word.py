@@ -4,20 +4,102 @@ It contains a foreign language word and the corresponding English definition
 It can check if a given definition is correct or not
 
 Last Edited by: Zachary Kao
-Last Edited: 9/29/2024
+Last Edited: 10/13/2024
 """
+from pickle import FALSE
+
 
 class Word:
-    def __init__(self, english: str, spanish: str):
+    """
+    Initialize a Word object
+    
+    :param english: english definition of the word
+    :param spanish: spanish definition of the word
+
+    Count parameters can be used when reading word userdata to load previous values
+    :param count_seen: number of times this word has been tested
+    :param count_correct: number of times this word was correctly identified
+    :param count_incorrect: number of times this word was incorrectly identified
+    :param known: flag if this word is known or not
+    """
+    def __init__(self, english: str, spanish: str,
+                 count_seen: int = None, count_correct: int = None,
+                 count_incorrect: int = None, known: bool = None):
         self.english = english
         self.spanish = spanish
+
+        if count_seen is not None:
+            self.count_seen = count_seen
+        else:
+            self.count_seen = 0
+
+        if count_correct is not None:
+            self.count_correct = count_correct
+        else:
+            self.count_correct = 0
+
+        if count_incorrect is not None:
+            self.count_incorrect = count_incorrect
+        else:
+            self.count_incorrect = 0
+
+        if known is not None:
+            self.known = known
+        else:
+            self.known = False
+
 
     def __repr__(self):
         return f"Word(spanish = {self.spanish}, english = {self.english})"
 
     """
     Check if the input string matches the english definition of the word
-    return: True if it matches, False otherwise
+    Will call the corresponding function to update this word's count variables
+    return True if it matches, False otherwise
     """
-    def check_definition(self, input_string: str) -> bool:
-        return self.english.lower() == input_string.lower()
+    def check_definition_english(self, input_string: str) -> bool:
+        correct = self.english.lower() == input_string.lower()
+
+        if correct:
+            self.correct()
+        else:
+            self.incorrect()
+
+        return correct
+
+    """
+    Check if the input string matches the spanish definition of the word
+    Will call the corresponding function to update this word's count variables
+    return True if it matches, False otherwise
+    """
+    def check_definition_spanish(self, input_string: str) -> bool:
+        correct = self.spanish.lower() == input_string.lower()
+
+        if correct:
+            self.correct()
+        else:
+            self.incorrect()
+
+        return correct
+
+    """
+    Function to be called when a word is correctly identified
+    Increments counts seen and correct
+    """
+    def correct(self):
+        self.count_seen += 1
+        self.count_correct += 1
+
+    """
+    Function to be called when a word is correctly identified
+    Increments counts seen and incorrect
+    """
+    def incorrect(self):
+        self.count_seen += 1
+        self.count_incorrect += 1
+
+    """
+    Function to be called when the word is acknowledged as known
+    """
+    def set_known_word(self):
+        self.known = True
