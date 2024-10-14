@@ -15,10 +15,7 @@ class TextGUI:
         self.app = controller.app
 
         # Initialize variables for GUI display
-        flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
-        choices = [var1, var2, var3]  # put into list to make them able to be looped over (iterable)
-        answer_position = random.randint(0, 3)  # determines where the right answer will be placed
-        choices.insert(answer_position, flashword)  
+        flashword = self.controller.study_window.get_random_words(1)[0]
 
         # Create frame for choice GUI
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000)
@@ -33,9 +30,10 @@ class TextGUI:
         def back_function():
             self.controller.show_menu_gui()
 
-        def display_feedback(word: Word):
+        def display_feedback(_):  # _ is an unused arg passed from CTkEntry.bind()
+            word = text_entry.get()
             feedback_text = ""
-            if flashword.check_definition_english(word.english):
+            if flashword.check_definition_english(word):
                 feedback_text = "🎉 Correct! 🎉"
             else:
                 feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())
@@ -43,13 +41,13 @@ class TextGUI:
                 master = self.frame, text=feedback_text, text_color="black",
                 font=flashfont, fg_color="grey75"
             )
-            feedback_label.place(relx=0.5, rely=0.5, relwidth=.3, relheight=.2, anchor=tk.CENTER)
+            feedback_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
             feedback_button = ctk.CTkButton(
                 master=self.frame, text="OK", font=buttonfont,
-                width=160, height=100, command=self.controller.show_choice_gui,
+                width=160, height=100, command=self.controller.show_text_gui,
                 fg_color="#000080"
             )
-            feedback_button.place(relx=0.5, rely=0.65, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+            feedback_button.place(relx=0.5, rely=0.67, relwidth=.1, relheight=.1, anchor=tk.CENTER)
             # TODO: update relevant count variables before displaying the feedback
 
         # Create flashcard label
@@ -59,31 +57,29 @@ class TextGUI:
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=.5, relheight=.3, anchor=tk.CENTER)
 
-        # Create multiple choice buttons
-        buttons = []
-        for i in range(4):
-            buttons.append(
-                ctk.CTkButton(
-                    master=self.frame, text=choices[i].english.lower(), font=buttonfont,
-                    width=480, height=250, command=partial(display_feedback, choices[i]) 
-                    # the use of partial() allows arguments to be passed to command
-                )
-            )
+        # Creat frame to hold text input field and submit button
+        input_frame = ctk.CTkFrame(
+            master=self.frame
+        )
+        input_frame.place(relx=0.5, rely=0.75, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
 
-        # Place the buttons
-        for i in range(4):
-            x = -1  # init temporary position variables
-            y = -1
-            if i % 2 == 1: # x values
-                x = 0.25 # first and third buttons
-            else:
-                x = 0.75 # second and fourth
-            
-            if i < 2: # y values
-                y = 0.58  # first and second buttons
-            else:
-                y = 0.85  # third and fourth buttons
-            buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
+        # Create and place the text entry
+        text_entry = ctk.CTkEntry(
+            master=input_frame, 
+            placeholder_text="Translation",
+            font=buttonfont
+        )
+        text_entry.place(relx=0.5, rely=0.25, relwidth = 0.5, relheight=0.3, anchor=tk.CENTER)
+        text_entry.bind("<Return>", display_feedback)  # submit by pressing Enter
+        
+        # Create and place submit button
+        submit_button = ctk.CTkButton(
+            master=input_frame, 
+            text="Submit", 
+            command=partial(display_feedback, None),
+            font=buttonfont
+        )
+        submit_button.place(relx=0.5, rely=0.75, relwidth = 0.5, relheight=0.3, anchor=tk.CENTER)
 
         # Create back button
         back_button = ctk.CTkButton(
