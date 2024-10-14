@@ -16,8 +16,11 @@ class MenuGUI:
         buttonfont = ctk.CTkFont(family="Times New Roman", size=55, weight="bold")
 
         # Button functions
-        def start_button():
+        def choice_function():
             self.controller.show_choice_gui()
+
+        def text_function():
+            self.controller.show_text_gui()
 
         def placeholder_function():
             print("Placeholder function")
@@ -28,14 +31,14 @@ class MenuGUI:
 
         # Create buttons
         start = ctk.CTkButton(
-            master=self.frame, text="Start", font=buttonfont,
-            width=350, height=200, command=start_button
+            master=self.frame, text="Multiple Choice \nFlashcards", font=buttonfont,
+            width=350, height=200, command=choice_function
         )
         start.place(relx=0.5, rely=0.12, relwidth=.3, relheight=.2, anchor=tk.CENTER)
 
         placeholder1 = ctk.CTkButton(
-            master=self.frame, text="Placeholder 1", font=buttonfont,
-            width=350, height=200, command=placeholder_function
+            master=self.frame, text="Text-Input \nFlashcards", font=buttonfont,
+            width=350, height=200, command=text_function
         )
         placeholder1.place(relx=0.5, rely=0.35, relwidth=.3, relheight=.2, anchor=tk.CENTER)
 

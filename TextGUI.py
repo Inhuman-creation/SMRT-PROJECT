@@ -3,12 +3,12 @@
 import customtkinter as ctk
 import tkinter as tk
 from Word import Word
-import random
 from functools import partial
+import random
 
-class ChoiceGUI:
+class TextGUI:
     """
-    This class contains the GUI for the multiple choice flashcards.
+    This class contains the GUI for the text-input flashcards.
     """
     def __init__(self, controller):
         self.controller = controller
@@ -50,6 +50,7 @@ class ChoiceGUI:
                 fg_color="#000080"
             )
             feedback_button.place(relx=0.5, rely=0.65, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+            # TODO: update relevant count variables before displaying the feedback
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(

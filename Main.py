@@ -4,6 +4,7 @@ import customtkinter as ctk
 from WalkingWindow import WalkingWindow
 from MenuGUI import MenuGUI
 from ChoiceGUI import ChoiceGUI
+from TextGUI import TextGUI
 
 
 class GUI:
@@ -38,6 +39,11 @@ class GUI:
         if self.current_frame:
             self.current_frame.destroy()
         self.current_frame = ChoiceGUI(self)
+    
+    def show_text_gui(self):
+        if self.current_frame:
+            self.current_frame.destroy()
+        self.current_frame = TextGUI(self)
 
 
 if __name__ == "__main__":
