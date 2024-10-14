@@ -6,7 +6,6 @@ It can check if a given definition is correct or not
 Last Edited by: Zachary Kao
 Last Edited: 10/13/2024
 """
-from pickle import FALSE
 
 
 class Word:
