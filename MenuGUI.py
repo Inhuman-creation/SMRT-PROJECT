@@ -43,7 +43,7 @@ class MenuGUI:
         placeholder1.place(relx=0.5, rely=0.35, relwidth=.3, relheight=.2, anchor=tk.CENTER)
 
         placeholder2 = ctk.CTkButton(
-            master=self.frame, text="Placeholder 2", font=buttonfont,
+            master=self.frame, text="Statistics", font=buttonfont,
             width=350, height=200, command=placeholder_function
         )
         placeholder2.place(relx=0.5, rely=0.58, relwidth=.3, relheight=.2, anchor=tk.CENTER)
