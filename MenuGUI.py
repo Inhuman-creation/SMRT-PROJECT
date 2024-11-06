@@ -1,4 +1,8 @@
-# menuGUI.py
+# =====================
+# MenuGUI.py
+# Latest version: Nov 6
+# Main menu selection screen
+# =====================
 
 import customtkinter as ctk
 import tkinter as tk
@@ -41,16 +45,16 @@ class MenuGUI:
         button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics"]
         button_commands = [choice_function, text_function, placeholder_function]
 
-        # Place each button across the screen with wider rectangles and white text on one line
+        # Option buttons
         for i in range(3):
             button = ctk.CTkButton(
                 master=self.frame, text=button_texts[i], font=buttonfont,
                 fg_color=button_colors[i], text_color="#ffffff",  # White text
                 width=900, height=80, command=button_commands[i], corner_radius=15
             )
-            button.place(relx=0.5, rely=0.35 + (i * 0.2), anchor=tk.CENTER)  # Lowered position slightly
+            button.place(relx=0.5, rely=0.35 + (i * 0.2), anchor=tk.CENTER)
 
-        # Create a centered "EXIT" button at the bottom
+        # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
             master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
             width=120, height=60, fg_color="#ff4040", text_color="white",

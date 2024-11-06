@@ -1,4 +1,8 @@
+# =====================
 # choiceGUI.py
+# Latest version: Nov 6
+# Multiple choice flashcards screen
+# =====================
 
 import customtkinter as ctk
 import tkinter as tk
@@ -31,7 +35,7 @@ class ChoiceGUI:
         buttonfont = ctk.CTkFont(family="Garet", size=55, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
 
-        # button functions
+        # Button functions
         def back_function():
             self.controller.show_menu_gui()
 
@@ -53,7 +57,7 @@ class ChoiceGUI:
             )
             feedback_button.place(relx=0.5, rely=0.65, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
-        # Create flashcard label without background color
+        # Create flashcard label without background color (word in foreign language)
         flashcard = ctk.CTkLabel(
             master=self.frame, text=flashword.spanish, text_color="black",
             font=flashfont, fg_color=None  # Remove background color
@@ -87,7 +91,7 @@ class ChoiceGUI:
                 y = 0.85  # third and fourth buttons
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
 
-        # Create EXIT button with an intuitive color
+        # EXIT button
         exit_button = ctk.CTkButton(
             master=self.frame, text="EXIT", font=backbuttonfont,
             width=100, height=50, command=back_function,
