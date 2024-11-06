@@ -6,10 +6,12 @@ from Word import Word
 from functools import partial
 import random
 
+
 class TextGUI:
     """
     This class contains the GUI for the text-input flashcards.
     """
+
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
@@ -38,7 +40,7 @@ class TextGUI:
             else:
                 feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())
             feedback_label = ctk.CTkLabel(
-                master = self.frame, text=feedback_text, text_color="black",
+                master=self.frame, text=feedback_text, text_color="black",
                 font=flashfont, fg_color="grey75"
             )
             feedback_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
@@ -65,21 +67,21 @@ class TextGUI:
 
         # Create and place the text entry
         text_entry = ctk.CTkEntry(
-            master=input_frame, 
+            master=input_frame,
             placeholder_text="Translation",
             font=buttonfont
         )
-        text_entry.place(relx=0.5, rely=0.25, relwidth = 0.5, relheight=0.3, anchor=tk.CENTER)
+        text_entry.place(relx=0.5, rely=0.25, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
         text_entry.bind("<Return>", display_feedback)  # submit by pressing Enter
-        
+
         # Create and place submit button
         submit_button = ctk.CTkButton(
-            master=input_frame, 
-            text="Submit", 
+            master=input_frame,
+            text="Submit",
             command=partial(display_feedback, None),
             font=buttonfont
         )
-        submit_button.place(relx=0.5, rely=0.75, relwidth = 0.5, relheight=0.3, anchor=tk.CENTER)
+        submit_button.place(relx=0.5, rely=0.75, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
 
         # Create back button
         back_button = ctk.CTkButton(

@@ -1,6 +1,8 @@
 # main.py
 
 import customtkinter as ctk
+
+from LoginGUI import LoginGUI
 from WalkingWindow import WalkingWindow
 from MenuGUI import MenuGUI
 from ChoiceGUI import ChoiceGUI
@@ -23,12 +25,20 @@ class GUI:
         self.study_window = WalkingWindow(size=10)
         self.study_window.read_from_csv("Spanish.csv", num_rows=10)
 
-        # Start with MenuGUI
+        # Start with MenuGUI ORIGINAL PLACEMENT
+        #self.current_frame = None
+        #self.show_menu_gui()
+
         self.current_frame = None
-        self.show_menu_gui()
+        self.show_login_gui()
 
         # Start the main event loop
         self.app.mainloop()
+
+    def show_login_gui(self):
+        if self.current_frame:
+            self.current_frame.destroy()
+        self.current_frame = LoginGUI(self)
 
     def show_menu_gui(self):
         if self.current_frame:
