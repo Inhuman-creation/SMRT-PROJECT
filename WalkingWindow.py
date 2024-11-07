@@ -19,13 +19,17 @@ class WalkingWindow:
 
     #create a walking window with max size of size
     def __init__(self, size: int):
+        self.last = 0  # Potential use of this variable to mark the back of window when words inside not at either end become learned
+        self.front = self.last + (size - 1)
         self.size = size
         self.current_words = []
         self.srs_queue = deque(maxlen=Settings.SRS_QUEUE_LENGTH)
 
     def add_word(self, word: Word):
         if len(self.current_words) < self.size:
-            self.current_words.append(word)
+            # for word in self.read_from_csv() not needed currently
+            if word not in self.current_words:
+                self.current_words.append(word)
 
     def read_from_csv(self, filepath: str, num_rows: int):
         with open(filepath, mode = 'r', encoding = 'utf-8') as file:
@@ -77,7 +81,7 @@ class WalkingWindow:
 
             if known:
                 #remove word from walking window and get a new word
-                self.current_words.remove(flashword)
+                self.remove_known_word(flashword)
                 logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
                 #TODO: get a new word
             else:
@@ -106,6 +110,15 @@ class WalkingWindow:
     """
     def mark_word_as_known(self, flashword:Word):
         flashword.set_known_word()
-        self.current_words.remove(flashword)
+        self.remove_known_word(flashword)
         logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
         #TODO: get a new word?
+
+    """
+    Function for removing "word" from window
+    Mark as known calls this function and increments the window. 
+    """
+    def remove_known_word(self, word: Word):
+        self.current_words.remove(word)
+        self.front += 1
+        #TODO: add a new word to the window
