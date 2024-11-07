@@ -18,6 +18,7 @@ logging.info(message)
 """
 logging.basicConfig(
     filename="smrt.log",
+    filemode="w",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
