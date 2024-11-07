@@ -28,7 +28,7 @@ class WalkingWindow:
     def add_word(self, word: Word):
         if len(self.current_words) < self.size:
             # for word in self.read_from_csv() not needed currently
-            if word not in self.current_words:
+            #if word not in self.current_words:
                 self.current_words.append(word)
 
     def read_from_csv(self, filepath: str, num_rows: int):
