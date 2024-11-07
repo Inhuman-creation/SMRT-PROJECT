@@ -81,3 +81,13 @@ class WalkingWindow:
                 logging.info("SRS QUEUE: " + repr(self.srs_queue))
 
         return correct
+
+    """
+    Function for the mark as known button
+    Mark a word as known and remove it from the window
+    """
+    def mark_word_as_known(self, flashword:Word):
+        flashword.set_known_word()
+        self.current_words.remove(flashword)
+        logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
+        #TODO: get a new word?
