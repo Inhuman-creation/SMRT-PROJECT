@@ -2,6 +2,7 @@
 
 import customtkinter as ctk
 
+import Settings
 from LoginGUI import LoginGUI
 from WalkingWindow import WalkingWindow
 from MenuGUI import MenuGUI
@@ -39,8 +40,9 @@ class GUI:
         ctk.set_default_color_theme("blue")
 
         # Initialize shared resources
-        self.study_window = WalkingWindow(size=10)
-        self.study_window.read_from_csv("Template_Spanish.csv", num_rows=10) #TODO: read from user's csv
+
+        self.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
+        self.study_window.read_from_csv("Template_Spanish.csv", num_rows=Settings.WALKING_WINDOW_SIZE) #TODO: read from user's csv
 
         # Start with MenuGUI ORIGINAL PLACEMENT
         #self.current_frame = None

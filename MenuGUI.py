@@ -6,6 +6,7 @@
 
 import customtkinter as ctk
 import tkinter as tk
+import Settings as Settings
 
 class MenuGUI:
     def __init__(self, controller):
