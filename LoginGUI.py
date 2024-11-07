@@ -1,5 +1,6 @@
 import customtkinter as ctk
 import tkinter as tk
+import csv
 from tkinter import *
 
 class LoginGUI:
@@ -12,7 +13,8 @@ class LoginGUI:
         self.frame.pack(expand=1, fill="both")
 
         # Create button font
-        buttonfont = ctk.CTkFont(family="Times New Roman", size=20, weight="bold")
+        buttonfont = ctk.CTkFont(family="Garet", size=55, weight="bold")
+        feedbackbuttonfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
 
         # Button functions
         def login_function():
@@ -21,26 +23,16 @@ class LoginGUI:
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
-            # Popup label if login information needs correcting
-            if not username.strip():  # Check if username is empty
-                feedback_text = "Username not entered!"
+        # Popup label if login information needs correcting
+            if not username.strip() or not email.strip() or not password.strip():  # Check if username is empty
+                feedback_text = "Please Complete All Fields"
             else:
                 feedback_text = "Username entered: {}".format(username)
-
-            if not email.strip():
-                feedback_text = "Email not entered!"
-            else:
-                feedback_text = "Email entered: {}".format(username)
-
-            if not password.strip():
-                feedback_text = "Password not entered!"
-            else:
-                feedback_text = "Password entered: {}".format(username)
 
 
             # Create or update feedback label
             feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, font=buttonfont, text_color="black", fg_color="grey75"
+                master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black", fg_color="grey75"
             )
             feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
