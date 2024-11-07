@@ -112,6 +112,7 @@ class WalkingWindow:
         flashword.set_known_word()
         self.remove_known_word(flashword)
         logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
+        self.add_new_word("Template_Spanish.csv")
         #TODO: get a new word?
 
     """
@@ -119,6 +120,28 @@ class WalkingWindow:
     Mark as known calls this function and increments the window. 
     """
     def remove_known_word(self, word: Word):
-        self.current_words.remove(word)
-        self.front += 1
-        #TODO: add a new word to the window
+        if word in self.current_words:
+            self.current_words.remove(word)
+            self.front += 1
+            #TODO: add a new word to the window
+        else:
+            logging.warning(f"Attempted to remove a word not in current_words: {repr(word)}")
+
+    def add_new_word(self, filepath: str):
+        with open(filepath, mode = 'r', encoding = 'utf-8') as file:
+            reader = csv.reader(file)
+            next(reader) #skip header row
+
+            for index, row in enumerate(reader):
+                if index >= self.front+1: #break when numRows is reached
+                    if len(row) == 6: #ensure 6 col input
+                        spanish, english, seen, correct, incorrect, known = row
+
+                        # Convert specific columns
+                        seen = int(seen)
+                        correct = int(correct)
+                        incorrect = int(incorrect)
+                        known = bool(int(known))  # Convert '1' to True, '0' to False
+
+                        self.add_word(Word(english, spanish, seen, correct, incorrect, known))
+        logging.info("READ FROM CSV: " + repr(self.current_words))
