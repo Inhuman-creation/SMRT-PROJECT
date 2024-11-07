@@ -7,6 +7,7 @@ Last Edited by: Zachary Kao
 Last Edited: 10/13/2024
 """
 
+import logging
 
 class Word:
     """
@@ -19,11 +20,11 @@ class Word:
     :param count_seen: number of times this word has been tested
     :param count_correct: number of times this word was correctly identified
     :param count_incorrect: number of times this word was incorrectly identified
-    :param known: flag if this word is known or not
+    :param is_known: flag if this word is is_known or not
     """
     def __init__(self, english: str, spanish: str,
                  count_seen: int = None, count_correct: int = None,
-                 count_incorrect: int = None, known: bool = None):
+                 count_incorrect: int = None, is_known: bool = None):
         self.english = english
         self.spanish = spanish
 
@@ -42,14 +43,21 @@ class Word:
         else:
             self.count_incorrect = 0
 
-        if known is not None:
-            self.known = known
+        if is_known is not None:
+            self.is_known = is_known
         else:
-            self.known = False
+            self.is_known = False
 
-
+    #Simple representation of a word
     def __repr__(self):
-        return f"Word(spanish = {self.spanish}, english = {self.english})"
+        return f"({self.spanish})"
+
+    #For displaying detailed status of the word
+    def detailed_repr(self):
+        return (f"Word(spanish = {self.spanish}, english = {self.english}"
+                f", count_seen = {self.count_seen}, count_correct = {self.count_correct}"
+                f", count_incorrect = {self.count_incorrect}, known = {self.is_known})")
+
 
     """
     Check if the input string matches the english definition of the word
@@ -88,6 +96,7 @@ class Word:
     def correct(self):
         self.count_seen += 1
         self.count_correct += 1
+        logging.info("CORRECT: " + self.detailed_repr())
 
     """
     Function to be called when a word is correctly identified
@@ -96,9 +105,21 @@ class Word:
     def incorrect(self):
         self.count_seen += 1
         self.count_incorrect += 1
+        logging.info("INCORRECT: " + self.detailed_repr())
 
     """
-    Function to be called when the word is acknowledged as known
+    Function to be called when the word is acknowledged as is_known
     """
     def set_known_word(self):
-        self.known = True
+        self.is_known = True
+        logging.info("MARKED AS KNOWN: " + self.detailed_repr())
+
+    """
+    Function to check if the word should be marked as is_known
+    """
+    def check_if_known(self) -> bool:
+        if self.count_correct >= 5: #TODO: KNOWN_THRESHOLD should be defined elsewhere
+            if (self.count_correct - self.count_incorrect) >= 3: #TODO: KNOWN_DELTA should be defined elsewhere
+                #mark word as is_known
+                self.set_known_word()
+                return self.is_known

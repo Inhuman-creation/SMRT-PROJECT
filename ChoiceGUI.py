@@ -41,7 +41,7 @@ class ChoiceGUI:
 
         def display_feedback(word: Word):
             feedback_text = ""
-            if flashword.check_definition_english(word.english):
+            if self.controller.study_window.check_word_definition(flashword, word.english):
                 feedback_text = "🎉 Correct! 🎉"
             else:
                 feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())

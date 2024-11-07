@@ -8,9 +8,25 @@ from MenuGUI import MenuGUI
 from ChoiceGUI import ChoiceGUI
 from TextGUI import TextGUI
 
+import logging
+
+"""
+set up logging configuration
+to use: 
+import logging
+logging.info(message)
+"""
+logging.basicConfig(
+    filename="smrt.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 class GUI:
     def __init__(self):
+        # Mark log with new execution
+        logging.info("SMRT Vocab app started")
+
         # Initialize the main application window
         self.app = ctk.CTk()
         self.app.geometry("1000x1000")
@@ -30,7 +46,8 @@ class GUI:
         #self.show_menu_gui()
 
         self.current_frame = None
-        self.show_login_gui()
+        #self.show_login_gui() #TODO: remove comment once login is ready
+        self.show_menu_gui()
 
         # Start the main event loop
         self.app.mainloop()
