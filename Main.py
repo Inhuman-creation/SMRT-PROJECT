@@ -47,8 +47,7 @@ class GUI:
         #self.show_menu_gui()
 
         self.current_frame = None
-        #self.show_login_gui() #TODO: remove comment once login is ready
-        self.show_menu_gui()
+        self.show_login_gui()
 
         # Start the main event loop
         self.app.mainloop()
