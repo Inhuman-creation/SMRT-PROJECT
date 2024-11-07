@@ -52,6 +52,10 @@ class TextGUI:
             feedback_button.place(relx=0.5, rely=0.67, relwidth=.1, relheight=.1, anchor=tk.CENTER)
             # TODO: update relevant count variables before displaying the feedback
 
+            # Disable Enter key and submit button after feedback
+            text_entry.unbind("<Return>")
+            submit_button.configure(state="disabled")
+
         # Create flashcard label
         flashcard = ctk.CTkLabel(
             master=self.frame, text=flashword.spanish, text_color="black",
