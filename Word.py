@@ -9,6 +9,9 @@ Last Edited: 10/13/2024
 
 import logging
 
+from WalkingWindow import WalkingWindow
+
+
 class Word:
     """
     Initialize a Word object
@@ -113,13 +116,14 @@ class Word:
     def set_known_word(self):
         self.is_known = True
         logging.info("MARKED AS KNOWN: " + self.detailed_repr())
+        WalkingWindow.remove_known_word()
 
     """
     Function to check if the word should be marked as is_known
     """
     def check_if_known(self) -> bool:
         if self.count_correct >= 5: #TODO: KNOWN_THRESHOLD should be defined elsewhere
-            if (self.count_correct - self.count_incorrect) >= 3: #TODO: KNOWN_DELTA should be defined elsewhere
+            if (self.count_correct - self.count_incorrect) >= 5: #TODO: KNOWN_DELTA should be defined elsewhere
                 #mark word as is_known
                 self.set_known_word()
                 return self.is_known
