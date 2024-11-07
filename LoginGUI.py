@@ -36,10 +36,15 @@ class LoginGUI:
             )
             feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
+            def feedback_function():
+                """This function is executed when the feedback/OK button is pressed to clear login feedback"""
+                feedback_label.destroy()
+                feedback_button.destroy()
+                
             # Create a button to close the feedback
             feedback_button = ctk.CTkButton(
                 master=self.frame, text="OK", font=buttonfont,
-                width=160, height=100, command=feedback_label.destroy, fg_color="#000080"
+                width=160, height=100, command=feedback_function, fg_color="#000080"
             )
             feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
 
