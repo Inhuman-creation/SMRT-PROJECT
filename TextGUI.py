@@ -35,7 +35,7 @@ class TextGUI:
         def display_feedback(_):  # _ is an unused arg passed from CTkEntry.bind()
             word = text_entry.get()
             feedback_text = ""
-            if flashword.check_definition_english(word):
+            if self.controller.study_window.check_word_definition(flashword, word):
                 feedback_text = "🎉 Correct! 🎉"
             else:
                 feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())
