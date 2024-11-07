@@ -12,6 +12,7 @@ import csv
 import random
 from collections import deque
 import logging
+import Settings
 from Word import Word
 
 class WalkingWindow:
@@ -20,7 +21,7 @@ class WalkingWindow:
     def __init__(self, size: int):
         self.size = size
         self.current_words = []
-        self.srs_queue = deque(maxlen=5) #TODO: SRS_QUEUE_LENGTH should be defined elsewhere
+        self.srs_queue = deque(maxlen=Settings.SRS_QUEUE_LENGTH)
 
     def add_word(self, word: Word):
         if len(self.current_words) < self.size:
@@ -34,9 +35,17 @@ class WalkingWindow:
             for index, row in enumerate(reader):
                 if index >= num_rows: #break when numRows is reached
                     break
-                if len(row) == 2: #ensure 2 col input
-                    spanish, english = row
-                    self.add_word(Word(english, spanish))
+                if len(row) == 6: #ensure 6 col input
+                    spanish, english, seen, correct, incorrect, known = row
+
+                    # Convert specific columns
+                    seen = int(seen)
+                    correct = int(correct)
+                    incorrect = int(incorrect)
+                    known = bool(int(known))  # Convert '1' to True, '0' to False
+
+                    self.add_word(Word(english, spanish, seen, correct, incorrect, known))
+        logging.info("READ FROM CSV: " + repr(self.current_words))
 
     """
     Return a random selection of unique current_words from the walking window
@@ -52,8 +61,17 @@ class WalkingWindow:
     """
     Check the definition of a word in the walking window
     """
-    def check_word_definition(self, flashword: Word, answer) -> bool:
-        correct:bool = (flashword.check_definition_english(answer))
+    def check_word_definition(self, flashword:Word, answer) -> bool:
+        #convert Word to answer string to support both flashcard types
+        if isinstance(answer, Word):
+            answer = answer.english if Settings.FOREIGN_TO_ENGLISH else answer.spanish
+
+        #support for both study modes
+        if Settings.FOREIGN_TO_ENGLISH:
+            correct:bool = (flashword.check_definition_english(answer))
+        else:
+            correct:bool = (flashword.check_definition_spanish(answer))
+
         if correct:
             known:bool = flashword.check_if_known()
 

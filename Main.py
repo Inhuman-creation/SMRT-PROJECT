@@ -40,7 +40,7 @@ class GUI:
 
         # Initialize shared resources
         self.study_window = WalkingWindow(size=10)
-        self.study_window.read_from_csv("Spanish.csv", num_rows=10)
+        self.study_window.read_from_csv("Template_Spanish.csv", num_rows=10) #TODO: read from user's csv
 
         # Start with MenuGUI ORIGINAL PLACEMENT
         #self.current_frame = None

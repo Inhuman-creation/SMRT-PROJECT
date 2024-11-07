@@ -8,6 +8,7 @@ Last Edited: 10/13/2024
 """
 
 import logging
+import Settings
 
 class Word:
     """
@@ -118,8 +119,8 @@ class Word:
     Function to check if the word should be marked as is_known
     """
     def check_if_known(self) -> bool:
-        if self.count_correct >= 5: #TODO: KNOWN_THRESHOLD should be defined elsewhere
-            if (self.count_correct - self.count_incorrect) >= 3: #TODO: KNOWN_DELTA should be defined elsewhere
+        if self.count_correct >= Settings.KNOWN_THRESHOLD:
+            if (self.count_correct - self.count_incorrect) >= Settings.KNOWN_DELTA:
                 #mark word as is_known
                 self.set_known_word()
                 return self.is_known
