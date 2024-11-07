@@ -49,6 +49,10 @@ class ChoiceGUI:
                 master=self.frame, text=feedback_text, text_color="black",
                 font=flashfont, fg_color="grey75"
             )
+            # Disable all choice buttons after a guess is made
+            for btn in buttons:
+                btn.configure(state="disabled")
+
             feedback_label.place(relx=0.5, rely=0.5, relwidth=.3, relheight=.2, anchor=tk.CENTER)
             feedback_button = ctk.CTkButton(
                 master=self.frame, text="OK", font=buttonfont,
