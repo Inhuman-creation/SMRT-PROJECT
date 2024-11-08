@@ -6,7 +6,6 @@
 import customtkinter as ctk
 import tkinter as tk
 import csv
-from tkinter import *
 
 class LoginGUI:
     def __init__(self, controller):
@@ -47,28 +46,73 @@ class LoginGUI:
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
+            #Displaying feedback if a field is left empty
             if not username.strip() or not email.strip() or not password.strip():
                 feedback_text = "Please Complete All Fields"
+                feedback_label = ctk.CTkLabel(
+                    master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
+                    fg_color="grey75"
+                )
+                feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
+
+                def feedback_function():
+                    feedback_label.destroy()
+                    feedback_button.destroy()
+
+                feedback_button = ctk.CTkButton(
+                    master=self.frame, text="OK", font=feedbackbuttonfont,
+                    width=160, height=100, command=feedback_function, fg_color="#000080"
+                )
+                feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
+                return
+
+
+            # Initialize the empty dictionary
+            account_data = {}
+
+            # Read AccountInformation.csv into the account_data dictionary, with the username as the key
+            with open('AccountInformation.csv', mode='r', newline='', encoding='utf-8') as csv_file:
+                reader = csv.DictReader(csv_file, delimiter=',')  # Pass the file object, not the filename
+                for row in reader:
+                    account_data[row['Username']] = {'password': row['Password'], 'email': row['Email']}
+
+            # Search the dictionary for the username key and verify password and email match records
+            def search_account(username, password, email):
+                if username in account_data:
+                    stored_info = account_data[username]
+                    if stored_info['password'] == password and stored_info['email'] == email:
+                        return True  # Match found
+                return False  # No match
+
+
+            # Search for the account using the entered input
+            result = search_account(username, password, email)
+
+            #Proceed depending on if account was found or not
+            #Display feedback if login fails and allows user to try again or to signup
+            if not result:
+                feedback_text = "That account was not found. Please try again."
+                feedback_label = ctk.CTkLabel(
+                    master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
+                    fg_color="grey75"
+                )
+                feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
+
+                def feedback_function():
+                    feedback_label.destroy()
+                    feedback_button.destroy()
+
+                feedback_button = ctk.CTkButton(
+                    master=self.frame, text="OK", font=feedbackbuttonfont,
+                    width=160, height=100, command=feedback_function, fg_color="#000080"
+                )
+                feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
+                result = search_account(username,password, email)
+                return
+            #Allows user to sign in if account was found
             else:
-                feedback_text = "Username entered: {}".format(username)
-
-            feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black", fg_color="grey75"
-            )
-            feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
-
-            def feedback_function():
-                feedback_label.destroy()
-                feedback_button.destroy()
-
-            feedback_button = ctk.CTkButton(
-                master=self.frame, text="OK", font=feedbackbuttonfont,
-                width=160, height=100, command=feedback_function, fg_color="#000080"
-            )
-            feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
-
-            if username.strip() and password.strip() and email.strip():
                 self.controller.show_menu_gui()
+
 
         def signup_function():
             username = self.text_entry_username.get()
@@ -94,6 +138,7 @@ class LoginGUI:
                 feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
                 return
 
+            # Initialize dictionary for user information
             account_data = {
                 'Username': username,
                 'Password': password,
