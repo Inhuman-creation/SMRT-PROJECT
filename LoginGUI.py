@@ -34,9 +34,10 @@ class LoginGUI:
 
         # Function to switch the welcome message every 2 seconds
         def switch_welcome_message():
-            self.current_welcome_index = (self.current_welcome_index + 1) % len(self.welcome_messages)
-            self.welcome_label.configure(text=self.welcome_messages[self.current_welcome_index])
-            self.app.after(2000, switch_welcome_message)
+            if self.welcome_label.winfo_exists():
+                self.current_welcome_index = (self.current_welcome_index + 1) % len(self.welcome_messages)
+                self.welcome_label.configure(text=self.welcome_messages[self.current_welcome_index])
+                self.app.after(2000, switch_welcome_message)
 
         # Start switching welcome messages
         switch_welcome_message()
