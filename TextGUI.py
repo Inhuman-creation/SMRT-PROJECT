@@ -1,4 +1,8 @@
+# =====================
 # choiceGUI.py
+# Latest version: Nov 6
+# Multiple choice flashcards screen
+# =====================
 
 import customtkinter as ctk
 import tkinter as tk

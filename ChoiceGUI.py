@@ -32,8 +32,14 @@ class ChoiceGUI:
 
         # Create fonts with "Garet"
         flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")  # Even larger font for flashcard
+        feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")  # Smaller font for feedback text
         buttonfont = ctk.CTkFont(family="Garet", size=55, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+
+        # Supportive messages for correct answers
+        supportive_messages = [
+            "Correcto!", "You got this!", "You're on a roll!", "Perfecto!", "Well done!" "Keep going!"
+        ]
 
         # Button functions
         def back_function():
@@ -41,25 +47,32 @@ class ChoiceGUI:
 
         def display_feedback(word: Word):
             feedback_text = ""
+            feedback_color = "#f37d59"  # Default incorrect color
             if self.controller.study_window.check_word_definition(flashword, word.english):
-                feedback_text = "🎉 Correct! 🎉"
+                feedback_text = random.choice(supportive_messages)  # Random supportive message
+                feedback_color = "#77721f"  # Correct color
             else:
-                feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())
+                feedback_text = "Not quite!\n{} means {}.".format(flashword.spanish, flashword.english.lower())
+
+            # Create feedback label with better styling and new font size
             feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, text_color="black",
-                font=flashfont, fg_color="grey75"
+                master=self.frame, text=feedback_text, text_color="white",
+                font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
             )
+            feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+
             # Disable all choice buttons after a guess is made
             for btn in buttons:
                 btn.configure(state="disabled")
 
-            feedback_label.place(relx=0.5, rely=0.5, relwidth=.3, relheight=.2, anchor=tk.CENTER)
+            # OK button closer to the feedback popup and with new background color
             feedback_button = ctk.CTkButton(
                 master=self.frame, text="OK", font=buttonfont,
                 width=160, height=100, command=self.controller.show_choice_gui,
-                fg_color="#000080", corner_radius=20
+                fg_color="#ffc24a", text_color="white", corner_radius=20  # New background color and text color
             )
-            feedback_button.place(relx=0.5, rely=0.65, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+            feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
+                                  anchor=tk.CENTER)  # Adjusted rely to make it closer
 
         # Create flashcard label without background color (word in foreign language)
         flashcard = ctk.CTkLabel(
@@ -99,7 +112,7 @@ class ChoiceGUI:
         exit_button = ctk.CTkButton(
             master=self.frame, text="EXIT", font=backbuttonfont,
             width=100, height=50, command=back_function,
-            fg_color="#d9534f", corner_radius=20  # Set to a red color to indicate exit
+            fg_color="#d9534f", text_color="white", corner_radius=20  # White text and red color
         )
         exit_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
