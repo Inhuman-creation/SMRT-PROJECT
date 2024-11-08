@@ -5,7 +5,7 @@ currently being studied by a user
 For testing purposes, it currently reads current_words from CSV directly
 
 Last Edited by: Zachary Kao
-Last Edited: 9/29/2024
+Last Edited: 11/8/2024
 """
 
 import csv
@@ -17,7 +17,9 @@ from Word import Word
 
 class WalkingWindow:
 
-    #create a walking window with max size of size
+    """
+    Create a walking window object of a certain maximum size
+    """
     def __init__(self, size: int):
         self.last = 0  # Potential use of this variable to mark the back of window when words inside not at either end become learned
         self.front = self.last + (size - 1)
@@ -36,8 +38,10 @@ class WalkingWindow:
             reader = csv.reader(file)
             next(reader) #skip header row
 
+            count_read:int = 0
+
             for index, row in enumerate(reader):
-                if index >= num_rows: #break when numRows is reached
+                if count_read >= num_rows: #break when numRows is reached
                     break
                 if len(row) == 6: #ensure 6 col input
                     spanish, english, seen, correct, incorrect, known = row
@@ -48,7 +52,11 @@ class WalkingWindow:
                     incorrect = int(incorrect)
                     known = bool(int(known))  # Convert '1' to True, '0' to False
 
-                    self.add_word(Word(english, spanish, seen, correct, incorrect, known))
+                    if(not known):
+                        self.add_word(Word(english, spanish, seen, correct, incorrect, known))
+                        count_read += 1
+                    else:
+                        self.front += 1
         logging.info("READ FROM CSV: " + repr(self.current_words))
 
     """
@@ -83,7 +91,7 @@ class WalkingWindow:
                 #remove word from walking window and get a new word
                 self.remove_known_word(flashword)
                 logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
-                #TODO: get a new word
+                self.add_new_word("Template_Spanish.csv") #TODO: need to read from a specific user's csv dynamically
             else:
                 #remove word from current current_words and add to spaced repetition queue
                 self.current_words.remove(flashword)
@@ -112,28 +120,28 @@ class WalkingWindow:
         flashword.set_known_word()
         self.remove_known_word(flashword)
         logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
-        self.add_new_word("Template_Spanish.csv")
-        #TODO: get a new word?
+        self.add_new_word("Template_Spanish.csv") #TODO: need to read from a specific user's csv dynamically
 
     """
     Function for removing "word" from window
-    Mark as known calls this function and increments the window. 
+    Follow up with add_new_word to add a new word to the window
     """
     def remove_known_word(self, word: Word):
         if word in self.current_words:
             self.current_words.remove(word)
             self.front += 1
-            #TODO: add a new word to the window
         else:
             logging.warning(f"Attempted to remove a word not in current_words: {repr(word)}")
 
+    """
+    Read in a single word from in front of the walking window
+    """
     def add_new_word(self, filepath: str):
         with open(filepath, mode = 'r', encoding = 'utf-8') as file:
             reader = csv.reader(file)
-            next(reader) #skip header row
 
             for index, row in enumerate(reader):
-                if index >= self.front+1: #break when numRows is reached
+                if index >= self.front: #start reading from the front of the window
                     if len(row) == 6: #ensure 6 col input
                         spanish, english, seen, correct, incorrect, known = row
 
@@ -143,5 +151,10 @@ class WalkingWindow:
                         incorrect = int(incorrect)
                         known = bool(int(known))  # Convert '1' to True, '0' to False
 
-                        self.add_word(Word(english, spanish, seen, correct, incorrect, known))
-        logging.info("READ FROM CSV: " + repr(self.current_words))
+                        if not known:
+                            new_word = Word(english, spanish, seen, correct, incorrect, known)
+                            self.add_word(new_word)
+                            logging.info("ADDED WORD FROM CSV: " + repr(new_word))
+                            break #stop reading after 1 word
+
+
