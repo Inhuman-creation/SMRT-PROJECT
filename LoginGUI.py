@@ -1,106 +1,82 @@
+# =====================
+# LoginGUI.py
+# Latest version: Nov 7
+# Login screen
+# =====================
 import customtkinter as ctk
 import tkinter as tk
 import csv
 from tkinter import *
-import time
 
 class LoginGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
 
-        # Creation of the main frame for the login page (using customtkinter)
+        # Create main frame for the login page
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
         self.frame.pack(expand=1, fill="both")
 
-        # Create button font
-        buttonfont = ctk.CTkFont(family="Garet", size=55, weight="bold")
-        feedbackbuttonfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
+        # Creating fonts
+        headerfont = ctk.CTkFont(family="Garet", size=100)  # Larger font for "Login" label
+        buttonfont = ctk.CTkFont(family="Garet", size=28, weight="bold")
+        feedbackbuttonfont = ctk.CTkFont(family="Garet", size=18, weight="bold")
+        entryfont = ctk.CTkFont(family="Garet", size=28)  # Unbolded for entries
+        italicsfont = ctk.CTkFont(family="Garet", size=18, slant="italic")
+
+        # Welcome messages in different languages
+        self.welcome_messages = ["Welcome", "Bienvenido", "Bienvenue", "أهلا بك", "Willkommen", "Benvenuto", "欢迎", "Добро пожаловать"]
+        self.current_welcome_index = 0
+
+        # Welcome label
+        self.welcome_label = ctk.CTkLabel(master=self.frame, text=self.welcome_messages[self.current_welcome_index], font=headerfont, text_color="black")
+        self.welcome_label.place(relx=0.5, rely=0.18, anchor=tk.CENTER)
+
+        # Function to switch the welcome message every 2 seconds
+        def switch_welcome_message():
+            self.current_welcome_index = (self.current_welcome_index + 1) % len(self.welcome_messages)
+            self.welcome_label.configure(text=self.welcome_messages[self.current_welcome_index])
+            self.app.after(2000, switch_welcome_message)
+
+        # Start switching welcome messages
+        switch_welcome_message()
 
         # Button functions
         def login_function():
-            # Access the text entry values
             username = self.text_entry_username.get()
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
-            # Popup label if login information needs correcting
-            if not username.strip() or not email.strip() or not password.strip():  # Check if username is empty
+            if not username.strip() or not email.strip() or not password.strip():
                 feedback_text = "Please Complete All Fields"
             else:
                 feedback_text = "Username entered: {}".format(username)
 
-
-            #Read login information to dictionary and reference for verifing login information
-            #####
-            '''def csv_to_dict_and_back(file_path):
-
-                # Read the CSV contents into a dictionary
-                data_dict = {}
-                #with open(AccountInformation.csv, mode='r') as csv_file:
-                    #reader = csv.reader(csv_file)
-                reader = csv.DictReader(open('AccountInformation.csv'))
-                for row in reader:
-                    if row:  # Check if row is not empty
-                        Username = row[0]
-                        Email = row[1]
-                        Password = row[2]
-                        data_dict[Username] = username
-
-                for i in csv.DictReader('AccountInformation.csv'):
-                    print(data_dict(i))
-
-                # Write the dictionary back to the original file
-                with open(file_path, mode='w', newline='') as csv_file:
-                    writer = csv.writer(csv_file)
-                    for key, value in data_dict.items():
-                        writer.writerow([key] + value)
-
-            # Replace 'yourfile.csv' with the path to your CSV file
-            file_path = 'AccountInformation.csv'
-            csv_to_dict_and_back(file_path)
-            '''
-
-            ###
-
-
-            # Create or update feedback label
             feedback_label = ctk.CTkLabel(
                 master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black", fg_color="grey75"
             )
             feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
             def feedback_function():
-                """This function is executed when the feedback/OK button is pressed to clear login feedback"""
                 feedback_label.destroy()
                 feedback_button.destroy()
-                
-            # Create a button to close the feedback
+
             feedback_button = ctk.CTkButton(
-                master=self.frame, text="OK", font=buttonfont,
+                master=self.frame, text="OK", font=feedbackbuttonfont,
                 width=160, height=100, command=feedback_function, fg_color="#000080"
             )
             feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
 
-            # If username is not empty, proceed with the next screen
             if username.strip() and password.strip() and email.strip():
                 self.controller.show_menu_gui()
 
-
-
         def signup_function():
-            # Access the text entry values
             username = self.text_entry_username.get()
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
-            # Popup label if login information needs correcting
-            if not username.strip() or not email.strip() or not password.strip():  # Check if username is empty
+            if not username.strip() or not email.strip() or not password.strip():
                 feedback_text = "Please Complete All Fields"
-
-                #Feedback functionality had to be immplemented inside if statement so user would not be able to continue until
-                #the information was corrected
-                # Create or update feedback label
                 feedback_label = ctk.CTkLabel(
                     master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
                     fg_color="grey75"
@@ -108,123 +84,93 @@ class LoginGUI:
                 feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
                 def feedback_function():
-                    """This function is executed when the feedback/OK button is pressed to clear login feedback"""
                     feedback_label.destroy()
                     feedback_button.destroy()
 
-                # Create a button to close the feedback
                 feedback_button = ctk.CTkButton(
-                    master=self.frame, text="OK", font=buttonfont,
+                    master=self.frame, text="OK", font=feedbackbuttonfont,
                     width=160, height=100, command=feedback_function, fg_color="#000080"
                 )
                 feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
                 return
 
-            else:
-                print("All fields are entered correctly.")
-                feedback_text = "Username entered: {}".format(username)
-
-                # Create or update feedback label
-                feedback_label = ctk.CTkLabel(
-                    master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
-                    fg_color="grey75"
-                )
-                feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
-
-                def feedback_function():
-                    """This function is executed when the feedback/OK button is pressed to clear login feedback"""
-                    feedback_label.destroy()
-                    feedback_button.destroy()
-
-
-                # Create a button to close the feedback
-                feedback_button = ctk.CTkButton(
-                    master=self.frame, text="OK", font=buttonfont,
-                    width=160, height=100, command=feedback_function, fg_color="#000080"
-                )
-                feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
-
-
-            # Create an empty dictionary and store user input
             account_data = {
                 'Username': username,
                 'Password': password,
                 'Email': email
             }
 
-            # Send dictionary information to be saved in AccountInformation.csv
-            #Mode 'a' is for append as to not overwrite, since we are just adding a new account, not doing
-            #anything with old ones
             with open('AccountInformation.csv', mode='a', newline='') as file:
-                # Extract field names from the first dictionary
                 fieldnames = account_data.keys()
-
                 writer = csv.DictWriter(file, fieldnames=fieldnames)
 
-                # Write the header only if the file is new or empty
-                file.seek(0, 2)  # Move the cursor to the end of the file
-                if file.tell() == 0:  # Check if the file is empty
+                file.seek(0, 2)
+                if file.tell() == 0:
                     writer.writeheader()
 
-                # Write the single dictionary row
                 writer.writerow(account_data)
 
-            # If username, password, and email are not empty, proceed with the next screen
             if username.strip() and password.strip() and email.strip():
                 self.controller.show_menu_gui()
 
-
         def exit_button():
-            print("Exiting application")
             self.app.destroy()
 
-        # Create frame to hold text input fields
-        input_frame = ctk.CTkFrame(master=self.frame)
-        input_frame.place(relx=0.5, rely=0.45, relwidth=0.5, relheight=0.4, anchor=tk.CENTER)
+        # Main white rectangle frame for text inputs and buttons
+        input_frame = ctk.CTkFrame(master=self.frame, fg_color="white", corner_radius=15)
+        input_frame.place(relx=0.5, rely=0.6, relwidth=0.55, relheight=0.6, anchor=tk.CENTER)
 
-        # Create and place the text entry for username
+        # Header label "Login"
+        header_label = ctk.CTkLabel(master=input_frame, text="Login", font=ctk.CTkFont(family="Garet", size=35, weight="bold"), text_color="black")
+        header_label.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
+
+        # Text entries
         self.text_entry_username = ctk.CTkEntry(
-            master=input_frame,
-            placeholder_text="User Name",
-            font=buttonfont
+            master=input_frame, placeholder_text="Username", font=entryfont,
+            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_username.place(relx=0.5, rely=0.20, relwidth=0.8, relheight=0.15, anchor=tk.CENTER)
+        self.text_entry_username.place(relx=0.5, rely=0.2, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
-        # Create and place the text entry for password (with masking)
         self.text_entry_password = ctk.CTkEntry(
-            master=input_frame,
-            placeholder_text="Password",
-            font=buttonfont,
-            show="*"  # Mask the password input
+            master=input_frame, placeholder_text="Password", font=entryfont, show="*",
+            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_password.place(relx=0.5, rely=0.45, relwidth=0.8, relheight=0.15, anchor=tk.CENTER)
+        self.text_entry_password.place(relx=0.5, rely=0.35, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
-        # Create and place the text entry for email
         self.text_entry_email = ctk.CTkEntry(
-            master=input_frame,
-            placeholder_text="Email",
-            font=buttonfont
+            master=input_frame, placeholder_text="Email", font=entryfont,
+            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_email.place(relx=0.5, rely=0.70, relwidth=0.8, relheight=0.15, anchor=tk.CENTER)
+        self.text_entry_email.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
-        # Create buttons
+        # "Login" button above "Register your account"
         loginbutton = ctk.CTkButton(
-            master=self.frame, text="Login", font=buttonfont,
-            width=350, height=200, command=login_function
+            master=input_frame, text="Login", font=buttonfont, command=login_function,
+            fg_color="#f37d59", text_color="white", corner_radius=10
         )
-        loginbutton.place(relx=0.35, rely=0.75, relwidth=.2, relheight=.1, anchor=tk.CENTER)
+        loginbutton.place(relx=0.5, rely=0.7, relwidth=0.7, relheight=0.1, anchor=tk.CENTER)
 
+        # Informative text above "Register your account" button
+        register_text = ctk.CTkLabel(
+            master=input_frame, text="Don't have an account? Click the button below.",
+            font=italicsfont, text_color="black"
+        )
+        register_text.place(relx=0.5, rely=0.8, anchor=tk.CENTER)
+
+        # "Register your account" button
         signupbutton = ctk.CTkButton(
-            master=self.frame, text="Signup", font=buttonfont,
-            width=350, height=200, command=signup_function
+            master=input_frame, text="Register your account", font=buttonfont, command=signup_function,
+            fg_color="#0f606b", text_color="white", corner_radius=10
         )
-        signupbutton.place(relx=0.65, rely=0.75, relwidth=.2, relheight=.1, anchor=tk.CENTER)
+        signupbutton.place(relx=0.5, rely=0.9, relwidth=0.7, relheight=0.1, anchor=tk.CENTER)
 
+        # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
-            master=self.frame, text="Exit", font=buttonfont,
-            width=350, height=200, command=exit_button
+            master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
+            width=120, height=60, fg_color="#ff4040", text_color="white",
+            command=exit_button, corner_radius=15
         )
-        exit_btn.place(relx=0.5, rely=0.90, relwidth=.2, relheight=.1, anchor=tk.CENTER)
+        exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
 
     def destroy(self):
         self.frame.destroy()
