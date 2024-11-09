@@ -31,9 +31,6 @@ class MenuGUI:
         def placeholder_function():
             print("Placeholder function")
 
-        def settings_function():
-            self.controller.show_settings_gui()
-
         def exit_button():
             print("Exiting application")
             self.app.destroy()
@@ -42,24 +39,24 @@ class MenuGUI:
         self.title_label = ctk.CTkLabel(master=self.frame, text="What would you like to do?", text_color="black", font=titlefont)
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
-        # Create option buttons with specified colors and white text
-        button_colors = ["#f37d59", "#0f606b", "#ffc24a", "#aeb883"]
-        button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics", "Settings"]
-        button_commands = [choice_function, text_function, placeholder_function, settings_function]
+        # Create option buttons
+        button_colors = ["#f37d59", "#0f606b", "#ffc24a"]
+        button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics"]
+        button_commands = [choice_function, text_function, placeholder_function]
 
         # Option buttons
-        for i in range(4):
+        for i in range(3):
             button = ctk.CTkButton(
                 master=self.frame, text=button_texts[i], font=buttonfont,
                 fg_color=button_colors[i], text_color="#ffffff",  # White text
                 width=900, height=80, command=button_commands[i], corner_radius=15
             )
-            button.place(relx=0.5, rely=0.35 + (i * 0.15), anchor=tk.CENTER)
+            button.place(relx=0.5, rely=0.35 + (i * 0.2), anchor=tk.CENTER)
 
         # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
             master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
-            width=120, height=60, fg_color="#ff4040", text_color="white",
+            width=120, height=60, fg_color="#d9534f", text_color="white",
             command=exit_button, corner_radius=15
         )
         exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom

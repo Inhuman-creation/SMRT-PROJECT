@@ -38,7 +38,7 @@ class ChoiceGUI:
 
         # Supportive messages for correct answers
         supportive_messages = [
-            "Correcto!", "You got this!", "You're on a roll!", "Perfecto!", "Well done!" "Keep going!"
+            "Correcto!", "You got this!", "You're on a roll!", "Perfecto!", "Well done!", "Keep going!"
         ]
 
         # Button functions
@@ -65,7 +65,7 @@ class ChoiceGUI:
             for btn in buttons:
                 btn.configure(state="disabled")
 
-            # OK button closer to the feedback popup and with new background color
+            # OK button
             feedback_button = ctk.CTkButton(
                 master=self.frame, text="OK", font=buttonfont,
                 width=160, height=100, command=self.controller.show_choice_gui,
@@ -74,7 +74,7 @@ class ChoiceGUI:
             feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
                                   anchor=tk.CENTER)  # Adjusted rely to make it closer
 
-        # Create flashcard label without background color (word in foreign language)
+        # Word in foreign language
         flashcard = ctk.CTkLabel(
             master=self.frame, text=flashword.spanish, text_color="black",
             font=flashfont, fg_color=None  # Remove background color
