@@ -7,6 +7,5 @@ SRS_QUEUE_LENGTH = 5 #the length of the spaced repetition queue
 WALKING_WINDOW_SIZE = 30 #lENGTH OF WALKING WINDOW THAT PROGRESSES THE .CSV FILE
 username = ""
 
-
 # Study Settings
 FOREIGN_TO_ENGLISH:bool = True

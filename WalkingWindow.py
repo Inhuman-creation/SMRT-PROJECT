@@ -91,7 +91,7 @@ class WalkingWindow:
                 #remove word from walking window and get a new word
                 self.remove_known_word(flashword)
                 logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
-                self.add_new_word("Template_Spanish.csv") #TODO: need to read from a specific user's csv dynamically
+                self.add_new_word(Settings.username + "_Spanish.csv")
             else:
                 #remove word from current current_words and add to spaced repetition queue
                 self.current_words.remove(flashword)
@@ -120,7 +120,7 @@ class WalkingWindow:
         flashword.set_known_word()
         self.remove_known_word(flashword)
         logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
-        self.add_new_word("Template_Spanish.csv") #TODO: need to read from a specific user's csv dynamically
+        self.add_new_word(Settings.username + "_Spanish.csv")
 
     """
     Function for removing "word" from window

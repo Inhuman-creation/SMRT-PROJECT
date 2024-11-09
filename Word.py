@@ -4,7 +4,7 @@ It contains a foreign language word and the corresponding English definition
 It can check if a given definition is correct or not
 
 Last Edited by: Zachary Kao
-Last Edited: 10/13/2024
+Last Edited: 11/8/2024
 """
 
 import logging
