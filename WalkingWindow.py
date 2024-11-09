@@ -22,7 +22,7 @@ class WalkingWindow:
     """
     def __init__(self, size: int):
         self.last = 0  # Potential use of this variable to mark the back of window when words inside not at either end become learned
-        self.front = self.last + (size - 1)
+        self.front = self.last + (size - 1) #TODO: EDIT LAST AND FRONT TO NOT BE INTERDEPENDENT AND THEN STATS GUI WILL JUST FIND LAST
         self.size = size
         self.current_words = []
         self.srs_queue = deque(maxlen=Settings.SRS_QUEUE_LENGTH)
