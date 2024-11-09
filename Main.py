@@ -41,14 +41,8 @@ class GUI:
 
         # Initialize shared resources
 
-        self.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-        self.study_window.read_from_csv("Template_Spanish.csv", num_rows=Settings.WALKING_WINDOW_SIZE) #TODO: read from user's csv
-
-        # Start with MenuGUI ORIGINAL PLACEMENT
-        #self.current_frame = None
-        #self.show_menu_gui()
-
         self.current_frame = None
+
         self.show_login_gui()
 
         # Start the main event loop

@@ -7,6 +7,10 @@ import customtkinter as ctk
 import tkinter as tk
 import csv
 from tkinter import *
+import shutil
+import Settings
+from WalkingWindow import WalkingWindow
+import os
 
 class LoginGUI:
     def __init__(self, controller):
@@ -42,19 +46,11 @@ class LoginGUI:
         # Start switching welcome messages
         switch_welcome_message()
 
-        # Button functions
-        def login_function():
-            username = self.text_entry_username.get()
-            password = self.text_entry_password.get()
-            email = self.text_entry_email.get()
-
-            if not username.strip() or not email.strip() or not password.strip():
-                feedback_text = "Please Complete All Fields"
-            else:
-                feedback_text = "Username entered: {}".format(username)
-
+        def show_feedback(feedback: str):
+            feedback_text = feedback
             feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black", fg_color="grey75"
+                master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
+                fg_color="grey75"
             )
             feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
@@ -68,32 +64,74 @@ class LoginGUI:
             )
             feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
 
-            if username.strip() and password.strip() and email.strip():
-                self.controller.show_menu_gui()
+        # Button functions
+        def login_function():
+            username = self.text_entry_username.get()
+            password = self.text_entry_password.get()
+            email = self.text_entry_email.get()
+
+            if not username.strip() or not email.strip() or not password.strip():
+                show_feedback("Please Complete All Fields")
+                return
+
+            # Check provided credentials
+            login_success = False
+            with open("AccountInformation.csv", mode="r") as accountsFile:
+                reader = csv.DictReader(accountsFile)
+                for row in reader:
+                    if username == row["Username"] and password == row["Password"]:
+                        login_success = True
+
+            if not login_success:
+                show_feedback("Incorrect Username and Password")
+                return 
+
+            # Get the user's last index from Windows.csv for WalkingWindow
+            user_last = 0
+            with open("Windows.csv", mode="r") as windows_file:
+                reader = csv.DictReader(windows_file)
+                for row in reader:
+                    if row["Username"] == username:
+                        user_last = int(row["Last"])
+
+            # Make Username_Spanish.csv if necessary
+            user_file_path = f"UserWords/{username}_Spanish.csv"
+            if not os.path.exists(user_file_path):
+                if not os.path.exists("UserWords/Template_Spanish.csv"):
+                    show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
+                    return
+                shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
+
+            # init WalkingWindow
+            self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
+            self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
+
+            self.controller.show_menu_gui()
 
         def signup_function():
             username = self.text_entry_username.get()
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
+            # Check that all field have something
             if not username.strip() or not email.strip() or not password.strip():
-                feedback_text = "Please Complete All Fields"
-                feedback_label = ctk.CTkLabel(
-                    master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
-                    fg_color="grey75"
-                )
-                feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
-
-                def feedback_function():
-                    feedback_label.destroy()
-                    feedback_button.destroy()
-
-                feedback_button = ctk.CTkButton(
-                    master=self.frame, text="OK", font=feedbackbuttonfont,
-                    width=160, height=100, command=feedback_function, fg_color="#000080"
-                )
-                feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
+                show_feedback("Please Complete All Fields")
                 return
+            
+            # Check username for unallowed characters (Windows file naming constraint)
+            unallowed_characters = "<>:\"/\\|?*"
+            for c in unallowed_characters:
+                if c in username:
+                    show_feedback("Do not use the following characters: \n<>:\"/\\|?*")
+                    return
+            
+            # check if username already exists in the application
+            with open("AccountInformation.csv", mode="r") as accounts_file:
+                reader = csv.DictReader(accounts_file)
+                for row in reader:
+                    if row["Username"] == username:
+                        show_feedback("That Username is Taken\nTry Another")
+                        return
 
             account_data = {
                 'Username': username,
@@ -101,6 +139,7 @@ class LoginGUI:
                 'Email': email
             }
 
+            # Write account data to AccountInformation.csv
             with open('AccountInformation.csv', mode='a', newline='') as file:
                 fieldnames = account_data.keys()
                 writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -108,8 +147,22 @@ class LoginGUI:
                 file.seek(0, 2)
                 if file.tell() == 0:
                     writer.writeheader()
-
                 writer.writerow(account_data)
+            
+            # Initialize Windows.csv for this user
+            with open("Windows.csv", mode="a") as windows_file:
+                windows_file.write(f"{username},0\n")
+            
+            # copy UserWords/Template_Spanish.csv to UserWords/Username_Spanish.csv
+            user_file_path = f"UserWords/{username}_Spanish.csv"
+            if not os.path.exists("UserWords/Template_Spanish.csv"):
+                show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
+                return
+            shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
+
+            # initialize walking window
+            self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
+            self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
 
             if username.strip() and password.strip() and email.strip():
                 self.controller.show_menu_gui()
