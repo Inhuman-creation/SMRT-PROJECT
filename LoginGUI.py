@@ -174,8 +174,8 @@ class LoginGUI:
         input_frame = ctk.CTkFrame(master=self.frame, fg_color="white", corner_radius=15)
         input_frame.place(relx=0.5, rely=0.6, relwidth=0.55, relheight=0.6, anchor=tk.CENTER)
 
-        # Header label "Login"
-        header_label = ctk.CTkLabel(master=input_frame, text="Login", font=ctk.CTkFont(family="Garet", size=35, weight="bold"), text_color="black")
+        # Header label "Welcome to SMRT Vocab"
+        header_label = ctk.CTkLabel(master=input_frame, text="Welcome to SMRT Vocab", font=ctk.CTkFont(family="Garet", size=35, weight="bold"), text_color="black")
         header_label.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
 
         # Text entries
@@ -197,7 +197,7 @@ class LoginGUI:
         )
         self.text_entry_email.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
-        # "Login" button above "Register your account"
+        # "Login" button
         loginbutton = ctk.CTkButton(
             master=input_frame, text="Login", font=buttonfont, command=login_function,
             fg_color="#f37d59", text_color="white", corner_radius=10
@@ -221,7 +221,7 @@ class LoginGUI:
         # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
             master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
-            width=120, height=60, fg_color="#ff4040", text_color="white",
+            width=120, height=60, fg_color="#d9534f", text_color="white",
             command=exit_button, corner_radius=15
         )
         exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom

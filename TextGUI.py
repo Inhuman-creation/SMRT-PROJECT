@@ -34,7 +34,7 @@ class TextGUI:
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")  # Smaller font for feedback text
 
 
-        # button functions
+        # Button functions
         def back_function():
             self.controller.show_menu_gui()
 

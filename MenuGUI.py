@@ -39,7 +39,7 @@ class MenuGUI:
         self.title_label = ctk.CTkLabel(master=self.frame, text="What would you like to do?", text_color="black", font=titlefont)
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
-        # Create option buttons with specified colors and white text
+        # Create option buttons
         button_colors = ["#f37d59", "#0f606b", "#ffc24a"]
         button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics"]
         button_commands = [choice_function, text_function, placeholder_function]
@@ -56,7 +56,7 @@ class MenuGUI:
         # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
             master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
-            width=120, height=60, fg_color="#ff4040", text_color="white",
+            width=120, height=60, fg_color="#d9534f", text_color="white",
             command=exit_button, corner_radius=15
         )
         exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
