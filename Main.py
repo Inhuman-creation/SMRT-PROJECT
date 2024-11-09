@@ -8,6 +8,7 @@ from WalkingWindow import WalkingWindow
 from MenuGUI import MenuGUI
 from ChoiceGUI import ChoiceGUI
 from TextGUI import TextGUI
+from SettingsGUI import SettingsGUI
 
 import logging
 
@@ -67,6 +68,11 @@ class GUI:
         if self.current_frame:
             self.current_frame.destroy()
         self.current_frame = TextGUI(self)
+
+    def show_settings_gui(self):
+        if self.current_frame:
+            self.current_frame.destroy()
+        self.current_frame = SettingsGUI(self)
 
 
 if __name__ == "__main__":

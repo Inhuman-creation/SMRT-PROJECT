@@ -31,6 +31,9 @@ class MenuGUI:
         def placeholder_function():
             print("Placeholder function")
 
+        def settings_function():
+            self.controller.show_settings_gui()
+
         def exit_button():
             print("Exiting application")
             self.app.destroy()
@@ -40,18 +43,18 @@ class MenuGUI:
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
         # Create option buttons with specified colors and white text
-        button_colors = ["#f37d59", "#0f606b", "#ffc24a"]
-        button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics"]
-        button_commands = [choice_function, text_function, placeholder_function]
+        button_colors = ["#f37d59", "#0f606b", "#ffc24a", "#aeb883"]
+        button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics", "Settings"]
+        button_commands = [choice_function, text_function, placeholder_function, settings_function]
 
         # Option buttons
-        for i in range(3):
+        for i in range(4):
             button = ctk.CTkButton(
                 master=self.frame, text=button_texts[i], font=buttonfont,
                 fg_color=button_colors[i], text_color="#ffffff",  # White text
                 width=900, height=80, command=button_commands[i], corner_radius=15
             )
-            button.place(relx=0.5, rely=0.35 + (i * 0.2), anchor=tk.CENTER)
+            button.place(relx=0.5, rely=0.35 + (i * 0.15), anchor=tk.CENTER)
 
         # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
