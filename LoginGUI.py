@@ -105,6 +105,7 @@ class LoginGUI:
             # init WalkingWindow
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
+            self.controller.username = username
 
             self.controller.show_menu_gui()
 
@@ -163,9 +164,9 @@ class LoginGUI:
             # initialize walking window
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
+            self.controller.username = username
 
-            if username.strip() and password.strip() and email.strip():
-                self.controller.show_menu_gui()
+            self.controller.show_menu_gui()
 
         def exit_button():
             self.app.destroy()
