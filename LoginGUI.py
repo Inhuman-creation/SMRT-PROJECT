@@ -103,6 +103,7 @@ class LoginGUI:
                 shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
 
             # init WalkingWindow
+            Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
 
@@ -161,11 +162,11 @@ class LoginGUI:
             shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
 
             # initialize walking window
+            Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
 
-            if username.strip() and password.strip() and email.strip():
-                self.controller.show_menu_gui()
+            self.controller.show_menu_gui()
 
         def exit_button():
             self.app.destroy()
