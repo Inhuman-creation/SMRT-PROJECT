@@ -28,9 +28,10 @@ class WalkingWindow:
         self.current_words = []
         self.init_current_words(self.size)
 
+
     def csv_to_words_dict(self, csv_name: str) -> None:
         """Reads the user's CSV file into a dictionary structure"""
-        csv_file = open(f"UserWords/{csv_name}")
+        csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8')
         reader = csv.DictReader(csv_file)
         words_dict = dict()
         for row in reader:
@@ -45,19 +46,18 @@ class WalkingWindow:
 
 
     def init_current_words(self, num_rows: int):
-        with open(f"UserWords/{Settings.username}_Spanish.csv", mode = 'r', encoding = 'utf-8') as file:
-            count_read:int = 0
+        count_read:int = 0
 
-            for key, word in self.words_dict.items():
-                if count_read >= num_rows: #break when numRows is reached
-                    break
-                
-                if (not word.is_known) and (len(self.current_words) < self.size):
-                    self.current_words.append(word)
-                    count_read += 1
-                else:
-                    self.front += 1
-        logging.info("READ FROM CSV: " + repr(self.current_words))
+        for key, word in self.words_dict.items():
+            if count_read >= num_rows: #break when numRows is reached
+                break
+            
+            if (not word.is_known) and (len(self.current_words) < self.size):
+                self.current_words.append(word)
+                count_read += 1
+            else:
+                self.front += 1
+        logging.info("READ FROM words_dict: " + repr(self.current_words))
 
     """
     Return a random selection of unique current_words from the walking window
@@ -69,6 +69,7 @@ class WalkingWindow:
     """
     def get_random_words(self, count: int) -> list:
         return random.sample(self.current_words, min(count, len(self.current_words))) if self.current_words else []
+
 
     """
     Check the definition of a word in the walking window
@@ -112,6 +113,7 @@ class WalkingWindow:
 
         return correct
 
+
     """
     Function for the mark as known button
     Mark a word as known and remove it from the window
@@ -121,6 +123,7 @@ class WalkingWindow:
         self.remove_known_word(flashword)
         logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
         self.add_new_word()
+
 
     """
     Function for removing "word" from window
@@ -133,17 +136,11 @@ class WalkingWindow:
         else:
             logging.warning(f"Attempted to remove a word not in current_words: {repr(word)}")
 
+
     """
     Read in a single word from in front of the walking window
     """
     def add_new_word(self):
-        
-        # if self.front + 1 < len(self.words.keys()):
-        #     word = self.words_dict.values()[self.front + 1]
-        # else:
-        #     logging.info("OUT OF WORDS, USER HAS LEARNED EVERYTHING")
-        #     return
-        
         for i in range(self.front + 1, self.size):
             word = self.word_dict.values()[i]
             if (not word.is_known) and (len(self.current_words) < self.size):
