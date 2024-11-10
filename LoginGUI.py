@@ -97,7 +97,6 @@ class LoginGUI:
             # init WalkingWindow
             Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
 
             self.controller.show_menu_gui()
 

@@ -16,7 +16,6 @@ import Settings
 from Word import Word
 
 class WalkingWindow:
-
     """
     Create a walking window object of a certain maximum size
     """
@@ -24,39 +23,40 @@ class WalkingWindow:
         self.last = 0  # Potential use of this variable to mark the back of window when words inside not at either end become learned
         self.front = self.last + (size - 1)
         self.size = size
-        self.current_words = []
         self.srs_queue = deque(maxlen=Settings.SRS_QUEUE_LENGTH)
+        self.words_dict = self.csv_to_words_dict( csv_name = Settings.username + "_Spanish.csv")
+        self.current_words = []
+        self.init_current_words(self.size)
 
-    def add_word(self, word: Word):
-        if len(self.current_words) < self.size:
-            # for word in self.read_from_csv() not needed currently
-            #if word not in self.current_words:
-                self.current_words.append(word)
+    def csv_to_words_dict(self, csv_name: str) -> None:
+        """Reads the user's CSV file into a dictionary structure"""
+        csv_file = open(f"UserWords/{csv_name}")
+        reader = csv.DictReader(csv_file)
+        words_dict = dict()
+        for row in reader:
+            span = row["Spanish"]
+            engl = row["English"]
+            seen = int(row["seen"])
+            wrong = int(row["wrong"])
+            known = bool(int(row["known"]))
+            words_dict[span] = Word(span, engl, seen, wrong, known)
+        csv_file.close()
+        return words_dict
 
-    def read_from_csv(self, filepath: str, num_rows: int):
-        with open(filepath, mode = 'r', encoding = 'utf-8') as file:
-            reader = csv.reader(file)
-            next(reader) #skip header row
 
+    def init_current_words(self, num_rows: int):
+        with open(f"UserWords/{Settings.username}_Spanish.csv", mode = 'r', encoding = 'utf-8') as file:
             count_read:int = 0
 
-            for index, row in enumerate(reader):
+            for key, word in self.words_dict.items():
                 if count_read >= num_rows: #break when numRows is reached
                     break
-                if len(row) == 6: #ensure 6 col input
-                    spanish, english, seen, correct, incorrect, known = row
-
-                    # Convert specific columns
-                    seen = int(seen)
-                    correct = int(correct)
-                    incorrect = int(incorrect)
-                    known = bool(int(known))  # Convert '1' to True, '0' to False
-
-                    if(not known):
-                        self.add_word(Word(english, spanish, seen, correct, incorrect, known))
-                        count_read += 1
-                    else:
-                        self.front += 1
+                
+                if (not word.is_known) and (len(self.current_words) < self.size):
+                    self.current_words.append(word)
+                    count_read += 1
+                else:
+                    self.front += 1
         logging.info("READ FROM CSV: " + repr(self.current_words))
 
     """
@@ -91,7 +91,7 @@ class WalkingWindow:
                 #remove word from walking window and get a new word
                 self.remove_known_word(flashword)
                 logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
-                self.add_new_word(Settings.username + "_Spanish.csv")
+                self.add_new_word()
             else:
                 #remove word from current current_words and add to spaced repetition queue
                 self.current_words.remove(flashword)
@@ -120,7 +120,7 @@ class WalkingWindow:
         flashword.set_known_word()
         self.remove_known_word(flashword)
         logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
-        self.add_new_word(Settings.username + "_Spanish.csv")
+        self.add_new_word()
 
     """
     Function for removing "word" from window
@@ -136,25 +136,17 @@ class WalkingWindow:
     """
     Read in a single word from in front of the walking window
     """
-    def add_new_word(self, filepath: str):
-        with open(filepath, mode = 'r', encoding = 'utf-8') as file:
-            reader = csv.reader(file)
-
-            for index, row in enumerate(reader):
-                if index >= self.front: #start reading from the front of the window
-                    if len(row) == 6: #ensure 6 col input
-                        spanish, english, seen, correct, incorrect, known = row
-
-                        # Convert specific columns
-                        seen = int(seen)
-                        correct = int(correct)
-                        incorrect = int(incorrect)
-                        known = bool(int(known))  # Convert '1' to True, '0' to False
-
-                        if not known:
-                            new_word = Word(english, spanish, seen, correct, incorrect, known)
-                            self.add_word(new_word)
-                            logging.info("ADDED WORD FROM CSV: " + repr(new_word))
-                            break #stop reading after 1 word
-
-
+    def add_new_word(self):
+        
+        # if self.front + 1 < len(self.words.keys()):
+        #     word = self.words_dict.values()[self.front + 1]
+        # else:
+        #     logging.info("OUT OF WORDS, USER HAS LEARNED EVERYTHING")
+        #     return
+        
+        for i in range(self.front + 1, self.size):
+            word = self.word_dict.values()[i]
+            if (not word.is_known) and (len(self.current_words) < self.size):
+                self.current_words.append(word)
+                logging.info("ADDED WORD FROM CSV: " + repr(word))
+                break
