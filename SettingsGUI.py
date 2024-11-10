@@ -6,6 +6,8 @@ Last Edited: 11/8/2024
 
 import customtkinter as ctk
 import tkinter as tk
+import Settings
+import logging
 
 class SettingsGUI:
     """
@@ -22,16 +24,20 @@ class SettingsGUI:
 
         # Creating fonts
         headerfont = ctk.CTkFont(family="Garet", size=100)
-        buttonfont = ctk.CTkFont(family="Garet", size=28, weight="bold")
+        labelfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+        buttonfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
 
         # button functions
         def back_function():
             self.controller.show_menu_gui()
 
-        # Welcome label
+        # Settings Page label
         self.welcome_label = ctk.CTkLabel(master=self.frame, text="Settings", font=headerfont, text_color="black")
-        self.welcome_label.place(relx=0.5, rely=0.18, anchor=tk.CENTER)
+        self.welcome_label.place(relx=0.5, rely=0.1, anchor=tk.CENTER)
+
+        #starting y position for sliders
+        slider_start_y = 0.2
 
         # Create back button
         back_button = ctk.CTkButton(
@@ -42,6 +48,137 @@ class SettingsGUI:
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         #known threshold slider
+        self.known_threshold_var = self.add_slider("Known Threshold",
+                                                    min_val=Settings.KNOWN_THRESHOLD_MIN,
+                                                    max_val=Settings.KNOWN_THRESHOLD_MAX,
+                                                    initial=Settings.KNOWN_THRESHOLD,
+                                                    relx=0.5,
+                                                    rely=slider_start_y)
+        slider_start_y += 0.12
+
+        #known delta slider
+        self.known_delta_var = self.add_slider("Known Delta",
+                                                min_val=Settings.KNOWN_DELTA_MIN,
+                                                max_val=Settings.KNOWN_DELTA_MAX,
+                                                initial=Settings.KNOWN_DELTA,
+                                                relx=0.5,
+                                                rely=slider_start_y)
+        slider_start_y += 0.12
+
+        #srs queue length slider
+        self.srs_queue_length_var = self.add_slider("Spaced Repetition Queue Length",
+                                                    min_val=Settings.SRS_QUEUE_LENGTH_MIN,
+                                                    max_val=Settings.SRS_QUEUE_LENGTH_MAX,
+                                                    initial=Settings.SRS_QUEUE_LENGTH,
+                                                    relx=0.5,
+                                                    rely=slider_start_y)
+        slider_start_y += 0.12
+
+        #walking window size slider
+        self.walking_window_size_var = self.add_slider("Walking Window Size",
+                                                        min_val=Settings.WALKING_WINDOW_SIZE_MIN,
+                                                        max_val=Settings.WALKING_WINDOW_SIZE_MAX,
+                                                        initial=Settings.WALKING_WINDOW_SIZE,
+                                                        relx=0.5,
+                                                        rely=slider_start_y)
+        slider_start_y += 0.12
+
+        #foreign to english toggle
+        ctk.CTkLabel(self.frame, text="Foreign to English", font=labelfont,
+                     text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
+        self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
+        self.foreign_to_english_toggle = ctk.CTkSwitch(
+            self.frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False, text="",
+            text_color="black",
+            font=labelfont,
+            fg_color="#acb87c",
+            progress_color="#77721f",
+            button_color="#f37d59",
+            button_hover_color="#ffc24a",
+            command=self.update_toggle_label
+        )
+        self.update_toggle_label()
+
+        self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+        #slider_start_y += 0.12
+
+        #dropdown menu for language selection
+        ctk.CTkLabel(self.frame, text="Language Selection", font=labelfont,
+                     text_color="black").place(relx=0.6, rely=slider_start_y, anchor=tk.CENTER)
+        options = ["Spanish", "French"]
+        self.language_var = tk.StringVar(value=options[0])
+        self.language_dropdown = ctk.CTkOptionMenu(self.app, values=options, variable=self.language_var,
+                                                   font=labelfont, text_color="white",
+                                                   fg_color="#acb87c",
+                                                   button_color="#77721f")
+        self.language_dropdown.place(relx=0.6, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+        slider_start_y += 0.2
+
+        #apply changes button
+        self.apply_changes_button = ctk.CTkButton(self.frame, text="Apply Changes", command=self.save_settings,
+                                                  font=buttonfont, fg_color="#0f606b", text_color="white")
+        self.apply_changes_button.place(relx=0.5, rely=slider_start_y, anchor=tk.CENTER)
+
+    def add_slider(self, label_text, min_val, max_val, initial, relx, rely):
+        # Font for labels
+        labelfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
+        headerfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
+
+        # Label for the slider
+        label = ctk.CTkLabel(self.frame, text=label_text, font=headerfont, text_color="black")
+        label.place(relx=relx, rely=rely, anchor=tk.CENTER)
+
+        # Min, current, and max labels for the slider
+        min_label = ctk.CTkLabel(self.frame, text=f"Min: {min_val}", font=labelfont, text_color="black")
+        current_label = ctk.CTkLabel(self.frame, text=f"Current: {initial}", font=labelfont, text_color="black")
+        max_label = ctk.CTkLabel(self.frame, text=f"Max: {max_val}", font=labelfont, text_color="black")
+
+        # Slider
+        slider_var = tk.IntVar(value=initial)
+        slider = ctk.CTkSlider(
+            self.frame,
+            from_=min_val,
+            to=max_val,
+            variable=slider_var,
+            width=300,
+            command=lambda value, lbl=current_label: self.update_slider_label(lbl, value),
+            fg_color="#acb87c",
+            progress_color="#77721f",
+            button_color="#f37d59",
+            button_hover_color="#ffc24a"
+        )
+        slider.place(relx=relx, rely=rely + 0.04, anchor=tk.CENTER)
+
+        # Place min, current, and max labels in a row below the slider
+        min_label.place(relx=relx - 0.1, rely=rely + 0.04, anchor=tk.CENTER)  # Position min label to the left
+        current_label.place(relx=relx, rely=rely + 0.06, anchor=tk.CENTER)  # Position current label in the center
+        max_label.place(relx=relx + 0.1, rely=rely + 0.04, anchor=tk.CENTER)  # Position max label to the right
+
+        # Store the current_label to update it when slider moves
+        slider.current_label = current_label
+
+        return slider_var
+
+    def update_slider_label(self, label, value):
+        label.configure(text=f"Current: {int(float(value))}")
+
+    def update_toggle_label(self):
+        # Update the label based on the toggle's current state
+        self.foreign_to_english_toggle.configure(text="On" if self.foreign_to_english_var.get() else "Off")
+
+    def save_settings(self):
+        #update global settings variables with current GUI values
+        Settings.KNOWN_THRESHOLD = self.known_threshold_var.get()
+        Settings.KNOWN_DELTA = self.known_delta_var.get()
+        Settings.SRS_QUEUE_LENGTH = self.srs_queue_length_var.get()
+        Settings.WALKING_WINDOW_SIZE = self.walking_window_size_var.get()
+        Settings.FOREIGN_TO_ENGLISH = self.foreign_to_english_var.get()
+        Settings.LANGUAGE = self.language_var.get()
+
+        #log changes
+        logging.info(f"SETTINGS UPDATED:\nKNOWN THRESHOLD: {Settings.KNOWN_THRESHOLD}\nKNOWN DELTA: {Settings.KNOWN_DELTA}"
+                     f"\nSRS QUEUE LENGTH: {Settings.SRS_QUEUE_LENGTH}\nWALKING WINDOW SIZE: {Settings.WALKING_WINDOW_SIZE}"
+                     f"\nFOREIGN TO ENGLISH: {Settings.FOREIGN_TO_ENGLISH}\nLANGUAGE: {Settings.LANGUAGE}")
 
     def destroy(self):
         self.frame.destroy()
