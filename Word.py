@@ -23,7 +23,7 @@ class Word:
     :param count_incorrect: number of times this word was incorrectly identified
     :param is_known: flag if this word is is_known or not
     """
-    def __init__(self, english: str, spanish: str,
+    def __init__(self, spanish: str, english: str,
                  count_seen: int = None, count_correct: int = None,
                  count_incorrect: int = None, is_known: bool = None):
         self.english = english
@@ -51,7 +51,7 @@ class Word:
 
     #Simple representation of a word
     def __repr__(self):
-        return f"({self.spanish})"
+        return f"Word({self.spanish})"
 
     #For displaying detailed status of the word
     def detailed_repr(self):

@@ -86,14 +86,6 @@ class LoginGUI:
                 show_feedback("Incorrect Username and Password")
                 return 
 
-            # Get the user's last index from Windows.csv for WalkingWindow
-            user_last = 0
-            with open("Windows.csv", mode="r") as windows_file:
-                reader = csv.DictReader(windows_file)
-                for row in reader:
-                    if row["Username"] == username:
-                        user_last = int(row["Last"])
-
             # Make Username_Spanish.csv if necessary
             user_file_path = f"UserWords/{username}_Spanish.csv"
             if not os.path.exists(user_file_path):
@@ -105,7 +97,6 @@ class LoginGUI:
             # init WalkingWindow
             Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
 
             self.controller.show_menu_gui()
 
@@ -149,10 +140,6 @@ class LoginGUI:
                 if file.tell() == 0:
                     writer.writeheader()
                 writer.writerow(account_data)
-            
-            # Initialize Windows.csv for this user
-            with open("Windows.csv", mode="a") as windows_file:
-                windows_file.write(f"{username},0\n")
             
             # copy UserWords/Template_Spanish.csv to UserWords/Username_Spanish.csv
             user_file_path = f"UserWords/{username}_Spanish.csv"
