@@ -9,3 +9,14 @@ username = ""
 
 # Study Settings
 FOREIGN_TO_ENGLISH:bool = True
+LANGUAGE = "Spanish"
+
+# Settings Min/Max Values
+KNOWN_THRESHOLD_MIN:int = 1
+KNOWN_THRESHOLD_MAX:int = 10
+KNOWN_DELTA_MIN:int = 0
+KNOWN_DELTA_MAX:int = 10
+SRS_QUEUE_LENGTH_MIN:int = 1
+SRS_QUEUE_LENGTH_MAX:int = 10
+WALKING_WINDOW_SIZE_MIN:int = 20
+WALKING_WINDOW_SIZE_MAX:int = 50

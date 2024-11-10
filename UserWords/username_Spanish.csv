@@ -1,0 +1,5002 @@
+Spanish,English,seen,correct,wrong,known
+que,that,0,0,0,0
+no,No,0,0,0,0
+a,to,0,0,0,0
+de,of,0,0,0,0
+la,the,0,0,0,0
+y,and,0,0,0,0
+me,I,0,0,0,0
+es,it is,0,0,0,0
+lo,it,0,0,0,0
+qué,what,0,0,0,0
+el,the,0,0,0,0
+en,in,0,0,0,0
+por,for,0,0,0,0
+se,I know,0,0,0,0
+con,with,0,0,0,0
+un,a,0,0,0,0
+ya,already,0,0,0,0
+para,for,0,0,0,0
+mí,me,0,0,0,0
+una,a,0,0,0,0
+está,is,0,0,0,0
+los,the,0,0,0,0
+sí,Yes,0,0,0,0
+las,the,0,0,0,0
+más,more,0,0,0,0
+del,of the,0,0,0,0
+yo,I,0,0,0,0
+pero,but,0,0,0,0
+le,him,0,0,0,0
+eso,that,0,0,0,0
+todo,all,0,0,0,0
+como,how,0,0,0,0
+muy,very,0,0,0,0
+su,his,0,0,0,0
+o,or,0,0,0,0
+al,to the,0,0,0,0
+así,so,0,0,0,0
+esta,this,0,0,0,0
+son,are,0,0,0,0
+te,you,0,0,0,0
+bien,good,0,0,0,0
+porque,because,0,0,0,0
+nada,none,0,0,0,0
+sé,he,0,0,0,0
+hacer,to do,0,0,0,0
+tiene,has,0,0,0,0
+hay,there are,0,0,0,0
+ahora,now,0,0,0,0
+ser,to be,0,0,0,0
+mucho,much,0,0,0,0
+cuando,when,0,0,0,0
+también,also,0,0,0,0
+vez,time,0,0,0,0
+si,if,0,0,0,0
+nos,us,0,0,0,0
+ver,to see,0,0,0,0
+esto,this,0,0,0,0
+este,this,0,0,0,0
+algo,something,0,0,0,0
+ese,that,0,0,0,0
+ahí,there,0,0,0,0
+mejor,better,0,0,0,0
+dos,two,0,0,0,0
+cómo,What,0,0,0,0
+vamos,we go,0,0,0,0
+tengo,I have,0,0,0,0
+esa,this,0,0,0,0
+tiempo,time,0,0,0,0
+día,day,0,0,0,0
+voy,I go,0,0,0,0
+bueno,Okay,0,0,0,0
+fue,it was,0,0,0,0
+puede,can,0,0,0,0
+todos,everybody,0,0,0,0
+era,it was,0,0,0,0
+hace,does,0,0,0,0
+les,them,0,0,0,0
+va,goes,0,0,0,0
+pasa,happens,0,0,0,0
+siempre,always,0,0,0,0
+otra,other,0,0,0,0
+uno,one,0,0,0,0
+estoy,am,0,0,0,0
+quiero,I want,0,0,0,0
+estar,to be,0,0,0,0
+están,they are,0,0,0,0
+hasta,until,0,0,0,0
+estaba,I was,0,0,0,0
+sin,without,0,0,0,0
+gracias,Thank you,0,0,0,0
+él,the,0,0,0,0
+quién,who,0,0,0,0
+vida,life,0,0,0,0
+dónde,where,0,0,0,0
+cosas,stuff,0,0,0,0
+creo,I think,0,0,0,0
+tenemos,we have,0,0,0,0
+otro,other,0,0,0,0
+aquí,here,0,0,0,0
+mí,my,0,0,0,0
+ni,neither,0,0,0,0
+solo,only,0,0,0,0
+nunca,never,0,0,0,0
+verdad,TRUE,0,0,0,0
+nosotros,us,0,0,0,0
+tres,three,0,0,0,0
+estás,are,0,0,0,0
+puedo,Can I,0,0,0,0
+ir,to go,0,0,0,0
+tener,to have,0,0,0,0
+tu,your,0,0,0,0
+gente,people,0,0,0,0
+decir,tell,0,0,0,0
+estamos,we're,0,0,0,0
+mis,my,0,0,0,0
+soy,am,0,0,0,0
+entonces,then,0,0,0,0
+casa,House,0,0,0,0
+después,after,0,0,0,0
+poco,little bit,0,0,0,0
+favor,favour,0,0,0,0
+tan,so,0,0,0,0
+nadie,no one,0,0,0,0
+antes,before,0,0,0,0
+años,years,0,0,0,0
+vas,you go,0,0,0,0
+van,go,0,0,0,0
+mismo,same,0,0,0,0
+hoy,today,0,0,0,0
+desde,since,0,0,0,0
+quiere,wants,0,0,0,0
+sus,their,0,0,0,0
+toda,all,0,0,0,0
+cosa,stuff,0,0,0,0
+sea,be,0,0,0,0
+momento,moment,0,0,0,0
+menos,less,0,0,0,0
+cuenta,bill,0,0,0,0
+da,gives,0,0,0,0
+ella,she,0,0,0,0
+claro,Sure,0,0,0,0
+mañana,morning,0,0,0,0
+días,days,0,0,0,0
+unos,some,0,0,0,0
+sabe,knows,0,0,0,0
+dije,said,0,0,0,0
+dice,He says,0,0,0,0
+tenía,I had,0,0,0,0
+ha,he has,0,0,0,0
+hablar,speak,0,0,0,0
+parece,It seems,0,0,0,0
+gusta,like,0,0,0,0
+alguien,someone,0,0,0,0
+quería,wanted,0,0,0,0
+muchas,many,0,0,0,0
+donde,where,0,0,0,0
+había,there was,0,0,0,0
+mundo,world,0,0,0,0
+tanto,so much,0,0,0,0
+pasó,I pass,0,0,0,0
+salir,leave,0,0,0,0
+veces,times,0,0,0,0
+viene,comes,0,0,0,0
+todas,all,0,0,0,0
+dar,to give,0,0,0,0
+tal,such,0,0,0,0
+hecho,done,0,0,0,0
+pasar,spend,0,0,0,0
+noche,night,0,0,0,0
+igual,Same,0,0,0,0
+estos,these,0,0,0,0
+cada,each,0,0,0,0
+haciendo,making,0,0,0,0
+iba,I was going,0,0,0,0
+hombre,men,0,0,0,0
+saber,to know,0,0,0,0
+podemos,can,0,0,0,0
+tienen,have,0,0,0,0
+tú,your,0,0,0,0
+hola,hello,0,0,0,0
+madre,mother,0,0,0,0
+trabajo,worked,0,0,0,0
+fuera,outside,0,0,0,0
+mira,look,0,0,0,0
+dijo,said,0,0,0,0
+digo,say,0,0,0,0
+tus,your,0,0,0,0
+buena,good,0,0,0,0
+seguro,sure,0,0,0,0
+mal,wrong,0,0,0,0
+ellos,they,0,0,0,0
+casi,almost,0,0,0,0
+entre,Come in,0,0,0,0
+conmigo,with me,0,0,0,0
+único,unique,0,0,0,0
+veo,I see,0,0,0,0
+hora,hour,0,0,0,0
+cinco,five,0,0,0,0
+siento,I feel,0,0,0,0
+dejar,let,0,0,0,0
+todavía,yet,0,0,0,0
+haber,to have,0,0,0,0
+falta,lack,0,0,0,0
+hijo,son,0,0,0,0
+ve,go,0,0,0,0
+tampoco,either,0,0,0,0
+parte,part,0,0,0,0
+llegar,get,0,0,0,0
+cuatro,four,0,0,0,0
+eh,Hey,0,0,0,0
+sabes,you know,0,0,0,0
+he,He,0,0,0,0
+venir,to come,0,0,0,0
+somos,are,0,0,0,0
+ah,ah,0,0,0,0
+familia,family,0,0,0,0
+esos,those,0,0,0,0
+hago,I make,0,0,0,0
+unas,nail,0,0,0,0
+queda,remains,0,0,0,0
+buen,good,0,0,0,0
+además,what's more,0,0,0,0
+luego,later,0,0,0,0
+ven,come,0,0,0,0
+tarde,afternoon,0,0,0,0
+buenas,good,0,0,0,0
+primero,first,0,0,0,0
+señor,mister,0,0,0,0
+lugar,place,0,0,0,0
+nuestro,our,0,0,0,0
+sabía,I knew,0,0,0,0
+pues,well,0,0,0,0
+primera,first,0,0,0,0
+sobre,on,0,0,0,0
+ves,you see,0,0,0,0
+usted,you,0,0,0,0
+amor,love,0,0,0,0
+cualquier,any,0,0,0,0
+nuestra,our,0,0,0,0
+tienes,you have,0,0,0,0
+necesito,needed,0,0,0,0
+allá,there,0,0,0,0
+dios,god,0,0,0,0
+importante,important,0,0,0,0
+ay,Oh,0,0,0,0
+sido,been,0,0,0,0
+eres,are,0,0,0,0
+mujer,woman,0,0,0,0
+venga,come on,0,0,0,0
+han,they have,0,0,0,0
+vaya,wow,0,0,0,0
+estas,these,0,0,0,0
+mamá,breast,0,0,0,0
+cara,expensive,0,0,0,0
+lado,side,0,0,0,0
+cabeza,head,0,0,0,0
+llama,call,0,0,0,0
+quieres,you want,0,0,0,0
+padre,dad,0,0,0,0
+mano,hand,0,0,0,0
+papá,father,0,0,0,0
+perdón,sorry,0,0,0,0
+problema,issue,0,0,0,0
+poder,can,0,0,0,0
+pasado,past,0,0,0,0
+cuidado,watch out,0,0,0,0
+dicen,They say,0,0,0,0
+ti,you,0,0,0,0
+ustedes,your,0,0,0,0
+volver,return,0,0,0,0
+mucha,a lot,0,0,0,0
+nombre,Name,0,0,0,0
+nuevo,new,0,0,0,0
+idea,idea,0,0,0,0
+caso,case,0,0,0,0
+visto,viewed,0,0,0,0
+algún,some,0,0,0,0
+horas,hours,0,0,0,0
+esas,those,0,0,0,0
+estado,condition,0,0,0,0
+tomar,drink,0,0,0,0
+cuál,which,0,0,0,0
+cuánto,how many,0,0,0,0
+hablando,talking,0,0,0,0
+miedo,fear,0,0,0,0
+vi,saw,0,0,0,0
+alguna,some,0,0,0,0
+hizo,made,0,0,0,0
+dicho,saying,0,0,0,0
+acuerdo,agreement,0,0,0,0
+aunque,though,0,0,0,0
+hacemos,we make,0,0,0,0
+grande,great,0,0,0,0
+puedes,you may,0,0,0,0
+razón,reason,0,0,0,0
+mío,Own,0,0,0,0
+cuándo,when,0,0,0,0
+buenos,good ones,0,0,0,0
+importa,It matters,0,0,0,0
+amigo,dude,0,0,0,0
+ningún,none,0,0,0,0
+pueden,they can,0,0,0,0
+deja,let,0,0,0,0
+amigos,friends,0,0,0,0
+serio,I laughed,0,0,0,0
+haces,you do,0,0,0,0
+puerta,gate,0,0,0,0
+hacen,make,0,0,0,0
+persona,person,0,0,0,0
+poner,put,0,0,0,0
+fui,I was,0,0,0,0
+vivir,to live,0,0,0,0
+fin,finish,0,0,0,0
+arriba,up,0,0,0,0
+año,year,0,0,0,0
+entiendo,I get it,0,0,0,0
+pensar,to think,0,0,0,0
+gran,great,0,0,0,0
+hice,I did,0,0,0,0
+quieren,They want,0,0,0,0
+muchos,Many,0,0,0,0
+vale,okay,0,0,0,0
+será,will be,0,0,0,0
+tipo,Type,0,0,0,0
+debe,must,0,0,0,0
+has,you have,0,0,0,0
+seguir,continue,0,0,0,0
+dio,it gave,0,0,0,0
+difícil,hard,0,0,0,0
+vino,came,0,0,0,0
+agua,Water,0,0,0,0
+espera,wait,0,0,0,0
+final,final,0,0,0,0
+toma,taking,0,0,0,0
+diez,ten,0,0,0,0
+contigo,with you,0,0,0,0
+dinero,money,0,0,0,0
+quedar,stay,0,0,0,0
+medio,medium,0,0,0,0
+acá,here,0,0,0,0
+manera,way,0,0,0,0
+hubiera,had,0,0,0,0
+hemos,we have,0,0,0,0
+llevo,wear,0,0,0,0
+haga,make,0,0,0,0
+poquito,a little,0,0,0,0
+adelante,ahead,0,0,0,0
+buscar,Search,0,0,0,0
+podía,could,0,0,0,0
+juntos,together,0,0,0,0
+fácil,easy,0,0,0,0
+eran,were,0,0,0,0
+oye,hears,0,0,0,0
+sigue,follow,0,0,0,0
+sería,would,0,0,0,0
+comer,to eat,0,0,0,0
+suerte,luck,0,0,0,0
+tranquilo,calm,0,0,0,0
+manos,hands,0,0,0,0
+señora,Mrs,0,0,0,0
+cierto,certain,0,0,0,0
+sola,alone,0,0,0,0
+llevar,wear,0,0,0,0
+paso,step,0,0,0,0
+dentro,within,0,0,0,0
+pensé,I thought,0,0,0,0
+rápido,Quick,0,0,0,0
+vemos,we see,0,0,0,0
+entrar,get in,0,0,0,0
+podría,could,0,0,0,0
+crees,You believe,0,0,0,0
+trabajar,to work,0,0,0,0
+última,last,0,0,0,0
+minutos,minutes,0,0,0,0
+semana,week,0,0,0,0
+hija,daughter,0,0,0,0
+vengo,I come,0,0,0,0
+sale,comes out,0,0,0,0
+atrás,behind,0,0,0,0
+seis,six,0,0,0,0
+pasando,going,0,0,0,0
+hijos,sons,0,0,0,0
+habla,speech,0,0,0,0
+mientras,while,0,0,0,0
+punto,point,0,0,0,0
+fuerte,strong,0,0,0,0
+segundo,second,0,0,0,0
+dale,Go ahead,0,0,0,0
+ayudar,help,0,0,0,0
+ninguna,none,0,0,0,0
+misma,same,0,0,0,0
+dormir,sleep,0,0,0,0
+historia,history,0,0,0,0
+diga,Say,0,0,0,0
+llegó,I arrive,0,0,0,0
+tenido,Dyed,0,0,0,0
+esperando,hoping for,0,0,0,0
+dame,give to me,0,0,0,0
+tenga,have,0,0,0,0
+encontrar,find,0,0,0,0
+gusto,taste,0,0,0,0
+haya,is,0,0,0,0
+buscando,searching,0,0,0,0
+peor,worse,0,0,0,0
+meses,months,0,0,0,0
+hermano,brother,0,0,0,0
+problemas,problems,0,0,0,0
+quien,who,0,0,0,0
+corazón,heart,0,0,0,0
+anda,walk,0,0,0,0
+ayuda,aid,0,0,0,0
+lleva,carries,0,0,0,0
+primer,first,0,0,0,0
+contra,against,0,0,0,0
+conozco,know,0,0,0,0
+diciendo,saying,0,0,0,0
+dices,You say,0,0,0,0
+encima,over,0,0,0,0
+di,gave,0,0,0,0
+das,you give,0,0,0,0
+tranquila,quiet,0,0,0,0
+mía,mine,0,0,0,0
+nueva,new,0,0,0,0
+cambiar,change,0,0,0,0
+listo,clever,0,0,0,0
+feliz,happy,0,0,0,0
+tuve,I had,0,0,0,0
+perfecto,perfect,0,0,0,0
+ojos,eyes,0,0,0,0
+cambio,change,0,0,0,0
+loco,crazy,0,0,0,0
+saben,They know,0,0,0,0
+sacar,take,0,0,0,0
+contar,count,0,0,0,0
+dado,given,0,0,0,0
+último,latest,0,0,0,0
+preocupes,worry,0,0,0,0
+pregunta,Question,0,0,0,0
+otras,others,0,0,0,0
+pronto,early,0,0,0,0
+país,country,0,0,0,0
+creer,believe,0,0,0,0
+dijiste,said,0,0,0,0
+hacerlo,do it,0,0,0,0
+ayer,Yesterday,0,0,0,0
+cerca,close,0,0,0,0
+abajo,down,0,0,0,0
+culpa,fault,0,0,0,0
+sabemos,we know,0,0,0,0
+personas,people,0,0,0,0
+llamar,to call,0,0,0,0
+muerto,dead,0,0,0,0
+ganas,desire,0,0,0,0
+forma,form,0,0,0,0
+estábamos,We were,0,0,0,0
+pedir,ask,0,0,0,0
+rato,little while,0,0,0,0
+llamo,called,0,0,0,0
+otros,others,0,0,0,0
+bajo,bass,0,0,0,0
+ocho,eight,0,0,0,0
+hagas,you do,0,0,0,0
+perder,lose,0,0,0,0
+empezar,start,0,0,0,0
+doy,give,0,0,0,0
+hacía,towards,0,0,0,0
+vuelta,lap,0,0,0,0
+justo,just,0,0,0,0
+bastante,Quite,0,0,0,0
+digas,you say,0,0,0,0
+noches,nights,0,0,0,0
+camino,road,0,0,0,0
+llega,arrives,0,0,0,0
+siquiera,even,0,0,0,0
+siendo,being,0,0,0,0
+nuestros,our,0,0,0,0
+esté,East,0,0,0,0
+teléfono,telephone,0,0,0,0
+pase,happens,0,0,0,0
+esperar,expect,0,0,0,0
+pensando,thinking,0,0,0,0
+paz,peace,0,0,0,0
+dejó,let,0,0,0,0
+cuerpo,Body,0,0,0,0
+realidad,reality,0,0,0,0
+número,number,0,0,0,0
+sentido,sense,0,0,0,0
+niño,little boy,0,0,0,0
+quedó,It was,0,0,0,0
+espero,wait,0,0,0,0
+mierda,shit,0,0,0,0
+cree,Believe,0,0,0,0
+mujeres,women,0,0,0,0
+estabas,You were,0,0,0,0
+mil,one thousand,0,0,0,0
+fueron,were,0,0,0,0
+pone,places,0,0,0,0
+demás,the rest,0,0,0,0
+ejemplo,example,0,0,0,0
+decía,He said,0,0,0,0
+pena,grief,0,0,0,0
+pueda,I can,0,0,0,0
+única,only,0,0,0,0
+gustaría,would like,0,0,0,0
+puta,bitch,0,0,0,0
+pienso,I think,0,0,0,0
+acaba,just,0,0,0,0
+queremos,we want,0,0,0,0
+estaban,They were,0,0,0,0
+lejos,far,0,0,0,0
+palabra,word,0,0,0,0
+puesto,Market Stall,0,0,0,0
+luz,light,0,0,0,0
+viste,dresses,0,0,0,0
+adónde,where to,0,0,0,0
+vivo,live,0,0,0,0
+normal,normal,0,0,0,0
+vienen,they come,0,0,0,0
+raro,rare,0,0,0,0
+ido,gone,0,0,0,0
+tuyo,yours,0,0,0,0
+dime,tell me,0,0,0,0
+quieras,You want,0,0,0,0
+seas,You are,0,0,0,0
+hablamos,We speak,0,0,0,0
+meter,to put,0,0,0,0
+niños,kids,0,0,0,0
+allí,over there,0,0,0,0
+mayor,elderly,0,0,0,0
+oportunidad,chance,0,0,0,0
+trabajando,working,0,0,0,0
+calle,street,0,0,0,0
+baño,bath,0,0,0,0
+tema,theme,0,0,0,0
+sino,otherwise,0,0,0,0
+darle,give him,0,0,0,0
+demasiado,too,0,0,0,0
+atención,attention,0,0,0,0
+mire,Look,0,0,0,0
+vámonos,Let's go,0,0,0,0
+posible,possible,0,0,0,0
+par,pair,0,0,0,0
+hombres,mens,0,0,0,0
+permiso,permission,0,0,0,0
+matar,to kill,0,0,0,0
+muerte,death,0,0,0,0
+mala,bad,0,0,0,0
+estuve,was,0,0,0,0
+joven,young man,0,0,0,0
+toca,touches,0,0,0,0
+tuvo,He had,0,0,0,0
+viaje,trip,0,0,0,0
+dejo,left,0,0,0,0
+entender,to understand,0,0,0,0
+e,and,0,0,0,0
+siete,seven,0,0,0,0
+adiós,bye,0,0,0,0
+foto,Photo,0,0,0,0
+dijeron,They said,0,0,0,0
+dan,give,0,0,0,0
+solamente,only,0,0,0,0
+necesita,needs to,0,0,0,0
+pagar,to pay,0,0,0,0
+salió,he left,0,0,0,0
+viejo,old,0,0,0,0
+viendo,seeing,0,0,0,0
+morir,To die,0,0,0,0
+imposible,impossible,0,0,0,0
+hiciste,did,0,0,0,0
+estuvo,he was,0,0,0,0
+déjame,let me,0,0,0,0
+vayas,go,0,0,0,0
+vive,it lives,0,0,0,0
+fiesta,party,0,0,0,0
+quiera,want,0,0,0,0
+edad,age,0,0,0,0
+adentro,indoors,0,0,0,0
+comida,food,0,0,0,0
+nuestras,ours,0,0,0,0
+policía,policeman,0,0,0,0
+bonito,nice,0,0,0,0
+piensa,think,0,0,0,0
+boca,mouth,0,0,0,0
+traje,costume,0,0,0,0
+querer,want,0,0,0,0
+jugar,play,0,0,0,0
+duro,Lasted,0,0,0,0
+conocer,know,0,0,0,0
+pido,I ask,0,0,0,0
+vuelve,Come back,0,0,0,0
+juro,I swear,0,0,0,0
+ciudad,city,0,0,0,0
+decirle,Tell him,0,0,0,0
+aún,even,0,0,0,0
+salud,Health,0,0,0,0
+malo,bad,0,0,0,0
+debería,should,0,0,0,0
+conoce,known,0,0,0,0
+chica,girl,0,0,0,0
+afuera,outside,0,0,0,0
+situación,situation,0,0,0,0
+ropa,clothing,0,0,0,0
+tierra,Earth,0,0,0,0
+alto,tall,0,0,0,0
+supuesto,supposed,0,0,0,0
+libre,free,0,0,0,0
+algunos,Some,0,0,0,0
+segura,safe,0,0,0,0
+necesitamos,need,0,0,0,0
+sangre,blood,0,0,0,0
+habrá,there will be,0,0,0,0
+trata,about,0,0,0,0
+frente,front,0,0,0,0
+cuarto,fourth,0,0,0,0
+escuchar,listen,0,0,0,0
+hermana,sister,0,0,0,0
+encanta,loves,0,0,0,0
+vio,he saw,0,0,0,0
+especial,special,0,0,0,0
+resto,rest,0,0,0,0
+principio,beginning,0,0,0,0
+media,half,0,0,0,0
+amiga,friend,0,0,0,0
+verte,to see you,0,0,0,0
+puso,put,0,0,0,0
+querido,Dear,0,0,0,0
+chicos,Boys,0,0,0,0
+recuerdo,memory,0,0,0,0
+teníamos,we had,0,0,0,0
+encuentro,meeting,0,0,0,0
+pensaba,thought,0,0,0,0
+vea,See,0,0,0,0
+jefe,boss,0,0,0,0
+vete,go away,0,0,0,0
+cama,bed,0,0,0,0
+venido,I come,0,0,0,0
+comprar,to buy,0,0,0,0
+pongo,I put,0,0,0,0
+siguiente,Next,0,0,0,0
+niña,little girl,0,0,0,0
+terminar,end up,0,0,0,0
+acabo,finished,0,0,0,0
+hacia,towards,0,0,0,0
+delante,in front of,0,0,0,0
+hubo,there was,0,0,0,0
+uy,oh,0,0,0,0
+vine,came,0,0,0,0
+jamás,Never,0,0,0,0
+voz,voice,0,0,0,0
+hicieron,they made,0,0,0,0
+detrás,behind,0,0,0,0
+venía,came,0,0,0,0
+pelo,hair,0,0,0,0
+quedan,They remain,0,0,0,0
+dé,of,0,0,0,0
+derecho,law,0,0,0,0
+sorpresa,surprise,0,0,0,0
+acabó,just,0,0,0,0
+durante,during,0,0,0,0
+cuántos,many,0,0,0,0
+realmente,Really,0,0,0,0
+mensaje,message,0,0,0,0
+futuro,future,0,0,0,0
+don,Don,0,0,0,0
+cuento,story,0,0,0,0
+música,music,0,0,0,0
+increíble,incredible,0,0,0,0
+hablo,talked,0,0,0,0
+personal,staff,0,0,0,0
+vuelvo,I come back,0,0,0,0
+perdido,lost,0,0,0,0
+loca,crazy,0,0,0,0
+deje,leave,0,0,0,0
+novia,girlfriend,0,0,0,0
+fuiste,you were,0,0,0,0
+clase,class,0,0,0,0
+exactamente,exactly,0,0,0,0
+tuya,yours,0,0,0,0
+mejores,top,0,0,0,0
+chico,boy,0,0,0,0
+empieza,begin,0,0,0,0
+marido,husband,0,0,0,0
+capaz,capable,0,0,0,0
+perfectamente,perfectly,0,0,0,0
+tenías,You had,0,0,0,0
+gustan,like,0,0,0,0
+verlo,see him,0,0,0,0
+significa,it means,0,0,0,0
+sirve,it serves,0,0,0,0
+baja,short,0,0,0,0
+padres,fathers,0,0,0,0
+regalo,gift,0,0,0,0
+grandes,large,0,0,0,0
+empezó,it started,0,0,0,0
+ibas,You were,0,0,0,0
+suficiente,enough,0,0,0,0
+llegado,arrived,0,0,0,0
+juego,play,0,0,0,0
+dejé,leave,0,0,0,0
+fondo,background,0,0,0,0
+tío,uncle,0,0,0,0
+querías,You wanted,0,0,0,0
+hablas,speak,0,0,0,0
+murió,he died,0,0,0,0
+trae,Bring,0,0,0,0
+dejado,left,0,0,0,0
+cariño,sweetie,0,0,0,0
+partir,leave,0,0,0,0
+daño,damage,0,0,0,0
+dando,giving,0,0,0,0
+basta,Enough,0,0,0,0
+llegamos,we arrived,0,0,0,0
+palabras,words,0,0,0,0
+silencio,silence,0,0,0,0
+montón,lot,0,0,0,0
+aire,air,0,0,0,0
+señores,Sirs,0,0,0,0
+relación,relationship,0,0,0,0
+cuanto,how much,0,0,0,0
+pueblo,village,0,0,0,0
+gana,Win,0,0,0,0
+tanta,So much,0,0,0,0
+sentir,feel,0,0,0,0
+largo,length,0,0,0,0
+algunas,some,0,0,0,0
+dile,tell him,0,0,0,0
+beso,kiss,0,0,0,0
+café,coffee,0,0,0,0
+encontré,I found,0,0,0,0
+escucha,listen,0,0,0,0
+mes,month,0,0,0,0
+entra,enters,0,0,0,0
+perro,dog,0,0,0,0
+hambre,hunger,0,0,0,0
+según,according to,0,0,0,0
+semanas,weeks,0,0,0,0
+entiende,understands,0,0,0,0
+lista,ready,0,0,0,0
+debo,I shall,0,0,0,0
+fotos,Photos,0,0,0,0
+siente,Feel,0,0,0,0
+dolor,pain,0,0,0,0
+quedo,I remain,0,0,0,0
+centro,center,0,0,0,0
+íbamos,we were going,0,0,0,0
+llamado,called,0,0,0,0
+segunda,second,0,0,0,0
+frío,cold,0,0,0,0
+ajá,AHA,0,0,0,0
+plan,plan,0,0,0,0
+respeto,respect,0,0,0,0
+muchísimo,very much,0,0,0,0
+pobre,poor,0,0,0,0
+salga,out,0,0,0,0
+tocar,play,0,0,0,0
+conoces,you know,0,0,0,0
+acuerdas,You agree,0,0,0,0
+hicimos,we did,0,0,0,0
+existe,exists,0,0,0,0
+señorita,Miss,0,0,0,0
+oh,Oh,0,0,0,0
+tardes,afternoon,0,0,0,0
+sueño,sleep,0,0,0,0
+quedado,left,0,0,0,0
+fuimos,went,0,0,0,0
+mitad,half,0,0,0,0
+busca,search,0,0,0,0
+repente,Suddenly,0,0,0,0
+bonita,pretty,0,0,0,0
+ojalá,I wish,0,0,0,0
+conseguir,get,0,0,0,0
+vayan,go,0,0,0,0
+pude,I could,0,0,0,0
+médico,medical,0,0,0,0
+tengas,Have,0,0,0,0
+cuántas,how many,0,0,0,0
+abre,opens,0,0,0,0
+llamas,calls,0,0,0,0
+lleno,full,0,0,0,0
+empezamos,We start,0,0,0,0
+vieja,old woman,0,0,0,0
+seguridad,security,0,0,0,0
+anoche,last night,0,0,0,0
+confianza,confidence,0,0,0,0
+duele,hurts,0,0,0,0
+podido,I have,0,0,0,0
+diferente,different,0,0,0,0
+mentira,lie,0,0,0,0
+seguimos,We continue,0,0,0,0
+pie,foot,0,0,0,0
+bajar,go down,0,0,0,0
+pequeño,little,0,0,0,0
+información,information,0,0,0,0
+entiendes,You understand,0,0,0,0
+ocurre,occurs,0,0,0,0
+ganar,gain,0,0,0,0
+preguntas,questions,0,0,0,0
+dieron,They gave,0,0,0,0
+sigo,I follow,0,0,0,0
+preguntar,to ask,0,0,0,0
+habían,They were,0,0,0,0
+estés,be,0,0,0,0
+caer,fall,0,0,0,0
+fuerza,strength,0,0,0,0
+deben,They must,0,0,0,0
+encuentra,find,0,0,0,0
+llevas,You carry,0,0,0,0
+corre,runs,0,0,0,0
+cállate,shut,0,0,0,0
+vienes,you come,0,0,0,0
+abrir,open,0,0,0,0
+cuesta,cost,0,0,0,0
+piensas,You think,0,0,0,0
+error,mistake,0,0,0,0
+grupo,cluster,0,0,0,0
+iban,were going,0,0,0,0
+suena,sounds,0,0,0,0
+hablado,spoken,0,0,0,0
+piso,flat,0,0,0,0
+parar,stop,0,0,0,0
+usar,use,0,0,0,0
+nueve,nine,0,0,0,0
+doctor,doctor,0,0,0,0
+hospital,hospital,0,0,0,0
+temprano,early,0,0,0,0
+ojo,eye,0,0,0,0
+estará,will be,0,0,0,0
+novio,boyfriend,0,0,0,0
+orden,order,0,0,0,0
+estaría,It would,0,0,0,0
+metido,involved,0,0,0,0
+pensado,thought-out,0,0,0,0
+llegué,I arrived,0,0,0,0
+aprender,to learn,0,0,0,0
+necesitas,you need,0,0,0,0
+quedamos,we stay,0,0,0,0
+propia,own,0,0,0,0
+corriendo,in a hurry,0,0,0,0
+zona,zone,0,0,0,0
+sabías,You knew,0,0,0,0
+mesa,table,0,0,0,0
+seguramente,surely,0,0,0,0
+noticia,News,0,0,0,0
+prefiero,I prefer,0,0,0,0
+habría,there would be,0,0,0,0
+llego,arrived,0,0,0,0
+llamada,call,0,0,0,0
+pudo,could,0,0,0,0
+cuentas,accounts,0,0,0,0
+cualquiera,any,0,0,0,0
+quedé,I stayed,0,0,0,0
+eras,ages,0,0,0,0
+llevamos,we carry,0,0,0,0
+ey,Hey,0,0,0,0
+equipo,equipment,0,0,0,0
+pidió,asked,0,0,0,0
+prueba,Test,0,0,0,0
+funciona,works,0,0,0,0
+llorar,mourn,0,0,0,0
+quede,remain,0,0,0,0
+supongo,I guess,0,0,0,0
+escuela,school,0,0,0,0
+próxima,next,0,0,0,0
+trabaja,works,0,0,0,0
+negro,black,0,0,0,0
+ante,in view of,0,0,0,0
+llevó,wear,0,0,0,0
+control,control,0,0,0,0
+incluso,even,0,0,0,0
+imagino,I imagine,0,0,0,0
+coche,car,0,0,0,0
+viva,live,0,0,0,0
+apenas,barely,0,0,0,0
+deberías,you should,0,0,0,0
+echar,throw,0,0,0,0
+suyo,yours,0,0,0,0
+llamó,I call,0,0,0,0
+sean,Sean,0,0,0,0
+habíamos,We had,0,0,0,0
+prometo,I promise,0,0,0,0
+contrario,contrary,0,0,0,0
+sitio,place,0,0,0,0
+gustó,taste,0,0,0,0
+quiénes,Who is it,0,0,0,0
+duda,doubt,0,0,0,0
+cielo,darling,0,0,0,0
+tendría,would have,0,0,0,0
+cayó,it fell,0,0,0,0
+varios,several,0,0,0,0
+puse,I put,0,0,0,0
+pedido,order,0,0,0,0
+partes,Parties,0,0,0,0
+esposa,wife,0,0,0,0
+tía,aunt,0,0,0,0
+decisión,decision,0,0,0,0
+ellas,they,0,0,0,0
+traer,bring,0,0,0,0
+sol,sun,0,0,0,0
+sientes,you feel,0,0,0,0
+saliendo,coming out,0,0,0,0
+cae,falls off,0,0,0,0
+tenían,They had,0,0,0,0
+llamaba,I called,0,0,0,0
+alma,soul,0,0,0,0
+escúchame,listen to me,0,0,0,0
+lindo,pretty,0,0,0,0
+interesa,interests,0,0,0,0
+vuelva,Return,0,0,0,0
+irme,Go,0,0,0,0
+solos,alone,0,0,0,0
+ninguno,none,0,0,0,0
+daba,gave,0,0,0,0
+negocio,business,0,0,0,0
+linda,pretty,0,0,0,0
+grave,serious,0,0,0,0
+hacerle,do,0,0,0,0
+traigo,I bring,0,0,0,0
+mando,I send,0,0,0,0
+tantas,many,0,0,0,0
+secreto,secret,0,0,0,0
+minuto,minute,0,0,0,0
+vista,view,0,0,0,0
+fuego,fire,0,0,0,0
+dejan,leave,0,0,0,0
+éramos,We were,0,0,0,0
+cárcel,jail,0,0,0,0
+preocupe,worry,0,0,0,0
+decirte,tell you,0,0,0,0
+habitación,room,0,0,0,0
+explicar,explain,0,0,0,0
+nota,note,0,0,0,0
+quise,I wanted,0,0,0,0
+accidente,accident,0,0,0,0
+quédate,stay,0,0,0,0
+dirección,address,0,0,0,0
+momentos,Moments,0,0,0,0
+correr,run,0,0,0,0
+compañeros,companions,0,0,0,0
+subir,go up,0,0,0,0
+llena,full,0,0,0,0
+total,total,0,0,0,0
+idiota,moron,0,0,0,0
+jugando,Playing,0,0,0,0
+vergüenza,shame,0,0,0,0
+propio,own self,0,0,0,0
+salido,stepped out,0,0,0,0
+golpe,blow,0,0,0,0
+pasan,pass,0,0,0,0
+mirando,looking at,0,0,0,0
+oiga,Listen,0,0,0,0
+sepa,Know,0,0,0,0
+hable,I talked,0,0,0,0
+placer,pleasure,0,0,0,0
+hagan,do,0,0,0,0
+habías,You were,0,0,0,0
+pareja,partner,0,0,0,0
+volvió,went back,0,0,0,0
+conocí,I met,0,0,0,0
+broma,joke,0,0,0,0
+derecha,right,0,0,0,0
+perdóname,forgive me,0,0,0,0
+rico,rich,0,0,0,0
+terminó,term,0,0,0,0
+cocina,kitchen,0,0,0,0
+varias,several,0,0,0,0
+gustaba,liked,0,0,0,0
+hotel,hotel,0,0,0,0
+resulta,result,0,0,0,0
+hermanos,brothers,0,0,0,0
+perdona,sorry,0,0,0,0
+yendo,going,0,0,0,0
+totalmente,totally,0,0,0,0
+conocido,known,0,0,0,0
+parecía,looked like,0,0,0,0
+quisiera,I would like,0,0,0,0
+trato,deal,0,0,0,0
+disculpe,excuse me,0,0,0,0
+pidiendo,asking,0,0,0,0
+pies,feet,0,0,0,0
+asunto,affair,0,0,0,0
+cargo,position,0,0,0,0
+precisamente,precisely,0,0,0,0
+arreglar,arrange,0,0,0,0
+reunión,meeting,0,0,0,0
+pedí,I asked,0,0,0,0
+manda,Send,0,0,0,0
+haría,would do,0,0,0,0
+tiro,threw,0,0,0,0
+viviendo,living,0,0,0,0
+público,public,0,0,0,0
+pago,payment,0,0,0,0
+locura,craziness,0,0,0,0
+tomando,taking,0,0,0,0
+real,real,0,0,0,0
+pequeña,small,0,0,0,0
+oficina,office,0,0,0,0
+siga,Follow,0,0,0,0
+guerra,war,0,0,0,0
+imbécil,fool,0,0,0,0
+aparte,besides,0,0,0,0
+estén,are,0,0,0,0
+peligroso,dangerous,0,0,0,0
+bailar,dance,0,0,0,0
+ten,Ten,0,0,0,0
+podrías,could you,0,0,0,0
+diría,would say,0,0,0,0
+alta,high,0,0,0,0
+saca,pulls out,0,0,0,0
+veía,I saw,0,0,0,0
+suelo,I usually,0,0,0,0
+general,general,0,0,0,0
+tranquilos,quiet,0,0,0,0
+contó,told,0,0,0,0
+dejes,Leave,0,0,0,0
+poniendo,putting up,0,0,0,0
+tantos,so many,0,0,0,0
+cámara,camera,0,0,0,0
+encontrado,found,0,0,0,0
+muere,go dead,0,0,0,0
+papel,paper,0,0,0,0
+siéntate,Sit down,0,0,0,0
+extraño,weird,0,0,0,0
+carrera,race,0,0,0,0
+aparece,appear,0,0,0,0
+vender,sell,0,0,0,0
+dejas,you let,0,0,0,0
+cuestión,question,0,0,0,0
+importantes,important,0,0,0,0
+presente,Present,0,0,0,0
+amo,love,0,0,0,0
+cuidar,look after,0,0,0,0
+absolutamente,absolutely,0,0,0,0
+quizás,maybe,0,0,0,0
+nervioso,highly strung,0,0,0,0
+evitar,avoid,0,0,0,0
+llaman,They call,0,0,0,0
+chicas,girls,0,0,0,0
+noticias,news,0,0,0,0
+estuviera,I was,0,0,0,0
+pones,You put,0,0,0,0
+feo,ugly,0,0,0,0
+perdí,I missed,0,0,0,0
+verás,you'll see,0,0,0,0
+tendrá,will have,0,0,0,0
+déjalo,leave it alone,0,0,0,0
+familiar,family,0,0,0,0
+salen,They leave,0,0,0,0
+joder,fuck,0,0,0,0
+andar,walk,0,0,0,0
+entendido,it is understood,0,0,0,0
+llegue,I arrived,0,0,0,0
+posibilidad,possibility,0,0,0,0
+tras,after,0,0,0,0
+blanco,white,0,0,0,0
+carajo,fuck,0,0,0,0
+encargo,charge,0,0,0,0
+hablé,I talked,0,0,0,0
+descansar,rest,0,0,0,0
+decirme,Tell me,0,0,0,0
+contacto,Contact,0,0,0,0
+pongas,Put,0,0,0,0
+triste,sad,0,0,0,0
+habló,speak,0,0,0,0
+llegaron,They arrived,0,0,0,0
+trajo,He brought,0,0,0,0
+salí,I left,0,0,0,0
+probar,try,0,0,0,0
+necesario,necessary,0,0,0,0
+mandar,send,0,0,0,0
+merece,deserves,0,0,0,0
+verla,see it,0,0,0,0
+bravo,Bravo,0,0,0,0
+digamos,Let's say,0,0,0,0
+cual,which,0,0,0,0
+tuvimos,We had,0,0,0,0
+alegría,happiness,0,0,0,0
+cerrar,to close,0,0,0,0
+mirar,look at,0,0,0,0
+pide,asks,0,0,0,0
+juan,John,0,0,0,0
+maría,Maria,0,0,0,0
+millones,millions,0,0,0,0
+peligro,danger,0,0,0,0
+debes,you should,0,0,0,0
+huevos,eggs,0,0,0,0
+ayudo,helped,0,0,0,0
+servicio,service,0,0,0,0
+recuerda,remember,0,0,0,0
+ocurrió,It occurred,0,0,0,0
+pasé,happens,0,0,0,0
+conocemos,We know,0,0,0,0
+dígame,tell me,0,0,0,0
+simplemente,simply,0,0,0,0
+acabar,finish,0,0,0,0
+colegio,college,0,0,0,0
+horrible,horrible,0,0,0,0
+encontramos,we find,0,0,0,0
+mar,sea,0,0,0,0
+irse,leave,0,0,0,0
+creen,They believe,0,0,0,0
+salimos,we went out,0,0,0,0
+lados,sides,0,0,0,0
+cambiado,changed,0,0,0,0
+espacio,space,0,0,0,0
+pruebas,tests,0,0,0,0
+ponga,Put,0,0,0,0
+vengan,come,0,0,0,0
+pesar,to weigh,0,0,0,0
+suya,hers,0,0,0,0
+verme,see me,0,0,0,0
+cumpleaños,birthday,0,0,0,0
+darte,to give you,0,0,0,0
+acaban,they finished,0,0,0,0
+experiencia,experience,0,0,0,0
+dejamos,We leave,0,0,0,0
+termina,ends,0,0,0,0
+damos,we give,0,0,0,0
+leer,read,0,0,0,0
+cierra,Close,0,0,0,0
+metió,put,0,0,0,0
+diste,you gave,0,0,0,0
+quedas,You stay,0,0,0,0
+contado,Cash,0,0,0,0
+vuelto,turned,0,0,0,0
+llevan,They carry,0,0,0,0
+quizá,Maybe,0,0,0,0
+ponen,They put,0,0,0,0
+preparado,prepared,0,0,0,0
+aquel,that,0,0,0,0
+quiso,He wanted,0,0,0,0
+salida,exit,0,0,0,0
+ayúdame,Help me,0,0,0,0
+quita,remove,0,0,0,0
+dejaste,You left,0,0,0,0
+culo,ass,0,0,0,0
+llegando,arriving,0,0,0,0
+bienvenido,Welcome,0,0,0,0
+pregunto,I ask,0,0,0,0
+mete,put,0,0,0,0
+entera,whole,0,0,0,0
+destino,destiny,0,0,0,0
+últimos,last,0,0,0,0
+mandó,I send,0,0,0,0
+tratando,trying,0,0,0,0
+miren,Look,0,0,0,0
+completamente,completely,0,0,0,0
+nerviosa,nervous,0,0,0,0
+puedas,You can,0,0,0,0
+hacerme,make me,0,0,0,0
+vuelvas,come back,0,0,0,0
+parado,stopped,0,0,0,0
+unidos,United,0,0,0,0
+libertad,freedom,0,0,0,0
+san,saint,0,0,0,0
+hubieras,You would have,0,0,0,0
+haz,make,0,0,0,0
+hayas,be,0,0,0,0
+necesitaba,needed,0,0,0,0
+complicado,complicated,0,0,0,0
+honor,honor,0,0,0,0
+vueltas,rounds,0,0,0,0
+perdió,lost,0,0,0,0
+genial,cool,0,0,0,0
+respuesta,response,0,0,0,0
+espalda,back,0,0,0,0
+toque,I touched,0,0,0,0
+pasamos,we passed,0,0,0,0
+línea,line,0,0,0,0
+bebé,baby,0,0,0,0
+arma,weapon,0,0,0,0
+muerta,dead,0,0,0,0
+vestido,dress,0,0,0,0
+visita,visit,0,0,0,0
+imagínate,go figure,0,0,0,0
+muertos,dead,0,0,0,0
+cumplir,comply,0,0,0,0
+hacerte,make you,0,0,0,0
+darme,give me,0,0,0,0
+terrible,terrible,0,0,0,0
+ponte,put,0,0,0,0
+nacional,national,0,0,0,0
+memoria,memory,0,0,0,0
+peso,weight,0,0,0,0
+dura,hard,0,0,0,0
+tuviera,had,0,0,0,0
+conocen,They know,0,0,0,0
+calor,heat,0,0,0,0
+plata,silver,0,0,0,0
+muchachos,boys,0,0,0,0
+muchacho,young guy,0,0,0,0
+sigues,are you still,0,0,0,0
+hagamos,let's do,0,0,0,0
+canción,song,0,0,0,0
+hablemos,let's talk,0,0,0,0
+ley,law,0,0,0,0
+guapa,beautiful,0,0,0,0
+veas,go to S,0,0,0,0
+hables,You speak,0,0,0,0
+presentar,introduce,0,0,0,0
+escucho,I'm listening,0,0,0,0
+mente,mind,0,0,0,0
+completo,complete,0,0,0,0
+intentar,attempt,0,0,0,0
+esfuerzo,effort,0,0,0,0
+tirar,throw,0,0,0,0
+época,epoch,0,0,0,0
+matrimonio,marriage,0,0,0,0
+cita,date,0,0,0,0
+llamando,calling,0,0,0,0
+papeles,papers,0,0,0,0
+mata,Bush,0,0,0,0
+dejaron,They left,0,0,0,0
+hayan,have,0,0,0,0
+menor,minor,0,0,0,0
+profesional,professional,0,0,0,0
+responsable,responsible,0,0,0,0
+entrada,entry,0,0,0,0
+terminado,finished,0,0,0,0
+casas,houses,0,0,0,0
+color,color,0,0,0,0
+junto,together,0,0,0,0
+venimos,we come,0,0,0,0
+levantar,get up,0,0,0,0
+cambia,Change,0,0,0,0
+tiempos,time,0,0,0,0
+diferencia,difference,0,0,0,0
+querían,They wanted,0,0,0,0
+entero,whole,0,0,0,0
+españa,Spain,0,0,0,0
+avión,airplane,0,0,0,0
+odio,hatred,0,0,0,0
+tratar,treat,0,0,0,0
+calma,Calm down,0,0,0,0
+lleve,I carried,0,0,0,0
+podríamos,we could,0,0,0,0
+recibir,to receive,0,0,0,0
+cena,Dinner,0,0,0,0
+tengan,have,0,0,0,0
+doble,double,0,0,0,0
+caja,cash register,0,0,0,0
+susto,scare,0,0,0,0
+éxito,success,0,0,0,0
+llaves,keys,0,0,0,0
+señal,sign,0,0,0,0
+esperaba,I expected,0,0,0,0
+entró,I enter,0,0,0,0
+común,common,0,0,0,0
+llegan,They arrive,0,0,0,0
+tonto,fool,0,0,0,0
+sentía,I felt,0,0,0,0
+mismos,same,0,0,0,0
+empresa,business,0,0,0,0
+nosotras,we,0,0,0,0
+abuela,grandmother,0,0,0,0
+hermosa,beautifull,0,0,0,0
+quieto,still,0,0,0,0
+quitar,put off,0,0,0,0
+parecer,look,0,0,0,0
+dejen,Leave,0,0,0,0
+sala,living room,0,0,0,0
+cero,zero,0,0,0,0
+quedarme,stay,0,0,0,0
+explico,I explain,0,0,0,0
+apareció,showed up,0,0,0,0
+presento,I present,0,0,0,0
+siguen,They continue,0,0,0,0
+directamente,directly,0,0,0,0
+bienvenidos,Welcome,0,0,0,0
+saco,coat,0,0,0,0
+come,eat,0,0,0,0
+hablan,They speak,0,0,0,0
+recién,newly,0,0,0,0
+cabrón,dumbass,0,0,0,0
+espérate,wait,0,0,0,0
+carta,letter,0,0,0,0
+apoyo,support for,0,0,0,0
+ayude,help,0,0,0,0
+guapo,Handsome,0,0,0,0
+brazos,arms,0,0,0,0
+den,den,0,0,0,0
+nuevos,new,0,0,0,0
+libro,book,0,0,0,0
+larga,long,0,0,0,0
+locos,crazy,0,0,0,0
+enorme,enormous,0,0,0,0
+nomás,no more,0,0,0,0
+flores,flowers,0,0,0,0
+llame,I called,0,0,0,0
+escuché,listen,0,0,0,0
+película,movie,0,0,0,0
+opción,option,0,0,0,0
+tome,take,0,0,0,0
+des,des,0,0,0,0
+cantidad,amount,0,0,0,0
+sentí,I felt,0,0,0,0
+deberíamos,we should,0,0,0,0
+condiciones,conditions,0,0,0,0
+felices,Happy,0,0,0,0
+perfecta,Perfect,0,0,0,0
+nivel,level,0,0,0,0
+compañero,co-worker,0,0,0,0
+nuevas,new,0,0,0,0
+dormido,asleep,0,0,0,0
+llevaba,I had,0,0,0,0
+sube,goes up,0,0,0,0
+segundos,seconds,0,0,0,0
+ventana,window,0,0,0,0
+pa,pa,0,0,0,0
+espere,Wait,0,0,0,0
+oficial,official,0,0,0,0
+embarazada,pregnant,0,0,0,0
+acaso,perhaps,0,0,0,0
+cenar,diner,0,0,0,0
+exacto,exact,0,0,0,0
+contento,glad,0,0,0,0
+salgo,I go out,0,0,0,0
+depende,depends,0,0,0,0
+escuchando,listening,0,0,0,0
+interesante,interesting,0,0,0,0
+toques,Touches,0,0,0,0
+obra,construction site,0,0,0,0
+deseo,desire,0,0,0,0
+ocurra,occur,0,0,0,0
+sal,Salt,0,0,0,0
+piernas,legs,0,0,0,0
+uh,UH,0,0,0,0
+malas,bad,0,0,0,0
+modo,mode,0,0,0,0
+olvidar,forget,0,0,0,0
+solución,solution,0,0,0,0
+mover,move,0,0,0,0
+santo,holy,0,0,0,0
+vieron,They saw,0,0,0,0
+oído,ear,0,0,0,0
+intención,intention,0,0,0,0
+diferentes,different,0,0,0,0
+posición,position,0,0,0,0
+estuvimos,We were,0,0,0,0
+enseguida,right away,0,0,0,0
+interior,inside,0,0,0,0
+agradezco,I appreciate,0,0,0,0
+traes,You bring,0,0,0,0
+director,director,0,0,0,0
+obviamente,obviously,0,0,0,0
+esperanza,hope,0,0,0,0
+culpable,guilty,0,0,0,0
+sepas,know,0,0,0,0
+inteligente,intelligent,0,0,0,0
+hermoso,handsome,0,0,0,0
+responsabilidad,responsibility,0,0,0,0
+permite,It allows,0,0,0,0
+pudiera,could,0,0,0,0
+vimos,we saw,0,0,0,0
+tira,strip,0,0,0,0
+embargo,embargo,0,0,0,0
+caminar,to walk,0,0,0,0
+despierta,wake up,0,0,0,0
+campo,countryside,0,0,0,0
+intentando,trying,0,0,0,0
+empecé,I started,0,0,0,0
+barrio,neighborhood,0,0,0,0
+preocupa,worries,0,0,0,0
+muchísimas,many,0,0,0,0
+opinión,opinion,0,0,0,0
+vean,See,0,0,0,0
+aviso,warning,0,0,0,0
+consejo,tip,0,0,0,0
+mueve,move,0,0,0,0
+tomo,I take,0,0,0,0
+izquierda,left,0,0,0,0
+romper,break,0,0,0,0
+alrededor,around,0,0,0,0
+especie,species,0,0,0,0
+permitir,allow,0,0,0,0
+fíjate,notice,0,0,0,0
+disculpa,Sorry,0,0,0,0
+bar,bar,0,0,0,0
+recuperar,retrieve,0,0,0,0
+estudiar,to study,0,0,0,0
+mantener,hold,0,0,0,0
+compromiso,commitment,0,0,0,0
+clases,lessons,0,0,0,0
+pareció,it seemed,0,0,0,0
+alguno,some,0,0,0,0
+español,Spanish,0,0,0,0
+irte,go,0,0,0,0
+gustado,liked,0,0,0,0
+creía,I believed,0,0,0,0
+amigas,friends,0,0,0,0
+obvio,obvious,0,0,0,0
+partido,match,0,0,0,0
+guardia,guard,0,0,0,0
+listos,Ready,0,0,0,0
+banco,bank,0,0,0,0
+vengas,You come,0,0,0,0
+necesitar,need,0,0,0,0
+sacó,coat,0,0,0,0
+preciosa,precious,0,0,0,0
+faltaba,It was missing,0,0,0,0
+cansado,tired,0,0,0,0
+pan,bread,0,0,0,0
+zapatos,shoes,0,0,0,0
+tomado,taken,0,0,0,0
+ponemos,We put,0,0,0,0
+debajo,under,0,0,0,0
+tercera,third,0,0,0,0
+ahorita,In a bit,0,0,0,0
+abogado,attorney,0,0,0,0
+escapar,get away,0,0,0,0
+molesta,upset,0,0,0,0
+debemos,must,0,0,0,0
+salvar,save,0,0,0,0
+dueño,owner,0,0,0,0
+supone,It supposes,0,0,0,0
+digan,say,0,0,0,0
+amable,gentle,0,0,0,0
+huele,smells,0,0,0,0
+necesidad,need,0,0,0,0
+dudas,Doubts,0,0,0,0
+milagro,miracle,0,0,0,0
+directo,straight,0,0,0,0
+viajar,to travel,0,0,0,0
+pierde,misses,0,0,0,0
+faltan,missing,0,0,0,0
+valor,worth,0,0,0,0
+jóvenes,youths,0,0,0,0
+decidido,decided,0,0,0,0
+marca,brand,0,0,0,0
+pasaba,passed,0,0,0,0
+primeros,first,0,0,0,0
+josé,Joseph,0,0,0,0
+abuelo,grandfather,0,0,0,0
+enamorado,loved,0,0,0,0
+felicidad,happiness,0,0,0,0
+imagen,image,0,0,0,0
+vidas,lives,0,0,0,0
+hechos,facts,0,0,0,0
+regresar,to return,0,0,0,0
+contesta,answers,0,0,0,0
+rey,king,0,0,0,0
+felicidades,Congratulations,0,0,0,0
+ratito,Ratito,0,0,0,0
+llave,wrench,0,0,0,0
+puro,pure,0,0,0,0
+coger,take,0,0,0,0
+quedarse,to stay,0,0,0,0
+tomó,I take,0,0,0,0
+encantado,delighted,0,0,0,0
+animal,animal,0,0,0,0
+distinto,distinct,0,0,0,0
+presencia,presence,0,0,0,0
+carlos,Charles,0,0,0,0
+mató,killed,0,0,0,0
+urgente,urgent,0,0,0,0
+entregar,deliver,0,0,0,0
+planes,Plans,0,0,0,0
+riesgo,risk,0,0,0,0
+rojo,red,0,0,0,0
+mírame,Look at me,0,0,0,0
+pedirle,Ask for him,0,0,0,0
+oro,Prayed,0,0,0,0
+paga,pay,0,0,0,0
+matado,killed,0,0,0,0
+precio,price,0,0,0,0
+disculpas,apologies,0,0,0,0
+basura,trash,0,0,0,0
+radio,radio,0,0,0,0
+sencillo,easy,0,0,0,0
+mínimo,minimum,0,0,0,0
+sistema,system,0,0,0,0
+sueños,dreams,0,0,0,0
+preparar,set up,0,0,0,0
+leche,milk,0,0,0,0
+través,through,0,0,0,0
+conocía,I knew,0,0,0,0
+volví,I returned,0,0,0,0
+confiar,trust,0,0,0,0
+cuéntame,Tell me,0,0,0,0
+zebra,zebra,0,0,0,0
+gordo,Fat,0,0,0,0
+santa,Holy,0,0,0,0
+estemos,let's,0,0,0,0
+necesitan,They need,0,0,0,0
+llegaste,you arrived,0,0,0,0
+fe,faith,0,0,0,0
+creí,I believed,0,0,0,0
+simple,simple,0,0,0,0
+acerca,about,0,0,0,0
+enfermo,sick,0,0,0,0
+encontró,he found,0,0,0,0
+perdiendo,losing,0,0,0,0
+cambió,change,0,0,0,0
+asco,disgust,0,0,0,0
+robar,Steal,0,0,0,0
+maravilloso,wonderful,0,0,0,0
+compartir,to share,0,0,0,0
+puertas,doors,0,0,0,0
+fecha,date,0,0,0,0
+llorando,crying,0,0,0,0
+intento,try,0,0,0,0
+gracia,Grace,0,0,0,0
+ruido,noise,0,0,0,0
+pasada,pass,0,0,0,0
+cortar,cut,0,0,0,0
+cabo,cape,0,0,0,0
+armas,weapons,0,0,0,0
+meta,goal,0,0,0,0
+aprovechar,take advantage of,0,0,0,0
+rara,weird,0,0,0,0
+prisa,rush,0,0,0,0
+causa,cause,0,0,0,0
+playa,beach,0,0,0,0
+contando,counting,0,0,0,0
+extraña,strange,0,0,0,0
+perdone,Forgive,0,0,0,0
+escuchado,listened,0,0,0,0
+traído,brought,0,0,0,0
+dejarlo,leave it,0,0,0,0
+piel,skin,0,0,0,0
+recordar,to remember,0,0,0,0
+mirada,look,0,0,0,0
+corta,short,0,0,0,0
+compañía,company,0,0,0,0
+inmediatamente,immediately,0,0,0,0
+metas,goals,0,0,0,0
+departamento,department,0,0,0,0
+últimamente,lately,0,0,0,0
+cuáles,which,0,0,0,0
+caliente,hot,0,0,0,0
+esperamos,we wait,0,0,0,0
+dedo,finger,0,0,0,0
+tuvieron,They had,0,0,0,0
+queríamos,We wanted,0,0,0,0
+formas,shapes,0,0,0,0
+marcha,March,0,0,0,0
+pocos,few,0,0,0,0
+volvemos,We return,0,0,0,0
+vivía,she lived,0,0,0,0
+os,you,0,0,0,0
+papi,Daddy,0,0,0,0
+bienvenida,welcome,0,0,0,0
+contenta,happy,0,0,0,0
+encantaría,I would enchant,0,0,0,0
+clientes,customers,0,0,0,0
+proceso,process,0,0,0,0
+escuchaste,you listened,0,0,0,0
+conversación,conversation,0,0,0,0
+firma,signature,0,0,0,0
+puedan,can,0,0,0,0
+olvida,Forget,0,0,0,0
+teniendo,having,0,0,0,0
+pusieron,They put,0,0,0,0
+piensan,They think,0,0,0,0
+verdadero,real,0,0,0,0
+próximo,next,0,0,0,0
+lugares,places,0,0,0,0
+llevado,carried,0,0,0,0
+durmiendo,sleeping,0,0,0,0
+podrían,could,0,0,0,0
+podías,You could,0,0,0,0
+abierto,open,0,0,0,0
+mayoría,most,0,0,0,0
+aquella,that,0,0,0,0
+onda,vibe,0,0,0,0
+justicia,Justice,0,0,0,0
+juez,judge,0,0,0,0
+prensa,press,0,0,0,0
+espérame,wait for me,0,0,0,0
+olvidó,I forget,0,0,0,0
+correcto,Right,0,0,0,0
+encontraron,They found,0,0,0,0
+televisión,TV,0,0,0,0
+hiciera,made,0,0,0,0
+ideas,Ideas,0,0,0,0
+caro,expensive,0,0,0,0
+busco,I search,0,0,0,0
+valiente,brave,0,0,0,0
+movimiento,movement,0,0,0,0
+principal,major,0,0,0,0
+tendrás,you will have,0,0,0,0
+desastre,disaster,0,0,0,0
+pasaron,They passed,0,0,0,0
+verde,green,0,0,0,0
+haberte,have you,0,0,0,0
+esquina,corner,0,0,0,0
+humano,human,0,0,0,0
+base,base,0,0,0,0
+metros,meters,0,0,0,0
+escrito,written,0,0,0,0
+solas,alone,0,0,0,0
+lástima,pity,0,0,0,0
+resolver,solve,0,0,0,0
+mato,mato,0,0,0,0
+llevaron,They carried,0,0,0,0
+taxi,cab,0,0,0,0
+vayamos,Let's go,0,0,0,0
+casualidad,chance,0,0,0,0
+sabido,known,0,0,0,0
+recoger,pick up,0,0,0,0
+acabas,You finish,0,0,0,0
+abrazo,hug,0,0,0,0
+vacaciones,holidays,0,0,0,0
+presión,Pressure,0,0,0,0
+tele,TV,0,0,0,0
+usa,uses,0,0,0,0
+vos,you,0,0,0,0
+regreso,Return,0,0,0,0
+tocó,touched,0,0,0,0
+aseguro,I assure,0,0,0,0
+novios,a couple,0,0,0,0
+confía,Trust,0,0,0,0
+cansada,Tired,0,0,0,0
+detalles,details,0,0,0,0
+actitud,attitude,0,0,0,0
+río,river,0,0,0,0
+tonta,silly,0,0,0,0
+ayudando,Helping,0,0,0,0
+datos,data,0,0,0,0
+carne,meat,0,0,0,0
+aguantar,endure,0,0,0,0
+cuida,takes care,0,0,0,0
+azul,blue,0,0,0,0
+inglés,English,0,0,0,0
+ello,it,0,0,0,0
+decirlo,say it,0,0,0,0
+llamamos,We call,0,0,0,0
+déjeme,Leave me,0,0,0,0
+mentiras,lies,0,0,0,0
+cantar,sing,0,0,0,0
+juntas,together,0,0,0,0
+olvide,I forgot,0,0,0,0
+ayudarte,help you,0,0,0,0
+ocupado,occupied,0,0,0,0
+banda,band,0,0,0,0
+preguntando,asking,0,0,0,0
+acompaño,accompany,0,0,0,0
+llamé,I called,0,0,0,0
+violencia,violence,0,0,0,0
+fuerzas,forces,0,0,0,0
+detalle,detail,0,0,0,0
+enseñar,to teach,0,0,0,0
+pareces,You seem,0,0,0,0
+limpio,cleansed,0,0,0,0
+hará,will do,0,0,0,0
+social,Social,0,0,0,0
+pecho,chest,0,0,0,0
+juega,play,0,0,0,0
+miles,Thousands,0,0,0,0
+hacían,They did,0,0,0,0
+méxico,Mexico,0,0,0,0
+reina,Queen,0,0,0,0
+enterar,find out,0,0,0,0
+servir,serve,0,0,0,0
+vuelo,flight,0,0,0,0
+personalmente,personally,0,0,0,0
+pelea,Fight,0,0,0,0
+supe,I knew,0,0,0,0
+ayudarme,help me,0,0,0,0
+víctima,victim,0,0,0,0
+tomé,take,0,0,0,0
+corte,court,0,0,0,0
+respira,Breathe,0,0,0,0
+motivo,reason,0,0,0,0
+lío,mess,0,0,0,0
+suelta,loose,0,0,0,0
+calles,streets,0,0,0,0
+brazo,arm,0,0,0,0
+mostrar,to show,0,0,0,0
+decimos,We say,0,0,0,0
+resultado,result,0,0,0,0
+abierta,open,0,0,0,0
+caminando,walking,0,0,0,0
+corto,short,0,0,0,0
+kilómetros,kilometres,0,0,0,0
+paciencia,patience,0,0,0,0
+pelear,quarrel,0,0,0,0
+contrato,contract,0,0,0,0
+pura,Pure,0,0,0,0
+justamente,justly,0,0,0,0
+estuviste,You were,0,0,0,0
+demostrar,show,0,0,0,0
+objetivo,objective,0,0,0,0
+alegro,glad,0,0,0,0
+fueras,You were,0,0,0,0
+privado,private,0,0,0,0
+puntos,points,0,0,0,0
+disfrutar,to enjoy,0,0,0,0
+reconocer,to recognize,0,0,0,0
+altura,height,0,0,0,0
+orgullo,pride,0,0,0,0
+debía,should,0,0,0,0
+hablaba,she spoke,0,0,0,0
+doña,Mrs,0,0,0,0
+celular,cell phone,0,0,0,0
+niñas,Girls,0,0,0,0
+pendiente,earring,0,0,0,0
+suéltame,Let go,0,0,0,0
+aceptar,to accept,0,0,0,0
+viniste,did you come,0,0,0,0
+auto,auto,0,0,0,0
+muero,I die,0,0,0,0
+irnos,Go,0,0,0,0
+podamos,we can,0,0,0,0
+siguiendo,Following,0,0,0,0
+saberlo,know,0,0,0,0
+buenísimo,Great,0,0,0,0
+avisar,warn,0,0,0,0
+tarjeta,card,0,0,0,0
+ayudó,helped,0,0,0,0
+sociedad,society,0,0,0,0
+decidí,I decided,0,0,0,0
+equivocado,wrong,0,0,0,0
+parecen,they look like,0,0,0,0
+escribir,to write,0,0,0,0
+sacado,taken out,0,0,0,0
+viejos,old,0,0,0,0
+caído,fallen,0,0,0,0
+camisa,T-shirt,0,0,0,0
+viven,they live,0,0,0,0
+ok,okay,0,0,0,0
+querida,Dear,0,0,0,0
+preocupado,concerned,0,0,0,0
+programa,Program,0,0,0,0
+manejar,handle,0,0,0,0
+perros,dogs,0,0,0,0
+entendí,understood,0,0,0,0
+quieran,want,0,0,0,0
+caballero,Knight,0,0,0,0
+resultados,results,0,0,0,0
+ataque,attack,0,0,0,0
+sienta,Feel,0,0,0,0
+meto,me to,0,0,0,0
+finalmente,Finally,0,0,0,0
+botella,bottle,0,0,0,0
+acabamos,we finish,0,0,0,0
+luna,Moon,0,0,0,0
+ganado,livestock,0,0,0,0
+refiero,I mean,0,0,0,0
+molestar,bother,0,0,0,0
+ponerle,put,0,0,0,0
+poca,little,0,0,0,0
+piedra,stone,0,0,0,0
+hacerse,to be made,0,0,0,0
+roto,broken,0,0,0,0
+presidente,President,0,0,0,0
+gobierno,government,0,0,0,0
+órdenes,orders,0,0,0,0
+luis,Lewis,0,0,0,0
+asesino,assassin,0,0,0,0
+trampa,trap,0,0,0,0
+pesos,pesos,0,0,0,0
+cuello,neck,0,0,0,0
+nombres,Names,0,0,0,0
+acción,action,0,0,0,0
+quedaron,They were,0,0,0,0
+conté,I counted,0,0,0,0
+empezando,starting,0,0,0,0
+arte,art,0,0,0,0
+invito,I invite,0,0,0,0
+comiendo,eating,0,0,0,0
+fuertes,powerful,0,0,0,0
+cerrado,closed,0,0,0,0
+vivimos,We live,0,0,0,0
+guarda,guard,0,0,0,0
+cerveza,beer,0,0,0,0
+estados,state,0,0,0,0
+investigación,research,0,0,0,0
+conviene,It is convenient,0,0,0,0
+definitivamente,definitely,0,0,0,0
+sigan,Follow,0,0,0,0
+huevo,egg,0,0,0,0
+creas,You believe,0,0,0,0
+excelente,Excellent,0,0,0,0
+iglesia,church,0,0,0,0
+guste,Like,0,0,0,0
+dispuesto,ready,0,0,0,0
+proyecto,Project,0,0,0,0
+enfrente,in front,0,0,0,0
+hazme,Make me,0,0,0,0
+oír,hear,0,0,0,0
+prácticamente,practically,0,0,0,0
+despacio,slowly,0,0,0,0
+imaginar,To imagine,0,0,0,0
+pared,wall,0,0,0,0
+pregunté,I asked for,0,0,0,0
+importancia,importance,0,0,0,0
+pocas,few,0,0,0,0
+máquina,machine,0,0,0,0
+clara,clear,0,0,0,0
+coño,cone,0,0,0,0
+ángel,Angel,0,0,0,0
+vente,Vente,0,0,0,0
+acuerda,Agree,0,0,0,0
+pedirte,Ask for you,0,0,0,0
+haré,I will do,0,0,0,0
+solucionar,sort out,0,0,0,0
+borracho,drunk,0,0,0,0
+pegar,paste,0,0,0,0
+rica,delicious,0,0,0,0
+ridículo,ridiculous,0,0,0,0
+limpiar,clean up,0,0,0,0
+estilo,style,0,0,0,0
+maravilla,Wonderful,0,0,0,0
+actuar,Act,0,0,0,0
+repetir,repeat,0,0,0,0
+olvidado,forgotten,0,0,0,0
+compré,I bought,0,0,0,0
+terminamos,finished,0,0,0,0
+pinta,Pinta,0,0,0,0
+orgulloso,proud,0,0,0,0
+domingo,Sunday,0,0,0,0
+dijimos,we said,0,0,0,0
+negocios,business,0,0,0,0
+guau,wow,0,0,0,0
+cliente,client,0,0,0,0
+celebrar,celebrate,0,0,0,0
+maneras,ways,0,0,0,0
+tuviste,You saw,0,0,0,0
+errores,mistakes,0,0,0,0
+premio,reward,0,0,0,0
+lamento,lament,0,0,0,0
+hubieran,there would be,0,0,0,0
+vinieron,They came,0,0,0,0
+malos,bad,0,0,0,0
+edificio,building,0,0,0,0
+relaciones,relations,0,0,0,0
+animales,animals,0,0,0,0
+familias,families,0,0,0,0
+turno,turn,0,0,0,0
+míos,mine,0,0,0,0
+educación,education,0,0,0,0
+costó,cost,0,0,0,0
+mami,Mommy,0,0,0,0
+papás,potatoes,0,0,0,0
+agarrar,grab,0,0,0,0
+infierno,hell,0,0,0,0
+decisiones,decisions,0,0,0,0
+atender,attend,0,0,0,0
+cámaras,cameras,0,0,0,0
+acompañar,accompany,0,0,0,0
+casado,married,0,0,0,0
+gustar,like,0,0,0,0
+razones,reasons,0,0,0,0
+aparecer,Appear,0,0,0,0
+desayuno,breakfast,0,0,0,0
+mentir,to lie,0,0,0,0
+maestro,teacher,0,0,0,0
+hubiese,there would be,0,0,0,0
+fueran,They were,0,0,0,0
+conseguido,achieved,0,0,0,0
+dientes,teeth,0,0,0,0
+hecha,made,0,0,0,0
+pensamos,We think,0,0,0,0
+aprendí,I learned,0,0,0,0
+acto,act,0,0,0,0
+trabajaba,I worked,0,0,0,0
+serán,will be,0,0,0,0
+vacío,empty,0,0,0,0
+m,m,0,0,0,0
+cálmate,take it easy,0,0,0,0
+inocente,innocent,0,0,0,0
+universidad,college,0,0,0,0
+contestar,answer,0,0,0,0
+defender,defend,0,0,0,0
+lucha,struggle,0,0,0,0
+estudio,study,0,0,0,0
+consecuencias,impact,0,0,0,0
+entrega,delivery,0,0,0,0
+pasen,pass,0,0,0,0
+enferma,ill,0,0,0,0
+voluntad,Will,0,0,0,0
+tomamos,we take,0,0,0,0
+vuelves,You come back,0,0,0,0
+elegir,to choose,0,0,0,0
+vecinos,neighbours,0,0,0,0
+pesado,heavy,0,0,0,0
+recuerdas,remember,0,0,0,0
+llevando,wearing,0,0,0,0
+habido,There have been,0,0,0,0
+natural,natural,0,0,0,0
+deberían,They should,0,0,0,0
+estando,being,0,0,0,0
+revés,reverse,0,0,0,0
+historias,stories,0,0,0,0
+treinta,thirty,0,0,0,0
+aguanta,hold,0,0,0,0
+metiendo,getting,0,0,0,0
+tipos,types,0,0,0,0
+crea,creates,0,0,0,0
+máximo,maximum,0,0,0,0
+energía,Energy,0,0,0,0
+pediste,You asked,0,0,0,0
+copa,Cup,0,0,0,0
+casos,cases,0,0,0,0
+trajiste,You brought,0,0,0,0
+dimos,We gave,0,0,0,0
+muestra,sample,0,0,0,0
+nació,was born,0,0,0,0
+buscan,looking for,0,0,0,0
+quedaba,It was,0,0,0,0
+esposo,husband,0,0,0,0
+dólares,Dollars,0,0,0,0
+preocupada,worried,0,0,0,0
+ex,ex,0,0,0,0
+termine,I finished,0,0,0,0
+pudiste,You could,0,0,0,0
+tengamos,let's have,0,0,0,0
+firmar,sign,0,0,0,0
+clave,key code,0,0,0,0
+respecto,regard,0,0,0,0
+chiste,joke,0,0,0,0
+bolsa,bag,0,0,0,0
+mensajes,messages,0,0,0,0
+podrá,can,0,0,0,0
+consigo,with him,0,0,0,0
+salieron,They left,0,0,0,0
+sobra,surplus,0,0,0,0
+pasas,raisins,0,0,0,0
+igualmente,you too,0,0,0,0
+decidir,to decide,0,0,0,0
+quedarte,stay,0,0,0,0
+sonrisa,smile,0,0,0,0
+caras,faces,0,0,0,0
+sabíamos,We knew,0,0,0,0
+buscamos,We are looking for,0,0,0,0
+decían,they were saying,0,0,0,0
+mmm,Hmm,0,0,0,0
+casar,marry,0,0,0,0
+amistad,friendship,0,0,0,0
+talento,talent,0,0,0,0
+decirles,tell them,0,0,0,0
+firme,sign,0,0,0,0
+mintiendo,lying,0,0,0,0
+vernos,see us,0,0,0,0
+delito,crime,0,0,0,0
+quítate,Remove,0,0,0,0
+sacaste,You took out,0,0,0,0
+metí,I put,0,0,0,0
+estaré,I will be,0,0,0,0
+muevas,move,0,0,0,0
+ilusión,delusion,0,0,0,0
+pega,job,0,0,0,0
+famoso,famous,0,0,0,0
+recuerdos,regards,0,0,0,0
+libres,free,0,0,0,0
+robo,Stole,0,0,0,0
+parezca,It seems,0,0,0,0
+haberlo,have,0,0,0,0
+tirado,thrown,0,0,0,0
+levanta,Raise,0,0,0,0
+mires,look,0,0,0,0
+vuelven,They come back,0,0,0,0
+lunes,Monday,0,0,0,0
+cuente,Count,0,0,0,0
+belleza,beauty,0,0,0,0
+ambulancia,ambulance,0,0,0,0
+norte,north,0,0,0,0
+pusiste,You put,0,0,0,0
+volar,to fly,0,0,0,0
+interés,interest,0,0,0,0
+fría,cold,0,0,0,0
+golpes,hits,0,0,0,0
+enfermedad,illness,0,0,0,0
+propósito,purpose,0,0,0,0
+ponerme,put myself,0,0,0,0
+llegas,you arrive,0,0,0,0
+tendremos,we will have,0,0,0,0
+quedando,staying,0,0,0,0
+emoción,emotion,0,0,0,0
+mandado,sent,0,0,0,0
+enseñó,I teach,0,0,0,0
+escuchas,You listen,0,0,0,0
+podíamos,we could,0,0,0,0
+reír,laugh,0,0,0,0
+cola,tail,0,0,0,0
+empiezo,start,0,0,0,0
+formar,to form,0,0,0,0
+salía,It came out,0,0,0,0
+carro,car,0,0,0,0
+droga,drug,0,0,0,0
+nena,chick,0,0,0,0
+averiguar,figure out,0,0,0,0
+piense,Think,0,0,0,0
+llamadas,calls,0,0,0,0
+medios,media,0,0,0,0
+documentos,Documents,0,0,0,0
+revisar,check,0,0,0,0
+estrella,star,0,0,0,0
+invitar,invite,0,0,0,0
+hazlo,do it,0,0,0,0
+espectacular,spectacular,0,0,0,0
+venta,sale,0,0,0,0
+sur,south,0,0,0,0
+material,material,0,0,0,0
+preparando,preparing,0,0,0,0
+vivido,vivid,0,0,0,0
+funcionar,function,0,0,0,0
+dulce,sweet,0,0,0,0
+distancia,distance,0,0,0,0
+veinte,twenty,0,0,0,0
+crisis,crisis,0,0,0,0
+volviendo,returning,0,0,0,0
+intentado,trying,0,0,0,0
+ponerte,putting yourself,0,0,0,0
+sensación,sensation,0,0,0,0
+ambiente,environment,0,0,0,0
+llamaron,they called,0,0,0,0
+súper,super,0,0,0,0
+confío,I trust,0,0,0,0
+mandé,I sent,0,0,0,0
+misión,mission,0,0,0,0
+restaurante,restaurant,0,0,0,0
+internet,internet,0,0,0,0
+decidió,decided,0,0,0,0
+lengua,tongue/language,0,0,0,0
+divertido,fun,0,0,0,0
+darles,give them,0,0,0,0
+luchar,to fight,0,0,0,0
+defensa,defense,0,0,0,0
+espíritu,spirit,0,0,0,0
+sales,you go out/leave,0,0,0,0
+pudimos,we could,0,0,0,0
+desaparecer,disappear,0,0,0,0
+ayudas,you help,0,0,0,0
+sociales,social,0,0,0,0
+versión,version,0,0,0,0
+mismas,same (feminine),0,0,0,0
+descubrir,to discover,0,0,0,0
+continuar,to continue,0,0,0,0
+cerebro,brain,0,0,0,0
+plaza,square,0,0,0,0
+pedazo,piece,0,0,0,0
+sacando,taking out,0,0,0,0
+regaló,gave (as a gift),0,0,0,0
+mataron,they killed,0,0,0,0
+club,club,0,0,0,0
+modelo,model,0,0,0,0
+pienses,you think,0,0,0,0
+cobarde,coward,0,0,0,0
+campeón,champion,0,0,0,0
+jesús,Jesus,0,0,0,0
+secretos,secrets,0,0,0,0
+seamos,let's be,0,0,0,0
+conseguí,I got,0,0,0,0
+mías,mine (feminine),0,0,0,0
+carácter,character,0,0,0,0
+iguales,equal (plural),0,0,0,0
+fiestas,parties/celebrations,0,0,0,0
+tontería,nonsense,0,0,0,0
+respirar,to breathe,0,0,0,0
+cumple,birthday,0,0,0,0
+pagado,paid,0,0,0,0
+fumar,to smoke,0,0,0,0
+pedro,Pedro (name),0,0,0,0
+gloria,glory,0,0,0,0
+primo,cousin,0,0,0,0
+entrevista,interview,0,0,0,0
+entere,find out,0,0,0,0
+sufrir,to suffer,0,0,0,0
+hablaste,you spoke,0,0,0,0
+andaba,was walking,0,0,0,0
+baile,dance,0,0,0,0
+explicación,explanation,0,0,0,0
+agarra,grab,0,0,0,0
+buscarlo,to look for it,0,0,0,0
+ponerse,to put on,0,0,0,0
+punta,tip/point,0,0,0,0
+internacional,international,0,0,0,0
+libros,books,0,0,0,0
+existen,exist,0,0,0,0
+corriente,current,0,0,0,0
+uso,use,0,0,0,0
+serás,you will be,0,0,0,0
+pegado,stuck,0,0,0,0
+figura,figure,0,0,0,0
+naturaleza,nature,0,0,0,0
+sentado,sitting,0,0,0,0
+blanca,white,0,0,0,0
+chiquita,small (feminine),0,0,0,0
+operación,operation,0,0,0,0
+informe,report,0,0,0,0
+pista,clue/track,0,0,0,0
+ando,I walk/am walking,0,0,0,0
+pistola,gun,0,0,0,0
+mercado,market,0,0,0,0
+imaginas,you imagine,0,0,0,0
+condición,condition,0,0,0,0
+cine,cinema,0,0,0,0
+humor,humor,0,0,0,0
+denuncia,complaint/report,0,0,0,0
+veremos,we will see,0,0,0,0
+calidad,quality,0,0,0,0
+supiera,knew,0,0,0,0
+temas,topics,0,0,0,0
+gratis,free (of charge),0,0,0,0
+quedaste,you stayed,0,0,0,0
+pobres,poor,0,0,0,0
+pasos,steps,0,0,0,0
+serie,series,0,0,0,0
+excusa,excuse,0,0,0,0
+especialmente,especially,0,0,0,0
+termino,I finish,0,0,0,0
+claramente,clearly,0,0,0,0
+quienes,who,0,0,0,0
+pierna,leg,0,0,0,0
+mayores,older/greater,0,0,0,0
+chao,bye,0,0,0,0
+madres,mothers,0,0,0,0
+alegra,makes happy,0,0,0,0
+sombra,shadow,0,0,0,0
+convencer,to convince,0,0,0,0
+carga,load,0,0,0,0
+costa,coast,0,0,0,0
+robó,he/she stole,0,0,0,0
+reglas,rules,0,0,0,0
+pertenece,belongs,0,0,0,0
+olvídate,forget it,0,0,0,0
+local,local,0,0,0,0
+maravillosa,wonderful,0,0,0,0
+compra,purchase,0,0,0,0
+detener,to stop,0,0,0,0
+terminé,I finished,0,0,0,0
+saludar,to greet,0,0,0,0
+limpia,clean,0,0,0,0
+últimas,last (plural),0,0,0,0
+pases,passes,0,0,0,0
+parecido,similar,0,0,0,0
+llames,you call,0,0,0,0
+prohibido,forbidden,0,0,0,0
+ma,mom,0,0,0,0
+aeropuerto,airport,0,0,0,0
+proteger,to protect,0,0,0,0
+responder,to respond,0,0,0,0
+testigo,witness,0,0,0,0
+oyes,you hear,0,0,0,0
+saque,take out,0,0,0,0
+encerrado,locked up,0,0,0,0
+tonterías,nonsense,0,0,0,0
+nervios,nerves,0,0,0,0
+familiares,relatives,0,0,0,0
+señoras,ladies,0,0,0,0
+declaración,declaration,0,0,0,0
+dijera,he/she would say,0,0,0,0
+entrando,entering,0,0,0,0
+acabe,to finish,0,0,0,0
+muera,to die,0,0,0,0
+peores,worse,0,0,0,0
+desgracia,disgrace,0,0,0,0
+intenté,I tried,0,0,0,0
+falso,false,0,0,0,0
+tendrías,would have,0,0,0,0
+robado,stolen,0,0,0,0
+echa,done,0,0,0,0
+vives,you live,0,0,0,0
+gato,cat,0,0,0,0
+trago,drink,0,0,0,0
+enteré,found out,0,0,0,0
+cartas,letters,0,0,0,0
+virgen,virgin,0,0,0,0
+entendiendo,understanding,0,0,0,0
+abra,open,0,0,0,0
+deuda,debt,0,0,0,0
+camión,truck,0,0,0,0
+pare,stop,0,0,0,0
+salvo,except,0,0,0,0
+arreglo,fix,0,0,0,0
+silla,chair,0,0,0,0
+detenido,detained,0,0,0,0
+encuentre,find,0,0,0,0
+hogar,home,0,0,0,0
+pieza,piece,0,0,0,0
+millón,million,0,0,0,0
+comenzar,begin,0,0,0,0
+pesadilla,nightmare,0,0,0,0
+controlar,control,0,0,0,0
+devolver,return,0,0,0,0
+pasión,passion,0,0,0,0
+coge,take,0,0,0,0
+gritar,scream,0,0,0,0
+crecer,grow,0,0,0,0
+opciones,options,0,0,0,0
+humanos,humans,0,0,0,0
+dedos,fingers,0,0,0,0
+efectivamente,effectively,0,0,0,0
+luces,lights,0,0,0,0
+costado,side,0,0,0,0
+podían,could,0,0,0,0
+distintas,different,0,0,0,0
+patrón,pattern,0,0,0,0
+junta,board,0,0,0,0
+juicio,trial,0,0,0,0
+maldito,damned,0,0,0,0
+cosita,little thing,0,0,0,0
+escándalo,scandal,0,0,0,0
+estúpida,stupid,0,0,0,0
+bomba,bomb,0,0,0,0
+fútbol,soccer,0,0,0,0
+agradecer,thank,0,0,0,0
+derechos,rights,0,0,0,0
+alcohol,alcohol,0,0,0,0
+carretera,road,0,0,0,0
+discutir,argue,0,0,0,0
+seguros,insurance,0,0,0,0
+herido,wounded,0,0,0,0
+apellido,last name,0,0,0,0
+veamos,let's see,0,0,0,0
+cien,hundred,0,0,0,0
+tratado,treaty,0,0,0,0
+médicos,doctors,0,0,0,0
+sacamos,we take out,0,0,0,0
+seguido,followed,0,0,0,0
+olvides,forget,0,0,0,0
+darnos,give us,0,0,0,0
+diario,daily,0,0,0,0
+b,b,0,0,0,0
+vaso,glass,0,0,0,0
+pon,put,0,0,0,0
+beber,drink,0,0,0,0
+impresionante,impressive,0,0,0,0
+puestos,positions,0,0,0,0
+empezaron,they started,0,0,0,0
+anterior,previous,0,0,0,0
+duerme,sleep,0,0,0,0
+capitán,captain,0,0,0,0
+sr,mr,0,0,0,0
+negra,black,0,0,0,0
+profesor,professor,0,0,0,0
+diablo,devil,0,0,0,0
+perdonar,forgive,0,0,0,0
+vinimos,we came,0,0,0,0
+traen,they bring,0,0,0,0
+ánimo,cheer up,0,0,0,0
+invitados,guests,0,0,0,0
+chiquito,little one,0,0,0,0
+sucede,happens,0,0,0,0
+guardar,save,0,0,0,0
+corresponde,corresponds,0,0,0,0
+elegante,elegant,0,0,0,0
+supo,knew,0,0,0,0
+películas,movies,0,0,0,0
+canta,sing,0,0,0,0
+visitas,visits,0,0,0,0
+tendré,I will have,0,0,0,0
+daría,I would give,0,0,0,0
+calla,be quiet,0,0,0,0
+entramos,we enter,0,0,0,0
+dejarme,leave me,0,0,0,0
+entienden,understand,0,0,0,0
+precioso,beautiful,0,0,0,0
+abrió,opened,0,0,0,0
+ambos,both,0,0,0,0
+fatal,fatal,0,0,0,0
+posibilidades,possibilities,0,0,0,0
+miro,I look,0,0,0,0
+doce,twelve,0,0,0,0
+nacido,born,0,0,0,0
+maldita,damned,0,0,0,0
+propuesta,proposal,0,0,0,0
+enamorada,in love,0,0,0,0
+rosa,pink,0,0,0,0
+europa,europe,0,0,0,0
+despacho,office,0,0,0,0
+legal,legal,0,0,0,0
+tarea,task,0,0,0,0
+herida,wound,0,0,0,0
+crimen,crime,0,0,0,0
+tienda,store,0,0,0,0
+cadáver,corpse,0,0,0,0
+necesites,you need,0,0,0,0
+emergencia,emergency,0,0,0,0
+disculpen,sorry,0,0,0,0
+crear,create,0,0,0,0
+dejando,leaving,0,0,0,0
+pagan,they pay,0,0,0,0
+esperas,you wait,0,0,0,0
+saqué,I took out,0,0,0,0
+nací,I was born,0,0,0,0
+tocado,touched,0,0,0,0
+despertar,wake up,0,0,0,0
+preguntó,asked,0,0,0,0
+recibido,received,0,0,0,0
+cuentes,tell,0,0,0,0
+tuyos,yours,0,0,0,0
+aun,even,0,0,0,0
+pedimos,we ask,0,0,0,0
+date,date,0,0,0,0
+gritos,shouts,0,0,0,0
+nariz,nose,0,0,0,0
+mandan,they send,0,0,0,0
+encuentras,you find,0,0,0,0
+comido,eaten,0,0,0,0
+rompió,broke,0,0,0,0
+primeras,first,0,0,0,0
+pequeños,small,0,0,0,0
+ponía,I put,0,0,0,0
+andas,you walk,0,0,0,0
+amante,lover,0,0,0,0
+bella,beautiful,0,0,0,0
+enemigo,enemy,0,0,0,0
+lograr,achieve,0,0,0,0
+paciente,patient,0,0,0,0
+gorda,fat,0,0,0,0
+tranquilízate,calm down,0,0,0,0
+baje,lower,0,0,0,0
+repito,I repeat,0,0,0,0
+genio,genius,0,0,0,0
+desapareció,disappeared,0,0,0,0
+civil,civil,0,0,0,0
+explicaciones,explanations,0,0,0,0
+acompañe,accompany,0,0,0,0
+consiguió,got,0,0,0,0
+echó,threw,0,0,0,0
+despedida,farewell,0,0,0,0
+esperen,wait,0,0,0,0
+viera,would see,0,0,0,0
+preparada,prepared,0,0,0,0
+difíciles,difficult,0,0,0,0
+lujo,luxury,0,0,0,0
+pata,leg,0,0,0,0
+verlos,see them,0,0,0,0
+remedio,remedy,0,0,0,0
+escondido,hidden,0,0,0,0
+pasara,would happen,0,0,0,0
+trabajas,you work,0,0,0,0
+tendríamos,we would have,0,0,0,0
+haremos,we will do,0,0,0,0
+sentar,sit,0,0,0,0
+aplauso,applause,0,0,0,0
+diré,I will say,0,0,0,0
+perdida,lost,0,0,0,0
+podrás,you will be able,0,0,0,0
+ritmo,rhythm,0,0,0,0
+aires,airs,0,0,0,0
+viernes,Friday,0,0,0,0
+miguel,Miguel,0,0,0,0
+sos,you are,0,0,0,0
+jefa,boss,0,0,0,0
+ama,love,0,0,0,0
+prima,cousin,0,0,0,0
+andan,they walk,0,0,0,0
+capital,capital,0,0,0,0
+acuérdate,remember,0,0,0,0
+negar,deny,0,0,0,0
+cuidando,taking care,0,0,0,0
+enterado,aware,0,0,0,0
+pásame,pass me,0,0,0,0
+patas,paws,0,0,0,0
+volviste,you returned,0,0,0,0
+sigamos,let's continue,0,0,0,0
+pongan,put,0,0,0,0
+soltar,release,0,0,0,0
+comunicación,communication,0,0,0,0
+paro,stop,0,0,0,0
+invitado,guest,0,0,0,0
+bola,ball,0,0,0,0
+números,numbers,0,0,0,0
+desaparecido,disappeared,0,0,0,0
+pollo,chicken,0,0,0,0
+ocurrir,happen,0,0,0,0
+estrellas,stars,0,0,0,0
+acordar,agree,0,0,0,0
+probable,probable,0,0,0,0
+viniendo,coming,0,0,0,0
+construir,build,0,0,0,0
+comienza,begin,0,0,0,0
+agente,agent,0,0,0,0
+boda,wedding,0,0,0,0
+ja,ha,0,0,0,0
+oigan,listen,0,0,0,0
+créeme,believe me,0,0,0,0
+madrid,Madrid,0,0,0,0
+visitar,visit,0,0,0,0
+acepto,I accept,0,0,0,0
+matan,they kill,0,0,0,0
+investigar,investigate,0,0,0,0
+verá,will see,0,0,0,0
+protección,protection,0,0,0,0
+besos,kisses,0,0,0,0
+respetar,respect,0,0,0,0
+pagando,paying,0,0,0,0
+chino,Chinese,0,0,0,0
+sentimientos,feelings,0,0,0,0
+mereces,you deserve,0,0,0,0
+sepan,know,0,0,0,0
+sueldo,salary,0,0,0,0
+ciento,hundred,0,0,0,0
+escuche,listen,0,0,0,0
+oferta,offer,0,0,0,0
+verdadera,true,0,0,0,0
+preguntarle,ask him/her,0,0,0,0
+descansa,rest,0,0,0,0
+encantan,they love,0,0,0,0
+esconder,hide,0,0,0,0
+salgas,go out,0,0,0,0
+estudios,studies,0,0,0,0
+decide,decide,0,0,0,0
+escena,scene,0,0,0,0
+echo,I miss,0,0,0,0
+curso,course,0,0,0,0
+hacías,you did,0,0,0,0
+central,central,0,0,0,0
+ocurrido,happened,0,0,0,0
+responde,respond,0,0,0,0
+descanso,rest,0,0,0,0
+míralo,look at him,0,0,0,0
+convertido,converted,0,0,0,0
+estaríamos,we would be,0,0,0,0
+inútil,useless,0,0,0,0
+decidimos,we decided,0,0,0,0
+empiezan,they start,0,0,0,0
+subiendo,going up,0,0,0,0
+pablo,Pablo,0,0,0,0
+princesa,princess,0,0,0,0
+barco,boat,0,0,0,0
+ayudes,help,0,0,0,0
+investigando,investigating,0,0,0,0
+estúpido,stupid,0,0,0,0
+salgan,go out,0,0,0,0
+buscarla,look for her,0,0,0,0
+montar,ride,0,0,0,0
+arrepentir,regret,0,0,0,0
+sigas,continue,0,0,0,0
+haberme,having me,0,0,0,0
+aguanto,I endure,0,0,0,0
+mentiroso,liar,0,0,0,0
+organizar,organize,0,0,0,0
+personaje,character,0,0,0,0
+encantada,delighted,0,0,0,0
+alcanza,reaches,0,0,0,0
+pensaste,you thought,0,0,0,0
+caballeros,gentlemen,0,0,0,0
+muriendo,dying,0,0,0,0
+dirá,will say,0,0,0,0
+tratamiento,treatment,0,0,0,0
+diera,would give,0,0,0,0
+magia,magic,0,0,0,0
+tenerlo,have it,0,0,0,0
+paquete,package,0,0,0,0
+ocasión,occasion,0,0,0,0
+sacaron,they took out,0,0,0,0
+techo,roof,0,0,0,0
+plato,plate,0,0,0,0
+profundo,deep,0,0,0,0
+abro,I open,0,0,0,0
+imágenes,images,0,0,0,0
+olor,smell,0,0,0,0
+trabajado,worked,0,0,0,0
+traía,brought,0,0,0,0
+acabado,finished,0,0,0,0
+cincuenta,fifty,0,0,0,0
+original,original,0,0,0,0
+mejorar,improve,0,0,0,0
+entré,I entered,0,0,0,0
+llevé,I took,0,0,0,0
+decías,you said,0,0,0,0
+fila,row,0,0,0,0
+intenta,try,0,0,0,0
+aquellos,those,0,0,0,0
+distintos,different,0,0,0,0
+video,video,0,0,0,0
+oíste,you heard,0,0,0,0
+perra,bitch,0,0,0,0
+política,politics,0,0,0,0
+sexo,sex,0,0,0,0
+relájate,relax,0,0,0,0
+redes,networks,0,0,0,0
+horror,horror,0,0,0,0
+echando,throwing,0,0,0,0
+metiste,you put,0,0,0,0
+paseo,walk,0,0,0,0
+macho,male,0,0,0,0
+salvó,saved,0,0,0,0
+vivos,alive,0,0,0,0
+pensó,thought,0,0,0,0
+metes,you put,0,0,0,0
+pudieron,could,0,0,0,0
+reloj,watch,0,0,0,0
+acceso,access,0,0,0,0
+registro,record,0,0,0,0
+copia,copy,0,0,0,0
+trajeron,they brought,0,0,0,0
+bailando,dancing,0,0,0,0
+impresión,impression,0,0,0,0
+buscas,you look for,0,0,0,0
+estarás,you will be,0,0,0,0
+favorito,favorite,0,0,0,0
+entrado,entered,0,0,0,0
+cerrada,closed,0,0,0,0
+pendejo,idiot,0,0,0,0
+siéntese,sit down,0,0,0,0
+drogas,drugs,0,0,0,0
+armar,assemble,0,0,0,0
+show,show,0,0,0,0
+abogados,lawyers,0,0,0,0
+pendientes,earrings,0,0,0,0
+maté,I killed,0,0,0,0
+maleta,suitcase,0,0,0,0
+cobrar,charge,0,0,0,0
+caballo,horse,0,0,0,0
+dispuesta,ready,0,0,0,0
+escuchó,heard,0,0,0,0
+prisión,prison,0,0,0,0
+harta,sick,0,0,0,0
+equivoqué,wrong,0,0,0,0
+cura,priest,0,0,0,0
+sucedió,happened,0,0,0,0
+brindar,give,0,0,0,0
+bonitas,beautiful,0,0,0,0
+dormida,asleep,0,0,0,0
+ofrecer,offer,0,0,0,0
+camina,walks,0,0,0,0
+debido,due,0,0,0,0
+compró,bought,0,0,0,0
+creemos,we believe,0,0,0,0
+completa,complete,0,0,0,0
+empecemos,let's start,0,0,0,0
+cambiando,changing,0,0,0,0
+palo,stick,0,0,0,0
+esperan,they wait,0,0,0,0
+ricos,rich,0,0,0,0
+sabían,knew,0,0,0,0
+volvamos,let's go back,0,0,0,0
+recibe,receives,0,0,0,0
+pedo,drunk,0,0,0,0
+cuídate,take care,0,0,0,0
+asuntos,matters,0,0,0,0
+cojones,balls,0,0,0,0
+vosotros,you all,0,0,0,0
+moda,fashion,0,0,0,0
+imaginé,imagined,0,0,0,0
+debí,I should,0,0,0,0
+váyanse,go away,0,0,0,0
+mande,send,0,0,0,0
+jodido,screwed,0,0,0,0
+meterse,get into,0,0,0,0
+pública,public,0,0,0,0
+pida,ask for,0,0,0,0
+conciencia,conscience,0,0,0,0
+personales,personal,0,0,0,0
+oí,I heard,0,0,0,0
+sincero,sincere,0,0,0,0
+propias,own,0,0,0,0
+pasaste,you spent,0,0,0,0
+aburrido,bored,0,0,0,0
+empiece,start,0,0,0,0
+hubiéramos,we would have,0,0,0,0
+héroe,hero,0,0,0,0
+dignidad,dignity,0,0,0,0
+perdiste,you lost,0,0,0,0
+complicada,complicated,0,0,0,0
+contentos,happy,0,0,0,0
+llevarlo,take it,0,0,0,0
+consigue,get,0,0,0,0
+colores,colors,0,0,0,0
+aprendido,learned,0,0,0,0
+oportunidades,opportunities,0,0,0,0
+parada,stop,0,0,0,0
+empezado,started,0,0,0,0
+llegaba,arrived,0,0,0,0
+tenés,you have,0,0,0,0
+manuel,Manuel,0,0,0,0
+antonio,Antonio,0,0,0,0
+dígale,tell him,0,0,0,0
+ejército,army,0,0,0,0
+muchacha,girl,0,0,0,0
+encargar,take charge,0,0,0,0
+viejas,old,0,0,0,0
+invitación,invitation,0,0,0,0
+discúlpame,forgive me,0,0,0,0
+preso,prisoner,0,0,0,0
+bala,bullet,0,0,0,0
+mate,maté,0,0,0,0
+debió,should have,0,0,0,0
+anillo,ring,0,0,0,0
+moto,motorcycle,0,0,0,0
+ofrece,offers,0,0,0,0
+ocupada,busy,0,0,0,0
+prometí,I promised,0,0,0,0
+pastillas,pills,0,0,0,0
+testigos,witnesses,0,0,0,0
+invitó,invited,0,0,0,0
+lleven,carry,0,0,0,0
+saliste,you went out,0,0,0,0
+cabe,fits,0,0,0,0
+quedes,stay,0,0,0,0
+acciones,actions,0,0,0,0
+estuvieron,they were,0,0,0,0
+meterme,get into,0,0,0,0
+privada,private,0,0,0,0
+meterte,get into,0,0,0,0
+encargado,in charge,0,0,0,0
+callado,quiet,0,0,0,0
+volando,flying,0,0,0,0
+contaste,you told,0,0,0,0
+vende,sells,0,0,0,0
+países,countries,0,0,0,0
+harías,would you do,0,0,0,0
+convertir,convert,0,0,0,0
+prefieres,you prefer,0,0,0,0
+pelota,ball,0,0,0,0
+siguió,continued,0,0,0,0
+sobrevivir,survive,0,0,0,0
+pesada,heavy,0,0,0,0
+paredes,walls,0,0,0,0
+quince,fifteen,0,0,0,0
+sábado,Saturday,0,0,0,0
+conocimos,we met,0,0,0,0
+venías,you were coming,0,0,0,0
+vendría,would come,0,0,0,0
+pérdida,loss,0,0,0,0
+reconoce,recognize,0,0,0,0
+u,or,0,0,0,0
+viento,wind,0,0,0,0
+arranca,start,0,0,0,0
+hijas,daughters,0,0,0,0
+divina,divine,0,0,0,0
+fea,ugly,0,0,0,0
+deme,give me,0,0,0,0
+organización,organization,0,0,0,0
+secretaria,secretary,0,0,0,0
+quieta,quiet,0,0,0,0
+escapó,escaped,0,0,0,0
+rabia,rage,0,0,0,0
+estrategia,strategy,0,0,0,0
+parque,park,0,0,0,0
+ganó,won,0,0,0,0
+matando,killing,0,0,0,0
+metieron,they put,0,0,0,0
+desayunar,have breakfast,0,0,0,0
+deber,duty,0,0,0,0
+tomes,you take,0,0,0,0
+servicios,services,0,0,0,0
+amenaza,threat,0,0,0,0
+contarte,tell you,0,0,0,0
+tranquilidad,calm,0,0,0,0
+sorprende,surprises,0,0,0,0
+ganando,winning,0,0,0,0
+sirvo,I serve,0,0,0,0
+meten,they put,0,0,0,0
+engañar,deceive,0,0,0,0
+callar,shut up,0,0,0,0
+gano,I win,0,0,0,0
+capacidad,capacity,0,0,0,0
+polvo,dust,0,0,0,0
+piden,they ask,0,0,0,0
+tercer,third,0,0,0,0
+nacer,be born,0,0,0,0
+curioso,curious,0,0,0,0
+dejaba,left,0,0,0,0
+desgraciado,unfortunate,0,0,0,0
+socio,partner,0,0,0,0
+reyes,kings,0,0,0,0
+decís,you say,0,0,0,0
+esperemos,let's hope,0,0,0,0
+casada,married,0,0,0,0
+cargar,load,0,0,0,0
+salón,living room,0,0,0,0
+vecino,neighbor,0,0,0,0
+misterio,mystery,0,0,0,0
+empieces,you start,0,0,0,0
+letra,letter,0,0,0,0
+cierre,closing,0,0,0,0
+sacas,you take out,0,0,0,0
+reconozco,I recognize,0,0,0,0
+acompaña,accompany,0,0,0,0
+capaces,capable,0,0,0,0
+terreno,land,0,0,0,0
+seré,I will be,0,0,0,0
+brillante,bright,0,0,0,0
+cierta,certain,0,0,0,0
+probablemente,probably,0,0,0,0
+confirmar,confirm,0,0,0,0
+tocando,playing,0,0,0,0
+llamen,call,0,0,0,0
+irá,will go,0,0,0,0
+medida,measure,0,0,0,0
+hielo,ice,0,0,0,0
+leí,I read,0,0,0,0
+tercero,third,0,0,0,0
+enemigos,enemies,0,0,0,0
+policías,police,0,0,0,0
+york,York,0,0,0,0
+cruz,cross,0,0,0,0
+artista,artist,0,0,0,0
+contactos,contacts,0,0,0,0
+pague,pay,0,0,0,0
+grabar,record,0,0,0,0
+piénsalo,think about it,0,0,0,0
+coma,comma,0,0,0,0
+renunciar,resign,0,0,0,0
+rollo,roll,0,0,0,0
+curiosidad,curiosity,0,0,0,0
+propios,own,0,0,0,0
+ganamos,we win,0,0,0,0
+risa,laugh,0,0,0,0
+cuánta,how much,0,0,0,0
+falsa,false,0,0,0,0
+gané,I won,0,0,0,0
+perfil,profile,0,0,0,0
+circunstancias,circumstances,0,0,0,0
+conocerte,to meet you,0,0,0,0
+cruzar,cross,0,0,0,0
+red,network,0,0,0,0
+presentó,presented,0,0,0,0
+tómate,take,0,0,0,0
+pides,you ask,0,0,0,0
+recursos,resources,0,0,0,0
+compro,I buy,0,0,0,0
+sentimiento,feeling,0,0,0,0
+moral,moral,0,0,0,0
+llegada,arrival,0,0,0,0
+vendrá,will come,0,0,0,0
+particular,particular,0,0,0,0
+presenta,presents,0,0,0,0
+pánico,panic,0,0,0,0
+chau,bye,0,0,0,0
+rata,rat,0,0,0,0
+jodas,mess,0,0,0,0
+venganza,revenge,0,0,0,0
+enfermera,nurse,0,0,0,0
+carita,little face,0,0,0,0
+traiga,bring,0,0,0,0
+queriendo,wanting,0,0,0,0
+fortuna,fortune,0,0,0,0
+sabiendo,knowing,0,0,0,0
+dímelo,tell me,0,0,0,0
+sinceramente,sincerely,0,0,0,0
+tráfico,traffic,0,0,0,0
+adonde,where to,0,0,0,0
+consciente,conscious,0,0,0,0
+maneja,drives,0,0,0,0
+tono,tone,0,0,0,0
+tomas,you take,0,0,0,0
+moleste,bother,0,0,0,0
+espaldas,backs,0,0,0,0
+cuadro,painting,0,0,0,0
+encontraste,you found,0,0,0,0
+ayudado,helped,0,0,0,0
+cometido,committed,0,0,0,0
+sacarlo,take it out,0,0,0,0
+distinta,different,0,0,0,0
+ladrón,thief,0,0,0,0
+darse,give,0,0,0,0
+echado,thrown,0,0,0,0
+medidas,measures,0,0,0,0
+queden,stay,0,0,0,0
+absurdo,absurd,0,0,0,0
+producto,product,0,0,0,0
+azúcar,sugar,0,0,0,0
+arreglado,arranged,0,0,0,0
+cambios,changes,0,0,0,0
+sucio,dirty,0,0,0,0
+tamaño,size,0,0,0,0
+llevarte,take you,0,0,0,0
+cambie,change,0,0,0,0
+podré,I will be able,0,0,0,0
+acostumbrado,used to,0,0,0,0
+roja,red,0,0,0,0
+respuestas,answers,0,0,0,0
+comprado,bought,0,0,0,0
+oscuro,dark,0,0,0,0
+fundamental,fundamental,0,0,0,0
+taller,workshop,0,0,0,0
+león,lion,0,0,0,0
+déjala,leave her,0,0,0,0
+refieres,you refer,0,0,0,0
+solito,alone,0,0,0,0
+área,area,0,0,0,0
+montaña,mountain,0,0,0,0
+débil,weak,0,0,0,0
+peligrosa,dangerous,0,0,0,0
+lavar,wash,0,0,0,0
+estudiando,studying,0,0,0,0
+página,page,0,0,0,0
+vendiendo,selling,0,0,0,0
+intentó,attempted,0,0,0,0
+propiedad,property,0,0,0,0
+sirva,serve,0,0,0,0
+sufrido,suffered,0,0,0,0
+papa,pope,0,0,0,0
+estómago,stomach,0,0,0,0
+déjate,let yourself,0,0,0,0
+hacernos,make us,0,0,0,0
+regalos,gifts,0,0,0,0
+búsqueda,search,0,0,0,0
+estaremos,we will be,0,0,0,0
+alcanzar,reach,0,0,0,0
+cómodo,comfortable,0,0,0,0
+pasaría,would happen,0,0,0,0
+venían,were coming,0,0,0,0
+acompañado,accompanied,0,0,0,0
+conexión,connection,0,0,0,0
+pasará,will happen,0,0,0,0
+gracioso,funny,0,0,0,0
+sentimos,we feel,0,0,0,0
+básicamente,basically,0,0,0,0
+dará,will give,0,0,0,0
+frase,phrase,0,0,0,0
+desconocido,unknown,0,0,0,0
+despierto,awake,0,0,0,0
+idioma,language,0,0,0,0
+armando,assembling,0,0,0,0
+veras,you will see,0,0,0,0
+marco,frame,0,0,0,0
+disco,disk,0,0,0,0
+discúlpeme,excuse me,0,0,0,0
+clínica,clinic,0,0,0,0
+lárgate,get out,0,0,0,0
+gira,tour,0,0,0,0
+escenario,stage,0,0,0,0
+robaron,they stole,0,0,0,0
+tragedia,tragedy,0,0,0,0
+té,tea,0,0,0,0
+perdimos,we lost,0,0,0,0
+documento,document,0,0,0,0
+compras,purchases,0,0,0,0
+ruta,route,0,0,0,0
+espejo,mirror,0,0,0,0
+mundial,world,0,0,0,0
+lamentablemente,unfortunately,0,0,0,0
+pierda,loses,0,0,0,0
+momentito,just a moment,0,0,0,0
+positivo,positive,0,0,0,0
+usando,using,0,0,0,0
+largas,long,0,0,0,0
+aprende,learn,0,0,0,0
+preguntado,asked,0,0,0,0
+levántate,get up,0,0,0,0
+robando,stealing,0,0,0,0
+efecto,effect,0,0,0,0
+quemar,burn,0,0,0,0
+superior,superior,0,0,0,0
+bajó,went down,0,0,0,0
+convirtió,turned,0,0,0,0
+oigo,I hear,0,0,0,0
+barato,cheap,0,0,0,0
+desaparece,disappears,0,0,0,0
+okey,okay,0,0,0,0
+victoria,victory,0,0,0,0
+mm,mm,0,0,0,0
+váyase,go away,0,0,0,0
+evento,event,0,0,0,0
+shh,shh,0,0,0,0
+cadena,chain,0,0,0,0
+móvil,mobile,0,0,0,0
+habéis,you have,0,0,0,0
+peleando,fighting,0,0,0,0
+sospechoso,suspicious,0,0,0,0
+tenéis,you have,0,0,0,0
+quitó,removed,0,0,0,0
+sientas,feel,0,0,0,0
+periódico,newspaper,0,0,0,0
+orgullosa,proud,0,0,0,0
+disparar,shoot,0,0,0,0
+encantar,enchant,0,0,0,0
+sufriendo,suffering,0,0,0,0
+pecado,sin,0,0,0,0
+promesa,promise,0,0,0,0
+identidad,identity,0,0,0,0
+asegurar,ensure,0,0,0,0
+prometido,promised,0,0,0,0
+comprobar,verify,0,0,0,0
+cerdo,pig,0,0,0,0
+entro,entered,0,0,0,0
+recibió,received,0,0,0,0
+saquen,take out,0,0,0,0
+ayudarnos,help us,0,0,0,0
+trabajan,they work,0,0,0,0
+trabajamos,we work,0,0,0,0
+planeta,planet,0,0,0,0
+traigan,bring,0,0,0,0
+acabaron,they finished,0,0,0,0
+conozca,know,0,0,0,0
+durar,last,0,0,0,0
+rodillas,knees,0,0,0,0
+miras,you look,0,0,0,0
+pico,peak,0,0,0,0
+llores,cry,0,0,0,0
+pidieron,they asked,0,0,0,0
+comunidad,community,0,0,0,0
+viajes,travels,0,0,0,0
+código,code,0,0,0,0
+tiró,threw,0,0,0,0
+cuarenta,forty,0,0,0,0
+serían,would be,0,0,0,0
+órale,all right,0,0,0,0
+querés,you want,0,0,0,0
+ándale,come on,0,0,0,0
+socios,partners,0,0,0,0
+hermanito,little brother,0,0,0,0
+leo,I read,0,0,0,0
+quite,take away,0,0,0,0
+contarle,tell him,0,0,0,0
+felicito,congratulate,0,0,0,0
+besito,little kiss,0,0,0,0
+puerto,port,0,0,0,0
+fantasma,ghost,0,0,0,0
+chocolate,chocolate,0,0,0,0
+ilegal,illegal,0,0,0,0
+tardar,delay,0,0,0,0
+líder,leader,0,0,0,0
+agarró,grabbed,0,0,0,0
+batalla,battle,0,0,0,0
+s,s,0,0,0,0
+viniera,came,0,0,0,0
+ejercicio,exercise,0,0,0,0
+teatro,theater,0,0,0,0
+sirvió,served,0,0,0,0
+encuentran,they find,0,0,0,0
+estación,station,0,0,0,0
+tremendo,tremendous,0,0,0,0
+convencido,convinced,0,0,0,0
+retiro,retreat,0,0,0,0
+propongo,I propose,0,0,0,0
+cocinar,cook,0,0,0,0
+ocupar,occupy,0,0,0,0
+confesar,confess,0,0,0,0
+escribió,wrote,0,0,0,0
+tendrán,they will have,0,0,0,0
+trabajos,jobs,0,0,0,0
+olvido,I forget,0,0,0,0
+costumbre,custom,0,0,0,0
+notas,notes,0,0,0,0
+absoluta,absolute,0,0,0,0
+concepto,concept,0,0,0,0
+campaña,campaign,0,0,0,0
+entendiste,you understood,0,0,0,0
+metida,involved,0,0,0,0
+matarme,kill me,0,0,0,0
+dejemos,let's leave,0,0,0,0
+d,d,0,0,0,0
+pelotas,balls,0,0,0,0
+pegó,hit,0,0,0,0
+regresa,returns,0,0,0,0
+harto,tired,0,0,0,0
+instrucciones,instructions,0,0,0,0
+llamaste,you called,0,0,0,0
+seria,would be,0,0,0,0
+monstruo,monster,0,0,0,0
+crédito,credit,0,0,0,0
+américa,America,0,0,0,0
+suficientes,enough,0,0,0,0
+utilizar,use,0,0,0,0
+egoísta,selfish,0,0,0,0
+odia,hates,0,0,0,0
+pantalones,pants,0,0,0,0
+buscarte,look for you,0,0,0,0
+fuéramos,we were,0,0,0,0
+vía,via,0,0,0,0
+diles,tell them,0,0,0,0
+preparados,prepared,0,0,0,0
+vuelvan,return,0,0,0,0
+llévate,take,0,0,0,0
+llenar,fill,0,0,0,0
+seguí,I continued,0,0,0,0
+llámame,call me,0,0,0,0
+pelos,hair,0,0,0,0
+importan,they matter,0,0,0,0
+movimientos,movements,0,0,0,0
+sed,thirst,0,0,0,0
+buenísima,very good,0,0,0,0
+volverá,will return,0,0,0,0
+tirando,pulling,0,0,0,0
+aquello,that,0,0,0,0
+avisado,warned,0,0,0,0
+reacción,reaction,0,0,0,0
+demasiada,too much,0,0,0,0
+planta,plant,0,0,0,0
+cambian,they change,0,0,0,0
+olvidé,I forgot,0,0,0,0
+teoría,theory,0,0,0,0
+grito,shout,0,0,0,0
+toman,they take,0,0,0,0
+desesperado,desperate,0,0,0,0
+juventud,youth,0,0,0,0
+doctora,doctor,0,0,0,0
+camioneta,truck,0,0,0,0
+celos,jealousy,0,0,0,0
+empleados,employees,0,0,0,0
+celoso,jealous,0,0,0,0
+necesite,needs,0,0,0,0
+aclarar,clarify,0,0,0,0
+merezco,I deserve,0,0,0,0
+mandaron,they sent,0,0,0,0
+castigo,punishment,0,0,0,0
+delicado,delicate,0,0,0,0
+fiel,faithful,0,0,0,0
+quito,I remove,0,0,0,0
+salva,saves,0,0,0,0
+motivos,reasons,0,0,0,0
+suave,soft,0,0,0,0
+compañera,partner,0,0,0,0
+declarar,declare,0,0,0,0
+alturas,heights,0,0,0,0
+jardín,garden,0,0,0,0
+efectivo,effective,0,0,0,0
+ayudarle,help him,0,0,0,0
+uniforme,uniform,0,0,0,0
+mueva,move,0,0,0,0
+incapaz,unable,0,0,0,0
+maletas,suitcases,0,0,0,0
+discurso,speech,0,0,0,0
+supuestamente,supposedly,0,0,0,0
+asiento,seat,0,0,0,0
+regalar,give away,0,0,0,0
+etapa,stage,0,0,0,0
+vehículo,vehicle,0,0,0,0
+puente,bridge,0,0,0,0
+buscado,wanted,0,0,0,0
+pregúntale,ask him,0,0,0,0
+entran,enter,0,0,0,0
+molesto,annoyed,0,0,0,0
+estarán,they will be,0,0,0,0
+parto,birth,0,0,0,0
+sienten,feel,0,0,0,0
+instante,moment,0,0,0,0
+habrás,you will have,0,0,0,0
+cuentan,tell,0,0,0,0
+siglo,century,0,0,0,0
+apaga,turn off,0,0,0,0
+escribe,write,0,0,0,0
+subí,I went up,0,0,0,0
+periodista,journalist,0,0,0,0
+descanse,rest,0,0,0,0
+flor,flower,0,0,0,0
+encerrada,locked up,0,0,0,0
+dudo,doubt,0,0,0,0
+competencia,competition,0,0,0,0
+busque,look for,0,0,0,0
+medicina,medicine,0,0,0,0
+estupidez,stupidity,0,0,0,0
+separar,split,0,0,0,0
+obligación,obligation,0,0,0,0
+whisky,whiskey,0,0,0,0
+pensarlo,think about it,0,0,0,0
+amar,love,0,0,0,0
+nuevamente,again,0,0,0,0
+pagó,paid,0,0,0,0
+autoridad,authority,0,0,0,0
+abandonar,abandon,0,0,0,0
+dejarte,leave you,0,0,0,0
+romántico,romantic,0,0,0,0
+armado,armed,0,0,0,0
+sirven,they serve,0,0,0,0
+disparo,shot,0,0,0,0
+urgencia,urgency,0,0,0,0
+suba,get up,0,0,0,0
+infarto,heart attack,0,0,0,0
+sacarme,remove me,0,0,0,0
+enviar,send,0,0,0,0
+comienzo,start,0,0,0,0
+prioridad,priority,0,0,0,0
+subió,went up,0,0,0,0
+tren,train,0,0,0,0
+intentarlo,try it,0,0,0,0
+tomen,take,0,0,0,0
+evidentemente,evidently,0,0,0,0
+buscarme,look for me,0,0,0,0
+llevarme,take me,0,0,0,0
+pierdo,I lose,0,0,0,0
+suelto,loose,0,0,0,0
+especiales,special,0,0,0,0
+leyendo,reading,0,0,0,0
+conseguimos,we get,0,0,0,0
+seres,beings,0,0,0,0
+límite,limit,0,0,0,0
+metemos,we put,0,0,0,0
+caen,they fall,0,0,0,0
+sonar,sound,0,0,0,0
+descubierto,discovered,0,0,0,0
+convierte,turns,0,0,0,0
+divino,divine,0,0,0,0
+asesinato,murder,0,0,0,0
+cositas,little things,0,0,0,0
+flaco,skinny,0,0,0,0
+militar,military,0,0,0,0
+dueña,owner,0,0,0,0
+terapia,therapy,0,0,0,0
+novedad,novelty,0,0,0,0
+apúrate,hurry up,0,0,0,0
+gastos,expenses,0,0,0,0
+uf,uff,0,0,0,0
+colgar,hang up,0,0,0,0
+bendición,blessing,0,0,0,0
+expediente,file,0,0,0,0
+segundito,just a second,0,0,0,0
+despedir,say goodbye,0,0,0,0
+inmediato,immediate,0,0,0,0
+brindis,toast,0,0,0,0
+faltar,miss,0,0,0,0
+verle,see him,0,0,0,0
+abran,open,0,0,0,0
+teléfonos,phones,0,0,0,0
+metan,put,0,0,0,0
+suceder,happen,0,0,0,0
+espectáculo,show,0,0,0,0
+quitarle,take away,0,0,0,0
+plena,full,0,0,0,0
+profesionales,professionals,0,0,0,0
+tensión,tension,0,0,0,0
+gastar,spend,0,0,0,0
+quitarme,take me away,0,0,0,0
+firmado,signed,0,0,0,0
+perdemos,we lose,0,0,0,0
+encontraba,was,0,0,0,0
+serlo,be,0,0,0,0
+situaciones,situations,0,0,0,0
+leído,read,0,0,0,0
+continúa,continues,0,0,0,0
+preguntan,ask,0,0,0,0
+güey,dude,0,0,0,0
+mirá,look,0,0,0,0
+jorge,Jorge,0,0,0,0
+bye,bye,0,0,0,0
+julio,July,0,0,0,0
+entendió,understood,0,0,0,0
+entienda,understands,0,0,0,0
+imagina,imagine,0,0,0,0
+estáis,are,0,0,0,0
+colaborar,collaborate,0,0,0,0
+kilos,kilos,0,0,0,0
+decente,decent,0,0,0,0
+logró,achieved,0,0,0,0
+territorio,territory,0,0,0,0
+cometer,commit,0,0,0,0
+contratar,hire,0,0,0,0
+amén,amen,0,0,0,0
+injusto,unfair,0,0,0,0
+ayudarlo,help him,0,0,0,0
+recomiendo,recommend,0,0,0,0
+lección,lesson,0,0,0,0
+pensabas,you thought,0,0,0,0
+pedirme,ask me,0,0,0,0
+salgamos,let's go out,0,0,0,0
+ocultar,hide,0,0,0,0
+madrugada,early morning,0,0,0,0
+llegara,would arrive,0,0,0,0
+fuente,source,0,0,0,0
+humilde,humble,0,0,0,0
+dándole,giving him,0,0,0,0
+grupos,groups,0,0,0,0
+escuchen,listen,0,0,0,0
+mantiene,maintains,0,0,0,0
+gesto,gesture,0,0,0,0
+inicio,start,0,0,0,0
+absoluto,absolute,0,0,0,0
+falla,fault,0,0,0,0
+atento,attentive,0,0,0,0
+trataba,was about,0,0,0,0
+venden,sell,0,0,0,0
+experto,expert,0,0,0,0
+motor,engine,0,0,0,0
+humo,smoke,0,0,0,0
+hacíamos,we did,0,0,0,0
+típico,typical,0,0,0,0
+antiguo,ancient,0,0,0,0
+patio,courtyard,0,0,0,0
+inteligencia,intelligence,0,0,0,0
+rueda,wheel,0,0,0,0
+felicitaciones,congratulations,0,0,0,0
+ayudarla,help her,0,0,0,0
+enteró,found out,0,0,0,0
+soporto,endure,0,0,0,0
+aguas,waters,0,0,0,0
+dato,data,0,0,0,0
+cago,shit,0,0,0,0
+dejarla,leave her,0,0,0,0
+traición,treason,0,0,0,0
+sacarle,take out,0,0,0,0
+navidad,Christmas,0,0,0,0
+echarle,to throw,0,0,0,0
+consejos,advice,0,0,0,0
+preocuparte,worry,0,0,0,0
+modos,ways,0,0,0,0
+cuerpos,bodies,0,0,0,0
+logrado,achieved,0,0,0,0
+preocuparse,worry,0,0,0,0
+sorpresas,surprises,0,0,0,0
+heridas,wounds,0,0,0,0
+echaron,they threw,0,0,0,0
+planeado,planned,0,0,0,0
+participar,participate,0,0,0,0
+título,title,0,0,0,0
+baila,dance,0,0,0,0
+billetes,tickets,0,0,0,0
+llamarme,call me,0,0,0,0
+disfrutando,enjoying,0,0,0,0
+sonido,sound,0,0,0,0
+hacerla,do it,0,0,0,0
+únicos,unique,0,0,0,0
+organizado,organized,0,0,0,0
+enterarse,to find out,0,0,0,0
+árbol,tree,0,0,0,0
+esconde,hides,0,0,0,0
+regla,rule,0,0,0,0
+subo,I go up,0,0,0,0
+demos,give,0,0,0,0
+explica,explain,0,0,0,0
+puesta,put,0,0,0,0
+raras,rare,0,0,0,0
+partida,departure,0,0,0,0
+lento,slow,0,0,0,0
+rompe,breaks,0,0,0,0
+conocida,known,0,0,0,0
+lee,reads,0,0,0,0
+infancia,childhood,0,0,0,0
+sabés,you know,0,0,0,0
+asistente,assistant,0,0,0,0
+penal,penalty,0,0,0,0
+porquería,trash,0,0,0,0
+permítame,allow me,0,0,0,0
+encantó,enchanted,0,0,0,0
+víctimas,victims,0,0,0,0
+hablarle,speak to him,0,0,0,0
+periodistas,journalists,0,0,0,0
+enfrentar,face,0,0,0,0
+hermanas,sisters,0,0,0,0
+envidia,envy,0,0,0,0
+logramos,we achieve,0,0,0,0
+gustas,you like,0,0,0,0
+casarse,marry,0,0,0,0
+asesinos,killers,0,0,0,0
+recuerde,remember,0,0,0,0
+avisa,notify,0,0,0,0
+tumba,tomb,0,0,0,0
+denunciar,denounce,0,0,0,0
+angustia,anguish,0,0,0,0
+sano,healthy,0,0,0,0
+caiga,falls,0,0,0,0
+saludos,greetings,0,0,0,0
+cajas,boxes,0,0,0,0
+comisión,commission,0,0,0,0
+claras,clear,0,0,0,0
+haberle,have him,0,0,0,0
+cómoda,comfortable,0,0,0,0
+muchísima,a lot,0,0,0,0
+revista,magazine,0,0,0,0
+lleves,take,0,0,0,0
+insoportable,unbearable,0,0,0,0
+cuchillo,knife,0,0,0,0
+mapa,map,0,0,0,0
+ideal,ideal,0,0,0,0
+conociste,you met,0,0,0,0
+sensible,sensitive,0,0,0,0
+busqué,I searched,0,0,0,0
+guardado,stored,0,0,0,0
+pasear,to stroll,0,0,0,0
+cumplido,completed,0,0,0,0
+iría,would go,0,0,0,0
+seguía,I continued,0,0,0,0
+controlado,controlled,0,0,0,0
+pesa,weighs,0,0,0,0
+aprendiendo,learning,0,0,0,0
+disfruten,enjoy,0,0,0,0
+hacerles,make them,0,0,0,0
+invita,invites,0,0,0,0
+habrán,they will have,0,0,0,0
+técnica,technique,0,0,0,0
+huesos,bones,0,0,0,0
+pinche,damn,0,0,0,0
+ana,Ana,0,0,0,0
+autoridades,authorities,0,0,0,0
+fresco,fresh,0,0,0,0
+garcía,García,0,0,0,0
+examen,exam,0,0,0,0
+delincuente,criminal,0,0,0,0
+veré,I will see,0,0,0,0
+pobrecito,poor little thing,0,0,0,0
+aparezca,appear,0,0,0,0
+avisas,you notify,0,0,0,0
+famosa,famous,0,0,0,0
+acepta,accepts,0,0,0,0
+manejando,driving,0,0,0,0
+temo,I fear,0,0,0,0
+despacito,slowly,0,0,0,0
+caigo,I fall,0,0,0,0
+plano,flat,0,0,0,0
+prestar,lend,0,0,0,0
+temporada,season,0,0,0,0
+interesado,interested,0,0,0,0
+soportar,endure,0,0,0,0
+hablaron,they spoke,0,0,0,0
+decides,you decide,0,0,0,0
+soledad,loneliness,0,0,0,0
+oídos,ears,0,0,0,0
+pintura,painting,0,0,0,0
+drama,drama,0,0,0,0
+inventar,invent,0,0,0,0
+bajas,low,0,0,0,0
+superar,overcome,0,0,0,0
+pierdas,lose,0,0,0,0
+ganaste,you won,0,0,0,0
+preferiría,I would prefer,0,0,0,0
+grabando,recording,0,0,0,0
+explicarte,explain to you,0,0,0,0
+queridos,dear,0,0,0,0
+independiente,independent,0,0,0,0
+entendemos,we understand,0,0,0,0
+enseño,I teach,0,0,0,0
+murieron,died,0,0,0,0
+tratan,try,0,0,0,0
+tocaba,touched,0,0,0,0
+cayendo,falling,0,0,0,0
+gritando,screaming,0,0,0,0
+bolso,bag,0,0,0,0
+conocimiento,knowledge,0,0,0,0
+elegido,chosen,0,0,0,0
+descubrí,discovered,0,0,0,0
+caminos,paths,0,0,0,0
+pusimos,we put,0,0,0,0
+asustado,scared,0,0,0,0
+esperado,expected,0,0,0,0
+comen,eat,0,0,0,0
+quinto,fifth,0,0,0,0
+diego,Diego,0,0,0,0
+negociar,negotiate,0,0,0,0
+lópez,López,0,0,0,0
+respeta,respects,0,0,0,0
+fíjese,look,0,0,0,0
+eche,throw,0,0,0,0
+comercial,commercial,0,0,0,0
+autorización,authorization,0,0,0,0
+parió,gave birth,0,0,0,0
+c,see,0,0,0,0
+equivocada,wrong,0,0,0,0
+ruego,I beg,0,0,0,0
+resultó,turned out,0,0,0,0
+bestia,beast,0,0,0,0
+i,I,0,0,0,0
+contarme,tell me,0,0,0,0
+china,China,0,0,0,0
+pasta,pasta,0,0,0,0
+estarías,would be,0,0,0,0
+discusión,discussion,0,0,0,0
+maestra,teacher,0,0,0,0
+refiere,refers,0,0,0,0
+listas,lists,0,0,0,0
+recibo,receipt,0,0,0,0
+ofrezco,I offer,0,0,0,0
+tomaste,you took,0,0,0,0
+canto,singing,0,0,0,0
+empleado,employee,0,0,0,0
+gane,win,0,0,0,0
+molestia,annoyance,0,0,0,0
+cambiaron,changed,0,0,0,0
+faltó,was missing,0,0,0,0
+interrumpir,interrupt,0,0,0,0
+tuyas,yours,0,0,0,0
+volvieron,they returned,0,0,0,0
+terminando,finishing,0,0,0,0
+quitado,removed,0,0,0,0
+coincidencia,coincidence,0,0,0,0
+imaginaba,imagined,0,0,0,0
+gas,gas,0,0,0,0
+parezco,I seem,0,0,0,0
+emociones,emotions,0,0,0,0
+haberse,having,0,0,0,0
+arregla,fix,0,0,0,0
+terror,terror,0,0,0,0
+madera,wood,0,0,0,0
+funcionan,work,0,0,0,0
+dámelo,give it to me,0,0,0,0
+verano,summer,0,0,0,0
+comemos,we eat,0,0,0,0
+generación,generation,0,0,0,0
+pilas,batteries,0,0,0,0
+perdóneme,forgive me,0,0,0,0
+mataste,you killed,0,0,0,0
+agencia,agency,0,0,0,0
+chance,chance,0,0,0,0
+suplico,I beg,0,0,0,0
+nieto,grandson,0,0,0,0
+argentina,Argentina,0,0,0,0
+vais,you go,0,0,0,0
+tristeza,sadness,0,0,0,0
+cuartos,rooms,0,0,0,0
+vestida,dressed,0,0,0,0
+fama,fame,0,0,0,0
+tenerte,have you,0,0,0,0
+vigilando,watching,0,0,0,0
+cantando,singing,0,0,0,0
+estuvieras,you were,0,0,0,0
+oficio,trade,0,0,0,0
+estrés,stress,0,0,0,0
+confirmado,confirmed,0,0,0,0
+cartera,portfolio,0,0,0,0
+jode,fucks,0,0,0,0
+encontrarlo,find it,0,0,0,0
+conoció,met,0,0,0,0
+desesperada,desperate,0,0,0,0
+coches,cars,0,0,0,0
+llevaste,you took,0,0,0,0
+adultos,adults,0,0,0,0
+bajando,going down,0,0,0,0
+hayamos,we have,0,0,0,0
+extranjero,foreign,0,0,0,0
+quedará,will stay,0,0,0,0
+mentido,lied,0,0,0,0
+demasiadas,too many,0,0,0,0
+labor,labor,0,0,0,0
+aparecen,appear,0,0,0,0
+pares,pairs,0,0,0,0
+práctica,practice,0,0,0,0
+podrán,they will be able,0,0,0,0
+clima,climate,0,0,0,0
+origen,origin,0,0,0,0
+rápida,fast,0,0,0,0
+existencia,existence,0,0,0,0
+preguntaba,asked,0,0,0,0
+vení,come,0,0,0,0
+santiago,Santiago,0,0,0,0
+compadre,friend,0,0,0,0
+regrese,return,0,0,0,0
+semejante,such,0,0,0,0
+presentación,presentation,0,0,0,0
+quédese,stay,0,0,0,0
+enojada,angry,0,0,0,0
+solita,alone,0,0,0,0
+embarazo,pregnancy,0,0,0,0
+sintiendo,feeling,0,0,0,0
+divorcio,divorce,0,0,0,0
+feria,fair,0,0,0,0
+déjenme,let me,0,0,0,0
+delincuentes,criminals,0,0,0,0
+jefes,bosses,0,0,0,0
+miserable,miserable,0,0,0,0
+entrego,I deliver,0,0,0,0
+quisiste,you wanted,0,0,0,0
+ocupo,I occupy,0,0,0,0
+iré,I will go,0,0,0,0
+sospecha,suspicion,0,0,0,0
+fallar,fail,0,0,0,0
+funcionó,worked,0,0,0,0
+evidente,evident,0,0,0,0
+quedarnos,stay,0,0,0,0
+llevarla,take her,0,0,0,0
+análisis,analysis,0,0,0,0
+queso,cheese,0,0,0,0
+dejara,left,0,0,0,0
+atentos,attentive,0,0,0,0
+costar,cost,0,0,0,0
+quedara,stay,0,0,0,0
+salvaje,wild,0,0,0,0
+útil,useful,0,0,0,0
+disfruta,enjoy,0,0,0,0
+cumplo,I fulfill,0,0,0,0
+rostro,face,0,0,0,0
+contamos,we count,0,0,0,0
+juzgar,judge,0,0,0,0
+acercar,bring closer,0,0,0,0
+extra,extra,0,0,0,0
+preguntes,ask,0,0,0,0
+comenzó,began,0,0,0,0
+fuese,were,0,0,0,0
+antigua,ancient,0,0,0,0
+entraron,they entered,0,0,0,0
+cambié,I changed,0,0,0,0
+encarga,in charge,0,0,0,0
+fijo,fixed,0,0,0,0
+permiten,allow,0,0,0,0
+señales,signals,0,0,0,0
+duros,hard,0,0,0,0
+bolsillo,pocket,0,0,0,0
+cuantos,how many,0,0,0,0
+decido,I decide,0,0,0,0
+horario,schedule,0,0,0,0
+vacía,empty,0,0,0,0
+desperté,I woke up,0,0,0,0
+oscuridad,darkness,0,0,0,0
+convertirse,become,0,0,0,0
+apoyar,support,0,0,0,0
+putas,whores,0,0,0,0
+agenda,agenda,0,0,0,0
+mina,mine,0,0,0,0
+cómplice,accomplice,0,0,0,0
+alcanzo,I reach,0,0,0,0
+trate,try,0,0,0,0
+honesto,honest,0,0,0,0
+miel,honey,0,0,0,0
+valió,was worth,0,0,0,0
+lógico,logical,0,0,0,0
+olvídalo,forget it,0,0,0,0
+andando,walking,0,0,0,0
+confías,you trust,0,0,0,0
+payaso,clown,0,0,0,0
+retirar,withdraw,0,0,0,0
+lleguemos,we arrive,0,0,0,0
+acompáñame,come with me,0,0,0,0
+aprovechando,taking advantage,0,0,0,0
+dolores,pains,0,0,0,0
+arreglamos,we fix,0,0,0,0
+conocerla,meet her,0,0,0,0
+sabrá,will know,0,0,0,0
+canal,channel,0,0,0,0
+conociendo,knowing,0,0,0,0
+barbaridad,outrage,0,0,0,0
+casados,married,0,0,0,0
+métete,get in,0,0,0,0
+ventaja,advantage,0,0,0,0
+tráeme,bring me,0,0,0,0
+escuches,listen,0,0,0,0
+disposición,disposition,0,0,0,0
+servido,served,0,0,0,0
+alcance,reaches,0,0,0,0
+suyos,theirs,0,0,0,0
+llegues,arrive,0,0,0,0
+misa,mass,0,0,0,0
+atiende,attend,0,0,0,0
+aceptado,accepted,0,0,0,0
+cojo,take,0,0,0,0
+prepara,prepares,0,0,0,0
+velocidad,speed,0,0,0,0
+dedica,dedicates,0,0,0,0
+domicilio,home,0,0,0,0
+bolsas,bags,0,0,0,0
+aventura,adventure,0,0,0,0
+comes,you eat,0,0,0,0
+miente,lies,0,0,0,0
+volvería,would return,0,0,0,0
+pensamiento,thought,0,0,0,0
+papito,daddy,0,0,0,0
+billete,ticket,0,0,0,0
+operativo,operation,0,0,0,0
+escúcheme,listen to me,0,0,0,0
+imagínese,imagine,0,0,0,0
+frontera,border,0,0,0,0
+criminal,criminal,0,0,0,0
+maten,kill,0,0,0,0
+traidor,traitor,0,0,0,0
+preocupen,worry,0,0,0,0
+intereses,interests,0,0,0,0
+sexual,sexual,0,0,0,0
+regalito,little gift,0,0,0,0
+evidencia,evidence,0,0,0,0
+conveniente,convenient,0,0,0,0
+hablen,talk,0,0,0,0
+trató,tried,0,0,0,0
+huellas,footprints,0,0,0,0
+levante,lift,0,0,0,0
+bote,boat,0,0,0,0
+hazte,make yourself,0,0,0,0
+pagarle,pay him,0,0,0,0
+mírate,look at yourself,0,0,0,0
+pidas,ask for,0,0,0,0
+explique,explain,0,0,0,0
+piedras,stones,0,0,0,0
+prefiere,prefers,0,0,0,0
+merecen,deserve,0,0,0,0
+cuadra,block,0,0,0,0
+arrepiento,regret,0,0,0,0
+marcar,mark,0,0,0,0
+vendió,sold,0,0,0,0
+rumbo,course,0,0,0,0
+asumir,assume,0,0,0,0
+bonitos,beautiful,0,0,0,0
+preocupados,worried,0,0,0,0
+circo,circus,0,0,0,0
+ciertas,certain,0,0,0,0
+revisando,reviewing,0,0,0,0
+descubrió,discovered,0,0,0,0
+grano,grain,0,0,0,0
+mandas,you send,0,0,0,0
+enterrar,bury,0,0,0,0
+dirás,you will say,0,0,0,0
+valen,are worth,0,0,0,0
+directa,direct,0,0,0,0
+piensen,think,0,0,0,0
+contaron,told,0,0,0,0
+supieras,you knew,0,0,0,0
+vendido,sold,0,0,0,0
+abandonado,abandoned,0,0,0,0
+sufrimiento,suffering,0,0,0,0
+podremos,we can,0,0,0,0
+jugamos,we play,0,0,0,0
+fotografía,photography,0,0,0,0
+entras,you enter,0,0,0,0
+presentado,presented,0,0,0,0
+alarma,alarm,0,0,0,0
+muestras,samples,0,0,0,0
+piezas,pieces,0,0,0,0
+camiseta,t-shirt,0,0,0,0
+firmes,firms,0,0,0,0
+harás,you will do,0,0,0,0
+daré,I will give,0,0,0,0
+guardo,I keep,0,0,0,0
+abiertos,open,0,0,0,0
+antecedentes,background,0,0,0,0
+cambiamos,we change,0,0,0,0
+labios,lips,0,0,0,0
+escapa,escapes,0,0,0,0
+cargado,loaded,0,0,0,0
+mercancía,merchandise,0,0,0,0
+gol,goal,0,0,0,0
+fiscal,prosecutor,0,0,0,0
+bronca,anger,0,0,0,0
+república,republic,0,0,0,0
+pobrecita,poor little thing,0,0,0,0
+canciones,songs,0,0,0,0
+quietos,still,0,0,0,0
+amas,love,0,0,0,0
+extrañar,miss,0,0,0,0
+matarlo,kill him,0,0,0,0
+entregó,delivered,0,0,0,0
+regresó,returned,0,0,0,0
+bárbaro,barbarian,0,0,0,0
+santos,saints,0,0,0,0
+manejo,management,0,0,0,0
+demonio,demon,0,0,0,0
+leyes,laws,0,0,0,0
+conocerlo,meet him,0,0,0,0
+ponernos,put on,0,0,0,0
+ministerio,ministry,0,0,0,0
+ilusiones,illusions,0,0,0,0
+conseguiste,you got,0,0,0,0
+sacarte,take out,0,0,0,0
+sana,heals,0,0,0,0
+abrí,I opened,0,0,0,0
+adivina,guess,0,0,0,0
+mientas,while you lie,0,0,0,0
+ayuden,help,0,0,0,0
+inversión,investment,0,0,0,0
+graves,serious,0,0,0,0
+dispara,shoots,0,0,0,0
+culpables,guilty,0,0,0,0
+decirnos,tell us,0,0,0,0
+pierdes,lose,0,0,0,0
+avisó,he/she notified,0,0,0,0
+límites,limits,0,0,0,0
+medias,stockings,0,0,0,0
+mochila,backpack,0,0,0,0
+lágrimas,tears,0,0,0,0
+cogido,taken,0,0,0,0
+preparo,I prepare,0,0,0,0
+valores,values,0,0,0,0
+ciego,blind,0,0,0,0
+casé,I married,0,0,0,0
+colegas,colleagues,0,0,0,0
+favorita,favorite,0,0,0,0
+marcas,brands,0,0,0,0
+plazo,term,0,0,0,0
+pulso,pulse,0,0,0,0
+copas,cups,0,0,0,0
+caí,I fell,0,0,0,0
+seco,dry,0,0,0,0
+caída,fall,0,0,0,0
+entenderlo,understand it,0,0,0,0
+obtener,get,0,0,0,0
+lógica,logic,0,0,0,0
+nace,is born,0,0,0,0
+cientos,hundreds,0,0,0,0
+cajón,drawer,0,0,0,0
+pequeñas,small,0,0,0,0
+tendrían,would have,0,0,0,0
+nacimiento,birth,0,0,0,0
+político,political,0,0,0,0
+celosa,jealous,0,0,0,0
+gonzález,González,0,0,0,0
+ratas,rats,0,0,0,0
+lleguen,arrive,0,0,0,0
+bendito,blessed,0,0,0,0
+presa,prisoner,0,0,0,0
+colmo,last straw,0,0,0,0
+huyendo,escaping,0,0,0,0
+condena,condemnation,0,0,0,0
+representante,representative,0,0,0,0
+prometió,promised,0,0,0,0
+creerlo,believe it,0,0,0,0
+porfa,please,0,0,0,0
+sois,you are,0,0,0,0
+fábrica,factory,0,0,0,0
+huir,escape,0,0,0,0
+rastro,trace,0,0,0,0
+amenazó,threatened,0,0,0,0
+celebrando,celebrating,0,0,0,0
+universo,universe,0,0,0,0
+sagrado,sacred,0,0,0,0
+amenazas,threats,0,0,0,0
+importar,to matter,0,0,0,0
+acostumbrada,used to,0,0,0,0
+acerques,approach,0,0,0,0
+bosque,forest,0,0,0,0
+testimonio,testimony,0,0,0,0
+sacan,take out,0,0,0,0
+pasillo,aisle,0,0,0,0
+cumpla,fulfill,0,0,0,0
+cercano,near,0,0,0,0
+verlas,see them,0,0,0,0
+traemos,we bring,0,0,0,0
+arrancar,start,0,0,0,0
+encontrarme,find me,0,0,0,0
+soñé,I dreamed,0,0,0,0
+suficientemente,sufficiently,0,0,0,0
+aprovecha,take advantage,0,0,0,0
+arrepentido,repentant,0,0,0,0
+hombro,shoulder,0,0,0,0
+pantalla,screen,0,0,0,0
+profesión,profession,0,0,0,0
+montado,assembled,0,0,0,0
+platos,dishes,0,0,0,0
+enseñado,taught,0,0,0,0
+pongamos,let's put,0,0,0,0
+popular,popular,0,0,0,0
+saldrá,will come out,0,0,0,0
+querría,would want,0,0,0,0
+relacionado,related,0,0,0,0
+saltar,jump,0,0,0,0
+pondría,would put,0,0,0,0
+adelantado,advanced,0,0,0,0
+aproximadamente,approximately,0,0,0,0
+representa,represents,0,0,0,0
+probado,tried,0,0,0,0
+izquierdo,left,0,0,0,0
+guía,guide,0,0,0,0
+colombia,Colombia,0,0,0,0
+oyó,heard,0,0,0,0
+podés,you can,0,0,0,0
+marta,Marta,0,0,0,0
+cállese,shut up,0,0,0,0
+celda,cell,0,0,0,0
+sobrino,nephew,0,0,0,0
+delicioso,delicious,0,0,0,0
+cuide,take care,0,0,0,0
+lobo,wolf,0,0,0,0
+mandaste,you sent,0,0,0,0
+bajen,lower,0,0,0,0
+venís,you come,0,0,0,0
+traté,I tried,0,0,0,0
+entierro,burial,0,0,0,0
+creyó,believed,0,0,0,0
+monte,mount,0,0,0,0
+enamoré,I fell in love,0,0,0,0
+sucia,dirty,0,0,0,0
+ofreció,offered,0,0,0,0
+echamos,we throw,0,0,0,0
+paraíso,paradise,0,0,0,0
+pasaporte,passport,0,0,0,0
+decírselo,tell him,0,0,0,0
+acompañas,accompany,0,0,0,0
+tremenda,tremendous,0,0,0,0
+consta,consists,0,0,0,0
+oficiales,officials,0,0,0,0
+prometiste,you promised,0,0,0,0
+buscó,looked for,0,0,0,0
+pum,bang,0,0,0,0
+helado,ice cream,0,0,0,0
+palacio,palace,0,0,0,0
+actos,acts,0,0,0,0
+parejas,couples,0,0,0,0
+luchando,fighting,0,0,0,0
+margen,margin,0,0,0,0
+abandonó,abandoned,0,0,0,0
+cubrir,cover,0,0,0,0
+tirada,shot,0,0,0,0
+menores,smaller,0,0,0,0
+demuestra,demonstrates,0,0,0,0
+despertó,woke up,0,0,0,0
+humanidad,humankind,0,0,0,0
+visión,vision,0,0,0,0
+once,eleven,0,0,0,0
+función,function,0,0,0,0
+miran,look,0,0,0,0
+importe,amount,0,0,0,0
+cinturón,belt,0,0,0,0
+miraba,looked,0,0,0,0
+okay,okay,0,0,0,0
+aló,hello,0,0,0,0
+mamita,mommy,0,0,0,0
+fernando,Fernando,0,0,0,0
+joda,joke,0,0,0,0
+che,hey,0,0,0,0
+hey,hey,0,0,0,0
+hermanita,little sister,0,0,0,0
+hostia,host,0,0,0,0
+lealtad,loyalty,0,0,0,0
+suegra,mother-in-law,0,0,0,0
+intenciones,intentions,0,0,0,0
+amenazando,threatening,0,0,0,0
+entiendas,understand,0,0,0,0
+correo,mail,0,0,0,0
+atacar,attack,0,0,0,0
+poderoso,powerful,0,0,0,0
+casarme,marry,0,0,0,0
+supiste,you knew,0,0,0,0
+declaraciones,declarations,0,0,0,0
+funcionando,functioning,0,0,0,0
+provecho,advantage,0,0,0,0
+aburrida,bored,0,0,0,0
+mandando,sending,0,0,0,0
+quitaron,they removed,0,0,0,0
+bañar,bathe,0,0,0,0
+cumpliendo,complying,0,0,0,0
+viuda,widow,0,0,0,0
+tenerla,have her,0,0,0,0
+miembros,members,0,0,0,0
+decidiste,you decided,0,0,0,0
+arroz,rice,0,0,0,0
+arreglando,fixing,0,0,0,0
+contestó,answered,0,0,0,0
+salvaste,you saved,0,0,0,0
+sucedido,happened,0,0,0,0
+desea,wants,0,0,0,0
+oyendo,hearing,0,0,0,0
+obsesión,obsession,0,0,0,0
+funcione,works,0,0,0,0
+hablarme,talk to me,0,0,0,0
+agarro,I grab,0,0,0,0
+diferencias,differences,0,0,0,0
+correcta,correct,0,0,0,0
+creciendo,growing,0,0,0,0
+responsables,responsible,0,0,0,0
+traerme,bring me,0,0,0,0
+colega,colleague,0,0,0,0
+círculo,circle,0,0,0,0
+esperándote,waiting for you,0,0,0,0
+verdes,green,0,0,0,0
+postre,dessert,0,0,0,0
+máxima,maximum,0,0,0,0
+pastilla,pill,0,0,0,0
+levanto,I lift,0,0,0,0
+beneficio,benefit,0,0,0,0
+pleno,full,0,0,0,0
+pego,I hit,0,0,0,0
+ponerlo,put it,0,0,0,0
+bajamos,we go down,0,0,0,0
+empiezas,you start,0,0,0,0
+duermo,I sleep,0,0,0,0
+iniciar,start,0,0,0,0
+saluda,greet,0,0,0,0
+vendo,I sell,0,0,0,0
+usan,they use,0,0,0,0
+actual,current,0,0,0,0
+cobra,charges,0,0,0,0
+gustaban,liked,0,0,0,0
+laura,Laura,0,0,0,0
+francisco,Francisco,0,0,0,0
+padrino,godfather,0,0,0,0
+bolas,balls,0,0,0,0
+jugada,move,0,0,0,0
+narices,noses,0,0,0,0
+aceptó,accepted,0,0,0,0
+bruto,gross,0,0,0,0
+príncipe,prince,0,0,0,0
+persiguiendo,chasing,0,0,0,0
+moviendo,moving,0,0,0,0
+despedirme,say goodbye to me,0,0,0,0
+agradecido,grateful,0,0,0,0
+sospechas,suspicions,0,0,0,0
+alerta,alert,0,0,0,0
+tiros,shots,0,0,0,0
+ábreme,open for me,0,0,0,0
+pescado,fish,0,0,0,0
+gallo,rooster,0,0,0,0
+juzgado,court,0,0,0,0
+amiguito,little friend,0,0,0,0
+contestas,you answer,0,0,0,0
+discreción,discretion,0,0,0,0
+colaboración,collaboration,0,0,0,0
+atreves,dare,0,0,0,0
+engañó,tricked,0,0,0,0
+terminan,end,0,0,0,0
+cometió,committed,0,0,0,0
+podéis,you can,0,0,0,0
+interesar,interest,0,0,0,0
+calmar,calm,0,0,0,0
+cáncer,cancer,0,0,0,0
+escondidas,hidden,0,0,0,0
+abuso,abuse,0,0,0,0
+decírtelo,tell you,0,0,0,0
+dispuestos,ready,0,0,0,0
+decida,decide,0,0,0,0
+alegre,happy,0,0,0,0
+riesgos,risks,0,0,0,0
+insiste,insist,0,0,0,0
+informar,inform,0,0,0,0
+serías,would be,0,0,0,0
+tuvieras,had,0,0,0,0
+agradable,pleasant,0,0,0,0
+preciso,precise,0,0,0,0
+sentirse,feel,0,0,0,0
+periódicos,newspapers,0,0,0,0
+presupuesto,budget,0,0,0,0
+fracaso,failure,0,0,0,0
+tranquilamente,calmly,0,0,0,0
+naranja,orange,0,0,0,0
+comió,ate,0,0,0,0
+comprando,buying,0,0,0,0
+sabor,taste,0,0,0,0
+principios,principles,0,0,0,0
+dilo,say it,0,0,0,0
+sabría,would know,0,0,0,0
+sintió,felt,0,0,0,0
+veníamos,we were coming,0,0,0,0
+normalmente,normally,0,0,0,0
+miembro,member,0,0,0,0
+escribiendo,writing,0,0,0,0
+físico,physical,0,0,0,0
+pintar,to paint,0,0,0,0
+enteren,find out,0,0,0,0
+llamarte,call you,0,0,0,0
+lluvia,rain,0,0,0,0
+trabajó,worked,0,0,0,0
+hablarlo,talk about it,0,0,0,0
+violento,violent,0,0,0,0
+resistencia,resistance,0,0,0,0
+avanzar,advance,0,0,0,0
+paró,stopped,0,0,0,0
+volvía,was returning,0,0,0,0
+alberto,Alberto,0,0,0,0
+carmen,Carmen,0,0,0,0
+cabrones,bastards,0,0,0,0
+ángeles,angels,0,0,0,0
+tantito,a little bit,0,0,0,0
+cálmese,calm down,0,0,0,0
+coca,cocaine,0,0,0,0
+parís,Paris,0,0,0,0
+enojado,angry,0,0,0,0
+advierto,I warn,0,0,0,0
+mas,more,0,0,0,0
+disparó,shot,0,0,0,0
+casita,little house,0,0,0,0
+arriesgar,to risk,0,0,0,0
+amores,loves,0,0,0,0
+piscina,pool,0,0,0,0
+balas,bullets,0,0,0,0
+institución,institution,0,0,0,0
+preocupar,to worry,0,0,0,0
+cementerio,cemetery,0,0,0,0
+mandamos,we send,0,0,0,0
+queréis,you want,0,0,0,0
+unidad,unit,0,0,0,0
+creyendo,believing,0,0,0,0
+ofreciendo,offering,0,0,0,0
+empresario,businessman,0,0,0,0
+fuentes,sources,0,0,0,0
+aparecido,appeared,0,0,0,0
+pedazos,pieces,0,0,0,0
+arruinar,ruin,0,0,0,0
+recibí,I received,0,0,0,0
+discutiendo,arguing,0,0,0,0
+comportamiento,behavior,0,0,0,0
+echas,throw,0,0,0,0
+acusado,accused,0,0,0,0
+acabando,ending,0,0,0,0
+borrar,erase,0,0,0,0
+inocentes,innocents,0,0,0,0
+rutina,routine,0,0,0,0
+expliqué,I explained,0,0,0,0
+llora,cries,0,0,0,0
+pagas,you pay,0,0,0,0
+tíos,uncles,0,0,0,0
+formal,formal,0,0,0,0
+objeto,object,0,0,0,0
+inconsciente,unconscious,0,0,0,0
+quiten,remove,0,0,0,0
+sonríe,smiles,0,0,0,0
+dudar,doubt,0,0,0,0
+llevarse,take away,0,0,0,0
+letras,letters,0,0,0,0
+caos,chaos,0,0,0,0
+botón,button,0,0,0,0
+llevarle,take him,0,0,0,0
+fines,ends,0,0,0,0
+tomaron,took,0,0,0,0
+elementos,elements,0,0,0,0
+mueren,die,0,0,0,0
+alternativa,alternative,0,0,0,0
+fechas,dates,0,0,0,0
+física,physical,0,0,0,0
+repartir,distribute,0,0,0,0
+llegará,will arrive,0,0,0,0
+clásico,classic,0,0,0,0
+contaba,told,0,0,0,0
+pensábamos,we thought,0,0,0,0
+iremos,we will go,0,0,0,0
+sufre,suffers,0,0,0,0
+daban,gave,0,0,0,0
+apunta,points,0,0,0,0
+hágame,make me,0,0,0,0
+muñeca,doll,0,0,0,0
+ramón,Ramón,0,0,0,0
+secuestro,kidnapping,0,0,0,0
+políticos,politicians,0,0,0,0
+producción,production,0,0,0,0
+empresas,companies,0,0,0,0
+cuidadito,careful,0,0,0,0
+auxilio,help,0,0,0,0
+actriz,actress,0,0,0,0
+afortunadamente,fortunately,0,0,0,0
+confíe,trust,0,0,0,0
+deudas,debt,0,0,0,0
+hueco,hole,0,0,0,0
+avisarle,notify him,0,0,0,0
+informado,informed,0,0,0,0
+explícame,explain to me,0,0,0,0
+dueños,owners,0,0,0,0
+armó,armed,0,0,0,0
+perdono,I forgive,0,0,0,0
+putos,whores,0,0,0,0
+favores,favors,0,0,0,0
+cueste,cost,0,0,0,0
+equipos,teams,0,0,0,0
+matas,you kill,0,0,0,0
+preguntarte,ask you,0,0,0,0
+matarte,kill you,0,0,0,0
+cuido,I take care,0,0,0,0
+afecta,affects,0,0,0,0
+estate,be,0,0,0,0
+judicial,judicial,0,0,0,0
+hablarte,talk to you,0,0,0,0
+cagado,shitted,0,0,0,0
+obras,works,0,0,0,0
+creído,believed,0,0,0,0
+pagué,I paid,0,0,0,0
+cumplió,fulfilled,0,0,0,0
+personalidad,personality,0,0,0,0
+reuniones,meetings,0,0,0,0
+separados,separated,0,0,0,0
+pagamos,we pay,0,0,0,0
+deporte,sport,0,0,0,0
+echan,throw,0,0,0,0
+licencia,license,0,0,0,0
+conflicto,conflict,0,0,0,0
+fantástico,fantastic,0,0,0,0
+imaginación,imagination,0,0,0,0
+quitan,remove,0,0,0,0
+ponle,put,0,0,0,0
+rías,laugh,0,0,0,0
+ayudan,help,0,0,0,0
+toquen,touch,0,0,0,0
+sorprendido,surprised,0,0,0,0
+volumen,volume,0,0,0,0
+buscaba,was looking for,0,0,0,0
+profunda,deep,0,0,0,0
+recorrer,travel,0,0,0,0
+borde,edge,0,0,0,0
+comandante,commander,0,0,0,0
+cartel,poster,0,0,0,0
+dama,lady,0,0,0,0
+laboratorio,laboratory,0,0,0,0
+l,L,0,0,0,0
+contéstame,answer me,0,0,0,0
+almuerzo,lunch,0,0,0,0
+agarre,grab,0,0,0,0
+operar,operate,0,0,0,0
+pregunte,ask,0,0,0,0
+rincón,corner,0,0,0,0
+rescatar,rescue,0,0,0,0
+clarísimo,very clear,0,0,0,0
+equivoco,I am wrong,0,0,0,0
+tela,fabric,0,0,0,0
+proponer,propose,0,0,0,0
+encuentren,find,0,0,0,0
+pacientes,patients,0,0,0,0
+aceptas,accept,0,0,0,0
+tesoro,treasure,0,0,0,0
+sacrificio,sacrifice,0,0,0,0
+comunicar,communicate,0,0,0,0
+sufrió,suffered,0,0,0,0
+juntar,collect,0,0,0,0
+nietos,grandchildren,0,0,0,0
+uñas,nails,0,0,0,0
+destruir,destroy,0,0,0,0
+entrenar,train,0,0,0,0
+atrevido,daring,0,0,0,0
+compramos,we bought,0,0,0,0
+besar,kiss,0,0,0,0
+impedir,prevent,0,0,0,0
+terminaron,ended,0,0,0,0
+atreve,dare,0,0,0,0
+rumores,rumors,0,0,0,0
+porqué,why,0,0,0,0
+mediodía,noon,0,0,0,0
+estuvieran,were,0,0,0,0
+rodeado,surrounded,0,0,0,0
+entregado,delivered,0,0,0,0
+enseñaron,taught,0,0,0,0
+sencilla,simple,0,0,0,0
+sabrás,you will know,0,0,0,0
+acordé,remembered,0,0,0,0
+millonario,millionaire,0,0,0,0
+cortó,cut,0,0,0,0
+doler,hurt,0,0,0,0
+oficialmente,officially,0,0,0,0
+vestir,to dress,0,0,0,0
+empezaste,you started,0,0,0,0
+dedicar,dedicate,0,0,0,0
+escuchamos,we listen,0,0,0,0
+muebles,furniture,0,0,0,0
+permitido,allowed,0,0,0,0
+quedaría,would stay,0,0,0,0
+importaba,mattered,0,0,0,0
+hablara,would talk,0,0,0,0
+falte,lack,0,0,0,0
+barra,bar,0,0,0,0
+entraste,you entered,0,0,0,0
+excepción,exception,0,0,0,0
+comí,I ate,0,0,0,0
+encontrarte,find you,0,0,0,0
+llenos,full,0,0,0,0
+cuarta,fourth,0,0,0,0
+cruzado,crossed,0,0,0,0
+intentamos,we try,0,0,0,0
+sonreír,smile,0,0,0,0
+repite,repeats,0,0,0,0
+lana,wool,0,0,0,0
+rapidito,quickly,0,0,0,0
+oso,bear,0,0,0,0
+soldado,soldier,0,0,0,0
+sopa,soup,0,0,0,0
+mentirosa,liar,0,0,0,0
+jugo,juice,0,0,0,0
+funeral,funeral,0,0,0,0
+reunir,gather,0,0,0,0
+herencia,inheritance,0,0,0,0
+fiebre,fever,0,0,0,0
+comentario,comment,0,0,0,0
+mismísimo,very,0,0,0,0
+preocupación,concern,0,0,0,0
+panza,belly,0,0,0,0
+líos,troubles,0,0,0,0
+peleas,fights,0,0,0,0
+logré,I achieved,0,0,0,0
+paren,stop,0,0,0,0
+veneno,poison,0,0,0,0
+molestando,bothering,0,0,0,0
+trabajadores,workers,0,0,0,0
+engañando,deceiving,0,0,0,0
+merecía,deserved,0,0,0,0
+llévame,take me,0,0,0,0
+excusas,excuses,0,0,0,0
+escucharon,they heard,0,0,0,0
+salsa,sauce,0,0,0,0
+negativo,negative,0,0,0,0
+ausencia,absence,0,0,0,0
+crean,create,0,0,0,0
+reaccionar,react,0,0,0,0
+reacciona,reacts,0,0,0,0
+sentirme,feel,0,0,0,0
+tormenta,storm,0,0,0,0
+tecnología,technology,0,0,0,0
+ayudé,I helped,0,0,0,0
+saludo,greeting,0,0,0,0
+confundido,confused,0,0,0,0
+quisieron,they wanted,0,0,0,0
+recibiendo,receiving,0,0,0,0
+ladrones,thieves,0,0,0,0
+breve,brief,0,0,0,0
+creías,you believed,0,0,0,0
+económica,economic,0,0,0,0
+pedirles,ask them,0,0,0,0
+ríes,laugh,0,0,0,0
+cuantas,how many,0,0,0,0
+escuchan,listen,0,0,0,0
+vivió,lived,0,0,0,0
+engañado,deceived,0,0,0,0
+demasiados,too many,0,0,0,0
+esperanzas,hopes,0,0,0,0
+cabezas,heads,0,0,0,0
+impecable,impeccable,0,0,0,0
+pierden,lose,0,0,0,0
+truco,trick,0,0,0,0
+ciencia,science,0,0,0,0
+acompañarnos,join us,0,0,0,0
+indica,indicates,0,0,0,0
+apagar,turn off,0,0,0,0
+cierro,close,0,0,0,0
+recorrido,tour,0,0,0,0
+elige,choose,0,0,0,0
+humana,human,0,0,0,0
+paran,stop,0,0,0,0
+daniel,Daniel,0,0,0,0
+hum,hum,0,0,0,0
+martín,Martin,0,0,0,0
+hacés,you do,0,0,0,0
+mexicano,Mexican,0,0,0,0
+fuga,escape,0,0,0,0
+coraje,courage,0,0,0,0
+zorra,vixen,0,0,0,0
+cafecito,coffee,0,0,0,0
+joyas,jewels,0,0,0,0
+re,re,0,0,0,0
+vestidos,dresses,0,0,0,0
+caballos,horses,0,0,0,0
+demanda,demand,0,0,0,0
+grabación,recording,0,0,0,0
+callada,quiet,0,0,0,0
+ojitos,little eyes,0,0,0,0
+renuncia,resignation,0,0,0,0
+encontrarla,find her,0,0,0,0
+audiencia,audience,0,0,0,0
+propiedades,properties,0,0,0,0
+consiga,get,0,0,0,0
+pacto,pact,0,0,0,0
+delitos,crimes,0,0,0,0
+terminaste,finished,0,0,0,0
+hundir,sink,0,0,0,0
+contrató,hired,0,0,0,0
+actor,actor,0,0,0,0
+juegos,games,0,0,0,0
+mintió,he lied,0,0,0,0
+pistas,clues,0,0,0,0
+caes,you fall,0,0,0,0
+acompañarme,accompany me,0,0,0,0
+española,Spanish,0,0,0,0
+entrenamiento,training,0,0,0,0
+enamoró,fell in love,0,0,0,0
+acerque,approach,0,0,0,0
+busques,you search,0,0,0,0
+moneda,coin,0,0,0,0
+tarda,takes,0,0,0,0
+envió,he sent,0,0,0,0
+verse,see each other,0,0,0,0
+lindos,cute,0,0,0,0
+malentendido,misunderstanding,0,0,0,0
+esperabas,you expected,0,0,0,0
+procedimiento,procedure,0,0,0,0
+cuerda,rope,0,0,0,0
+dosis,dose,0,0,0,0
+presentes,presents,0,0,0,0
+intenso,intense,0,0,0,0
+cabello,hair,0,0,0,0
+explotar,explode,0,0,0,0
+durmió,slept,0,0,0,0
+escribí,I wrote,0,0,0,0
+exterior,exterior,0,0,0,0
+escaleras,stairs,0,0,0,0
+considero,I consider,0,0,0,0
+contarles,tell them,0,0,0,0
+rendir,perform,0,0,0,0
+adelanto,advance,0,0,0,0
+dejarnos,leave us,0,0,0,0
+rencor,resentment,0,0,0,0
+metro,subway,0,0,0,0
+vela,candle,0,0,0,0
+abriendo,opening,0,0,0,0
+dejaría,would leave,0,0,0,0
+aparentemente,apparently,0,0,0,0
+grabado,recorded,0,0,0,0
+ciertos,certain,0,0,0,0
+abras,you open,0,0,0,0
+juguetes,toys,0,0,0,0
+limpieza,cleaning,0,0,0,0
+obligado,obliged,0,0,0,0
+escalera,staircase,0,0,0,0
+botellas,bottles,0,0,0,0
+ocasiones,occasions,0,0,0,0
+posibles,possible,0,0,0,0
+asustar,to scare,0,0,0,0
+controla,controls,0,0,0,0
+mezcla,mix,0,0,0,0
+avance,advance,0,0,0,0
+jugado,played,0,0,0,0
+requiere,requires,0,0,0,0
+abiertas,open,0,0,0,0
+bebe,baby,0,0,0,0
+jueves,Thursday,0,0,0,0
+colgado,hung,0,0,0,0
+definitiva,definitive,0,0,0,0
+pantalón,pants,0,0,0,0
+suele,usually,0,0,0,0
+contratado,hired,0,0,0,0
+genera,generates,0,0,0,0
+mijo,my son,0,0,0,0
+fresca,fresh,0,0,0,0
+criminales,criminals,0,0,0,0
+dele,give,0,0,0,0
+estupideces,stupidities,0,0,0,0
+póngase,put on,0,0,0,0
+adoro,I adore,0,0,0,0
+bello,beautiful,0,0,0,0
+cargos,charges,0,0,0,0
+lindas,pretty,0,0,0,0
+puras,pure,0,0,0,0
+sacarla,take her out,0,0,0,0
+enojar,anger,0,0,0,0
+rescate,rescue,0,0,0,0
+igualito,just like,0,0,0,0
+informes,reports,0,0,0,0
+protocolo,protocol,0,0,0,0
+soltera,single,0,0,0,0
+brindemos,let's toast,0,0,0,0
+locas,crazy,0,0,0,0
+francia,France,0,0,0,0
+escucharte,listen to you,0,0,0,0
+pegue,hit,0,0,0,0
+arriesgado,risky,0,0,0,0
+despierte,wake up,0,0,0,0
+vieras,you would see,0,0,0,0
+sesión,session,0,0,0,0
+delicada,delicate,0,0,0,0
+sentada,sitting,0,0,0,0
+aceite,oil,0,0,0,0
+apuesto,I bet,0,0,0,0
+fácilmente,easily,0,0,0,0
+escape,escape,0,0,0,0
+saques,you take out,0,0,0,0
+echen,throw,0,0,0,0
+dejarle,leave him,0,0,0,0
+eterno,eternal,0,0,0,0
+entren,enter,0,0,0,0
+terminemos,let's finish,0,0,0,0
+grado,degree,0,0,0,0
+triunfo,triumph,0,0,0,0
+resuelto,resolved,0,0,0,0
+haberla,have her,0,0,0,0
+encontremos,find,0,0,0,0
+ronda,round,0,0,0,0
+ponme,put me,0,0,0,0
+reales,real,0,0,0,0
+términos,terms,0,0,0,0
+salvado,saved,0,0,0,0
+adolescente,teenager,0,0,0,0
+responsabilidades,responsibilities,0,0,0,0
+conclusión,conclusion,0,0,0,0
+sorprendió,surprised,0,0,0,0
+asusta,scares,0,0,0,0
+duelo,duel,0,0,0,0
+in,in,0,0,0,0
+confusión,confusion,0,0,0,0
+ordenar,order,0,0,0,0
+escapado,escaped,0,0,0,0
+dirigir,direct,0,0,0,0
+llenas,full,0,0,0,0
+trabajé,I worked,0,0,0,0
+carreras,races,0,0,0,0
+identificar,identify,0,0,0,0
+ansiedad,anxiety,0,0,0,0
+volvimos,we returned,0,0,0,0
+vínculo,link,0,0,0,0
+estupendo,stupendous,0,0,0,0
+subido,uploaded,0,0,0,0
+ofrecido,offered,0,0,0,0
+duró,lasted,0,0,0,0
+seca,dry,0,0,0,0
+aspecto,aspect,0,0,0,0
+dedico,I dedicate,0,0,0,0
+asusté,I scared,0,0,0,0
+encantaba,loved,0,0,0,0
+martes,Tuesday,0,0,0,0
+ofrecieron,offered,0,0,0,0
+influencia,influence,0,0,0,0
+cortado,cut,0,0,0,0
+entendía,understood,0,0,0,0
+man,man,0,0,0,0
+andrés,Andrés,0,0,0,0
+ave,bird,0,0,0,0
+demonios,demons,0,0,0,0
+artistas,artists,0,0,0,0
+marcado,marked,0,0,0,0
+francés,French,0,0,0,0
+bájate,get down,0,0,0,0
+cuñado,brother-in-law,0,0,0,0
+voto,vote,0,0,0,0
+ayúdenme,help me,0,0,0,0
+cancelar,cancel,0,0,0,0
+andabas,you were,0,0,0,0
+defendiendo,defending,0,0,0,0
+admiro,I admire,0,0,0,0
+mono,monkey,0,0,0,0
+aguante,endurance,0,0,0,0
+gallina,hen,0,0,0,0
+gasolina,gasoline,0,0,0,0
+verdaderamente,truly,0,0,0,0
+siéntense,sit down,0,0,0,0
+opinas,you think,0,0,0,0
+equivoca,wrong,0,0,0,0
+tarjetas,cards,0,0,0,0
+hoja,sheet,0,0,0,0
+habitaciones,rooms,0,0,0,0
+avísame,let me know,0,0,0,0
+grosero,rude,0,0,0,0
+cumplí,I fulfilled,0,0,0,0
+americano,American,0,0,0,0
+ceremonia,ceremony,0,0,0,0
+eché,I threw,0,0,0,0
+obligó,forced,0,0,0,0
+ganador,winner,0,0,0,0
+tomada,taken,0,0,0,0
+asustaste,you scared,0,0,0,0
+eventos,events,0,0,0,0
+arena,sand,0,0,0,0
+disponible,available,0,0,0,0
+agarré,I grabbed,0,0,0,0
+compraste,you bought,0,0,0,0
+enamorados,in love,0,0,0,0
+suma,sum,0,0,0,0
+suyas,theirs,0,0,0,0
+curar,to heal,0,0,0,0
+llevara,take,0,0,0,0
+utilizando,using,0,0,0,0
+saliera,leave,0,0,0,0
+bastantes,quite a few,0,0,0,0
+tenerlos,have them,0,0,0,0
+reputación,reputation,0,0,0,0
+incómoda,uncomfortable,0,0,0,0
+idiotas,idiots,0,0,0,0
+perdieron,they lost,0,0,0,0
+amanecer,dawn,0,0,0,0
+alas,wings,0,0,0,0
+ducha,shower,0,0,0,0
+entrevistas,interviews,0,0,0,0
+pusiera,put,0,0,0,0
+conociera,knew,0,0,0,0
+sordo,deaf,0,0,0,0
+abuelos,grandparents,0,0,0,0
+usó,used,0,0,0,0
+líneas,lines,0,0,0,0
+robé,I stole,0,0,0,0
+soñar,to dream,0,0,0,0
+policial,police,0,0,0,0
+próximos,next,0,0,0,0
+recibimos,we received,0,0,0,0
+actividad,activity,0,0,0,0
+documentación,documentation,0,0,0,0
+usado,used,0,0,0,0
+asustando,scaring,0,0,0,0
+estarían,would be,0,0,0,0
+dejaré,I will leave,0,0,0,0
+quema,burn,0,0,0,0
+solucionado,solved,0,0,0,0
+nerviosos,nervous,0,0,0,0
+eligió,chose,0,0,0,0
+mientes,you lie,0,0,0,0
+quemado,burned,0,0,0,0
+dedicas,dedicate,0,0,0,0
+miento,I lie,0,0,0,0
+esfuerzos,efforts,0,0,0,0
+veíamos,we saw,0,0,0,0
+apartamento,apartment,0,0,0,0
+créame,believe me,0,0,0,0
+david,David,0,0,0,0
+ayúdeme,help me,0,0,0,0
+ubicación,location,0,0,0,0
+sánchez,Sánchez,0,0,0,0
+chofer,driver,0,0,0,0
+conteste,answer,0,0,0,0
+señoritas,ladies,0,0,0,0
+súbete,get on,0,0,0,0
+desaparición,disappearance,0,0,0,0
+vecina,neighbor,0,0,0,0
+escoger,choose,0,0,0,0
+tigre,tiger,0,0,0,0
+martínez,Martínez,0,0,0,0
+acostar,lie down,0,0,0,0
+perrito,puppy,0,0,0,0
+interesada,interested,0,0,0,0
+vuestra,your,0,0,0,0
+matamos,we kill,0,0,0,0
+pensión,pension,0,0,0,0
+cuentos,stories,0,0,0,0
+invento,invention,0,0,0,0
+viví,I lived,0,0,0,0
+noto,I notice,0,0,0,0
+déjelo,leave it,0,0,0,0
+bendita,blessed,0,0,0,0
+háblame,talk to me,0,0,0,0
+artículo,article,0,0,0,0
+orejas,ears,0,0,0,0
+prometes,you promise,0,0,0,0
+garantía,warranty,0,0,0,0
+ruedas,wheels,0,0,0,0
+interrogatorio,interrogation,0,0,0,0
+cuales,which,0,0,0,0
+batería,battery,0,0,0,0
+insisto,I insist,0,0,0,0
+logra,achieves,0,0,0,0
+vinieras,you came,0,0,0,0
+unión,union,0,0,0,0
+devuelvo,I return,0,0,0,0
+hueso,bone,0,0,0,0
+enviado,sent,0,0,0,0
+menudo,often,0,0,0,0
+gustos,tastes,0,0,0,0
+grites,you shout,0,0,0,0
+llamarlo,call him,0,0,0,0
+recuerden,remember,0,0,0,0
+golpeó,hit,0,0,0,0
+queja,complaint,0,0,0,0
+termines,you finish,0,0,0,0
+acercarse,approach,0,0,0,0
+hicieras,you did,0,0,0,0
+firmó,signed,0,0,0,0
+perdamos,we lose,0,0,0,0
+bandera,flag,0,0,0,0
+pegarle,hit him,0,0,0,0
+garganta,throat,0,0,0,0
+explicas,explain,0,0,0,0
+llevaban,they were carrying,0,0,0,0
+miseria,misery,0,0,0,0
+soñado,dreamed,0,0,0,0
+sientan,feel,0,0,0,0
+reconocido,recognized,0,0,0,0
+rápidamente,quickly,0,0,0,0
+intervención,intervention,0,0,0,0
+afectado,affected,0,0,0,0
+moverse,move,0,0,0,0
+necesitábamos,we needed,0,0,0,0
+tiré,I threw,0,0,0,0
+fumando,smoking,0,0,0,0
+javier,Javier,0,0,0,0
+tomás,Tomás,0,0,0,0
+mexicana,Mexican,0,0,0,0
+bruja,witch,0,0,0,0
+mexicanos,Mexicans,0,0,0,0
+bodega,warehouse,0,0,0,0
+ingeniero,engineer,0,0,0,0
+rodríguez,Rodríguez,0,0,0,0
+videos,videos,0,0,0,0
+cagar,shit,0,0,0,0
+suelte,release,0,0,0,0
+advertí,I warned,0,0,0,0
+bienes,goods,0,0,0,0
+cayeron,they fell,0,0,0,0
+entregue,deliver,0,0,0,0
+cansé,I got tired,0,0,0,0
+p,P,0,0,0,0
+construcción,construction,0,0,0,0
+traicionó,he betrayed,0,0,0,0
+recompensa,reward,0,0,0,0
+prométeme,promise me,0,0,0,0
+agradecerle,thank him,0,0,0,0
+homicidio,homicide,0,0,0,0
+comentarios,comments,0,0,0,0
+conversar,converse,0,0,0,0
+asqueroso,disgusting,0,0,0,0
+damas,ladies,0,0,0,0
+presos,prisoners,0,0,0,0
+the,the,0,0,0,0
+rezar,pray,0,0,0,0
+crema,cream,0,0,0,0
+soltero,single,0,0,0,0
+muestro,I show,0,0,0,0
+pretende,intends,0,0,0,0
+invertir,invest,0,0,0,0
+claros,clear,0,0,0,0
+encargó,he was in charge,0,0,0,0
+poderosa,powerful,0,0,0,0
+agradecerte,thank you,0,0,0,0
+comedor,dining room,0,0,0,0
+déjanos,let us,0,0,0,0
+apetece,feel like,0,0,0,0
+apuesta,bet,0,0,0,0
+pónganse,put on,0,0,0,0
+acepté,I accepted,0,0,0,0
+criatura,creature,0,0,0,0
+clarito,very clear,0,0,0,0
+escondida,hidden,0,0,0,0
+merecemos,we deserve,0,0,0,0
+traigas,bring,0,0,0,0
+tragar,swallow,0,0,0,0
+trajimos,we brought,0,0,0,0
+paguen,pay,0,0,0,0
+administración,administration,0,0,0,0
+pareciera,it would seem,0,0,0,0
+produce,produces,0,0,0,0
+necesidades,needs,0,0,0,0
+plantas,plants,0,0,0,0
+aceptarlo,accept it,0,0,0,0
+técnico,technician,0,0,0,0
+venda,bandage,0,0,0,0
+joya,jewel,0,0,0,0
+sitios,sites,0,0,0,0
+corbata,tie,0,0,0,0
+decírmelo,tell me,0,0,0,0
+riendo,laughing,0,0,0,0
+pegué,I hit,0,0,0,0
+refería,referred,0,0,0,0
+toco,I touch,0,0,0,0
+ciudades,cities,0,0,0,0
+duerma,sleep,0,0,0,0
+abrimos,we open,0,0,0,0
+mental,mental,0,0,0,0
+comentar,comment,0,0,0,0
+realizar,perform,0,0,0,0
+doloroso,painful,0,0,0,0
+vigilar,watch,0,0,0,0
+generar,generate,0,0,0,0
+herramientas,tools,0,0,0,0
+sueltes,release,0,0,0,0
+considera,considers,0,0,0,0
+normales,normal,0,0,0,0
+mañanas,mornings,0,0,0,0
+podrido,rotten,0,0,0,0
+conforme,according,0,0,0,0
+hablaban,they spoke,0,0,0,0
+entorno,environment,0,0,0,0
+crece,grows,0,0,0,0
+acababa,was finishing,0,0,0,0
+enseña,teaches,0,0,0,0
+acordaba,remembered,0,0,0,0
+castillo,castle,0,0,0,0
+cuénteme,tell me,0,0,0,0
+concha,shell,0,0,0,0
+carajos,damn,0,0,0,0
+cantante,singer,0,0,0,0
+bendiga,bless,0,0,0,0
+leal,loyal,0,0,0,0
+directora,director,0,0,0,0
+atrapar,catch,0,0,0,0
+chile,Chile,0,0,0,0
+isla,island,0,0,0,0
+jodiendo,messing around,0,0,0,0
+tranquilas,calm,0,0,0,0
+cagada,shit,0,0,0,0
+párate,stand up,0,0,0,0
+escondiendo,hiding,0,0,0,0
+debiste,you should have,0,0,0,0
+incendio,fire,0,0,0,0
+servirle,serve him,0,0,0,0
+traicionar,betray,0,0,0,0
+acompáñeme,accompany me,0,0,0,0
+agradecida,grateful,0,0,0,0
+suéltalo,let it go,0,0,0,0
+limón,lemon,0,0,0,0
+confundida,confused,0,0,0,0
+andamos,we walk,0,0,0,0
+raya,line,0,0,0,0
+sospechar,suspect,0,0,0,0
+casarte,marry,0,0,0,0
+asustada,scared,0,0,0,0
+reto,challenge,0,0,0,0
+deseos,wishes,0,0,0,0
+cristo,Christ,0,0,0,0
+oreja,ear,0,0,0,0
+injusticia,injustice,0,0,0,0
+actividades,activities,0,0,0,0
+estuviéramos,we were,0,0,0,0
+desgraciadamente,unfortunately,0,0,0,0
+exagerado,exaggerated,0,0,0,0
+prepare,prepare,0,0,0,0
+conste,record,0,0,0,0
+equivocando,making a mistake,0,0,0,0
+preferido,preferred,0,0,0,0
+autobús,bus,0,0,0,0
+celebración,celebration,0,0,0,0
+valga,is worth,0,0,0,0
+ciudadano,citizen,0,0,0,0
+asesinado,murdered,0,0,0,0
+ayudara,helped,0,0,0,0
+cultura,culture,0,0,0,0
+muevo,I move,0,0,0,0
+cuidarme,take care of me,0,0,0,0
+promesas,promises,0,0,0,0
+salidas,exits,0,0,0,0
+conversaciones,conversations,0,0,0,0
+recuperación,recovery,0,0,0,0
+masa,dough,0,0,0,0
+indicado,indicated,0,0,0,0
+querrá,will want,0,0,0,0
+receta,recipe,0,0,0,0
+protegido,protected,0,0,0,0
+sígueme,follow me,0,0,0,0
+reconocimiento,recognition,0,0,0,0
+raíz,root,0,0,0,0
+pensaría,would think,0,0,0,0
+principales,main,0,0,0,0
+falleció,passed away,0,0,0,0
+hilo,thread,0,0,0,0
+mínima,minimal,0,0,0,0
+bajes,get down,0,0,0,0
+harán,they will do,0,0,0,0
+arreglarlo,fix it,0,0,0,0
+efectos,effects,0,0,0,0
+naciste,you were born,0,0,0,0
+roba,steals,0,0,0,0
+impacto,impact,0,0,0,0
+causas,causes,0,0,0,0
+ventanas,windows,0,0,0,0
+volveremos,we will return,0,0,0,0
+pisar,step,0,0,0,0
+regalado,given,0,0,0,0
+neta,truth,0,0,0,0
+pará,stop,0,0,0,0
+franco,Frank,0,0,0,0
+entendés,you understand,0,0,0,0
+selva,jungle,0,0,0,0
+sobrina,niece,0,0,0,0
+candidato,candidate,0,0,0,0
+tequila,tequila,0,0,0,0
+galán,leading man,0,0,0,0
+amiguita,little friend,0,0,0,0
+soldados,soldiers,0,0,0,0
+espéreme,wait for me,0,0,0,0
+gimnasio,gym,0,0,0,0
+nieta,granddaughter,0,0,0,0
+suéltala,let her go,0,0,0,0
+cancha,field,0,0,0,0
+pizza,pizza,0,0,0,0
+préstamo,loan,0,0,0,0
+maquillaje,makeup,0,0,0,0
+armados,armed,0,0,0,0
+mosca,fly,0,0,0,0
+fan,fan,0,0,0,0
+materiales,materials,0,0,0,0
+trabaje,I work,0,0,0,0
+posiblemente,possibly,0,0,0,0
+novela,novel,0,0,0,0
+trates,try,0,0,0,0
+prepárate,get ready,0,0,0,0
+explosión,explosion,0,0,0,0
+extrañas,strange,0,0,0,0
+jodida,screwed,0,0,0,0
+demostrado,demonstrated,0,0,0,0
+fotografías,photographs,0,0,0,0
+adelantar,to advance,0,0,0,0
+restos,remains,0,0,0,0
+entradas,entries,0,0,0,0
+to,to,0,0,0,0
+opina,opines,0,0,0,0
+salte,jumps,0,0,0,0
+revistas,magazines,0,0,0,0
+estable,stable,0,0,0,0
+importó,imported,0,0,0,0
+encuentres,find,0,0,0,0
+apagado,turned off,0,0,0,0
+copias,copies,0,0,0,0
+ofrecerle,offer him/her,0,0,0,0
+inocencia,innocence,0,0,0,0
+bienestar,well-being,0,0,0,0
+equivocó,made a mistake,0,0,0,0
+nadar,to swim,0,0,0,0
+raza,race,0,0,0,0
+pegaron,hit,0,0,0,0
+robaste,you stole,0,0,0,0
+compre,I buy,0,0,0,0
+encerrados,locked up,0,0,0,0
+digno,worthy,0,0,0,0
+palos,sticks,0,0,0,0
+reventar,to burst,0,0,0,0
+cambiaste,you changed,0,0,0,0
+cargando,charging,0,0,0,0
+preparé,I prepared,0,0,0,0
+conductor,driver,0,0,0,0
+convenció,convinced,0,0,0,0
+aniversario,anniversary,0,0,0,0
+fantasía,fantasy,0,0,0,0
+perderlo,lose it,0,0,0,0
+preguntarme,ask me,0,0,0,0
+triple,triple,0,0,0,0
+sentimental,sentimental,0,0,0,0
+apoya,supports,0,0,0,0
+regresen,return,0,0,0,0
+traerte,bring you,0,0,0,0
+anuncio,announcement,0,0,0,0
+llamara,called,0,0,0,0
+inventó,invented,0,0,0,0
+concreto,concrete,0,0,0,0
+seguirá,will continue,0,0,0,0
+injusta,unfair,0,0,0,0
+reserva,reservation,0,0,0,0
+celebrarlo,celebrate it,0,0,0,0
+sepamos,we know,0,0,0,0
+adecuado,appropriate,0,0,0,0
+olla,pot,0,0,0,0
+avanzando,advancing,0,0,0,0
+cogí,I grabbed,0,0,0,0
+altas,high,0,0,0,0
+seremos,we will be,0,0,0,0
+protege,protects,0,0,0,0
+daños,damage,0,0,0,0
+paramos,we stop,0,0,0,0
+abres,you open,0,0,0,0
+pudieras,you could,0,0,0,0
+verán,they will see,0,0,0,0
+héroes,heroes,0,0,0,0
+levantado,raised,0,0,0,0
+llevará,will take,0,0,0,0
+suene,sounds,0,0,0,0
+bajan,they go down,0,0,0,0
+consecuencia,consequence,0,0,0,0
+seguiremos,we will continue,0,0,0,0
+colocar,place,0,0,0,0
+hágale,do it,0,0,0,0
+lucía,shone,0,0,0,0
+decime,tell me,0,0,0,0
+pinches,damn,0,0,0,0
+muchachas,girls,0,0,0,0
+euros,euros,0,0,0,0
+infeliz,unhappy,0,0,0,0
+cheque,check,0,0,0,0
+diablos,devils,0,0,0,0
+helicóptero,helicopter,0,0,0,0
+gay,gay,0,0,0,0
+cuídese,take care,0,0,0,0
+corrupción,corruption,0,0,0,0
+cuñada,sister-in-law,0,0,0,0
+heridos,wounded,0,0,0,0
+ocultando,hiding,0,0,0,0
+sentencia,sentence,0,0,0,0
+cañón,canyon,0,0,0,0
+casó,married,0,0,0,0
+dolió,hurt,0,0,0,0
+échale,throw,0,0,0,0
+inconveniente,inconvenience,0,0,0,0
+explicarle,explain to him,0,0,0,0
+invitada,guest,0,0,0,0
+cuernos,horns,0,0,0,0
+amaba,loved,0,0,0,0
+españoles,Spanish,0,0,0,0
+suicidio,suicide,0,0,0,0
+compañeras,colleagues,0,0,0,0
+permites,you allow,0,0,0,0
+eches,throw,0,0,0,0
+vaca,cow,0,0,0,0
+envío,shipment,0,0,0,0
+obligar,force,0,0,0,0
+publicidad,advertising,0,0,0,0
+generoso,generous,0,0,0,0
+cuadras,blocks,0,0,0,0
+look,look,0,0,0,0
+largar,release,0,0,0,0
+placa,plate,0,0,0,0
+convencida,convinced,0,0,0,0
+incómodo,uncomfortable,0,0,0,0
+novedades,news,0,0,0,0
+quédense,stay,0,0,0,0
+garantizo,I guarantee,0,0,0,0
+serios,serious,0,0,0,0
+díselo,tell him,0,0,0,0
+evitarlo,avoid it,0,0,0,0
+fiar,trust,0,0,0,0
+roma,Rome,0,0,0,0
+terminen,finish,0,0,0,0
+armada,armed,0,0,0,0
+comentó,commented,0,0,0,0
+retirarse,withdraw,0,0,0,0
+vuela,flies,0,0,0,0
+tomarse,take,0,0,0,0
+protagonista,protagonist,0,0,0,0
+trabajador,worker,0,0,0,0
+intervenir,intervene,0,0,0,0
+tocan,touch,0,0,0,0
+temporal,temporary,0,0,0,0
+unir,unite,0,0,0,0
+baños,bathrooms,0,0,0,0
+explicarme,explain to me,0,0,0,0
+tomarte,take you,0,0,0,0
+avisaron,they warned,0,0,0,0
+internacionales,international,0,0,0,0
+complejo,complex,0,0,0,0
+pájaro,bird,0,0,0,0
+conocías,you knew,0,0,0,0
+actuación,performance,0,0,0,0
+cerramos,we close,0,0,0,0
+tapar,cover,0,0,0,0
+bebida,drink,0,0,0,0
+enseñé,I taught,0,0,0,0
+ganan,they win,0,0,0,0
+asegura,ensures,0,0,0,0
+cierren,close,0,0,0,0
+fallado,failed,0,0,0,0
+elegí,I chose,0,0,0,0
+dedicado,dedicated,0,0,0,0
+enseñe,I teach,0,0,0,0
+árboles,trees,0,0,0,0
+cerrando,closing,0,0,0,0
+guantes,gloves,0,0,0,0
+perdidos,lost,0,0,0,0
+escuchaba,was listening,0,0,0,0
+cigarro,cigarette,0,0,0,0
+bobo,fool,0,0,0,0
+agentes,agents,0,0,0,0
+pastel,cake,0,0,0,0
+muévete,move,0,0,0,0
+ratón, mouse,0,0,0,0
+computadora,computer,0,0,0,0
+cruzados,crusaders,0,0,0,0
+londres,London,0,0,0,0
+corra,run,0,0,0,0
+ricas,rich,0,0,0,0
+coja,take ,0,0,0,0
+secuestrado,kidnapped,0,0,0,0
+micrófono,microphone,0,0,0,0
+protegiendo,protecting,0,0,0,0
+metidos,put in,0,0,0,0
+comisaría,police station,0,0,0,0
+cogió,took,0,0,0,0
+lavado,washed,0,0,0,0
+respondo,I respond,0,0,0,0
+sabéis,you know (formal),0,0,0,0
+logro,achievement,0,0,0,0
+escritorio,desk,0,0,0,0
+varón,male,0,0,0,0
+archivos,files,0,0,0,0
+busquen,look for,0,0,0,0
+leyenda,legend,0,0,0,0
+preocupo,I worry,0,0,0,0
+acusar,to accuse,0,0,0,0
+recupere,recover,0,0,0,0
+amistades,friendships,0,0,0,0
+puros,pure,0,0,0,0
+únicamente,only,0,0,0,0
+equivocas,you are wrong,0,0,0,0
+rubia,blonde,0,0,0,0
+aparato,appliance,0,0,0,0
+intimidad,intimacy,0,0,0,0
+bandeja,tray,0,0,0,0
+comunicado,statement,0,0,0,0
+empleo,job,0,0,0,0
+chistes,jokes,0,0,0,0
+aprovecho,I take advantage,0,0,0,0
+fingir,to pretend,0,0,0,0
+localizar,to locate,0,0,0,0
+dormí,I slept,0,0,0,0
+mantenga,maintain,0,0,0,0
+tocas,you touch,0,0,0,0
+duela,it hurts,0,0,0,0
+permanecer,to remain,0,0,0,0
+cállense,be quiet,0,0,0,0
+simpático,sympathetic,0,0,0,0
+hacéis,you do,0,0,0,0
+profundamente,deeply,0,0,0,0
+perseguir,to chase,0,0,0,0
+traten,try,0,0,0,0
+conjunto,set,0,0,0,0
+pasemos,let's go,0,0,0,0
+manden,send,0,0,0,0
+hablaré,I will speak,0,0,0,0
+empiecen,begin,0,0,0,0
+encanto,charm,0,0,0,0
+levantó,he/she/it raised,0,0,0,0
+fáciles,easy,0,0,0,0
+sábanas,sheets,0,0,0,0
+velas,candles,0,0,0,0
+productos,products,0,0,0,0
+bicho,bug,0,0,0,0
+prestado,borrowed,0,0,0,0
+mueven,they move,0,0,0,0
+mudo,mute,0,0,0,0
+acceder,to access,0,0,0,0
+salve,save,0,0,0,0
+infantil,childish,0,0,0,0
+separado,separated,0,0,0,0
+limpiando,cleaning,0,0,0,0
+escribo,I write,0,0,0,0
+diciembre,December,0,0,0,0
+implica,implies,0,0,0,0
+encontrarse,to meet,0,0,0,0
+ríe,laughs,0,0,0,0
+crecido,grown,0,0,0,0
+envía,sends,0,0,0,0
+emocional,emotional,0,0,0,0
+impulso,impulse,0,0,0,0
+mérito,merit,0,0,0,0
+expresión,expression,0,0,0,0
+notado,noticed,0,0,0,0
+tuvieran,they had,0,0,0,0
+jornada,journey,0,0,0,0
+hijita,little daughter,0,0,0,0
+andá,go,0,0,0,0
+fiscalía,prosecutor's office,0,0,0,0
+suélteme,let me go,0,0,0,0
+nene,kid,0,0,0,0
+óyeme,listen to me,0,0,0,0
+you,you,0,0,0,0
+sincera,sincere,0,0,0,0
+regresamos,we return,0,0,0,0
+tragos,drinks,0,0,0,0
+liberar,to release,0,0,0,0
+vuestro,your (plural),0,0,0,0
+celulares,cell phones,0,0,0,0
+ordenó,ordered,0,0,0,0
+seguís,you continue,0,0,0,0
+investigaciones,investigations,0,0,0,0
+cometí,I committed,0,0,0,0
+acusando,accusing,0,0,0,0
+horribles,horrible,0,0,0,0
+encargue,I commissioned,0,0,0,0
+agarran,they grab,0,0,0,0
+lastimar,to hurt,0,0,0,0
+meterle,to put in,0,0,0,0
+borracha,drunk,0,0,0,0
+imbéciles,idiots,0,0,0,0
+beneficios,benefits,0,0,0,0
+impuestos,taxes,0,0,0,0
+cuenten,count,0,0,0,0
+patrulla,patrol,0,0,0,0
+defenderme,to defend myself,0,0,0,0
+torta,cake (slap),0,0,0,0
+legales,legal,0,0,0,0
+arregle,I fix,0,0,0,0
+confesión,confession,0,0,0,0
+lotería,lottery,0,0,0,0
+regala,gives away,0,0,0,0
+vivas,live,0,0,0,0
+relajado,relaxed,0,0,0,0
+prometer,to promise,0,0,0,0
+psicólogo,psychologist,0,0,0,0
+alcanzó,reached,0,0,0,0
+agarrado,grabbed,0,0,0,0
+espiando,spying,0,0,0,0
+tomarnos,let's have,0,0,0,0
+cambias,you change,0,0,0,0
+interesan,interest,0,0,0,0
+intensa,intense,0,0,0,0
+cambies,change,0,0,0,0
+tomate,take,0,0,0,0
+entiendan,understand,0,0,0,0
+cruel,cruel,0,0,0,0
+abandonada,abandoned,0,0,0,0
+adiós, goodbye,0,0,0,0
