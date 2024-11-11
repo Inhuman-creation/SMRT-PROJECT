@@ -5,7 +5,7 @@ currently being studied by a user
 For testing purposes, it currently reads current_words from CSV directly
 
 Last Edited by: Zachary Kao
-Last Edited: 11/8/2024
+Last Edited: 11/9/2024
 """
 
 import csv
@@ -24,12 +24,12 @@ class WalkingWindow:
         self.front = self.last + (size - 1) #TODO: EDIT LAST AND FRONT TO NOT BE INTERDEPENDENT AND THEN STATS GUI WILL JUST FIND LAST
         self.size = size
         self.srs_queue = deque(maxlen=Settings.SRS_QUEUE_LENGTH)
-        self.words_dict = self.csv_to_words_dict( csv_name = Settings.username + "_Spanish.csv")
+        self.words_dict = self.csv_to_words_dict(csv_name = f"{Settings.username}_{Settings.LANGUAGE}.csv")
         self.current_words = []
         self.init_current_words(self.size)
 
 
-    def csv_to_words_dict(self, csv_name: str) -> None:
+    def csv_to_words_dict(self, csv_name: str):
         """Reads the user's CSV file into a dictionary structure"""
         csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8')
         reader = csv.DictReader(csv_file)
@@ -44,12 +44,15 @@ class WalkingWindow:
         csv_file.close()
         return words_dict
 
-
-    def init_current_words(self, num_rows: int):
+    """
+    Read a specified number of words into the walking window
+    from word dictionary
+    """
+    def init_current_words(self, num_words: int):
         count_read:int = 0
 
         for key, word in self.words_dict.items():
-            if count_read >= num_rows: #break when numRows is reached
+            if count_read >= num_words: #break when num_words are added
                 break
             
             if (not word.is_known) and (len(self.current_words) < self.size):
@@ -142,8 +145,8 @@ class WalkingWindow:
     """
     def add_new_word(self):
         for i in range(self.front + 1, self.size):
-            word = self.word_dict.values()[i]
+            word = self.words_dict.values()[i]
             if (not word.is_known) and (len(self.current_words) < self.size):
                 self.current_words.append(word)
-                logging.info("ADDED WORD FROM CSV: " + repr(word))
+                logging.info("ADDED NEW WORD: " + repr(word))
                 break
