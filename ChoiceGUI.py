@@ -6,6 +6,8 @@
 
 import customtkinter as ctk
 import tkinter as tk
+
+import Settings
 from Word import Word
 import random
 from functools import partial
@@ -48,11 +50,13 @@ class ChoiceGUI:
         def display_feedback(word: Word):
             feedback_text = ""
             feedback_color = "#f37d59"  # Default incorrect color
-            if self.controller.study_window.check_word_definition(flashword, word.english):
+
+            if self.controller.study_window.check_word_definition(flashword, word):
                 feedback_text = random.choice(supportive_messages)  # Random supportive message
                 feedback_color = "#77721f"  # Correct color
             else:
-                feedback_text = "Not quite!\n{} means {}.".format(flashword.spanish, flashword.english.lower())
+                feedback_text = "Not quite!\n{} means {}.".format(flashword.foreign, flashword.english.lower()) \
+                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{flashword.english.lower()} translates to {flashword.foreign}"
 
             # Create feedback label with better styling and new font size
             feedback_label = ctk.CTkLabel(
@@ -76,7 +80,8 @@ class ChoiceGUI:
 
         # Word in foreign language
         flashcard = ctk.CTkLabel(
-            master=self.frame, text=flashword.spanish, text_color="black",
+            master=self.frame, text=flashword.foreign if Settings.FOREIGN_TO_ENGLISH else flashword.english.lower(),
+            text_color="black",
             font=flashfont, fg_color=None  # Remove background color
         )
         flashcard.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
@@ -85,7 +90,8 @@ class ChoiceGUI:
         buttons = []
         for i in range(4):
             button = ctk.CTkButton(
-                master=self.frame, text=choices[i].english.lower(), font=buttonfont,
+                master=self.frame, text=choices[i].english.lower() if Settings.FOREIGN_TO_ENGLISH else choices[i].foreign,
+                font=buttonfont,
                 width=480, height=250, text_color="#ffffff",  # Set font color to white
                 command=partial(display_feedback, choices[i]),
                 fg_color="#acb87c", hover_color="#77721f", corner_radius=20
