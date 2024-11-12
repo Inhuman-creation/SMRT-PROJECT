@@ -73,7 +73,6 @@ class StatsGUI:
         def back_function():
             self.controller.show_menu_gui()
 
-        # Initialize the interactive graph
         card = ctk.CTkLabel(
             master=self.frame, text="Total Known Words:\n" + str(self.default_x), text_color="white",
             font=backbuttonfont, fg_color="#acb87c", corner_radius=15 # from choice GUI
@@ -87,8 +86,6 @@ class StatsGUI:
             font=backbuttonfont, fg_color="#0f606b", corner_radius=15  # from choice GUI
         )
         stats_card.place(relx=0.90, rely=0.5, relwidth=.15, relheight=.25, anchor=tk.CENTER)
-
-
 
         self.create_interactive_graph(feedbackfont)
 
