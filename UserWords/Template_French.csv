@@ -1,53 +1,53 @@
 Foreign,English,seen,correct,wrong,known
 de,of,0,0,0,0
-la,there,0,0,0,0
-et,And,0,0,0,0
-le,THE,0,0,0,0
-les,THE,0,0,0,0
-à,has,0,0,0,0
+la,the,0,0,0,0
+et,and,0,0,0,0
+le,the,0,0,0,0
+les,the,0,0,0,0
+à,to,0,0,0,0
 des,of the,0,0,0,0
 en,in,0,0,0,0
-un,A,0,0,0,0
-est,East,0,0,0,0
+un,a,0,0,0,0
+est,is,0,0,0,0
 que,that,0,0,0,0
 une,a,0,0,0,0
 pour,For,0,0,0,0
 il,he,0,0,0,0
-qui,Who,0,0,0,0
-dans,In,0,0,0,0
+qui,which,0,0,0,0
+dans,into,0,0,0,0
 a,has,0,0,0,0
 pas,not,0,0,0,0
 sur,on,0,0,0,0
 je,I,0,0,0,0
-ce,This,0,0,0,0
+ce,this,0,0,0,0
 par,by,0,0,0,0
 plus,more,0,0,0,0
-ne,born,0,0,0,0
+ne,not,0,0,0,0
 avec,with,0,0,0,0
 se,oneself,0,0,0,0
 vous,you all,0,0,0,0
 mais,but,0,0,0,0
-ou,Or,0,0,0,0
+ou,or,0,0,0,0
 on,we,0,0,0,0
-son,her,0,0,0,0
-elle,She,0,0,0,0
-nous,We,0,0,0,0
+son,its,0,0,0,0
+elle,she,0,0,0,0
+nous,we,0,0,0,0
 sont,are,0,0,0,0
-tout,All,0,0,0,0
+tout,all,0,0,0,0
 comme,as,0,0,0,0
 cette,this,0,0,0,0
 si,if,0,0,0,0
 bien,good,0,0,0,0
 sa,its,0,0,0,0
-y,y,0,0,0,0
-être,be,0,0,0,0
-fait,do,0,0,0,0
+y,and,0,0,0,0
+être,to be,0,0,0,0
+fait,to do,0,0,0,0
 ont,have,0,0,0,0
 même,even,0,0,0,0
 faire,to do,0,0,0,0
 ses,his,0,0,0,0
 était,was,0,0,0,0
-ai,ai,0,0,0,0
+ai,have,0,0,0,0
 ils,they,0,0,0,0
 lui,him,0,0,0,0
 ces,these,0,0,0,0
@@ -66,14 +66,14 @@ tu,you,0,0,0,0
 autres,others,0,0,0,0
 peu,little,0,0,0,0
 ça,That,0,0,0,0
-donc,SO,0,0,0,0
-alors,SO,0,0,0,0
+donc,so,0,0,0,0
+alors,so,0,0,0,0
 mon,My,0,0,0,0
 temps,time,0,0,0,0
-encore,Again,0,0,0,0
+encore,again,0,0,0,0
 entre,between,0,0,0,0
 avoir,to have,0,0,0,0
-où,Or,0,0,0,0
+où,or,0,0,0,0
 autre,other,0,0,0,0
 après,After,0,0,0,0
 quand,When,0,0,0,0
@@ -90,9 +90,9 @@ leurs,their,0,0,0,0
 monde,world,0,0,0,0
 car,because,0,0,0,0
 moins,less,0,0,0,0
-depuis,Since,0,0,0,0
+depuis,since,0,0,0,0
 ans,years,0,0,0,0
-dont,of which,0,0,0,0
+dont,whose,0,0,0,0
 bon,Good,0,0,0,0
 vie,life,0,0,0,0
 quelques,a few,0,0,0,0
