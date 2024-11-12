@@ -48,6 +48,10 @@ class ChoiceGUI:
         def back_function():
             self.controller.show_menu_gui()
 
+        def mark_known():
+            self.controller.study_window.mark_word_as_known(flashword)
+            switch_to_next_word()
+
         def switch_to_next_word():  # Function to switch to the next word
             flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
             self.flashword = flashword
@@ -152,6 +156,15 @@ class ChoiceGUI:
             fg_color="#d9534f", text_color="white", corner_radius=20  # White text and red color
         )
         exit_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
+        # Known word button
+        known_word_button = ctk.CTkButton(
+            master=self.frame, text="Already\nKnow", font=backbuttonfont,
+            width=600, height=200, command=mark_known
+,
+            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+        )
+        known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
     def destroy(self):
         self.frame.destroy()

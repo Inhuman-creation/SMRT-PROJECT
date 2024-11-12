@@ -37,6 +37,10 @@ class TextGUI:
         def back_function():
             self.controller.show_menu_gui()
 
+        def mark_known():
+            self.controller.study_window.mark_word_as_known(flashword)
+            self.controller.show_text_gui()
+
         def display_feedback(_):  # _ is an unused arg passed from CTkEntry.bind()
             word = text_entry.get()
             feedback_text = ""
@@ -94,6 +98,15 @@ class TextGUI:
             fg_color="#d9534f", text_color="white", corner_radius=20  # from Choice GUI
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
+        # Known word button
+        known_word_button = ctk.CTkButton(
+            master=self.frame, text="Already\nKnow", font=backbuttonfont,
+            width=600, height=200, command=mark_known
+            ,
+            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+        )
+        known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
     def destroy(self):
         self.frame.destroy()
