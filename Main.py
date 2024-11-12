@@ -9,6 +9,7 @@ from MenuGUI import MenuGUI
 from ChoiceGUI import ChoiceGUI
 from TextGUI import TextGUI
 from SettingsGUI import SettingsGUI
+from StatsGUI import StatsGUI
 
 import logging
 
@@ -73,6 +74,11 @@ class GUI:
         if self.current_frame:
             self.current_frame.destroy()
         self.current_frame = SettingsGUI(self)
+
+    def show_stats_gui(self):
+        if self.current_frame:
+            self.current_frame.destroy()
+        self.current_frame = StatsGUI(self)
 
 
 if __name__ == "__main__":

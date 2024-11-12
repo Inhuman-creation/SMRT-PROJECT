@@ -28,11 +28,14 @@ class MenuGUI:
         def text_function():
             self.controller.show_text_gui()
 
-        def placeholder_function():
-            print("Placeholder function")
+        #def placeholder_function():
+        #    print("Placeholder function")
 
         def settings_function():
             self.controller.show_settings_gui()
+
+        def stats_function():
+            self.controller.show_stats_gui()
 
         def exit_button():
             print("Exiting application")
@@ -45,7 +48,7 @@ class MenuGUI:
         # Create option buttons
         button_colors = ["#f37d59", "#0f606b", "#ffc24a", "#aeb883"]
         button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics", "Settings"]
-        button_commands = [choice_function, text_function, placeholder_function, settings_function]
+        button_commands = [choice_function, text_function, stats_function, settings_function]
 
         # Option buttons
         for i in range(4):
