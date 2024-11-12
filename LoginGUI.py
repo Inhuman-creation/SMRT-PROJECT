@@ -67,11 +67,10 @@ class LoginGUI:
 
         # Button functions
         def login_function():
-            username = self.text_entry_username.get()
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
-            if not username.strip() or not email.strip() or not password.strip():
+            if not email.strip() or not password.strip():
                 show_feedback("Please Complete All Fields")
                 return
 
@@ -80,23 +79,23 @@ class LoginGUI:
             with open("AccountInformation.csv", mode="r") as accountsFile:
                 reader = csv.DictReader(accountsFile)
                 for row in reader:
-                    if username == row["Username"] and password == row["Password"]:
+                    if email == row["Email"] and password == row["Password"]:
                         login_success = True
 
             if not login_success:
-                show_feedback("Incorrect Username and Password")
+                show_feedback("Incorrect Email and Password")
                 return 
 
-            # Make Username_Spanish.csv if necessary
-            user_file_path = f"UserWords/{username}_Spanish.csv"
+            # Make Email_Spanish.csv if necessary
+            user_file_path = f"UserWords/{email}_Spanish.csv"
             if not os.path.exists(user_file_path):
                 if not os.path.exists("UserWords/Template_Spanish.csv"):
                     show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
                     return
                 shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
 
-            # Make Username_French.csv if necessary
-            user_file_path = f"UserWords/{username}_French.csv"
+            # Make Email_French.csv if necessary
+            user_file_path = f"UserWords/{email}_French.csv"
             if not os.path.exists(user_file_path):
                 if not os.path.exists("UserWords/Template_French.csv"):
                     show_feedback("ERROR: UserWords/Template_French.csv NOT FOUND")
@@ -104,41 +103,39 @@ class LoginGUI:
                 shutil.copy("UserWords/Template_French.csv", user_file_path)
 
             # init WalkingWindow
-            Settings.username = username
+            Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.study_window.word_dict_to_csv, f"{Settings.username}_{Settings.LANGUAGE}"))
 
             self.controller.show_menu_gui()
 
         def signup_function():
-            username = self.text_entry_username.get()
             password = self.text_entry_password.get()
             email = self.text_entry_email.get()
 
             # Check that all field have something
-            if not username.strip() or not email.strip() or not password.strip():
+            if not  email.strip() or not password.strip():
                 show_feedback("Please Complete All Fields")
                 return
             
-            # Check username for unallowed characters (Windows file naming constraint)
+            # Check email for unallowed characters (Windows file naming constraint)
             unallowed_characters = "<>:\"/\\|?*"
             for c in unallowed_characters:
-                if c in username:
-                    show_feedback("Usernames should not contain the\n following characters: \n<>:\"/\\|?*")
+                if c in email:
+                    show_feedback("Emails should not contain the\n following characters: \n<>:\"/\\|?*")
                     return
             
-            # check if username already exists in the application
+            # check if email already exists in the application
             with open("AccountInformation.csv", mode="r") as accounts_file:
                 reader = csv.DictReader(accounts_file)
                 for row in reader:
-                    if row["Username"] == username:
-                        show_feedback("That Username is Taken\nTry Another")
+                    if row["Email"] == email:
+                        show_feedback("That Email is Taken\nTry Another")
                         return
 
             account_data = {
-                'Username': username,
-                'Password': password,
-                'Email': email
+                'Email': email,
+                'Password': password
             }
 
             # Write account data to AccountInformation.csv
@@ -152,21 +149,21 @@ class LoginGUI:
                 writer.writerow(account_data)
             
             # copy UserWords/Template_Spanish.csv to UserWords/Username_Spanish.csv
-            user_file_path = f"UserWords/{username}_Spanish.csv"
+            user_file_path = f"UserWords/{email}_Spanish.csv"
             if not os.path.exists("UserWords/Template_Spanish.csv"):
                 show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
                 return
             shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
 
             # copy UserWords/Template_French.csv to UserWords/Username_French.csv
-            user_file_path = f"UserWords/{username}_French.csv"
+            user_file_path = f"UserWords/{email}_French.csv"
             if not os.path.exists("UserWords/Template_French.csv"):
                 show_feedback("ERROR: UserWords/Template_French.csv NOT FOUND")
                 return
             shutil.copy("UserWords/Template_French.csv", user_file_path)
 
             # initialize walking window
-            Settings.username = username
+            Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.study_window.word_dict_to_csv, f"{Settings.username}_{Settings.LANGUAGE}"))
 
@@ -184,23 +181,17 @@ class LoginGUI:
         header_label.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
 
         # Text entries
-        self.text_entry_username = ctk.CTkEntry(
-            master=input_frame, placeholder_text="Username", font=entryfont,
+        self.text_entry_email = ctk.CTkEntry(
+            master=input_frame, placeholder_text="Email", font=entryfont,
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_username.place(relx=0.5, rely=0.2, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_email.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         self.text_entry_password = ctk.CTkEntry(
             master=input_frame, placeholder_text="Password", font=entryfont, show="*",
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
         self.text_entry_password.place(relx=0.5, rely=0.35, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
-
-        self.text_entry_email = ctk.CTkEntry(
-            master=input_frame, placeholder_text="Email", font=entryfont,
-            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
-        )
-        self.text_entry_email.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         # "Login" button
         loginbutton = ctk.CTkButton(
