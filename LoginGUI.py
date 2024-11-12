@@ -114,7 +114,7 @@ class LoginGUI:
             unallowed_characters = "<>:\"/\\|?*"
             for c in unallowed_characters:
                 if c in username:
-                    show_feedback("Do not use the following characters: \n<>:\"/\\|?*")
+                    show_feedback("Usernames should not contain the\n following characters: \n<>:\"/\\|?*")
                     return
             
             # check if username already exists in the application
@@ -151,7 +151,6 @@ class LoginGUI:
             # initialize walking window
             Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.controller.study_window.read_from_csv(user_file_path, num_rows=Settings.WALKING_WINDOW_SIZE)
 
             self.controller.show_menu_gui()
 
