@@ -7,7 +7,7 @@
 import customtkinter as ctk
 import tkinter as tk
 import Settings as Settings
-from functools import partial
+#from functools import partial
 
 class MenuGUI:
     def __init__(self, controller):
@@ -38,6 +38,9 @@ class MenuGUI:
         def stats_function():
             self.controller.show_stats_gui()
 
+        def about_function():
+            self.controller.show_about_gui()
+
         def exit_button():
             print("Exiting application")
             self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}")
@@ -60,6 +63,14 @@ class MenuGUI:
                 width=900, height=80, command=button_commands[i], corner_radius=15
             )
             button.place(relx=0.5, rely=0.3 + (i * 0.15), anchor=tk.CENTER)
+
+        #simple about page for user to read
+        about_btn = ctk.CTkButton(
+            master=self.frame, text="About", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
+            width=150, height=60, fg_color="#0f606b", text_color="white",
+            command=about_function, corner_radius=15
+        )
+        about_btn.place(relx=0.90, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
 
         # "EXIT" button at the bottom
         exit_btn = ctk.CTkButton(
