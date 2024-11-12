@@ -11,6 +11,7 @@ import shutil
 import Settings
 from WalkingWindow import WalkingWindow
 import os
+from functools import partial
 
 class LoginGUI:
     def __init__(self, controller):
@@ -105,6 +106,7 @@ class LoginGUI:
             # init WalkingWindow
             Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
+            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.study_window.word_dict_to_csv, f"{Settings.username}_{Settings.LANGUAGE}"))
 
             self.controller.show_menu_gui()
 
@@ -166,6 +168,7 @@ class LoginGUI:
             # initialize walking window
             Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
+            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.study_window.word_dict_to_csv, f"{Settings.username}_{Settings.LANGUAGE}"))
 
             self.controller.show_menu_gui()
 

@@ -11,6 +11,7 @@ import Settings
 from Word import Word
 import random
 from functools import partial
+import logging
 
 
 class ChoiceGUI:
@@ -26,8 +27,10 @@ class ChoiceGUI:
         flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
         self.flashword = flashword  # Store the word for later use
         self.choices = [var1, var2, var3]  # put into list to make them able to be looped over (iterable)
+
         self.answer_position = random.randint(0, 3)  # determines where the right answer will be placed
         self.choices.insert(self.answer_position, self.flashword)
+        logging.info(f"MULTIPLE CHOICE OPTIONS: {self.choices}")
 
         # Create frame for choice GUI with background color
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
@@ -38,7 +41,6 @@ class ChoiceGUI:
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")  # Smaller font for feedback text
         buttonfont = ctk.CTkFont(family="Garet", size=55, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
-
         # Supportive messages for correct answers
         supportive_messages = [
             "Correcto!", "You got this!", "You're on a roll!", "Perfecto!", "Well done!", "Keep going!"

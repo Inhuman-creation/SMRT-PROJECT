@@ -50,6 +50,7 @@ class WalkingWindow:
         return words_dict
     
     def word_dict_to_csv(self, csv_name: str):
+        logging.info(f"Writing words_dict to UserWords/{csv_name}")
         csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8', mode="w")
         header = "Foreign,English,seen,correct,wrong,known"
         csv_file.write(header)
@@ -59,7 +60,7 @@ class WalkingWindow:
             row += f"{word.english},"
             row += f"{word.count_seen},"
             row += f"{word.count_correct},"
-            row += f"{word.count_wrong},"
+            row += f"{word.count_incorrect},"
             row += f"{word.is_known}\n"
             csv_file.write(row)
 
