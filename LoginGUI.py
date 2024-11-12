@@ -122,7 +122,7 @@ class LoginGUI:
             unallowed_characters = "<>:\"/\\|?*"
             for c in unallowed_characters:
                 if c in username:
-                    show_feedback("Do not use the following characters: \n<>:\"/\\|?*")
+                    show_feedback("Usernames should not contain the\n following characters: \n<>:\"/\\|?*")
                     return
             
             # check if username already exists in the application
