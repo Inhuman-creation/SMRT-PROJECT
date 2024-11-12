@@ -2,9 +2,9 @@
 
 import customtkinter as ctk
 
-import Settings
+#import Settings
 from LoginGUI import LoginGUI
-from WalkingWindow import WalkingWindow
+#from WalkingWindow import WalkingWindow
 from MenuGUI import MenuGUI
 from ChoiceGUI import ChoiceGUI
 from TextGUI import TextGUI
