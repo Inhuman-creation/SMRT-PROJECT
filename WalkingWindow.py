@@ -48,6 +48,22 @@ class WalkingWindow:
             words_dict[foreign] = Word(foreign, engl, seen, wrong, known)
         csv_file.close()
         return words_dict
+    
+    def word_dict_to_csv(self, csv_name: str):
+        csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8', mode="w")
+        header = "Foreign,English,seen,correct,wrong,known"
+        csv_file.write(header)
+        for word in self.words_dict.values():
+            row = ""
+            row += f"{word.foreign}," 
+            row += f"{word.english},"
+            row += f"{word.count_seen},"
+            row += f"{word.count_correct},"
+            row += f"{word.count_wrong},"
+            row += f"{word.is_known}\n"
+            csv_file.write(row)
+
+        csv_file.close()
 
     """
     Read a specified number of words into the walking window
