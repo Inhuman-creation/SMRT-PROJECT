@@ -94,6 +94,14 @@ class LoginGUI:
                     return
                 shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
 
+            # Make Username_French.csv if necessary
+            user_file_path = f"UserWords/{username}_French.csv"
+            if not os.path.exists(user_file_path):
+                if not os.path.exists("UserWords/Template_French.csv"):
+                    show_feedback("ERROR: UserWords/Template_French.csv NOT FOUND")
+                    return
+                shutil.copy("UserWords/Template_French.csv", user_file_path)
+
             # init WalkingWindow
             Settings.username = username
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
@@ -147,6 +155,13 @@ class LoginGUI:
                 show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
                 return
             shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
+
+            # copy UserWords/Template_French.csv to UserWords/Username_French.csv
+            user_file_path = f"UserWords/{username}_French.csv"
+            if not os.path.exists("UserWords/Template_French.csv"):
+                show_feedback("ERROR: UserWords/Template_French.csv NOT FOUND")
+                return
+            shutil.copy("UserWords/Template_French.csv", user_file_path)
 
             # initialize walking window
             Settings.username = username

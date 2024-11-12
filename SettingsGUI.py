@@ -9,6 +9,9 @@ import tkinter as tk
 import Settings
 import logging
 
+from WalkingWindow import WalkingWindow
+
+
 class SettingsGUI:
     """
     This class contains the GUI for the Settings menu
@@ -46,6 +49,12 @@ class SettingsGUI:
             fg_color="#d9534f", text_color="white", corner_radius=20  # from Choice GUI
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
+        # apply changes button
+        self.apply_changes_button = ctk.CTkButton(self.frame, text="Apply Changes", command=self.save_settings,
+                                                  font=buttonfont, fg_color="#0f606b", text_color="white",
+                                                  state="disabled")
+        self.apply_changes_button.place(relx=0.5, rely=0.9, anchor=tk.CENTER)
 
         #known threshold slider
         self.known_threshold_var = self.add_slider("Known Threshold",
@@ -88,7 +97,8 @@ class SettingsGUI:
                      text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
         self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
         self.foreign_to_english_toggle = ctk.CTkSwitch(
-            self.frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False, text="",
+            self.frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False,
+            text="On" if self.foreign_to_english_var.get() else "Off",
             text_color="black",
             font=labelfont,
             fg_color="#acb87c",
@@ -97,28 +107,22 @@ class SettingsGUI:
             button_hover_color="#ffc24a",
             command=self.update_toggle_label
         )
-        self.update_toggle_label()
-
         self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
-        #slider_start_y += 0.12
 
         #dropdown menu for language selection
         ctk.CTkLabel(self.frame, text="Language Selection", font=labelfont,
                      text_color="black").place(relx=0.6, rely=slider_start_y, anchor=tk.CENTER)
         options = ["Spanish", "French"]
-        self.language_var = tk.StringVar(value=options[0])
+        self.language_var = tk.StringVar(value=Settings.LANGUAGE)
         self.language_dropdown = ctk.CTkOptionMenu(self.app, values=options, variable=self.language_var,
                                                    font=labelfont, text_color="white",
                                                    fg_color="#acb87c",
-                                                   button_color="#77721f")
+                                                   button_color="#77721f",
+                                                   command=self.on_change_language)
         self.language_dropdown.place(relx=0.6, rely=slider_start_y + 0.05, anchor=tk.CENTER)
         slider_start_y += 0.2
 
-        #apply changes button
-        self.apply_changes_button = ctk.CTkButton(self.frame, text="Apply Changes", command=self.save_settings,
-                                                  font=buttonfont, fg_color="#0f606b", text_color="white")
-        self.apply_changes_button.place(relx=0.5, rely=slider_start_y, anchor=tk.CENTER)
-
+    #create a slider for each setting
     def add_slider(self, label_text, min_val, max_val, initial, relx, rely):
         # Font for labels
         labelfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
@@ -159,13 +163,22 @@ class SettingsGUI:
 
         return slider_var
 
+    #enable the apply changes button on settings change and update labels
     def update_slider_label(self, label, value):
         label.configure(text=f"Current: {int(float(value))}")
+        self.apply_changes_button.configure(state="normal")
 
+    #enable the apply changes button on settings change and update labels
     def update_toggle_label(self):
         # Update the label based on the toggle's current state
         self.foreign_to_english_toggle.configure(text="On" if self.foreign_to_english_var.get() else "Off")
+        self.apply_changes_button.configure(state="normal")
 
+    #enable the apply changes button on settings change
+    def on_change_language(self, selected_value=None):
+        self.apply_changes_button.configure(state="normal")
+
+    #save the settings and recreate walking window to reflect changes
     def save_settings(self):
         #update global settings variables with current GUI values
         Settings.KNOWN_THRESHOLD = self.known_threshold_var.get()
@@ -174,6 +187,12 @@ class SettingsGUI:
         Settings.WALKING_WINDOW_SIZE = self.walking_window_size_var.get()
         Settings.FOREIGN_TO_ENGLISH = self.foreign_to_english_var.get()
         Settings.LANGUAGE = self.language_var.get()
+
+        #disable apply button once changes have been made
+        self.apply_changes_button.configure(state="disabled")
+
+        #create a new walking window with the new settings
+        self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
 
         #log changes
         logging.info(f"SETTINGS UPDATED:\nKNOWN THRESHOLD: {Settings.KNOWN_THRESHOLD}\nKNOWN DELTA: {Settings.KNOWN_DELTA}"

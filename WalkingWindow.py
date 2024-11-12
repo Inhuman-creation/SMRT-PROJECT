@@ -5,7 +5,7 @@ currently being studied by a user
 For testing purposes, it currently reads current_words from CSV directly
 
 Last Edited by: Zachary Kao
-Last Edited: 11/8/2024
+Last Edited: 11/11/2024
 """
 
 import csv
@@ -18,46 +18,59 @@ from Word import Word
 class WalkingWindow:
     """
     Create a walking window object of a certain maximum size
+    Reads in words to current words
     """
     def __init__(self, size: int):
         self.last = 0  # Potential use of this variable to mark the back of window when words inside not at either end become learned
         self.front = self.last + (size - 1) #TODO: EDIT LAST AND FRONT TO NOT BE INTERDEPENDENT AND THEN STATS GUI WILL JUST FIND LAST
         self.size = size
         self.srs_queue = deque(maxlen=Settings.SRS_QUEUE_LENGTH)
-        self.words_dict = self.csv_to_words_dict( csv_name = Settings.username + "_Spanish.csv")
+        self.words_dict = self.csv_to_words_dict(csv_name = f"{Settings.username}_{Settings.LANGUAGE}.csv")
         self.current_words = []
         self.init_current_words(self.size)
 
-
-    def csv_to_words_dict(self, csv_name: str) -> None:
-        """Reads the user's CSV file into a dictionary structure"""
+    """
+    Reads the user's CSV file into a dictionary structure
+    
+    param: csv_name : the filepath of the user's CSV
+    return: words_dict : a dictionary containing all the user's word data
+    """
+    def csv_to_words_dict(self, csv_name: str):
         csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8')
         reader = csv.DictReader(csv_file)
         words_dict = dict()
         for row in reader:
-            span = row["Spanish"]
+            foreign = row["Foreign"]
             engl = row["English"]
             seen = int(row["seen"])
             wrong = int(row["wrong"])
             known = bool(int(row["known"]))
-            words_dict[span] = Word(span, engl, seen, wrong, known)
+            words_dict[foreign] = Word(foreign, engl, seen, wrong, known)
         csv_file.close()
         return words_dict
 
-
-    def init_current_words(self, num_rows: int):
+    """
+    Read a specified number of words into the walking window
+    from word dictionary
+    
+    param: num_words : the number of words to read
+    """
+    def init_current_words(self, num_words: int):
         count_read:int = 0
 
         for key, word in self.words_dict.items():
-            if count_read >= num_rows: #break when numRows is reached
+            if count_read >= num_words: #break when num_words are added
                 break
-            
+
+            #check if the word is known, useful if settings have been changed
+            word.check_if_known()
+
             if (not word.is_known) and (len(self.current_words) < self.size):
                 self.current_words.append(word)
                 count_read += 1
             else:
                 self.front += 1
-        logging.info("READ FROM words_dict: " + repr(self.current_words))
+        logging.info(f"READ {len(self.current_words)} WORDS FROM words_dict: {repr(self.current_words)}")
 
     """
     Return a random selection of unique current_words from the walking window
@@ -73,17 +86,21 @@ class WalkingWindow:
 
     """
     Check the definition of a word in the walking window
+    
+    param: flashword Word : The word that is being translated
+    param: answer : The word or string that is being checked against the translation of the flashword
+    return: True if the answer matches the translation, false otherwise
     """
     def check_word_definition(self, flashword:Word, answer) -> bool:
         #convert Word to answer string to support both flashcard types
         if isinstance(answer, Word):
-            answer = answer.english if Settings.FOREIGN_TO_ENGLISH else answer.spanish
+            answer = answer.english if Settings.FOREIGN_TO_ENGLISH else answer.foreign
 
         #support for both study modes
         if Settings.FOREIGN_TO_ENGLISH:
             correct:bool = (flashword.check_definition_english(answer))
         else:
-            correct:bool = (flashword.check_definition_spanish(answer))
+            correct:bool = (flashword.check_definition_foreign(answer))
 
         if correct:
             known:bool = flashword.check_if_known()
@@ -117,6 +134,8 @@ class WalkingWindow:
     """
     Function for the mark as known button
     Mark a word as known and remove it from the window
+    
+    param: flashword : the Word to be marked as known
     """
     def mark_word_as_known(self, flashword:Word):
         flashword.set_known_word()
@@ -128,6 +147,8 @@ class WalkingWindow:
     """
     Function for removing "word" from window
     Follow up with add_new_word to add a new word to the window
+    
+    param: word : the Word to be removed
     """
     def remove_known_word(self, word: Word):
         if word in self.current_words:
@@ -136,14 +157,13 @@ class WalkingWindow:
         else:
             logging.warning(f"Attempted to remove a word not in current_words: {repr(word)}")
 
-
     """
     Read in a single word from in front of the walking window
     """
     def add_new_word(self):
-        for i in range(self.front + 1, self.size):
-            word = self.word_dict.values()[i]
+        for i in range(self.front, self.front + self.size):
+            word = list(self.words_dict.values())[i]
             if (not word.is_known) and (len(self.current_words) < self.size):
                 self.current_words.append(word)
-                logging.info("ADDED WORD FROM CSV: " + repr(word))
+                logging.info("ADDED NEW WORD: " + repr(word))
                 break

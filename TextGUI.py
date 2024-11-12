@@ -33,7 +33,6 @@ class TextGUI:
         backbuttonfont = ctk.CTkFont(family="Times New Roman", size=25, weight="bold")
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")  # Smaller font for feedback text
 
-
         # Button functions
         def back_function():
             self.controller.show_menu_gui()
@@ -46,7 +45,7 @@ class TextGUI:
                 feedback_text = "🎉 Correct! 🎉"
                 feedback_color = "#77721f"  # Correct color
             else:
-                feedback_text = "Incorrect.\n{} means {}".format(flashword.spanish, flashword.english.lower())
+                feedback_text = "Incorrect.\n{} means {}".format(flashword.foreign, flashword.english.lower())
             feedback_label = ctk.CTkLabel(
                 master=self.frame, text=feedback_text, text_color="white",
                 font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
@@ -66,7 +65,7 @@ class TextGUI:
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
-            master=self.frame, text=flashword.spanish, text_color="black",
+            master=self.frame, text=flashword.foreign, text_color="black",
             font=flashfont, fg_color=None #from choice GUI
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=.5, relheight=.3, anchor=tk.CENTER)
