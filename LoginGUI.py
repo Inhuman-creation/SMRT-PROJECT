@@ -29,7 +29,7 @@ class LoginGUI:
         italicsfont = ctk.CTkFont(family="Garet", size=18, slant="italic")
 
         # Welcome messages in different languages
-        self.welcome_messages = ["Welcome", "Bienvenido", "Bienvenue", "أهلا بك", "Willkommen", "Benvenuto", "欢迎", "Добро пожаловать"]
+        self.welcome_messages = ["Welcome", "Bienvenido", "Bienvenue", "أهلا بك", "Willkommen", "Benvenuto", "欢迎", "Добро пожаловать", "Hoş geldin"]
         self.current_welcome_index = 0
 
         # Welcome label

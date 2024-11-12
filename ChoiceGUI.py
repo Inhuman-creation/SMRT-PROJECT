@@ -1,6 +1,6 @@
 # =====================
-# choiceGUI.py
-# Latest version: Nov 6
+# ChoiceGUI.py
+# Latest version: Nov 11
 # Multiple choice flashcards screen
 # =====================
 
@@ -24,9 +24,10 @@ class ChoiceGUI:
 
         # Initialize variables for GUI display
         flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
-        choices = [var1, var2, var3]  # put into list to make them able to be looped over (iterable)
-        answer_position = random.randint(0, 3)  # determines where the right answer will be placed
-        choices.insert(answer_position, flashword)
+        self.flashword = flashword  # Store the word for later use
+        self.choices = [var1, var2, var3]  # put into list to make them able to be looped over (iterable)
+        self.answer_position = random.randint(0, 3)  # determines where the right answer will be placed
+        self.choices.insert(self.answer_position, self.flashword)
 
         # Create frame for choice GUI with background color
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
@@ -47,40 +48,70 @@ class ChoiceGUI:
         def back_function():
             self.controller.show_menu_gui()
 
+        def switch_to_next_word():  # Function to switch to the next word
+            flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
+            self.flashword = flashword
+            self.choices = [var1, var2, var3]
+            self.answer_position = random.randint(0, 3)
+            self.choices.insert(self.answer_position, self.flashword)
+            self.controller.show_choice_gui()
+
+        def hide_feedback(feedback_label, feedback_button, buttons):  # Function to hide feedback and re-enable buttons
+            feedback_label.destroy()
+            if feedback_button:
+                feedback_button.destroy()
+            for btn in buttons:
+                btn.configure(state="normal")  # Re-enable buttons
+
+            # Immediately switch to the next word after the feedback disappears
+            switch_to_next_word()
+
         def display_feedback(word: Word):
             feedback_text = ""
             feedback_color = "#f37d59"  # Default incorrect color
 
-            if self.controller.study_window.check_word_definition(flashword, word):
+            if self.controller.study_window.check_word_definition(self.flashword, word):
                 feedback_text = random.choice(supportive_messages)  # Random supportive message
                 feedback_color = "#77721f"  # Correct color
+                # Create feedback label for correct answer
+                feedback_label = ctk.CTkLabel(
+                    master=self.frame, text=feedback_text, text_color="white",
+                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
+                )
+                feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+
+                # Disable all choice buttons after a guess is made
+                for btn in buttons:
+                    btn.configure(state="disabled")
+
+                # Automatically hide feedback and switch to the next word after 2 seconds
+                self.frame.after(1000, hide_feedback, feedback_label, None, buttons)  # No button for correct answer
             else:
-                feedback_text = "Not quite!\n{} means {}.".format(flashword.foreign, flashword.english.lower()) \
-                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{flashword.english.lower()} translates to {flashword.foreign}"
+                feedback_text = "Not quite!\n{} means {}.".format(self.flashword.foreign, self.flashword.english.lower()) \
+                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{self.flashword.english.lower()} translates to {self.flashword.foreign}"
 
-            # Create feedback label with better styling and new font size
-            feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, text_color="white",
-                font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
-            )
-            feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+                feedback_label = ctk.CTkLabel(
+                    master=self.frame, text=feedback_text, text_color="white",
+                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
+                )
+                feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
-            # Disable all choice buttons after a guess is made
-            for btn in buttons:
-                btn.configure(state="disabled")
+                # Disable all choice buttons after a guess is made
+                for btn in buttons:
+                    btn.configure(state="disabled")
 
-            # OK button
-            feedback_button = ctk.CTkButton(
-                master=self.frame, text="OK", font=buttonfont,
-                width=160, height=100, command=self.controller.show_choice_gui,
-                fg_color="#ffc24a", text_color="white", corner_radius=20  # New background color and text color
-            )
-            feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
-                                  anchor=tk.CENTER)  # Adjusted rely to make it closer
+                # Create OK button for incorrect answers
+                feedback_button = ctk.CTkButton(
+                    master=self.frame, text="OK", font=buttonfont,
+                    width=160, height=100, command=lambda: hide_feedback(feedback_label, feedback_button, buttons),
+                    fg_color="#ffc24a", text_color="white", corner_radius=20  # New background color and text color
+                )
+                feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
+                                      anchor=tk.CENTER)  # Adjusted rely to make it closer
 
         # Word in foreign language
         flashcard = ctk.CTkLabel(
-            master=self.frame, text=flashword.foreign if Settings.FOREIGN_TO_ENGLISH else flashword.english.lower(),
+            master=self.frame, text=self.flashword.foreign if Settings.FOREIGN_TO_ENGLISH else self.flashword.english.lower(),
             text_color="black",
             font=flashfont, fg_color=None  # Remove background color
         )
@@ -90,10 +121,10 @@ class ChoiceGUI:
         buttons = []
         for i in range(4):
             button = ctk.CTkButton(
-                master=self.frame, text=choices[i].english.lower() if Settings.FOREIGN_TO_ENGLISH else choices[i].foreign,
+                master=self.frame, text=self.choices[i].english.lower() if Settings.FOREIGN_TO_ENGLISH else self.choices[i].foreign,
                 font=buttonfont,
                 width=480, height=250, text_color="#ffffff",  # Set font color to white
-                command=partial(display_feedback, choices[i]),
+                command=partial(display_feedback, self.choices[i]),
                 fg_color="#acb87c", hover_color="#77721f", corner_radius=20
                 # Apply color, hover effect, and rounded corners
             )

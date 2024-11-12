@@ -1,6 +1,6 @@
 # =====================
 # choiceGUI.py
-# Latest version: Nov 6
+# Latest version: Nov 11
 # Multiple choice flashcards screen
 # =====================
 
@@ -24,13 +24,13 @@ class TextGUI:
         flashword = self.controller.study_window.get_random_words(1)[0]
 
         # Create frame for choice GUI
-        self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd") #from choice GUI
-        self.frame.pack(expand=1, fill="both")
+        self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")  # from choice GUI
+        self.frame.pack(expand=1, fill="both", anchor=tk.CENTER)  # Ensure frame occupies full screen
 
-        # Create fonts
-        flashfont = ctk.CTkFont(family="Times New Roman", size=75, weight="bold")
-        buttonfont = ctk.CTkFont(family="Times New Roman", size=55, weight="bold")
-        backbuttonfont = ctk.CTkFont(family="Times New Roman", size=25, weight="bold")
+        # Create fonts (all "Garet")
+        flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")
+        buttonfont = ctk.CTkFont(family="Garet", size=45, weight="bold")  # Reduced the size for submit button
+        backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")  # Smaller font for feedback text
 
         # Button functions
@@ -54,7 +54,7 @@ class TextGUI:
             feedback_button = ctk.CTkButton(
                 master=self.frame, text="OK", font=buttonfont,
                 width=160, height=100, command=self.controller.show_text_gui,
-                fg_color="#ffc24a", text_color="white", corner_radius=20 #from choice GUI feedback button
+                fg_color="#ffc24a", text_color="white", corner_radius=20  # from choice GUI feedback button
             )
             feedback_button.place(relx=0.5, rely=0.67, relwidth=.1, relheight=.1, anchor=tk.CENTER)
             # TODO: update relevant count variables before displaying the feedback
@@ -66,42 +66,32 @@ class TextGUI:
         # Create flashcard label
         flashcard = ctk.CTkLabel(
             master=self.frame, text=flashword.foreign, text_color="black",
-            font=flashfont, fg_color=None #from choice GUI
+            font=flashfont, fg_color=None  # from choice GUI
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=.5, relheight=.3, anchor=tk.CENTER)
 
-        # Creat frame to hold text input field and submit button
-        input_frame = ctk.CTkFrame(
-            master=self.frame,
-            fg_color="#ffc24a", corner_radius=15 #NEW FROM VOSS
-        )
-        input_frame.place(relx=0.5, rely=0.75, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
-
-        # Create and place the text entry
+        # Create and place the text entry (same as LoginGUI.py's text entry)
         text_entry = ctk.CTkEntry(
-            master=input_frame,
-            placeholder_text="Translation",
-            font=buttonfont, fg_color = "white", text_color="black", corner_radius = 20 #from choice GUI
-
+            master=self.frame, placeholder_text="Type translation here...",
+            font=buttonfont,
+            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        text_entry.place(relx=0.5, rely=0.25, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
-        text_entry.bind("<Return>", display_feedback)  # submit by pressing Enter
+        text_entry.place(relx=0.5, rely=0.6, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)  # Matching width/height
 
-        # Create and place submit button
+        # Create and place submit button (made smaller font size)
         submit_button = ctk.CTkButton(
-            master=input_frame,
+            master=self.frame,
             text="Submit", text_color="white",
             command=partial(display_feedback, None),
             font=buttonfont,
-
         )
-        submit_button.place(relx=0.5, rely=0.75, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
+        submit_button.place(relx=0.5, rely=0.75, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)  # Smaller relwidth and relheight
 
         # Create back button
         back_button = ctk.CTkButton(
             master=self.frame, text="EXIT", font=backbuttonfont,
             width=100, height=50, command=back_function,
-            fg_color = "#d9534f", text_color = "white", corner_radius = 20  # from Choice GUI
+            fg_color="#d9534f", text_color="white", corner_radius=20  # from Choice GUI
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
