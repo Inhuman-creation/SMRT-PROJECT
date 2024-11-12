@@ -41,13 +41,36 @@ class TextGUI:
             self.controller.study_window.mark_word_as_known(flashword)
             self.controller.show_text_gui()
 
+        def switch_to_next_word():  # Function to switch to the next word
+            self.controller.show_text_gui()
+
+        def hide_feedback(feedback_label, feedback_button, buttons):  # Function to hide feedback and re-enable buttons
+            feedback_label.destroy()
+            if feedback_button:
+                feedback_button.destroy()
+            '''for btn in buttons:
+                btn.configure(state="normal")  # Re-enable buttons'''
+            # Immediately switch to the next word after the feedback disappears
+            switch_to_next_word()
+
         def display_feedback(_):  # _ is an unused arg passed from CTkEntry.bind()
             word = text_entry.get()
             feedback_text = ""
             feedback_color = "#f37d59"  # from choice GUI
+
+            feedback_label = ctk.CTkLabel(
+                master=self.frame, text=feedback_text, text_color="white",
+                font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
+            )
+            feedback_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
+
             if self.controller.study_window.check_word_definition(flashword, word):
                 feedback_text = "🎉 Correct! 🎉"
                 feedback_color = "#77721f"  # Correct color
+
+                # Automatically hide feedback and switch to the next word after 2 seconds
+                self.frame.after(500, hide_feedback, feedback_label, None, None)  # No button for correct answer
+
             else:
                 feedback_text = "Incorrect.\n{} means {}".format(flashword.foreign, flashword.english.lower())
             feedback_label = ctk.CTkLabel(
