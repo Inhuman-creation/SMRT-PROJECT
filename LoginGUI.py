@@ -185,13 +185,13 @@ class LoginGUI:
             master=input_frame, placeholder_text="Email", font=entryfont,
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_email.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_email.place(relx=0.5, rely=0.35, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         self.text_entry_password = ctk.CTkEntry(
             master=input_frame, placeholder_text="Password", font=entryfont, show="*",
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_password.place(relx=0.5, rely=0.35, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_password.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         # "Login" button
         loginbutton = ctk.CTkButton(
