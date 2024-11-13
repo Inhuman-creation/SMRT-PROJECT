@@ -12,9 +12,9 @@ qué,what,0,0,0,1
 el,the,0,0,0,1
 en,in,0,0,0,1
 por,for,0,0,0,1
-se,I know,0,0,0,1
-con,with,0,0,0,1
-un,a,0,0,0,1
+se,I know,2,0,2,1
+con,with,11,0,11,1
+un,a,4,0,4,1
 ya,already,0,0,0,1
 para,for,0,0,0,1
 mí,my,0,0,0,1
@@ -26,13 +26,13 @@ las,the,0,0,0,0
 más,more,0,0,0,0
 del,of the,0,0,0,0
 yo,I,0,0,0,0
-pero,but,0,0,0,0
+pero,but,1,0,1,0
 le,him,0,0,0,0
 eso,that,0,0,0,0
 todo,all,0,0,0,0
 como,how,0,0,0,0
 muy,very,0,0,0,0
-su,his,0,0,0,0
+su,his,1,0,1,0
 o,or,0,0,0,0
 al,to the,0,0,0,0
 así,so,0,0,0,0

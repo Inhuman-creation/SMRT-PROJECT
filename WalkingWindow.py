@@ -2,10 +2,7 @@
 The Walking Window class implements the walking window of current_words
 currently being studied by a user
 
-For testing purposes, it currently reads current_words from CSV directly
-
-Last Edited by: Zachary Kao
-Last Edited: 11/11/2024
+Last Edited: 11/13/2024
 """
 
 import csv
@@ -116,11 +113,8 @@ class WalkingWindow:
         if isinstance(answer, Word):
             answer = answer.english if Settings.FOREIGN_TO_ENGLISH else answer.foreign
 
-        #support for both study modes
-        if Settings.FOREIGN_TO_ENGLISH:
-            correct:bool = (flashword.check_definition_english(answer))
-        else:
-            correct:bool = (flashword.check_definition_foreign(answer))
+        #support for both study modes is provided by the Word class
+        correct:bool = (flashword.check_definition(answer))
 
         if correct:
             known:bool = flashword.check_if_known()

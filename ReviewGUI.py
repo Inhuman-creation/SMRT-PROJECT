@@ -113,13 +113,34 @@ class ReviewGUI:
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
 
-        # Create multiple choice buttons
-        for idx, choice in enumerate(choices):
-            choice_button = ctk.CTkButton(
-                master=self.frame, text=choice.english, text_color="white",
-                font=self.buttonfont, command=partial(display_feedback, choice)
+        # Create multiple choice buttons with white text and hover effect
+        buttons = []
+        for i in range(4):
+            button = ctk.CTkButton(
+                master=self.frame,
+                text=choices[i].english.lower() if Settings.FOREIGN_TO_ENGLISH else choices[i].foreign,
+                font=self.buttonfont,
+                width=480, height=250, text_color="#ffffff",  # Set font color to white
+                command=partial(display_feedback, choices[i]),
+                fg_color="#acb87c", hover_color="#77721f", corner_radius=20
+                # Apply color, hover effect, and rounded corners
             )
-            choice_button.place(relx=0.3 + (idx % 2) * 0.4, rely=0.6 + (idx // 2) * 0.15, relwidth=0.3, relheight=0.1)
+            buttons.append(button)
+
+        # Place the buttons
+        for i in range(4):
+            x = -1  # init temporary position variables
+            y = -1
+            if i % 2 == 1:  # x values
+                x = 0.25  # first and third buttons
+            else:
+                x = 0.75  # second and fourth
+
+            if i < 2:  # y values
+                y = 0.58  # first and second buttons
+            else:
+                y = 0.85  # third and fourth buttons
+            buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
 
         # Create back button
         back_button = ctk.CTkButton(
@@ -140,7 +161,7 @@ class ReviewGUI:
             feedback_text = ""
             feedback_color = "#f37d59"
 
-            if self.controller.review_window.check_word_definition(flashword, word):
+            if flashword.check_definition(word):
                 feedback_text = "🎉 Correct! 🎉"
                 feedback_color = "#77721f"
             else:

@@ -3,7 +3,6 @@ The Word class models a Word for the purposes of language learning
 It contains a foreign language word and the corresponding English definition
 It can check if a given definition is correct or not
 
-Last Edited by: Zachary Kao
 Last Edited: 11/8/2024
 """
 
@@ -62,38 +61,6 @@ class Word:
         return (f"Word(foreign = {self.foreign}, english = {self.english}"
                 f", count_seen = {self.count_seen}, count_correct = {self.count_correct}"
                 f", count_incorrect = {self.count_incorrect}, known = {self.is_known})")
-
-    def check_definition_english(self, input_string: str) -> bool:
-        """
-        Check if the input string matches the foreign definition of the word
-        Will call the corresponding function to update this word's count variables
-        return True if it matches, False otherwise
-        """
-
-        correct = self.english.lower() == input_string.lower()
-
-        if correct:
-            self.correct()
-        else:
-            self.incorrect()
-
-        return correct
-
-    def check_definition_foreign(self, input_string: str) -> bool:
-        """
-        Check if the input string matches the foreign definition of the word
-        Will call the corresponding function to update this word's count variables
-        return True if it matches, False otherwise
-        """
-
-        correct = self.foreign.lower() == input_string.lower()
-
-        if correct:
-            self.correct()
-        else:
-            self.incorrect()
-
-        return correct
 
     def check_definition(self, answer):
         """
