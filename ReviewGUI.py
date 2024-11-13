@@ -7,13 +7,18 @@
 import customtkinter as ctk
 import tkinter as tk
 
-from ChoiceGUI import ChoiceGUI
-from Word import Word
+#from ChoiceGUI import ChoiceGUI
+#from Word import Word
 from functools import partial
 import random
 import Settings
 from WalkingWindow import WalkingWindow
-import os
+#import os
+
+'''************************* EXPERIMENTAL GUI IMPLEMENTATION *************************'''
+#in this file I have just attempted to combine ChoiceGUI and TextGui together with significant reorganization
+#TODO NEED TO MAKE A REVIEW_WINDOW or modify study_window TO ONLY PROVIDE KNOWN WORDS
+
 
 class ReviewGUI:
     def __init__(self, controller):
