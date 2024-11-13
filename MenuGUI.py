@@ -46,7 +46,7 @@ class MenuGUI:
 
         def exit_button():
             print("Exiting application")
-            self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}")
+            self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}.csv")
             self.app.destroy()
 
         # Static title label "What would you like to do?"
