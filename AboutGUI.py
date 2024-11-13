@@ -29,7 +29,7 @@ class AboutGUI:
                 "With SMRT Vocab, we hope you'll soon find yourself ready for exciting new experiences like listening to podcasts, watching movies,\n reading books, and, "
                 "most importantly, speaking with others in your target language.\n\n - Lang Gang",
 
-            font=backbuttonfont, fg_color="#acb87c", corner_radius=15, wraplength=2000,
+            font=backbuttonfont, text_color="white", fg_color="#acb87c", corner_radius=15, wraplength=2000,
             anchor=tk.W, justify=tk.LEFT
         )
         card.place(relx=0.5, rely=0.5, relwidth=.875, relheight=.80, anchor=tk.CENTER)

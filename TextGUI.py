@@ -1,5 +1,5 @@
 # =====================
-# choiceGUI.py
+# TextGUI.py
 # Latest version: Nov 11
 # Multiple choice flashcards screen
 # =====================

@@ -11,6 +11,7 @@ from TextGUI import TextGUI
 from SettingsGUI import SettingsGUI
 from StatsGUI import StatsGUI
 from AboutGUI import AboutGUI
+from ReviewGUI import ReviewGUI
 
 import logging
 
@@ -70,6 +71,11 @@ class GUI:
         if self.current_frame:
             self.current_frame.destroy()
         self.current_frame = TextGUI(self)
+
+    def show_review_gui(self):
+        if self.current_frame:
+            self.current_frame.destroy()
+        self.current_frame = ReviewGUI(self)
 
     def show_settings_gui(self):
         if self.current_frame:

@@ -29,6 +29,9 @@ class MenuGUI:
         def text_function():
             self.controller.show_text_gui()
 
+        def review_function():
+            self.controller.show_review_gui()
+
         #def placeholder_function():
         #    print("Placeholder function")
 
@@ -51,18 +54,18 @@ class MenuGUI:
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
         # Create option buttons
-        button_colors = ["#f37d59", "#0f606b", "#ffc24a", "#aeb883"]
-        button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Statistics", "Settings"]
-        button_commands = [choice_function, text_function, stats_function, settings_function]
+        button_colors = ["#f37d59", "#0f606b", "#aeb883","#ffc24a", "#aeb883"]
+        button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Review Mode", "Statistics", "Settings"]
+        button_commands = [choice_function, text_function, review_function, stats_function, settings_function]
 
         # Option buttons
-        for i in range(4):
+        for i in range(5):
             button = ctk.CTkButton(
                 master=self.frame, text=button_texts[i], font=buttonfont,
                 fg_color=button_colors[i], text_color="#ffffff",  # White text
                 width=900, height=80, command=button_commands[i], corner_radius=15
             )
-            button.place(relx=0.5, rely=0.3 + (i * 0.15), anchor=tk.CENTER)
+            button.place(relx=0.5, rely=0.3 + (i * 0.125), anchor=tk.CENTER)
 
         #simple about page for user to read
         about_btn = ctk.CTkButton(

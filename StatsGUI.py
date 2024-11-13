@@ -120,14 +120,14 @@ class StatsGUI:
         self.x_slider.place(relx=0.5, rely=0.85, relwidth=0.6, anchor=tk.CENTER)
 
         # Display feedback based on the x position
-        self.feedback_label = ctk.CTkLabel(master=self.frame, font=backbuttonfont, text="Feedback will appear here", text_color="black")
+        self.feedback_label = ctk.CTkLabel(master=self.frame, font=backbuttonfont, text="Slide to Compare!", text_color="black")
         self.feedback_label.place(relx=0.5, rely=0.75, anchor=tk.CENTER)
 
     def update_feedback(self, x_value):
         # Calculate corresponding y-value from the function
-        y_value = custom_function(float(x_value))
+        y_value = custom_function(int(x_value))
         # Update feedback label with current x and y values
-        self.feedback_label.configure(text=f"{x_value:.2f} words ~ {y_value:.2f} Percent")
+        self.feedback_label.configure(text=f"{x_value:.0f} words ~ {y_value:.0f} Percent")
 
     def destroy(self):
         self.frame.destroy()
