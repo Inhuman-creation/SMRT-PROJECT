@@ -7,15 +7,16 @@
 #import csv
 import customtkinter as ctk
 import tkinter as tk
+
+import numpy
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import numpy as np
-#from Word import Word
-#import Settings
 
 
 def custom_function(x):
-    return 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
+    y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
+    return max(0,y)
     #this function is an approximated curve fit based off linguistic sources and rounding.
 
 
@@ -104,7 +105,11 @@ class StatsGUI:
         # Define a sample function, e.g., a sine wave for user interaction
         x = np.linspace(0, 5000, 100)
         y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
+        y = np.maximum(0, y) #does not allow negative y values.
         ax.plot(x, y, label="Line")
+        #Graph the users progress through the language
+        ax.axvline(count_known_words(self.controller.study_window.words_dict),
+                    color='red', linestyle='--', label="You are hear")
         ax.set_title("Check your progress")
         ax.set_xlabel("~ number of known words")
         ax.set_ylabel("~ percentage of lang")
@@ -116,7 +121,7 @@ class StatsGUI:
         canvas.get_tk_widget().place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
         # Add a slider to control the x-axis position
-        self.x_slider = ctk.CTkSlider(master=self.frame, from_=0, to=5000, command=self.update_feedback)
+        self.x_slider = ctk.CTkSlider(master=self.frame, from_=1, to=5000, command=self.update_feedback)
         self.x_slider.place(relx=0.5, rely=0.85, relwidth=0.6, anchor=tk.CENTER)
 
         # Display feedback based on the x position
