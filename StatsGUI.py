@@ -130,4 +130,5 @@ class StatsGUI:
         self.feedback_label.configure(text=f"{x_value:.0f} words ~ {y_value:.0f} Percent")
 
     def destroy(self):
+        plt.close('all')
         self.frame.destroy()
