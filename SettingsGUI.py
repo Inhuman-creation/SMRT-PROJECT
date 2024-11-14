@@ -120,7 +120,24 @@ class SettingsGUI:
                                                    button_color="#77721f",
                                                    command=self.on_change_language)
         self.language_dropdown.place(relx=0.6, rely=slider_start_y + 0.05, anchor=tk.CENTER)
-        slider_start_y += 0.2
+        slider_start_y += 0.10
+
+        # auto tts toggle
+        ctk.CTkLabel(self.frame, text="Auto Pronunciation", font=labelfont,
+                     text_color="black").place(relx=0.5, rely=slider_start_y, anchor=tk.CENTER)
+        self.auto_tts_var = tk.BooleanVar(value=Settings.AUTO_TTS)
+        self.auto_tts_toggle = ctk.CTkSwitch(
+            self.frame, variable=self.auto_tts_var, onvalue=True, offvalue=False,
+            text="On" if self.auto_tts_var.get() else "Off",
+            text_color="black",
+            font=labelfont,
+            fg_color="#acb87c",
+            progress_color="#77721f",
+            button_color="#f37d59",
+            button_hover_color="#ffc24a",
+            command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
+        )
+        self.auto_tts_toggle.place(relx=0.5, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
     #create a slider for each setting
     def add_slider(self, label_text, min_val, max_val, initial, relx, rely):
@@ -169,9 +186,9 @@ class SettingsGUI:
         self.apply_changes_button.configure(state="normal")
 
     #enable the apply changes button on settings change and update labels
-    def update_toggle_label(self):
+    def update_toggle_label(self, toggle, value):
         # Update the label based on the toggle's current state
-        self.foreign_to_english_toggle.configure(text="On" if self.foreign_to_english_var.get() else "Off")
+        toggle.configure(text="On" if value.get() else "Off")
         self.apply_changes_button.configure(state="normal")
 
     #enable the apply changes button on settings change
@@ -187,6 +204,7 @@ class SettingsGUI:
         Settings.WALKING_WINDOW_SIZE = self.walking_window_size_var.get()
         Settings.FOREIGN_TO_ENGLISH = self.foreign_to_english_var.get()
         Settings.LANGUAGE = self.language_var.get()
+        Settings.AUTO_TTS = self.auto_tts_var.get()
 
         #disable apply button once changes have been made
         self.apply_changes_button.configure(state="disabled")
@@ -197,7 +215,8 @@ class SettingsGUI:
         #log changes
         logging.info(f"SETTINGS UPDATED:\nKNOWN THRESHOLD: {Settings.KNOWN_THRESHOLD}\nKNOWN DELTA: {Settings.KNOWN_DELTA}"
                      f"\nSRS QUEUE LENGTH: {Settings.SRS_QUEUE_LENGTH}\nWALKING WINDOW SIZE: {Settings.WALKING_WINDOW_SIZE}"
-                     f"\nFOREIGN TO ENGLISH: {Settings.FOREIGN_TO_ENGLISH}\nLANGUAGE: {Settings.LANGUAGE}")
+                     f"\nFOREIGN TO ENGLISH: {Settings.FOREIGN_TO_ENGLISH}\nLANGUAGE: {Settings.LANGUAGE}"
+                     f"\nAUTO TTS: {Settings.AUTO_TTS}")
 
     def destroy(self):
         self.frame.destroy()

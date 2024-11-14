@@ -184,5 +184,9 @@ class ChoiceGUI:
         )
         tts_button.place(relx=0.95, rely=0.17, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
+        #Auto TTS if desired
+        if Settings.AUTO_TTS:
+            text_to_speech_function(self.flashword)
+
     def destroy(self):
         self.frame.destroy()
