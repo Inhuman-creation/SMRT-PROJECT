@@ -109,7 +109,7 @@ class SettingsGUI:
         )
         self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
-        #dropdown menu for language selection
+        #dropdown menu for lang selection
         ctk.CTkLabel(self.frame, text="Language Selection", font=labelfont,
                      text_color="black").place(relx=0.6, rely=slider_start_y, anchor=tk.CENTER)
         options = ["Spanish", "French"]

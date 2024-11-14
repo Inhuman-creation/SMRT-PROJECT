@@ -1,6 +1,6 @@
 """
-The Word class models a Word for the purposes of language learning
-It contains a foreign language word and the corresponding English definition
+The Word class models a Word for the purposes of lang learning
+It contains a foreign lang word and the corresponding English definition
 It can check if a given definition is correct or not
 
 Last Edited: 11/8/2024
@@ -73,8 +73,8 @@ class Word:
         if isinstance(answer, Word):
             answer = answer.english if Settings.FOREIGN_TO_ENGLISH else answer.foreign
 
-        correct = (self.foreign.lower() == answer.lower()) if Settings.FOREIGN_TO_ENGLISH \
-            else (self.english.lower() == answer.lower())
+        correct = (self.english.lower() == answer.lower()) if Settings.FOREIGN_TO_ENGLISH \
+            else (self.foreign.lower() == answer.lower())
 
         if correct:
             self.correct()

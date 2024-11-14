@@ -9,6 +9,8 @@ import tkinter as tk
 from Word import Word
 from functools import partial
 import random
+from TextToSpeech import play_pronunciation
+import Settings
 
 
 class TextGUI:
@@ -40,6 +42,9 @@ class TextGUI:
         def mark_known():
             self.controller.study_window.mark_word_as_known(flashword)
             self.controller.show_text_gui()
+
+        def text_to_speech_function(word):
+            play_pronunciation(word.foreign, Settings.LANGUAGE)
 
         def switch_to_next_word():  # Function to switch to the next word
             self.controller.show_text_gui()
@@ -130,6 +135,14 @@ class TextGUI:
             fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
         )
         known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
+        # Text-to-speech button
+        tts_button = ctk.CTkButton(
+            master=self.frame, text="Speak\nText", font=backbuttonfont,
+            width=600, height=200, command=lambda: text_to_speech_function(flashword),
+            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+        )
+        tts_button.place(relx=0.95, rely=0.2, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
     def destroy(self):
         self.frame.destroy()

@@ -107,7 +107,7 @@ class StatsGUI:
         ax.plot(x, y, label="Line")
         ax.set_title("Check your progress")
         ax.set_xlabel("~ number of known words")
-        ax.set_ylabel("~ percentage of language")
+        ax.set_ylabel("~ percentage of lang")
         ax.legend()
 
         # Add the matplotlib figure to tkinter

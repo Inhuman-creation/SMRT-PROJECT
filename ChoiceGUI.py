@@ -6,6 +6,7 @@
 
 import customtkinter as ctk
 import tkinter as tk
+from TextToSpeech import play_pronunciation
 
 import Settings
 from Word import Word
@@ -22,6 +23,7 @@ class ChoiceGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
+        self.engine = None
 
         # Initialize variables for GUI display
         flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
@@ -53,6 +55,12 @@ class ChoiceGUI:
         def mark_known():
             self.controller.study_window.mark_word_as_known(flashword)
             switch_to_next_word()
+
+        def text_to_speech_function(word):
+            if Settings.FOREIGN_TO_ENGLISH:
+                play_pronunciation(word.foreign, Settings.LANGUAGE)
+            else:
+                play_pronunciation(word.english, "english")
 
         def switch_to_next_word():  # Function to switch to the next word
             flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
@@ -115,7 +123,7 @@ class ChoiceGUI:
                 feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
                                       anchor=tk.CENTER)  # Adjusted rely to make it closer
 
-        # Word in foreign language
+        # Word in foreign lang
         flashcard = ctk.CTkLabel(
             master=self.frame, text=self.flashword.foreign if Settings.FOREIGN_TO_ENGLISH else self.flashword.english.lower(),
             text_color="black",
@@ -167,6 +175,14 @@ class ChoiceGUI:
             fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
         )
         known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
+        # Text-to-speech button
+        tts_button = ctk.CTkButton(
+            master=self.frame, text="Speak\nText", font=backbuttonfont,
+            width=600, height=200, command=lambda: text_to_speech_function(self.flashword),
+            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+        )
+        tts_button.place(relx=0.95, rely=0.17, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
     def destroy(self):
         self.frame.destroy()

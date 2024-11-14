@@ -25,9 +25,9 @@ class AboutGUI:
                 "SMRT Vocab is a vocabulary trainer designed to accelerate the acquisition of foreign languages.\n\n"
                 "Unlike other applications, SMRT Vocab doesn't slow your progress with artificial constraints like health systems, "
                 "rigid learning paths, or \nrestrictive topics. Our algorithm helps you learn the most common—and most essential—vocabulary quickly. "
-                "We believe that addressing \nthe 'vocabulary gap' is the best way to move you beyond basic comprehension, opening the door to enjoyable language activities.\n\n"
+                "We believe that addressing \nthe 'vocabulary gap' is the best way to move you beyond basic comprehension, opening the door to enjoyable lang activities.\n\n"
                 "With SMRT Vocab, we hope you'll soon find yourself ready for exciting new experiences like listening to podcasts, watching movies,\n reading books, and, "
-                "most importantly, speaking with others in your target language.\n\n - Lang Gang",
+                "most importantly, speaking with others in your target lang.\n\n - Lang Gang",
 
             font=backbuttonfont, text_color="white", fg_color="#acb87c", corner_radius=15, wraplength=2000,
             anchor=tk.W, justify=tk.LEFT
