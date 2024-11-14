@@ -109,7 +109,7 @@ class StatsGUI:
         ax.plot(x, y, label="Line")
         #Graph the users progress through the language
         ax.axvline(count_known_words(self.controller.study_window.words_dict),
-                    color='red', linestyle='--', label="You are hear")
+                    color='red', linestyle='-', label="You are hear")
         ax.set_title("Check your progress")
         ax.set_xlabel("~ number of known words")
         ax.set_ylabel("~ percentage of lang")
