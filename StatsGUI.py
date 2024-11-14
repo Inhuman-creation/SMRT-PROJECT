@@ -76,7 +76,7 @@ class StatsGUI:
             master=self.frame, text="Total Known Words:\n" + str(self.default_x), text_color="white",
             font=backbuttonfont, fg_color="#acb87c", corner_radius=15 # from choice GUI
         )
-        card.place(relx=0.5, rely=0.2, relwidth=.15, relheight=.1, anchor=tk.CENTER)
+        card.place(relx=0.5, rely=0.2, relwidth=.20, relheight=.1, anchor=tk.CENTER)
 
         stats_card = ctk.CTkLabel(
             master=self.frame,
@@ -135,3 +135,4 @@ class StatsGUI:
     def destroy(self):
         plt.close('all')
         self.frame.destroy()
+

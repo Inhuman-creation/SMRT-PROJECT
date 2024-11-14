@@ -68,6 +68,8 @@ class WalkingWindow:
 
     def save_and_close(self, csv_name: str):
         self.word_dict_to_csv(csv_name)
+        if Settings.controller.current_frame:
+            Settings.controller.current_frame.destroy()
         Settings.app.destroy()
 
     def init_current_words(self, num_words: int):

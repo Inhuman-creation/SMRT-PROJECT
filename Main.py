@@ -37,6 +37,7 @@ class GUI:
         # Initialize the main application window
         self.app = ctk.CTk()
         Settings.app = self.app
+        Settings.controller = self
         self.app.geometry("1000x1000")
         self.app._state_before_windows_set_titlebar_color = 'zoomed'
         self.app.title("SMRT")
