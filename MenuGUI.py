@@ -50,7 +50,7 @@ class MenuGUI:
             self.app.destroy()
 
         # Static title label "What would you like to do?"
-        self.title_label = ctk.CTkLabel(master=self.frame, text="What would you like to do?", text_color="black", font=titlefont)
+        self.title_label = ctk.CTkLabel(master=self.frame, text="Time to get SMRT!", text_color="black", font=titlefont)
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
         # Create option buttons
