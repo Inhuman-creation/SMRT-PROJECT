@@ -17,7 +17,7 @@ from WalkingWindow import WalkingWindow
 from TextToSpeech import play_pronunciation
 
 '''************************* EXPERIMENTAL GUI IMPLEMENTATION *************************'''
-#in this file I have just attempted to combine ChoiceGUI and TextGui together with significant reorganization
+#in this file I have combined ChoiceGUI and TextGui together with significant reorganization
 
 
 class ReviewGUI:
@@ -82,7 +82,7 @@ class ReviewGUI:
         # Select flashword and choices
         flashword, var1, var2, var3 = self.get_random_words(4)
         flashword = flashword  # Store the word for later use
-        choices = [flashword, var1, var2, var3]  # put into list to make them able to be looped over (iterable)
+        choices = [flashword, var1, var2, var3]  # put into list to shuffle
         random.shuffle(choices)
 
         # Button functions
@@ -120,7 +120,7 @@ class ReviewGUI:
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
 
-        # Create multiple choice buttons with white text and hover effect
+        # Create multiple choice buttons
         buttons = []
         for i in range(4):
             button = ctk.CTkButton(
@@ -130,7 +130,6 @@ class ReviewGUI:
                 width=480, height=250, text_color="#ffffff",  # Set font color to white
                 command=partial(display_feedback, choices[i]),
                 fg_color="#acb87c", hover_color="#77721f", corner_radius=20
-                # Apply color, hover effect, and rounded corners
             )
             buttons.append(button)
 

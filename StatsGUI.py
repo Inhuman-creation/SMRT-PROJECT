@@ -1,14 +1,12 @@
 # =====================
 # StatsGUI.py
-# Latest version: Nov 11
+# Latest version: Nov 14 2024
 # Interactive graph and statistics GUI
 # =====================
 
-#import csv
 import customtkinter as ctk
 import tkinter as tk
 
-import numpy
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import numpy as np
@@ -102,7 +100,7 @@ class StatsGUI:
         # Create a figure and axis for the graph
         fig, ax = plt.subplots(figsize=(10, 4), dpi=100)
 
-        # Define a sample function, e.g., a sine wave for user interaction
+        # Define a the function for the graph
         x = np.linspace(0, 5000, 100)
         y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
         y = np.maximum(0, y) #does not allow negative y values.
