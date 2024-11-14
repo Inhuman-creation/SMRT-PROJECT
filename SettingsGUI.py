@@ -124,7 +124,7 @@ class SettingsGUI:
 
         # auto tts toggle
         ctk.CTkLabel(self.frame, text="Auto Pronunciation", font=labelfont,
-                     text_color="black").place(relx=0.5, rely=slider_start_y, anchor=tk.CENTER)
+                     text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
         self.auto_tts_var = tk.BooleanVar(value=Settings.AUTO_TTS)
         self.auto_tts_toggle = ctk.CTkSwitch(
             self.frame, variable=self.auto_tts_var, onvalue=True, offvalue=False,
@@ -137,7 +137,10 @@ class SettingsGUI:
             button_hover_color="#ffc24a",
             command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
         )
-        self.auto_tts_toggle.place(relx=0.5, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+        self.auto_tts_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+
+        #volume slider
+        self.volume_var = self.add_slider("Volume", 0, 100, Settings.VOLUME, 0.6, slider_start_y)
 
     #create a slider for each setting
     def add_slider(self, label_text, min_val, max_val, initial, relx, rely):
@@ -205,6 +208,7 @@ class SettingsGUI:
         Settings.FOREIGN_TO_ENGLISH = self.foreign_to_english_var.get()
         Settings.LANGUAGE = self.language_var.get()
         Settings.AUTO_TTS = self.auto_tts_var.get()
+        Settings.VOLUME = self.volume_var.get()
 
         #disable apply button once changes have been made
         self.apply_changes_button.configure(state="disabled")

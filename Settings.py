@@ -11,6 +11,7 @@ username = ""
 FOREIGN_TO_ENGLISH:bool = True
 LANGUAGE = "Spanish"
 AUTO_TTS:bool = False
+VOLUME:int = 100
 
 # Settings Min/Max Values
 KNOWN_THRESHOLD_MIN:int = 1
