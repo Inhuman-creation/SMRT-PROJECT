@@ -64,8 +64,11 @@ class WalkingWindow:
             row += f"{int(word.count_incorrect)},"
             row += f"{int(word.is_known)}\n"
             csv_file.write(row)
-        Settings.app.destroy()
         csv_file.close()
+
+    def save_and_close(self, csv_name: str):
+        self.word_dict_to_csv(csv_name)
+        Settings.app.destroy()
 
     def init_current_words(self, num_words: int):
         """
