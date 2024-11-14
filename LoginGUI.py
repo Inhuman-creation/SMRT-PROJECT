@@ -17,6 +17,7 @@ class LoginGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
+        self.languages = ["Spanish", "French", "Arabic"]
 
         # Create main frame for the login page
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
@@ -86,21 +87,14 @@ class LoginGUI:
                 show_feedback("Incorrect Email and Password")
                 return 
 
-            # Make Email_Spanish.csv if necessary
-            user_file_path = f"UserWords/{email}_Spanish.csv"
-            if not os.path.exists(user_file_path):
-                if not os.path.exists("UserWords/Template_Spanish.csv"):
-                    show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
-                    return
-                shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
-
-            # Make Email_French.csv if necessary
-            user_file_path = f"UserWords/{email}_French.csv"
-            if not os.path.exists(user_file_path):
-                if not os.path.exists("UserWords/Template_French.csv"):
-                    show_feedback("ERROR: UserWords/Template_French.csv NOT FOUND")
-                    return
-                shutil.copy("UserWords/Template_French.csv", user_file_path)
+            # Make user_lang.csv files if necessary
+            for lang in self.languages:
+                user_file_path = f"UserWords/{email}_{lang}.csv"
+                if not os.path.exists(user_file_path):
+                    if not os.path.exists(f"UserWords/Template_{lang}.csv"):
+                        show_feedback(f"ERROR: UserWords/Template_{lang}.csv NOT FOUND")
+                        return
+                    shutil.copy(f"UserWords/Template_{lang}.csv", user_file_path)
 
             # init WalkingWindow
             Settings.username = email
@@ -148,19 +142,13 @@ class LoginGUI:
                     writer.writeheader()
                 writer.writerow(account_data)
             
-            # copy UserWords/Template_Spanish.csv to UserWords/Username_Spanish.csv
-            user_file_path = f"UserWords/{email}_Spanish.csv"
-            if not os.path.exists("UserWords/Template_Spanish.csv"):
-                show_feedback("ERROR: UserWords/Template_Spanish.csv NOT FOUND")
-                return
-            shutil.copy("UserWords/Template_Spanish.csv", user_file_path)
-
-            # copy UserWords/Template_French.csv to UserWords/Username_French.csv
-            user_file_path = f"UserWords/{email}_French.csv"
-            if not os.path.exists("UserWords/Template_French.csv"):
-                show_feedback("ERROR: UserWords/Template_French.csv NOT FOUND")
-                return
-            shutil.copy("UserWords/Template_French.csv", user_file_path)
+            # copy Template_lang.csv files to user_lang.csv
+            for lang in self.languages:
+                user_file_path = f"UserWords/{email}_{lang}.csv"
+                if not os.path.exists(f"UserWords/Template_{lang}.csv"):
+                    show_feedback(f"ERROR: UserWords/Template_{lang}.csv NOT FOUND")
+                    return
+                shutil.copy(f"UserWords/Template_{lang}.csv", user_file_path)
 
             # initialize walking window
             Settings.username = email
