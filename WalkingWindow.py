@@ -167,7 +167,6 @@ class WalkingWindow:
 
         param: word : the Word to be removed
         """
-
         if word in self.current_words:
             self.current_words.remove(word)
             self.front += 1
@@ -178,7 +177,6 @@ class WalkingWindow:
         """
         Read in a single word from in front of the walking window
         """
-
         for i in range(self.front, self.front + self.size):
             if i >= len(self.words_dict):
                 break

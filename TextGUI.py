@@ -1,7 +1,7 @@
 # =====================
 # TextGUI.py
-# Latest version: Nov 11
-# Multiple choice flashcards screen
+# Latest version: Nov 11 2024
+# Text Input flashcards screen
 # =====================
 
 import customtkinter as ctk
@@ -25,7 +25,7 @@ class TextGUI:
         # Initialize variables for GUI display
         flashword = self.controller.study_window.get_random_words(1)[0]
 
-        # Create frame for choice GUI
+        # Create frame for  GUI
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")  # from choice GUI
         self.frame.pack(expand=1, fill="both", anchor=tk.CENTER)  # Ensure frame occupies full screen
 
@@ -89,7 +89,6 @@ class TextGUI:
                 fg_color="#ffc24a", text_color="white", corner_radius=20  # from choice GUI feedback button
             )
             feedback_button.place(relx=0.5, rely=0.67, relwidth=.1, relheight=.1, anchor=tk.CENTER)
-            # TODO: update relevant count variables before displaying the feedback
 
             # Disable Enter key and submit button after feedback
             text_entry.unbind("<Return>")
