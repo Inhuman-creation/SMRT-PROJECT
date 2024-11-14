@@ -202,6 +202,7 @@ class SettingsGUI:
 
     #save the settings and recreate walking window to reflect changes
     def save_settings(self):
+        self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}.csv")
         #update global settings variables with current GUI values
         Settings.KNOWN_THRESHOLD = self.known_threshold_var.get()
         Settings.KNOWN_DELTA = self.known_delta_var.get()
