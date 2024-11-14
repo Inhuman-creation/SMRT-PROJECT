@@ -202,7 +202,9 @@ class SettingsGUI:
 
     #save the settings and recreate walking window to reflect changes
     def save_settings(self):
+        # Save dict to the current language file
         self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}.csv")
+
         #update global settings variables with current GUI values
         Settings.KNOWN_THRESHOLD = self.known_threshold_var.get()
         Settings.KNOWN_DELTA = self.known_delta_var.get()
@@ -224,6 +226,7 @@ class SettingsGUI:
                      f"\nSRS QUEUE LENGTH: {Settings.SRS_QUEUE_LENGTH}\nWALKING WINDOW SIZE: {Settings.WALKING_WINDOW_SIZE}"
                      f"\nFOREIGN TO ENGLISH: {Settings.FOREIGN_TO_ENGLISH}\nLANGUAGE: {Settings.LANGUAGE}"
                      f"\nAUTO TTS: {Settings.AUTO_TTS}")
+
 
     def destroy(self):
         self.frame.destroy()
