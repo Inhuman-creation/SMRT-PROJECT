@@ -105,7 +105,9 @@ class SettingsGUI:
             progress_color="#77721f",
             button_color="#f37d59",
             button_hover_color="#ffc24a",
-            command=self.update_toggle_label
+            command=lambda: self.update_toggle_label(self.foreign_to_english_toggle,self.foreign_to_english_var) #arguments added to attempt fixing error with toggle.
+            #command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
+
         )
         self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
