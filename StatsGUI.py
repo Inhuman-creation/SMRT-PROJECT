@@ -106,13 +106,13 @@ class StatsGUI:
         x = np.linspace(0, 5000, 100)
         y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
         y = np.maximum(0, y) #does not allow negative y values.
-        ax.plot(x, y, label="Line")
+        ax.plot(x, y, label="Language Knowledge Curve")
         #Graph the users progress through the language
         ax.axvline(count_known_words(self.controller.study_window.words_dict),
-                    color='red', linestyle='-', label="You are hear")
+                    color='red', linestyle='-', label="You are here")
         ax.set_title("Check your progress")
-        ax.set_xlabel("~ number of known words")
-        ax.set_ylabel("~ percentage of lang")
+        ax.set_xlabel("Number of Known Words")
+        ax.set_ylabel("Percentage of Language Known")
         ax.legend()
 
         # Add the matplotlib figure to tkinter
