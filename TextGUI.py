@@ -93,6 +93,7 @@ class TextGUI:
             # Disable Enter key and submit button after feedback
             text_entry.unbind("<Return>")
             submit_button.configure(state="disabled")
+            self.known_word_button.configure(state="disabled")
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
@@ -127,13 +128,13 @@ class TextGUI:
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Known word button
-        known_word_button = ctk.CTkButton(
+        self.known_word_button = ctk.CTkButton(
             master=self.frame, text="Already\nKnow", font=backbuttonfont,
             width=600, height=200, command=mark_known
             ,
             fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
         )
-        known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        self.known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Text-to-speech button
         tts_button = ctk.CTkButton(

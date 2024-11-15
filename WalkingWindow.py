@@ -158,7 +158,7 @@ class WalkingWindow:
 
         flashword.set_known_word()
         self.remove_known_word(flashword)
-        logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
+        logging.info("MARKED AS KNOWN AND REMOVED FROM WALKING WINDOW: " + repr(flashword))
         self.add_new_word()
 
     def remove_known_word(self, word: Word):

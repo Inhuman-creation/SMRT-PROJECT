@@ -23,7 +23,6 @@ class ChoiceGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
-        self.engine = None
 
         # Initialize variables for GUI display
         flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
@@ -97,6 +96,7 @@ class ChoiceGUI:
                 # Disable all choice buttons after a guess is made
                 for btn in buttons:
                     btn.configure(state="disabled")
+                self.known_word_button.configure(state="disabled")
 
                 # Automatically hide feedback and switch to the next word after 2 seconds
                 self.frame.after(500, hide_feedback, feedback_label, None, buttons)  # No button for correct answer
@@ -113,6 +113,7 @@ class ChoiceGUI:
                 # Disable all choice buttons after a guess is made
                 for btn in buttons:
                     btn.configure(state="disabled")
+                self.known_word_button.configure(state="disabled")
 
                 # Create OK button for incorrect answers
                 feedback_button = ctk.CTkButton(
@@ -168,13 +169,13 @@ class ChoiceGUI:
         exit_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Known word button
-        known_word_button = ctk.CTkButton(
+        self.known_word_button = ctk.CTkButton(
             master=self.frame, text="Already\nKnow", font=backbuttonfont,
             width=600, height=200, command=mark_known
 ,
             fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
         )
-        known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        self.known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Text-to-speech button
         tts_button = ctk.CTkButton(
