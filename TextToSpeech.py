@@ -14,7 +14,7 @@ import Settings
 
 #Base directory for audio files
 BASE_AUDIO_DIR = "audio_files"
-LANGUAGES = {"english": "en", "spanish": "es", "french": "fr"}
+LANGUAGES = {"english": "en", "spanish": "es", "french": "fr", "arabic": "ar"}
 
 # Ensure lang-specific directories exist
 for language in LANGUAGES:
@@ -52,7 +52,6 @@ def generate_pronunciation(word, lang):
 def play_audio_async(file_path):
     """Play audio file asynchronously."""
 
-    pygame.mixer.init()
     pygame.mixer.music.load(file_path)
     pygame.mixer.music.set_volume(Settings.VOLUME/100)
     pygame.mixer.music.play()
