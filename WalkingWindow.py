@@ -39,10 +39,10 @@ class WalkingWindow:
         csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8')
         reader = csv.DictReader(csv_file)
         words_dict = dict()
-        i = 1
+        # i = 1
         for row in reader:
-            logging.info(f"Reading row {i} of {csv_name}: {row}")
-            i += 1
+            # logging.info(f"Reading row {i} of {csv_name}: {row}")
+            # i += 1
             foreign = row["Foreign"]
             engl = row["English"]
             seen = int(row["seen"])
