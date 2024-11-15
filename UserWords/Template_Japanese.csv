@@ -1,0 +1,6001 @@
+Foreign,English,seen,correct,wrong,known
+一つ,one thing,0,0,0,0
+二つ,two things,0,0,0,0
+円,yen,0,0,0,0
+金,money,0,0,0,0
+これ,this one,0,0,0,0
+水曜日,Wednesday,0,0,0,0
+あれ,that over there,0,0,0,0
+先,ahead,0,0,0,0
+八日,eight days,0,0,0,0
+そば,side,0,0,0,0
+こっち,here,0,0,0,0
+右,right,0,0,0,0
+あげる,give,0,0,0,0
+ここ,here,0,0,0,0
+とても,very,0,0,0,0
+七,seven,0,0,0,0
+手,hand,0,0,0,0
+おなか,stomach,0,0,0,0
+空く,be empty,0,0,0,0
+一日,1st of the month,0,0,0,0
+日曜日,Sunday,0,0,0,0
+七つ,seven things,0,0,0,0
+どれ,what,0,0,0,0
+私,I,0,0,0,0
+好き,liking,0,0,0,0
+ゲーム,game,0,0,0,0
+一人,one,0,0,0,0
+友達,friend,0,0,0,0
+帰る,return,0,0,0,0
+元気,healthy,0,0,0,0
+天気,weather,0,0,0,0
+少ない,few,0,0,0,0
+晴れる,be sunny,0,0,0,0
+上,up,0,0,0,0
+ドア,door,0,0,0,0
+開く,open,0,0,0,0
+口,mouth,0,0,0,0
+閉める,shut,0,0,0,0
+時間,time,0,0,0,0
+六日,six days,0,0,0,0
+後ろ,back,0,0,0,0
+十日,ten days,0,0,0,0
+午前,morning,0,0,0,0
+今晩,this evening,0,0,0,0
+土曜日,Saturday,0,0,0,0
+金曜日,Friday,0,0,0,0
+月,moon,0,0,0,0
+夜,night,0,0,0,0
+食べる,eat,0,0,0,0
+何,what,0,0,0,0
+晩,evening,0,0,0,0
+ご飯,cooked rice,0,0,0,0
+三つ,three things,0,0,0,0
+昼,daytime,0,0,0,0
+見つかる,be found,0,0,0,0
+それ,that,0,0,0,0
+男,man,0,0,0,0
+今週,this week,0,0,0,0
+こう,like this,0,0,0,0
+会う,meet,0,0,0,0
+月曜日,Monday,0,0,0,0
+昨日,yesterday,0,0,0,0
+休む,take a day off,0,0,0,0
+今日,today,0,0,0,0
+木曜日,Thursday,0,0,0,0
+場合,situation,0,0,0,0
+つける,switch on,0,0,0,0
+駅,railway station,0,0,0,0
+止める,stop,0,0,0,0
+歩く,walk,0,0,0,0
+近く,near,0,0,0,0
+もっと,more,0,0,0,0
+近い,near,0,0,0,0
+近く,vicinity,0,0,0,0
+全部,all,0,0,0,0
+国,country,0,0,0,0
+漢字,character,0,0,0,0
+赤い,red,0,0,0,0
+どちら,which,0,0,0,0
+米,rice,0,0,0,0
+まずい,bad-tasting,0,0,0,0
+無い,to not be,0,0,0,0
+作る,make,0,0,0,0
+使う,use,0,0,0,0
+消す,switch off,0,0,0,0
+閉まる,be shut,0,0,0,0
+前,front,0,0,0,0
+店,shop,0,0,0,0
+部屋,room,0,0,0,0
+夏,summer,0,0,0,0
+暑い,hot,0,0,0,0
+熱い,hot things,0,0,0,0
+冬,winter,0,0,0,0
+入る,enter,0,0,0,0
+寒い,cold,0,0,0,0
+春,spring,0,0,0,0
+暖かい,warm,0,0,0,0
+見つける,find,0,0,0,0
+テーブル,table,0,0,0,0
+古い,old,0,0,0,0
+悪い,bad,0,0,0,0
+思う,think,0,0,0,0
+そう,in such manner,0,0,0,0
+どう,how,0,0,0,0
+考える,think,0,0,0,0
+決める,decide,0,0,0,0
+高い,high,0,0,0,0
+多い,lots of,0,0,0,0
+午後,afternoon,0,0,0,0
+重い,heavy,0,0,0,0
+九日,nine days,0,0,0,0
+待つ,wait,0,0,0,0
+二日,two days,0,0,0,0
+持つ,have,0,0,0,0
+朝,morning,0,0,0,0
+先生,teacher,0,0,0,0
+電車,train,0,0,0,0
+四,four,0,0,0,0
+遠い,far,0,0,0,0
+名前,name,0,0,0,0
+大学,university,0,0,0,0
+勉強,study,0,0,0,0
+強い,strong,0,0,0,0
+弱い,weak,0,0,0,0
+引く,draw,0,0,0,0
+質問,question,0,0,0,0
+難しい,difficult,0,0,0,0
+取る,take,0,0,0,0
+数,number,0,0,0,0
+二,two,0,0,0,0
+四,four,0,0,0,0
+八,eight,0,0,0,0
+勝つ,win,0,0,0,0
+負ける,lose,0,0,0,0
+本当に,really,0,0,0,0
+他,other,0,0,0,0
+時計,clock,0,0,0,0
+八つ,eight things,0,0,0,0
+払う,pay,0,0,0,0
+千,thousand,0,0,0,0
+四日,four days,0,0,0,0
+買う,buy,0,0,0,0
+十,ten,0,0,0,0
+要る,need,0,0,0,0
+忘れる,forget,0,0,0,0
+乗る,ride,0,0,0,0
+着る,wear,0,0,0,0
+そこ,there,0,0,0,0
+次,next,0,0,0,0
+週,week,0,0,0,0
+動く,move,0,0,0,0
+出る,go out,0,0,0,0
+早い,early,0,0,0,0
+時,time,0,0,0,0
+遅い,slow,0,0,0,0
+始める,begin,0,0,0,0
+学校,school,0,0,0,0
+一,one,0,0,0,0
+年,year,0,0,0,0
+始まる,begin,0,0,0,0
+ミーティング,meeting,0,0,0,0
+終わり,end,0,0,0,0
+去年,last year,0,0,0,0
+切る,cut,0,0,0,0
+三日,three days,0,0,0,0
+見る,see,0,0,0,0
+楽しむ,enjoy,0,0,0,0
+飲み物,beverage,0,0,0,0
+後,after,0,0,0,0
+見せる,show,0,0,0,0
+色,color,0,0,0,0
+直ぐ,at once,0,0,0,0
+書き直す,rewrite,0,0,0,0
+直る,be repaired,0,0,0,0
+道,road,0,0,0,0
+線,line,0,0,0,0
+曲がる,turn,0,0,0,0
+左,left,0,0,0,0
+曜日,day of the week,0,0,0,0
+今年,this year,0,0,0,0
+五,five,0,0,0,0
+行く,go,0,0,0,0
+図書館,library,0,0,0,0
+未だ,yet,0,0,0,0
+ところ,place,0,0,0,0
+泊まる,stay overnight,0,0,0,0
+家,house,0,0,0,0
+安い,inexpensive,0,0,0,0
+服,clothes,0,0,0,0
+開ける,open,0,0,0,0
+お父さん,father,0,0,0,0
+父,father,0,0,0,0
+話す,speak,0,0,0,0
+母,mother,0,0,0,0
+働く,work,0,0,0,0
+姉,older sister,0,0,0,0
+大学生,university student,0,0,0,0
+お姉さん,older sister,0,0,0,0
+上手,good,0,0,0,0
+妹,younger sister,0,0,0,0
+お兄さん,older brother,0,0,0,0
+車,car,0,0,0,0
+高校生,high school student,0,0,0,0
+娘,daughter,0,0,0,0
+九つ,nine things,0,0,0,0
+息子,son,0,0,0,0
+六つ,six things,0,0,0,0
+女,woman,0,0,0,0
+新しい,new,0,0,0,0
+今,now,0,0,0,0
+もう,already,0,0,0,0
+学生,student,0,0,0,0
+よく,often,0,0,0,0
+彼女,she,0,0,0,0
+聞く,hear,0,0,0,0
+若い,young,0,0,0,0
+かなり,fairly,0,0,0,0
+住む,live,0,0,0,0
+立つ,stand,0,0,0,0
+気持ち,feeling,0,0,0,0
+広い,wide,0,0,0,0
+走る,run,0,0,0,0
+売る,sell,0,0,0,0
+教える,teach,0,0,0,0
+送る,send,0,0,0,0
+書く,write,0,0,0,0
+もらう,receive,0,0,0,0
+足,leg,0,0,0,0
+出来る,can do,0,0,0,0
+短い,short,0,0,0,0
+いつも,always,0,0,0,0
+読む,read,0,0,0,0
+いつ,when,0,0,0,0
+速い,fast,0,0,0,0
+耳,ear,0,0,0,0
+上げる,raise,0,0,0,0
+楽しい,fun,0,0,0,0
+しゃべる,chat,0,0,0,0
+三,three,0,0,0,0
+来る,come,0,0,0,0
+良い,good,0,0,0,0
+方,direction,0,0,0,0
+目,eye,0,0,0,0
+六,six,0,0,0,0
+秋,autumn,0,0,0,0
+結婚,marriage,0,0,0,0
+日,day,0,0,0,0
+自転車,bicycle,0,0,0,0
+自分,self,0,0,0,0
+ご主人,your husband,0,0,0,0
+終わる,finish,0,0,0,0
+火曜日,Tuesday,0,0,0,0
+違う,differ,0,0,0,0
+答える,answer,0,0,0,0
+別,another,0,0,0,0
+なる,become,0,0,0,0
+ため,sake,0,0,0,0
+白い,white,0,0,0,0
+閉じる,close,0,0,0,0
+出す,take out,0,0,0,0
+仕事,work,0,0,0,0
+今月,this month,0,0,0,0
+少し,a bit,0,0,0,0
+酒,alcoholic drink,0,0,0,0
+飲む,drink,0,0,0,0
+大人,adult,0,0,0,0
+水,water,0,0,0,0
+一杯,full,0,0,0,0
+気,spirit,0,0,0,0
+分かる,understand,0,0,0,0
+遊ぶ,play,0,0,0,0
+飛行機,airplane,0,0,0,0
+お願い,favor,0,0,0,0
+続く,continue,0,0,0,0
+首,neck,0,0,0,0
+頭,head,0,0,0,0
+痛い,painful,0,0,0,0
+探す,search for,0,0,0,0
+お手洗い,toilet,0,0,0,0
+冷たい,cold things,0,0,0,0
+汚い,dirty,0,0,0,0
+太い,thick,0,0,0,0
+九,nine,0,0,0,0
+弟,younger brother,0,0,0,0
+神,god,0,0,0,0
+建てる,build,0,0,0,0
+大きい,big,0,0,0,0
+同じ,same,0,0,0,0
+どこ,where,0,0,0,0
+置く,put,0,0,0,0
+あそこ,over there,0,0,0,0
+辺,vicinity,0,0,0,0
+黄色い,yellow,0,0,0,0
+する,do,0,0,0,0
+やる,do,0,0,0,0
+一緒に,together,0,0,0,0
+来年,next year,0,0,0,0
+緑,green,0,0,0,0
+易しい,easy,0,0,0,0
+留学生,student studying abroad,0,0,0,0
+戻る,return,0,0,0,0
+起きる,get up,0,0,0,0
+起こる,happen,0,0,0,0
+起こす,wake up,0,0,0,0
+起きる,occur,0,0,0,0
+寝る,sleep,0,0,0,0
+多分,probably,0,0,0,0
+座る,sit,0,0,0,0
+本,book,0,0,0,0
+細い,thin,0,0,0,0
+日記,diary,0,0,0,0
+時々,sometimes,0,0,0,0
+締める,tighten,0,0,0,0
+甘い,sweet,0,0,0,0
+辛い,spicy,0,0,0,0
+変える,change,0,0,0,0
+決まる,be decided,0,0,0,0
+優しい,gentle,0,0,0,0
+人,person,0,0,0,0
+夫,husband,0,0,0,0
+知る,know,0,0,0,0
+誰,who,0,0,0,0
+親,parent,0,0,0,0
+愛する,love,0,0,0,0
+くれる,be given,0,0,0,0
+二十日,20 days,0,0,0,0
+妻,wife,0,0,0,0
+五日,five days,0,0,0,0
+どうして,why,0,0,0,0
+見える,be visible,0,0,0,0
+兄,older brother,0,0,0,0
+酸っぱい,sour,0,0,0,0
+小さい,small,0,0,0,0
+言葉,word,0,0,0,0
+おいしい,tasty,0,0,0,0
+呼ぶ,call,0,0,0,0
+胸,chest,0,0,0,0
+腰,hip,0,0,0,0
+載せる,place,0,0,0,0
+低い,low,0,0,0,0
+一番,most,0,0,0,0
+背,height,0,0,0,0
+円,circle,0,0,0,0
+覚える,memorize,0,0,0,0
+片仮名,katakana,0,0,0,0
+平仮名,hiragana,0,0,0,0
+悲しい,sad,0,0,0,0
+美しい,beautiful,0,0,0,0
+食べ物,food,0,0,0,0
+言う,say,0,0,0,0
+彼,he,0,0,0,0
+授業,class,0,0,0,0
+お母さん,mother,0,0,0,0
+手伝う,help,0,0,0,0
+飛ぶ,fly,0,0,0,0
+歌う,sing,0,0,0,0
+死ぬ,die,0,0,0,0
+大好き,love,0,0,0,0
+子供,child,0,0,0,0
+狭い,narrow,0,0,0,0
+触る,touch,0,0,0,0
+嫌い,dislike,0,0,0,0
+七日,seven days,0,0,0,0
+有る,exist,0,0,0,0
+浴びる,take,0,0,0,0
+生きる,live one's life,0,0,0,0
+長い,long,0,0,0,0
+髪の毛,hair,0,0,0,0
+鼻,nose,0,0,0,0
+腕,arm,0,0,0,0
+四つ,four things,0,0,0,0
+みんな,all,0,0,0,0
+笑う,laugh,0,0,0,0
+紙,paper,0,0,0,0
+下,under,0,0,0,0
+入れる,put in,0,0,0,0
+よう,way,0,0,0,0
+掛ける,hang,0,0,0,0
+肩,shoulder,0,0,0,0
+僕,I,0,0,0,0
+曇る,become cloudy,0,0,0,0
+駄目,no good,0,0,0,0
+上る,go up,0,0,0,0
+落ちる,fall,0,0,0,0
+体,body,0,0,0,0
+大丈夫,alright,0,0,0,0
+病気,illness,0,0,0,0
+百,hundred,0,0,0,0
+風邪,cold,0,0,0,0
+五つ,five things,0,0,0,0
+顔,face,0,0,0,0
+軽い,light,0,0,0,0
+茶色,light brown,0,0,0,0
+欲しい,want,0,0,0,0
+万,ten thousand,0,0,0,0
+奇麗,beautiful,0,0,0,0
+渇く,be thirsty,0,0,0,0
+嬉しい,happy,0,0,0,0
+感じる,feel,0,0,0,0
+なる,become,0,0,0,0
+りんご,apple,0,0,0,0
+ほとんど,almost,0,0,0,0
+十分,full,0,0,0,0
+分,amount,0,0,0,0
+スポーツ,sport,0,0,0,0
+今まで,until now,0,0,0,0
+ごみ,rubbish,0,0,0,0
+なぜ,why,0,0,0,0
+いつでも,always,0,0,0,0
+バス,bus,0,0,0,0
+ピクニック,picnic,0,0,0,0
+あちら,way over there,0,0,0,0
+少年,boy,0,0,0,0
+きつい,tight,0,0,0,0
+キャッシュカード,cash card,0,0,0,0
+あんなに,that,0,0,0,0
+カップ,cup,0,0,0,0
+ノック,knock,0,0,0,0
+クリーニング,cleaning,0,0,0,0
+あなた,you,0,0,0,0
+ようこそ,welcome,0,0,0,0
+しばらく,awhile,0,0,0,0
+出口,exit,0,0,0,0
+大分,very,0,0,0,0
+ハンカチ,handkerchief,0,0,0,0
+先週,last week,0,0,0,0
+男の子,boy,0,0,0,0
+おしゃれ,dressing up smartly,0,0,0,0
+カレーライス,curried rice,0,0,0,0
+いたずら,mischief,0,0,0,0
+石,stone,0,0,0,0
+林,woods,0,0,0,0
+ぶどう,grapes,0,0,0,0
+オレンジ,orange,0,0,0,0
+トマト,tomato,0,0,0,0
+アナウンサー,news reader,0,0,0,0
+ボーイフレンド,boyfriend,0,0,0,0
+ぺこぺこ,hungry,0,0,0,0
+シャープペンシル,mechanical pencil,0,0,0,0
+てんぷら,tempura,0,0,0,0
+キャンプ,camping,0,0,0,0
+家,house,0,0,0,0
+空気,air,0,0,0,0
+人気,popularity,0,0,0,0
+山,mountain,0,0,0,0
+青い,blue,0,0,0,0
+晴れ,fine weather,0,0,0,0
+又,again,0,0,0,0
+ハイキング,hiking,0,0,0,0
+暗い,dark,0,0,0,0
+東,east,0,0,0,0
+北,north,0,0,0,0
+向こう,the other side,0,0,0,0
+向く,turn,0,0,0,0
+入り口,entrance,0,0,0,0
+パーティー,party,0,0,0,0
+ページ,page,0,0,0,0
+ノート,note book,0,0,0,0
+ふすま,sliding door,0,0,0,0
+スーツ,suit,0,0,0,0
+初め,beginning,0,0,0,0
+明後日,day after tomorrow,0,0,0,0
+半年,half a year,0,0,0,0
+半月,half a month,0,0,0,0
+カーテン,curtain,0,0,0,0
+毎朝,every morning,0,0,0,0
+サンドイッチ,sandwich,0,0,0,0
+今夜,tonight,0,0,0,0
+ピンポン,table tennis,0,0,0,0
+クリスマス,Christmas,0,0,0,0
+バナナ,banana,0,0,0,0
+バター,butter,0,0,0,0
+サラダ,salad,0,0,0,0
+ラーメン,ramen,0,0,0,0
+うどん,noodles,0,0,0,0
+スプーン,spoon,0,0,0,0
+そば,buckwheat noodles,0,0,0,0
+ごちそうする,treat,0,0,0,0
+夕食,supper,0,0,0,0
+ワイン,wine,0,0,0,0
+コーヒー,coffee,0,0,0,0
+パン,bread,0,0,0,0
+ハンバーガー,hamburger,0,0,0,0
+おかず,side dish,0,0,0,0
+足りる,suffice,0,0,0,0
+ラケット,racket,0,0,0,0
+インク,ink,0,0,0,0
+テレビ,television,0,0,0,0
+最初,first,0,0,0,0
+はっきり,clearly,0,0,0,0
+ニュース,news,0,0,0,0
+休日,holiday,0,0,0,0
+ドラマ,drama,0,0,0,0
+パスポート,passport,0,0,0,0
+花見,flower viewing,0,0,0,0
+言い方,way of speaking,0,0,0,0
+ゆっくり,slowly,0,0,0,0
+テキスト,textbook,0,0,0,0
+語る,tell,0,0,0,0
+子,child,0,0,0,0
+英語,English,0,0,0,0
+右手,right hand,0,0,0,0
+字,character,0,0,0,0
+覚める,awake,0,0,0,0
+覚ます,awaken,0,0,0,0
+いずれ,eventually,0,0,0,0
+おじさん,uncle,0,0,0,0
+話し合う,discuss,0,0,0,0
+行う,do,0,0,0,0
+向かう,face,0,0,0,0
+明日,tomorrow,0,0,0,0
+仕方,way,0,0,0,0
+休み,rest,0,0,0,0
+帰り,return,0,0,0,0
+大事,importance,0,0,0,0
+半日,half a day,0,0,0,0
+まま,as is,0,0,0,0
+電話,telephone,0,0,0,0
+電気,electricity,0,0,0,0
+夜中,midnight,0,0,0,0
+開く,open,0,0,0,0
+ホーム,platform,0,0,0,0
+上り,going up,0,0,0,0
+駅員,station employee,0,0,0,0
+一方,one way,0,0,0,0
+通り,passage,0,0,0,0
+通う,go to and from,0,0,0,0
+ゼロ,zero,0,0,0,0
+車,car,0,0,0,0
+通る,pass,0,0,0,0
+道路,road,0,0,0,0
+地図,map,0,0,0,0
+なお,still,0,0,0,0
+つもり,intention,0,0,0,0
+止める,stop,0,0,0,0
+止まる,come to a stop,0,0,0,0
+止む,stop,0,0,0,0
+森,thick woods,0,0,0,0
+歩道,sidewalk,0,0,0,0
+川,river,0,0,0,0
+今度,this time,0,0,0,0
+そんなに,that,0,0,0,0
+ガソリンスタンド,gas station,0,0,0,0
+社長,president,0,0,0,0
+長さ,length,0,0,0,0
+海,sea,0,0,0,0
+全く,entirely,0,0,0,0
+七,seven,0,0,0,0
+人口,population,0,0,0,0
+億,hundred million,0,0,0,0
+黒,black,0,0,0,0
+ミルク,milk,0,0,0,0
+銀行,bank,0,0,0,0
+牛肉,beef,0,0,0,0
+グラム,gram,0,0,0,0
+魚,fish,0,0,0,0
+野菜,vegetable,0,0,0,0
+本屋,bookstore,0,0,0,0
+八百屋,vegetable store,0,0,0,0
+そっち,there,0,0,0,0
+そば屋,soba restaurant,0,0,0,0
+たばこ屋,cigarette shop,0,0,0,0
+つく,be on,0,0,0,0
+茶,tea,0,0,0,0
+お茶,tea,0,0,0,0
+茶わん,tea cup,0,0,0,0
+週末,weekend,0,0,0,0
+レストラン,restaurant,0,0,0,0
+無理,unreasonable,0,0,0,0
+無くなる,disappear,0,0,0,0
+作文,composition,0,0,0,0
+ジャム,jam,0,0,0,0
+ジャガイモ,potato,0,0,0,0
+ストーブ,paraffin heater,0,0,0,0
+交通費,traveling expense,0,0,0,0
+火,fire,0,0,0,0
+売り場,sales floor,0,0,0,0
+サービス,service,0,0,0,0
+何度,how many degrees,0,0,0,0
+商品,goods,0,0,0,0
+上がる,go up,0,0,0,0
+ビル,building,0,0,0,0
+エスカレーター,escalator,0,0,0,0
+階段,steps,0,0,0,0
+下りる,go down,0,0,0,0
+値段,price,0,0,0,0
+ちょうど,just,0,0,0,0
+価格,price,0,0,0,0
+最後,last,0,0,0,0
+売れる,sell,0,0,0,0
+夏休み,summer vacation,0,0,0,0
+プール,pool,0,0,0,0
+日,sun,0,0,0,0
+スキー,ski,0,0,0,0
+四季,the four seasons,0,0,0,0
+クーラー,air conditioning,0,0,0,0
+アイス,popsicle,0,0,0,0
+外,outside,0,0,0,0
+熱,heat,0,0,0,0
+下がる,come down,0,0,0,0
+ウール,wool,0,0,0,0
+暖める,warm,0,0,0,0
+暖まる,get warm,0,0,0,0
+達する,attain,0,0,0,0
+温度,temperature,0,0,0,0
+気温,temperature,0,0,0,0
+台風,typhoon,0,0,0,0
+事情,circumstances,0,0,0,0
+コンピューター,computer,0,0,0,0
+コート,court,0,0,0,0
+新年,New Year,0,0,0,0
+寺,buddhist temple,0,0,0,0
+カセットテープ,cassette tape,0,0,0,0
+台,stand,0,0,0,0
+少しも,at all,0,0,0,0
+安心,peace of mind,0,0,0,0
+ハンドバッグ,handbag,0,0,0,0
+ライター,lighter,0,0,0,0
+考え,thought,0,0,0,0
+解決,solution,0,0,0,0
+つまり,in short,0,0,0,0
+女の子,girl,0,0,0,0
+可能,possible,0,0,0,0
+不便,inconvenient,0,0,0,0
+郵便屋さん,mailman,0,0,0,0
+あっち,other side,0,0,0,0
+火事,fire,0,0,0,0
+交番,police box,0,0,0,0
+番号,number,0,0,0,0
+近所,neighborhood,0,0,0,0
+住所,one's dwelling,0,0,0,0
+ぶらぶら,wander aimlessly,0,0,0,0
+便所,lavatory,0,0,0,0
+ボールペン,ballpoint pen,0,0,0,0
+名字,surname,0,0,0,0
+ローマ字,Roman alphabet,0,0,0,0
+氏名,name,0,0,0,0
+外人,foreigner,0,0,0,0
+南,south,0,0,0,0
+初めて,for the first time,0,0,0,0
+水道,water service,0,0,0,0
+都市,cities,0,0,0,0
+都合,circumstances,0,0,0,0
+朝御飯,breakfast,0,0,0,0
+心配,anxiety,0,0,0,0
+見送り,seeing someone off,0,0,0,0
+コース,course,0,0,0,0
+メモ,memorandum,0,0,0,0
+取れる,come off,0,0,0,0
+ティッシュ,tissue,0,0,0,0
+いつごろ,about when,0,0,0,0
+書き取る,write down,0,0,0,0
+なかなか,not at all,0,0,0,0
+郵便,mail service,0,0,0,0
+そのまま,like that,0,0,0,0
+持つ,maintain,0,0,0,0
+バッグ,bag,0,0,0,0
+マッチ,match,0,0,0,0
+ビデオテープ,videotape,0,0,0,0
+持って行く,take,0,0,0,0
+持って来る,bring,0,0,0,0
+ソファー,sofa,0,0,0,0
+投げる,throw,0,0,0,0
+女性,woman,0,0,0,0
+生産,production,0,0,0,0
+有名,famous,0,0,0,0
+生徒,pupil,0,0,0,0
+グループ,group,0,0,0,0
+来月,next month,0,0,0,0
+見学,observation tour,0,0,0,0
+通学,attending school,0,0,0,0
+ビザ,visa,0,0,0,0
+可,permitted,0,0,0,0
+小学校,elementary school,0,0,0,0
+クラス,class,0,0,0,0
+校長,principal,0,0,0,0
+休校,temporary closure of school,0,0,0,0
+忘れ物,something left behind,0,0,0,0
+場所,place,0,0,0,0
+読み方,way of reading,0,0,0,0
+育つ,be brought up,0,0,0,0
+ソフト,software,0,0,0,0
+風,wind,0,0,0,0
+ウィスキー,whisky,0,0,0,0
+取引,transaction,0,0,0,0
+ボタン,button,0,0,0,0
+押さえる,hold down,0,0,0,0
+ピアノ,piano,0,0,0,0
+慣れる,grow accustomed to,0,0,0,0
+習慣,custom,0,0,0,0
+何,what,0,0,0,0
+問題,problem,0,0,0,0
+最近,late,0,0,0,0
+社会,society,0,0,0,0
+部分,part,0,0,0,0
+これら,these,0,0,0,0
+簡単,simple,0,0,0,0
+複雑,complicated,0,0,0,0
+人間,human being,0,0,0,0
+外国語,foreign language,0,0,0,0
+数える,count,0,0,0,0
+回す,turn,0,0,0,0
+担当,person in charge,0,0,0,0
+本当,truth,0,0,0,0
+方法,method,0,0,0,0
+法律,law,0,0,0,0
+経験,experience,0,0,0,0
+経つ,pass,0,0,0,0
+経済,economy,0,0,0,0
+工業,industry,0,0,0,0
+便利,convenience,0,0,0,0
+製造,production,0,0,0,0
+必要,need,0,0,0,0
+作業,work,0,0,0,0
+協力,cooperation,0,0,0,0
+シャツ,shirt,0,0,0,0
+重さ,weight,0,0,0,0
+割り算,division,0,0,0,0
+残る,remain,0,0,0,0
+ペン,pen,0,0,0,0
+貸し出す,lend,0,0,0,0
+消しゴム,eraser,0,0,0,0
+混む・込む,be crowded,0,0,0,0
+期待,expectation,0,0,0,0
+期間,term,0,0,0,0
+時期,time,0,0,0,0
+限る,be limited to,0,0,0,0
+急ぐ,hurry,0,0,0,0
+急に,suddenly,0,0,0,0
+急行,express train,0,0,0,0
+思い出す,recollect,0,0,0,0
+切れる,run out,0,0,0,0
+郵便局,post office,0,0,0,0
+ナイフ,knife,0,0,0,0
+切手,postage stamp,0,0,0,0
+チーズ,cheese,0,0,0,0
+売り切れ,sellout,0,0,0,0
+切符,ticket,0,0,0,0
+入場券,entrance ticket,0,0,0,0
+家賃,rent,0,0,0,0
+時代,age,0,0,0,0
+定期券,commuter's pass,0,0,0,0
+予定,schedule,0,0,0,0
+天気予報,weather forecast,0,0,0,0
+カレンダー,calendar,0,0,0,0
+予習,preparation,0,0,0,0
+九,nine,0,0,0,0
+予約,reservation,0,0,0,0
+チャンネル,channel,0,0,0,0
+変化,change,0,0,0,0
+強化,strengthening,0,0,0,0
+文化,culture,0,0,0,0
+増える,increase,0,0,0,0
+外国人,foreigner,0,0,0,0
+減る,decrease,0,0,0,0
+減らす,decrease,0,0,0,0
+雨,rain,0,0,0,0
+雪,snow,0,0,0,0
+もし,if,0,0,0,0
+エレベーター,elevator,0,0,0,0
+きっと,surely,0,0,0,0
+ざあざあ,heavily,0,0,0,0
+ホテル,hotel,0,0,0,0
+必ず,without fail,0,0,0,0
+夕方,evening,0,0,0,0
+コート,coat,0,0,0,0
+パジャマ,pajamas,0,0,0,0
+そちら,there,0,0,0,0
+レインコート,raincoat,0,0,0,0
+上着,coat,0,0,0,0
+役に立つ,be useful,0,0,0,0
+席,seat,0,0,0,0
+空く,become available or vacant,0,0,0,0
+代える,substitute,0,0,0,0
+全国,the whole country,0,0,0,0
+降りる,get off,0,0,0,0
+次男,second son,0,0,0,0
+次女,second daughter,0,0,0,0
+方,person,0,0,0,0
+運ぶ,carry,0,0,0,0
+ウェーター,waiter,0,0,0,0
+打つ,hit,0,0,0,0
+トラック,truck,0,0,0,0
+動物,animal,0,0,0,0
+早く,early,0,0,0,0
+速達,special delivery,0,0,0,0
+開始,beginning,0,0,0,0
+制度,system,0,0,0,0
+株,stocks,0,0,0,0
+テスト,test,0,0,0,0
+そろそろ,soon,0,0,0,0
+車道,road,0,0,0,0
+始めに,in the beginning,0,0,0,0
+ほぼ,almost,0,0,0,0
+やっと,at last,0,0,0,0
+現在,the present,0,0,0,0
+実施,enforcement,0,0,0,0
+事実,fact,0,0,0,0
+通過,passing,0,0,0,0
+過ぎる,pass by,0,0,0,0
+過去,the past,0,0,0,0
+発生,occurrence,0,0,0,0
+出発,departure,0,0,0,0
+発車,start,0,0,0,0
+下り,downhill,0,0,0,0
+表,front side,0,0,0,0
+表,table,0,0,0,0
+手紙,letter,0,0,0,0
+ポスト,post box,0,0,0,0
+返事,answer,0,0,0,0
+作品,work of art,0,0,0,0
+雑誌,magazine,0,0,0,0
+売店,booth,0,0,0,0
+音,sound,0,0,0,0
+工事,construction,0,0,0,0
+下げる,lower,0,0,0,0
+びっくりする,surprised,0,0,0,0
+うるさい,noisy,0,0,0,0
+変,strange,0,0,0,0
+音,sound,0,0,0,0
+生活,life,0,0,0,0
+音楽,music,0,0,0,0
+段々,gradually,0,0,0,0
+薬,drug,0,0,0,0
+歌,song,0,0,0,0
+歌手,singer,0,0,0,0
+下手,not good at,0,0,0,0
+欲しがる,desire,0,0,0,0
+一部,part,0,0,0,0
+絵,picture,0,0,0,0
+一人で,by oneself,0,0,0,0
+話,talk,0,0,0,0
+面白い,interesting,0,0,0,0
+全然,wholly,0,0,0,0
+こんなに,this,0,0,0,0
+写る,be taken,0,0,0,0
+写真,photograph,0,0,0,0
+真ん中,center,0,0,0,0
+真っ白,pure-white,0,0,0,0
+真っ暗,pitch-dark,0,0,0,0
+真っ黒,deep-black,0,0,0,0
+真っ青,deep-blue,0,0,0,0
+空,sky,0,0,0,0
+品物,article,0,0,0,0
+青,blue,0,0,0,0
+どっち,which,0,0,0,0
+白,white,0,0,0,0
+大型,large,0,0,0,0
+重要,important,0,0,0,0
+種類,kind,0,0,0,0
+直す,repair,0,0,0,0
+真っ直ぐ,dead straight,0,0,0,0
+売り切れる,be sold out,0,0,0,0
+三角,triangle,0,0,0,0
+四角,square,0,0,0,0
+四角い,square,0,0,0,0
+曲,song,0,0,0,0
+曲げる,bend,0,0,0,0
+交差点,crossing,0,0,0,0
+角,corner,0,0,0,0
+四つ角,street corner,0,0,0,0
+曲がり角,corner,0,0,0,0
+計算,calculation,0,0,0,0
+年度,year,0,0,0,0
+間違い,mistake,0,0,0,0
+間違える,mistake,0,0,0,0
+間違う,be mistaken,0,0,0,0
+世界,world,0,0,0,0
+多く,much,0,0,0,0
+毎年,every year,0,0,0,0
+フィルム,film,0,0,0,0
+思い出,recollections,0,0,0,0
+一昨年,the year before last,0,0,0,0
+やっぱり,just as I thought,0,0,0,0
+利用,utilization,0,0,0,0
+返す,return,0,0,0,0
+がらがら,empty,0,0,0,0
+旅館,Japanese inn,0,0,0,0
+泊める,lodge,0,0,0,0
+トランプ,cards,0,0,0,0
+おばさん,aunt,0,0,0,0
+ドル,dollar,0,0,0,0
+洋服,clothes,0,0,0,0
+教室,classroom,0,0,0,0
+図書室,library,0,0,0,0
+販売,sale,0,0,0,0
+窓,window,0,0,0,0
+土地,land,0,0,0,0
+届く,reach,0,0,0,0
+ずっと,all day,0,0,0,0
+運転,drive,0,0,0,0
+サラリーマン,office worker,0,0,0,0
+ネクタイ,tie,0,0,0,0
+ひげ,moustache,0,0,0,0
+あくび,yawn,0,0,0,0
+不動産屋,real estate agent,0,0,0,0
+外国,foreign country,0,0,0,0
+買い物,shopping,0,0,0,0
+台所,kitchen,0,0,0,0
+毎週,every week,0,0,0,0
+読み,reading,0,0,0,0
+スープ,soup,0,0,0,0
+タイプライター,typewriter,0,0,0,0
+レコード,record,0,0,0,0
+似ている,look like,0,0,0,0
+どんどん,knock,0,0,0,0
+親切,kind,0,0,0,0
+店員,clerk,0,0,0,0
+会話,conversation,0,0,0,0
+不親切,unkind,0,0,0,0
+人々,people,0,0,0,0
+家族,family,0,0,0,0
+万歳,hooray,0,0,0,0
+長女,eldest daughter,0,0,0,0
+姉さん,older sister,0,0,0,0
+高校,high school,0,0,0,0
+入学,enter a school,0,0,0,0
+おしゃべり,chatter,0,0,0,0
+チョコレート,chocolate,0,0,0,0
+二十歳,20 years old,0,0,0,0
+数学,mathematics,0,0,0,0
+ゴルフ,golf,0,0,0,0
+アルバイト,casual job,0,0,0,0
+バイク,motorbike,0,0,0,0
+コーラ,cola,0,0,0,0
+二階,second floor,0,0,0,0
+兄さん,older brother,0,0,0,0
+アイスクリーム,ice cream,0,0,0,0
+安全,safety,0,0,0,0
+合格,passing an examination,0,0,0,0
+練習,practice,0,0,0,0
+ピンク,pink,0,0,0,0
+引き算,subtraction,0,0,0,0
+足し算,addition,0,0,0,0
+中学,junior high school,0,0,0,0
+中学生,junior high school student,0,0,0,0
+中学校,junior high school,0,0,0,0
+小学生,schoolchildren,0,0,0,0
+客,visitor,0,0,0,0
+発表,announcement,0,0,0,0
+若者,young person,0,0,0,0
+企業,corporation,0,0,0,0
+計画,plan,0,0,0,0
+ロボット,robot,0,0,0,0
+パソコン,personal computer,0,0,0,0
+明らか,clear,0,0,0,0
+工場,factory,0,0,0,0
+代表,representative,0,0,0,0
+能力,ability,0,0,0,0
+運動,movement,0,0,0,0
+要求,requirement,0,0,0,0
+実行,practice,0,0,0,0
+まとめる,gather together,0,0,0,0
+残す,leave,0,0,0,0
+言語,language,0,0,0,0
+教育,education,0,0,0,0
+同様,similar,0,0,0,0
+当時,at that time,0,0,0,0
+海外,overseas,0,0,0,0
+映画,movie,0,0,0,0
+帰国,return to one's country,0,0,0,0
+遅れる,be late,0,0,0,0
+移る,move,0,0,0,0
+旅行,travel,0,0,0,0
+マンション,apartment,0,0,0,0
+育てる,bring up,0,0,0,0
+明るい,bright,0,0,0,0
+借りる,borrow,0,0,0,0
+立てる,stand,0,0,0,0
+アパート,apartment,0,0,0,0
+長男,eldest son,0,0,0,0
+黒い,black,0,0,0,0
+受け取る,receive,0,0,0,0
+渡す,carry across,0,0,0,0
+グラフ,chart,0,0,0,0
+ラジオ,radio,0,0,0,0
+兄弟,sibling,0,0,0,0
+運転手,driver,0,0,0,0
+見送る,see someone off,0,0,0,0
+おかしい,strange,0,0,0,0
+荷物,baggage,0,0,0,0
+貸す,lend,0,0,0,0
+人形,doll,0,0,0,0
+銀,silver,0,0,0,0
+届ける,deliver,0,0,0,0
+金持ち,wealthy person,0,0,0,0
+ボール,ball,0,0,0,0
+オートバイ,motorbike,0,0,0,0
+習う,learn,0,0,0,0
+左手,left hand,0,0,0,0
+着物,clothes,0,0,0,0
+映画館,movie theater,0,0,0,0
+スイッチ,switch,0,0,0,0
+テニス,tennis,0,0,0,0
+おかしい,funny,0,0,0,0
+真面目,serious,0,0,0,0
+申し込む,apply,0,0,0,0
+バイオリン,violin,0,0,0,0
+配達,delivery,0,0,0,0
+アルバム,album,0,0,0,0
+スカート,skirt,0,0,0,0
+物,thing,0,0,0,0
+この間,the other day,0,0,0,0
+ダンス,dance,0,0,0,0
+パチンコ,pachinko,0,0,0,0
+つまらない,boring,0,0,0,0
+書き方,how to write,0,0,0,0
+スチュワーデス,flight attendant,0,0,0,0
+ワイシャツ,shirt,0,0,0,0
+ブラウス,blouse,0,0,0,0
+ステレオ,stereo,0,0,0,0
+早口,fast talking,0,0,0,0
+色々,in various ways,0,0,0,0
+降ろす,unload,0,0,0,0
+にこにこ,smile,0,0,0,0
+アイロン,iron,0,0,0,0
+イヤリング,earrings,0,0,0,0
+ガールフレンド,girlfriend,0,0,0,0
+どきどき,feel excited,0,0,0,0
+一昨日,day before yesterday,0,0,0,0
+ぺらぺら,fluently,0,0,0,0
+エアメール,airmail,0,0,0,0
+やけど,burn,0,0,0,0
+大人しい,gentle,0,0,0,0
+上がる,get nervous,0,0,0,0
+空手,karate,0,0,0,0
+金,gold,0,0,0,0
+年上,older,0,0,0,0
+昼過ぎ,early afternoon,0,0,0,0
+結合,combination,0,0,0,0
+私たち,we,0,0,0,0
+教会,church,0,0,0,0
+先月,last month,0,0,0,0
+結果,result,0,0,0,0
+果物,fruit,0,0,0,0
+課題,task,0,0,0,0
+課,section,0,0,0,0
+表現,expression,0,0,0,0
+立場,standpoint,0,0,0,0
+おもちゃ,toy,0,0,0,0
+乗り物,vehicle,0,0,0,0
+自習,self-study,0,0,0,0
+理由,reason,0,0,0,0
+自由,freedom,0,0,0,0
+変わる,change,0,0,0,0
+信じる,believe,0,0,0,0
+信号,signal,0,0,0,0
+赤,red,0,0,0,0
+頼む,ask,0,0,0,0
+市民,citizens,0,0,0,0
+決定,decision,0,0,0,0
+報告,report,0,0,0,0
+議員,legislator,0,0,0,0
+会議,conference,0,0,0,0
+発言,utterance,0,0,0,0
+出席,attendance,0,0,0,0
+コピー,copy,0,0,0,0
+配る,hand out,0,0,0,0
+昼前,in the morning,0,0,0,0
+開発,development,0,0,0,0
+対立,opposition,0,0,0,0
+見方,view,0,0,0,0
+反対,oppose,0,0,0,0
+対する,face,0,0,0,0
+よく,well,0,0,0,0
+写す,copy,0,0,0,0
+答え,answer,0,0,0,0
+特に,specially,0,0,0,0
+特急,super-express,0,0,0,0
+特別,special,0,0,0,0
+別々,separately,0,0,0,0
+別れる,separate,0,0,0,0
+一般,general,0,0,0,0
+目的,object,0,0,0,0
+産業,industry,0,0,0,0
+普通,normal,0,0,0,0
+並ぶ,line up,0,0,0,0
+並べる,line up,0,0,0,0
+ごちそう,feast,0,0,0,0
+平和,peace,0,0,0,0
+病院,hospital,0,0,0,0
+入院,be hospitalized,0,0,0,0
+お医者さん,doctor,0,0,0,0
+歯ブラシ,toothbrush,0,0,0,0
+教科書,textbook,0,0,0,0
+亡くなる,die,0,0,0,0
+昼間,daytime,0,0,0,0
+疲れる,get tired,0,0,0,0
+ふらふら,weak,0,0,0,0
+禁煙,no smoking,0,0,0,0
+酔っ払い,drunkard,0,0,0,0
+酔っ払う,get drunk,0,0,0,0
+もう,another,0,0,0,0
+コップ,cup,0,0,0,0
+危ない,dangerous,0,0,0,0
+プラスチック,plastic,0,0,0,0
+注目,attention,0,0,0,0
+注文,order,0,0,0,0
+意味,meaning,0,0,0,0
+意見,opinion,0,0,0,0
+個人,individual,0,0,0,0
+注意,attention,0,0,0,0
+用意,prepare,0,0,0,0
+分かれる,be divided,0,0,0,0
+確認,confirmation,0,0,0,0
+機能,function,0,0,0,0
+材料,material,0,0,0,0
+動かす,move,0,0,0,0
+基づく,be based on,0,0,0,0
+基本,basis,0,0,0,0
+準備,provide for,0,0,0,0
+施設,facilities,0,0,0,0
+説明,explanation,0,0,0,0
+公開,opening,0,0,0,0
+公園,park,0,0,0,0
+動物園,zoo,0,0,0,0
+チケット,ticket,0,0,0,0
+デート,date,0,0,0,0
+昼休み,noon recess,0,0,0,0
+祭り,festival,0,0,0,0
+国際,international,0,0,0,0
+以上,not less than,0,0,0,0
+飛行場,airport,0,0,0,0
+ジェット機,jet airplane,0,0,0,0
+航空便,airmail,0,0,0,0
+最大,biggest,0,0,0,0
+設計,design,0,0,0,0
+遠く,great distance,0,0,0,0
+下る,go down,0,0,0,0
+船便,surface mail,0,0,0,0
+船,ship,0,0,0,0
+空港,airport,0,0,0,0
+港,port,0,0,0,0
+島,island,0,0,0,0
+完成,completion,0,0,0,0
+全体,whole,0,0,0,0
+平成,Heisei era,0,0,0,0
+成功,success,0,0,0,0
+原因,cause,0,0,0,0
+投資,investment,0,0,0,0
+一定,constant,0,0,0,0
+今後,after this,0,0,0,0
+願う,wish,0,0,0,0
+直接,directly,0,0,0,0
+カード,card,0,0,0,0
+よろしく,properly,0,0,0,0
+正確,accurate,0,0,0,0
+正しい,correct,0,0,0,0
+遊び,play,0,0,0,0
+正直,honest,0,0,0,0
+異なる,differ,0,0,0,0
+通常,common,0,0,0,0
+技術,skill,0,0,0,0
+非常に,very,0,0,0,0
+強調,emphasis,0,0,0,0
+良い,good,0,0,0,0
+季節,season,0,0,0,0
+調査,investigation,0,0,0,0
+提供,offer,0,0,0,0
+提案,proposition,0,0,0,0
+案内,guide,0,0,0,0
+連れて行く,take  along,0,0,0,0
+連れて来る,bring,0,0,0,0
+続ける,continue,0,0,0,0
+さっき,some time ago,0,0,0,0
+来週,next week,0,0,0,0
+動き,movement,0,0,0,0
+相談,consultation,0,0,0,0
+医者,doctor,0,0,0,0
+記者,journalist,0,0,0,0
+毎晩,every evening,0,0,0,0
+記録,record,0,0,0,0
+テープ,tape,0,0,0,0
+関する,concern,0,0,0,0
+関連,connection,0,0,0,0
+状況,state of affairs,0,0,0,0
+状態,state,0,0,0,0
+治る,be cured,0,0,0,0
+政治,politics,0,0,0,0
+政府,government,0,0,0,0
+党,political party,0,0,0,0
+政策,policy,0,0,0,0
+選ぶ,choose,0,0,0,0
+選手,representative athlete,0,0,0,0
+彼ら,they,0,0,0,0
+サッカー,soccer,0,0,0,0
+バスケットボール,basketball,0,0,0,0
+選挙,election,0,0,0,0
+候補,candidacy,0,0,0,0
+首相,prime minister,0,0,0,0
+首都,capital,0,0,0,0
+マフラー,scarf,0,0,0,0
+当たる,hit,0,0,0,0
+今朝,this morning,0,0,0,0
+真っ赤,deep red,0,0,0,0
+タオル,towel,0,0,0,0
+改革,reform,0,0,0,0
+革,leather,0,0,0,0
+番組,program,0,0,0,0
+録音,sound recording,0,0,0,0
+組織,organization,0,0,0,0
+進む,advance,0,0,0,0
+科学,science,0,0,0,0
+進学,entering a school of higher grade,0,0,0,0
+大学院,graduate school,0,0,0,0
+拡大,magnification,0,0,0,0
+調べる,investigate,0,0,0,0
+責任,responsibility,0,0,0,0
+辞める,resign,0,0,0,0
+辞書,dictionary,0,0,0,0
+会社,company,0,0,0,0
+大使館,embassy,0,0,0,0
+地下鉄,subway,0,0,0,0
+通勤,commuting,0,0,0,0
+おじ,uncle,0,0,0,0
+勤める,serve,0,0,0,0
+事務所,office,0,0,0,0
+事務室,office,0,0,0,0
+従来,former,0,0,0,0
+命令,command,0,0,0,0
+従兄弟,cousin,0,0,0,0
+成績,results,0,0,0,0
+まあまあ,OK,0,0,0,0
+情報,information,0,0,0,0
+集める,collect,0,0,0,0
+集まる,gather,0,0,0,0
+各国,every country,0,0,0,0
+正月,New Year,0,0,0,0
+採用,employment,0,0,0,0
+給料,salary,0,0,0,0
+毎年,every year,0,0,0,0
+卒業,graduation,0,0,0,0
+高等学校,senior high school,0,0,0,0
+受ける,receive,0,0,0,0
+自動車,automobile,0,0,0,0
+就職,finding employment,0,0,0,0
+退院,discharge from a hospital,0,0,0,0
+契約,contract,0,0,0,0
+交渉,negotiation,0,0,0,0
+関係,relation,0,0,0,0
+スーパーマーケット,supermarket,0,0,0,0
+参加,participation,0,0,0,0
+増加,increase,0,0,0,0
+加工,processing,0,0,0,0
+いかが,how,0,0,0,0
+比べる,compare,0,0,0,0
+評価,evaluation,0,0,0,0
+対象,target,0,0,0,0
+修理,repair,0,0,0,0
+乗り換える,change,0,0,0,0
+トイレットペーパー,toilet paper,0,0,0,0
+乗り換え,change,0,0,0,0
+換える,exchange,0,0,0,0
+着替える,change clothes,0,0,0,0
+備える,provide for,0,0,0,0
+破る,tear,0,0,0,0
+破れる,tear,0,0,0,0
+機械,machine,0,0,0,0
+カメラ,camera,0,0,0,0
+壊す,break,0,0,0,0
+壊れる,break,0,0,0,0
+立派,fine,0,0,0,0
+管理,management,0,0,0,0
+事件,affair,0,0,0,0
+逮捕,arrest,0,0,0,0
+戦争,war,0,0,0,0
+捨てる,discard,0,0,0,0
+スケート,skate,0,0,0,0
+ボート,boat,0,0,0,0
+電池,electric cell,0,0,0,0
+深い,deep,0,0,0,0
+深さ,depth,0,0,0,0
+浅い,shallow,0,0,0,0
+何か,something,0,0,0,0
+割れる,crack,0,0,0,0
+泳ぐ,swim,0,0,0,0
+たくさん,in large quantity,0,0,0,0
+流行る,be in fashion,0,0,0,0
+先ず,first,0,0,0,0
+洗う,wash,0,0,0,0
+下着,underwear,0,0,0,0
+洗面所,washroom,0,0,0,0
+油,oil,0,0,0,0
+沈む,sink,0,0,0,0
+久しぶり,after a long time,0,0,0,0
+氷,ice,0,0,0,0
+冷える,cool down,0,0,0,0
+冷やす,cool,0,0,0,0
+冷める,cool off,0,0,0,0
+凍る,freeze,0,0,0,0
+故障,malfunction,0,0,0,0
+セーター,sweater,0,0,0,0
+冷蔵庫,refrigerator,0,0,0,0
+涼しい,cool,0,0,0,0
+ズボン,trousers,0,0,0,0
+汚す,make dirty,0,0,0,0
+汚れる,become dirty,0,0,0,0
+景色,scenery,0,0,0,0
+影響,influence,0,0,0,0
+光る,shine,0,0,0,0
+太る,grow fat,0,0,0,0
+指,finger,0,0,0,0
+西,west,0,0,0,0
+ぎらぎら,dazzling,0,0,0,0
+存在,existence,0,0,0,0
+発見,discovery,0,0,0,0
+きらきら,shining,0,0,0,0
+星,star,0,0,0,0
+昨夜,last night,0,0,0,0
+回る,turn round,0,0,0,0
+うまい,good at,0,0,0,0
+野球,baseball,0,0,0,0
+間,interval,0,0,0,0
+雲,cloud,0,0,0,0
+曇り,cloudiness,0,0,0,0
+昨年,last year,0,0,0,0
+研究,research,0,0,0,0
+地震,earthquake,0,0,0,0
+ガス,gas,0,0,0,0
+震える,tremble,0,0,0,0
+揺れる,shake,0,0,0,0
+ぐらぐら,wobble,0,0,0,0
+神社,Shinto shrine,0,0,0,0
+秘密,secret,0,0,0,0
+条件,condition,0,0,0,0
+規則,rule,0,0,0,0
+暑さ,heat,0,0,0,0
+寒さ,coldness,0,0,0,0
+年寄り,old person,0,0,0,0
+世紀,century,0,0,0,0
+建設,construction,0,0,0,0
+中心,center,0,0,0,0
+建物,building,0,0,0,0
+建つ,be built,0,0,0,0
+番地,lot number,0,0,0,0
+構成,organization,0,0,0,0
+構造,construction,0,0,0,0
+渡る,cross,0,0,0,0
+橋,bridge,0,0,0,0
+ぶつかる,hit,0,0,0,0
+柱,pillar,0,0,0,0
+広さ,area,0,0,0,0
+新聞,newspaper,0,0,0,0
+位置,position,0,0,0,0
+離婚,divorce,0,0,0,0
+システム,system,0,0,0,0
+バス停,bus stop,0,0,0,0
+大会,mass meeting,0,0,0,0
+周辺,environs,0,0,0,0
+田んぼ,rice field,0,0,0,0
+聞こえる,hear,0,0,0,0
+黄色,yellow,0,0,0,0
+横,side,0,0,0,0
+横書き,horizontal writing,0,0,0,0
+段階,stage,0,0,0,0
+判断,judgment,0,0,0,0
+基準,standard,0,0,0,0
+断る,refuse,0,0,0,0
+横断歩道,pedestrian crossing,0,0,0,0
+大幅,drastically,0,0,0,0
+年間,period of one year,0,0,0,0
+訪れる,visit,0,0,0,0
+訪ねる,visit,0,0,0,0
+冷房,air conditioning,0,0,0,0
+暖房,heating,0,0,0,0
+文房具,stationery,0,0,0,0
+メニュー,menu,0,0,0,0
+諸国,various countries,0,0,0,0
+対策,measure,0,0,0,0
+もちろん,of course,0,0,0,0
+宿題,homework,0,0,0,0
+ランチ,lunch,0,0,0,0
+増やす,increase,0,0,0,0
+緑色,green,0,0,0,0
+町,town,0,0,0,0
+貿易,trade,0,0,0,0
+輸入,import,0,0,0,0
+輸出,export,0,0,0,0
+指輪,ring,0,0,0,0
+大切,important,0,0,0,0
+往復,going and returning,0,0,0,0
+復習,review,0,0,0,0
+繰り返す,repeat,0,0,0,0
+国内,domestic,0,0,0,0
+広がる,spread out,0,0,0,0
+他,others,0,0,0,0
+グラス,glass,0,0,0,0
+留学,studying abroad,0,0,0,0
+停留所,stop,0,0,0,0
+書留,registered mail,0,0,0,0
+自然,nature,0,0,0,0
+守る,protect,0,0,0,0
+自然,natural,0,0,0,0
+約束,promise,0,0,0,0
+留守,not at home,0,0,0,0
+主人,master,0,0,0,0
+自宅,one's house,0,0,0,0
+お宅,your home,0,0,0,0
+大変,awful,0,0,0,0
+交通事故,traffic accident,0,0,0,0
+ベッド,bed,0,0,0,0
+ぐっすり,soundly,0,0,0,0
+昼寝,siesta,0,0,0,0
+住宅,housing,0,0,0,0
+静か,quiet,0,0,0,0
+暇,free time,0,0,0,0
+趣味,hobby,0,0,0,0
+両方,both,0,0,0,0
+両替,money changing,0,0,0,0
+片道,one way,0,0,0,0
+内側,inside,0,0,0,0
+パトカー,police car,0,0,0,0
+向こう側,other side,0,0,0,0
+外側,exterior,0,0,0,0
+左側,left side,0,0,0,0
+右側,right side,0,0,0,0
+裏,rear,0,0,0,0
+裏返す,turn over,0,0,0,0
+週刊誌,weekly magazine,0,0,0,0
+朝刊,morning edition,0,0,0,0
+夕刊,evening edition,0,0,0,0
+小説,novel,0,0,0,0
+詳しい,detailed,0,0,0,0
+細かい,minute,0,0,0,0
+みかん,tangerine,0,0,0,0
+細か,minute,0,0,0,0
+積もる,accumulate,0,0,0,0
+訳,translation,0,0,0,0
+訳す,translate,0,0,0,0
+検討,consideration,0,0,0,0
+プログラム,program,0,0,0,0
+付ける,attach,0,0,0,0
+ナイロン,nylon,0,0,0,0
+こちら,here,0,0,0,0
+受け付ける,receive,0,0,0,0
+片付ける,put in order,0,0,0,0
+受付,receptionist,0,0,0,0
+近付く,approach,0,0,0,0
+リボン,ribbon,0,0,0,0
+片付く,be put in order,0,0,0,0
+気を付ける,take care of,0,0,0,0
+記念日,memorial day,0,0,0,0
+残念,regretful,0,0,0,0
+行き,going,0,0,0,0
+具体的,concrete,0,0,0,0
+例えば,for example,0,0,0,0
+例文,illustrative sentence,0,0,0,0
+例,example,0,0,0,0
+余る,remain over,0,0,0,0
+除く,rid of,0,0,0,0
+削る,grind down,0,0,0,0
+やはり,as expected,0,0,0,0
+遅刻,tardiness,0,0,0,0
+緩い,slack,0,0,0,0
+数字,figure,0,0,0,0
+苦しい,painful,0,0,0,0
+苦い,bitter,0,0,0,0
+苦手,person that is hard to deal with,0,0,0,0
+困る,be at a loss,0,0,0,0
+貧乏,poverty,0,0,0,0
+ジュース,juice,0,0,0,0
+不幸,unhappiness,0,0,0,0
+幸せ,happiness,0,0,0,0
+加える,add,0,0,0,0
+少々,a little,0,0,0,0
+塩,salt,0,0,0,0
+塩辛い,salty,0,0,0,0
+ちょっと,just a moment,0,0,0,0
+砂糖,sugar,0,0,0,0
+規模,scale,0,0,0,0
+農業,agriculture,0,0,0,0
+濃い,thick,0,0,0,0
+薄い,thin,0,0,0,0
+味,taste,0,0,0,0
+厚い,thick,0,0,0,0
+迫る,press,0,0,0,0
+ゴム,elastic,0,0,0,0
+業者,businessman,0,0,0,0
+越える,go over,0,0,0,0
+引っ越し,moving,0,0,0,0
+追い越す,outrun,0,0,0,0
+上昇,ascension,0,0,0,0
+確か,for sure,0,0,0,0
+改札口,ticket barrier,0,0,0,0
+失礼,impoliteness,0,0,0,0
+お礼,thanks,0,0,0,0
+どなた,who,0,0,0,0
+謝る,apologize,0,0,0,0
+注射,injection,0,0,0,0
+社員,staff member,0,0,0,0
+誘う,invite,0,0,0,0
+導入,introduction,0,0,0,0
+努力,endeavor,0,0,0,0
+当然,natural,0,0,0,0
+めったに,rarely,0,0,0,0
+独身,single life,0,0,0,0
+家内,my wife,0,0,0,0
+処理,management,0,0,0,0
+紹介,introduction,0,0,0,0
+招く,invite,0,0,0,0
+ソース,sauce,0,0,0,0
+招待,invitation,0,0,0,0
+生まれる,be born,0,0,0,0
+夫婦,husband and wife,0,0,0,0
+ネックレス,necklace,0,0,0,0
+二人,two persons,0,0,0,0
+奥さん,married lady,0,0,0,0
+年下,younger,0,0,0,0
+競争,competition,0,0,0,0
+方向,direction,0,0,0,0
+見物,sightseeing,0,0,0,0
+知らせる,let know,0,0,0,0
+皆さん,everybody,0,0,0,0
+皆様,everyone,0,0,0,0
+経営,management,0,0,0,0
+大統領,president,0,0,0,0
+相手,opponent,0,0,0,0
+未来,future,0,0,0,0
+盗む,steal,0,0,0,0
+誰か,someone,0,0,0,0
+国籍,nationality,0,0,0,0
+愛,love,0,0,0,0
+可愛い,cute,0,0,0,0
+着せる,dress,0,0,0,0
+恋人,lover,0,0,0,0
+プレゼント,present,0,0,0,0
+誕生日,birthday,0,0,0,0
+ケーキ,cake,0,0,0,0
+祝日,holiday,0,0,0,0
+お祝い,celebrate,0,0,0,0
+実現,implementation,0,0,0,0
+泣く,cry,0,0,0,0
+涙,tear,0,0,0,0
+こぼれる,spill,0,0,0,0
+喜ぶ,be happy,0,0,0,0
+恥ずかしい,shy,0,0,0,0
+弁当,box lunch,0,0,0,0
+高さ,height,0,0,0,0
+登る,climb,0,0,0,0
+看護婦,female nurse,0,0,0,0
+訴える,sue,0,0,0,0
+迷う,be perplexed,0,0,0,0
+占める,occupy,0,0,0,0
+ベルト,belt,0,0,0,0
+迷惑,trouble,0,0,0,0
+地域,region,0,0,0,0
+活動,activity,0,0,0,0
+住民,residents,0,0,0,0
+危険,danger,0,0,0,0
+政権,political power,0,0,0,0
+贈る,offer,0,0,0,0
+贈り物,present,0,0,0,0
+与える,give,0,0,0,0
+資金,funds,0,0,0,0
+貯金,savings,0,0,0,0
+毎月,every month,0,0,0,0
+預かる,receive on deposit,0,0,0,0
+分野,field,0,0,0,0
+料理,cooking,0,0,0,0
+得意,one's forte,0,0,0,0
+ギター,guitar,0,0,0,0
+理科,science,0,0,0,0
+バレーボール,volleyball,0,0,0,0
+燃える,burn,0,0,0,0
+焼ける,burn,0,0,0,0
+すき焼き,sukiyaki,0,0,0,0
+肉,flesh,0,0,0,0
+焼く,burn,0,0,0,0
+乾杯,a toast,0,0,0,0
+乾かす,dry,0,0,0,0
+新幹線,Shinkansen,0,0,0,0
+速さ,speed,0,0,0,0
+行き,going,0,0,0,0
+素晴らしい,splendid,0,0,0,0
+家庭,home,0,0,0,0
+花,flower,0,0,0,0
+咲く,bloom,0,0,0,0
+桜,cherry tree,0,0,0,0
+吹く,blow,0,0,0,0
+毎日,every day,0,0,0,0
+海岸,seashore,0,0,0,0
+あちこち,all over,0,0,0,0
+植える,plant,0,0,0,0
+庭,garden,0,0,0,0
+屋根,roof,0,0,0,0
+厚さ,thickness,0,0,0,0
+黒板,blackboard,0,0,0,0
+掲示板,notice board,0,0,0,0
+チョーク,chalk,0,0,0,0
+フォーク,fork,0,0,0,0
+牛,cattle,0,0,0,0
+草,grass,0,0,0,0
+葉,leaf,0,0,0,0
+絵葉書,picture postcard,0,0,0,0
+葉書,postcard,0,0,0,0
+警察,police,0,0,0,0
+どうぞ,please,0,0,0,0
+タクシー,taxi,0,0,0,0
+親しい,intimate,0,0,0,0
+救急車,ambulance,0,0,0,0
+ウェートレス,waitress,0,0,0,0
+吸う,inhale,0,0,0,0
+たばこ,tobacco,0,0,0,0
+普及,diffusion,0,0,0,0
+手術,surgical operation,0,0,0,0
+効果,effect,0,0,0,0
+胃,stomach,0,0,0,0
+割る,divide,0,0,0,0
+皿,plate,0,0,0,0
+血,blood,0,0,0,0
+内容,contents,0,0,0,0
+会談,conversation,0,0,0,0
+背景,background,0,0,0,0
+実際,truth,0,0,0,0
+かゆい,itchy,0,0,0,0
+滑る,slide,0,0,0,0
+骨,bone,0,0,0,0
+健康,healthy,0,0,0,0
+水泳,swimming,0,0,0,0
+珍しい,rare,0,0,0,0
+ビデオ,video,0,0,0,0
+撮る,photograph,0,0,0,0
+国会,National Diet,0,0,0,0
+再び,again,0,0,0,0
+再来年,the year after next,0,0,0,0
+再来月,the month after next,0,0,0,0
+再来週,the week after next,0,0,0,0
+放送,broadcasting,0,0,0,0
+装置,equipment,0,0,0,0
+仮名,kana,0,0,0,0
+送り仮名,kana suffix,0,0,0,0
+悲しむ,feel sad,0,0,0,0
+あまり,much,0,0,0,0
+流れる,flow,0,0,0,0
+ビール,beer,0,0,0,0
+美術館,art museum,0,0,0,0
+美人,beautiful woman,0,0,0,0
+すいか,watermelon,0,0,0,0
+博物館,museum,0,0,0,0
+ハム,ham,0,0,0,0
+開催,holding,0,0,0,0
+特徴,distinctive feature,0,0,0,0
+今回,this time,0,0,0,0
+許す,permit,0,0,0,0
+免許証,license,0,0,0,0
+述べる,state orally,0,0,0,0
+食事,meal,0,0,0,0
+代わる,substitute,0,0,0,0
+固い,stiff,0,0,0,0
+厳しい,strict,0,0,0,0
+教師,teacher,0,0,0,0
+進める,advance,0,0,0,0
+設ける,set up,0,0,0,0
+実験,experiment,0,0,0,0
+教授,professor,0,0,0,0
+間に合う,be in time,0,0,0,0
+伝える,convey,0,0,0,0
+忙しい,busy,0,0,0,0
+逃げる,escape,0,0,0,0
+鳥,bird,0,0,0,0
+鳴る,sound,0,0,0,0
+鳴く,cry,0,0,0,0
+目覚まし時計,alarm clock,0,0,0,0
+声,voice,0,0,0,0
+テープレコーダー,tape recorder,0,0,0,0
+卵,egg,0,0,0,0
+やる,give,0,0,0,0
+隣,neighboring house,0,0,0,0
+振る,wave,0,0,0,0
+助ける,help,0,0,0,0
+駐車場,parking area,0,0,0,0
+騒ぐ,make a racket,0,0,0,0
+刺身,sashimi,0,0,0,0
+激しい,violent,0,0,0,0
+スリッパ,slippers,0,0,0,0
+降る,fall,0,0,0,0
+示す,show,0,0,0,0
+歴史,history,0,0,0,0
+驚く,be surprised,0,0,0,0
+強さ,strength,0,0,0,0
+停車,stoppage,0,0,0,0
+木,tree,0,0,0,0
+倒れる,fall over,0,0,0,0
+倒す,bring down,0,0,0,0
+傾向,tendency,0,0,0,0
+急,urgent,0,0,0,0
+よろしい,all right,0,0,0,0
+柔道,judo,0,0,0,0
+柔らか,soft,0,0,0,0
+主張,insistence,0,0,0,0
+テント,tent,0,0,0,0
+引っ張る,pull,0,0,0,0
+消える,be extinguished,0,0,0,0
+突き当たる,hit against,0,0,0,0
+突き当たり,end of a street,0,0,0,0
+文字,character,0,0,0,0
+塗る,spread on,0,0,0,0
+弾く,play on,0,0,0,0
+地球,the Earth,0,0,0,0
+丸い,round,0,0,0,0
+丸,circle or sphere,0,0,0,0
+攻撃,attack,0,0,0,0
+消防車,fire engine,0,0,0,0
+殺す,kill,0,0,0,0
+嫌,dislike,0,0,0,0
+歯医者,dentist,0,0,0,0
+大嫌い,hate,0,0,0,0
+ラッシュアワー,rush hour,0,0,0,0
+にんじん,carrot,0,0,0,0
+アクセサリー,accessories,0,0,0,0
+大勢,large numbers,0,0,0,0
+姿,figure,0,0,0,0
+姿勢,posture,0,0,0,0
+夢,dream,0,0,0,0
+恐ろしい,terrible,0,0,0,0
+怖い,fearful,0,0,0,0
+孫,grandchild,0,0,0,0
+木綿,cotton,0,0,0,0
+偉い,great,0,0,0,0
+爪,nail,0,0,0,0
+奥,inner part,0,0,0,0
+机,desk,0,0,0,0
+貼る,stick,0,0,0,0
+組み立てる,build,0,0,0,0
+棚,cupboard,0,0,0,0
+本棚,bookshelf,0,0,0,0
+折れる,snap,0,0,0,0
+用いる,use,0,0,0,0
+商業,commerce,0,0,0,0
+方針,course,0,0,0,0
+糸,thread,0,0,0,0
+釣る,angle,0,0,0,0
+お釣り,change,0,0,0,0
+預ける,deposit,0,0,0,0
+無くす,lose,0,0,0,0
+鍋,pan,0,0,0,0
+うまい,delicious,0,0,0,0
+こぼす,spill,0,0,0,0
+寿司,sushi,0,0,0,0
+夕飯,evening meal,0,0,0,0
+昼食,lunch,0,0,0,0
+シャワー,shower,0,0,0,0
+ただ,free,0,0,0,0
+泥棒,thief,0,0,0,0
+沸かす,boil,0,0,0,0
+やかん,kettle,0,0,0,0
+乾く,dry,0,0,0,0
+洗濯機,washing machine,0,0,0,0
+洗濯,laundering,0,0,0,0
+濡れる,get wet,0,0,0,0
+喫茶店,coffee shop,0,0,0,0
+怠ける,be lazy,0,0,0,0
+一生懸命,for life,0,0,0,0
+休憩,rest,0,0,0,0
+天井,ceiling,0,0,0,0
+納豆,natto,0,0,0,0
+朝食,breakfast,0,0,0,0
+まく,scatter,0,0,0,0
+化粧,make up,0,0,0,0
+畑,field,0,0,0,0
+炊く,cook,0,0,0,0
+自炊,cooking food for oneself,0,0,0,0
+灰皿,ashtray,0,0,0,0
+灰,ashes,0,0,0,0
+灰色,ash color,0,0,0,0
+西暦,Christian Era,0,0,0,0
+伸びる,stretch,0,0,0,0
+髪,hair,0,0,0,0
+鏡,mirror,0,0,0,0
+美容院,beauty shop,0,0,0,0
+くし,comb,0,0,0,0
+とんとん,tapping,0,0,0,0
+舌,tongue,0,0,0,0
+臭い,ill-smelling,0,0,0,0
+匂い,smell,0,0,0,0
+居る,be present,0,0,0,0
+より,more,0,0,0,0
+履く,put on footwear,0,0,0,0
+戸,door,0,0,0,0
+扇風機,electric fan,0,0,0,0
+ドライブ,drive,0,0,0,0
+豚,pig,0,0,0,0
+豚肉,pork,0,0,0,0
+鶏,chicken,0,0,0,0
+刺す,stab,0,0,0,0
+腕時計,wrist watch,0,0,0,0
+分ける,divide into parts,0,0,0,0
+半分,half,0,0,0,0
+お菓子,sweets,0,0,0,0
+お土産,souvenir,0,0,0,0
+お辞儀,bow,0,0,0,0
+寝坊,late riser,0,0,0,0
+旗,flag,0,0,0,0
+鉛筆,pencil,0,0,0,0
+万年筆,fountain pen,0,0,0,0
+箱,box,0,0,0,0
+セロテープ,cellophane tape,0,0,0,0
+下ろす,bring down,0,0,0,0
+本箱,bookcase,0,0,0,0
+ビニール,plastic bag,0,0,0,0
+手袋,gloves,0,0,0,0
+袋,bag,0,0,0,0
+落とす,drop,0,0,0,0
+拾う,pick up,0,0,0,0
+ポケット,pocket,0,0,0,0
+財布,purse,0,0,0,0
+柔らかい,soft,0,0,0,0
+毛布,blanket,0,0,0,0
+押し入れ,closet,0,0,0,0
+引き出し,drawer,0,0,0,0
+中,inside,0,0,0,0
+レシート,receipt,0,0,0,0
+アイスコーヒー,iced coffee,0,0,0,0
+小包,parcel,0,0,0,0
+包む,wrap,0,0,0,0
+飾る,decorate,0,0,0,0
+手帳,pocketbook,0,0,0,0
+電話帳,telephone book,0,0,0,0
+牛乳,milk,0,0,0,0
+玄関,entrance,0,0,0,0
+ベル,bell,0,0,0,0
+眼鏡,glasses,0,0,0,0
+患者,patient,0,0,0,0
+赤ちゃん,baby,0,0,0,0
+眠い,sleepy,0,0,0,0
+眠る,sleep,0,0,0,0
+大きさ,size,0,0,0,0
+封筒,envelope,0,0,0,0
+壁,wall,0,0,0,0
+鍵,key,0,0,0,0
+出掛ける,go out,0,0,0,0
+用事,things to do,0,0,0,0
+掛かる,hang,0,0,0,0
+掛け算,multiplication,0,0,0,0
+拍手,applause,0,0,0,0
+トイレ,toilet,0,0,0,0
+掃除,cleaning,0,0,0,0
+掃除機,vacuum cleaner,0,0,0,0
+握る,grasp,0,0,0,0
+握手,handshake,0,0,0,0
+迎える,welcome,0,0,0,0
+お巡りさん,policeman,0,0,0,0
+カラー,color,0,0,0,0
+幾つ,how many,0,0,0,0
+移す,move,0,0,0,0
+いつか,some time,0,0,0,0
+力,strength,0,0,0,0
+批判,criticism,0,0,0,0
+冗談,joke,0,0,0,0
+寂しい,lonely,0,0,0,0
+丁寧,polite,0,0,0,0
+後,after,0,0,0,0
+可哀相,poor,0,0,0,0
+事故,accident,0,0,0,0
+怪我,injury,0,0,0,0
+ひざ,knee,0,0,0,0
+ひじ,elbow,0,0,0,0
+我慢,patience,0,0,0,0
+幼稚園,kindergarten,0,0,0,0
+太陽,sun,0,0,0,0
+隠れる,hide,0,0,0,0
+日陰,the shade,0,0,0,0
+随分,extremely,0,0,0,0
+犬,dog,0,0,0,0
+試験,test,0,0,0,0
+頑張る,persist,0,0,0,0
+頃,time,0,0,0,0
+かつて,once,0,0,0,0
+大抵,generally,0,0,0,0
+この頃,now,0,0,0,0
+消防署,fire station,0,0,0,0
+尋ねる,inquire,0,0,0,0
+パーセント,percent,0,0,0,0
+絶対に,absolutely,0,0,0,0
+缶詰,canned goods,0,0,0,0
+缶,can,0,0,0,0
+腐る,rot,0,0,0,0
+豆腐,tofu,0,0,0,0
+床,floor,0,0,0,0
+床屋,barber,0,0,0,0
+掃く,sweep,0,0,0,0
+畳,tatami,0,0,0,0
+畳む,fold,0,0,0,0
+布団,futon,0,0,0,0
+干す,dry,0,0,0,0
+目立つ,stand out,0,0,0,0
+帽子,cap,0,0,0,0
+被る,wear,0,0,0,0
+是非,by all means,0,0,0,0
+敬語,honorific language,0,0,0,0
+敷く,lay,0,0,0,0
+馬,horse,0,0,0,0
+雷,thunder,0,0,0,0
+零,zero,0,0,0,0
+仕舞う,put away,0,0,0,0
+踊る,dance,0,0,0,0
+踊り,dance,0,0,0,0
+踏む,step on,0,0,0,0
+踏切,railroad crossing,0,0,0,0
+蹴る,kick,0,0,0,0
+食堂,dining hall,0,0,0,0
+生む,have children,0,0,0,0
+猫,cat,0,0,0,0
+毛,hair,0,0,0,0
+文章,writing,0,0,0,0
+程度,degree,0,0,0,0
+歯,tooth,0,0,0,0
+散歩,walk,0,0,0,0
+尊敬,respect,0,0,0,0
+お祖父さん,grandfather,0,0,0,0
+折る,break off,0,0,0,0
+早起き,early rising,0,0,0,0
+冬休み,winter vacation,0,0,0,0
+お祖母さん,grandmother,0,0,0,0
+丈夫,healthy,0,0,0,0
+祖父,grandfather,0,0,0,0
+祖母,grandmother,0,0,0,0
+欠席,absence,0,0,0,0
+邪魔,disturbing,0,0,0,0
+治す,cure,0,0,0,0
+風邪薬,remedy for a cold,0,0,0,0
+沸く,boil,0,0,0,0
+転ぶ,tumble down,0,0,0,0
+風呂屋,bathhouse,0,0,0,0
+ぬるい,tepid,0,0,0,0
+風呂,bath,0,0,0,0
+湯,hot water,0,0,0,0
+昭和,Showa era,0,0,0,0
+紫,purple,0,0,0,0
+レモン,lemon,0,0,0,0
+紅茶,black tea,0,0,0,0
+梅雨,rainy season,0,0,0,0
+桃,peach,0,0,0,0
+遭う,meet with,0,0,0,0
+枕,pillow,0,0,0,0
+嘘,lie,0,0,0,0
+怒る,get angry,0,0,0,0
+遠慮,reserve,0,0,0,0
+叱る,scold,0,0,0,0
+傘,umbrella,0,0,0,0
+お嬢さん,young lady,0,0,0,0
+年賀状,New Year's card,0,0,0,0
+賑やか,lively,0,0,0,0
+蚊,mosquito,0,0,0,0
+拭く,wipe,0,0,0,0
+会長,president,0,0,0,0
+挨拶,greet,0,0,0,0
+伴う,accompany,0,0,0,0
+巻く,roll up,0,0,0,0
+着く,arrive,0,0,0,0
+引っ越す,move,0,0,0,0
+おば,aunt,0,0,0,0
+両親,parents,0,0,0,0
+合う,fit,0,0,0,0
+穴,hole,0,0,0,0
+デパート,department store,0,0,0,0
+靴,shoes,0,0,0,0
+付く,attach itself to,0,0,0,0
+気に入る,like,0,0,0,0
+脱ぐ,remove clothes,0,0,0,0
+靴下,socks,0,0,0,0
+幾ら,how much,0,0,0,0
+汚れ,dirt,0,0,0,0
+ひも,laces,0,0,0,0
+磨く,polish,0,0,0,0
+歯磨き,toothpaste,0,0,0,0
+廊下,hallway,0,0,0,0
+ガラス,glass,0,0,0,0
+瓶,bottle,0,0,0,0
+褒める,praise,0,0,0,0
+元旦,New Year's Day,0,0,0,0
+池,pond,0,0,0,0
+袖,sleeve,0,0,0,0
+長袖,clothes with long sleeves,0,0,0,0
+半袖,short-sleeved shirt,0,0,0,0
+馬鹿,fool,0,0,0,0
+凄い,wonderful,0,0,0,0
+剃る,shave,0,0,0,0
+ひどい,cruel,0,0,0,0
+喧嘩,fight,0,0,0,0
+からから,thirsty,0,0,0,0
+叩く,tap,0,0,0,0
+噛む,bite,0,0,0,0
+足す,add,0,0,0,0
+味噌汁,miso soup,0,0,0,0
+姪,niece,0,0,0,0
+苺,strawberry,0,0,0,0
+茄子,eggplant,0,0,0,0
+逢う,meet,0,0,0,0
+椅子,chair,0,0,0,0
+形,shape,0,0,0,0
+痩せる,lose weight,0,0,0,0
+箸,chopsticks,0,0,0,0
+糊,glue,0,0,0,0
+醤油,soy sauce,0,0,0,0
+鋏,scissors,0,0,0,0
+鞄,bag,0,0,0,0
+顎,jaw,0,0,0,0
+飴,candy,0,0,0,0
+石鹸,soap,0,0,0,0
+なるほど,I see,0,0,0,0
+ヒント,hint,0,0,0,0
+おやつ,snack,0,0,0,0
+今に,before long,0,0,0,0
+バイト,part-time job,0,0,0,0
+もうけ,profits,0,0,0,0
+わざわざ,go to a lot of trouble,0,0,0,0
+やって来る,come,0,0,0,0
+せっかく,with much trouble,0,0,0,0
+ばからしい,stupid,0,0,0,0
+ダム,dam,0,0,0,0
+ボリューム,volume,0,0,0,0
+大,bigness,0,0,0,0
+ずるい,cunning,0,0,0,0
+ずうずうしい,cheeky,0,0,0,0
+大人,adult,0,0,0,0
+メンバー,member,0,0,0,0
+何て,what,0,0,0,0
+よす,quit,0,0,0,0
+コンクリート,concrete,0,0,0,0
+大金,large sum of money,0,0,0,0
+ボーナス,bonus,0,0,0,0
+日の出,sunrise,0,0,0,0
+外れる,come off,0,0,0,0
+外れ,blank,0,0,0,0
+本日,today,0,0,0,0
+一休み,rest,0,0,0,0
+なぜか,for some reason,0,0,0,0
+つぶる,close,0,0,0,0
+ぞんざい,rough,0,0,0,0
+しびれる,become numb,0,0,0,0
+たこ,octopus,0,0,0,0
+ビタミン,vitamin,0,0,0,0
+つまずく,stumble,0,0,0,0
+つぼみ,bud,0,0,0,0
+うろうろ,wander,0,0,0,0
+女子,woman,0,0,0,0
+あんまり,that much,0,0,0,0
+ジョギング,jogging,0,0,0,0
+えび,lobster,0,0,0,0
+コンサート,concert,0,0,0,0
+ビーチ,beach,0,0,0,0
+出来上がる,be completed,0,0,0,0
+カーブ,curve,0,0,0,0
+スタート,start,0,0,0,0
+どうやら,seems,0,0,0,0
+にわかに,rapidly,0,0,0,0
+昨日,yesterday,0,0,0,0
+ひとりでに,automatically,0,0,0,0
+本人,the person himself,0,0,0,0
+メロディー,melody,0,0,0,0
+ママ,mommy,0,0,0,0
+安っぽい,cheap,0,0,0,0
+気分,feeling,0,0,0,0
+開き,gap,0,0,0,0
+日の入り,sunset,0,0,0,0
+半年,half a year,0,0,0,0
+はれる,swell,0,0,0,0
+明ける,to dawn,0,0,0,0
+いつのまにか,before it is noticed,0,0,0,0
+夜,night,0,0,0,0
+七夕,Tanabata Festival,0,0,0,0
+外食,eating out,0,0,0,0
+おにぎり,rice ball,0,0,0,0
+よそ,somewhere else,0,0,0,0
+ちゃんと,regularly,0,0,0,0
+デザート,dessert,0,0,0,0
+とんかつ,pork cutlet,0,0,0,0
+飯,cooked rice,0,0,0,0
+コーナー,corner,0,0,0,0
+バーゲン,bargain sale,0,0,0,0
+たんす,chest of drawers,0,0,0,0
+天の川,Milky Way,0,0,0,0
+じろじろ,stare,0,0,0,0
+ようやく,at last,0,0,0,0
+前方,front,0,0,0,0
+見上げる,look up,0,0,0,0
+夜空,night sky,0,0,0,0
+花火,fireworks,0,0,0,0
+見本,sample,0,0,0,0
+三日月,new moon,0,0,0,0
+見晴らし,view,0,0,0,0
+よる,be caused by,0,0,0,0
+あっさり,plainly,0,0,0,0
+うるさい,noisy,0,0,0,0
+今ごろ,about this time,0,0,0,0
+シリーズ,series,0,0,0,0
+つながり,connection,0,0,0,0
+漢語,Chinese-character compounds,0,0,0,0
+後書き,postscript,0,0,0,0
+見覚え,recognition,0,0,0,0
+目覚まし,waking up,0,0,0,0
+話し合い,talk,0,0,0,0
+どうせ,anyway,0,0,0,0
+間に合わせる,make do,0,0,0,0
+週休,weekend,0,0,0,0
+満ちる,be filled,0,0,0,0
+満員,full to capacity,0,0,0,0
+満月,full moon,0,0,0,0
+一体,what on earth,0,0,0,0
+事,thing,0,0,0,0
+サボる,blow off,0,0,0,0
+とんでもない,unthinkable,0,0,0,0
+出場,participation,0,0,0,0
+コンクール,contest,0,0,0,0
+きょろきょろ,look around,0,0,0,0
+最中,in the middle of,0,0,0,0
+つながる,connect,0,0,0,0
+ガソリン,gasoline,0,0,0,0
+ハンドル,steering wheel,0,0,0,0
+バック,back,0,0,0,0
+ナンバー,number,0,0,0,0
+ひく,run over,0,0,0,0
+およそ,just about,0,0,0,0
+交ぜる,include,0,0,0,0
+おっしゃる,say,0,0,0,0
+客間,guest room,0,0,0,0
+見通し,perspective,0,0,0,0
+下水,sewerage,0,0,0,0
+通行,passage,0,0,0,0
+たまたま,by chance,0,0,0,0
+でこぼこ,unevenness,0,0,0,0
+東西,east and west,0,0,0,0
+地下道,underpass,0,0,0,0
+地下,underground,0,0,0,0
+行き止まり,dead end,0,0,0,0
+やがて,soon,0,0,0,0
+ふざける,mess around,0,0,0,0
+通行止め,road closed,0,0,0,0
+くたびれる,get tired,0,0,0,0
+くたくた,exhausted,0,0,0,0
+地上,above ground,0,0,0,0
+のろのろ,slowly,0,0,0,0
+二度と,never again,0,0,0,0
+もしかすると,possibly,0,0,0,0
+毎度,every time,0,0,0,0
+ハード,hard,0,0,0,0
+近道,shortcut,0,0,0,0
+手足,hands and feet,0,0,0,0
+上達,progress,0,0,0,0
+四方,all directions,0,0,0,0
+南北,north and south,0,0,0,0
+全力,all one's might,0,0,0,0
+アルファベット,alphabet,0,0,0,0
+出国,departure,0,0,0,0
+国土,country,0,0,0,0
+国語,national language,0,0,0,0
+国交,diplomatic relations,0,0,0,0
+通じる,pass,0,0,0,0
+交わる,cross,0,0,0,0
+世の中,the world,0,0,0,0
+最小,the smallest,0,0,0,0
+つなぐ,connect,0,0,0,0
+パンティー,panties,0,0,0,0
+黒字,the black,0,0,0,0
+赤字,deficit,0,0,0,0
+ゆでる,boil,0,0,0,0
+おまけ,free gift,0,0,0,0
+空き,vacancy,0,0,0,0
+ムード,mood,0,0,0,0
+ほこり,dust,0,0,0,0
+末,last part,0,0,0,0
+手間,trouble,0,0,0,0
+見解,opinion,0,0,0,0
+理解,understanding,0,0,0,0
+有りのまま,as it is,0,0,0,0
+有料,fee-charging,0,0,0,0
+無理,impossibility,0,0,0,0
+何より,above all,0,0,0,0
+無茶,reckless,0,0,0,0
+作り話,fable,0,0,0,0
+電力,electric power,0,0,0,0
+はかり,scales,0,0,0,0
+シューズ,shoes,0,0,0,0
+私用,private business,0,0,0,0
+用,things to do,0,0,0,0
+会費,fee,0,0,0,0
+食費,food expenses,0,0,0,0
+消費,consumption,0,0,0,0
+消火,fire fighting,0,0,0,0
+うっかり,carelessly,0,0,0,0
+開店,opening of a store,0,0,0,0
+安売り,sale,0,0,0,0
+閉店,shop closing,0,0,0,0
+本店,head office,0,0,0,0
+商店,shop,0,0,0,0
+食品,food,0,0,0,0
+上品,elegance,0,0,0,0
+小売店,retail store,0,0,0,0
+出来上がり,completion,0,0,0,0
+世,world,0,0,0,0
+段,step,0,0,0,0
+値上がり,price rise,0,0,0,0
+値下がり,fall in price,0,0,0,0
+値下げ,price reduction,0,0,0,0
+価値,value,0,0,0,0
+ダイヤモンド,diamond,0,0,0,0
+格好,shape,0,0,0,0
+だらしない,slovenly,0,0,0,0
+うきうき,feel excited,0,0,0,0
+うがい,gargling,0,0,0,0
+寒気,chill,0,0,0,0
+こたつ,kotatsu,0,0,0,0
+暖か,warm,0,0,0,0
+ぽかぽか,pleasantly warm,0,0,0,0
+マイナス,minus,0,0,0,0
+体温,body temperature,0,0,0,0
+ぴたりと,suddenly,0,0,0,0
+報道,news,0,0,0,0
+マネー,money,0,0,0,0
+広告,public notice,0,0,0,0
+売り出す,put on sale,0,0,0,0
+新聞社,newspaper office,0,0,0,0
+書店,bookstore,0,0,0,0
+広げる,spread,0,0,0,0
+ぴかぴか,new,0,0,0,0
+中古,secondhand goods,0,0,0,0
+聞かす,tell,0,0,0,0
+ディスコ,disco,0,0,0,0
+飲み水,drinking water,0,0,0,0
+内,inside,0,0,0,0
+用心,care,0,0,0,0
+ふと,suddenly,0,0,0,0
+つくづく,truly,0,0,0,0
+いつまでも,forever,0,0,0,0
+忘年会,year-end party,0,0,0,0
+上,superiors,0,0,0,0
+使い道,use,0,0,0,0
+決して,never,0,0,0,0
+決心,determination,0,0,0,0
+知り合う,get acquainted with,0,0,0,0
+知れる,become known,0,0,0,0
+知らせ,information,0,0,0,0
+ウサギ,rabbit,0,0,0,0
+ことわざ,proverb,0,0,0,0
+情けない,pitiful,0,0,0,0
+知能,intelligence,0,0,0,0
+能,noh play,0,0,0,0
+不足,insufficiency,0,0,0,0
+不可能,impossible,0,0,0,0
+交通,traffic,0,0,0,0
+小便,urine,0,0,0,0
+手前,in front,0,0,0,0
+駅前,in front of the station,0,0,0,0
+大家,landlord,0,0,0,0
+ねずみ,rat,0,0,0,0
+人名,personal name,0,0,0,0
+国名,country name,0,0,0,0
+間近,nearby,0,0,0,0
+地名,place name,0,0,0,0
+来日,coming to Japan,0,0,0,0
+カット,cut,0,0,0,0
+北東,northeast,0,0,0,0
+人情,human feelings,0,0,0,0
+区,ward,0,0,0,0
+住まい,dwelling,0,0,0,0
+合わせる,adjust,0,0,0,0
+日帰り,a day trip,0,0,0,0
+都,capital,0,0,0,0
+いらっしゃる,come,0,0,0,0
+目方,weight,0,0,0,0
+すっかり,all,0,0,0,0
+セット,set,0,0,0,0
+車内,inside a vehicle,0,0,0,0
+物価,prices,0,0,0,0
+無料,no charge,0,0,0,0
+本物,real thing,0,0,0,0
+ロッカー,locker,0,0,0,0
+名物,specialty,0,0,0,0
+日用品,groceries,0,0,0,0
+チキン,chicken,0,0,0,0
+重ねる,pile up,0,0,0,0
+ちぎれる,be torn off,0,0,0,0
+重量,weight,0,0,0,0
+大量,large quantity,0,0,0,0
+明日,tomorrow,0,0,0,0
+無用,useless,0,0,0,0
+最上,best,0,0,0,0
+取り決め,decision,0,0,0,0
+コード,cord,0,0,0,0
+お中元,mid-year gift,0,0,0,0
+プラットホーム,platform,0,0,0,0
+待ち合わせ,waiting,0,0,0,0
+長らく,for a long time,0,0,0,0
+秋風,autumn breeze,0,0,0,0
+友,friend,0,0,0,0
+持ち物,one's property,0,0,0,0
+長持ち,endurance,0,0,0,0
+打ち合わせ,meeting,0,0,0,0
+ワープロ,word processor,0,0,0,0
+受け持つ,have charge of,0,0,0,0
+長生き,long life,0,0,0,0
+性能,performance,0,0,0,0
+国産,domestically produced,0,0,0,0
+産地,production center,0,0,0,0
+活字,printed type,0,0,0,0
+ゆとり,room,0,0,0,0
+じっと,without moving,0,0,0,0
+徒歩,walking,0,0,0,0
+きっかけ,chance,0,0,0,0
+休学,leave of absence,0,0,0,0
+交わる,associate with,0,0,0,0
+行事,event,0,0,0,0
+帰す,send home,0,0,0,0
+いやいや,reluctantly,0,0,0,0
+門,gate,0,0,0,0
+キリスト教,Christianity,0,0,0,0
+やり方,way of doing,0,0,0,0
+手軽,easy,0,0,0,0
+他人,another person,0,0,0,0
+下町,old part of town,0,0,0,0
+低下,falling,0,0,0,0
+語学,language study,0,0,0,0
+初歩,first steps,0,0,0,0
+強まる,become strong,0,0,0,0
+強める,strengthen,0,0,0,0
+費やす,expend,0,0,0,0
+火力,heating power,0,0,0,0
+弱まる,weaken,0,0,0,0
+弱める,weaken,0,0,0,0
+字引,dictionary,0,0,0,0
+引き受ける,undertake,0,0,0,0
+引き出す,draw out,0,0,0,0
+値引き,discount,0,0,0,0
+引き止める,detain,0,0,0,0
+学習,study,0,0,0,0
+手本,model,0,0,0,0
+雨天,rainy weather,0,0,0,0
+入試,entrance examination,0,0,0,0
+受験,take an examination,0,0,0,0
+聞き取り,listening comprehension,0,0,0,0
+質,quality,0,0,0,0
+何か,something,0,0,0,0
+エイズ,AIDS,0,0,0,0
+きちんと,properly,0,0,0,0
+話題,topic of conversation,0,0,0,0
+解く,solve,0,0,0,0
+多少,a little,0,0,0,0
+単語,word,0,0,0,0
+ルール,rule,0,0,0,0
+すらすら,unhesitantly,0,0,0,0
+解ける,solve,0,0,0,0
+明かり,light,0,0,0,0
+カンニング,cheating,0,0,0,0
+満点,full marks,0,0,0,0
+点,point,0,0,0,0
+バツ,cross,0,0,0,0
+商人,merchant,0,0,0,0
+複数,plural,0,0,0,0
+単数,singular,0,0,0,0
+後回し,deferment,0,0,0,0
+点数,points,0,0,0,0
+回り道,roundabout way,0,0,0,0
+個々,individually,0,0,0,0
+ケース,case,0,0,0,0
+食パン,bread,0,0,0,0
+枚数,number of flat things,0,0,0,0
+トースト,toast,0,0,0,0
+勝手,selfish,0,0,0,0
+負け,defeat,0,0,0,0
+引き分け,draw,0,0,0,0
+負担,burden,0,0,0,0
+まさか,never in a million years,0,0,0,0
+日当たり,exposure to the sun,0,0,0,0
+のろい,slow,0,0,0,0
+文法,grammar,0,0,0,0
+不規則,irregular,0,0,0,0
+プラス,plus,0,0,0,0
+年月,time,0,0,0,0
+済ませる,finish off,0,0,0,0
+大国,world power,0,0,0,0
+送金,money transfer,0,0,0,0
+もうける,make a profit,0,0,0,0
+待ち遠しい,just can't wait for,0,0,0,0
+一時,temporarily,0,0,0,0
+金利,interest,0,0,0,0
+法則,law,0,0,0,0
+利益,profit,0,0,0,0
+有益,beneficial,0,0,0,0
+品質,quality,0,0,0,0
+家屋,house,0,0,0,0
+少なくとも,at least,0,0,0,0
+あらかじめ,in advance,0,0,0,0
+見当,estimate,0,0,0,0
+入れ物,receptacle,0,0,0,0
+要点,main point,0,0,0,0
+慣れ,getting used to,0,0,0,0
+値,value,0,0,0,0
+品,article,0,0,0,0
+会計,account,0,0,0,0
+計る,compute,0,0,0,0
+合計,sum total,0,0,0,0
+差,difference,0,0,0,0
+時差,time difference,0,0,0,0
+差し上げる,respectfully give,0,0,0,0
+一昨日,the day before yesterday,0,0,0,0
+まぶしい,dazzling,0,0,0,0
+日差し,rays of the sun,0,0,0,0
+物差し,ruler,0,0,0,0
+学割,student discount,0,0,0,0
+役割,role,0,0,0,0
+割り当て,assignment,0,0,0,0
+割り当てる,assign,0,0,0,0
+割り引き,discount,0,0,0,0
+割合に,relatively,0,0,0,0
+残り,remainder,0,0,0,0
+もったいない,wasteful,0,0,0,0
+支出,expenditure,0,0,0,0
+収支,earnings and expenses,0,0,0,0
+支度,arrangement,0,0,0,0
+支払う,pay,0,0,0,0
+支払い,payment,0,0,0,0
+料金,charge,0,0,0,0
+めいめい,each,0,0,0,0
+払い,payment,0,0,0,0
+不良,bad,0,0,0,0
+引き返す,turn back,0,0,0,0
+借り,borrowing,0,0,0,0
+利子,interest,0,0,0,0
+貸し出し,lending service,0,0,0,0
+申請,application,0,0,0,0
+月末,end of the month,0,0,0,0
+ぎゅうぎゅう,packed,0,0,0,0
+年末,end of year,0,0,0,0
+申し込み,application,0,0,0,0
+割り込む,cut in,0,0,0,0
+人込み,crowd,0,0,0,0
+前期,previous term,0,0,0,0
+短期,short-term,0,0,0,0
+期限,time limit,0,0,0,0
+限度,limit,0,0,0,0
+大急ぎ,in a great hurry,0,0,0,0
+区切る,punctuate,0,0,0,0
+生き物,living creature,0,0,0,0
+作物,crop,0,0,0,0
+食物,food,0,0,0,0
+一人一人,each and every person,0,0,0,0
+ぱいなっぷる,pineapple,0,0,0,0
+券,voucher,0,0,0,0
+回数券,book of tickets,0,0,0,0
+当日,that day,0,0,0,0
+前売り券,advance ticket,0,0,0,0
+計,total,0,0,0,0
+期日,date,0,0,0,0
+値上げ,price hike,0,0,0,0
+代金,charge,0,0,0,0
+指す,point to,0,0,0,0
+小指,little finger,0,0,0,0
+目指す,aim for,0,0,0,0
+氏,Mr.,0,0,0,0
+定価,fixed price,0,0,0,0
+割り引く,give a discount,0,0,0,0
+定休日,regular holiday,0,0,0,0
+外出,outing,0,0,0,0
+打ち合わせる,arrange,0,0,0,0
+予算,budget,0,0,0,0
+予報,forecast,0,0,0,0
+キャンセル,cancellation,0,0,0,0
+取り消す,cancel,0,0,0,0
+せめて,at least,0,0,0,0
+束,bundle,0,0,0,0
+図る,strive for,0,0,0,0
+変更,alteration,0,0,0,0
+夜更かし,sitting up late at night,0,0,0,0
+急増,sudden increase,0,0,0,0
+増す,increase,0,0,0,0
+増大,increase,0,0,0,0
+年々,year by year,0,0,0,0
+減少,decrease,0,0,0,0
+回数,frequency,0,0,0,0
+増減,increase and decrease,0,0,0,0
+量,quantity,0,0,0,0
+乗車券,railway ticket,0,0,0,0
+乗り込む,board,0,0,0,0
+ラッシュ,rush,0,0,0,0
+各地,every place,0,0,0,0
+大雨,heavy rain,0,0,0,0
+今にも,at any moment,0,0,0,0
+雨降り,rainfall,0,0,0,0
+定員,fixed staff number,0,0,0,0
+乗り降り,getting on and off,0,0,0,0
+前後,before and after,0,0,0,0
+無事,safely,0,0,0,0
+ほっと,feel relieved,0,0,0,0
+年収,annual income,0,0,0,0
+アンテナ,antenna,0,0,0,0
+かえって,on the contrary,0,0,0,0
+私立,private,0,0,0,0
+役立つ,be of use,0,0,0,0
+中立,neutrality,0,0,0,0
+立ち止まる,stop,0,0,0,0
+ろうそく,candle,0,0,0,0
+ストップ,stop,0,0,0,0
+指定,designation,0,0,0,0
+客席,seat,0,0,0,0
+着席,taking a seat,0,0,0,0
+向かい,opposite side,0,0,0,0
+欠点,weak point,0,0,0,0
+欠ける,be chipped,0,0,0,0
+冬季,winter season,0,0,0,0
+取り次ぐ,relay a message,0,0,0,0
+運営,operation,0,0,0,0
+運賃,passenger fare,0,0,0,0
+乗車,boarding,0,0,0,0
+ボーイ,waiter,0,0,0,0
+よそ見,look around,0,0,0,0
+春夏秋冬,four seasons,0,0,0,0
+移動,movement,0,0,0,0
+青年,youth,0,0,0,0
+開会,opening,0,0,0,0
+運動場,playground,0,0,0,0
+運動場,playground,0,0,0,0
+動向,trend,0,0,0,0
+中止,suspension,0,0,0,0
+動力,power,0,0,0,0
+本能,instinct,0,0,0,0
+理性,reason,0,0,0,0
+まねる,imitate,0,0,0,0
+業界,industry,0,0,0,0
+上がる,be completed,0,0,0,0
+覚え,recollection,0,0,0,0
+早まる,make a hasty decision,0,0,0,0
+月日,time,0,0,0,0
+出来るだけ,as much as possible,0,0,0,0
+高速,high speed,0,0,0,0
+重なる,be piled up,0,0,0,0
+速達便,special delivery,0,0,0,0
+残業,overtime,0,0,0,0
+ぐずぐず,drag one's feet,0,0,0,0
+勝負,match,0,0,0,0
+学期,school term,0,0,0,0
+空き地,unoccupied ground,0,0,0,0
+ぎりぎり,just in time,0,0,0,0
+大通り,main street,0,0,0,0
+明け方,dawn,0,0,0,0
+生理,period,0,0,0,0
+新学期,new term,0,0,0,0
+文明,civilization,0,0,0,0
+最終,last,0,0,0,0
+終点,last stop,0,0,0,0
+始終,from beginning to end,0,0,0,0
+終電,last train,0,0,0,0
+会,meeting,0,0,0,0
+なるべく,as...as possible,0,0,0,0
+役目,duty,0,0,0,0
+現地,actual site,0,0,0,0
+現場,actual spot,0,0,0,0
+現住所,present address,0,0,0,0
+とにかく,in any case,0,0,0,0
+実習,practice,0,0,0,0
+受け止める,catch,0,0,0,0
+生,life,0,0,0,0
+のんびり,take it easy,0,0,0,0
+データ,data,0,0,0,0
+いよいよ,finally,0,0,0,0
+先に,before,0,0,0,0
+始発,first departure,0,0,0,0
+遅らす,delay,0,0,0,0
+発売,sale,0,0,0,0
+鉄道,railway,0,0,0,0
+発電所,power plant,0,0,0,0
+重大,important,0,0,0,0
+言い表わす,express,0,0,0,0
+県,prefecture,0,0,0,0
+下さる,give,0,0,0,0
+用紙,blank form,0,0,0,0
+表紙,cover,0,0,0,0
+白紙,blank sheet,0,0,0,0
+値する,be worth,0,0,0,0
+絵本,picture book,0,0,0,0
+値打ち,value,0,0,0,0
+発行,publication,0,0,0,0
+スピーカー,speaker,0,0,0,0
+音読み,Chinese-derived kanji reading,0,0,0,0
+発音,pronunciation,0,0,0,0
+物音,noise,0,0,0,0
+やかましい,noisy,0,0,0,0
+ヨット,sailboat,0,0,0,0
+よほど,very,0,0,0,0
+無制限,unlimited,0,0,0,0
+月見,moon viewing,0,0,0,0
+わくわく,feel excited,0,0,0,0
+ごくんと,in one gulp,0,0,0,0
+薬局,drugstore,0,0,0,0
+カラオケ,karaoke,0,0,0,0
+思い切り,to one's heart's content,0,0,0,0
+食欲,appetite,0,0,0,0
+欲,desire,0,0,0,0
+区画,division,0,0,0,0
+ウィークエンド,weekend,0,0,0,0
+当初,original,0,0,0,0
+大体,outline,0,0,0,0
+画面,screen,0,0,0,0
+映る,be reflected,0,0,0,0
+表面,surface,0,0,0,0
+場面,scene,0,0,0,0
+出来事,occurrence,0,0,0,0
+面する,face,0,0,0,0
+半面,profile,0,0,0,0
+割に,comparatively,0,0,0,0
+ばかばかしい,stupid,0,0,0,0
+日時,date,0,0,0,0
+出力,output,0,0,0,0
+真実,truth,0,0,0,0
+真夏,midsummer,0,0,0,0
+真っ最中,midst,0,0,0,0
+無色,colorless,0,0,0,0
+長方形,rectangle,0,0,0,0
+地形,geographical features,0,0,0,0
+小型,small-sized,0,0,0,0
+型,type,0,0,0,0
+人種,race,0,0,0,0
+種,seed,0,0,0,0
+人類,mankind,0,0,0,0
+早速,immediately,0,0,0,0
+市役所,municipal office,0,0,0,0
+書類,documents,0,0,0,0
+区役所,ward office,0,0,0,0
+分類,classification,0,0,0,0
+郵送,mailing,0,0,0,0
+定食,day's special,0,0,0,0
+とじる,bind,0,0,0,0
+ともかく,at least,0,0,0,0
+やり直し,doing over,0,0,0,0
+やり直す,do over again,0,0,0,0
+直通,direct link,0,0,0,0
+接近,approach,0,0,0,0
+接する,come in contact,0,0,0,0
+面接,interview,0,0,0,0
+無線,radio,0,0,0,0
+角度,angle,0,0,0,0
+南東,southeast,0,0,0,0
+町角,street corner,0,0,0,0
+テンポ,tempo,0,0,0,0
+直角,right angle,0,0,0,0
+題,title,0,0,0,0
+熱する,heat,0,0,0,0
+共通語,common language,0,0,0,0
+共に,together,0,0,0,0
+夜明け,dawn,0,0,0,0
+共同,joint,0,0,0,0
+合同,combination,0,0,0,0
+同一,sameness,0,0,0,0
+同情,sympathy,0,0,0,0
+アクセント,accent,0,0,0,0
+これまで,until now,0,0,0,0
+それぞれ,each,0,0,0,0
+タイプ,type,0,0,0,0
+人違い,mistaken identity,0,0,0,0
+違い,difference,0,0,0,0
+日日,date,0,0,0,0
+以降,hereafter,0,0,0,0
+税,tax,0,0,0,0
+セールスマン,sales representative,0,0,0,0
+リットル,liter,0,0,0,0
+ガイド,guide,0,0,0,0
+ゴールデンウィーク,golden week,0,0,0,0
+費用,expenses,0,0,0,0
+始め,beginning,0,0,0,0
+旅客,traveler,0,0,0,0
+海苔,laver,0,0,0,0
+終える,end,0,0,0,0
+大いに,very,0,0,0,0
+気軽,lighthearted,0,0,0,0
+済ます,settle,0,0,0,0
+生き生きと,lively,0,0,0,0
+交ざる,mix,0,0,0,0
+和風,Japanese style,0,0,0,0
+和食,Japanese-style food,0,0,0,0
+和らぐ,soften,0,0,0,0
+和式,Japanese style,0,0,0,0
+洋風,Western style,0,0,0,0
+洋画,foreign film,0,0,0,0
+洋食,Western cooking,0,0,0,0
+制服,uniform,0,0,0,0
+上下,top and bottom,0,0,0,0
+やや,little,0,0,0,0
+ぴったり,exactly right,0,0,0,0
+びしょびしょ,soaked,0,0,0,0
+だぶだぶ,baggy,0,0,0,0
+室内,indoors,0,0,0,0
+待合室,waiting room,0,0,0,0
+洋室,Western-style room,0,0,0,0
+水田,paddy field,0,0,0,0
+ひび,crack,0,0,0,0
+済む,be settled,0,0,0,0
+情熱,passion,0,0,0,0
+いびき,snoring,0,0,0,0
+大工,carpenter,0,0,0,0
+旅費,traveling expenses,0,0,0,0
+よこす,send,0,0,0,0
+味わう,taste,0,0,0,0
+家事,housework,0,0,0,0
+便り,news,0,0,0,0
+電報,telegram,0,0,0,0
+長話,long conversation,0,0,0,0
+味方,friend,0,0,0,0
+親切,kindness,0,0,0,0
+下宿,lodging,0,0,0,0
+キリスト,Christ,0,0,0,0
+似る,resemble,0,0,0,0
+そっくり,identical,0,0,0,0
+水族館,aquarium,0,0,0,0
+歳末,year end,0,0,0,0
+パパ,dad,0,0,0,0
+好み,taste,0,0,0,0
+在学,attendance at school,0,0,0,0
+スタンド,table lamp,0,0,0,0
+旅,journey,0,0,0,0
+姉妹,sisters,0,0,0,0
+父兄,parents,0,0,0,0
+口げんか,quarrel,0,0,0,0
+第一,number one,0,0,0,0
+市立,municipal,0,0,0,0
+まね,imitation,0,0,0,0
+休息,rest,0,0,0,0
+読み書き,reading and writing,0,0,0,0
+目下,now,0,0,0,0
+左利き,left-handedness,0,0,0,0
+エネルギー,energy,0,0,0,0
+同時,simultaneous,0,0,0,0
+次々に,one after another,0,0,0,0
+体力,physical strength,0,0,0,0
+歩行者天国,vehicle-free promenade,0,0,0,0
+者,person,0,0,0,0
+活用,utilization,0,0,0,0
+行動,action,0,0,0,0
+営業,business,0,0,0,0
+以前,before,0,0,0,0
+人物,character,0,0,0,0
+人事,human affairs,0,0,0,0
+会員,member,0,0,0,0
+世代,generation,0,0,0,0
+制限,restriction,0,0,0,0
+いつも,always,0,0,0,0
+移転,transfer,0,0,0,0
+学者,scholar,0,0,0,0
+以来,since,0,0,0,0
+作家,writer,0,0,0,0
+元気,vigor,0,0,0,0
+試みる,try,0,0,0,0
+生まれ,birth,0,0,0,0
+クラス,class,0,0,0,0
+いかに,how,0,0,0,0
+ショック,shock,0,0,0,0
+ジャーナリスト,journalist,0,0,0,0
+スタイル,style,0,0,0,0
+個性,individuality,0,0,0,0
+局,bureau,0,0,0,0
+教員,teacher,0,0,0,0
+生み出す,generate,0,0,0,0
+アイデア,idea,0,0,0,0
+いかにも,indeed,0,0,0,0
+一見,at a glance,0,0,0,0
+しっかり,mature,0,0,0,0
+新人,newcomer,0,0,0,0
+求人,recruiting,0,0,0,0
+出産,birth,0,0,0,0
+スター,star,0,0,0,0
+アルコール,alcohol,0,0,0,0
+学年,school year,0,0,0,0
+弱点,weak point,0,0,0,0
+工学,engineering,0,0,0,0
+仕上げる,finish,0,0,0,0
+ステージ,stage,0,0,0,0
+アドバイス,advice,0,0,0,0
+親友,close friend,0,0,0,0
+アマチュア,amateur,0,0,0,0
+生かす,take advantage of,0,0,0,0
+きつい,severe,0,0,0,0
+打ち込む,devote oneself,0,0,0,0
+後方,back,0,0,0,0
+英文,English,0,0,0,0
+さっぱり,completely,0,0,0,0
+元来,originally,0,0,0,0
+出世,success,0,0,0,0
+こっそり,stealthily,0,0,0,0
+社会人,member of society,0,0,0,0
+思いがけない,unexpected,0,0,0,0
+せっせと,hard,0,0,0,0
+気力,energy,0,0,0,0
+いちいち,one by one,0,0,0,0
+運,fortune,0,0,0,0
+利く,work,0,0,0,0
+県立,prefectural,0,0,0,0
+オーバー,exaggerate,0,0,0,0
+真理,truth,0,0,0,0
+クラシック,classical music,0,0,0,0
+大げさ,exaggerate,0,0,0,0
+学部,faculty,0,0,0,0
+家出,running away from home,0,0,0,0
+生け花,flower arrangement,0,0,0,0
+かかる,catch,0,0,0,0
+ジーパン,jeans,0,0,0,0
+担ぐ,shoulder,0,0,0,0
+コマーシャル,commercial,0,0,0,0
+最強,strongest,0,0,0,0
+アイドル,idol,0,0,0,0
+からかう,make fun of,0,0,0,0
+貸し,loan,0,0,0,0
+末っ子,youngest child,0,0,0,0
+駅長,stationmaster,0,0,0,0
+おごる,treat,0,0,0,0
+ショッピング,shopping,0,0,0,0
+スマート,sophisticated,0,0,0,0
+聞き手,listener,0,0,0,0
+サングラス,sunglasses,0,0,0,0
+きっちり,exactly,0,0,0,0
+言い返す,talk back,0,0,0,0
+いやらしい,disgusting,0,0,0,0
+あぐら,sit cross legged,0,0,0,0
+きっちん,kitchen,0,0,0,0
+けち,stingy,0,0,0,0
+女らしい,womanly,0,0,0,0
+急用,urgent business,0,0,0,0
+いらいら,be irritated,0,0,0,0
+あいづち,responsive sounds,0,0,0,0
+現れ,embodiment,0,0,0,0
+打ち消し,negation,0,0,0,0
+あだな,nickname,0,0,0,0
+行き来,comings and goings,0,0,0,0
+いつのまに,when,0,0,0,0
+上下,above and below,0,0,0,0
+うつむく,face downward,0,0,0,0
+おだてる,flatter,0,0,0,0
+がぶがぶ,guzzling,0,0,0,0
+借金,borrowing money,0,0,0,0
+ただ,simply,0,0,0,0
+入力,input,0,0,0,0
+母親,mother,0,0,0,0
+発つ,start,0,0,0,0
+様子,appearance,0,0,0,0
+友人,friend,0,0,0,0
+父親,father,0,0,0,0
+不満,dissatisfaction,0,0,0,0
+チーム,team,0,0,0,0
+ビジネス,business,0,0,0,0
+直前,just before,0,0,0,0
+知事,governor,0,0,0,0
+まるで,just like,0,0,0,0
+年代,age,0,0,0,0
+都心,heart of a city,0,0,0,0
+熱心,enthusiasm,0,0,0,0
+ファン,fan,0,0,0,0
+大使,ambassador,0,0,0,0
+長年,many years,0,0,0,0
+見直す,reconsider,0,0,0,0
+都会,city,0,0,0,0
+半ば,middle,0,0,0,0
+買収,buying up,0,0,0,0
+プロ,pro,0,0,0,0
+入社,entering a company,0,0,0,0
+取り入れる,take in,0,0,0,0
+外す,remove,0,0,0,0
+立ち上がる,stand up,0,0,0,0
+中世,Middle Ages,0,0,0,0
+見事,splendid,0,0,0,0
+なかなか,rather,0,0,0,0
+日ごろ,routinely,0,0,0,0
+パイロット,pilot,0,0,0,0
+出入り,coming and going,0,0,0,0
+ベテラン,veteran,0,0,0,0
+不利,disadvantage,0,0,0,0
+本質,essence,0,0,0,0
+ペース,pace,0,0,0,0
+マラソン,marathon,0,0,0,0
+本国,one's native country,0,0,0,0
+トレーニング,training,0,0,0,0
+方言,dialect,0,0,0,0
+当分,for some time,0,0,0,0
+プラン,plan,0,0,0,0
+マイク,mic,0,0,0,0
+引き取る,take over,0,0,0,0
+ぼんやり,vaguely,0,0,0,0
+東洋,Orient,0,0,0,0
+交じる,be mingled,0,0,0,0
+試す,try,0,0,0,0
+方角,direction,0,0,0,0
+法学部,law department,0,0,0,0
+ゆったり,comfortable,0,0,0,0
+見出し,headline,0,0,0,0
+ユーモア,humor,0,0,0,0
+無口,not speaking much,0,0,0,0
+タレント,celebrity,0,0,0,0
+たまに,occasionally,0,0,0,0
+和服,Japanese clothes,0,0,0,0
+内心,back of one's mind,0,0,0,0
+有能,able,0,0,0,0
+体格,physique,0,0,0,0
+わざと,on purpose,0,0,0,0
+とっくに,long ago,0,0,0,0
+ワンピース,dress,0,0,0,0
+作り上げる,make up,0,0,0,0
+度々,often,0,0,0,0
+プライド,pride,0,0,0,0
+一口,mouthful,0,0,0,0
+まずい,bad,0,0,0,0
+短所,shortcoming,0,0,0,0
+飲み込む,swallow,0,0,0,0
+生やす,grow,0,0,0,0
+文学者,literary person,0,0,0,0
+弱気,timid,0,0,0,0
+ぱっと,suddenly,0,0,0,0
+必然,inevitable,0,0,0,0
+ひょっとしたら,perhaps,0,0,0,0
+見つめる,stare,0,0,0,0
+目上,one's superiors,0,0,0,0
+年長,seniority,0,0,0,0
+見習う,learn,0,0,0,0
+無能,inefficiency,0,0,0,0
+パンツ,pants,0,0,0,0
+真夜中,midnight,0,0,0,0
+似合う,suit,0,0,0,0
+洋式,Western style,0,0,0,0
+若々しい,youthful,0,0,0,0
+短気,short temper,0,0,0,0
+取り返す,take back,0,0,0,0
+和やか,peaceful,0,0,0,0
+似せる,imitate,0,0,0,0
+にっこり,smiling,0,0,0,0
+待ち合わせる,wait for,0,0,0,0
+何で,why,0,0,0,0
+値切る,bargain,0,0,0,0
+元々,originally,0,0,0,0
+指差す,point to,0,0,0,0
+とっさに,at once,0,0,0,0
+割り,rate,0,0,0,0
+売買,buying and selling,0,0,0,0
+町外れ,outskirts of a town,0,0,0,0
+洋間,Western-style room,0,0,0,0
+ミュージック,music,0,0,0,0
+ロマンチック,romantic,0,0,0,0
+短期大学,junior college,0,0,0,0
+月初め,at the beginning of the month,0,0,0,0
+度忘れ,memory lapse,0,0,0,0
+にやにや,grin to oneself,0,0,0,0
+真四角,square,0,0,0,0
+物覚え,memory,0,0,0,0
+その内,before long,0,0,0,0
+知人,acquaintance,0,0,0,0
+つぶやく,mutter,0,0,0,0
+強気,tough,0,0,0,0
+出会う,meet,0,0,0,0
+低,low,0,0,0,0
+何しろ,anyhow,0,0,0,0
+生,raw,0,0,0,0
+にらむ,glare,0,0,0,0
+能,ability,0,0,0,0
+のんき,carefree,0,0,0,0
+はねる,run over,0,0,0,0
+ばら色,rose color,0,0,0,0
+ふもと,foot of the mountain,0,0,0,0
+ほほ,cheek,0,0,0,0
+ほほえむ,smile,0,0,0,0
+真心,sincerity,0,0,0,0
+町中,the downtown area,0,0,0,0
+まれ,rarely,0,0,0,0
+無言,silence,0,0,0,0
+めくる,turn over,0,0,0,0
+もうかる,make a profit,0,0,0,0
+最も,the most,0,0,0,0
+行方,one's whereabouts,0,0,0,0
+予言,prediction,0,0,0,0
+悪口,slander,0,0,0,0
+もうじき,soon,0,0,0,0
+やたらに,frequently,0,0,0,0
+結局,after all,0,0,0,0
+友情,friendship,0,0,0,0
+結び,end,0,0,0,0
+婚約,engagement,0,0,0,0
+何と,what,0,0,0,0
+ちっとも,nothing at all,0,0,0,0
+未婚,unmarried,0,0,0,0
+この度,on this occasion,0,0,0,0
+一種,a kind of,0,0,0,0
+最高,maximum,0,0,0,0
+試合,match,0,0,0,0
+満足,satisfaction,0,0,0,0
+果たして,as was expected,0,0,0,0
+申し上げる,speak humbly,0,0,0,0
+早朝,early morning,0,0,0,0
+効く,be effective,0,0,0,0
+効力,effect,0,0,0,0
+無効,invalidity,0,0,0,0
+自動,automatic operation,0,0,0,0
+自国,one's own country,0,0,0,0
+生き方,way of life,0,0,0,0
+各自,each one,0,0,0,0
+高める,raise,0,0,0,0
+パンク,puncture,0,0,0,0
+経由,via,0,0,0,0
+信用,trust,0,0,0,0
+お前,you,0,0,0,0
+発達,development,0,0,0,0
+通信,correspondence,0,0,0,0
+信頼,reliance,0,0,0,0
+依頼,request,0,0,0,0
+頼る,rely on,0,0,0,0
+頼み,request,0,0,0,0
+頼もしい,reliable,0,0,0,0
+国民,the people,0,0,0,0
+主要,main,0,0,0,0
+主に,mainly,0,0,0,0
+主食,staple food,0,0,0,0
+主,main,0,0,0,0
+使い,errand,0,0,0,0
+家主,landlord,0,0,0,0
+主義,principle,0,0,0,0
+共産主義,Communism,0,0,0,0
+義理,sense of duty,0,0,0,0
+民主,democracy,0,0,0,0
+議会,assembly,0,0,0,0
+議題,topic for discussion,0,0,0,0
+初日,first day,0,0,0,0
+次回,next time,0,0,0,0
+重役,executive,0,0,0,0
+本社,head office,0,0,0,0
+不思議,mystery,0,0,0,0
+つい,inadvertently,0,0,0,0
+明日,tomorrow,0,0,0,0
+長引く,be prolonged,0,0,0,0
+明朝,tomorrow morning,0,0,0,0
+議論,argument,0,0,0,0
+結論,conclusion,0,0,0,0
+学会,academic association,0,0,0,0
+仕上げ,completion,0,0,0,0
+引用,quotation,0,0,0,0
+下書き,draft,0,0,0,0
+世論,public opinion,0,0,0,0
+理論,theory,0,0,0,0
+まとめ,summary,0,0,0,0
+違反,violation,0,0,0,0
+反発,reaction,0,0,0,0
+反論,objection,0,0,0,0
+反する,oppose,0,0,0,0
+少数,small number,0,0,0,0
+対話,dialogue,0,0,0,0
+対,pair,0,0,0,0
+世論,public opinion,0,0,0,0
+応用,application,0,0,0,0
+一応,tentatively,0,0,0,0
+回答,reply,0,0,0,0
+インタビュー,interview,0,0,0,0
+アンケート,questionnaire,0,0,0,0
+ごまかす,deceive,0,0,0,0
+行,line,0,0,0,0
+本文,text,0,0,0,0
+問い,question,0,0,0,0
+まずい,problematic,0,0,0,0
+特色,characteristic,0,0,0,0
+区別,distinction,0,0,0,0
+差別,discrimination,0,0,0,0
+性別,sex,0,0,0,0
+性,sex,0,0,0,0
+別に,especially,0,0,0,0
+送別会,farewell party,0,0,0,0
+専門,specialty,0,0,0,0
+ファッション,fashion,0,0,0,0
+外来語,loanword,0,0,0,0
+実用,practical use,0,0,0,0
+経済的,economical,0,0,0,0
+才能,talent,0,0,0,0
+自主的,autonomous,0,0,0,0
+合理的,rational,0,0,0,0
+形式的,formal,0,0,0,0
+実用的,practical,0,0,0,0
+本格的,full-scale,0,0,0,0
+全面的,all-out,0,0,0,0
+論理的,logical,0,0,0,0
+知的,intellectual,0,0,0,0
+目的地,destination,0,0,0,0
+文化的,cultural,0,0,0,0
+通り過ぎる,go past,0,0,0,0
+男性的,masculine,0,0,0,0
+普段,usual,0,0,0,0
+なさる,do,0,0,0,0
+並み,ordinary,0,0,0,0
+男子,boy,0,0,0,0
+もたらす,bring about,0,0,0,0
+平面,level surface,0,0,0,0
+平行,parallel,0,0,0,0
+平野,plain,0,0,0,0
+平日,weekday,0,0,0,0
+以下,below,0,0,0,0
+平均,average,0,0,0,0
+高等,higher,0,0,0,0
+上等,first-class,0,0,0,0
+同等,equality,0,0,0,0
+対等,equality,0,0,0,0
+ストレス,stress,0,0,0,0
+特有,characteristic,0,0,0,0
+病室,patient room,0,0,0,0
+病人,sick person,0,0,0,0
+弱る,weaken,0,0,0,0
+サイン,signature,0,0,0,0
+イスラム教,Islam,0,0,0,0
+都立,metropolitan,0,0,0,0
+医学,medical science,0,0,0,0
+生える,grow,0,0,0,0
+科学者,scientist,0,0,0,0
+科目,subject,0,0,0,0
+自然科学,natural science,0,0,0,0
+思い,thoughts,0,0,0,0
+死者,dead person,0,0,0,0
+生死,life and death,0,0,0,0
+病死,death from sickness,0,0,0,0
+天国,paradise,0,0,0,0
+死亡,death,0,0,0,0
+亡くす,lose,0,0,0,0
+人手,hand,0,0,0,0
+多忙,very busy,0,0,0,0
+知らず知らず,unawares,0,0,0,0
+疲れ,fatigue,0,0,0,0
+休める,give a rest,0,0,0,0
+目薬,eye drops,0,0,0,0
+禁じる,prohibit,0,0,0,0
+立ち入り禁止,no trespassing,0,0,0,0
+酒屋,liquor store,0,0,0,0
+禁酒,abstention from alcohol,0,0,0,0
+つぐ,pour,0,0,0,0
+土産,souvenir,0,0,0,0
+酔う,get drunk,0,0,0,0
+会場,venue,0,0,0,0
+取り上げる,take up,0,0,0,0
+険しい,steep,0,0,0,0
+保つ,preserve,0,0,0,0
+万一,if by any chance,0,0,0,0
+問い合わせる,inquire,0,0,0,0
+保証,guarantee,0,0,0,0
+保証人,guarantor,0,0,0,0
+生存,existence,0,0,0,0
+ご存じ,know,0,0,0,0
+保存,preservation,0,0,0,0
+低温,low temperature,0,0,0,0
+存じる,think,0,0,0,0
+カタログ,catalogue,0,0,0,0
+注ぐ,pour into,0,0,0,0
+受け入れる,accept,0,0,0,0
+意向,intention,0,0,0,0
+意図,intention,0,0,0,0
+意義,meaning,0,0,0,0
+活発,lively,0,0,0,0
+好意,favor,0,0,0,0
+意地悪,nastiness,0,0,0,0
+もっとも,quite right,0,0,0,0
+まとまる,be collected,0,0,0,0
+同意,consent,0,0,0,0
+無意味,meaningless,0,0,0,0
+当人,the person in question,0,0,0,0
+生意気,cheeky,0,0,0,0
+面,surface,0,0,0,0
+文,writings,0,0,0,0
+金額,amount of money,0,0,0,0
+確定,decision,0,0,0,0
+解答,solution,0,0,0,0
+認可,approval,0,0,0,0
+認める,recognize,0,0,0,0
+効率,efficiency,0,0,0,0
+確率,probability,0,0,0,0
+軽率,rash,0,0,0,0
+率直,frank,0,0,0,0
+能率,efficiency,0,0,0,0
+機会,opportunity,0,0,0,0
+親しむ,get close to,0,0,0,0
+時機,opportunity,0,0,0,0
+持ち込む,bring in,0,0,0,0
+要するに,in a word,0,0,0,0
+制御,control,0,0,0,0
+内部,interior,0,0,0,0
+分解,taking apart,0,0,0,0
+楽器,musical instrument,0,0,0,0
+食器,tableware,0,0,0,0
+器用,skillful,0,0,0,0
+受話器,receiver,0,0,0,0
+器,vessel,0,0,0,0
+器械,instrument,0,0,0,0
+取材,collection of data,0,0,0,0
+具合,condition,0,0,0,0
+家具,furniture,0,0,0,0
+雨具,rain gear,0,0,0,0
+乗客,passenger,0,0,0,0
+論理,logic,0,0,0,0
+準急,local express,0,0,0,0
+設立,establishment,0,0,0,0
+器具,utensil,0,0,0,0
+使用,usage,0,0,0,0
+社説,editorial,0,0,0,0
+実物,real thing,0,0,0,0
+学説,theory,0,0,0,0
+手元,at hand,0,0,0,0
+一通り,briefly,0,0,0,0
+公立,public,0,0,0,0
+モデル,model,0,0,0,0
+不公平,unfair,0,0,0,0
+やっつける,beat,0,0,0,0
+死体,corpse,0,0,0,0
+遠足,excursion,0,0,0,0
+遊園地,amusement park,0,0,0,0
+ベンチ,bench,0,0,0,0
+人出,turnout,0,0,0,0
+打ち上げる,shoot up,0,0,0,0
+祭日,national holiday,0,0,0,0
+国際的,international,0,0,0,0
+国際化,internationalization,0,0,0,0
+交際,association,0,0,0,0
+際,occasion,0,0,0,0
+座席,seat,0,0,0,0
+飛び出す,fly out,0,0,0,0
+ヘリコプター,helicopter,0,0,0,0
+飛ばす,fly,0,0,0,0
+飛び上がる,fly up,0,0,0,0
+つばめ,swallow,0,0,0,0
+はえ,fly,0,0,0,0
+飛行,flight,0,0,0,0
+よける,avoid,0,0,0,0
+ぴょんと,jump,0,0,0,0
+航空,aviation,0,0,0,0
+航空機,aircraft,0,0,0,0
+航空券,airline ticket,0,0,0,0
+材木,timber,0,0,0,0
+乗り出す,lean forward,0,0,0,0
+船長,captain,0,0,0,0
+水力,waterpower,0,0,0,0
+半島,peninsula,0,0,0,0
+島,island,0,0,0,0
+完全,perfect,0,0,0,0
+不完全,imperfection,0,0,0,0
+結成,organization,0,0,0,0
+賛成,approval,0,0,0,0
+成人,adult,0,0,0,0
+反映,reflection,0,0,0,0
+要する,require,0,0,0,0
+無論,of course,0,0,0,0
+未成年,minor,0,0,0,0
+確信,firm belief,0,0,0,0
+率,ratio,0,0,0,0
+違いない,no mistaking it,0,0,0,0
+森林,forest,0,0,0,0
+失敗,failure,0,0,0,0
+せい,cause,0,0,0,0
+勝敗,victory or defeat,0,0,0,0
+事業,business,0,0,0,0
+立ち直る,recover,0,0,0,0
+原則,principle,0,0,0,0
+過ごす,pass,0,0,0,0
+スライド,slide,0,0,0,0
+原理,principle,0,0,0,0
+原子力,atomic energy,0,0,0,0
+初夏,early summer,0,0,0,0
+返る,be restored to,0,0,0,0
+野原,field,0,0,0,0
+原,plain,0,0,0,0
+間接,indirect,0,0,0,0
+要因,primary factor,0,0,0,0
+不明,unknown,0,0,0,0
+証券,bill,0,0,0,0
+資料,materials,0,0,0,0
+資格,qualifications,0,0,0,0
+資本主義,capitalism,0,0,0,0
+ミスプリント,misprint,0,0,0,0
+限り,limit,0,0,0,0
+無限,infinite,0,0,0,0
+現金,cash,0,0,0,0
+一生,a lifetime,0,0,0,0
+願書,application form,0,0,0,0
+何とか,somehow or other,0,0,0,0
+願い,wish,0,0,0,0
+手数,trouble,0,0,0,0
+一言,single word,0,0,0,0
+説,theory,0,0,0,0
+後者,the latter,0,0,0,0
+正面,front,0,0,0,0
+正午,noon,0,0,0,0
+正義,justice,0,0,0,0
+正門,main gate,0,0,0,0
+正解,right answer,0,0,0,0
+正方形,square,0,0,0,0
+正座,sitting upright with legs folded under one,0,0,0,0
+正当,just,0,0,0,0
+不正,fraud,0,0,0,0
+同性,of the same sex,0,0,0,0
+異常,extraordinary,0,0,0,0
+日常,daily,0,0,0,0
+意識,consciousness,0,0,0,0
+常識,common sense,0,0,0,0
+異性,opposite sex,0,0,0,0
+等しい,equal,0,0,0,0
+非常識,lack of common sense,0,0,0,0
+非常口,emergency exit,0,0,0,0
+もてる,be popular with the opposite sex,0,0,0,0
+エンジン,engine,0,0,0,0
+好調,favorable condition,0,0,0,0
+下調べ,preliminary investigation,0,0,0,0
+ネットワーク,network,0,0,0,0
+どうも,for some reason,0,0,0,0
+調子,tone,0,0,0,0
+不安定,instability,0,0,0,0
+体調,health condition,0,0,0,0
+単調,monotonous,0,0,0,0
+メーター,meter,0,0,0,0
+整備,maintenance,0,0,0,0
+整理,disposition,0,0,0,0
+調整,regulation,0,0,0,0
+整う,be in order,0,0,0,0
+経費,expense,0,0,0,0
+節約,economizing,0,0,0,0
+行楽,excursion,0,0,0,0
+調節,adjustment,0,0,0,0
+田,rice field,0,0,0,0
+検査,inspection,0,0,0,0
+不安,uneasiness,0,0,0,0
+大便,stool,0,0,0,0
+提出,submittal,0,0,0,0
+案,plan,0,0,0,0
+案外,unexpectedly,0,0,0,0
+うなずく,nod,0,0,0,0
+反応,reaction,0,0,0,0
+投票,vote,0,0,0,0
+役所,public office,0,0,0,0
+目標,target,0,0,0,0
+標準,standard,0,0,0,0
+達成,attain,0,0,0,0
+明確,clear,0,0,0,0
+本年,this year,0,0,0,0
+国連,United Nations,0,0,0,0
+連休,consecutive holidays,0,0,0,0
+連れ,companion,0,0,0,0
+次第,as soon as,0,0,0,0
+連絡,connection,0,0,0,0
+方々,everyone,0,0,0,0
+前もって,in advance,0,0,0,0
+父母,father and mother,0,0,0,0
+接続,connection,0,0,0,0
+前回,last time,0,0,0,0
+更に,furthermore,0,0,0,0
+市,city,0,0,0,0
+地価,price of land,0,0,0,0
+手続き,procedure,0,0,0,0
+続々,in rapid succession,0,0,0,0
+続き,continuation,0,0,0,0
+長続き,lasting for a long time,0,0,0,0
+相変わらず,as usual,0,0,0,0
+相当,correspondence,0,0,0,0
+前半,first half,0,0,0,0
+思い切って,boldly,0,0,0,0
+部長,section chief,0,0,0,0
+日ソ,Japanese-Soviet,0,0,0,0
+記号,symbol,0,0,0,0
+記入,entry,0,0,0,0
+生年月日,date of birth,0,0,0,0
+暗記,memorization,0,0,0,0
+月日,date,0,0,0,0
+経る,pass,0,0,0,0
+必死に,desperately,0,0,0,0
+記憶,memory,0,0,0,0
+不確か,unreliable,0,0,0,0
+最低,lowest,0,0,0,0
+録音テープ,tape,0,0,0,0
+マスコミ,mass communication,0,0,0,0
+登山,climbing,0,0,0,0
+登校,attending school,0,0,0,0
+山登り,mountain climbing,0,0,0,0
+定める,fix,0,0,0,0
+社会科学,social sciences,0,0,0,0
+機関,engine,0,0,0,0
+一切,not at all,0,0,0,0
+係,person in charge,0,0,0,0
+現状,present condition,0,0,0,0
+ますます,increasingly,0,0,0,0
+実態,the actual situation,0,0,0,0
+態度,attitude,0,0,0,0
+非常,emergency,0,0,0,0
+不自然,unnatural,0,0,0,0
+行政,administration,0,0,0,0
+関心,concern,0,0,0,0
+政治家,politician,0,0,0,0
+主体,agent,0,0,0,0
+人民,the people,0,0,0,0
+体制,system,0,0,0,0
+無関心,apathy,0,0,0,0
+無知,ignorance,0,0,0,0
+外交,diplomacy,0,0,0,0
+府立,prefectural,0,0,0,0
+手段,means,0,0,0,0
+市長,mayor,0,0,0,0
+シーズン,season,0,0,0,0
+自主,independence,0,0,0,0
+種目,item,0,0,0,0
+ラグビー,rugby,0,0,0,0
+入場,entrance,0,0,0,0
+反則,foul,0,0,0,0
+入選,acceptance,0,0,0,0
+式,ceremony,0,0,0,0
+当選,election to office,0,0,0,0
+選択,selection,0,0,0,0
+気候,climate,0,0,0,0
+補う,supplement,0,0,0,0
+有力,powerful,0,0,0,0
+国家,state,0,0,0,0
+関節,joint,0,0,0,0
+使用人,servant,0,0,0,0
+足首,ankle,0,0,0,0
+手首,wrist,0,0,0,0
+ぶら下げる,hang,0,0,0,0
+首脳,head,0,0,0,0
+打ち明ける,confide in,0,0,0,0
+それほど,so much,0,0,0,0
+悩む,be troubled,0,0,0,0
+頭,head,0,0,0,0
+頭痛,headache,0,0,0,0
+先頭,forefront,0,0,0,0
+たまらない,can't stand,0,0,0,0
+自信,self-confidence,0,0,0,0
+顔色,complexion,0,0,0,0
+一同,everybody,0,0,0,0
+青白い,pale,0,0,0,0
+ずるがしこい,sly,0,0,0,0
+平気,nonchalant,0,0,0,0
+改正,revision,0,0,0,0
+改める,reform,0,0,0,0
+改めて,once again,0,0,0,0
+改まる,be renewed,0,0,0,0
+生命,life,0,0,0,0
+命,life,0,0,0,0
+領事館,consulate,0,0,0,0
+領収書,receipt,0,0,0,0
+仕組み,construction,0,0,0,0
+組,school class,0,0,0,0
+組む,pair up,0,0,0,0
+組み合わせる,assort,0,0,0,0
+組み込む,incorporate,0,0,0,0
+クイズ,quiz,0,0,0,0
+取り組む,grapple,0,0,0,0
+録画,videotaping,0,0,0,0
+リクエスト,request,0,0,0,0
+織物,cloth,0,0,0,0
+新た,new,0,0,0,0
+進出,advancement,0,0,0,0
+進行,advancement,0,0,0,0
+進歩,progress,0,0,0,0
+国道,national highway,0,0,0,0
+行進,march,0,0,0,0
+どんどん,steadily,0,0,0,0
+北西,northwest,0,0,0,0
+南西,southwest,0,0,0,0
+何となく,in some way,0,0,0,0
+推進,promotion,0,0,0,0
+市場,market,0,0,0,0
+家計,family finances,0,0,0,0
+主任,person in charge,0,0,0,0
+支える,support,0,0,0,0
+果たす,accomplish,0,0,0,0
+担任,supervisor,0,0,0,0
+辞任,resignation,0,0,0,0
+お世辞,compliment,0,0,0,0
+英和,English-Japanese,0,0,0,0
+電子,electron,0,0,0,0
+和英,Japanese-English,0,0,0,0
+協議,conference,0,0,0,0
+委員会,committee,0,0,0,0
+委員,committee member,0,0,0,0
+大手,major companies,0,0,0,0
+国鉄,Japan National Railways,0,0,0,0
+支店,branch,0,0,0,0
+おばさん,middle-aged woman,0,0,0,0
+商社,trading firm,0,0,0,0
+出勤,to go to work,0,0,0,0
+運送,shipping,0,0,0,0
+勤勉,diligence,0,0,0,0
+ＪＲ,JR,0,0,0,0
+日数,number of days,0,0,0,0
+勤め先,employment,0,0,0,0
+勤め,service,0,0,0,0
+もしかしたら,possibly,0,0,0,0
+勤務,duty,0,0,0,0
+事務,office duty,0,0,0,0
+公務員,public officer,0,0,0,0
+事務員,clerk,0,0,0,0
+任務,duty,0,0,0,0
+従業員,employee,0,0,0,0
+ストライキ,strike,0,0,0,0
+良心,conscience,0,0,0,0
+法,law,0,0,0,0
+雇う,employ,0,0,0,0
+実績,achievement,0,0,0,0
+当たり前,of course,0,0,0,0
+下,low class,0,0,0,0
+トップ,top,0,0,0,0
+次ぐ,rank next to,0,0,0,0
+水準,level,0,0,0,0
+応募,application,0,0,0,0
+多数,large number,0,0,0,0
+大小,size,0,0,0,0
+有する,have,0,0,0,0
+集中,concentration,0,0,0,0
+集合,gathering,0,0,0,0
+組合,union,0,0,0,0
+高度,high degree,0,0,0,0
+国々,nations,0,0,0,0
+集まり,gathering,0,0,0,0
+様々,various,0,0,0,0
+募集,recruitment,0,0,0,0
+早める,move forward,0,0,0,0
+答案,examination paper,0,0,0,0
+採算,profit,0,0,0,0
+採点,marking,0,0,0,0
+採る,gather,0,0,0,0
+供給,supply,0,0,0,0
+月給,monthly salary,0,0,0,0
+時給,hourly wage,0,0,0,0
+一昨年,the year before last,0,0,0,0
+見込み,hope,0,0,0,0
+論文,thesis,0,0,0,0
+短大,junior college,0,0,0,0
+花束,bunch of flowers,0,0,0,0
+就任,inauguration,0,0,0,0
+就く,set about a task,0,0,0,0
+職員,staff,0,0,0,0
+職業,occupation,0,0,0,0
+私鉄,private railway,0,0,0,0
+名,name,0,0,0,0
+都内,in the metropolitan area of Tokyo,0,0,0,0
+有利,advantageous,0,0,0,0
+都,metropolis of Tokyo,0,0,0,0
+不平等,unequal,0,0,0,0
+退職,retirement,0,0,0,0
+退学,withdrawal from school,0,0,0,0
+早退,early departure,0,0,0,0
+理屈,reason,0,0,0,0
+退屈,boring,0,0,0,0
+成立,formation,0,0,0,0
+雇用,employment,0,0,0,0
+自ら,oneself,0,0,0,0
+前提,assumption,0,0,0,0
+条約,treaty,0,0,0,0
+次第に,gradually,0,0,0,0
+真相,the truth,0,0,0,0
+先日,the other day,0,0,0,0
+悪質,bad,0,0,0,0
+当局,the authorities concerned,0,0,0,0
+認識,recognition,0,0,0,0
+満たす,fill,0,0,0,0
+無関係,irrelevant,0,0,0,0
+投書,contribution,0,0,0,0
+未定,undecided,0,0,0,0
+用件,matter,0,0,0,0
+参考,reference,0,0,0,0
+参議院,House of Councilors,0,0,0,0
+お参り,visiting a shrine or temple,0,0,0,0
+参考書,reference book,0,0,0,0
+参る,go,0,0,0,0
+惨め,miserable,0,0,0,0
+加わる,join in,0,0,0,0
+クラブ,club,0,0,0,0
+さぞ,no doubt,0,0,0,0
+いい加減,irresponsible,0,0,0,0
+デモ,demonstration,0,0,0,0
+保険,insurance,0,0,0,0
+申し出る,offer,0,0,0,0
+人数,number of people,0,0,0,0
+レクリエーション,recreation,0,0,0,0
+去る,go away,0,0,0,0
+追い出す,turn out,0,0,0,0
+追い掛ける,chase,0,0,0,0
+追加,addition,0,0,0,0
+前年,the year before,0,0,0,0
+比率,ratio,0,0,0,0
+見比べる,look from one to another,0,0,0,0
+比較,comparison,0,0,0,0
+受け取り,receipt,0,0,0,0
+判決,judicial decision,0,0,0,0
+判子,seal,0,0,0,0
+評判,fame,0,0,0,0
+感じ,feeling,0,0,0,0
+感情,feeling,0,0,0,0
+感動,emotion,0,0,0,0
+実感,true sense,0,0,0,0
+込める,put in,0,0,0,0
+思想,thought,0,0,0,0
+感想,thought,0,0,0,0
+空想,fantasy,0,0,0,0
+当たり,hit,0,0,0,0
+予想,prospect,0,0,0,0
+理想,ideal,0,0,0,0
+生ずる,arise,0,0,0,0
+合成,composition,0,0,0,0
+現像,developing a film,0,0,0,0
+想像,imagination,0,0,0,0
+気象,weather condition,0,0,0,0
+象,elephant,0,0,0,0
+抽象的,abstract,0,0,0,0
+製品,manufactured goods,0,0,0,0
+回路,circuit,0,0,0,0
+ハードウェア,hardware,0,0,0,0
+保障,guarantee,0,0,0,0
+モーター,motor,0,0,0,0
+悪化,worsening,0,0,0,0
+傷,wound,0,0,0,0
+負傷,hurt,0,0,0,0
+無意識,unconsciously,0,0,0,0
+交換,exchange,0,0,0,0
+シーツ,sheet,0,0,0,0
+消火器,fire extinguisher,0,0,0,0
+変換,change,0,0,0,0
+タイヤ,tire,0,0,0,0
+交替,alternation,0,0,0,0
+部品,parts,0,0,0,0
+水着,bathing suit,0,0,0,0
+取り替える,change,0,0,0,0
+立て替える,pay for another,0,0,0,0
+災難,calamity,0,0,0,0
+水害,flood damage,0,0,0,0
+有害,harmful,0,0,0,0
+飲料水,drinking water,0,0,0,0
+被せる,cover,0,0,0,0
+被害,damage,0,0,0,0
+物資,commodities,0,0,0,0
+所々,here and there,0,0,0,0
+破壊,breaking,0,0,0,0
+くだらない,worthless,0,0,0,0
+体温計,thermometer,0,0,0,0
+救う,save,0,0,0,0
+救い,rescue,0,0,0,0
+救助,rescue,0,0,0,0
+有り難い,welcome,0,0,0,0
+もはや,already,0,0,0,0
+助かる,be helped,0,0,0,0
+支援,support,0,0,0,0
+援助,aid,0,0,0,0
+要請,request,0,0,0,0
+派手,showy,0,0,0,0
+派出所,branch office,0,0,0,0
+小遣い,pocket money,0,0,0,0
+派遣,dispatch,0,0,0,0
+センター,center,0,0,0,0
+犯す,offend against,0,0,0,0
+特定,specific,0,0,0,0
+犯人,criminal,0,0,0,0
+ピストル,pistol,0,0,0,0
+明白,clear,0,0,0,0
+犯罪,offense,0,0,0,0
+罪,crime,0,0,0,0
+強盗,robbery,0,0,0,0
+盗難,robbery,0,0,0,0
+奪う,rob,0,0,0,0
+自殺,suicide,0,0,0,0
+捕まる,be caught,0,0,0,0
+国外,abroad,0,0,0,0
+逃げ出す,make a break for,0,0,0,0
+逃げ道,escape route,0,0,0,0
+作戦,tactic,0,0,0,0
+主題,subject,0,0,0,0
+戦前,prewar period,0,0,0,0
+勝ち,win,0,0,0,0
+戦う,wage war,0,0,0,0
+挑戦,challenge,0,0,0,0
+敗戦,lost battle,0,0,0,0
+戦い,war,0,0,0,0
+敗れる,be defeated,0,0,0,0
+大戦,world war,0,0,0,0
+政党,political party,0,0,0,0
+争う,compete,0,0,0,0
+競技,match,0,0,0,0
+高速道路,freeway,0,0,0,0
+混雑,confusion,0,0,0,0
+割合,rate,0,0,0,0
+混ぜる,blend,0,0,0,0
+戦後,postwar period,0,0,0,0
+リズム,rhythm,0,0,0,0
+統一,unity,0,0,0,0
+統計,statistics,0,0,0,0
+総会,general meeting,0,0,0,0
+総合,synthesis,0,0,0,0
+総数,total,0,0,0,0
+捜す,look for,0,0,0,0
+捜査,criminal investigation,0,0,0,0
+小数,decimal,0,0,0,0
+残らず,entirely,0,0,0,0
+索引,index,0,0,0,0
+人工,artificial,0,0,0,0
+ツル,crane,0,0,0,0
+湖,lake,0,0,0,0
+飛び込む,dive into,0,0,0,0
+深める,deepen,0,0,0,0
+物事,things,0,0,0,0
+注意深い,careful,0,0,0,0
+落ち着く,calm down,0,0,0,0
+スピード,speed,0,0,0,0
+落ち着き,presence of mind,0,0,0,0
+がっかり,feel disappointed,0,0,0,0
+がくんと,sharply,0,0,0,0
+段落,end of paragraph,0,0,0,0
+見落とす,miss,0,0,0,0
+落第,failing an exam,0,0,0,0
+まあまあ,now now,0,0,0,0
+日中,during the day,0,0,0,0
+水面,surface of the water,0,0,0,0
+交流,interaction,0,0,0,0
+一流,top-ranked,0,0,0,0
+海流,ocean current,0,0,0,0
+三流,third-rate,0,0,0,0
+小川,brook,0,0,0,0
+流れ,flow,0,0,0,0
+流通,circulation,0,0,0,0
+中間,middle,0,0,0,0
+中流,mid-stream,0,0,0,0
+二流,second-rate,0,0,0,0
+流行,fashion,0,0,0,0
+流行,fashion,0,0,0,0
+洪水,flood,0,0,0,0
+崩す,destroy,0,0,0,0
+水洗,flushing,0,0,0,0
+クリーム,cream,0,0,0,0
+洗い物,dishes to be washed,0,0,0,0
+じゃぶじゃぶ,vigorously,0,0,0,0
+洗面,washing one's face,0,0,0,0
+洗面器,washbowl,0,0,0,0
+原料,raw material,0,0,0,0
+代わり,substitution,0,0,0,0
+さす,pour,0,0,0,0
+混ざる,be mixed,0,0,0,0
+沈める,sink,0,0,0,0
+引き上げる,pull up,0,0,0,0
+地平線,horizon,0,0,0,0
+夕日,setting sun,0,0,0,0
+沈没,sinking,0,0,0,0
+将来,future,0,0,0,0
+確実,certain,0,0,0,0
+カメラマン,photographer,0,0,0,0
+気楽,easygoing,0,0,0,0
+永遠,eternity,0,0,0,0
+永久,permanence,0,0,0,0
+全速力,full speed,0,0,0,0
+浮く,float,0,0,0,0
+上がる,eat,0,0,0,0
+感覚,sense,0,0,0,0
+世間,world,0,0,0,0
+北風,north wind,0,0,0,0
+冷ます,cool,0,0,0,0
+冷え込む,get colder,0,0,0,0
+冷やかす,tease,0,0,0,0
+かちかち,hard,0,0,0,0
+冷凍,freezing,0,0,0,0
+車庫,car shed,0,0,0,0
+内臓,internal organs,0,0,0,0
+快晴,fair and clear weather,0,0,0,0
+適用,application,0,0,0,0
+適する,suit,0,0,0,0
+適当,suitable,0,0,0,0
+指摘,identification,0,0,0,0
+湿度,humidity,0,0,0,0
+湿っぽい,damp,0,0,0,0
+湿気,moisture,0,0,0,0
+汚染,pollution,0,0,0,0
+頬,cheek,0,0,0,0
+廃止,abolishment,0,0,0,0
+一面,whole surface,0,0,0,0
+比較的,comparatively,0,0,0,0
+風景,scenery,0,0,0,0
+不景気,business depression,0,0,0,0
+影,shadow,0,0,0,0
+円高,appreciation of the yen,0,0,0,0
+インフレーション,inflation,0,0,0,0
+不況,depression,0,0,0,0
+記事,article,0,0,0,0
+最適,optimum,0,0,0,0
+国境,national border,0,0,0,0
+境,boundary,0,0,0,0
+適応,adaptation,0,0,0,0
+観察,observation,0,0,0,0
+客観的,objective,0,0,0,0
+主観,subjectivity,0,0,0,0
+主観的,subjective,0,0,0,0
+市内,in the city,0,0,0,0
+観光,sightseeing,0,0,0,0
+きらりと,sparkle,0,0,0,0
+成り立つ,consist of,0,0,0,0
+日光,sunshine,0,0,0,0
+推測,conjecture,0,0,0,0
+測る,measure,0,0,0,0
+体重,body weight,0,0,0,0
+河口,river mouth,0,0,0,0
+ウエスト,the waist,0,0,0,0
+水平線,horizon,0,0,0,0
+発電,generation of electricity,0,0,0,0
+陽気,cheerful,0,0,0,0
+有限,limited,0,0,0,0
+観測,observation,0,0,0,0
+無数,countless,0,0,0,0
+衛星,satellite,0,0,0,0
+衛生的,sanitary,0,0,0,0
+一員,member,0,0,0,0
+グラウンド,sports field,0,0,0,0
+球,globe,0,0,0,0
+日米,Japan and U.S.,0,0,0,0
+プロ野球,professional baseball,0,0,0,0
+電球,light bulb,0,0,0,0
+現れる,appear,0,0,0,0
+青空,blue sky,0,0,0,0
+たちまち,in a moment,0,0,0,0
+失う,lose,0,0,0,0
+混乱,disorder,0,0,0,0
+災害,calamity,0,0,0,0
+震度,seismic intensity,0,0,0,0
+ぶるぶる,shiver,0,0,0,0
+脱線,derailment,0,0,0,0
+人生,human life,0,0,0,0
+大雪,heavy snow,0,0,0,0
+窓口,window,0,0,0,0
+振り,swing,0,0,0,0
+電線,electric wire,0,0,0,0
+作用,action,0,0,0,0
+神様,god,0,0,0,0
+神道,Shinto,0,0,0,0
+外部,outside,0,0,0,0
+安定,stability,0,0,0,0
+精神,mind,0,0,0,0
+精算,settlement of accounts,0,0,0,0
+現実,actuality,0,0,0,0
+教え,lesson,0,0,0,0
+残暑,lingering summer heat,0,0,0,0
+貴重,precious,0,0,0,0
+貴重品,article of value,0,0,0,0
+金庫,strong box,0,0,0,0
+貴い,precious,0,0,0,0
+跡,trace,0,0,0,0
+足跡,footprint,0,0,0,0
+追跡,pursuit,0,0,0,0
+好奇心,curiosity,0,0,0,0
+奇跡,miracle,0,0,0,0
+奇数,odd number,0,0,0,0
+空ける,empty,0,0,0,0
+近寄る,go near,0,0,0,0
+寄り道,dropping by,0,0,0,0
+寄り集まる,gather,0,0,0,0
+何千,several thousand,0,0,0,0
+経歴,personal history,0,0,0,0
+学歴,educational history,0,0,0,0
+革命,revolution,0,0,0,0
+古代,ancient times,0,0,0,0
+歴史的,historical,0,0,0,0
+乱す,put into disorder,0,0,0,0
+高価,high-priced,0,0,0,0
+宝石,gem,0,0,0,0
+外観,external appearance,0,0,0,0
+モダン,modern,0,0,0,0
+建て前,a front,0,0,0,0
+年月,years,0,0,0,0
+建築,construction,0,0,0,0
+新築,new building,0,0,0,0
+基準,standard,0,0,0,0
+むしろ,rather,0,0,0,0
+構想,conception,0,0,0,0
+構える,set up,0,0,0,0
+結構,quite,0,0,0,0
+構う,mind,0,0,0,0
+位,rank,0,0,0,0
+収入,income,0,0,0,0
+運動会,sports festival,0,0,0,0
+悪用,abuse,0,0,0,0
+単位,unit,0,0,0,0
+地位,position,0,0,0,0
+重点,important point,0,0,0,0
+ずれる,off track,0,0,0,0
+本部,head office,0,0,0,0
+間,interval,0,0,0,0
+距離,distance,0,0,0,0
+分離,separation,0,0,0,0
+離れる,separate,0,0,0,0
+離す,separate,0,0,0,0
+停電,power cut,0,0,0,0
+出入り口,doorway,0,0,0,0
+不通,interruption of service,0,0,0,0
+回り・周り,vicinity,0,0,0,0
+辺り,vicinity,0,0,0,0
+相場,market price,0,0,0,0
+書物,book,0,0,0,0
+範囲,range,0,0,0,0
+境界,boundary,0,0,0,0
+おじさん,Mister,0,0,0,0
+領土,territory,0,0,0,0
+村,village,0,0,0,0
+隣り合う,adjoin,0,0,0,0
+木造,wooden,0,0,0,0
+合わす,match,0,0,0,0
+横断,crossing,0,0,0,0
+左右,right and left,0,0,0,0
+中断,interruption,0,0,0,0
+断水,water stoppage,0,0,0,0
+油断,inattention,0,0,0,0
+断定,decision,0,0,0,0
+継ぐ,succeed,0,0,0,0
+幅広い,wide,0,0,0,0
+欧米,Europe and America,0,0,0,0
+確立,establishment,0,0,0,0
+今日,today,0,0,0,0
+大陸,continent,0,0,0,0
+着陸,landing,0,0,0,0
+離陸,takeoff,0,0,0,0
+内陸,inland,0,0,0,0
+陸上,land,0,0,0,0
+間も無く,soon,0,0,0,0
+陸,land,0,0,0,0
+極めて,extremely,0,0,0,0
+消極的,negative,0,0,0,0
+南極,South Pole,0,0,0,0
+北極,North Pole,0,0,0,0
+極端,extreme,0,0,0,0
+最先端,cutting edge,0,0,0,0
+しゃがむ,squat down,0,0,0,0
+外相,Minister of Foreign Affairs,0,0,0,0
+総理,president,0,0,0,0
+女房,wife,0,0,0,0
+一緒,together,0,0,0,0
+心強い,reassuring,0,0,0,0
+内緒,secrecy,0,0,0,0
+男女,men and women,0,0,0,0
+貨物,freight,0,0,0,0
+百貨店,department store,0,0,0,0
+石油,petroleum,0,0,0,0
+規制,regulation,0,0,0,0
+輸送,transport,0,0,0,0
+薬指,third finger,0,0,0,0
+はめる,put on,0,0,0,0
+景気,economic climate,0,0,0,0
+回復,recovery,0,0,0,0
+過ち,fault,0,0,0,0
+体操,gymnastics,0,0,0,0
+操縦,steering,0,0,0,0
+縦書き,vertical writing,0,0,0,0
+渋滞,delay,0,0,0,0
+長期,long period,0,0,0,0
+滞在,stay,0,0,0,0
+帯,belt,0,0,0,0
+温帯,temperate zone,0,0,0,0
+地帯,zone,0,0,0,0
+熱帯,tropics,0,0,0,0
+操作,operation,0,0,0,0
+国費,national expenditure,0,0,0,0
+私費,private expense,0,0,0,0
+入国,entry into a country,0,0,0,0
+形式,form,0,0,0,0
+消費者,consumer,0,0,0,0
+資源,resources,0,0,0,0
+決まり,settlement,0,0,0,0
+エチケット,etiquette,0,0,0,0
+マナー,manners,0,0,0,0
+務め,duty,0,0,0,0
+留守番,caretaking,0,0,0,0
+職場,place of work,0,0,0,0
+帰宅,return home,0,0,0,0
+住宅地,residential district,0,0,0,0
+ばらばら,separately,0,0,0,0
+立て込む,full of,0,0,0,0
+夕立,sudden evening shower,0,0,0,0
+宛名,name of recipient,0,0,0,0
+宛先,recipient,0,0,0,0
+直ちに,at once,0,0,0,0
+戻す,return,0,0,0,0
+取り戻す,take back,0,0,0,0
+払い戻す,pay back,0,0,0,0
+現象,phenomenon,0,0,0,0
+殺人,murder,0,0,0,0
+消化,digestion,0,0,0,0
+起き上がる,get up,0,0,0,0
+不運,misfortune,0,0,0,0
+不注意,carelessness,0,0,0,0
+直後,immediately after,0,0,0,0
+ろくに,hardly,0,0,0,0
+寝かす,put to sleep,0,0,0,0
+寝過ごす,oversleep,0,0,0,0
+寝かせる,put to bed,0,0,0,0
+寝転ぶ,lie down,0,0,0,0
+しわ,wrinkle,0,0,0,0
+静まる,become quiet,0,0,0,0
+冷静,cool,0,0,0,0
+休暇,holiday,0,0,0,0
+問答,questions and answers,0,0,0,0
+共通,commonality,0,0,0,0
+収集,collection,0,0,0,0
+金もうけ,making money,0,0,0,0
+読書,reading a book,0,0,0,0
+合意,mutual agreement,0,0,0,0
+外貨,foreign currency,0,0,0,0
+教わる,be taught,0,0,0,0
+専用,exclusive use,0,0,0,0
+両者,both,0,0,0,0
+見合い,meeting with a view to marriage,0,0,0,0
+両立,managing two things,0,0,0,0
+両面,both sides,0,0,0,0
+片手,one hand,0,0,0,0
+片方,one side,0,0,0,0
+片側,one side,0,0,0,0
+側面,side,0,0,0,0
+両側,both sides,0,0,0,0
+歩行者,pedestrian,0,0,0,0
+白線,white line,0,0,0,0
+通路,passage,0,0,0,0
+裏口,back door,0,0,0,0
+裏返し,turn over,0,0,0,0
+裏表,inside-out,0,0,0,0
+くすぐる,tickle,0,0,0,0
+夜間,night,0,0,0,0
+項目,item,0,0,0,0
+要項,important points,0,0,0,0
+印象,impression,0,0,0,0
+組み合わせ,combination,0,0,0,0
+週刊,published weekly,0,0,0,0
+月刊,published monthly,0,0,0,0
+古本,secondhand book,0,0,0,0
+出版,publishing,0,0,0,0
+出版社,publishing company,0,0,0,0
+地理,geography,0,0,0,0
+注,annotation,0,0,0,0
+神経,sensitivity,0,0,0,0
+詳細,details,0,0,0,0
+心細い,helpless,0,0,0,0
+通知,notification,0,0,0,0
+ちぎる,tear,0,0,0,0
+ファックス,facsimile,0,0,0,0
+掲示,notice,0,0,0,0
+載る,appear in print,0,0,0,0
+積極的,positive,0,0,0,0
+三角形,triangle,0,0,0,0
+積む,pile up,0,0,0,0
+面積,area,0,0,0,0
+ちり,dust,0,0,0,0
+平方,square,0,0,0,0
+言い訳,apology,0,0,0,0
+どうしても,by any means,0,0,0,0
+翻訳,translation,0,0,0,0
+通訳,interpreting,0,0,0,0
+申し訳ない,sorry,0,0,0,0
+訳,reason,0,0,0,0
+申し訳,excuse,0,0,0,0
+誤り,error,0,0,0,0
+誤る,make a mistake,0,0,0,0
+誤解,misunderstanding,0,0,0,0
+訂正,correction,0,0,0,0
+修正,correction,0,0,0,0
+討論,debate,0,0,0,0
+前向き,facing forward,0,0,0,0
+キャベツ,cabbage,0,0,0,0
+添う,accompany,0,0,0,0
+需要,demand,0,0,0,0
+成果,result,0,0,0,0
+以後,from now on,0,0,0,0
+気付く,notice,0,0,0,0
+衛生,hygiene,0,0,0,0
+エアコン,air-conditioning,0,0,0,0
+学力,scholastic performance,0,0,0,0
+印,mark,0,0,0,0
+ガード,guard rail,0,0,0,0
+イントネーション,intonation,0,0,0,0
+追い付く,overtake,0,0,0,0
+思い付く,think of,0,0,0,0
+足下,step,0,0,0,0
+傷付ける,wound,0,0,0,0
+これから,from now on,0,0,0,0
+付き合い,friendship,0,0,0,0
+付け加える,add,0,0,0,0
+付き合う,socialize with,0,0,0,0
+付録,appendix,0,0,0,0
+近付ける,bring close,0,0,0,0
+付け足す,add on,0,0,0,0
+日付け,date,0,0,0,0
+金属,metal,0,0,0,0
+所属,belonging,0,0,0,0
+付属,attachment,0,0,0,0
+バット,bat,0,0,0,0
+属する,belong to,0,0,0,0
+ポスター,poster,0,0,0,0
+大蔵省,Ministry of Finance,0,0,0,0
+外務省,Ministry of Foreign Affairs,0,0,0,0
+帰省,homecoming,0,0,0,0
+反省,reflection,0,0,0,0
+省く,omit,0,0,0,0
+省略,omission,0,0,0,0
+略す,abbreviate,0,0,0,0
+略,abbreviation,0,0,0,0
+概念,general idea,0,0,0,0
+記念,commemoration,0,0,0,0
+信念,belief,0,0,0,0
+不合格,failure,0,0,0,0
+規定,regulation,0,0,0,0
+物質,matter,0,0,0,0
+含める,include,0,0,0,0
+含む,contain,0,0,0,0
+順調,favorable condition,0,0,0,0
+経過,progression,0,0,0,0
+順,order,0,0,0,0
+順番,order,0,0,0,0
+順位,order,0,0,0,0
+五十音,Japanese syllabary,0,0,0,0
+道順,route,0,0,0,0
+順序,order,0,0,0,0
+逆,reverse,0,0,0,0
+運命,fate,0,0,0,0
+逆らう,disobey,0,0,0,0
+逆さ,reverse,0,0,0,0
+逆さま,upside-down,0,0,0,0
+前進,advancement,0,0,0,0
+行列,queue,0,0,0,0
+整列,row,0,0,0,0
+列車,train,0,0,0,0
+縦,lengthways,0,0,0,0
+列島,archipelago,0,0,0,0
+何十,several tens,0,0,0,0
+列,row,0,0,0,0
+実例,example,0,0,0,0
+例外,exception,0,0,0,0
+用例,example,0,0,0,0
+例える,compare,0,0,0,0
+例題,example,0,0,0,0
+例年,normal year,0,0,0,0
+例え,metaphor,0,0,0,0
+余り,remainder,0,0,0,0
+かっと,lose one's temper,0,0,0,0
+きれ,a cut of cloth,0,0,0,0
+余地,room,0,0,0,0
+余計,excess,0,0,0,0
+余分,excess,0,0,0,0
+あいにく,unfortunately,0,0,0,0
+後戻り,turning back,0,0,0,0
+下車,get off,0,0,0,0
+途中,on the way,0,0,0,0
+用途,use,0,0,0,0
+中途,halfway,0,0,0,0
+障害,obstacle,0,0,0,0
+削除,deletion,0,0,0,0
+不必要,unnecessary,0,0,0,0
+既に,already,0,0,0,0
+既製,ready-made,0,0,0,0
+事態,situation,0,0,0,0
+深刻,serious,0,0,0,0
+時刻,time,0,0,0,0
+しょっちゅう,frequently,0,0,0,0
+案の定,as feared,0,0,0,0
+締め切り,deadline,0,0,0,0
+締め切る,close,0,0,0,0
+締まる,tighten,0,0,0,0
+どうにか,somehow,0,0,0,0
+取り締まる,control,0,0,0,0
+緩める,loosen,0,0,0,0
+緩む,slacken,0,0,0,0
+栄える,flourish,0,0,0,0
+教養,culture,0,0,0,0
+休養,rest,0,0,0,0
+バランス,balance,0,0,0,0
+養う,foster,0,0,0,0
+表情,expression,0,0,0,0
+豊か,abundant,0,0,0,0
+富む,be rich,0,0,0,0
+豊富,abundant,0,0,0,0
+正,right,0,0,0,0
+苦しむ,suffer,0,0,0,0
+苦情,complaint,0,0,0,0
+苦痛,pain,0,0,0,0
+苦しめる,torment,0,0,0,0
+ああ,that kind of,0,0,0,0
+西洋人,Westerner,0,0,0,0
+不器用,clumsy,0,0,0,0
+目茶苦茶,in a mess,0,0,0,0
+苦労,difficulty,0,0,0,0
+義務,duty,0,0,0,0
+強制,compulsion,0,0,0,0
+勤労,labor,0,0,0,0
+労働者,laborer,0,0,0,0
+連続,continuation,0,0,0,0
+労働,labor,0,0,0,0
+労力,labor,0,0,0,0
+因る,be caused by,0,0,0,0
+困難,difficulty,0,0,0,0
+せっかち,impatient,0,0,0,0
+格差,gap,0,0,0,0
+昔,old times,0,0,0,0
+乏しい,scarce,0,0,0,0
+貧乏人,poor person,0,0,0,0
+守備,defense,0,0,0,0
+甘える,depend on,0,0,0,0
+甘やかす,be indulgent to,0,0,0,0
+とうもろこし,corn,0,0,0,0
+こしょう,pepper,0,0,0,0
+辛い,difficult,0,0,0,0
+幸運,good fortune,0,0,0,0
+何だか,somehow,0,0,0,0
+不幸せ,unhappiness,0,0,0,0
+幸福,happiness,0,0,0,0
+削減,curtailment,0,0,0,0
+福祉,welfare,0,0,0,0
+海水,seawater,0,0,0,0
+調味料,seasoning,0,0,0,0
+砂漠,desert,0,0,0,0
+模範,model,0,0,0,0
+農民,peasants,0,0,0,0
+農家,farmhouse,0,0,0,0
+農村,farm village,0,0,0,0
+無害,harmless,0,0,0,0
+漁業,fishing industry,0,0,0,0
+薄暗い,gloomy,0,0,0,0
+薄める,thin,0,0,0,0
+薄着,light clothing,0,0,0,0
+ぺらぺら,floppy,0,0,0,0
+厚着,heavy clothing,0,0,0,0
+気圧,atmospheric pressure,0,0,0,0
+高気圧,high pressure,0,0,0,0
+低気圧,low pressure,0,0,0,0
+縮小,reduction,0,0,0,0
+縮める,contract,0,0,0,0
+縮む,shrink,0,0,0,0
+縮み,shrinkage,0,0,0,0
+引き伸ばす,stretch out,0,0,0,0
+追伸,P.S.,0,0,0,0
+売り上げ,sales,0,0,0,0
+倍,double,0,0,0,0
+超過,excess,0,0,0,0
+州,state,0,0,0,0
+環境,environment,0,0,0,0
+とうとう,at last,0,0,0,0
+届け,report,0,0,0,0
+乗り越し,riding past one's stop,0,0,0,0
+追い抜く,pass,0,0,0,0
+抜ける,come out,0,0,0,0
+トンネル,tunnel,0,0,0,0
+抜く,pull out,0,0,0,0
+課長,section chief,0,0,0,0
+朝日,morning sun,0,0,0,0
+一段と,greater,0,0,0,0
+昇る,rise,0,0,0,0
+風船,balloon,0,0,0,0
+全員,all members,0,0,0,0
+札,bill,0,0,0,0
+改札,ticket gate,0,0,0,0
+札,sign,0,0,0,0
+名札,name badge,0,0,0,0
+場,opportunity,0,0,0,0
+礼,bow,0,0,0,0
+感謝,gratitude,0,0,0,0
+月謝,monthly fee,0,0,0,0
+射す,shine on,0,0,0,0
+反射,reflection,0,0,0,0
+過程,process,0,0,0,0
+行程,distance,0,0,0,0
+日程,program,0,0,0,0
+確保,securement,0,0,0,0
+優れる,be superior to,0,0,0,0
+前者,the former,0,0,0,0
+コンテスト,contest,0,0,0,0
+優勝,victory,0,0,0,0
+対談,interview,0,0,0,0
+目下,one's inferiors,0,0,0,0
+見かけ,looks,0,0,0,0
+優秀,excellent,0,0,0,0
+秘書,secretary,0,0,0,0
+部下,subordinate,0,0,0,0
+透き通る,be transparent,0,0,0,0
+強引,overbearing,0,0,0,0
+指導,guide,0,0,0,0
+コーチ,coach,0,0,0,0
+半導体,semiconductor,0,0,0,0
+導く,guide,0,0,0,0
+応じる,answer,0,0,0,0
+希望,hope,0,0,0,0
+失望,disappointment,0,0,0,0
+望む,desire,0,0,0,0
+望ましい,desirable,0,0,0,0
+要望,demand,0,0,0,0
+有望,promising,0,0,0,0
+欲望,desire,0,0,0,0
+待ち望む,expect,0,0,0,0
+意志,will,0,0,0,0
+志す,have an ambition for,0,0,0,0
+受かる,pass,0,0,0,0
+向上,improvement,0,0,0,0
+公害,environmental pollution,0,0,0,0
+努める,endeavor,0,0,0,0
+比例,proportion,0,0,0,0
+不十分,insufficiency,0,0,0,0
+実る,bear fruit,0,0,0,0
+日々,daily,0,0,0,0
+かんかん,furious,0,0,0,0
+一種,a kind of,0,0,0,0
+独立,independence,0,0,0,0
+独特,peculiarity,0,0,0,0
+ぶつぶつ,grumble,0,0,0,0
+独り言,soliloquy,0,0,0,0
+論,argument,0,0,0,0
+調べ,investigation,0,0,0,0
+出身,come from,0,0,0,0
+企画,plan,0,0,0,0
+意外,unexpected,0,0,0,0
+身長,stature,0,0,0,0
+心身,mind and body,0,0,0,0
+身,body,0,0,0,0
+測定,measure,0,0,0,0
+中身,content,0,0,0,0
+身近,near oneself,0,0,0,0
+身の回り,one's person,0,0,0,0
+身なり,dress,0,0,0,0
+中,middle,0,0,0,0
+身振り,gesture,0,0,0,0
+縮まる,be shortened,0,0,0,0
+私,I,0,0,0,0
+独占,exclusive possession,0,0,0,0
+証拠,proof,0,0,0,0
+不要,unnecessary,0,0,0,0
+一家,household,0,0,0,0
+裏切る,betray,0,0,0,0
+論じる,argue,0,0,0,0
+仲良し,good friend,0,0,0,0
+仲直り,reconciliation,0,0,0,0
+仲,personal relationship,0,0,0,0
+仲間,comrade,0,0,0,0
+正式,formal,0,0,0,0
+照明,illumination,0,0,0,0
+照る,shine,0,0,0,0
+工夫,contrivance,0,0,0,0
+夫人,wife,0,0,0,0
+主婦,housewife,0,0,0,0
+新婚,newlywed,0,0,0,0
+産婦人科,gynecology department,0,0,0,0
+婦人,woman,0,0,0,0
+分担,assigning tasks,0,0,0,0
+仲人,go-between,0,0,0,0
+訪問,visit,0,0,0,0
+夫妻,husband and wife,0,0,0,0
+不在,absence,0,0,0,0
+奥様,married woman,0,0,0,0
+実力,real ability,0,0,0,0
+お互い,each other,0,0,0,0
+交互,by turns,0,0,0,0
+相互,mutual,0,0,0,0
+互い,each other,0,0,0,0
+策,scheme,0,0,0,0
+一度に,at a time,0,0,0,0
+見守る,watch,0,0,0,0
+我が国,our country,0,0,0,0
+我が家,one's home,0,0,0,0
+作者,author,0,0,0,0
+公共,public society,0,0,0,0
+苦しみ,distress,0,0,0,0
+作曲,composition,0,0,0,0
+親しみ,intimacy,0,0,0,0
+がらがら,gargle,0,0,0,0
+ミス,mistake,0,0,0,0
+持ち主,owner,0,0,0,0
+送別,farewell,0,0,0,0
+区分,division,0,0,0,0
+高齢,advanced age,0,0,0,0
+問う,ask,0,0,0,0
+年齢,age,0,0,0,0
+芸術,art,0,0,0,0
+愛情,love,0,0,0,0
+可愛らしい,lovely,0,0,0,0
+深まる,deepen,0,0,0,0
+マーク,logo,0,0,0,0
+むなしい,empty,0,0,0,0
+求める,seek,0,0,0,0
+恋,love,0,0,0,0
+失恋,broken heart,0,0,0,0
+恋する,love,0,0,0,0
+引きずる,drag along,0,0,0,0
+恋愛,love,0,0,0,0
+初恋,first love,0,0,0,0
+統合,integration,0,0,0,0
+誕生,birth,0,0,0,0
+密か,secret,0,0,0,0
+延長,extension,0,0,0,0
+延期,postponement,0,0,0,0
+明々後日,three days from today,0,0,0,0
+延びる,extend,0,0,0,0
+延ばす,extend,0,0,0,0
+祝う,celebrate,0,0,0,0
+代わる代わる,by turns,0,0,0,0
+単純,simple,0,0,0,0
+純粋,pure,0,0,0,0
+女優,actress,0,0,0,0
+おしゃべり,chatter,0,0,0,0
+夢中,be absorbed,0,0,0,0
+慎重,prudence,0,0,0,0
+泣き顔,tear-stained face,0,0,0,0
+流す,let flow,0,0,0,0
+笑顔,smiling face,0,0,0,0
+からから,roar,0,0,0,0
+げらげら,out loud,0,0,0,0
+天才,genius,0,0,0,0
+必ずしも,not always,0,0,0,0
+表す,express,0,0,0,0
+大喜び,great joy,0,0,0,0
+喜ばす,please,0,0,0,0
+皆,all,0,0,0,0
+恥,shame,0,0,0,0
+弁論,discussion,0,0,0,0
+保護,protection,0,0,0,0
+弁護,defense,0,0,0,0
+保護者,guardian,0,0,0,0
+運用,operation,0,0,0,0
+屋上,housetop,0,0,0,0
+ついに,at last,0,0,0,0
+同士,fellow,0,0,0,0
+弁護士,lawyer,0,0,0,0
+バッジ,badge,0,0,0,0
+看護,nursing,0,0,0,0
+看病,nursing,0,0,0,0
+否定,denial,0,0,0,0
+記述,description,0,0,0,0
+裁判,trial,0,0,0,0
+裁判所,courthouse,0,0,0,0
+総裁,president,0,0,0,0
+訴え,lawsuit,0,0,0,0
+進路,course,0,0,0,0
+あれこれ,this and that,0,0,0,0
+サークル,circle,0,0,0,0
+迷信,superstition,0,0,0,0
+迷子,lost child,0,0,0,0
+しつこい,persistent,0,0,0,0
+区域,zone,0,0,0,0
+大水,flood,0,0,0,0
+未知,unknown,0,0,0,0
+自身,self,0,0,0,0
+疑い,doubt,0,0,0,0
+疑う,doubt,0,0,0,0
+疑わしい,doubtful,0,0,0,0
+宇宙,universe,0,0,0,0
+物体,object,0,0,0,0
+謎,puzzle,0,0,0,0
+著しい,remarkable,0,0,0,0
+著す,write,0,0,0,0
+著者,author,0,0,0,0
+著書,literary work,0,0,0,0
+権利,right,0,0,0,0
+権力,power,0,0,0,0
+人権,human rights,0,0,0,0
+支配,control,0,0,0,0
+言論,speech,0,0,0,0
+棄権,dropping out,0,0,0,0
+侵す,invade,0,0,0,0
+偽物,sham,0,0,0,0
+行為,act,0,0,0,0
+添える,add to,0,0,0,0
+ばら,rose,0,0,0,0
+賞,prize,0,0,0,0
+当てる,guess,0,0,0,0
+公平,impartiality,0,0,0,0
+賞品,prize,0,0,0,0
+部門,division,0,0,0,0
+ノーベル賞,Nobel Prize,0,0,0,0
+野党,opposition party,0,0,0,0
+楽,comfort,0,0,0,0
+財政,public finance,0,0,0,0
+財産,fortune,0,0,0,0
+文化財,cultural assets,0,0,0,0
+助手,assistant,0,0,0,0
+利息,interest,0,0,0,0
+預金,deposit,0,0,0,0
+金融,finance,0,0,0,0
+間隔,interval,0,0,0,0
+終了,end,0,0,0,0
+完了,completion,0,0,0,0
+課程,course,0,0,0,0
+修了,completion,0,0,0,0
+承認,approval,0,0,0,0
+承知,consent,0,0,0,0
+納める,pay a tax or fee,0,0,0,0
+株式,stock,0,0,0,0
+説得,persuasion,0,0,0,0
+所得,income,0,0,0,0
+支持,support,0,0,0,0
+学科,subject,0,0,0,0
+得る,obtain,0,0,0,0
+知識,knowledge,0,0,0,0
+納得,acceptance,0,0,0,0
+批評,criticism,0,0,0,0
+不得意,one's weak point,0,0,0,0
+得する,profit,0,0,0,0
+得,gain,0,0,0,0
+損,loss,0,0,0,0
+損害,damage,0,0,0,0
+損する,lose,0,0,0,0
+意欲,volition,0,0,0,0
+燃料,fuel,0,0,0,0
+燃やす,burn,0,0,0,0
+日焼け,suntan,0,0,0,0
+焼き肉,grilled meat,0,0,0,0
+夕焼け,sunset glow,0,0,0,0
+焼きそば,pan-fried noodles,0,0,0,0
+乾燥,drying up,0,0,0,0
+幹部,executive,0,0,0,0
+時速,speed per hour,0,0,0,0
+速度,speed,0,0,0,0
+幹,tree trunk,0,0,0,0
+業績,achievement,0,0,0,0
+酸素,oxygen,0,0,0,0
+素直,honest,0,0,0,0
+水素,hydrogen,0,0,0,0
+素早い,nimble,0,0,0,0
+スピーチ,speech,0,0,0,0
+効き目,effect,0,0,0,0
+心,heart,0,0,0,0
+実に,truly,0,0,0,0
+対応,correspondence,0,0,0,0
+働き,work,0,0,0,0
+チャンス,chance,0,0,0,0
+石炭,coal,0,0,0,0
+岩,rock,0,0,0,0
+もろい,weak,0,0,0,0
+無生物,inanimate object,0,0,0,0
+岸,shore,0,0,0,0
+キス,kiss,0,0,0,0
+成長,growth,0,0,0,0
+校庭,schoolyard,0,0,0,0
+一周,circle,0,0,0,0
+昨晩,last night,0,0,0,0
+貧しい,poor,0,0,0,0
+照らす,illuminate,0,0,0,0
+手入れ,care,0,0,0,0
+まく,sow,0,0,0,0
+実,fruit,0,0,0,0
+膨らむ,expand,0,0,0,0
+名所,noted place,0,0,0,0
+高原,plateau,0,0,0,0
+分散,dispersion,0,0,0,0
+散る,scatter,0,0,0,0
+散らかる,lie scattered about,0,0,0,0
+散らかす,scatter,0,0,0,0
+月夜,moonlit night,0,0,0,0
+植物,plant,0,0,0,0
+植民地,colony,0,0,0,0
+植木,garden plant,0,0,0,0
+全般,whole,0,0,0,0
+どく,move out of the way,0,0,0,0
+田植え,rice planting,0,0,0,0
+継続,continuation,0,0,0,0
+根拠,grounds,0,0,0,0
+根本,basis,0,0,0,0
+金色,golden color,0,0,0,0
+平ら,flat,0,0,0,0
+目印,landmark,0,0,0,0
+根,root,0,0,0,0
+大根,daikon radish,0,0,0,0
+はしご,ladder,0,0,0,0
+板,board,0,0,0,0
+看板,signboard,0,0,0,0
+まな板,chopping board,0,0,0,0
+草花,plants and flowers,0,0,0,0
+ほうれん草,spinach,0,0,0,0
+疑問,question,0,0,0,0
+言葉遣い,wording,0,0,0,0
+落ち葉,fallen leaves,0,0,0,0
+言い換える,express in different words,0,0,0,0
+木の葉,tree leaves,0,0,0,0
+書き言葉,written language,0,0,0,0
+傷付く,get injured,0,0,0,0
+女性的,feminine,0,0,0,0
+適切,appropriate,0,0,0,0
+和語,native Japanese word,0,0,0,0
+話し言葉,spoken language,0,0,0,0
+ひらひら,lightly,0,0,0,0
+葉っぱ,leaf,0,0,0,0
+警官,police officer,0,0,0,0
+ついで,on the way,0,0,0,0
+呼び出す,call,0,0,0,0
+吸収,absorption,0,0,0,0
+息,breath,0,0,0,0
+呼吸,breathing,0,0,0,0
+正常,normality,0,0,0,0
+吸い込む,inhale,0,0,0,0
+及ぶ,reach to,0,0,0,0
+取り扱う,handle,0,0,0,0
+平等,equality,0,0,0,0
+取り扱い,handling,0,0,0,0
+高級,high rank,0,0,0,0
+級,grade,0,0,0,0
+上級,higher grade,0,0,0,0
+初級,beginner class,0,0,0,0
+同級生,classmate,0,0,0,0
+中級,middle-class,0,0,0,0
+すっと,clear,0,0,0,0
+食う,eat,0,0,0,0
+結構,all right,0,0,0,0
+腹,belly,0,0,0,0
+引っ込む,draw back,0,0,0,0
+腹一杯,full stomach,0,0,0,0
+肺,lung,0,0,0,0
+平たい,flat,0,0,0,0
+番,one's turn,0,0,0,0
+出血,bleeding,0,0,0,0
+血液,blood,0,0,0,0
+高温,high temperature,0,0,0,0
+溶ける,be dissolved,0,0,0,0
+溶かす,dissolve,0,0,0,0
+証明,proof,0,0,0,0
+液,liquid,0,0,0,0
+容易,easy,0,0,0,0
+容器,receptacle,0,0,0,0
+好む,like,0,0,0,0
+背中,back,0,0,0,0
+背広,business suit,0,0,0,0
+痛み,pain,0,0,0,0
+形成,formation,0,0,0,0
+外科,surgery,0,0,0,0
+骨折,fracture,0,0,0,0
+分析,analysis,0,0,0,0
+健全,healthy,0,0,0,0
+保健,health,0,0,0,0
+健康,health,0,0,0,0
+害,harm,0,0,0,0
+ブーム,boom,0,0,0,0
+適度,moderate,0,0,0,0
+早寝,going to bed early,0,0,0,0
+診察,medical examination,0,0,0,0
+内科,internal medicine,0,0,0,0
+診る,examine,0,0,0,0
+植物園,botanical garden,0,0,0,0
+体験,experience,0,0,0,0
+日本酒,sake,0,0,0,0
+医療,medical service,0,0,0,0
+治療,medical treatment,0,0,0,0
+気の毒,pitiable,0,0,0,0
+消毒,disinfection,0,0,0,0
+毒,poison,0,0,0,0
+中毒,poisoning,0,0,0,0
+有毒,poisonous,0,0,0,0
+ばい菌,bacterium,0,0,0,0
+症状,symptom,0,0,0,0
+中年,middle age,0,0,0,0
+清書,clean copy,0,0,0,0
+イメージ,image,0,0,0,0
+清潔,cleanliness,0,0,0,0
+不潔,dirty,0,0,0,0
+監督,supervisor,0,0,0,0
+撮影,photographing,0,0,0,0
+アップ,close-up,0,0,0,0
+水中,in the water,0,0,0,0
+プリント,print,0,0,0,0
+レントゲン,X-rays,0,0,0,0
+描く,depict,0,0,0,0
+図,figure,0,0,0,0
+画家,artist,0,0,0,0
+地面,surface,0,0,0,0
+曲線,curve,0,0,0,0
+苦心,pains,0,0,0,0
+油絵,oil painting,0,0,0,0
+直線,straight line,0,0,0,0
+活躍,activity,0,0,0,0
+再開,reopening,0,0,0,0
+再生,playback,0,0,0,0
+再会,reunion,0,0,0,0
+交わす,exchange,0,0,0,0
+編む,knit,0,0,0,0
+編集,editing,0,0,0,0
+後半,latter half,0,0,0,0
+火災,fire,0,0,0,0
+解放,release,0,0,0,0
+機長,airplane captain,0,0,0,0
+開放,opening,0,0,0,0
+本来,originally,0,0,0,0
+追放,banishment,0,0,0,0
+中継,relay,0,0,0,0
+放射能,radioactivity,0,0,0,0
+放る,fling,0,0,0,0
+重視,importance,0,0,0,0
+視点,viewpoint,0,0,0,0
+近視,nearsightedness,0,0,0,0
+無視,ignoring,0,0,0,0
+他方,other side,0,0,0,0
+ジャズ,jazz,0,0,0,0
+衣類,clothes,0,0,0,0
+衣服,clothes,0,0,0,0
+衣料,clothing,0,0,0,0
+衣食住,clothing and food and housing,0,0,0,0
+地味,plain,0,0,0,0
+整える,arrange,0,0,0,0
+相応しい,suitable,0,0,0,0
+仮に,supposing that,0,0,0,0
+仮定,assumption,0,0,0,0
+仮,provisional,0,0,0,0
+振り仮名,reading aid in kana characters,0,0,0,0
+演説,speech,0,0,0,0
+公演,public performance,0,0,0,0
+出演,appearance on stage,0,0,0,0
+力強い,powerful,0,0,0,0
+役,role,0,0,0,0
+劇,drama,0,0,0,0
+主役,leading part,0,0,0,0
+劇場,theater,0,0,0,0
+演劇,drama,0,0,0,0
+喜劇,comedy,0,0,0,0
+国立,national,0,0,0,0
+昨夜,last night,0,0,0,0
+始まり,beginning,0,0,0,0
+別れ,separation,0,0,0,0
+乗り越える,overcome,0,0,0,0
+悲劇,tragedy,0,0,0,0
+まして,much more,0,0,0,0
+集団,group,0,0,0,0
+団体,group,0,0,0,0
+団地,housing estate,0,0,0,0
+固める,harden,0,0,0,0
+固まる,harden,0,0,0,0
+固体,solid,0,0,0,0
+我々,we,0,0,0,0
+インテリ,intelligent,0,0,0,0
+かぼちゃ,pumpkin,0,0,0,0
+かじる,nibble,0,0,0,0
+ぎょうざ,Chinese dumpling,0,0,0,0
+対比,contrast,0,0,0,0
+はっと,taken aback,0,0,0,0
+定義,definition,0,0,0,0
+何百,several hundred,0,0,0,0
+博士,Ph.D.,0,0,0,0
+博士,expert,0,0,0,0
+急速,rapid,0,0,0,0
+近代,modern times,0,0,0,0
+展開,unfolding,0,0,0,0
+発展,expansion,0,0,0,0
+主催,sponsorship,0,0,0,0
+オリンピック,the Olympics,0,0,0,0
+催し,event,0,0,0,0
+促す,hasten,0,0,0,0
+催促,demand,0,0,0,0
+古典,classics,0,0,0,0
+辞典,dictionary,0,0,0,0
+漢和,Chinese and Japanese,0,0,0,0
+典型的,typical,0,0,0,0
+典型,type,0,0,0,0
+殊に,especially,0,0,0,0
+ダウン,down,0,0,0,0
+特殊,special,0,0,0,0
+微か,faint,0,0,0,0
+微妙,subtle,0,0,0,0
+ご免,sorry,0,0,0,0
+免税,tax exemption,0,0,0,0
+許可,permission,0,0,0,0
+有効,effective,0,0,0,0
+どうか,please,0,0,0,0
+免許,license,0,0,0,0
+無責任,irresponsibility,0,0,0,0
+取消し,cancellation,0,0,0,0
+訓読み,Japanese pronunciation,0,0,0,0
+訓,Japanese reading of kanji,0,0,0,0
+助詞,particle,0,0,0,0
+形容詞,adjective,0,0,0,0
+動詞,verb,0,0,0,0
+名詞,noun,0,0,0,0
+副詞,adverb,0,0,0,0
+代名詞,pronoun,0,0,0,0
+従う,follow,0,0,0,0
+上司,boss,0,0,0,0
+厳重,strict,0,0,0,0
+司会,master of ceremonies,0,0,0,0
+先程,some time ago,0,0,0,0
+務める,perform a duty,0,0,0,0
+向ける,turn toward,0,0,0,0
+引き延ばす,extend,0,0,0,0
+ぺこぺこ,bow,0,0,0,0
+購入,purchase,0,0,0,0
+講演,lecture,0,0,0,0
+講義,lecture,0,0,0,0
+夏季,summer,0,0,0,0
+休講,cancellation of lecture,0,0,0,0
+テーマ,the theme,0,0,0,0
+講師,speaker,0,0,0,0
+診断,diagnosis,0,0,0,0
+技師,engineer,0,0,0,0
+歯科,dentistry,0,0,0,0
+関わる,involve,0,0,0,0
+師走,December,0,0,0,0
+化学,chemistry,0,0,0,0
+後期,latter period,0,0,0,0
+工学部,department of engineering,0,0,0,0
+雑談,chat,0,0,0,0
+時間割り,time table,0,0,0,0
+レベル,level,0,0,0,0
+専門家,specialist,0,0,0,0
+短縮,shortening,0,0,0,0
+登録,registration,0,0,0,0
+必死,desperation,0,0,0,0
+体育,physical training,0,0,0,0
+レポート,report,0,0,0,0
+払い込む,pay in,0,0,0,0
+下,under the supervision,0,0,0,0
+全て,all,0,0,0,0
+お手伝い,helper,0,0,0,0
+後片付け,cleaning up,0,0,0,0
+言付ける,leave a message,0,0,0,0
+保守,conservation,0,0,0,0
+伝統,tradition,0,0,0,0
+伝わる,be transmitted,0,0,0,0
+伝説,legend,0,0,0,0
+手伝い,help,0,0,0,0
+真っ先,first thing,0,0,0,0
+伝言,verbal message,0,0,0,0
+固有,peculiar to,0,0,0,0
+小鳥,small bird,0,0,0,0
+焼き鳥,yakitori,0,0,0,0
+からす,crow,0,0,0,0
+悲鳴,shriek,0,0,0,0
+周囲,circumference,0,0,0,0
+雑音,noise,0,0,0,0
+大声,loud voice,0,0,0,0
+高まる,rise,0,0,0,0
+響く,reverberate,0,0,0,0
+笑い声,laughter,0,0,0,0
+泣き声,tearful voice,0,0,0,0
+話し声,voice,0,0,0,0
+混じる,be blended,0,0,0,0
+世話,take care of,0,0,0,0
+ぐるぐる,round and round,0,0,0,0
+くすぐったい,ticklish,0,0,0,0
+日課,daily routine,0,0,0,0
+放す,release,0,0,0,0
+利口,clever,0,0,0,0
+なめる,lick,0,0,0,0
+禁止,prohibition,0,0,0,0
+警告,warning,0,0,0,0
+後ろ向き,facing backward,0,0,0,0
+取り締まり,regulation,0,0,0,0
+駐車,parking,0,0,0,0
+騒ぎ,clamor,0,0,0,0
+騒がしい,noisy,0,0,0,0
+がやがや,chatter loudly,0,0,0,0
+騒音,noise,0,0,0,0
+騒動,disturbance,0,0,0,0
+騒々しい,noisy,0,0,0,0
+飼う,raise,0,0,0,0
+いか,squid,0,0,0,0
+名刺,business card,0,0,0,0
+まぐろ,tuna,0,0,0,0
+わさび,wasabi,0,0,0,0
+急激,sudden,0,0,0,0
+刺激,stimulus,0,0,0,0
+感激,deep emotion,0,0,0,0
+日中,Sino-Japanese,0,0,0,0
+天候,weather,0,0,0,0
+人通り,traffic,0,0,0,0
+脳,brain,0,0,0,0
+興味,interest,0,0,0,0
+西洋,the West,0,0,0,0
+起源,origin,0,0,0,0
+一向に,absolutely,0,0,0,0
+民族,race,0,0,0,0
+パターン,pattern,0,0,0,0
+文学,literature,0,0,0,0
+興奮,excitement,0,0,0,0
+観客,audience,0,0,0,0
+現代,present age,0,0,0,0
+驚かす,surprise,0,0,0,0
+至る,come to,0,0,0,0
+至る所,everywhere,0,0,0,0
+至急,urgent,0,0,0,0
+末,the end,0,0,0,0
+出荷,shipping,0,0,0,0
+一致,accord,0,0,0,0
+致す,humbly do,0,0,0,0
+遅れ,delay,0,0,0,0
+到着,arrival,0,0,0,0
+地点,spot,0,0,0,0
+過労,overwork,0,0,0,0
+急病,sudden illness,0,0,0,0
+倒産,insolvency,0,0,0,0
+面倒,troublesome,0,0,0,0
+疲労,fatigue,0,0,0,0
+並木,row of trees,0,0,0,0
+斜め,diagonal,0,0,0,0
+たっぷり,fully,0,0,0,0
+傾く,decline,0,0,0,0
+傾ける,lean,0,0,0,0
+坂,slope,0,0,0,0
+緩やか,slack,0,0,0,0
+チェンジ,change,0,0,0,0
+狭まる,become narrow,0,0,0,0
+狭める,narrow,0,0,0,0
+空間,space,0,0,0,0
+幅,width,0,0,0,0
+徐行,slow speed,0,0,0,0
+血管,blood vessel,0,0,0,0
+硬さ,hardness,0,0,0,0
+自然に,naturally,0,0,0,0
+柔軟,pliable,0,0,0,0
+傷める,damage,0,0,0,0
+柔らかい,soft,0,0,0,0
+緊急,urgent,0,0,0,0
+緊張,tension,0,0,0,0
+しばしば,often,0,0,0,0
+出張,business trip,0,0,0,0
+命じる,order,0,0,0,0
+人前,in front of other people,0,0,0,0
+張り切る,go all out,0,0,0,0
+欲張り,greed,0,0,0,0
+衝突,collision,0,0,0,0
+失業,unemployment,0,0,0,0
+煙突,chimney,0,0,0,0
+十字路,crossroads,0,0,0,0
+海上,maritime,0,0,0,0
+言い出す,begin to speak,0,0,0,0
+煙,smoke,0,0,0,0
+突然,abruptly,0,0,0,0
+突く,thrust,0,0,0,0
+発熱,generation of heat,0,0,0,0
+追突,collision,0,0,0,0
+どきっと,surprised,0,0,0,0
+停止,stop,0,0,0,0
+滑らか,smooth,0,0,0,0
+触れる,touch,0,0,0,0
+寝室,bedroom,0,0,0,0
+くっ付ける,join,0,0,0,0
+ぶつける,bump,0,0,0,0
+はげる,come off,0,0,0,0
+避ける,avoid,0,0,0,0
+訓練,training,0,0,0,0
+最悪,the worst,0,0,0,0
+避難,refuge,0,0,0,0
+基地,base,0,0,0,0
+軍事,military affairs,0,0,0,0
+自衛隊,Self Defense Forces,0,0,0,0
+軍隊,army,0,0,0,0
+墜落,fall,0,0,0,0
+旅客機,passenger plane,0,0,0,0
+兵器,arms,0,0,0,0
+結核,tuberculosis,0,0,0,0
+武器,weapon,0,0,0,0
+兵隊,soldier,0,0,0,0
+弾,bullet,0,0,0,0
+弾む,spring back,0,0,0,0
+試し,trial,0,0,0,0
+シャッター,shutter,0,0,0,0
+くしゃくしゃ,messy,0,0,0,0
+真ん丸,perfect circle,0,0,0,0
+専攻,major,0,0,0,0
+攻める,attack,0,0,0,0
+ジャーナリズム,journalism,0,0,0,0
+人文科学,humanities,0,0,0,0
+美術,art,0,0,0,0
+物理,physics,0,0,0,0
+怒り,anger,0,0,0,0
+管,pipe,0,0,0,0
+兵士,soldier,0,0,0,0
+爆発,explosion,0,0,0,0
+爆弾,bomb,0,0,0,0
+起こす,bring about,0,0,0,0
+暴れる,act violently,0,0,0,0
+暴落,slump,0,0,0,0
+説く,explain,0,0,0,0
+暴力,violence,0,0,0,0
+乱暴,violence,0,0,0,0
+悲しみ,grief,0,0,0,0
+改良,improvement,0,0,0,0
+争い,conflict,0,0,0,0
+絶対,absolutely,0,0,0,0
+気絶,fainting,0,0,0,0
+絶えず,constantly,0,0,0,0
+笑い,laughter,0,0,0,0
+肉体,body,0,0,0,0
+滅びる,go to ruin,0,0,0,0
+設置,establishment,0,0,0,0
+核,core,0,0,0,0
+防衛,defense,0,0,0,0
+防止,prevention,0,0,0,0
+防火,fire prevention,0,0,0,0
+天災,natural disaster,0,0,0,0
+妨害,hindrance,0,0,0,0
+嫌う,dislike,0,0,0,0
+嫌がる,dislike,0,0,0,0
+機嫌,mood,0,0,0,0
+好き嫌い,likes and dislikes,0,0,0,0
+徹夜,staying up all night,0,0,0,0
+生物,living creature,0,0,0,0
+徹底的,thorough,0,0,0,0
+到底,after all,0,0,0,0
+抗議,protest,0,0,0,0
+抵抗,resistance,0,0,0,0
+グリーン,green,0,0,0,0
+素敵,lovely,0,0,0,0
+男性,male,0,0,0,0
+デザイン,design,0,0,0,0
+破る,defeat,0,0,0,0
+ドレス,dress,0,0,0,0
+横顔,profile,0,0,0,0
+敵,enemy,0,0,0,0
+脅かす,threaten,0,0,0,0
+権威,authority,0,0,0,0
+威張る,put on airs,0,0,0,0
+情勢,state of things,0,0,0,0
+勢い,vigor,0,0,0,0
+方々,people,0,0,0,0
+見物人,spectator,0,0,0,0
+態勢,state,0,0,0,0
+映す,reflect,0,0,0,0
+書道,Japanese calligraphy,0,0,0,0
+受け身,passiveness,0,0,0,0
+現す,show,0,0,0,0
+常に,always,0,0,0,0
+死,death,0,0,0,0
+恐れる,fear,0,0,0,0
+恐らく,probably,0,0,0,0
+顔付き,face,0,0,0,0
+怖がる,be afraid of,0,0,0,0
+巨大,huge,0,0,0,0
+拒否,denial,0,0,0,0
+系列,affiliation,0,0,0,0
+系統,system,0,0,0,0
+体系,system,0,0,0,0
+理系,science,0,0,0,0
+文系,liberal arts,0,0,0,0
+子孫,descendant,0,0,0,0
+絹,silk,0,0,0,0
+綿,cotton,0,0,0,0
+維持,maintenance,0,0,0,0
+紳士,gentleman,0,0,0,0
+繁栄,prosperity,0,0,0,0
+偉大,great,0,0,0,0
+発明,invention,0,0,0,0
+日韓,Japan and Korea,0,0,0,0
+刀,sword,0,0,0,0
+かみそり,razor,0,0,0,0
+耐える,withstand,0,0,0,0
+矢印,arrow,0,0,0,0
+孤独,solitary,0,0,0,0
+爪切り,nail clipper,0,0,0,0
+ざらざら,rough,0,0,0,0
+散らばる,be scattered,0,0,0,0
+枠,frame,0,0,0,0
+水平,horizontal,0,0,0,0
+振動,vibration,0,0,0,0
+端,end,0,0,0,0
+固定,fixing,0,0,0,0
+先端,edge,0,0,0,0
+棒,rod,0,0,0,0
+細長い,long and thin,0,0,0,0
+事柄,matter,0,0,0,0
+柄,pattern,0,0,0,0
+人柄,character,0,0,0,0
+武士,samurai,0,0,0,0
+重み,weight,0,0,0,0
+枝,branch,0,0,0,0
+草木,plants and trees,0,0,0,0
+木枯らし,cold wintry wind,0,0,0,0
+詩,poetry,0,0,0,0
+詩人,poet,0,0,0,0
+着替え,change of clothes,0,0,0,0
+パイプ,pipe,0,0,0,0
+詰める,stuff,0,0,0,0
+詰まる,be stuffed,0,0,0,0
+無理やり,by force,0,0,0,0
+譲る,transfer,0,0,0,0
+年配,age,0,0,0,0
+欠く,lack,0,0,0,0
+誠実,sincerity,0,0,0,0
+誠に,truly,0,0,0,0
+盛ん,prosperous,0,0,0,0
+登場,appearance on stage,0,0,0,0
+盛り上げる,build up excitement,0,0,0,0
+地方,district,0,0,0,0
+盛り上がる,become lively,0,0,0,0
+盛る,heap up,0,0,0,0
+謙遜,humility,0,0,0,0
+兼ねる,serve two functions,0,0,0,0
+公式,formal,0,0,0,0
+通す,let pass,0,0,0,0
+針,needle,0,0,0,0
+ペンチ,pliers,0,0,0,0
+確かめる,make sure of,0,0,0,0
+名人,master,0,0,0,0
+釣り,angling,0,0,0,0
+逃がす,let go,0,0,0,0
+釣り合い,balance,0,0,0,0
+釣り合う,balance,0,0,0,0
+鈍い,dull,0,0,0,0
+鈍感,thick-headedness,0,0,0,0
+鎖,chain,0,0,0,0
+申す,speak humbly,0,0,0,0
+作製,manufacture,0,0,0,0
+鑑賞,viewing,0,0,0,0
+印鑑,personal seal,0,0,0,0
+鐘,bell,0,0,0,0
+観賞,ornamental,0,0,0,0
+アルミニウム,aluminum,0,0,0,0
+鉄,iron,0,0,0,0
+出前,home delivery of food,0,0,0,0
+谷,valley,0,0,0,0
+余裕,room,0,0,0,0
+海水浴,sea bathing,0,0,0,0
+入浴,bathing,0,0,0,0
+赤道,equator,0,0,0,0
+沿う,lie along,0,0,0,0
+砂浜,sandy beach,0,0,0,0
+浜,beach,0,0,0,0
+はだし,barefoot,0,0,0,0
+浮かぶ,float,0,0,0,0
+沖,offshore,0,0,0,0
+湾,bay,0,0,0,0
+泉,spring,0,0,0,0
+温泉,hot spring,0,0,0,0
+天然,nature,0,0,0,0
+上流,upstream,0,0,0,0
+下流,downstream,0,0,0,0
+広場,square,0,0,0,0
+慣らす,accustom,0,0,0,0
+潜る,dive into,0,0,0,0
+冷淡,cool,0,0,0,0
+濁る,get cloudy,0,0,0,0
+澄む,clear,0,0,0,0
+あふれる,over flow,0,0,0,0
+ポット,pot,0,0,0,0
+湯気,steam,0,0,0,0
+喜び,joy,0,0,0,0
+湿る,get damp,0,0,0,0
+多量,large quantity,0,0,0,0
+漏れる,leak,0,0,0,0
+漏らす,give away,0,0,0,0
+底,bottom,0,0,0,0
+大部分,most,0,0,0,0
+濡らす,wet,0,0,0,0
+溝,ditch,0,0,0,0
+ねぎ,Welsh onion,0,0,0,0
+危機,crisis,0,0,0,0
+叫び,shout,0,0,0,0
+叫ぶ,shout,0,0,0,0
+吐く,holler,0,0,0,0
+嘆く,sigh,0,0,0,0
+喫煙,smoking,0,0,0,0
+痛む,feel pain,0,0,0,0
+音,sound,0,0,0,0
+予防,prevention,0,0,0,0
+虫歯,decayed tooth,0,0,0,0
+虫,insect,0,0,0,0
+忠実,faithfulness,0,0,0,0
+忠告,advice,0,0,0,0
+いけない,wrong,0,0,0,0
+懸ける,stake,0,0,0,0
+一まず,first of all,0,0,0,0
+恩,debt of gratitude,0,0,0,0
+恵まれる,be blessed,0,0,0,0
+天,sky,0,0,0,0
+道徳,morality,0,0,0,0
+知り合い,acquaintance,0,0,0,0
+市街,the streets,0,0,0,0
+問屋,wholesale store,0,0,0,0
+直径,diameter,0,0,0,0
+半径,radius,0,0,0,0
+和室,Japanese style room,0,0,0,0
+漏る,leak,0,0,0,0
+丼,bowl,0,0,0,0
+小量,small amount,0,0,0,0
+転がす,roll,0,0,0,0
+粉,powder,0,0,0,0
+粒,grain,0,0,0,0
+小麦,wheat,0,0,0,0
+小麦粉,flour,0,0,0,0
+大麦,barley,0,0,0,0
+量る,measure,0,0,0,0
+一帯,area,0,0,0,0
+取れる,be harvested,0,0,0,0
+麦,wheat,0,0,0,0
+田畑,fields and rice paddies,0,0,0,0
+炊事,cooking,0,0,0,0
+灯油,kerosene,0,0,0,0
+電灯,lamp,0,0,0,0
+炎,flame,0,0,0,0
+スモッグ,smog,0,0,0,0
+暦,calendar,0,0,0,0
+年月日,date,0,0,0,0
+皮,peel,0,0,0,0
+皮肉,cynicism,0,0,0,0
+むける,come off,0,0,0,0
+むく,peel,0,0,0,0
+皮膚,skin,0,0,0,0
+毛皮,fur,0,0,0,0
+税関,custom house,0,0,0,0
+毛糸,woolen yarn,0,0,0,0
+ブラシ,brush,0,0,0,0
+尾,tail,0,0,0,0
+結ぶ,tie,0,0,0,0
+乱れる,be disordered,0,0,0,0
+そっと,softly,0,0,0,0
+ピン,hairpin,0,0,0,0
+染める,dye,0,0,0,0
+いきなり,all of a sudden,0,0,0,0
+張る,strain,0,0,0,0
+もむ,rub,0,0,0,0
+耳鼻科,otorhinology,0,0,0,0
+唇,lip,0,0,0,0
+臭い,smell,0,0,0,0
+生臭い,smelling of fish,0,0,0,0
+臭う,stink,0,0,0,0
+面倒臭い,troublesome,0,0,0,0
+匂う,smell,0,0,0,0
+ベスト,best,0,0,0,0
+解釈,interpretation,0,0,0,0
+居間,living room,0,0,0,0
+居る,be present,0,0,0,0
+間,interval,0,0,0,0
+まあ,well,0,0,0,0
+同居,living together,0,0,0,0
+土,soil,0,0,0,0
+寄せる,draw near,0,0,0,0
+一層,more,0,0,0,0
+高層,high altitude,0,0,0,0
+そびえる,tower,0,0,0,0
+大層,very,0,0,0,0
+履歴,history,0,0,0,0
+履歴書,resume,0,0,0,0
+覆う,cover,0,0,0,0
+戸籍,family register,0,0,0,0
+ガラス戸,glass door,0,0,0,0
+成年,majority,0,0,0,0
+薬品,medicine,0,0,0,0
+戸棚,closet,0,0,0,0
+扉,door,0,0,0,0
+うちわ,round paper fan,0,0,0,0
+羽根,feather,0,0,0,0
+翌日,the following day,0,0,0,0
+翌朝,the following morning,0,0,0,0
+翌年,the following year,0,0,0,0
+陸,land,0,0,0,0
+新鮮,fresh,0,0,0,0
+市場,market,0,0,0,0
+鮮やか,vivid,0,0,0,0
+あり,ant,0,0,0,0
+群集,crowd,0,0,0,0
+群れ,crowd,0,0,0,0
+郡,county,0,0,0,0
+スケジュール,schedule,0,0,0,0
+君,you,0,0,0,0
+連れる,take along,0,0,0,0
+任せる,entrust to,0,0,0,0
+長所,strong point,0,0,0,0
+殴る,hit,0,0,0,0
+要旨,gist,0,0,0,0
+脂,fat,0,0,0,0
+脂肪,fat,0,0,0,0
+すべすべ,smooth,0,0,0,0
+肌,skin,0,0,0,0
+肌着,underwear,0,0,0,0
+肌色,flesh color,0,0,0,0
+コック,cook,0,0,0,0
+領域,territory,0,0,0,0
+胃腸,stomach and intestines,0,0,0,0
+腸,intestines,0,0,0,0
+肝心,vital,0,0,0,0
+大胆,boldness,0,0,0,0
+幕,curtain,0,0,0,0
+暮らす,live,0,0,0,0
+暮らし,living,0,0,0,0
+暮れ,dusk,0,0,0,0
+暮れる,grow dark,0,0,0,0
+温暖,warm,0,0,0,0
+お歳暮,year-end gift,0,0,0,0
+ぜいたく,luxury,0,0,0,0
+わずか,few,0,0,0,0
+不自由,inconvenience,0,0,0,0
+調和,harmony,0,0,0,0
+望み,desire,0,0,0,0
+夕暮れ,evening,0,0,0,0
+仲良く,harmoniously,0,0,0,0
+王,king,0,0,0,0
+墓地,graveyard,0,0,0,0
+墓参り,visit to a grave,0,0,0,0
+芝生,lawn,0,0,0,0
+芽,bud,0,0,0,0
+茎,stem,0,0,0,0
+順々に,by turns,0,0,0,0
+つまむ,munch on,0,0,0,0
+推薦,recommendation,0,0,0,0
+沿岸,coast,0,0,0,0
+荒れる,be wild,0,0,0,0
+荒い,wild,0,0,0,0
+荒い,harsh,0,0,0,0
+荒す,damage,0,0,0,0
+慌ただしい,busy,0,0,0,0
+慌てる,be flurried,0,0,0,0
+葬式,funeral ceremony,0,0,0,0
+儀式,ceremony,0,0,0,0
+行儀,manners,0,0,0,0
+礼儀,good manners,0,0,0,0
+犠牲,sacrifice,0,0,0,0
+悪,evil,0,0,0,0
+憎む,hate,0,0,0,0
+憎しみ,hatred,0,0,0,0
+憎らしい,hateful,0,0,0,0
+憎い,hateful,0,0,0,0
+仏,buddha,0,0,0,0
+仏教,Buddhism,0,0,0,0
+日,Japan,0,0,0,0
+お坊さん,monk,0,0,0,0
+鳴らす,ring,0,0,0,0
+題名,title,0,0,0,0
+坊さん,Buddhist priest,0,0,0,0
+乗り遅れる,miss,0,0,0,0
+ホット,hot,0,0,0,0
+国旗,national flag,0,0,0,0
+日の丸,Rising Sun Flag,0,0,0,0
+筆者,writer,0,0,0,0
+筆記試験,written examination,0,0,0,0
+とがる,be sharp,0,0,0,0
+筆記用具,writing materials,0,0,0,0
+筆,writing brush,0,0,0,0
+竹,bamboo,0,0,0,0
+笛,flute,0,0,0,0
+名簿,registry,0,0,0,0
+全身,the whole body,0,0,0,0
+筋肉,muscle,0,0,0,0
+筋道,method,0,0,0,0
+筋,muscle,0,0,0,0
+伸ばす,stretch,0,0,0,0
+光,light,0,0,0,0
+ぎっしり,tightly,0,0,0,0
+小,smallness,0,0,0,0
+食料,food supplies,0,0,0,0
+ふた,lid,0,0,0,0
+水色,sky blue,0,0,0,0
+透明,transparent,0,0,0,0
+座布団,cushion,0,0,0,0
+まし,more,0,0,0,0
+すり,pickpocket,0,0,0,0
+落とし物,lost property,0,0,0,0
+突っ込む,thrust in,0,0,0,0
+たった,only,0,0,0,0
+ふわふわ,soft,0,0,0,0
+取り出す,take out,0,0,0,0
+布,cloth,0,0,0,0
+自己,oneself,0,0,0,0
+切れ,sharpness,0,0,0,0
+包丁,kitchen knife,0,0,0,0
+包み,package,0,0,0,0
+包み紙,wrapping paper,0,0,0,0
+抱える,hold in one's arms,0,0,0,0
+抱く,embrace,0,0,0,0
+悩み,troubles,0,0,0,0
+少量,small quantity,0,0,0,0
+句,phrase,0,0,0,0
+慣用句,idiom,0,0,0,0
+文句,complaint,0,0,0,0
+下旬,end of the month,0,0,0,0
+上旬,beginning of the month,0,0,0,0
+中旬,middle ten days of a month,0,0,0,0
+飽きる,be fed up,0,0,0,0
+額,picture frame,0,0,0,0
+飾り,ornament,0,0,0,0
+餌,bait,0,0,0,0
+平凡,common,0,0,0,0
+通帳,bankbook,0,0,0,0
+旧,old,0,0,0,0
+育児,childcare,0,0,0,0
+小児科,pediatrics,0,0,0,0
+妊娠,pregnancy,0,0,0,0
+姓名,full name,0,0,0,0
+姓,surname,0,0,0,0
+同姓,same surname,0,0,0,0
+嫁,bride,0,0,0,0
+花嫁,bride,0,0,0,0
+花婿,bridegroom,0,0,0,0
+品切れ,run out,0,0,0,0
+親類,relatives,0,0,0,0
+幼い,young,0,0,0,0
+幼児,young child,0,0,0,0
+がさがさ,rustle,0,0,0,0
+着ける,pull up,0,0,0,0
+眼科,ophthalmology,0,0,0,0
+近眼,nearsightedness,0,0,0,0
+レンズ,lens,0,0,0,0
+快い,pleasant,0,0,0,0
+すっきり,refreshed,0,0,0,0
+すやすや,peaceful and content,0,0,0,0
+居眠り,doze,0,0,0,0
+単に,merely,0,0,0,0
+催す,feel,0,0,0,0
+膨れる,expand,0,0,0,0
+乗り越す,ride past,0,0,0,0
+眠たい,sleepy,0,0,0,0
+眠り,sleep,0,0,0,0
+まぶた,eyelid,0,0,0,0
+眺め,view,0,0,0,0
+一瞬,instant,0,0,0,0
+睡眠,sleep,0,0,0,0
+垂直,vertical,0,0,0,0
+同封,enclosure,0,0,0,0
+封,seal,0,0,0,0
+圧力,pressure,0,0,0,0
+回転,revolution,0,0,0,0
+カバー,cover,0,0,0,0
+心掛ける,bear in mind,0,0,0,0
+腰掛ける,sit down,0,0,0,0
+男らしい,manly,0,0,0,0
+寒暖計,thermometer,0,0,0,0
+腰掛け,stool,0,0,0,0
+じゃんじゃん,many times,0,0,0,0
+呼び掛ける,call to,0,0,0,0
+引っ掛かる,be caught,0,0,0,0
+話し掛ける,address someone,0,0,0,0
+通り掛かる,happen to pass by,0,0,0,0
+引っ掛ける,hook on,0,0,0,0
+寄り掛かる,lean against something,0,0,0,0
+措置,measure,0,0,0,0
+拝む,bow in veneration,0,0,0,0
+拝見,humbly look at or see,0,0,0,0
+控える,hold back,0,0,0,0
+控え室,waiting room,0,0,0,0
+コンセント,outlet,0,0,0,0
+当番,being on duty,0,0,0,0
+見違える,mistake,0,0,0,0
+ほうき,broom,0,0,0,0
+差し出す,submit,0,0,0,0
+少女,girl,0,0,0,0
+上,upper,0,0,0,0
+弱み,weakness,0,0,0,0
+握り締める,squeeze,0,0,0,0
+両手,both hands,0,0,0,0
+設備,equipment,0,0,0,0
+各種,each kind,0,0,0,0
+揃う,be  together,0,0,0,0
+道具,tool,0,0,0,0
+括弧,parentheses,0,0,0,0
+マーケット,market,0,0,0,0
+オーケストラ,orchestra,0,0,0,0
+指揮,command,0,0,0,0
+輝く,shine brilliantly,0,0,0,0
+抑える,suppress,0,0,0,0
+欲求,want,0,0,0,0
+信仰,faith,0,0,0,0
+定年,mandatory retirement age,0,0,0,0
+出迎え,meeting,0,0,0,0
+保育園,day-care center,0,0,0,0
+迎え,greeting,0,0,0,0
+遂げる,accomplish,0,0,0,0
+目覚ましい,striking,0,0,0,0
+巡る,go round,0,0,0,0
+偶然,chance,0,0,0,0
+偶数,even number,0,0,0,0
+隅,nook,0,0,0,0
+城,castle,0,0,0,0
+栽培,cultivation,0,0,0,0
+警戒,vigilance,0,0,0,0
+挙げる,cite,0,0,0,0
+幾ら,no matter how much,0,0,0,0
+伺う,politely ask,0,0,0,0
+俳句,haiku,0,0,0,0
+俳優,actor,0,0,0,0
+動作,movements,0,0,0,0
+敏感,sensitive,0,0,0,0
+後悔,regret,0,0,0,0
+悔しい,vexing,0,0,0,0
+今更,now,0,0,0,0
+倣う,copy,0,0,0,0
+俺,i,0,0,0,0
+ロック,rock,0,0,0,0
+反感,ill feeling,0,0,0,0
+振り向く,turn around,0,0,0,0
+性格,character,0,0,0,0
+一部分,part,0,0,0,0
+肯定,affirmation,0,0,0,0
+空っぽ,empty,0,0,0,0
+オルガン,organ,0,0,0,0
+辛い,strict,0,0,0,0
+書き取り,dictation,0,0,0,0
+本気,seriousness,0,0,0,0
+つかむ,grip,0,0,0,0
+相撲,sumo wrestling,0,0,0,0
+入門,initiation,0,0,0,0
+不平,discontent,0,0,0,0
+寮,dormitory,0,0,0,0
+偏る,be one-sided,0,0,0,0
+偏見,prejudice,0,0,0,0
+一遍に,all at once,0,0,0,0
+何遍,how many times,0,0,0,0
+程,extent,0,0,0,0
+掘る,dig,0,0,0,0
+宗教,religion,0,0,0,0
+宣伝,publicity,0,0,0,0
+審議,deliberation,0,0,0,0
+憲法,constitution,0,0,0,0
+扱う,handle,0,0,0,0
+展覧会,exhibition,0,0,0,0
+資産,property,0,0,0,0
+非難,criticism,0,0,0,0
+総理大臣,prime minister,0,0,0,0
+大臣,minister,0,0,0,0
+休業,suspension of business,0,0,0,0
+臨む,be present at,0,0,0,0
+臨時,temporary,0,0,0,0
+改造,remodeling,0,0,0,0
+内閣,cabinet,0,0,0,0
+闘う,fight,0,0,0,0
+派閥,clique,0,0,0,0
+分裂,division,0,0,0,0
+衰える,weaken,0,0,0,0
+振り返る,turn one's head,0,0,0,0
+懐かしい,longed-for,0,0,0,0
+惜しむ,grudge,0,0,0,0
+惜しい,almost,0,0,0,0
+火山,volcano,0,0,0,0
+噴火,eruption,0,0,0,0
+噴水,jet,0,0,0,0
+恨み,grudge,0,0,0,0
+恨む,hold a grudge,0,0,0,0
+不愉快,unpleasant,0,0,0,0
+愉快,pleasant,0,0,0,0
+覚悟,readiness,0,0,0,0
+追う,chase,0,0,0,0
+親指,thumb,0,0,0,0
+怪しい,suspicious,0,0,0,0
+怪しむ,suspect,0,0,0,0
+軍,army,0,0,0,0
+鋭い,pointed,0,0,0,0
+防ぐ,prevent,0,0,0,0
+復活,revival,0,0,0,0
+付近,neighborhood,0,0,0,0
+手当て,allowance,0,0,0,0
+人差し指,index finger,0,0,0,0
+限界,boundary,0,0,0,0
+自慢,showing off,0,0,0,0
+感心,admiration,0,0,0,0
+少々,a little,0,0,0,0
+下品,vulgar,0,0,0,0
+漫画,manga,0,0,0,0
+囲む,enclose,0,0,0,0
+食卓,dining table,0,0,0,0
+元,origin,0,0,0,0
+電卓,pocket calculator,0,0,0,0
+歓迎,welcome,0,0,0,0
+医師,doctor,0,0,0,0
+勧める,suggest,0,0,0,0
+焦る,feel pressured,0,0,0,0
+焦げる,scorch,0,0,0,0
+英雄,hero,0,0,0,0
+山脈,mountain range,0,0,0,0
+雄大,grand,0,0,0,0
+正に,just,0,0,0,0
+獲得,acquisition,0,0,0,0
+収穫,harvest,0,0,0,0
+幼稚,childish,0,0,0,0
+稲,rice plant,0,0,0,0
+稼ぐ,earn,0,0,0,0
+学費,school expenses,0,0,0,0
+名称,name,0,0,0,0
+秩序,order,0,0,0,0
+原稿用紙,manuscript paper,0,0,0,0
+性質,nature,0,0,0,0
+穏やか,calm,0,0,0,0
+波,wave,0,0,0,0
+隠す,hide,0,0,0,0
+驚き,surprise,0,0,0,0
+お陰,help,0,0,0,0
+陰,shade,0,0,0,0
+物陰,place behind something,0,0,0,0
+魅力,charm,0,0,0,0
+塊,lump,0,0,0,0
+醜い,ugly,0,0,0,0
+卑しい,mean,0,0,0,0
+砕く,crush,0,0,0,0
+砕ける,be crushed,0,0,0,0
+基礎,basis,0,0,0,0
+貝,shellfish,0,0,0,0
+ぬるぬる,slimy,0,0,0,0
+浜辺,beach,0,0,0,0
+賢い,wise,0,0,0,0
+王様,king,0,0,0,0
+悪賢い,cunning,0,0,0,0
+頻りに,frequently,0,0,0,0
+心理,mental state,0,0,0,0
+決勝,final,0,0,0,0
+頑固,stubborn,0,0,0,0
+ぴょんぴょん,jump,0,0,0,0
+あきれる,to be stunned,0,0,0,0
+せいぜい,at most,0,0,0,0
+祝い,celebration,0,0,0,0
+頂く,receive,0,0,0,0
+到達,arrival,0,0,0,0
+頂上,summit,0,0,0,0
+見下ろす,look down,0,0,0,0
+マヨネーズ,mayonnaise,0,0,0,0
+勢力,influence,0,0,0,0
+学問,learning,0,0,0,0
+青春,youth,0,0,0,0
+赤ん坊,baby,0,0,0,0
+秋分,autumnal equinox,0,0,0,0
+春分,vernal equinox,0,0,0,0
+不機嫌,bad mood,0,0,0,0
+近頃,recently,0,0,0,0
+矛盾,contradiction,0,0,0,0
+倉庫,warehouse,0,0,0,0
+創立,establishment,0,0,0,0
+一斉に,all together,0,0,0,0
+強力,powerful,0,0,0,0
+液体,liquid,0,0,0,0
+真剣,serious,0,0,0,0
+演じる,perform,0,0,0,0
+刑務所,prison,0,0,0,0
+刑事,detective,0,0,0,0
+罰金,fine,0,0,0,0
+罰する,punish,0,0,0,0
+罰,punishment,0,0,0,0
+一般に,generally,0,0,0,0
+老人,old person,0,0,0,0
+楽しみ,pleasure,0,0,0,0
+物知り,knowledgeable person,0,0,0,0
+豆,bean,0,0,0,0
+煮る,boil,0,0,0,0
+煮える,boil,0,0,0,0
+蒸し暑い,humid,0,0,0,0
+強烈,intense,0,0,0,0
+黙る,become silent,0,0,0,0
+獣,beast,0,0,0,0
+税金,tax,0,0,0,0
+無駄,no good,0,0,0,0
+無駄遣い,wasting money,0,0,0,0
+応援,support,0,0,0,0
+駆ける,gallop,0,0,0,0
+駆け足,gallop,0,0,0,0
+気体,gas,0,0,0,0
+沸騰,boiling,0,0,0,0
+丘,hill,0,0,0,0
+見渡す,look out over,0,0,0,0
+民間,citizens,0,0,0,0
+返却,return,0,0,0,0
+官庁,government office,0,0,0,0
+県庁,prefectural office,0,0,0,0
+庁,public office,0,0,0,0
+都庁,Tokyo Metropolitan City Hall,0,0,0,0
+府庁,urban prefectural office,0,0,0,0
+栄養,nutrition,0,0,0,0
+洗剤,detergent,0,0,0,0
+ペンキ,paint,0,0,0,0
+つるつる,smooth,0,0,0,0
+生じる,happen,0,0,0,0
+擦る,rub,0,0,0,0
+摩擦,friction,0,0,0,0
+汗,sweat,0,0,0,0
+額,forehead,0,0,0,0
+びっしょり,soaked,0,0,0,0
+てのひら,palm,0,0,0,0
+軸,axis,0,0,0,0
+後輩,one's junior,0,0,0,0
+先輩,senior,0,0,0,0
+製作,manufacture,0,0,0,0
+香り,perfume,0,0,0,0
+香水,perfume,0,0,0,0
+あえて,boldly,0,0,0,0
+冒険,adventure,0,0,0,0
+合唱,chorus,0,0,0,0
+かえる,frog,0,0,0,0
+結晶,crystallization,0,0,0,0
+人格,character,0,0,0,0
+敬う,respect,0,0,0,0
+座敷,drawing room,0,0,0,0
+敷金,deposit,0,0,0,0
+取り敢えず,for now,0,0,0,0
+消防,fire fighting,0,0,0,0
+勇気,courage,0,0,0,0
+勇敢,brave,0,0,0,0
+劣る,be inferior to,0,0,0,0
+励ます,encourage,0,0,0,0
+わく,well up,0,0,0,0
+実は,actually,0,0,0,0
+勘定,check,0,0,0,0
+勘,sense,0,0,0,0
+勘違い,misunderstanding,0,0,0,0
+ごろごろ,rumble,0,0,0,0
+霧,fog,0,0,0,0
+開ける,widen,0,0,0,0
+霜,frost,0,0,0,0
+露,dew,0,0,0,0
+零下,below zero,0,0,0,0
+雰囲気,atmosphere,0,0,0,0
+和らげる,soften,0,0,0,0
+盆地,valley,0,0,0,0
+盆,Bon Festival,0,0,0,0
+盆,tray,0,0,0,0
+解散,breakup,0,0,0,0
+公衆,the public,0,0,0,0
+衆議院,House of Representatives,0,0,0,0
+観衆,audience,0,0,0,0
+群衆,the masses,0,0,0,0
+大衆,the masses,0,0,0,0
+どっと,burst,0,0,0,0
+暑中見舞い,summer greeting,0,0,0,0
+お仕舞い,finished,0,0,0,0
+舞台,stage,0,0,0,0
+見舞う,visit someone,0,0,0,0
+見舞い,personal visit,0,0,0,0
+ひらりと,lightly,0,0,0,0
+軽快,light,0,0,0,0
+リード,the lead,0,0,0,0
+盆踊り,Bon Festival dance,0,0,0,0
+海洋,ocean,0,0,0,0
+ブレーキ,brake,0,0,0,0
+跳ねる,leap,0,0,0,0
+金銭,money,0,0,0,0
+銭湯,public bath,0,0,0,0
+古里,hometown,0,0,0,0
+児童,child,0,0,0,0
+図書,books,0,0,0,0
+埋める,bury,0,0,0,0
+埋める,bury,0,0,0,0
+墨,black ink,0,0,0,0
+講堂,lecture hall,0,0,0,0
+セルフサービス,self-service,0,0,0,0
+決意,resolution,0,0,0,0
+奨学金,scholarship,0,0,0,0
+狂う,become insane,0,0,0,0
+瞬間,instant,0,0,0,0
+障子,paper sliding-door,0,0,0,0
+転がる,roll over,0,0,0,0
+くるくる,round and round,0,0,0,0
+雄,male,0,0,0,0
+可愛がる,love,0,0,0,0
+眺める,look out,0,0,0,0
+線路,line,0,0,0,0
+横切る,cross,0,0,0,0
+塀,fence,0,0,0,0
+名付ける,name,0,0,0,0
+百科事典,encyclopedia,0,0,0,0
+飛び下りる,jump off,0,0,0,0
+雌,female,0,0,0,0
+猿,monkey,0,0,0,0
+ジャンプ,jump,0,0,0,0
+ぶら下がる,hang down,0,0,0,0
+狙う,aim,0,0,0,0
+地獄,hell,0,0,0,0
+章,chapter,0,0,0,0
+目次,table of contents,0,0,0,0
+彫る,engrave,0,0,0,0
+車輪,wheel,0,0,0,0
+頑丈,solid,0,0,0,0
+生まれつき,born,0,0,0,0
+服装,clothes,0,0,0,0
+中央,center,0,0,0,0
+双子,twins,0,0,0,0
+恐れ,fear,0,0,0,0
+役人,government official,0,0,0,0
+牧場,stock farm,0,0,0,0
+寄る,stop by,0,0,0,0
+年中,all year,0,0,0,0
+祈る,pray,0,0,0,0
+裸,naked body,0,0,0,0
+襟,collar,0,0,0,0
+心臓,heart,0,0,0,0
+戦場,battlefield,0,0,0,0
+戦死,death in war,0,0,0,0
+先祖,forefather,0,0,0,0
+親戚,a relative,0,0,0,0
+市外,city outskirts,0,0,0,0
+白髪,white hair,0,0,0,0
+仮名遣い,kana orthography,0,0,0,0
+がん,cancer,0,0,0,0
+抱く,hug,0,0,0,0
+墓,grave,0,0,0,0
+大正,Taisho era,0,0,0,0
+明治,Meiji era,0,0,0,0
+祖先,ancestor,0,0,0,0
+粗筋,outline,0,0,0,0
+酢,vinegar,0,0,0,0
+報酬,remuneration,0,0,0,0
+郊外,suburbs,0,0,0,0
+近郊,suburbs,0,0,0,0
+学園,educational institution,0,0,0,0
+初期,early days,0,0,0,0
+邪魔,hindrance,0,0,0,0
+くしゃみ,sneeze,0,0,0,0
+無邪気,innocence,0,0,0,0
+つかまる,grip,0,0,0,0
+だるい,be dull,0,0,0,0
+大概,generally,0,0,0,0
+手洗い,toilet,0,0,0,0
+刻む,cut fine,0,0,0,0
+模様,pattern,0,0,0,0
+フライパン,frying pan,0,0,0,0
+玉ねぎ,onion,0,0,0,0
+玉,bead,0,0,0,0
+銅,copper,0,0,0,0
+象徴,symbol,0,0,0,0
+天皇,emperor,0,0,0,0
+浮かべる,set afloat,0,0,0,0
+班,squad,0,0,0,0
+召し上がる,eat,0,0,0,0
+学ぶ,learn,0,0,0,0
+哲学,philosophy,0,0,0,0
+改善,improvement,0,0,0,0
+親善,goodwill,0,0,0,0
+待遇,treatment,0,0,0,0
+綱,rope,0,0,0,0
+方面,direction,0,0,0,0
+縄,rope,0,0,0,0
+縛る,bind,0,0,0,0
+縫う,sew,0,0,0,0
+焦点,focus,0,0,0,0
+絞る,wring out,0,0,0,0
+紺,dark blue,0,0,0,0
+朝顔,morning glory,0,0,0,0
+紅葉,autumn leaves,0,0,0,0
+あちらこちら,all over,0,0,0,0
+クッキー,cookie,0,0,0,0
+口紅,lipstick,0,0,0,0
+虹,rainbow,0,0,0,0
+梅,plum blossom,0,0,0,0
+梅干,pickled plum,0,0,0,0
+じめじめ,feel damp,0,0,0,0
+梅雨明け,end of the rainy season,0,0,0,0
+梅雨入り,start of the rainy season,0,0,0,0
+解説,explanation,0,0,0,0
+読者,reader,0,0,0,0
+欄,column,0,0,0,0
+栓抜き,bottle opener,0,0,0,0
+巣,nest,0,0,0,0
+囲碁,"game of ""go""",0,0,0,0
+嘘つき,liar,0,0,0,0
+考慮,consideration,0,0,0,0
+癖,habit,0,0,0,0
+下痢,diarrhea,0,0,0,0
+越す,go over,0,0,0,0
+峠,mountain pass,0,0,0,0
+崩れる,crumble,0,0,0,0
+崖,cliff,0,0,0,0
+ロープ,rope,0,0,0,0
+幸い,happiness,0,0,0,0
+嵐,storm,0,0,0,0
+たとえ,even if,0,0,0,0
+海峡,straits,0,0,0,0
+噂,gossip,0,0,0,0
+広まる,spread,0,0,0,0
+広める,spread,0,0,0,0
+わがまま,selfishness,0,0,0,0
+田舎,country,0,0,0,0
+校舎,school building,0,0,0,0
+歌声,singing voice,0,0,0,0
+のどか,tranquil,0,0,0,0
+小雨,drizzle,0,0,0,0
+差す,open,0,0,0,0
+柄,handle,0,0,0,0
+お嬢さん,young lady,0,0,0,0
+婆さん,grandmother,0,0,0,0
+娯楽,amusement,0,0,0,0
+裏門,back gate,0,0,0,0
+生涯,for life,0,0,0,0
+地,ground,0,0,0,0
+白菜,nappa cabbage,0,0,0,0
+漬け物,pickle,0,0,0,0
+潰す,crush,0,0,0,0
+潰れる,crush,0,0,0,0
+汽車,train,0,0,0,0
+拡張,expansion,0,0,0,0
+印刷,printing,0,0,0,0
+年賀,New Year's card,0,0,0,0
+賭ける,bet,0,0,0,0
+連日,day after day,0,0,0,0
+賑わう,bustle,0,0,0,0
+ひねる,twist,0,0,0,0
+蛇,snake,0,0,0,0
+蛍光灯,fluorescent lamp,0,0,0,0
+合図,signal,0,0,0,0
+車掌,train conductor,0,0,0,0
+芋,potato,0,0,0,0
+菊,chrysanthemum,0,0,0,0
+華やか,gorgeous,0,0,0,0
+軽蔑,contempt,0,0,0,0
+さっと,quickly,0,0,0,0
+議長,chairman,0,0,0,0
+学長,college president,0,0,0,0
+にこやか,smiling,0,0,0,0
+閉会,closing,0,0,0,0
+年始,beginning of the year,0,0,0,0
+中指,middle finger,0,0,0,0
+挟む,trap,0,0,0,0
+揚げる,deep-fry,0,0,0,0
+塔,tower,0,0,0,0
+諦める,abandon,0,0,0,0
+誓う,vow,0,0,0,0
+演奏,musical performance,0,0,0,0
+定期,fixed term,0,0,0,0
+包帯,bandage,0,0,0,0
+撃つ,fire,0,0,0,0
+支社,branch office,0,0,0,0
+転勤,transfer,0,0,0,0
+府,urban prefecture,0,0,0,0
+窮屈,tight,0,0,0,0
+くっ付く,stick,0,0,0,0
+ずらり,line up neatly,0,0,0,0
+かかと,heel,0,0,0,0
+砂,sand,0,0,0,0
+メーカー,maker,0,0,0,0
+予備,reserve,0,0,0,0
+履物,footwear,0,0,0,0
+フルーツ,fruit,0,0,0,0
+泥,mud,0,0,0,0
+ほどく,undo,0,0,0,0
+貨幣,money,0,0,0,0
+真珠,pearl,0,0,0,0
+慰める,console,0,0,0,0
+風呂場,bathroom,0,0,0,0
+へそ,the navel,0,0,0,0
+足音,sound of footsteps,0,0,0,0
+故郷,hometown,0,0,0,0
+べたべた,stick together,0,0,0,0
+晩年,late in life,0,0,0,0
+朗らか,cheerful,0,0,0,0
+枯れる,wither,0,0,0,0
+花瓶,flower vase,0,0,0,0
+空,emptiness,0,0,0,0
+向き,direction,0,0,0,0
+揃える,align,0,0,0,0
+一旦,once,0,0,0,0
+乞食,beggar,0,0,0,0
+空中,in the air,0,0,0,0
+網,net,0,0,0,0
+捕まえる,arrest,0,0,0,0
+蝶蝶,butterfly,0,0,0,0
+寿命,life span,0,0,0,0
+亀,turtle,0,0,0,0
+羨ましい,envious,0,0,0,0
+ぱんだ,panda,0,0,0,0
+漕ぐ,row,0,0,0,0
+ウナギ,eel,0,0,0,0
+鳩,pigeon,0,0,0,0
+襲う,raid,0,0,0,0
+雛祭り,Doll Festival,0,0,0,0
+稽古,practice,0,0,0,0
+商売,trade,0,0,0,0
+歌舞伎,kabuki,0,0,0,0
+物凄い,tremendous,0,0,0,0
+囁く,whisper,0,0,0,0
+咳,cough,0,0,0,0
+治まる,settle down,0,0,0,0
+喉,the throat,0,0,0,0
+唾,saliva,0,0,0,0
+吠える,bark,0,0,0,0
+吊るす,hang,0,0,0,0
+噛み付く,bite at,0,0,0,0
+きゅうり,cucumber,0,0,0,0
+漬ける,pickle,0,0,0,0
+味噌,miso,0,0,0,0
+思わず,unintentionally,0,0,0,0
+思いやり,thoughtfulness,0,0,0,0
+お目に掛かる,meet,0,0,0,0
+もしも,if,0,0,0,0
+大して,very,0,0,0,0
+どんなに,how much,0,0,0,0
+塞がる,close up,0,0,0,0
+塞ぐ,close,0,0,0,0
+屑,waste,0,0,0,0
+紙屑,wastepaper,0,0,0,0
+掻く,scratch,0,0,0,0
+掻き回す,stir up,0,0,0,0
+祈り,prayer,0,0,0,0
+撫でる,stroke,0,0,0,0
+卑怯,cowardice,0,0,0,0
+憧れ,yearning,0,0,0,0
+憧れる,yearn after,0,0,0,0
+めでたい,happy,0,0,0,0
+溺れる,drown,0,0,0,0
+御無沙汰,be out of touch,0,0,0,0
+汲む,collect,0,0,0,0
+バケツ,bucket,0,0,0,0
+溜め息,sigh,0,0,0,0
+溜まる,accumulate,0,0,0,0
+溜める,store,0,0,0,0
+伝染,contagion,0,0,0,0
+苛め,bullying,0,0,0,0
+苛める,ill-treat,0,0,0,0
+遥か,far,0,0,0,0
+のぞく,look,0,0,0,0
+曖昧,ambiguous,0,0,0,0
+大晦日,new year's eve,0,0,0,0
+股,crotch,0,0,0,0
+臆病,cowardice,0,0,0,0
+車椅子,wheelchair,0,0,0,0
+がたがた,rattle,0,0,0,0
+よける,move out the way,0,0,0,0
+渋い,bitter,0,0,0,0
+柿,persimmon,0,0,0,0
+焚く,start a fire,0,0,0,0
+明瞭,clear,0,0,0,0
+眉,eyebrow,0,0,0,0
+眉毛,eyebrows,0,0,0,0
+湯飲み,teacup,0,0,0,0
+割り箸,disposable chopsticks,0,0,0,0
+蛋白質,protein,0,0,0,0
+蜂,bee,0,0,0,0
+頂戴,getting,0,0,0,0
+元日,New Year's Day,0,0,0,0
+初詣で,first shrine visit of the new year,0,0,0,0
+お詫び,apologize,0,0,0,0
+詫びる,apologize,0,0,0,0
+刺さる,stick,0,0,0,0
+裂ける,split,0,0,0,0
+釘,nail,0,0,0,0
+錆びる,rust,0,0,0,0
+重たい,heavy,0,0,0,0
+餅,rice cake,0,0,0,0
+思い込む,assume,0,0,0,0
+悪女,wicked woman,0,0,0,0
+騙す,deceive,0,0,0,0
+親子,parent and child,0,0,0,0
+爽やか,refreshing,0,0,0,0
+雀,sparrow,0,0,0,0
+お年玉,New Year's gift,0,0,0,0
+甥,nephew,0,0,0,0
+便箋,letter paper,0,0,0,0
+嗅ぐ,smell,0,0,0,0
+炒める,stir-fry,0,0,0,0
