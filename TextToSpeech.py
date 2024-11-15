@@ -10,6 +10,7 @@ import pygame
 import os
 import logging
 import threading
+import Settings
 
 #Base directory for audio files
 BASE_AUDIO_DIR = "audio_files"
@@ -53,6 +54,7 @@ def play_audio_async(file_path):
 
     pygame.mixer.init()
     pygame.mixer.music.load(file_path)
+    pygame.mixer.music.set_volume(Settings.VOLUME/100)
     pygame.mixer.music.play()
 
 def play_pronunciation(word, lang):

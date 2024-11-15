@@ -1,21 +1,20 @@
 # =====================
 # StatsGUI.py
-# Latest version: Nov 11
+# Latest version: Nov 14 2024
 # Interactive graph and statistics GUI
 # =====================
 
-#import csv
 import customtkinter as ctk
 import tkinter as tk
+
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import numpy as np
-#from Word import Word
-#import Settings
 
 
 def custom_function(x):
-    return 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
+    y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
+    return max(0,y)
     #this function is an approximated curve fit based off linguistic sources and rounding.
 
 
@@ -77,7 +76,7 @@ class StatsGUI:
             master=self.frame, text="Total Known Words:\n" + str(self.default_x), text_color="white",
             font=backbuttonfont, fg_color="#acb87c", corner_radius=15 # from choice GUI
         )
-        card.place(relx=0.5, rely=0.2, relwidth=.15, relheight=.1, anchor=tk.CENTER)
+        card.place(relx=0.5, rely=0.2, relwidth=.20, relheight=.1, anchor=tk.CENTER)
 
         stats_card = ctk.CTkLabel(
             master=self.frame,
@@ -101,13 +100,17 @@ class StatsGUI:
         # Create a figure and axis for the graph
         fig, ax = plt.subplots(figsize=(10, 4), dpi=100)
 
-        # Define a sample function, e.g., a sine wave for user interaction
+        # Define a the function for the graph
         x = np.linspace(0, 5000, 100)
         y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
-        ax.plot(x, y, label="Line")
+        y = np.maximum(0, y) #does not allow negative y values.
+        ax.plot(x, y, label="Language Knowledge Curve")
+        #Graph the users progress through the language
+        ax.axvline(count_known_words(self.controller.study_window.words_dict),
+                    color='red', linestyle='-', label="You are here")
         ax.set_title("Check your progress")
-        ax.set_xlabel("~ number of known words")
-        ax.set_ylabel("~ percentage of lang")
+        ax.set_xlabel("Number of Known Words")
+        ax.set_ylabel("Percentage of Language Known")
         ax.legend()
 
         # Add the matplotlib figure to tkinter
@@ -116,7 +119,7 @@ class StatsGUI:
         canvas.get_tk_widget().place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
         # Add a slider to control the x-axis position
-        self.x_slider = ctk.CTkSlider(master=self.frame, from_=0, to=5000, command=self.update_feedback)
+        self.x_slider = ctk.CTkSlider(master=self.frame, from_=1, to=5000, command=self.update_feedback)
         self.x_slider.place(relx=0.5, rely=0.85, relwidth=0.6, anchor=tk.CENTER)
 
         # Display feedback based on the x position
@@ -130,4 +133,6 @@ class StatsGUI:
         self.feedback_label.configure(text=f"{x_value:.0f} words ~ {y_value:.0f} Percent")
 
     def destroy(self):
+        plt.close('all')
         self.frame.destroy()
+
