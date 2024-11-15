@@ -54,7 +54,7 @@ class MenuGUI:
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
         # Create option buttons
-        button_colors = ["#f37d59", "#0f606b", "#aeb883","#ffc24a", "#aeb883"]
+        button_colors = ["#f37d59", "#0f606b", "#b69352","#ffc24a", "#aeb883"]
         button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Review Mode", "Statistics", "Settings"]
         button_commands = [choice_function, text_function, review_function, stats_function, settings_function]
 
@@ -67,10 +67,10 @@ class MenuGUI:
             )
             button.place(relx=0.5, rely=0.3 + (i * 0.125), anchor=tk.CENTER)
 
-        #simple about page for user to read
+        #Simple about page for user to read
         about_btn = ctk.CTkButton(
             master=self.frame, text="About", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
-            width=150, height=60, fg_color="#0f606b", text_color="white",
+            width=150, height=60, fg_color="#e38368", text_color="white",
             command=about_function, corner_radius=15
         )
         about_btn.place(relx=0.90, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
