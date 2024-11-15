@@ -8,6 +8,8 @@ import customtkinter as ctk
 import tkinter as tk
 import Settings as Settings
 #from functools import partial
+import pygame
+import logging
 
 class MenuGUI:
     def __init__(self, controller):
@@ -47,6 +49,8 @@ class MenuGUI:
         def exit_button():
             print("Exiting application")
             self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}.csv")
+            logging.info("Exiting application.")
+            pygame.quit()
             self.app.destroy()
 
         # Static title label "What would you like to do?"

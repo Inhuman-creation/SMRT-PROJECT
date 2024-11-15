@@ -48,6 +48,7 @@ class WalkingWindow:
             known = bool(int(row["known"]))
             words_dict[foreign] = Word(foreign, engl, seen, correct, wrong, known)
         csv_file.close()
+        logging.info(f"{csv_name} loaded into dictionary.")
         return words_dict
     
     def word_dict_to_csv(self, csv_name: str):
@@ -65,12 +66,7 @@ class WalkingWindow:
             row += f"{int(word.is_known)}\n"
             csv_file.write(row)
         csv_file.close()
-
-    def save_and_close(self, csv_name: str):
-        self.word_dict_to_csv(csv_name)
-        if Settings.controller.current_frame:
-            Settings.controller.current_frame.destroy()
-        Settings.app.destroy()
+        logging.info(f"{csv_name} saved.")
 
     def init_current_words(self, num_words: int):
         """

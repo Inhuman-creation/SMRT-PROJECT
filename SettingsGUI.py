@@ -57,7 +57,7 @@ class SettingsGUI:
         self.apply_changes_button.place(relx=0.5, rely=0.9, anchor=tk.CENTER)
 
         #known threshold slider
-        self.known_threshold_var = self.add_slider("Known Threshold",
+        self.known_threshold_var = self.add_slider("Known Word Requirement",
                                                     min_val=Settings.KNOWN_THRESHOLD_MIN,
                                                     max_val=Settings.KNOWN_THRESHOLD_MAX,
                                                     initial=Settings.KNOWN_THRESHOLD,
@@ -66,7 +66,7 @@ class SettingsGUI:
         slider_start_y += 0.12
 
         #known delta slider
-        self.known_delta_var = self.add_slider("Known Delta",
+        self.known_delta_var = self.add_slider("Correct-Incorrect Gap",
                                                 min_val=Settings.KNOWN_DELTA_MIN,
                                                 max_val=Settings.KNOWN_DELTA_MAX,
                                                 initial=Settings.KNOWN_DELTA,
@@ -75,7 +75,7 @@ class SettingsGUI:
         slider_start_y += 0.12
 
         #srs queue length slider
-        self.srs_queue_length_var = self.add_slider("Spaced Repetition Queue Length",
+        self.srs_queue_length_var = self.add_slider("Spaced Repetition Amount",
                                                     min_val=Settings.SRS_QUEUE_LENGTH_MIN,
                                                     max_val=Settings.SRS_QUEUE_LENGTH_MAX,
                                                     initial=Settings.SRS_QUEUE_LENGTH,
@@ -84,7 +84,7 @@ class SettingsGUI:
         slider_start_y += 0.12
 
         #walking window size slider
-        self.walking_window_size_var = self.add_slider("Walking Window Size",
+        self.walking_window_size_var = self.add_slider("Study Batch Size",
                                                         min_val=Settings.WALKING_WINDOW_SIZE_MIN,
                                                         max_val=Settings.WALKING_WINDOW_SIZE_MAX,
                                                         initial=Settings.WALKING_WINDOW_SIZE,
@@ -92,26 +92,7 @@ class SettingsGUI:
                                                         rely=slider_start_y)
         slider_start_y += 0.12
 
-        #foreign to english toggle
-        ctk.CTkLabel(self.frame, text="Foreign to English", font=labelfont,
-                     text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
-        self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
-        self.foreign_to_english_toggle = ctk.CTkSwitch(
-            self.frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False,
-            text="On" if self.foreign_to_english_var.get() else "Off",
-            text_color="black",
-            font=labelfont,
-            fg_color="#acb87c",
-            progress_color="#77721f",
-            button_color="#f37d59",
-            button_hover_color="#ffc24a",
-            command=lambda: self.update_toggle_label(self.foreign_to_english_toggle,self.foreign_to_english_var) #arguments added to attempt fixing error with toggle.
-            #command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
-
-        )
-        self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
-
-        #dropdown menu for lang selection
+        # dropdown menu for lang selection
         ctk.CTkLabel(self.frame, text="Language Selection", font=labelfont,
                      text_color="black").place(relx=0.6, rely=slider_start_y, anchor=tk.CENTER)
         options = ["Spanish", "French", "Arabic"]
@@ -122,6 +103,25 @@ class SettingsGUI:
                                                    button_color="#77721f",
                                                    command=self.on_change_language)
         self.language_dropdown.place(relx=0.6, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+
+        #foreign to english toggle
+        ctk.CTkLabel(self.frame, text="Flashcard Display Language", font=labelfont,
+                     text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
+        self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
+        self.foreign_to_english_toggle = ctk.CTkSwitch(
+            self.frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False,
+            text=f"{Settings.LANGUAGE}" if self.foreign_to_english_var.get() else "English",
+            text_color="black",
+            font=labelfont,
+            fg_color="#acb87c",
+            progress_color="#77721f",
+            button_color="#f37d59",
+            button_hover_color="#ffc24a",
+            command=lambda: self.update_lang_label(self.foreign_to_english_toggle,self.foreign_to_english_var) #arguments added to attempt fixing error with toggle.
+            #command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
+
+        )
+        self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
         slider_start_y += 0.10
 
         # auto tts toggle
@@ -190,6 +190,12 @@ class SettingsGUI:
         label.configure(text=f"Current: {int(float(value))}")
         self.apply_changes_button.configure(state="normal")
 
+    # enable the apply changes button on settings change and update labels
+    def update_lang_label(self, toggle, value):
+        # Update the label based on the toggle's current state
+        toggle.configure(text=f"{self.language_var.get()}" if value.get() else "English")
+        self.apply_changes_button.configure(state="normal")
+
     #enable the apply changes button on settings change and update labels
     def update_toggle_label(self, toggle, value):
         # Update the label based on the toggle's current state
@@ -199,6 +205,7 @@ class SettingsGUI:
     #enable the apply changes button on settings change
     def on_change_language(self, selected_value=None):
         self.apply_changes_button.configure(state="normal")
+        self.update_lang_label(self.foreign_to_english_toggle, self.foreign_to_english_var)
 
     #save the settings and recreate walking window to reflect changes
     def save_settings(self):
@@ -225,7 +232,7 @@ class SettingsGUI:
         logging.info(f"SETTINGS UPDATED:\nKNOWN THRESHOLD: {Settings.KNOWN_THRESHOLD}\nKNOWN DELTA: {Settings.KNOWN_DELTA}"
                      f"\nSRS QUEUE LENGTH: {Settings.SRS_QUEUE_LENGTH}\nWALKING WINDOW SIZE: {Settings.WALKING_WINDOW_SIZE}"
                      f"\nFOREIGN TO ENGLISH: {Settings.FOREIGN_TO_ENGLISH}\nLANGUAGE: {Settings.LANGUAGE}"
-                     f"\nAUTO TTS: {Settings.AUTO_TTS}")
+                     f"\nAUTO TTS: {Settings.AUTO_TTS}\nVOLUME: {Settings.VOLUME}")
 
 
     def destroy(self):

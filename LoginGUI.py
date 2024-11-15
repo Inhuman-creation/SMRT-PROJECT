@@ -99,7 +99,7 @@ class LoginGUI:
             # init WalkingWindow
             Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.study_window.save_and_close, f"{Settings.username}_{Settings.LANGUAGE}.csv"))
+            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.save_and_close, f"{Settings.username}_{Settings.LANGUAGE}.csv"))
 
             self.controller.show_menu_gui()
 
@@ -153,7 +153,7 @@ class LoginGUI:
             # initialize walking window
             Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.study_window.save_and_close, f"{Settings.username}_{Settings.LANGUAGE}.csv"))
+            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.save_and_close, f"{Settings.username}_{Settings.LANGUAGE}.csv"))
 
             self.controller.show_menu_gui()
 

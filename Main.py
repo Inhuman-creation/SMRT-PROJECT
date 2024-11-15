@@ -13,7 +13,7 @@ from StatsGUI import StatsGUI
 from AboutGUI import AboutGUI
 from ReviewGUI import ReviewGUI
 import Settings
-
+import pygame
 import logging
 
 """
@@ -34,13 +34,15 @@ class GUI:
         # Mark log with new execution
         logging.info("SMRT Vocab app started")
 
+        #init pygame for TTS
+        pygame.mixer.init()
+
         # Initialize the main application window
         self.app = ctk.CTk()
-        Settings.app = self.app
-        Settings.controller = self
         self.app.geometry("1000x1000")
         self.app._state_before_windows_set_titlebar_color = 'zoomed'
         self.app.title("SMRT")
+        self.study_window = None
 
         # Sets default color theme
         ctk.set_appearance_mode("Dark")
@@ -95,6 +97,13 @@ class GUI:
             self.current_frame.destroy()
         self.current_frame = AboutGUI(self)
 
+    def save_and_close(self, csv_name: str):
+        """Save user data and clean up program before exiting"""
+        self.study_window.word_dict_to_csv(csv_name)
+        pygame.quit()
+        if self.current_frame:
+            self.current_frame.destroy()
+        self.app.destroy()
 
 if __name__ == "__main__":
     GUI()
