@@ -97,8 +97,9 @@ class GUI:
             self.current_frame.destroy()
         self.current_frame = AboutGUI(self)
 
-    def save_and_close(self, csv_name: str):
+    def save_and_close(self):
         """Save user data and clean up program before exiting"""
+        csv_name = f"{Settings.username}_{Settings.LANGUAGE}.csv"
         self.study_window.word_dict_to_csv(csv_name)
         pygame.quit()
         if self.current_frame:
