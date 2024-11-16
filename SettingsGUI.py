@@ -8,7 +8,7 @@ import customtkinter as ctk
 import tkinter as tk
 import Settings
 import logging
-
+from PIL import Image
 from WalkingWindow import WalkingWindow
 
 
@@ -24,6 +24,10 @@ class SettingsGUI:
         # Create a main frame for the settings page
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
         self.frame.pack(expand=1, fill="both")
+
+        #white background for settings options
+        self.settings_frame = ctk.CTkFrame(master=self.frame, fg_color="white", corner_radius=15)
+        self.settings_frame.place(relx=0.5, rely=0.6, relwidth=0.55, relheight=0.6, anchor=tk.CENTER)
 
         # Creating fonts
         headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
@@ -43,17 +47,21 @@ class SettingsGUI:
         slider_start_y = 0.35
 
         # Create back button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         back_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=backbuttonfont,
+            master=self.frame, text="BACK", font=backbuttonfont,
             width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20  # from Choice GUI
+            fg_color="#d9534f", text_color="white", corner_radius=20,
+            image=back_icon, compound="left"
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # apply changes button
-        self.apply_changes_button = ctk.CTkButton(self.frame, text="Apply Changes", command=self.save_settings,
+        apply_icon = ctk.CTkImage(light_image=Image.open("Assets/apply-icon.png"), size=(20, 20))
+        self.apply_changes_button = ctk.CTkButton(self.settings_frame, text="Apply Changes", command=self.save_settings,
                                                   font=buttonfont, fg_color="#0f606b", text_color="white",
-                                                  state="disabled")
+                                                  state="disabled",
+                                                  image=apply_icon, compound="left")
         self.apply_changes_button.place(relx=0.5, rely=0.9, anchor=tk.CENTER)
 
         # Create the Known Word Requirement slider on the left side
@@ -91,11 +99,11 @@ class SettingsGUI:
         slider_start_y += 0.12
 
         # dropdown menu for lang selection
-        ctk.CTkLabel(self.frame, text="Language Selection", font=labelfont,
+        ctk.CTkLabel(self.settings_frame, text="Language Selection", font=labelfont,
                      text_color="black").place(relx=0.6, rely=slider_start_y, anchor=tk.CENTER)
         options = Settings.LANGUAGE_OPTIONS
         self.language_var = tk.StringVar(value=Settings.LANGUAGE)
-        self.language_dropdown = ctk.CTkOptionMenu(self.app, values=options, variable=self.language_var,
+        self.language_dropdown = ctk.CTkOptionMenu(self.settings_frame, values=options, variable=self.language_var,
                                                    font=labelfont, text_color="white",
                                                    fg_color="#acb87c",
                                                    button_color="#77721f",
@@ -103,11 +111,11 @@ class SettingsGUI:
         self.language_dropdown.place(relx=0.6, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
         #foreign to english toggle
-        ctk.CTkLabel(self.frame, text="Flashcard Display Language", font=labelfont,
+        ctk.CTkLabel(self.settings_frame, text="Flashcard Display Language", font=labelfont,
                      text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
         self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
         self.foreign_to_english_toggle = ctk.CTkSwitch(
-            self.frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False,
+            self.settings_frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False,
             text=f"{Settings.LANGUAGE}" if self.foreign_to_english_var.get() else "English",
             text_color="black",
             font=labelfont,
@@ -123,11 +131,11 @@ class SettingsGUI:
         slider_start_y += 0.10
 
         # auto tts toggle
-        ctk.CTkLabel(self.frame, text="Auto Pronunciation", font=labelfont,
+        ctk.CTkLabel(self.settings_frame, text="Auto Pronunciation", font=labelfont,
                      text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
         self.auto_tts_var = tk.BooleanVar(value=Settings.AUTO_TTS)
         self.auto_tts_toggle = ctk.CTkSwitch(
-            self.frame, variable=self.auto_tts_var, onvalue=True, offvalue=False,
+            self.settings_frame, variable=self.auto_tts_var, onvalue=True, offvalue=False,
             text="On" if self.auto_tts_var.get() else "Off",
             text_color="black",
             font=labelfont,
@@ -149,18 +157,18 @@ class SettingsGUI:
         headerfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
 
         # Label for the slider
-        label = ctk.CTkLabel(self.frame, text=label_text, font=headerfont, text_color="black")
+        label = ctk.CTkLabel(self.settings_frame, text=label_text, font=headerfont, text_color="black")
         label.place(relx=relx, rely=rely, anchor=tk.CENTER)
 
         # Min, current, and max labels for the slider
-        min_label = ctk.CTkLabel(self.frame, text=f"Min: {min_val}", font=labelfont, text_color="black")
-        current_label = ctk.CTkLabel(self.frame, text=f"Current: {initial}", font=labelfont, text_color="black")
-        max_label = ctk.CTkLabel(self.frame, text=f"Max: {max_val}", font=labelfont, text_color="black")
+        min_label = ctk.CTkLabel(self.settings_frame, text=f"Min: {min_val}", font=labelfont, text_color="black")
+        current_label = ctk.CTkLabel(self.settings_frame, text=f"Current: {initial}", font=labelfont, text_color="black")
+        max_label = ctk.CTkLabel(self.settings_frame, text=f"Max: {max_val}", font=labelfont, text_color="black")
 
         # Slider
         slider_var = tk.IntVar(value=initial)
         slider = ctk.CTkSlider(
-            self.frame,
+            self.settings_frame,
             from_=min_val,
             to=max_val,
             variable=slider_var,

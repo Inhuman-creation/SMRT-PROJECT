@@ -11,6 +11,7 @@ import shutil
 import Settings
 from WalkingWindow import WalkingWindow
 import os
+from PIL import Image
 from functools import partial
 
 class LoginGUI:
@@ -181,9 +182,11 @@ class LoginGUI:
         self.text_entry_password.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         # "Login" button
+        login_icon = ctk.CTkImage(light_image=Image.open("Assets/enter-icon.png"), size=(40, 40))
         loginbutton = ctk.CTkButton(
             master=input_frame, text="Login", font=buttonfont, command=login_function,
-            fg_color="#f37d59", text_color="white", corner_radius=10
+            fg_color="#f37d59", text_color="white", corner_radius=10,
+            image=login_icon, compound="left"
         )
         loginbutton.place(relx=0.5, rely=0.7, relwidth=0.7, relheight=0.1, anchor=tk.CENTER)
 
@@ -195,17 +198,21 @@ class LoginGUI:
         register_text.place(relx=0.5, rely=0.8, anchor=tk.CENTER)
 
         # "Register your account" button
+        register_icon = ctk.CTkImage(light_image=Image.open("Assets/register-icon.png"), size=(40, 40))
         signupbutton = ctk.CTkButton(
             master=input_frame, text="Register your account", font=buttonfont, command=signup_function,
-            fg_color="#0f606b", text_color="white", corner_radius=10
+            fg_color="#0f606b", text_color="white", corner_radius=10,
+            image=register_icon, compound="left"
         )
         signupbutton.place(relx=0.5, rely=0.9, relwidth=0.7, relheight=0.1, anchor=tk.CENTER)
 
         # "EXIT" button at the bottom
+        exit_icon = ctk.CTkImage(light_image=Image.open("Assets/exit-icon.png"), size=(40, 40))
         exit_btn = ctk.CTkButton(
             master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
             width=120, height=60, fg_color="#d9534f", text_color="white",
-            command=exit_button, corner_radius=15
+            command=exit_button, corner_radius=15,
+            image=exit_icon, compound="left"
         )
         exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
 

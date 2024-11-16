@@ -10,6 +10,7 @@ import Settings as Settings
 #from functools import partial
 import pygame
 import logging
+from PIL import Image
 
 class MenuGUI:
     def __init__(self, controller):
@@ -23,6 +24,15 @@ class MenuGUI:
         # Fonts
         buttonfont = ctk.CTkFont(family="Garet", size=45, weight="bold")  # Larger font for buttons
         titlefont = ctk.CTkFont(family="Garet", size=75, weight="bold", slant="italic")  # Font for title text
+
+        # icons
+        choice_icon = ctk.CTkImage(light_image=Image.open("Assets/choice-icon.png"), size=(40, 40))
+        text_icon = ctk.CTkImage(light_image=Image.open("Assets/text-icon.png"), size=(40, 40))
+        review_icon = ctk.CTkImage(light_image=Image.open("Assets/review-icon.png"), size=(40, 40))
+        settings_icon = ctk.CTkImage(light_image=Image.open("Assets/settings-icon.png"), size=(40, 40))
+        stats_icon = ctk.CTkImage(light_image=Image.open("Assets/stats-icon.png"), size=(40, 40))
+        exit_icon = ctk.CTkImage(light_image=Image.open("Assets/exit-icon.png"), size=(40, 40))
+        about_icon = ctk.CTkImage(light_image=Image.open("Assets/about-icon.png"), size=(40, 40))
 
         # Button functions
         def choice_function():
@@ -61,13 +71,15 @@ class MenuGUI:
         button_colors = ["#f37d59", "#0f606b", "#b69352","#ffc24a", "#aeb883"]
         button_texts = ["Multiple Choice Flashcards", "Text-Input Flashcards", "Review Mode", "Statistics", "Settings"]
         button_commands = [choice_function, text_function, review_function, stats_function, settings_function]
+        button_icons = [choice_icon, text_icon, review_icon, stats_icon, settings_icon]
 
         # Option buttons
         for i in range(5):
             button = ctk.CTkButton(
                 master=self.frame, text=button_texts[i], font=buttonfont,
                 fg_color=button_colors[i], text_color="#ffffff",  # White text
-                width=900, height=80, command=button_commands[i], corner_radius=15
+                width=900, height=80, command=button_commands[i], corner_radius=15,
+                image=button_icons[i], compound="left"
             )
             button.place(relx=0.5, rely=0.3 + (i * 0.125), anchor=tk.CENTER)
 
@@ -75,7 +87,8 @@ class MenuGUI:
         about_btn = ctk.CTkButton(
             master=self.frame, text="About", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
             width=150, height=60, fg_color="#e38368", text_color="white",
-            command=about_function, corner_radius=15
+            command=about_function, corner_radius=15,
+            image=about_icon, compound="left"
         )
         about_btn.place(relx=0.90, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
 
@@ -83,7 +96,8 @@ class MenuGUI:
         exit_btn = ctk.CTkButton(
             master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
             width=120, height=60, fg_color="#d9534f", text_color="white",
-            command=exit_button, corner_radius=15
+            command=exit_button, corner_radius=15,
+            image=exit_icon, compound="left"
         )
         exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
 

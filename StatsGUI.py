@@ -10,7 +10,7 @@ import tkinter as tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import numpy as np
-
+from PIL import Image
 
 def custom_function(x):
     y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
@@ -95,10 +95,12 @@ class StatsGUI:
         self.create_interactive_graph(feedbackfont)
 
         # Create back button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         back_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=backbuttonfont,
+            master=self.frame, text="BACK", font=backbuttonfont,
             width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20
+            fg_color="#d9534f", text_color="white", corner_radius=20,
+            image=back_icon, compound="left"
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 

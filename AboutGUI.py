@@ -1,6 +1,7 @@
 import customtkinter as ctk
 import tkinter as tk
 import os
+from PIL import Image
 
 class AboutGUI:
     def __init__(self, controller):
@@ -75,10 +76,12 @@ class AboutGUI:
             print("Logo image not loaded successfully.")
 
         # Create back button with larger font
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         back_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=backbuttonfont,
+            master=self.frame, text="BACK", font=backbuttonfont,
             width=120, height=60, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20
+            fg_color="#d9534f", text_color="white", corner_radius=20,
+            image=back_icon, compound="left"
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)  # Back button in top left corner
 

@@ -15,6 +15,7 @@ import Settings
 from WalkingWindow import WalkingWindow
 #import os
 from TextToSpeech import play_pronunciation
+from PIL import Image
 
 '''************************* EXPERIMENTAL GUI IMPLEMENTATION *************************'''
 #in this file I have combined ChoiceGUI and TextGui together with significant reorganization
@@ -149,18 +150,22 @@ class ReviewGUI:
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
 
         # Create back button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         back_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=self.backbuttonfont,
+            master=self.frame, text="BACK", font=self.backbuttonfont,
             width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20
+            fg_color="#d9534f", text_color="white", corner_radius=20,
+            image=back_icon, compound="left"
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
 
         # Text-to-speech button
+        tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=self.backbuttonfont,
             width=600, height=200, command=lambda: text_to_speech_function(flashword),
-            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+            fg_color="#0f606b", text_color="white", corner_radius=20,
+            image=tts_icon, compound="left"
         )
         tts_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
@@ -218,25 +223,31 @@ class ReviewGUI:
         text_entry.bind("<Return>", display_feedback)
 
         # Create submit button
+        submit_icon = ctk.CTkImage(light_image=Image.open("Assets/submit-icon.png"), size=(40, 40))
         submit_button = ctk.CTkButton(
             master=self.frame, text="Submit", text_color="white",
-            font=self.buttonfont, command=partial(display_feedback, None)
+            font=self.buttonfont, command=partial(display_feedback, None),
+            image=submit_icon, compound="left"
         )
         submit_button.place(relx=0.5, rely=0.75, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
         # Create back button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         back_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=self.backbuttonfont,
+            master=self.frame, text="BACK", font=self.backbuttonfont,
             width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20
+            fg_color="#d9534f", text_color="white", corner_radius=20,
+            image=back_icon, compound="left"
         )
         back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
 
         # Text-to-speech button
+        tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=self.backbuttonfont,
             width=600, height=200, command=lambda: text_to_speech_function(flashword),
-            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+            fg_color="#0f606b", text_color="white", corner_radius=20,
+            image=tts_icon, compound="left"
         )
         tts_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
@@ -248,3 +259,6 @@ class ReviewGUI:
         if len(self.review_window) < count:
             return random.choices(self.review_window, k=count)
         return random.sample(self.review_window, count)
+
+    def destroy(self):
+        self.frame.destroy()

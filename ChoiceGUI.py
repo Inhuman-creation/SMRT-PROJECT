@@ -13,6 +13,7 @@ from Word import Word
 import random
 from functools import partial
 import logging
+from PIL import Image
 
 
 class ChoiceGUI:
@@ -163,27 +164,32 @@ class ChoiceGUI:
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
 
         # EXIT button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         exit_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=backbuttonfont,
+            master=self.frame, text="BACK", font=backbuttonfont,
             width=120, height=60, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=15  # White text and red color
+            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
+            image=back_icon, compound="left"
         )
         exit_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Known word button
+        known_icon = ctk.CTkImage(light_image=Image.open("Assets/known-icon.png"), size=(30, 30))
         self.known_word_button = ctk.CTkButton(
             master=self.frame, text="Already\nKnow", font=backbuttonfont,
-            width=600, height=200, command=mark_known
-,
-            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+            width=600, height=200, command=mark_known,
+            fg_color="#0f606b", text_color="white", corner_radius=20,
+            image=known_icon, compound="left"
         )
         self.known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Text-to-speech button
+        tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=backbuttonfont,
             width=600, height=200, command=lambda: text_to_speech_function(self.flashword),
-            fg_color="#0f606b", text_color="white", corner_radius=20  # White text and red color
+            fg_color="#0f606b", text_color="white", corner_radius=20,
+            image=tts_icon, compound="left"
         )
         tts_button.place(relx=0.95, rely=0.17, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
