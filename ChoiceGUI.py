@@ -104,7 +104,7 @@ class ChoiceGUI:
                 # Automatically hide feedback and switch to the next word after 2 seconds
                 self.frame.after(1000, hide_feedback, feedback_label, None, buttons)
             else:
-                feedback_text = "Not quite!\n{} means {}.".format(self.flashword.foreign, self.flashword.english.lower()) \
+                feedback_text = "Not quite! {} means {}.".format(self.flashword.foreign, self.flashword.english.lower()) \
                     if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{self.flashword.english.lower()} translates to {self.flashword.foreign}"
 
                 feedback_label = ctk.CTkLabel(
