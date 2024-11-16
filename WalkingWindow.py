@@ -43,13 +43,16 @@ class WalkingWindow:
         for row in reader:
             # logging.info(f"Reading row {i} of {csv_name}: {row}")
             # i += 1
-            foreign = row["Foreign"]
-            engl = row["English"]
-            seen = int(row["seen"])
-            correct = int(row["correct"])
-            wrong = int(row["wrong"])
-            known = bool(int(row["known"]))
-            words_dict[foreign] = Word(foreign, engl, seen, correct, wrong, known)
+            try:
+                foreign = row["Foreign"]
+                engl = row["English"]
+                seen = int(row["seen"])
+                correct = int(row["correct"])
+                wrong = int(row["wrong"])
+                known = bool(int(row["known"]))
+                words_dict[foreign] = Word(foreign, engl, seen, correct, wrong, known)
+            except:
+                pass
         csv_file.close()
         logging.info(f"{csv_name} loaded into dictionary.")
         return words_dict
