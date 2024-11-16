@@ -17,7 +17,6 @@ class LoginGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
-        self.languages = ["Spanish", "French", "Arabic"]
 
         # Create main frame for the login page
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
@@ -88,7 +87,7 @@ class LoginGUI:
                 return 
 
             # Make user_lang.csv files if necessary
-            for lang in self.languages:
+            for lang in Settings.LANGUAGE_OPTIONS:
                 user_file_path = f"UserWords/{email}_{lang}.csv"
                 if not os.path.exists(user_file_path):
                     if not os.path.exists(f"UserWords/Template_{lang}.csv"):
@@ -99,7 +98,7 @@ class LoginGUI:
             # init WalkingWindow
             Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.save_and_close, f"{Settings.username}_{Settings.LANGUAGE}.csv"))
+            self.app.protocol("WM_DELETE_WINDOW", self.controller.save_and_close)
 
             self.controller.show_menu_gui()
 
@@ -143,7 +142,7 @@ class LoginGUI:
                 writer.writerow(account_data)
             
             # copy Template_lang.csv files to user_lang.csv
-            for lang in self.languages:
+            for lang in Settings.LANGUAGE_OPTIONS:
                 user_file_path = f"UserWords/{email}_{lang}.csv"
                 if not os.path.exists(f"UserWords/Template_{lang}.csv"):
                     show_feedback(f"ERROR: UserWords/Template_{lang}.csv NOT FOUND")
@@ -153,7 +152,7 @@ class LoginGUI:
             # initialize walking window
             Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
-            self.app.protocol("WM_DELETE_WINDOW", partial(self.controller.save_and_close, f"{Settings.username}_{Settings.LANGUAGE}.csv"))
+            self.app.protocol("WM_DELETE_WINDOW", self.controller.save_and_close)
 
             self.controller.show_menu_gui()
 

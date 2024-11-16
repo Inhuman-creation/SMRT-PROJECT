@@ -39,14 +39,20 @@ class WalkingWindow:
         csv_file = open(f"UserWords/{csv_name}", encoding = 'utf-8')
         reader = csv.DictReader(csv_file)
         words_dict = dict()
+        # i = 1
         for row in reader:
-            foreign = row["Foreign"]
-            engl = row["English"]
-            seen = int(row["seen"])
-            correct = int(row["correct"])
-            wrong = int(row["wrong"])
-            known = bool(int(row["known"]))
-            words_dict[foreign] = Word(foreign, engl, seen, correct, wrong, known)
+            # logging.info(f"Reading row {i} of {csv_name}: {row}")
+            # i += 1
+            try:
+                foreign = row["Foreign"]
+                engl = row["English"]
+                seen = int(row["seen"])
+                correct = int(row["correct"])
+                wrong = int(row["wrong"])
+                known = bool(int(row["known"]))
+                words_dict[foreign] = Word(foreign, engl, seen, correct, wrong, known)
+            except:
+                pass
         csv_file.close()
         logging.info(f"{csv_name} loaded into dictionary.")
         return words_dict
@@ -155,7 +161,7 @@ class WalkingWindow:
 
         flashword.set_known_word()
         self.remove_known_word(flashword)
-        logging.info("REMOVED FROM WALKING WINDOW: " + repr(flashword))
+        logging.info("MARKED AS KNOWN AND REMOVED FROM WALKING WINDOW: " + repr(flashword))
         self.add_new_word()
 
     def remove_known_word(self, word: Word):
