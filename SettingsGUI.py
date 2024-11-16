@@ -26,7 +26,7 @@ class SettingsGUI:
         self.frame.pack(expand=1, fill="both")
 
         # Creating fonts
-        headerfont = ctk.CTkFont(family="Garet", size=100)
+        headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
         labelfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
         buttonfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
@@ -37,10 +37,10 @@ class SettingsGUI:
 
         # Settings Page label
         self.welcome_label = ctk.CTkLabel(master=self.frame, text="Settings", font=headerfont, text_color="black")
-        self.welcome_label.place(relx=0.5, rely=0.1, anchor=tk.CENTER)
+        self.welcome_label.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
 
         #starting y position for sliders
-        slider_start_y = 0.2
+        slider_start_y = 0.35
 
         # Create back button
         back_button = ctk.CTkButton(
@@ -56,40 +56,38 @@ class SettingsGUI:
                                                   state="disabled")
         self.apply_changes_button.place(relx=0.5, rely=0.9, anchor=tk.CENTER)
 
-        #known threshold slider
+        # Create the Known Word Requirement slider on the left side
         self.known_threshold_var = self.add_slider("Known Word Requirement",
-                                                    min_val=Settings.KNOWN_THRESHOLD_MIN,
-                                                    max_val=Settings.KNOWN_THRESHOLD_MAX,
-                                                    initial=Settings.KNOWN_THRESHOLD,
-                                                    relx=0.5,
-                                                    rely=slider_start_y)
-        slider_start_y += 0.12
-
-        #known delta slider
+                                                   min_val=Settings.KNOWN_THRESHOLD_MIN,
+                                                   max_val=Settings.KNOWN_THRESHOLD_MAX,
+                                                   initial=Settings.KNOWN_THRESHOLD,
+                                                   relx=0.35,  # Positioned left
+                                                   rely=slider_start_y)
+        # Create the Correct-Incorrect Gap slider on the right side
         self.known_delta_var = self.add_slider("Correct-Incorrect Gap",
-                                                min_val=Settings.KNOWN_DELTA_MIN,
-                                                max_val=Settings.KNOWN_DELTA_MAX,
-                                                initial=Settings.KNOWN_DELTA,
-                                                relx=0.5,
-                                                rely=slider_start_y)
-        slider_start_y += 0.12
+                                               min_val=Settings.KNOWN_DELTA_MIN,
+                                               max_val=Settings.KNOWN_DELTA_MAX,
+                                               initial=Settings.KNOWN_DELTA,
+                                               relx=0.65,  # Positioned right
+                                               rely=slider_start_y)
 
-        #srs queue length slider
+        slider_start_y += 0.12  # Move to the next row
+
+        # Create the Spaced Repetition Amount slider on the left side
         self.srs_queue_length_var = self.add_slider("Spaced Repetition Amount",
                                                     min_val=Settings.SRS_QUEUE_LENGTH_MIN,
                                                     max_val=Settings.SRS_QUEUE_LENGTH_MAX,
                                                     initial=Settings.SRS_QUEUE_LENGTH,
-                                                    relx=0.5,
+                                                    relx=0.35,  # Positioned left
                                                     rely=slider_start_y)
-        slider_start_y += 0.12
-
-        #walking window size slider
+        # Create the Study Batch Size slider on the right side
         self.walking_window_size_var = self.add_slider("Study Batch Size",
-                                                        min_val=Settings.WALKING_WINDOW_SIZE_MIN,
-                                                        max_val=Settings.WALKING_WINDOW_SIZE_MAX,
-                                                        initial=Settings.WALKING_WINDOW_SIZE,
-                                                        relx=0.5,
-                                                        rely=slider_start_y)
+                                                       min_val=Settings.WALKING_WINDOW_SIZE_MIN,
+                                                       max_val=Settings.WALKING_WINDOW_SIZE_MAX,
+                                                       initial=Settings.WALKING_WINDOW_SIZE,
+                                                       relx=0.65,  # Positioned right
+                                                       rely=slider_start_y)
+
         slider_start_y += 0.12
 
         # dropdown menu for lang selection

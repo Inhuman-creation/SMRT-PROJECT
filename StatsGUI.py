@@ -53,36 +53,42 @@ class StatsGUI:
         self.controller = controller
         self.app = controller.app
         self.default_x = count_known_words(self.controller.study_window.words_dict)
-        #self.most_incorrect = determine_most_correct(self.controller.study_window.words_dict) #POSSIBLILITY TO INCLUDE
         self.most_incorrect = determine_most_incorrect(self.controller.study_window.words_dict)
         self.most_difficult = determine_most_difficult(self.controller.study_window.words_dict)
-
 
         # Create frame for the GUI
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
         self.frame.pack(expand=1, fill="both", anchor=tk.CENTER)
 
         # Create fonts (all "Garet")
-        #flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")
-        #buttonfont = ctk.CTkFont(family="Garet", size=45, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+        headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")
 
         # Button functions
         def back_function():
             self.controller.show_menu_gui()
 
+        # Create "See how you grow!" label at the top of the screen
+        growth_label = ctk.CTkLabel(
+            master=self.frame, text="See how you grow!", text_color="black",
+            font=headerfont, fg_color="#fdf3dd"
+        )
+        growth_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
+
+        # Known Words card
         card = ctk.CTkLabel(
             master=self.frame, text="Total Known Words:\n" + str(self.default_x), text_color="white",
-            font=backbuttonfont, fg_color="#acb87c", corner_radius=15 # from choice GUI
+            font=backbuttonfont, fg_color="#acb87c", corner_radius=15
         )
         card.place(relx=0.5, rely=0.2, relwidth=.20, relheight=.1, anchor=tk.CENTER)
 
+        # Stats card
         stats_card = ctk.CTkLabel(
             master=self.frame,
             text="Hardest Word:\n" + str(self.most_difficult) +"\n\n Worst Word:\n"+ str(self.most_incorrect),
             text_color="white",
-            font=backbuttonfont, fg_color="#0f606b", corner_radius=15  # from choice GUI
+            font=backbuttonfont, fg_color="#0f606b", corner_radius=15
         )
         stats_card.place(relx=0.90, rely=0.5, relwidth=.15, relheight=.25, anchor=tk.CENTER)
 
@@ -135,4 +141,3 @@ class StatsGUI:
     def destroy(self):
         plt.close('all')
         self.frame.destroy()
-

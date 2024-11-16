@@ -1,6 +1,6 @@
 # =====================
 # ChoiceGUI.py
-# Latest version: Nov 11
+# Latest version: Nov 15 2024
 # Multiple choice flashcards screen
 # =====================
 
@@ -42,10 +42,12 @@ class ChoiceGUI:
         flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")  # Even larger font for flashcard
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")  # Smaller font for feedback text
         buttonfont = ctk.CTkFont(family="Garet", size=55, weight="bold")
-        backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+        backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
+
         # Supportive messages for correct answers
         supportive_messages = [
-            "Correcto!", "You got this!", "You're on a roll!", "Perfecto!", "Well done!", "Keep going!"
+            "You got this!", "You're on a roll!", "Amazing!", "Well done!", "Keep going!", "Perfect!",
+            "One step closer!", "Flawless!", "You're a natural!"
         ]
 
         # Button functions
@@ -90,7 +92,7 @@ class ChoiceGUI:
                 # Create feedback label for correct answer
                 feedback_label = ctk.CTkLabel(
                     master=self.frame, text=feedback_text, text_color="white",
-                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
+                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
                 )
                 feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
@@ -99,14 +101,14 @@ class ChoiceGUI:
                     btn.configure(state="disabled")
 
                 # Automatically hide feedback and switch to the next word after 2 seconds
-                self.frame.after(500, hide_feedback, feedback_label, None, buttons)  # No button for correct answer
+                self.frame.after(1000, hide_feedback, feedback_label, None, buttons)
             else:
                 feedback_text = "Not quite!\n{} means {}.".format(self.flashword.foreign, self.flashword.english.lower()) \
                     if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{self.flashword.english.lower()} translates to {self.flashword.foreign}"
 
                 feedback_label = ctk.CTkLabel(
                     master=self.frame, text=feedback_text, text_color="white",
-                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
+                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
                 )
                 feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
@@ -118,7 +120,7 @@ class ChoiceGUI:
                 feedback_button = ctk.CTkButton(
                     master=self.frame, text="OK", font=buttonfont,
                     width=160, height=100, command=lambda: hide_feedback(feedback_label, feedback_button, buttons),
-                    fg_color="#ffc24a", text_color="white", corner_radius=20  # New background color and text color
+                    fg_color="#d9534f", text_color="white", corner_radius=5
                 )
                 feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
                                       anchor=tk.CENTER)  # Adjusted rely to make it closer
@@ -162,8 +164,8 @@ class ChoiceGUI:
         # EXIT button
         exit_button = ctk.CTkButton(
             master=self.frame, text="EXIT", font=backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20  # White text and red color
+            width=120, height=60, command=back_function,
+            fg_color="#d9534f", text_color="white", corner_radius=15  # White text and red color
         )
         exit_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 

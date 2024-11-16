@@ -202,12 +202,19 @@ class ReviewGUI:
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
 
-        # Create text entry
-        text_entry = ctk.CTkEntry(
-            master=self.frame, placeholder_text="Type translation here...",
-            font=self.buttonfont, fg_color="white", border_color="lightgray", border_width=2, text_color="black"
+        # Rounded frame for text entry
+        text_entry_frame = ctk.CTkFrame(
+            master=self.frame, corner_radius=20, fg_color="#f1dfb6"
         )
-        text_entry.place(relx=0.5, rely=0.6, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        text_entry_frame.place(relx=0.5, rely=0.6, relwidth=0.75, relheight=0.09, anchor=tk.CENTER)
+
+        # Text entry inside rounded frame
+        text_entry = ctk.CTkEntry(
+            master=text_entry_frame, placeholder_text="Type translation here...",
+            font=self.buttonfont, fg_color="#f1dfb6", text_color="black",
+            border_width=0  # No border for seamless integration
+        )
+        text_entry.pack(expand=True, fill="both", padx=10, pady=5)  # Adjust padding for a cleaner look
         text_entry.bind("<Return>", display_feedback)
 
         # Create submit button
@@ -237,17 +244,7 @@ class ReviewGUI:
         if Settings.AUTO_TTS:
             text_to_speech_function(flashword)
 
-    def destroy(self):
-        self.frame.destroy()
-
-    def get_random_words(self, count: int) -> list:
-        """
-        Return a random selection of unique words from the review window
-        Will not return more current_words than can be stored in the review window
-        Will return an empty list if review window is empty
-
-        param: count int : The number of random words to return
-        return: A list of randomly selected Word objects
-        """
-
-        return random.sample(self.review_window, min(count, len(self.review_window))) if self.review_window else []
+    def get_random_words(self, count):
+        if len(self.review_window) < count:
+            return random.choices(self.review_window, k=count)
+        return random.sample(self.review_window, count)
