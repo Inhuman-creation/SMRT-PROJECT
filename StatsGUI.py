@@ -143,7 +143,7 @@ class StatsGUI:
         ax.plot(x, y, label="Language Knowledge Curve")
         #Graph the users progress through the language
         ax.axvline(count_known_words(self.controller.study_window.words_dict),
-                    color='red', linestyle='-', label="You are here")
+                    color='red', linestyle='--', label="You are here")
         ax.set_title("Check your progress")
         ax.set_xlabel("Number of Known Words")
         ax.set_ylabel("Percentage of Language Known")
@@ -161,6 +161,9 @@ class StatsGUI:
         # Display feedback based on the x position
         self.feedback_label = ctk.CTkLabel(master=self.frame, font=backbuttonfont, text="Slide to Compare!", text_color="black")
         self.feedback_label.place(relx=0.38, rely=0.8, anchor=tk.CENTER)
+
+        self.x_slider.set(self.default_x)
+        self.update_feedback(self.default_x)
 
     def update_feedback(self, x_value):
         # Calculate corresponding y-value from the function
