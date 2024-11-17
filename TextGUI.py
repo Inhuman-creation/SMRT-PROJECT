@@ -145,7 +145,7 @@ class TextGUI:
         tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=backbuttonfont,
-            width=160, height=80, command=lambda: text_to_speech_function(self.flashword),
+            width=160, height=80, command=lambda: text_to_speech_function(flashword),
             fg_color="#0f606b", text_color="white", corner_radius=20,
             image=tts_icon, compound="left"
         )

@@ -8,7 +8,8 @@ import customtkinter as ctk
 import tkinter as tk
 import Settings
 import logging
-from PIL import Image
+import os
+from PIL import Image, ImageTk
 from WalkingWindow import WalkingWindow
 
 
@@ -43,6 +44,35 @@ class SettingsGUI:
         self.welcome_label = ctk.CTkLabel(master=self.frame, text="Settings", font=headerfont, text_color="black")
         self.welcome_label.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
 
+        # Load the logo image with transparency using PIL
+        try:
+            # Load image with transparency using PIL
+            logo_image_pil = Image.open(os.path.join("assets", "SMRT_Vocab_logo.png"))
+
+            # Resize the image to make it larger
+            logo_image_pil = logo_image_pil.resize((600, 600))
+
+            # Create CTkImage with the resized image (preserving transparency)
+            logo_image = ctk.CTkImage(light_image=logo_image_pil, size=(200, 200))
+            print("Logo loaded successfully!")
+        except Exception as e:
+            print(f"Error loading logo image: {e}")
+            logo_image = None  # Fallback if the image doesn't load
+
+        if logo_image:
+            # Logo label (on the right half of the screen)
+            logo_label = ctk.CTkLabel(
+                master=self.frame,
+                image=logo_image,
+                text=""
+            )
+            logo_label.place(relx=0.87, rely=0.8, relwidth=0.18, relheight=0.3, anchor=tk.CENTER)
+
+            # Store the reference to the logo image to prevent it from being garbage collected
+            self.logo_image = logo_image
+        else:
+            print("Logo image not loaded successfully.")
+
         #starting y position for sliders
         slider_start_y = 0.1
 
@@ -62,7 +92,7 @@ class SettingsGUI:
                                                   font=buttonfont, fg_color="#0f606b", text_color="white",
                                                   state="disabled",
                                                   image=apply_icon, compound="left")
-        self.apply_changes_button.place(relx=0.5, rely=0.90, anchor=tk.CENTER, relwidth=0.20, relheight=0.10)
+        self.apply_changes_button.place(relx=0.5, rely=0.90, anchor=tk.CENTER, relwidth=0.25, relheight=0.10)
 
         # Create the Known Word Requirement slider on the left side
         self.known_threshold_var = self.add_slider("Known Word Requirement",
