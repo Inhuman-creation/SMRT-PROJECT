@@ -13,9 +13,11 @@ class AboutGUI:
         self.frame.pack(expand=1, fill="both")
 
         # Fonts
+        # Fonts
         titlefont = ctk.CTkFont(family="Garet", size=75, weight="bold")  # Title font
         backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
-        cardfont = ctk.CTkFont(family="Garet", size=22)  # Increased font size for readability
+        cardfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
+        signaturefont = ctk.CTkFont(family="Brush Script MT", size=80, slant="italic", weight="normal")  # More signature-like font
 
         # Button functions
         def back_function():
@@ -34,19 +36,15 @@ class AboutGUI:
         card = ctk.CTkLabel(
             master=self.frame,
             text=(
-                "SMRT Vocab is a vocabulary trainer designed to accelerate the acquisition "
-                "of foreign languages. Unlike other applications, SMRT Vocab doesn't slow "
-                "your progress with artificial constraints like health systems, rigid "
-                "learning paths, or restrictive topics. Our algorithm helps you learn the "
-                "most common—and most essential—vocabulary quickly. We believe that addressing "
-                "the 'vocabulary gap' is the best way to move you beyond basic comprehension, "
-                "opening the door to enjoyable language activities. With SMRT Vocab, we hope "
-                "you'll soon find yourself ready for exciting new experiences like listening "
-                "to podcasts, watching movies, reading books, and, most importantly, speaking "
-                "with others in your target language. - Lang Gang"
+                "SMRT Vocab is the smarter way to learn a new language. Forget frustrating limits like health systems, "
+                "rigid lessons, or boring topics. Our powerful algorithm focuses on the most essential vocabulary—the words "
+                "you’ll actually use.\n\n"
+                "By closing the 'vocabulary gap,' SMRT Vocab helps you go beyond the basics and gain the confidence to enjoy "
+                "movies, books, and even conversations in your target language.\n\n"
+                "No distractions. No limits. Just smarter learning. With SMRT Vocab, the world of language is yours to explore!"
             ),
             font=cardfont, text_color="white", fg_color="#acb87c", corner_radius=15,
-            wraplength=400, anchor=tk.CENTER, justify=tk.LEFT
+            wraplength=650, anchor=tk.CENTER, justify=tk.LEFT
         )
         card.place(relx=0.35, rely=0.55, relwidth=0.6, relheight=0.7, anchor=tk.CENTER)
 
@@ -75,7 +73,16 @@ class AboutGUI:
                 image=logo_image,
                 text=""
             )
-            logo_label.place(relx=0.75, rely=0.55, relwidth=0.4, relheight=0.6, anchor=tk.CENTER)  # Right half for logo
+            logo_label.place(relx=0.83, rely=0.4, relwidth=0.3, relheight=0.6, anchor=tk.CENTER)
+
+            lang_gang_label = ctk.CTkLabel(
+                master=self.frame,
+                text="- Lang Gang",
+                font=signaturefont,
+                text_color="black",
+                fg_color="#fdf3dd"
+            )
+            lang_gang_label.place(relx=0.82, rely=0.74, anchor=tk.CENTER)
 
             # Store the reference to the logo image to prevent it from being garbage collected
             self.logo_image = logo_image
@@ -94,3 +101,4 @@ class AboutGUI:
 
     def destroy(self):
         self.frame.destroy()
+
