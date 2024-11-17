@@ -47,6 +47,19 @@ class ReviewGUI:
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
         self.frame.pack(expand=1, fill="both", anchor=tk.CENTER)
 
+        def back_function():
+            self.controller.show_menu_gui()
+
+        # Back button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
+        exit_button = ctk.CTkButton(
+            master=self.frame, text="BACK", font=self.backbuttonfont,
+            width=120, height=60, command=back_function,
+            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
+            image=back_icon, compound="left"
+        )
+        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
         #Randomly display ChoiceGUI or TextGUI
         if len(self.review_window) == 0:
             #no words to review
@@ -68,19 +81,6 @@ class ReviewGUI:
         )
         no_review_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
-        def back_function():
-            self.controller.show_menu_gui()
-
-        # Create back button
-        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        back_button = ctk.CTkButton(
-            master=self.frame, text="BACK", font=self.backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20,
-            image=back_icon, compound="left"
-        )
-        back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
-
     def create_multiple_choice(self):
         # Select flashword and choices
         flashword, var1, var2, var3 = self.get_random_words(4)
@@ -99,22 +99,78 @@ class ReviewGUI:
                 play_pronunciation(word.english, "english")
 
         def display_feedback(answer_word):
-            feedback_text = ""
+            # Default incorrect color
             feedback_color = "#f37d59"
 
+            # Supportive messages for correct answers
+            supportive_messages = [
+                "You got this!", "You're on a roll!", "Amazing!", "Well done!", "Keep going!", "Perfect!",
+                "One step closer!", "Flawless!", "You're a natural!"
+            ]
+
+            # Function to hide feedback and re-enable buttons
+            def hide_feedback(feedback_label, feedback_button, buttons):
+                feedback_label.destroy()
+                if feedback_button:
+                    feedback_button.destroy()
+                for btn in buttons:
+                    btn.configure(state="normal")  # Re-enable buttons
+
+                # Immediately switch to the next word after the feedback disappears
+                self.show_random_card()
+
             if flashword.check_definition(answer_word):
-                feedback_text = "🎉 Correct! 🎉"
+                # Random supportive message
+                feedback_text = random.choice(supportive_messages)
+                # Correct color
                 feedback_color = "#77721f"
+                # Create feedback label for correct answer
+                feedback_label = ctk.CTkLabel(
+                    master=self.frame,
+                    text=feedback_text,
+                    text_color="white",
+                    font=self.feedbackfont,
+                    fg_color=feedback_color,
+                    wraplength=400,
+                    justify="center",
+                    corner_radius=5
+                )
+                feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+
+                # Disable all choice buttons after a guess is made
+                for btn in buttons:
+                    btn.configure(state="disabled")
+
+                # Automatically hide feedback and switch to the next word after 2 seconds
+                self.frame.after(1000, hide_feedback, feedback_label, None, buttons)
             else:
-                feedback_text = "Not quite!\n{} means {}.".format(flashword.foreign, flashword.english.lower()) \
+                feedback_text = "Not quite! {} means {}.".format(flashword.foreign, flashword.english.lower()) \
                     if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{flashword.english.lower()} translates to {flashword.foreign}"
 
-            feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, text_color="white",
-                font=self.feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
-            )
-            feedback_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
-            self.frame.after(2000, self.show_random_card)
+                feedback_label = ctk.CTkLabel(
+                    master=self.frame, text=feedback_text, text_color="white",
+                    font=self.feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
+                )
+                feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+
+                # Disable all choice buttons after a guess is made
+                for btn in buttons:
+                    btn.configure(state="disabled")
+
+                # Create OK button for incorrect answers
+                feedback_button = ctk.CTkButton(
+                    master=self.frame,
+                    text="OK",
+                    font=self.buttonfont,
+                    width=160,
+                    height=100,
+                    command=lambda: hide_feedback(feedback_label, feedback_button, buttons),
+                    fg_color="#d9534f",
+                    text_color="white",
+                    corner_radius=5
+                )
+                feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
+                                      anchor=tk.CENTER)
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
@@ -151,25 +207,15 @@ class ReviewGUI:
                 y = 0.85  # third and fourth buttons
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
 
-        # Create back button
-        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        back_button = ctk.CTkButton(
-            master=self.frame, text="BACK", font=self.backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20,
-            image=back_icon, compound="left"
-        )
-        back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
-
         # Text-to-speech button
         tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=self.backbuttonfont,
-            width=600, height=200, command=lambda: text_to_speech_function(flashword),
+            width=160, height=80, command=lambda: text_to_speech_function(flashword),
             fg_color="#0f606b", text_color="white", corner_radius=20,
             image=tts_icon, compound="left"
         )
-        tts_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        tts_button.place(relx=0.93, rely=0.06, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
         # Auto TTS if desired
         if Settings.AUTO_TTS:
@@ -178,29 +224,55 @@ class ReviewGUI:
     def create_text_response(self):
         flashword = self.get_random_words(1)[0]
 
-        def back_function():
-            self.controller.show_menu_gui()
-
         def text_to_speech_function(word):
             play_pronunciation(word.foreign, Settings.LANGUAGE)
 
         def display_feedback(_):
             word = text_entry.get()
             feedback_text = ""
-            feedback_color = "#f37d59"
 
+            # Supportive messages for correct answers
+            supportive_messages = [
+                "You got this!", "You're on a roll!", "Amazing!", "Well done!", "Keep going!", "Perfect!",
+                "One step closer!", "Flawless!", "You're a natural!"
+            ]
+
+            def hide_feedback(feedback_label, feedback_button):
+                feedback_label.destroy()
+                if feedback_button:
+                    feedback_button.destroy()
+                self.show_random_card()
+
+            # Set feedback color based on whether the answer is correct or incorrect
             if flashword.check_definition(word):
-                feedback_text = "🎉 Correct! 🎉"
-                feedback_color = "#77721f"
+                feedback_text = random.choice(supportive_messages)
+                feedback_color = "#77721f"  # Correct color
             else:
-                feedback_text = "Not quite!\n{} means {}.".format(flashword.foreign, flashword.english.lower())
+                feedback_text = "Not quite!\n{} means {}".format(flashword.foreign, flashword.english.lower())
+                feedback_color = "#f37d59"  # Incorrect color
 
+            # Create feedback label
             feedback_label = ctk.CTkLabel(
                 master=self.frame, text=feedback_text, text_color="white",
-                font=self.feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=25
+                font=self.feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
             )
-            feedback_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
-            self.frame.after(2000, self.show_random_card)
+            feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+
+            # If the answer is correct, auto-hide feedback after 1 second
+            if feedback_color == "#77721f":
+                self.frame.after(1000, hide_feedback, feedback_label, None)  # Auto-hide after 1 second
+
+            # If the answer is wrong, show an "OK" button to dismiss the feedback
+            else:
+                feedback_button = ctk.CTkButton(
+                    master=self.frame, text="OK", font=self.buttonfont,
+                    width=160, height=100, command=lambda: hide_feedback(feedback_label, feedback_button),
+                    fg_color="#d9534f", text_color="white", corner_radius=5
+                )
+                feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08, anchor=tk.CENTER)
+
+            text_entry.unbind("<Return>")
+            submit_button.configure(state="disabled")
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
@@ -209,49 +281,34 @@ class ReviewGUI:
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=0.5, relheight=0.3, anchor=tk.CENTER)
 
-        # Rounded frame for text entry
-        text_entry_frame = ctk.CTkFrame(
-            master=self.frame, corner_radius=20, fg_color="#f1dfb6"
-        )
-        text_entry_frame.place(relx=0.5, rely=0.6, relwidth=0.75, relheight=0.09, anchor=tk.CENTER)
-
-        # Text entry inside rounded frame
         text_entry = ctk.CTkEntry(
-            master=text_entry_frame, placeholder_text="Type translation here...",
-            font=self.buttonfont, fg_color="#f1dfb6", text_color="black",
-            border_width=0  # No border for seamless integration
+            master=self.frame, placeholder_text="Type translation here...",
+            font=ctk.CTkFont(family="Garet", size=45, weight="normal"),
+            fg_color="#f1dfb6", border_width=2, text_color="black",
+            placeholder_text_color="#bdb091",
+            corner_radius=16, justify="center", border_color="#bdb091"
         )
-        text_entry.pack(expand=True, fill="both", padx=10, pady=5)  # Adjust padding for a cleaner look
+        text_entry.place(relx=0.5, rely=0.6, relwidth=0.8, relheight=0.08, anchor=tk.CENTER)
         text_entry.bind("<Return>", display_feedback)
 
-        # Create submit button
         submit_icon = ctk.CTkImage(light_image=Image.open("Assets/submit-icon.png"), size=(40, 40))
         submit_button = ctk.CTkButton(
             master=self.frame, text="Submit", text_color="white",
-            font=self.buttonfont, command=partial(display_feedback, None),
+            command=partial(display_feedback, None),
+            font=self.buttonfont, fg_color="#0f606b", corner_radius=20,
             image=submit_icon, compound="left"
         )
-        submit_button.place(relx=0.5, rely=0.75, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
-
-        # Back button
-        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        exit_button = ctk.CTkButton(
-            master=self.frame, text="BACK", font=self.backbuttonfont,
-            width=120, height=60, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
-            image=back_icon, compound="left"
-        )
-        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        submit_button.place(relx=0.5, rely=0.75, relwidth=0.2, relheight=0.1, anchor=tk.CENTER)
 
         # Text-to-speech button
         tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
-            master=self.frame, text="Speak\nText", font= self.backbuttonfont,
-            width=160, height=80, command=lambda: text_to_speech_function(self.flashword),
+            master=self.frame, text="Speak\nText", font=self.backbuttonfont,
+            width=160, height=80, command=lambda: text_to_speech_function(flashword),
             fg_color="#0f606b", text_color="white", corner_radius=20,
             image=tts_icon, compound="left"
         )
-        tts_button.place(relx=0.93, rely=0.18, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
+        tts_button.place(relx=0.93, rely=0.06, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
         # Auto TTS if desired
         if Settings.AUTO_TTS:
