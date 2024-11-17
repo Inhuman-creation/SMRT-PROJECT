@@ -1,6 +1,7 @@
 import customtkinter as ctk
 import tkinter as tk
 import os
+import webbrowser
 from PIL import Image, ImageTk
 
 class AboutGUI:
@@ -12,7 +13,6 @@ class AboutGUI:
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
         self.frame.pack(expand=1, fill="both")
 
-        # Fonts
         # Fonts
         titlefont = ctk.CTkFont(family="Garet", size=75, weight="bold")  # Title font
         backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
@@ -32,7 +32,7 @@ class AboutGUI:
         )
         title_label.place(relx=0.5, rely=0.1, anchor=tk.CENTER)  # Centered title near the top
 
-        # Main text content label (slightly shorter rectangle on the left half of the screen)
+        # Main text content label
         card = ctk.CTkLabel(
             master=self.frame,
             text=(
@@ -48,32 +48,23 @@ class AboutGUI:
         )
         card.place(relx=0.35, rely=0.55, relwidth=0.6, relheight=0.7, anchor=tk.CENTER)
 
-        # Check the current working directory to ensure file path is correct
-        print("Current working directory:", os.getcwd())  # For debugging path
-
         # Load the logo image with transparency using PIL
         try:
-            # Load image with transparency using PIL
             logo_image_pil = Image.open(os.path.join("assets", "SMRT_Vocab_logo.png"))
-
-            # Resize the image to make it larger
             logo_image_pil = logo_image_pil.resize((600, 600))
-
-            # Create CTkImage with the resized image (preserving transparency)
             logo_image = ctk.CTkImage(light_image=logo_image_pil, size=(400, 400))
             print("Logo loaded successfully!")
         except Exception as e:
             print(f"Error loading logo image: {e}")
-            logo_image = None  # Fallback if the image doesn't load
+            logo_image = None
 
         if logo_image:
-            # Logo label (on the right half of the screen)
             logo_label = ctk.CTkLabel(
                 master=self.frame,
                 image=logo_image,
                 text=""
             )
-            logo_label.place(relx=0.83, rely=0.4, relwidth=0.3, relheight=0.6, anchor=tk.CENTER)
+            logo_label.place(relx=0.82, rely=0.4, relwidth=0.3, relheight=0.6, anchor=tk.CENTER)
 
             lang_gang_label = ctk.CTkLabel(
                 master=self.frame,
@@ -84,7 +75,6 @@ class AboutGUI:
             )
             lang_gang_label.place(relx=0.82, rely=0.74, anchor=tk.CENTER)
 
-            # Store the reference to the logo image to prevent it from being garbage collected
             self.logo_image = logo_image
         else:
             print("Logo image not loaded successfully.")
@@ -96,9 +86,26 @@ class AboutGUI:
             width=120, height=60, command=back_function,
             fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
             image=back_icon, compound="left"
-            )
+        )
         exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+
+        # Function to open the website when the label is clicked
+        def open_website(event):
+            webbrowser.open("https://sites.google.com/view/smrt-vocab/home")  # Replace with your desired URL
+
+        # Add a label with a hyperlink
+        link_label = ctk.CTkLabel(
+            master=self.frame,
+            text="Visit us!",
+            text_color="blue",
+            font=cardfont,
+            cursor="hand",  # Cursor changes to hand on hover
+        )
+        # Position the link label at the bottom center
+        link_label.place(relx=0.82, rely=0.83, anchor=tk.CENTER)
+
+        # Bind the click event to the open_website function
+        link_label.bind("<Button-1>", open_website)  # <Button-1> is the left mouse button
 
     def destroy(self):
         self.frame.destroy()
-
