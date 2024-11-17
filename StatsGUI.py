@@ -1,11 +1,13 @@
 # =====================
 # StatsGUI.py
-# Latest version: Nov 14 2024
+# Latest version: Nov 16 2024
 # Interactive graph and statistics GUI
 # =====================
 
 import customtkinter as ctk
 import tkinter as tk
+import os
+from PIL import Image, ImageTk
 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
@@ -62,35 +64,61 @@ class StatsGUI:
 
         # Create fonts (all "Garet")
         backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
-        headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
+        knownwordsfont = ctk.CTkFont(family="Garet", size=60, weight="bold")
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")
 
         # Button functions
         def back_function():
             self.controller.show_menu_gui()
 
-        # Create "See how you grow!" label at the top of the screen
-        growth_label = ctk.CTkLabel(
-            master=self.frame, text="See how you grow!", text_color="black",
-            font=headerfont, fg_color="#fdf3dd"
-        )
-        growth_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
-
         # Known Words card
         card = ctk.CTkLabel(
-            master=self.frame, text="Total Known Words:\n" + str(self.default_x), text_color="white",
-            font=backbuttonfont, fg_color="#acb87c", corner_radius=15
+            master=self.frame,
+            text="Total Known Words: " + str(self.default_x),
+            text_color="white",
+            font=knownwordsfont,
+            fg_color="#acb87c",
+            corner_radius=15
         )
-        card.place(relx=0.5, rely=0.2, relwidth=.20, relheight=.1, anchor=tk.CENTER)
+        card.place(relx=0.5, rely=0.2, relwidth=.8, relheight=.15, anchor=tk.CENTER)
 
         # Stats card
         stats_card = ctk.CTkLabel(
             master=self.frame,
-            text="Hardest Word:\n" + str(self.most_difficult) +"\n\n Worst Word:\n"+ str(self.most_incorrect),
+            text="Most Seen Word:\n" + str(self.most_difficult) +"\n\n Worst Word:\n"+ str(self.most_incorrect),
             text_color="white",
             font=backbuttonfont, fg_color="#0f606b", corner_radius=15
         )
-        stats_card.place(relx=0.90, rely=0.5, relwidth=.15, relheight=.25, anchor=tk.CENTER)
+        stats_card.place(relx=0.86, rely=0.5, relwidth=.22, relheight=.25, anchor=tk.CENTER)
+
+        # Load the logo image with transparency using PIL
+        try:
+            # Load image with transparency using PIL
+            logo_image_pil = Image.open(os.path.join("assets", "SMRT_Vocab_logo.png"))
+
+            # Resize the image to make it larger
+            logo_image_pil = logo_image_pil.resize((600, 600))
+
+            # Create CTkImage with the resized image (preserving transparency)
+            logo_image = ctk.CTkImage(light_image=logo_image_pil, size=(200, 200))
+            print("Logo loaded successfully!")
+        except Exception as e:
+            print(f"Error loading logo image: {e}")
+            logo_image = None  # Fallback if the image doesn't load
+
+        if logo_image:
+            # Logo label (on the right half of the screen)
+            logo_label = ctk.CTkLabel(
+                master=self.frame,
+                image=logo_image,
+                text=""
+            )
+            logo_label.place(relx=0.87, rely=0.8, relwidth=0.3, relheight=0.3, anchor=tk.CENTER)
+
+            # Store the reference to the logo image to prevent it from being garbage collected
+            self.logo_image = logo_image
+        else:
+            print("Logo image not loaded successfully.")
 
         self.create_interactive_graph(feedbackfont)
 
@@ -124,15 +152,15 @@ class StatsGUI:
         # Add the matplotlib figure to tkinter
         canvas = FigureCanvasTkAgg(fig, master=self.frame)
         canvas.draw()
-        canvas.get_tk_widget().place(relx=0.5, rely=0.5, anchor=tk.CENTER)
+        canvas.get_tk_widget().place(relx=0.38, rely=0.52, anchor=tk.CENTER)
 
         # Add a slider to control the x-axis position
         self.x_slider = ctk.CTkSlider(master=self.frame, from_=1, to=5000, command=self.update_feedback)
-        self.x_slider.place(relx=0.5, rely=0.85, relwidth=0.6, anchor=tk.CENTER)
+        self.x_slider.place(relx=0.38, rely=0.88, relwidth=0.6, anchor=tk.CENTER)
 
         # Display feedback based on the x position
         self.feedback_label = ctk.CTkLabel(master=self.frame, font=backbuttonfont, text="Slide to Compare!", text_color="black")
-        self.feedback_label.place(relx=0.5, rely=0.75, anchor=tk.CENTER)
+        self.feedback_label.place(relx=0.38, rely=0.8, anchor=tk.CENTER)
 
     def update_feedback(self, x_value):
         # Calculate corresponding y-value from the function
