@@ -61,12 +61,12 @@ Foreign,English,seen,correct,wrong,known
 会う,meet,0,0,0,0
 月曜日,Monday,0,0,0,0
 昨日,yesterday,0,0,0,0
-休む,take a day off,0,0,0,0
+休む,to rest,0,0,0,0
 今日,today,0,0,0,0
 木曜日,Thursday,0,0,0,0
 場合,situation,0,0,0,0
 つける,switch on,0,0,0,0
-駅,railway station,0,0,0,0
+駅,train station,0,0,0,0
 止める,stop,0,0,0,0
 歩く,walk,0,0,0,0
 近く,near,0,0,0,0
@@ -79,8 +79,8 @@ Foreign,English,seen,correct,wrong,known
 赤い,red,0,0,0,0
 どちら,which,0,0,0,0
 米,rice,0,0,0,0
-まずい,bad-tasting,0,0,0,0
-無い,to not be,0,0,0,0
+まずい,awful,0,0,0,0
+無い,not,0,0,0,0
 作る,make,0,0,0,0
 使う,use,0,0,0,0
 消す,switch off,0,0,0,0
@@ -101,7 +101,7 @@ Foreign,English,seen,correct,wrong,known
 古い,old,0,0,0,0
 悪い,bad,0,0,0,0
 思う,think,0,0,0,0
-そう,in such manner,0,0,0,0
+そう,seeming that,0,0,0,0
 どう,how,0,0,0,0
 考える,think,0,0,0,0
 決める,decide,0,0,0,0
@@ -364,7 +364,7 @@ Foreign,English,seen,correct,wrong,known
 七日,seven days,0,0,0,0
 有る,exist,0,0,0,0
 浴びる,take,0,0,0,0
-生きる,live one's life,0,0,0,0
+生きる,to live,0,0,0,0
 長い,long,0,0,0,0
 髪の毛,hair,0,0,0,0
 鼻,nose,0,0,0,0
@@ -426,8 +426,8 @@ Foreign,English,seen,correct,wrong,known
 ハンカチ,handkerchief,0,0,0,0
 先週,last week,0,0,0,0
 男の子,boy,0,0,0,0
-おしゃれ,dressing up smartly,0,0,0,0
-カレーライス,curried rice,0,0,0,0
+おしゃれ,stylish,0,0,0,0
+カレーライス,curry rice,0,0,0,0
 いたずら,mischief,0,0,0,0
 石,stone,0,0,0,0
 林,woods,0,0,0,0
@@ -534,7 +534,7 @@ Foreign,English,seen,correct,wrong,known
 なお,still,0,0,0,0
 つもり,intention,0,0,0,0
 止める,stop,0,0,0,0
-止まる,come to a stop,0,0,0,0
+止まる,to stop moving,0,0,0,0
 止む,stop,0,0,0,0
 森,thick woods,0,0,0,0
 歩道,sidewalk,0,0,0,0
@@ -572,12 +572,12 @@ Foreign,English,seen,correct,wrong,known
 作文,composition,0,0,0,0
 ジャム,jam,0,0,0,0
 ジャガイモ,potato,0,0,0,0
-ストーブ,paraffin heater,0,0,0,0
+ストーブ,stove,0,0,0,0
 交通費,traveling expense,0,0,0,0
 火,fire,0,0,0,0
 売り場,sales floor,0,0,0,0
 サービス,service,0,0,0,0
-何度,how many degrees,0,0,0,0
+何度,how many times,0,0,0,0
 商品,goods,0,0,0,0
 上がる,go up,0,0,0,0
 ビル,building,0,0,0,0
@@ -638,7 +638,7 @@ Foreign,English,seen,correct,wrong,known
 氏名,name,0,0,0,0
 外人,foreigner,0,0,0,0
 南,south,0,0,0,0
-初めて,for the first time,0,0,0,0
+初めて,first time,0,0,0,0
 水道,water service,0,0,0,0
 都市,cities,0,0,0,0
 都合,circumstances,0,0,0,0
@@ -676,7 +676,7 @@ Foreign,English,seen,correct,wrong,known
 クラス,class,0,0,0,0
 校長,principal,0,0,0,0
 休校,temporary closure of school,0,0,0,0
-忘れ物,something left behind,0,0,0,0
+忘れ物,lost item,0,0,0,0
 場所,place,0,0,0,0
 読み方,way of reading,0,0,0,0
 育つ,be brought up,0,0,0,0
@@ -771,7 +771,7 @@ Foreign,English,seen,correct,wrong,known
 上着,coat,0,0,0,0
 役に立つ,be useful,0,0,0,0
 席,seat,0,0,0,0
-空く,become available or vacant,0,0,0,0
+空く,to get empty,0,0,0,0
 代える,substitute,0,0,0,0
 全国,the whole country,0,0,0,0
 降りる,get off,0,0,0,0
@@ -825,7 +825,7 @@ Foreign,English,seen,correct,wrong,known
 薬,drug,0,0,0,0
 歌,song,0,0,0,0
 歌手,singer,0,0,0,0
-下手,not good at,0,0,0,0
+下手,unskillful,0,0,0,0
 欲しがる,desire,0,0,0,0
 一部,part,0,0,0,0
 絵,picture,0,0,0,0
@@ -871,12 +871,12 @@ Foreign,English,seen,correct,wrong,known
 毎年,every year,0,0,0,0
 フィルム,film,0,0,0,0
 思い出,recollections,0,0,0,0
-一昨年,the year before last,0,0,0,0
-やっぱり,just as I thought,0,0,0,0
+一昨年,year before last,0,0,0,0
+やっぱり,as expected,0,0,0,0
 利用,utilization,0,0,0,0
 返す,return,0,0,0,0
 がらがら,empty,0,0,0,0
-旅館,Japanese inn,0,0,0,0
+旅館,inn,0,0,0,0
 泊める,lodge,0,0,0,0
 トランプ,cards,0,0,0,0
 おばさん,aunt,0,0,0,0
@@ -928,7 +928,7 @@ Foreign,English,seen,correct,wrong,known
 兄さん,older brother,0,0,0,0
 アイスクリーム,ice cream,0,0,0,0
 安全,safety,0,0,0,0
-合格,passing an examination,0,0,0,0
+合格,pass an exam,0,0,0,0
 練習,practice,0,0,0,0
 ピンク,pink,0,0,0,0
 引き算,subtraction,0,0,0,0
@@ -1202,7 +1202,7 @@ Foreign,English,seen,correct,wrong,known
 組織,organization,0,0,0,0
 進む,advance,0,0,0,0
 科学,science,0,0,0,0
-進学,entering a school of higher grade,0,0,0,0
+進学,advance to the next stage of education,0,0,0,0
 大学院,graduate school,0,0,0,0
 拡大,magnification,0,0,0,0
 調べる,investigate,0,0,0,0
@@ -1456,7 +1456,7 @@ Foreign,English,seen,correct,wrong,known
 数字,figure,0,0,0,0
 苦しい,painful,0,0,0,0
 苦い,bitter,0,0,0,0
-苦手,person that is hard to deal with,0,0,0,0
+苦手,poor at,0,0,0,0
 困る,be at a loss,0,0,0,0
 貧乏,poverty,0,0,0,0
 ジュース,juice,0,0,0,0
@@ -2361,7 +2361,7 @@ Foreign,English,seen,correct,wrong,known
 負け,defeat,0,0,0,0
 引き分け,draw,0,0,0,0
 負担,burden,0,0,0,0
-まさか,never in a million years,0,0,0,0
+まさか,something unexpected,0,0,0,0
 日当たり,exposure to the sun,0,0,0,0
 のろい,slow,0,0,0,0
 文法,grammar,0,0,0,0
@@ -2372,7 +2372,7 @@ Foreign,English,seen,correct,wrong,known
 大国,world power,0,0,0,0
 送金,money transfer,0,0,0,0
 もうける,make a profit,0,0,0,0
-待ち遠しい,just can't wait for,0,0,0,0
+待ち遠しい,longed-for,0,0,0,0
 一時,temporarily,0,0,0,0
 金利,interest,0,0,0,0
 法則,law,0,0,0,0
@@ -2462,7 +2462,7 @@ Foreign,English,seen,correct,wrong,known
 束,bundle,0,0,0,0
 図る,strive for,0,0,0,0
 変更,alteration,0,0,0,0
-夜更かし,sitting up late at night,0,0,0,0
+夜更かし,staying up late,0,0,0,0
 急増,sudden increase,0,0,0,0
 増す,increase,0,0,0,0
 増大,increase,0,0,0,0
@@ -2520,7 +2520,7 @@ Foreign,English,seen,correct,wrong,known
 業界,industry,0,0,0,0
 上がる,be completed,0,0,0,0
 覚え,recollection,0,0,0,0
-早まる,make a hasty decision,0,0,0,0
+早まる,to be hasty,0,0,0,0
 月日,time,0,0,0,0
 出来るだけ,as much as possible,0,0,0,0
 高速,high speed,0,0,0,0
@@ -2542,7 +2542,7 @@ Foreign,English,seen,correct,wrong,known
 始終,from beginning to end,0,0,0,0
 終電,last train,0,0,0,0
 会,meeting,0,0,0,0
-なるべく,as...as possible,0,0,0,0
+なるべく,if possible,0,0,0,0
 役目,duty,0,0,0,0
 現地,actual site,0,0,0,0
 現場,actual spot,0,0,0,0
@@ -2652,7 +2652,7 @@ Foreign,English,seen,correct,wrong,known
 日日,date,0,0,0,0
 以降,hereafter,0,0,0,0
 税,tax,0,0,0,0
-セールスマン,sales representative,0,0,0,0
+セールスマン,salesman,0,0,0,0
 リットル,liter,0,0,0,0
 ガイド,guide,0,0,0,0
 ゴールデンウィーク,golden week,0,0,0,0
@@ -3276,7 +3276,7 @@ Foreign,English,seen,correct,wrong,known
 正門,main gate,0,0,0,0
 正解,right answer,0,0,0,0
 正方形,square,0,0,0,0
-正座,sitting upright with legs folded under one,0,0,0,0
+正座,proper sitting,0,0,0,0
 正当,just,0,0,0,0
 不正,fraud,0,0,0,0
 同性,of the same sex,0,0,0,0
@@ -3288,7 +3288,7 @@ Foreign,English,seen,correct,wrong,known
 等しい,equal,0,0,0,0
 非常識,lack of common sense,0,0,0,0
 非常口,emergency exit,0,0,0,0
-もてる,be popular with the opposite sex,0,0,0,0
+もてる,to be popular,0,0,0,0
 エンジン,engine,0,0,0,0
 好調,favorable condition,0,0,0,0
 下調べ,preliminary investigation,0,0,0,0
@@ -3339,7 +3339,7 @@ Foreign,English,seen,correct,wrong,known
 手続き,procedure,0,0,0,0
 続々,in rapid succession,0,0,0,0
 続き,continuation,0,0,0,0
-長続き,lasting for a long time,0,0,0,0
+長続き,lasting long,0,0,0,0
 相変わらず,as usual,0,0,0,0
 相当,correspondence,0,0,0,0
 前半,first half,0,0,0,0
@@ -3520,7 +3520,7 @@ Foreign,English,seen,correct,wrong,known
 職業,occupation,0,0,0,0
 私鉄,private railway,0,0,0,0
 名,name,0,0,0,0
-都内,in the metropolitan area of Tokyo,0,0,0,0
+都内,within the metropolitan area,0,0,0,0
 有利,advantageous,0,0,0,0
 都,metropolis of Tokyo,0,0,0,0
 不平等,unequal,0,0,0,0
@@ -3566,7 +3566,7 @@ Foreign,English,seen,correct,wrong,known
 追加,addition,0,0,0,0
 前年,the year before,0,0,0,0
 比率,ratio,0,0,0,0
-見比べる,look from one to another,0,0,0,0
+見比べる,compare with the eye,0,0,0,0
 比較,comparison,0,0,0,0
 受け取り,receipt,0,0,0,0
 判決,judicial decision,0,0,0,0
@@ -3744,7 +3744,7 @@ Foreign,English,seen,correct,wrong,known
 冷凍,freezing,0,0,0,0
 車庫,car shed,0,0,0,0
 内臓,internal organs,0,0,0,0
-快晴,fair and clear weather,0,0,0,0
+快晴,clear weather,0,0,0,0
 適用,application,0,0,0,0
 適する,suit,0,0,0,0
 適当,suitable,0,0,0,0
@@ -3783,7 +3783,7 @@ Foreign,English,seen,correct,wrong,known
 河口,river mouth,0,0,0,0
 ウエスト,the waist,0,0,0,0
 水平線,horizon,0,0,0,0
-発電,generation of electricity,0,0,0,0
+発電,power generation,0,0,0,0
 陽気,cheerful,0,0,0,0
 有限,limited,0,0,0,0
 観測,observation,0,0,0,0
@@ -3986,7 +3986,7 @@ Foreign,English,seen,correct,wrong,known
 教わる,be taught,0,0,0,0
 専用,exclusive use,0,0,0,0
 両者,both,0,0,0,0
-見合い,meeting with a view to marriage,0,0,0,0
+見合い,marriage interview,0,0,0,0
 両立,managing two things,0,0,0,0
 両面,both sides,0,0,0,0
 片手,one hand,0,0,0,0
@@ -4669,14 +4669,14 @@ Foreign,English,seen,correct,wrong,known
 衣類,clothes,0,0,0,0
 衣服,clothes,0,0,0,0
 衣料,clothing,0,0,0,0
-衣食住,clothing and food and housing,0,0,0,0
+衣食住,necessities of life,0,0,0,0
 地味,plain,0,0,0,0
 整える,arrange,0,0,0,0
 相応しい,suitable,0,0,0,0
 仮に,supposing that,0,0,0,0
 仮定,assumption,0,0,0,0
 仮,provisional,0,0,0,0
-振り仮名,reading aid in kana characters,0,0,0,0
+振り仮名,kana reading aid,0,0,0,0
 演説,speech,0,0,0,0
 公演,public performance,0,0,0,0
 出演,appearance on stage,0,0,0,0
@@ -4780,7 +4780,7 @@ Foreign,English,seen,correct,wrong,known
 体育,physical training,0,0,0,0
 レポート,report,0,0,0,0
 払い込む,pay in,0,0,0,0
-下,under the supervision,0,0,0,0
+下,below,0,0,0,0
 全て,all,0,0,0,0
 お手伝い,helper,0,0,0,0
 後片付け,cleaning up,0,0,0,0
@@ -5154,7 +5154,7 @@ Foreign,English,seen,correct,wrong,known
 一帯,area,0,0,0,0
 取れる,be harvested,0,0,0,0
 麦,wheat,0,0,0,0
-田畑,fields and rice paddies,0,0,0,0
+田畑,fields,0,0,0,0
 炊事,cooking,0,0,0,0
 灯油,kerosene,0,0,0,0
 電灯,lamp,0,0,0,0
@@ -5237,7 +5237,7 @@ Foreign,English,seen,correct,wrong,known
 肌色,flesh color,0,0,0,0
 コック,cook,0,0,0,0
 領域,territory,0,0,0,0
-胃腸,stomach and intestines,0,0,0,0
+胃腸,digestive organs,0,0,0,0
 腸,intestines,0,0,0,0
 肝心,vital,0,0,0,0
 大胆,boldness,0,0,0,0
@@ -5804,7 +5804,7 @@ Foreign,English,seen,correct,wrong,known
 欄,column,0,0,0,0
 栓抜き,bottle opener,0,0,0,0
 巣,nest,0,0,0,0
-囲碁,"game of ""go""",0,0,0,0
+囲碁,board game Go,0,0,0,0
 嘘つき,liar,0,0,0,0
 考慮,consideration,0,0,0,0
 癖,habit,0,0,0,0
