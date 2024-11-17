@@ -14,6 +14,7 @@ import os
 from PIL import Image
 from functools import partial
 
+
 class LoginGUI:
     def __init__(self, controller):
         self.controller = controller
@@ -26,16 +27,18 @@ class LoginGUI:
         # Creating fonts
         headerfont = ctk.CTkFont(family="Garet", size=100)  # Larger font for "Login" label
         buttonfont = ctk.CTkFont(family="Garet", size=28, weight="bold")
-        feedbackbuttonfont = ctk.CTkFont(family="Garet", size=18, weight="bold")
+        feedbackbuttonfont = ctk.CTkFont(family="Garet", size=45, weight="bold")
         entryfont = ctk.CTkFont(family="Garet", size=28)  # Unbolded for entries
         italicsfont = ctk.CTkFont(family="Garet", size=18, slant="italic")
 
         # Welcome messages in different languages
-        self.welcome_messages = ["Welcome", "Bienvenido", "Bienvenue", "أهلا بك", "Willkommen", "Benvenuto", "欢迎", "Добро пожаловать", "Hoş geldin"]
+        self.welcome_messages = ["Welcome", "Bienvenido", "Bienvenue", "أهلا بك", "Willkommen", "Benvenuto", "欢迎",
+                                 "Добро пожаловать", "Hoş geldin"]
         self.current_welcome_index = 0
 
         # Welcome label
-        self.welcome_label = ctk.CTkLabel(master=self.frame, text=self.welcome_messages[self.current_welcome_index], font=headerfont, text_color="black")
+        self.welcome_label = ctk.CTkLabel(master=self.frame, text=self.welcome_messages[self.current_welcome_index],
+                                          font=headerfont, text_color="black")
         self.welcome_label.place(relx=0.5, rely=0.18, anchor=tk.CENTER)
 
         # Function to switch the welcome message every 2 seconds
@@ -51,20 +54,33 @@ class LoginGUI:
         def show_feedback(feedback: str):
             feedback_text = feedback
             feedback_label = ctk.CTkLabel(
-                master=self.frame, text=feedback_text, font=feedbackbuttonfont, text_color="black",
-                fg_color="grey75"
+                master=self.frame,
+                text=feedback_text,
+                font=feedbackbuttonfont,
+                text_color="white",
+                fg_color="#f37d59",
+                corner_radius=5
             )
-            feedback_label.place(relx=0.5, rely=0.9, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
+            feedback_label.place(relx=0.5, rely=0.5, relwidth=0.5, relheight=0.15, anchor=tk.CENTER)
 
             def feedback_function():
                 feedback_label.destroy()
                 feedback_button.destroy()
 
+            # OK button for pop-ups
             feedback_button = ctk.CTkButton(
-                master=self.frame, text="OK", font=feedbackbuttonfont,
-                width=160, height=100, command=feedback_function, fg_color="#000080"
+                master=self.frame,
+                text="OK",
+                font=feedbackbuttonfont,
+                width=160,
+                height=100,
+                fg_color="#d9534f",
+                text_color="white",
+                corner_radius=5,
+                command = feedback_function
             )
-            feedback_button.place(relx=0.5, rely=0.75, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
+            feedback_button.place(relx=0.5, rely=0.6, relwidth=0.1, relheight=0.08,
+                                  anchor=tk.CENTER)
 
         # Button functions
         def login_function():
@@ -72,7 +88,7 @@ class LoginGUI:
             email = self.text_entry_email.get()
 
             if not email.strip() or not password.strip():
-                show_feedback("Please Complete All Fields")
+                show_feedback("Please complete all fields!")
                 return
 
             # Check provided credentials
@@ -84,10 +100,10 @@ class LoginGUI:
                         login_success = True
 
             if not login_success:
-                show_feedback("Incorrect Email and Password")
-                return 
+                show_feedback("Incorrect email or password!")
+                return
 
-            # Make user_lang.csv files if necessary
+                # Make user_lang.csv files if necessary
             for lang in Settings.LANGUAGE_OPTIONS:
                 user_file_path = f"UserWords/{email}_{lang}.csv"
                 if not os.path.exists(user_file_path):
@@ -108,23 +124,24 @@ class LoginGUI:
             email = self.text_entry_email.get()
 
             # Check that all field have something
-            if not  email.strip() or not password.strip():
-                show_feedback("Please Complete All Fields")
+            if not email.strip() or not password.strip():
+                show_feedback("Please complete all fields!")
                 return
-            
+
             # Check email for unallowed characters (Windows file naming constraint)
             unallowed_characters = "<>:\"/\\|?*"
             for c in unallowed_characters:
                 if c in email:
                     show_feedback("Emails should not contain the\n following characters: \n<>:\"/\\|?*")
                     return
-            
-            # check if email already exists in the application
+
+            # Check if email already exists in the application
             with open("AccountInformation.csv", mode="r") as accounts_file:
                 reader = csv.DictReader(accounts_file)
                 for row in reader:
                     if row["Email"] == email:
-                        show_feedback("That Email is Taken\nTry Another")
+                        show_feedback("That email is already in use!\n Register "
+                                      "with another email.")
                         return
 
             account_data = {
@@ -141,7 +158,7 @@ class LoginGUI:
                 if file.tell() == 0:
                     writer.writeheader()
                 writer.writerow(account_data)
-            
+
             # copy Template_lang.csv files to user_lang.csv
             for lang in Settings.LANGUAGE_OPTIONS:
                 user_file_path = f"UserWords/{email}_{lang}.csv"
@@ -165,28 +182,44 @@ class LoginGUI:
         input_frame.place(relx=0.5, rely=0.6, relwidth=0.55, relheight=0.6, anchor=tk.CENTER)
 
         # Header label "Welcome to SMRT Vocab"
-        header_label = ctk.CTkLabel(master=input_frame, text="Welcome to SMRT Vocab", font=ctk.CTkFont(family="Garet", size=35, weight="bold"), text_color="black")
+        header_label = ctk.CTkLabel(master=input_frame, text="Welcome to SMRT Vocab",
+                                    font=ctk.CTkFont(family="Garet", size=35, weight="bold"), text_color="black")
         header_label.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
+
+        # Load the logo image
+        logo_image = ctk.CTkImage(light_image=Image.open("Assets/SMRT_Vocab_logo.png"),
+                                  size=(140, 140))  # Adjust size as needed
+        logo_label = ctk.CTkLabel(master=input_frame, image=logo_image, text="")
+        logo_label.place(relx=0.5, rely=0.22, anchor=tk.CENTER)
+
+        # Store the reference to prevent garbage collection
+        self.logo_image = logo_image
 
         # Text entries
         self.text_entry_email = ctk.CTkEntry(
             master=input_frame, placeholder_text="Email", font=entryfont,
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_email.place(relx=0.5, rely=0.35, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_email.place(relx=0.5, rely=0.4, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         self.text_entry_password = ctk.CTkEntry(
             master=input_frame, placeholder_text="Password", font=entryfont, show="*",
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_password.place(relx=0.5, rely=0.5, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_password.place(relx=0.5, rely=0.55, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         # "Login" button
         login_icon = ctk.CTkImage(light_image=Image.open("Assets/enter-icon.png"), size=(40, 40))
         loginbutton = ctk.CTkButton(
-            master=input_frame, text="Login", font=buttonfont, command=login_function,
-            fg_color="#f37d59", text_color="white", corner_radius=10,
-            image=login_icon, compound="left"
+            master=input_frame,
+            text="Login",
+            font=buttonfont,
+            command=login_function,
+            fg_color="#acb87c",
+            text_color="white",
+            corner_radius=10,
+            image=login_icon,
+            compound="left"
         )
         loginbutton.place(relx=0.5, rely=0.7, relwidth=0.7, relheight=0.1, anchor=tk.CENTER)
 

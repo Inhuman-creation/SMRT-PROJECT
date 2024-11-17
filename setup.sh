@@ -5,3 +5,4 @@ python -m pip install matplotlib
 python -m pip install pygame
 python -m pip install gTTS
 python -m pip install pillow
+python -m pip install opencv-python

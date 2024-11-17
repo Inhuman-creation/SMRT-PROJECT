@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import tkinter as tk
 import os
-from PIL import Image
+from PIL import Image, ImageTk
 
 class AboutGUI:
     def __init__(self, controller):
@@ -48,17 +48,24 @@ class AboutGUI:
             font=cardfont, text_color="white", fg_color="#acb87c", corner_radius=15,
             wraplength=400, anchor=tk.CENTER, justify=tk.LEFT
         )
-        card.place(relx=0.25, rely=0.55, relwidth=0.35, relheight=0.7, anchor=tk.CENTER)  # Slightly shorter vertical rectangle
+        card.place(relx=0.35, rely=0.55, relwidth=0.6, relheight=0.7, anchor=tk.CENTER)
 
         # Check the current working directory to ensure file path is correct
         print("Current working directory:", os.getcwd())  # For debugging path
 
-        # Load the logo image (ensure the file path is correct)
+        # Load the logo image with transparency using PIL
         try:
-            logo_image = ctk.CTkImage(file="SMRT_Vocab_logo.png")  # Load logo using CTkImage
+            # Load image with transparency using PIL
+            logo_image_pil = Image.open(os.path.join("assets", "SMRT_Vocab_logo.png"))
+
+            # Resize the image to make it larger
+            logo_image_pil = logo_image_pil.resize((600, 600))
+
+            # Create CTkImage with the resized image (preserving transparency)
+            logo_image = ctk.CTkImage(light_image=logo_image_pil, size=(400, 400))
             print("Logo loaded successfully!")
         except Exception as e:
-            print(f"Error loading logo: {e}")
+            print(f"Error loading logo image: {e}")
             logo_image = None  # Fallback if the image doesn't load
 
         if logo_image:
@@ -75,15 +82,15 @@ class AboutGUI:
         else:
             print("Logo image not loaded successfully.")
 
-        # Create back button with larger font
+        # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        back_button = ctk.CTkButton(
+        exit_button = ctk.CTkButton(
             master=self.frame, text="BACK", font=backbuttonfont,
             width=120, height=60, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20,
+            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
             image=back_icon, compound="left"
-        )
-        back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)  # Back button in top left corner
+            )
+        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
     def destroy(self):
         self.frame.destroy()

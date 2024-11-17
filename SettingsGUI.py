@@ -32,7 +32,7 @@ class SettingsGUI:
         # Creating fonts
         headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
         labelfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
-        backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+        backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
         buttonfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
 
         # button functions
@@ -46,15 +46,15 @@ class SettingsGUI:
         #starting y position for sliders
         slider_start_y = 0.35
 
-        # Create back button
+        # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        back_button = ctk.CTkButton(
+        exit_button = ctk.CTkButton(
             master=self.frame, text="BACK", font=backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20,
+            width=120, height=60, command=back_function,
+            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
             image=back_icon, compound="left"
         )
-        back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # apply changes button
         apply_icon = ctk.CTkImage(light_image=Image.open("Assets/apply-icon.png"), size=(20, 20))

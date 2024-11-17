@@ -33,7 +33,7 @@ class ReviewGUI:
         # Initialize fonts (all "Garet")
         self.flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")
         self.buttonfont = ctk.CTkFont(family="Garet", size=45, weight="bold")
-        self.backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+        self.backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
         self.feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")
 
         self.show_random_card()
@@ -70,14 +70,6 @@ class ReviewGUI:
 
         def back_function():
             self.controller.show_menu_gui()
-
-        # Create back button
-        back_button = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=self.backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20
-        )
-        back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
 
     def create_multiple_choice(self):
         # Select flashword and choices
@@ -231,25 +223,25 @@ class ReviewGUI:
         )
         submit_button.place(relx=0.5, rely=0.75, relwidth=0.3, relheight=0.2, anchor=tk.CENTER)
 
-        # Create back button
+        # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        back_button = ctk.CTkButton(
+        exit_button = ctk.CTkButton(
             master=self.frame, text="BACK", font=self.backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20,
+            width=120, height=60, command=back_function,
+            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
             image=back_icon, compound="left"
         )
-        back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
+        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Text-to-speech button
         tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
-            master=self.frame, text="Speak\nText", font=self.backbuttonfont,
-            width=600, height=200, command=lambda: text_to_speech_function(flashword),
+            master=self.frame, text="Speak\nText", font= self.backbuttonfont,
+            width=160, height=80, command=lambda: text_to_speech_function(self.flashword),
             fg_color="#0f606b", text_color="white", corner_radius=20,
             image=tts_icon, compound="left"
         )
-        tts_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        tts_button.place(relx=0.93, rely=0.18, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
         # Auto TTS if desired
         if Settings.AUTO_TTS:

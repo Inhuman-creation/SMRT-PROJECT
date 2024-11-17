@@ -63,7 +63,7 @@ class MenuGUI:
             pygame.quit()
             self.app.destroy()
 
-        # Static title label "What would you like to do?"
+        # Title label "Time to get SMRT!"
         self.title_label = ctk.CTkLabel(master=self.frame, text="Time to get SMRT!", text_color="black", font=titlefont)
         self.title_label.place(relx=0.5, rely=0.15, anchor=tk.CENTER)  # Centered title
 
@@ -83,7 +83,7 @@ class MenuGUI:
             )
             button.place(relx=0.5, rely=0.3 + (i * 0.125), anchor=tk.CENTER)
 
-        #Simple about page for user to read
+        # Simple about page for user to read
         about_btn = ctk.CTkButton(
             master=self.frame, text="About", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
             width=150, height=60, fg_color="#e38368", text_color="white",

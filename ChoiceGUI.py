@@ -1,6 +1,6 @@
 # =====================
 # ChoiceGUI.py
-# Latest version: Nov 15 2024
+# Latest version: Nov 16 2024
 # Multiple choice flashcards screen
 # =====================
 
@@ -72,7 +72,8 @@ class ChoiceGUI:
             self.choices.insert(self.answer_position, self.flashword)
             self.controller.show_choice_gui()
 
-        def hide_feedback(feedback_label, feedback_button, buttons):  # Function to hide feedback and re-enable buttons
+        # Function to hide feedback and re-enable buttons
+        def hide_feedback(feedback_label, feedback_button, buttons):
             feedback_label.destroy()
             if feedback_button:
                 feedback_button.destroy()
@@ -83,16 +84,24 @@ class ChoiceGUI:
             switch_to_next_word()
 
         def display_feedback(word: Word):
-            feedback_text = ""
-            feedback_color = "#f37d59"  # Default incorrect color
+            # Default incorrect color
+            feedback_color = "#f37d59"
 
             if self.controller.study_window.check_word_definition(self.flashword, word):
-                feedback_text = random.choice(supportive_messages)  # Random supportive message
-                feedback_color = "#77721f"  # Correct color
+                # Random supportive message
+                feedback_text = random.choice(supportive_messages)
+                # Correct color
+                feedback_color = "#77721f"
                 # Create feedback label for correct answer
                 feedback_label = ctk.CTkLabel(
-                    master=self.frame, text=feedback_text, text_color="white",
-                    font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
+                    master=self.frame,
+                    text=feedback_text,
+                    text_color="white",
+                    font=feedbackfont,
+                    fg_color=feedback_color,
+                    wraplength=400,
+                    justify="center",
+                    corner_radius=5
                 )
                 feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
@@ -120,12 +129,18 @@ class ChoiceGUI:
 
                 # Create OK button for incorrect answers
                 feedback_button = ctk.CTkButton(
-                    master=self.frame, text="OK", font=buttonfont,
-                    width=160, height=100, command=lambda: hide_feedback(feedback_label, feedback_button, buttons),
-                    fg_color="#d9534f", text_color="white", corner_radius=5
+                    master=self.frame,
+                    text="OK",
+                    font=buttonfont,
+                    width=160,
+                    height=100,
+                    command=lambda: hide_feedback(feedback_label, feedback_button, buttons),
+                    fg_color="#d9534f",
+                    text_color="white",
+                    corner_radius=5
                 )
                 feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
-                                      anchor=tk.CENTER)  # Adjusted rely to make it closer
+                                      anchor=tk.CENTER)
 
         # Word in foreign lang
         flashcard = ctk.CTkLabel(
@@ -163,7 +178,7 @@ class ChoiceGUI:
                 y = 0.85  # third and fourth buttons
             buttons[i].place(relx=x, rely=y, relwidth=0.4, relheight=.25, anchor=tk.CENTER)
 
-        # EXIT button
+        # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         exit_button = ctk.CTkButton(
             master=self.frame, text="BACK", font=backbuttonfont,
@@ -171,27 +186,27 @@ class ChoiceGUI:
             fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
             image=back_icon, compound="left"
         )
-        exit_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # Known word button
         known_icon = ctk.CTkImage(light_image=Image.open("Assets/known-icon.png"), size=(30, 30))
         self.known_word_button = ctk.CTkButton(
             master=self.frame, text="Already\nKnow", font=backbuttonfont,
-            width=600, height=200, command=mark_known,
+            width=160, height=80, command=mark_known,
             fg_color="#0f606b", text_color="white", corner_radius=20,
             image=known_icon, compound="left"
         )
-        self.known_word_button.place(relx=0.95, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        self.known_word_button.place(relx=0.93, rely=0.06, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
         # Text-to-speech button
         tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=backbuttonfont,
-            width=600, height=200, command=lambda: text_to_speech_function(self.flashword),
+            width=160, height=80, command=lambda: text_to_speech_function(self.flashword),
             fg_color="#0f606b", text_color="white", corner_radius=20,
             image=tts_icon, compound="left"
         )
-        tts_button.place(relx=0.95, rely=0.17, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        tts_button.place(relx=0.93, rely=0.18, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
         #Auto TTS if desired
         if Settings.AUTO_TTS:

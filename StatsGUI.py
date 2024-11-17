@@ -61,7 +61,7 @@ class StatsGUI:
         self.frame.pack(expand=1, fill="both", anchor=tk.CENTER)
 
         # Create fonts (all "Garet")
-        backbuttonfont = ctk.CTkFont(family="Garet", size=25, weight="bold")
+        backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
         headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
         feedbackfont = ctk.CTkFont(family="Garet", size=50, weight="bold")
 
@@ -94,21 +94,21 @@ class StatsGUI:
 
         self.create_interactive_graph(feedbackfont)
 
-        # Create back button
+        # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
-        back_button = ctk.CTkButton(
+        exit_button = ctk.CTkButton(
             master=self.frame, text="BACK", font=backbuttonfont,
-            width=100, height=50, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=20,
+            width=120, height=60, command=back_function,
+            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
             image=back_icon, compound="left"
         )
-        back_button.place(relx=0.05, rely=0.05, relwidth=.1, relheight=.1, anchor=tk.CENTER)
+        exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
     def create_interactive_graph(self, backbuttonfont):
         # Create a figure and axis for the graph
         fig, ax = plt.subplots(figsize=(10, 4), dpi=100)
 
-        # Define a the function for the graph
+        # Define the function for the graph
         x = np.linspace(0, 5000, 100)
         y = 114.4083 + (-1.124367 - 114.4083)/(1 + (x/616.4689)**0.7302358)
         y = np.maximum(0, y) #does not allow negative y values.
