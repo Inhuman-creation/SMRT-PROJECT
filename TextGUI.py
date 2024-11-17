@@ -120,6 +120,7 @@ class TextGUI:
             corner_radius=16, justify="center", border_color="#bdb091"
         )
         text_entry.place(relx=0.5, rely=0.6, relwidth=0.8, relheight=0.08, anchor=tk.CENTER)
+        text_entry.bind("<Return>", display_feedback)
 
         submit_icon = ctk.CTkImage(light_image=Image.open("Assets/submit-icon.png"), size=(40, 40))
         submit_button = ctk.CTkButton(

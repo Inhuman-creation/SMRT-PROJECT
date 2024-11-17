@@ -99,7 +99,7 @@ class AboutGUI:
             text="Visit us!",
             text_color="blue",
             font=cardfont,
-            cursor="hand",  # Cursor changes to hand on hover
+            cursor="hand2",  # Cursor changes to hand on hover
         )
         # Position the link label at the bottom center
         link_label.place(relx=0.82, rely=0.83, anchor=tk.CENTER)
