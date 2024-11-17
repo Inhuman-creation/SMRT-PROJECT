@@ -71,6 +71,16 @@ class ReviewGUI:
         def back_function():
             self.controller.show_menu_gui()
 
+        # Create back button
+        back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
+        back_button = ctk.CTkButton(
+            master=self.frame, text="BACK", font=self.backbuttonfont,
+            width=100, height=50, command=back_function,
+            fg_color="#d9534f", text_color="white", corner_radius=20,
+            image=back_icon, compound="left"
+        )
+        back_button.place(relx=0.05, rely=0.05, relwidth=0.1, relheight=0.1, anchor=tk.CENTER)
+
     def create_multiple_choice(self):
         # Select flashword and choices
         flashword, var1, var2, var3 = self.get_random_words(4)

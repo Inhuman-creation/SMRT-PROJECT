@@ -33,7 +33,7 @@ class SettingsGUI:
         headerfont = ctk.CTkFont(family="Garet", size=100, weight="bold")
         labelfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
-        buttonfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
+        buttonfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
 
         # button functions
         def back_function():
@@ -44,7 +44,7 @@ class SettingsGUI:
         self.welcome_label.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
 
         #starting y position for sliders
-        slider_start_y = 0.35
+        slider_start_y = 0.1
 
         # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
@@ -57,50 +57,50 @@ class SettingsGUI:
         exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
         # apply changes button
-        apply_icon = ctk.CTkImage(light_image=Image.open("Assets/apply-icon.png"), size=(20, 20))
+        apply_icon = ctk.CTkImage(light_image=Image.open("Assets/apply-icon.png"), size=(30, 30))
         self.apply_changes_button = ctk.CTkButton(self.settings_frame, text="Apply Changes", command=self.save_settings,
                                                   font=buttonfont, fg_color="#0f606b", text_color="white",
                                                   state="disabled",
                                                   image=apply_icon, compound="left")
-        self.apply_changes_button.place(relx=0.5, rely=0.9, anchor=tk.CENTER)
+        self.apply_changes_button.place(relx=0.5, rely=0.90, anchor=tk.CENTER, relwidth=0.20, relheight=0.10)
 
         # Create the Known Word Requirement slider on the left side
         self.known_threshold_var = self.add_slider("Known Word Requirement",
                                                    min_val=Settings.KNOWN_THRESHOLD_MIN,
                                                    max_val=Settings.KNOWN_THRESHOLD_MAX,
                                                    initial=Settings.KNOWN_THRESHOLD,
-                                                   relx=0.35,  # Positioned left
+                                                   relx=0.25,  # Positioned left
                                                    rely=slider_start_y)
         # Create the Correct-Incorrect Gap slider on the right side
         self.known_delta_var = self.add_slider("Correct-Incorrect Gap",
                                                min_val=Settings.KNOWN_DELTA_MIN,
                                                max_val=Settings.KNOWN_DELTA_MAX,
                                                initial=Settings.KNOWN_DELTA,
-                                               relx=0.65,  # Positioned right
+                                               relx=0.75,  # Positioned right
                                                rely=slider_start_y)
 
-        slider_start_y += 0.12  # Move to the next row
+        slider_start_y += 0.2  # Move to the next row
 
         # Create the Spaced Repetition Amount slider on the left side
         self.srs_queue_length_var = self.add_slider("Spaced Repetition Amount",
                                                     min_val=Settings.SRS_QUEUE_LENGTH_MIN,
                                                     max_val=Settings.SRS_QUEUE_LENGTH_MAX,
                                                     initial=Settings.SRS_QUEUE_LENGTH,
-                                                    relx=0.35,  # Positioned left
+                                                    relx=0.25,  # Positioned left
                                                     rely=slider_start_y)
         # Create the Study Batch Size slider on the right side
         self.walking_window_size_var = self.add_slider("Study Batch Size",
                                                        min_val=Settings.WALKING_WINDOW_SIZE_MIN,
                                                        max_val=Settings.WALKING_WINDOW_SIZE_MAX,
                                                        initial=Settings.WALKING_WINDOW_SIZE,
-                                                       relx=0.65,  # Positioned right
+                                                       relx=0.75,  # Positioned right
                                                        rely=slider_start_y)
 
-        slider_start_y += 0.12
+        slider_start_y += 0.2
 
         # dropdown menu for lang selection
         ctk.CTkLabel(self.settings_frame, text="Language Selection", font=labelfont,
-                     text_color="black").place(relx=0.6, rely=slider_start_y, anchor=tk.CENTER)
+                     text_color="black").place(relx=0.75, rely=slider_start_y, anchor=tk.CENTER)
         options = Settings.LANGUAGE_OPTIONS
         self.language_var = tk.StringVar(value=Settings.LANGUAGE)
         self.language_dropdown = ctk.CTkOptionMenu(self.settings_frame, values=options, variable=self.language_var,
@@ -108,11 +108,11 @@ class SettingsGUI:
                                                    fg_color="#acb87c",
                                                    button_color="#77721f",
                                                    command=self.on_change_language)
-        self.language_dropdown.place(relx=0.6, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+        self.language_dropdown.place(relx=0.75, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
         #foreign to english toggle
         ctk.CTkLabel(self.settings_frame, text="Flashcard Display Language", font=labelfont,
-                     text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
+                     text_color="black").place(relx=0.25, rely=slider_start_y, anchor=tk.CENTER)
         self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
         self.foreign_to_english_toggle = ctk.CTkSwitch(
             self.settings_frame, variable=self.foreign_to_english_var, onvalue=True, offvalue=False,
@@ -127,12 +127,12 @@ class SettingsGUI:
             #command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
 
         )
-        self.foreign_to_english_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
-        slider_start_y += 0.10
+        self.foreign_to_english_toggle.place(relx=0.25, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+        slider_start_y += 0.20
 
         # auto tts toggle
         ctk.CTkLabel(self.settings_frame, text="Auto Pronunciation", font=labelfont,
-                     text_color="black").place(relx=0.4, rely=slider_start_y, anchor=tk.CENTER)
+                     text_color="black").place(relx=0.25, rely=slider_start_y, anchor=tk.CENTER)
         self.auto_tts_var = tk.BooleanVar(value=Settings.AUTO_TTS)
         self.auto_tts_toggle = ctk.CTkSwitch(
             self.settings_frame, variable=self.auto_tts_var, onvalue=True, offvalue=False,
@@ -145,10 +145,10 @@ class SettingsGUI:
             button_hover_color="#ffc24a",
             command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
         )
-        self.auto_tts_toggle.place(relx=0.4, rely=slider_start_y + 0.05, anchor=tk.CENTER)
+        self.auto_tts_toggle.place(relx=0.25, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
         #volume slider
-        self.volume_var = self.add_slider("Volume", 0, 100, Settings.VOLUME, 0.6, slider_start_y)
+        self.volume_var = self.add_slider("Volume", 0, 100, Settings.VOLUME, 0.75, slider_start_y)
 
     #create a slider for each setting
     def add_slider(self, label_text, min_val, max_val, initial, relx, rely):
@@ -161,9 +161,9 @@ class SettingsGUI:
         label.place(relx=relx, rely=rely, anchor=tk.CENTER)
 
         # Min, current, and max labels for the slider
-        min_label = ctk.CTkLabel(self.settings_frame, text=f"Min: {min_val}", font=labelfont, text_color="black")
+        min_label = ctk.CTkLabel(self.settings_frame, text=f"{min_val}", font=labelfont, text_color="black")
         current_label = ctk.CTkLabel(self.settings_frame, text=f"Current: {initial}", font=labelfont, text_color="black")
-        max_label = ctk.CTkLabel(self.settings_frame, text=f"Max: {max_val}", font=labelfont, text_color="black")
+        max_label = ctk.CTkLabel(self.settings_frame, text=f"{max_val}", font=labelfont, text_color="black")
 
         # Slider
         slider_var = tk.IntVar(value=initial)
@@ -182,9 +182,9 @@ class SettingsGUI:
         slider.place(relx=relx, rely=rely + 0.04, anchor=tk.CENTER)
 
         # Place min, current, and max labels in a row below the slider
-        min_label.place(relx=relx - 0.1, rely=rely + 0.04, anchor=tk.CENTER)  # Position min label to the left
-        current_label.place(relx=relx, rely=rely + 0.06, anchor=tk.CENTER)  # Position current label in the center
-        max_label.place(relx=relx + 0.1, rely=rely + 0.04, anchor=tk.CENTER)  # Position max label to the right
+        min_label.place(relx=relx - 0.16, rely=rely + 0.04, anchor=tk.CENTER)  # Position min label to the left
+        current_label.place(relx=relx, rely=rely + 0.08, anchor=tk.CENTER)  # Position current label in the center
+        max_label.place(relx=relx + 0.16, rely=rely + 0.04, anchor=tk.CENTER)  # Position max label to the right
 
         # Store the current_label to update it when slider moves
         slider.current_label = current_label
