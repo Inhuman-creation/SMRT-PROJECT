@@ -14,6 +14,7 @@ import random
 from functools import partial
 import logging
 from PIL import Image
+import pygame
 
 
 class ChoiceGUI:
@@ -87,6 +88,7 @@ class ChoiceGUI:
             # Default incorrect color
             feedback_color = "#f37d59"
 
+            # If the response is correct...
             if self.controller.study_window.check_word_definition(self.flashword, word):
                 # Random supportive message
                 feedback_text = random.choice(supportive_messages)
@@ -105,6 +107,10 @@ class ChoiceGUI:
                 )
                 feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
+                # Play sound effect for correct answer
+                sound = pygame.mixer.Sound("assets/correct.wav")
+                sound.play()
+
                 # Disable all choice buttons after a guess is made
                 for btn in buttons:
                     btn.configure(state="disabled")
@@ -112,7 +118,10 @@ class ChoiceGUI:
 
                 # Automatically hide feedback and switch to the next word after 2 seconds
                 self.frame.after(1000, hide_feedback, feedback_label, None, buttons)
+
+            # If the answer is wrong...
             else:
+                # Print the correct response
                 feedback_text = "Not quite! {} means {}.".format(self.flashword.foreign, self.flashword.english.lower()) \
                     if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{self.flashword.english.lower()} translates to {self.flashword.foreign}"
 
@@ -121,6 +130,10 @@ class ChoiceGUI:
                     font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
                 )
                 feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
+
+                # Play sound effect for wrong answer
+                sound = pygame.mixer.Sound("assets/incorrect.wav")
+                sound.play()
 
                 # Disable all choice buttons after a guess is made
                 for btn in buttons:

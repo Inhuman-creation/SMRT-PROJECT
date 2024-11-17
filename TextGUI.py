@@ -12,6 +12,7 @@ import random
 from TextToSpeech import play_pronunciation
 import Settings
 from PIL import Image
+import pygame
 
 class TextGUI:
     """
@@ -84,6 +85,10 @@ class TextGUI:
             if feedback_color == "#77721f":
                 self.frame.after(1000, hide_feedback, feedback_label, None)  # Auto-hide after 1 second
 
+                # Play sound effect for correct answer
+                sound = pygame.mixer.Sound("assets/correct.wav")
+                sound.play()
+
             # If the answer is wrong, show an "OK" button to dismiss the feedback
             else:
                 feedback_button = ctk.CTkButton(
@@ -92,6 +97,10 @@ class TextGUI:
                     fg_color="#d9534f", text_color="white", corner_radius=5
                 )
                 feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08, anchor=tk.CENTER)
+
+                # Play sound effect for incorrect answer
+                sound = pygame.mixer.Sound("assets/incorrect.wav")
+                sound.play()
 
             text_entry.unbind("<Return>")
             submit_button.configure(state="disabled")
