@@ -22,6 +22,7 @@ class TextGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
+        self.volume_mult = 0.5 #multiplier for volume
 
         # Initialize variables for GUI display
         flashword = self.controller.study_window.get_random_words(1)[0]
@@ -87,6 +88,7 @@ class TextGUI:
 
                 # Play sound effect for correct answer
                 sound = pygame.mixer.Sound("assets/correct.wav")
+                sound.set_volume((Settings.VOLUME/100) * self.volume_mult)
                 sound.play()
 
             # If the answer is wrong, show an "OK" button to dismiss the feedback
@@ -100,6 +102,7 @@ class TextGUI:
 
                 # Play sound effect for incorrect answer
                 sound = pygame.mixer.Sound("assets/incorrect.wav")
+                sound.set_volume((Settings.VOLUME/100) * self.volume_mult)
                 sound.play()
 
             text_entry.unbind("<Return>")

@@ -25,6 +25,7 @@ class ChoiceGUI:
     def __init__(self, controller):
         self.controller = controller
         self.app = controller.app
+        self.volume_mult = 0.5 #multiplier for volume for sound effects
 
         # Initialize variables for GUI display
         flashword, var1, var2, var3 = self.controller.study_window.get_random_words(4)
@@ -109,6 +110,7 @@ class ChoiceGUI:
 
                 # Play sound effect for correct answer
                 sound = pygame.mixer.Sound("assets/correct.wav")
+                sound.set_volume((Settings.VOLUME/100) * self.volume_mult)
                 sound.play()
 
                 # Disable all choice buttons after a guess is made
@@ -133,6 +135,7 @@ class ChoiceGUI:
 
                 # Play sound effect for wrong answer
                 sound = pygame.mixer.Sound("assets/incorrect.wav")
+                sound.set_volume((Settings.VOLUME/100) * self.volume_mult)
                 sound.play()
 
                 # Disable all choice buttons after a guess is made
