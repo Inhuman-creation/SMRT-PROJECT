@@ -179,7 +179,7 @@ class LoginGUI:
 
         # Main white rectangle frame for text inputs and buttons
         input_frame = ctk.CTkFrame(master=self.frame, fg_color="white", corner_radius=15)
-        input_frame.place(relx=0.5, rely=0.6, relwidth=0.55, relheight=0.6, anchor=tk.CENTER)
+        input_frame.place(relx=0.5, rely=0.575, relwidth=0.55, relheight=0.625, anchor=tk.CENTER)
 
         # Header label "Welcome to SMRT Vocab"
         header_label = ctk.CTkLabel(master=input_frame, text="Welcome to SMRT Vocab",
@@ -200,13 +200,13 @@ class LoginGUI:
             master=input_frame, placeholder_text="Email", font=entryfont,
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_email.place(relx=0.5, rely=0.4, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_email.place(relx=0.5, rely=0.425, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         self.text_entry_password = ctk.CTkEntry(
             master=input_frame, placeholder_text="Password", font=entryfont, show="*",
             fg_color="white", border_color="lightgray", border_width=2, text_color="black"
         )
-        self.text_entry_password.place(relx=0.5, rely=0.55, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
+        self.text_entry_password.place(relx=0.5, rely=0.56, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
         # "Login" button
         login_icon = ctk.CTkImage(light_image=Image.open("Assets/enter-icon.png"), size=(40, 40))
