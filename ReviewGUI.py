@@ -6,20 +6,11 @@
 
 import customtkinter as ctk
 import tkinter as tk
-
-#from ChoiceGUI import ChoiceGUI
-#from Word import Word
 from functools import partial
 import random
 import Settings
-from WalkingWindow import WalkingWindow
-#import os
 from TextToSpeech import play_pronunciation
 from PIL import Image
-
-'''************************* EXPERIMENTAL GUI IMPLEMENTATION *************************'''
-#in this file I have combined ChoiceGUI and TextGui together with significant reorganization
-
 
 class ReviewGUI:
     def __init__(self, controller):

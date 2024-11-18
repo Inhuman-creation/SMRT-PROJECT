@@ -1,8 +1,15 @@
-# =====================
-# TextGUI.py
-# Latest version: Nov 15 2024
-# Text Input flashcards screen
-# =====================
+"""
+TextGUI.py
+================
+This is the GUI for the "Text-Input Flashcards" screen.
+The user types in the answer into a text field.
+There is an "already know" button, TTS button,
+BACK button, sound effects for right and wrong answers,
+and corrective feedback if needed.
+
+Version: 4.0
+Since: 11-17-2024
+"""
 
 import customtkinter as ctk
 import tkinter as tk
@@ -20,18 +27,21 @@ class TextGUI:
     """
 
     def __init__(self, controller):
+        """
+        Initialize the GUI components and their functions for the flashcards.
+        """
         self.controller = controller
         self.app = controller.app
-        self.volume_mult = 0.5 #multiplier for volume
+        self.volume_mult = 0.5  # Multiplier for volume control
 
-        # Initialize variables for GUI display
+        # Get a random word to display on the flashcard
         flashword = self.controller.study_window.get_random_words(1)[0]
 
-        # Create frame for GUI
+        # Create the frame for the GUI
         self.frame = ctk.CTkFrame(master=self.app, height=1000, width=1000, fg_color="#fdf3dd")
         self.frame.pack(expand=1, fill="both", anchor=tk.CENTER)
 
-        # Create fonts (all "Garet")
+        # Define fonts for different components
         flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")
         buttonfont = ctk.CTkFont(family="Garet", size=45, weight="bold")
         backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
@@ -43,46 +53,51 @@ class TextGUI:
             "One step closer!", "Flawless!", "You're a natural!"
         ]
 
-        # Button functions
+        # Back button function to navigate to the main menu
         def back_function():
             self.controller.show_menu_gui()
 
+        # Function to mark the word as known and move to next word
         def mark_known():
             self.controller.study_window.mark_word_as_known(flashword)
             self.controller.show_text_gui()
 
+        # Function to play text-to-speech pronunciation for the word
         def text_to_speech_function(word):
             play_pronunciation(word.foreign, Settings.LANGUAGE)
 
+        # Function to switch to the next word in the flashcard
         def switch_to_next_word():
             self.controller.show_text_gui()
 
+        # Function to hide feedback message after a short time
         def hide_feedback(feedback_label, feedback_button):
             feedback_label.destroy()
             if feedback_button:
                 feedback_button.destroy()
             switch_to_next_word()
 
+        # Function to display feedback based on the user's input
         def display_feedback(_):
             word = text_entry.get()
             feedback_text = ""
 
-            # Set feedback color based on whether the answer is correct or incorrect
+            # Check if the user's input is correct and set the appropriate feedback
             if self.controller.study_window.check_word_definition(flashword, word):
                 feedback_text = random.choice(supportive_messages)
-                feedback_color = "#77721f"  # Correct color
+                feedback_color = "#77721f"  # Color for correct answer
             else:
                 feedback_text = "Not quite!\n{} means {}".format(flashword.foreign, flashword.english.lower())
-                feedback_color = "#f37d59"  # Incorrect color
+                feedback_color = "#f37d59"  # Color for incorrect answer
 
-            # Create feedback label
+            # Create a label to display feedback
             feedback_label = ctk.CTkLabel(
                 master=self.frame, text=feedback_text, text_color="white",
                 font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
             )
             feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
-            # If the answer is correct, auto-hide feedback after 1 second
+            # If the answer is correct, hide feedback after 1 second and play correct sound
             if feedback_color == "#77721f":
                 self.frame.after(1000, hide_feedback, feedback_label, None)  # Auto-hide after 1 second
 
@@ -91,7 +106,7 @@ class TextGUI:
                 sound.set_volume((Settings.VOLUME/100) * self.volume_mult)
                 sound.play()
 
-            # If the answer is wrong, show an "OK" button to dismiss the feedback
+            # If the answer is incorrect, show an "OK" button to dismiss the feedback
             else:
                 feedback_button = ctk.CTkButton(
                     master=self.frame, text="OK", font=buttonfont,
@@ -108,13 +123,14 @@ class TextGUI:
             text_entry.unbind("<Return>")
             submit_button.configure(state="disabled")
 
-        # Create flashcard label
+        # Create the flashcard label to display the word
         flashcard = ctk.CTkLabel(
             master=self.frame, text=flashword.foreign, text_color="black",
             font=flashfont, fg_color=None
         )
         flashcard.place(relx=0.5, rely=0.2, relwidth=.5, relheight=.3, anchor=tk.CENTER)
 
+        # Create the text entry widget where user can type their answer
         text_entry = ctk.CTkEntry(
             master=self.frame, placeholder_text="Type translation here...",
             font=ctk.CTkFont(family="Garet", size=45, weight="normal"),
@@ -125,6 +141,7 @@ class TextGUI:
         text_entry.place(relx=0.5, rely=0.6, relwidth=0.8, relheight=0.08, anchor=tk.CENTER)
         text_entry.bind("<Return>", display_feedback)
 
+        # Create the submit button
         submit_icon = ctk.CTkImage(light_image=Image.open("Assets/submit-icon.png"), size=(40, 40))
         submit_button = ctk.CTkButton(
             master=self.frame, text="Submit", text_color="white",
@@ -134,7 +151,7 @@ class TextGUI:
         )
         submit_button.place(relx=0.5, rely=0.75, relwidth=0.2, relheight=0.1, anchor=tk.CENTER)
 
-        # Back button
+        # Create the back button to return to the main menu
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         exit_button = ctk.CTkButton(
             master=self.frame, text="BACK", font=backbuttonfont,
@@ -144,7 +161,7 @@ class TextGUI:
         )
         exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
-        # Known word button
+        # Create the "Already Know" button to mark word as known
         known_icon = ctk.CTkImage(light_image=Image.open("Assets/known-icon.png"), size=(30, 30))
         self.known_word_button = ctk.CTkButton(
             master=self.frame, text="Already\nKnow", font=backbuttonfont,
@@ -154,7 +171,7 @@ class TextGUI:
         )
         self.known_word_button.place(relx=0.93, rely=0.06, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
-        # Text-to-speech button
+        # Create the text-to-speech button
         tts_icon = ctk.CTkImage(light_image=Image.open("Assets/tts-icon.png"), size=(30, 30))
         tts_button = ctk.CTkButton(
             master=self.frame, text="Speak\nText", font=backbuttonfont,
@@ -164,8 +181,12 @@ class TextGUI:
         )
         tts_button.place(relx=0.93, rely=0.18, relwidth=0.13, relheight=0.1, anchor=tk.CENTER)
 
+        # Automatically play text-to-speech if the setting is enabled
         if Settings.AUTO_TTS:
             text_to_speech_function(flashword)
 
     def destroy(self):
+        """
+        Destroy the frame and all its widgets when closing the screen.
+        """
         self.frame.destroy()
