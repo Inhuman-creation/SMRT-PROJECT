@@ -199,7 +199,7 @@ class ChoiceGUI:
                     text_color="white",
                     corner_radius=5
                 )
-                feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
+                feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08,
                                       anchor=tk.CENTER)
 
         # Word in foreign lang
