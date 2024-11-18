@@ -172,7 +172,8 @@ class LoginGUI:
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.app.protocol("WM_DELETE_WINDOW", self.controller.save_and_close)
 
-            self.controller.show_menu_gui()
+            show_feedback("Registration Successful!")
+            self.frame.after(1000, self.controller.show_menu_gui)
 
         def exit_button():
             self.app.destroy()
