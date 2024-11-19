@@ -1,10 +1,13 @@
 """
-The Walking Window class implements the walking window of current_words
+WalkingWindow.py
+================
+The Walking Window class implements
+the walking window of current_words
 currently being studied by a user
 
-Last Edited: 11/13/2024
+Version: 3.0
+Since: 11/13/2024
 """
-
 import csv
 import random
 from collections import deque

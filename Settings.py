@@ -1,4 +1,13 @@
-#settings.py
+"""
+Settings.py
+================
+This is the backend for the settings.
+The users interactions with the SettingsGUI
+are powered through here.
+
+Version: 2.0
+Since: 11-10-2024
+"""
 
 # Walking Window Settings
 KNOWN_THRESHOLD:int = 5 #number of times a word must be correctly identified to be marked as known

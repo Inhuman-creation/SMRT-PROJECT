@@ -1,7 +1,12 @@
 """
 SettingsGUI.py
-Settings menu for changing options found in Settings.py
-Last Edited: 11/8/2024
+================
+This is the GUI for the settings screen.
+Here, the user will adjust various features to
+completely customize their learning experience.
+
+Version: 3.0
+Since: 11-16-2024
 """
 
 import customtkinter as ctk
@@ -36,10 +41,6 @@ class SettingsGUI:
         backbuttonfont = ctk.CTkFont(family="Garet", size=30, weight="bold")
         buttonfont = ctk.CTkFont(family="Garet", size=20, weight="bold")
 
-        # button functions
-        def back_function():
-            self.controller.show_menu_gui()
-
         # Settings Page label
         self.welcome_label = ctk.CTkLabel(master=self.frame, text="Settings", font=headerfont, text_color="black")
         self.welcome_label.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
@@ -73,25 +74,40 @@ class SettingsGUI:
         else:
             print("Logo image not loaded successfully.")
 
-        #starting y position for sliders
+        # Starting y position for sliders
         slider_start_y = 0.1
+
+        # Back button function
+        def back_function():
+            self.controller.show_menu_gui()
 
         # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         exit_button = ctk.CTkButton(
-            master=self.frame, text="BACK", font=backbuttonfont,
-            width=120, height=60, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
-            image=back_icon, compound="left"
+            master=self.frame,
+            text="BACK",
+            font=backbuttonfont,
+            width=120,
+            height=60,
+            command=back_function,
+            fg_color="#d9534f",
+            text_color="white",
+            corner_radius=15,
+            image=back_icon,
+            compound="left"
         )
         exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 
-        # apply changes button
+        # Apply changes button
         apply_icon = ctk.CTkImage(light_image=Image.open("Assets/apply-icon.png"), size=(30, 30))
-        self.apply_changes_button = ctk.CTkButton(self.settings_frame, text="Apply Changes", command=self.save_settings,
-                                                  font=buttonfont, fg_color="#0f606b", text_color="white",
+        self.apply_changes_button = ctk.CTkButton(self.settings_frame, text="Apply Changes",
+                                                  command=self.save_settings,
+                                                  font=buttonfont,
+                                                  fg_color="#0f606b",
+                                                  text_color="white",
                                                   state="disabled",
-                                                  image=apply_icon, compound="left")
+                                                  image=apply_icon,
+                                                  compound="left")
         self.apply_changes_button.place(relx=0.5, rely=0.90, anchor=tk.CENTER, relwidth=0.25, relheight=0.10)
 
         # Create the Known Word Requirement slider on the left side
@@ -101,6 +117,7 @@ class SettingsGUI:
                                                    initial=Settings.KNOWN_THRESHOLD,
                                                    relx=0.25,  # Positioned left
                                                    rely=slider_start_y)
+
         # Create the Correct-Incorrect Gap slider on the right side
         self.known_delta_var = self.add_slider("Correct-Incorrect Gap",
                                                min_val=Settings.KNOWN_DELTA_MIN,
@@ -109,7 +126,8 @@ class SettingsGUI:
                                                relx=0.75,  # Positioned right
                                                rely=slider_start_y)
 
-        slider_start_y += 0.2  # Move to the next row
+        # Move to the next row
+        slider_start_y += 0.2
 
         # Create the Spaced Repetition Amount slider on the left side
         self.srs_queue_length_var = self.add_slider("Spaced Repetition Amount",
@@ -118,6 +136,7 @@ class SettingsGUI:
                                                     initial=Settings.SRS_QUEUE_LENGTH,
                                                     relx=0.25,  # Positioned left
                                                     rely=slider_start_y)
+
         # Create the Study Batch Size slider on the right side
         self.walking_window_size_var = self.add_slider("Study Batch Size",
                                                        min_val=Settings.WALKING_WINDOW_SIZE_MIN,
@@ -126,22 +145,30 @@ class SettingsGUI:
                                                        relx=0.75,  # Positioned right
                                                        rely=slider_start_y)
 
+        # Move to the next row
         slider_start_y += 0.2
 
-        # dropdown menu for lang selection
-        ctk.CTkLabel(self.settings_frame, text="Language Selection", font=labelfont,
+        # Dropdown menu for language selection
+        ctk.CTkLabel(self.settings_frame,
+                     text="Language Selection",
+                     font=labelfont,
                      text_color="black").place(relx=0.75, rely=slider_start_y, anchor=tk.CENTER)
         options = Settings.LANGUAGE_OPTIONS
         self.language_var = tk.StringVar(value=Settings.LANGUAGE)
-        self.language_dropdown = ctk.CTkOptionMenu(self.settings_frame, values=options, variable=self.language_var,
-                                                   font=labelfont, text_color="white",
+        self.language_dropdown = ctk.CTkOptionMenu(self.settings_frame,
+                                                   values=options,
+                                                   variable=self.language_var,
+                                                   font=labelfont,
+                                                   text_color="white",
                                                    fg_color="#acb87c",
                                                    button_color="#77721f",
                                                    command=self.on_change_language)
         self.language_dropdown.place(relx=0.75, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
-        #foreign to english toggle
-        ctk.CTkLabel(self.settings_frame, text="Flashcard Display Language", font=labelfont,
+        # Foreign to english toggle
+        ctk.CTkLabel(self.settings_frame,
+                     text="Flashcard Display Language",
+                     font=labelfont,
                      text_color="black").place(relx=0.25, rely=slider_start_y, anchor=tk.CENTER)
         self.foreign_to_english_var = tk.BooleanVar(value=Settings.FOREIGN_TO_ENGLISH)
         self.foreign_to_english_toggle = ctk.CTkSwitch(
@@ -154,13 +181,11 @@ class SettingsGUI:
             button_color="#f37d59",
             button_hover_color="#ffc24a",
             command=lambda: self.update_lang_label(self.foreign_to_english_toggle,self.foreign_to_english_var) #arguments added to attempt fixing error with toggle.
-            #command=lambda: self.update_toggle_label(self.auto_tts_toggle, self.auto_tts_var)
-
         )
         self.foreign_to_english_toggle.place(relx=0.25, rely=slider_start_y + 0.05, anchor=tk.CENTER)
         slider_start_y += 0.20
 
-        # auto tts toggle
+        # Auto tts toggle
         ctk.CTkLabel(self.settings_frame, text="Auto Pronunciation", font=labelfont,
                      text_color="black").place(relx=0.25, rely=slider_start_y, anchor=tk.CENTER)
         self.auto_tts_var = tk.BooleanVar(value=Settings.AUTO_TTS)
@@ -177,10 +202,10 @@ class SettingsGUI:
         )
         self.auto_tts_toggle.place(relx=0.25, rely=slider_start_y + 0.05, anchor=tk.CENTER)
 
-        #volume slider
+        # Volume slider
         self.volume_var = self.add_slider("Volume", 0, 100, Settings.VOLUME, 0.75, slider_start_y)
 
-    #create a slider for each setting
+    # Create a slider for each setting
     def add_slider(self, label_text, min_val, max_val, initial, relx, rely):
         # Font for labels
         labelfont = ctk.CTkFont(family="Garet", size=14, weight="bold")
@@ -221,34 +246,34 @@ class SettingsGUI:
 
         return slider_var
 
-    #enable the apply changes button on settings change and update labels
+    # Enable the apply changes button on settings change and update labels
     def update_slider_label(self, label, value):
         label.configure(text=f"Current: {int(float(value))}")
         self.apply_changes_button.configure(state="normal")
 
-    # enable the apply changes button on settings change and update labels
+    # Enable the apply changes button on settings change and update labels
     def update_lang_label(self, toggle, value):
         # Update the label based on the toggle's current state
         toggle.configure(text=f"{self.language_var.get()}" if value.get() else "English")
         self.apply_changes_button.configure(state="normal")
 
-    #enable the apply changes button on settings change and update labels
+    # Enable the apply changes button on settings change and update labels
     def update_toggle_label(self, toggle, value):
         # Update the label based on the toggle's current state
         toggle.configure(text="On" if value.get() else "Off")
         self.apply_changes_button.configure(state="normal")
 
-    #enable the apply changes button on settings change
+    # Enable the apply changes button on settings change
     def on_change_language(self, selected_value=None):
         self.apply_changes_button.configure(state="normal")
         self.update_lang_label(self.foreign_to_english_toggle, self.foreign_to_english_var)
 
-    #save the settings and recreate walking window to reflect changes
+    # Save the settings and recreate walking window to reflect changes
     def save_settings(self):
         # Save dict to the current language file
         self.controller.study_window.word_dict_to_csv(f"{Settings.username}_{Settings.LANGUAGE}.csv")
 
-        #update global settings variables with current GUI values
+        # Update global settings variables with current GUI values
         Settings.KNOWN_THRESHOLD = self.known_threshold_var.get()
         Settings.KNOWN_DELTA = self.known_delta_var.get()
         Settings.SRS_QUEUE_LENGTH = self.srs_queue_length_var.get()
@@ -258,13 +283,13 @@ class SettingsGUI:
         Settings.AUTO_TTS = self.auto_tts_var.get()
         Settings.VOLUME = self.volume_var.get()
 
-        #disable apply button once changes have been made
+        # Disable apply button once changes have been made
         self.apply_changes_button.configure(state="disabled")
 
-        #create a new walking window with the new settings
+        # Create a new walking window with the new settings
         self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
 
-        #log changes
+        # Log changes
         logging.info(f"SETTINGS UPDATED:\nKNOWN THRESHOLD: {Settings.KNOWN_THRESHOLD}\nKNOWN DELTA: {Settings.KNOWN_DELTA}"
                      f"\nSRS QUEUE LENGTH: {Settings.SRS_QUEUE_LENGTH}\nWALKING WINDOW SIZE: {Settings.WALKING_WINDOW_SIZE}"
                      f"\nFOREIGN TO ENGLISH: {Settings.FOREIGN_TO_ENGLISH}\nLANGUAGE: {Settings.LANGUAGE}"

@@ -1,3 +1,14 @@
+"""
+AboutGUI.py
+================
+This is the GUI for the About screen. This
+screen provides a simple background on the
+application, as well as a link to the
+SMRT Vocab webpage.
+
+Version: 4.0
+Since: 11-17-2024
+"""
 import customtkinter as ctk
 import tkinter as tk
 import os
@@ -43,8 +54,13 @@ class AboutGUI:
                 "movies, books, and even conversations in your target language.\n\n"
                 "No distractions. No limits. Just smarter learning. With SMRT Vocab, the world of language is yours to explore!"
             ),
-            font=cardfont, text_color="white", fg_color="#acb87c", corner_radius=15,
-            wraplength=650, anchor=tk.CENTER, justify=tk.LEFT
+            font=cardfont,
+            text_color="white",
+            fg_color="#acb87c",
+            corner_radius=15,
+            wraplength=650,
+            anchor=tk.CENTER,
+            justify=tk.LEFT
         )
         card.place(relx=0.35, rely=0.55, relwidth=0.6, relheight=0.7, anchor=tk.CENTER)
 
@@ -82,10 +98,17 @@ class AboutGUI:
         # Back button
         back_icon = ctk.CTkImage(light_image=Image.open("Assets/back-icon.png"), size=(30, 30))
         exit_button = ctk.CTkButton(
-            master=self.frame, text="BACK", font=backbuttonfont,
-            width=120, height=60, command=back_function,
-            fg_color="#d9534f", text_color="white", corner_radius=15,  # White text and red color
-            image=back_icon, compound="left"
+            master=self.frame,
+            text="BACK",
+            font=backbuttonfont,
+            width=120,
+            height=60,
+            command=back_function,
+            fg_color="#d9534f",
+            text_color="white",
+            corner_radius=15,
+            image=back_icon,
+            compound="left"
         )
         exit_button.place(relx=0.055, rely=0.06, relwidth=.1, relheight=.1, anchor=tk.CENTER)
 

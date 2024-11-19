@@ -1,8 +1,14 @@
-# =====================
-# LoginGUI.py
-# Latest version: Nov 7
-# Login screen
-# =====================
+"""
+LoginGUI.py
+================
+This is the GUI for the Login screen. The
+user will be prompted to enter their
+email and password. If they do not have
+an account, they will be prompted to register.
+
+Version: 4.0
+Since: 11-17-2024
+"""
 import customtkinter as ctk
 import tkinter as tk
 import csv
@@ -16,7 +22,13 @@ from functools import partial
 
 
 class LoginGUI:
+    """
+    This class contains the GUI for the Login page.
+    """
     def __init__(self, controller):
+        """
+        Initializes the GUI and sets up the layout and interactive elements.
+        """
         self.controller = controller
         self.app = controller.app
 
@@ -52,6 +64,10 @@ class LoginGUI:
         switch_welcome_message()
 
         def show_feedback(feedback: str):
+            """
+            Provides feedback to the user depending on if they need to take action,
+            or if their account was successfully registered.
+            """
             feedback_text = feedback
             feedback_label = ctk.CTkLabel(
                 master=self.frame,
@@ -96,14 +112,16 @@ class LoginGUI:
             with open("AccountInformation.csv", mode="r") as accountsFile:
                 reader = csv.DictReader(accountsFile)
                 for row in reader:
+                    # If credentials are correct
                     if email == row["Email"] and password == row["Password"]:
                         login_success = True
 
+            # If credentials are not correct
             if not login_success:
                 show_feedback("Incorrect email or password!")
                 return
 
-                # Make user_lang.csv files if necessary
+            # Create user_lang.csv files if necessary
             for lang in Settings.LANGUAGE_OPTIONS:
                 user_file_path = f"UserWords/{email}_{lang}.csv"
                 if not os.path.exists(user_file_path):
@@ -128,7 +146,7 @@ class LoginGUI:
                 show_feedback("Please complete all fields!")
                 return
 
-            # Check email for unallowed characters (Windows file naming constraint)
+            # Check email for not allowed characters (Windows file naming constraint)
             unallowed_characters = "<>:\"/\\|?*"
             for c in unallowed_characters:
                 if c in email:
@@ -159,7 +177,7 @@ class LoginGUI:
                     writer.writeheader()
                 writer.writerow(account_data)
 
-            # copy Template_lang.csv files to user_lang.csv
+            # Copy Template_lang.csv files to user_lang.csv
             for lang in Settings.LANGUAGE_OPTIONS:
                 user_file_path = f"UserWords/{email}_{lang}.csv"
                 if not os.path.exists(f"UserWords/Template_{lang}.csv"):
@@ -167,11 +185,12 @@ class LoginGUI:
                     return
                 shutil.copy(f"UserWords/Template_{lang}.csv", user_file_path)
 
-            # initialize walking window
+            # Initialize walking window
             Settings.username = email
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.app.protocol("WM_DELETE_WINDOW", self.controller.save_and_close)
 
+            # Confirm to the user that their registration was successful
             show_feedback("Registration Successful!")
             self.frame.after(1000, self.controller.show_menu_gui)
 
@@ -179,33 +198,50 @@ class LoginGUI:
             self.app.destroy()
 
         # Main white rectangle frame for text inputs and buttons
-        input_frame = ctk.CTkFrame(master=self.frame, fg_color="white", corner_radius=15)
+        input_frame = ctk.CTkFrame(master=self.frame,
+                                   fg_color="white",
+                                   corner_radius=15)
         input_frame.place(relx=0.5, rely=0.575, relwidth=0.55, relheight=0.625, anchor=tk.CENTER)
 
         # Header label "Welcome to SMRT Vocab"
-        header_label = ctk.CTkLabel(master=input_frame, text="Welcome to SMRT Vocab",
+        header_label = ctk.CTkLabel(master=input_frame,
+                                    text="Welcome to SMRT Vocab",
                                     font=ctk.CTkFont(family="Garet", size=35, weight="bold"), text_color="black")
         header_label.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
 
         # Load the logo image
         logo_image = ctk.CTkImage(light_image=Image.open("Assets/SMRT_Vocab_logo.png"),
-                                  size=(140, 140))  # Adjust size as needed
+                                  size=(140, 140))
         logo_label = ctk.CTkLabel(master=input_frame, image=logo_image, text="")
         logo_label.place(relx=0.5, rely=0.22, anchor=tk.CENTER)
 
         # Store the reference to prevent garbage collection
         self.logo_image = logo_image
 
-        # Text entries
+        # Text fields
+
+        # Email text field
         self.text_entry_email = ctk.CTkEntry(
-            master=input_frame, placeholder_text="Email", font=entryfont,
-            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
+            master=input_frame,
+            placeholder_text="Email",
+            font=entryfont,
+            fg_color="white",
+            border_color="lightgray",
+            border_width=2,
+            text_color="black"
         )
         self.text_entry_email.place(relx=0.5, rely=0.425, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
+        # Password text fields
         self.text_entry_password = ctk.CTkEntry(
-            master=input_frame, placeholder_text="Password", font=entryfont, show="*",
-            fg_color="white", border_color="lightgray", border_width=2, text_color="black"
+            master=input_frame,
+            placeholder_text="Password",
+            font=entryfont,
+            show="*",
+            fg_color="white",
+            border_color="lightgray",
+            border_width=2,
+            text_color="black"
         )
         self.text_entry_password.place(relx=0.5, rely=0.56, relwidth=0.7, relheight=0.08, anchor=tk.CENTER)
 
@@ -226,27 +262,42 @@ class LoginGUI:
 
         # Informative text above "Register your account" button
         register_text = ctk.CTkLabel(
-            master=input_frame, text="Don't have an account? Click the button below.",
-            font=italicsfont, text_color="black"
+            master=input_frame,
+            text="Don't have an account? Click the button below.",
+            font=italicsfont,
+            text_color="black"
         )
         register_text.place(relx=0.5, rely=0.8, anchor=tk.CENTER)
 
         # "Register your account" button
         register_icon = ctk.CTkImage(light_image=Image.open("Assets/register-icon.png"), size=(40, 40))
         signupbutton = ctk.CTkButton(
-            master=input_frame, text="Register your account", font=buttonfont, command=signup_function,
-            fg_color="#0f606b", text_color="white", corner_radius=10,
-            image=register_icon, compound="left"
+            master=input_frame,
+            text="Register your account",
+            font=buttonfont,
+            command=signup_function,
+            fg_color="#0f606b",
+            text_color="white",
+            corner_radius=10,
+            image=register_icon,
+            compound="left"
         )
         signupbutton.place(relx=0.5, rely=0.9, relwidth=0.7, relheight=0.1, anchor=tk.CENTER)
 
         # "EXIT" button at the bottom
         exit_icon = ctk.CTkImage(light_image=Image.open("Assets/exit-icon.png"), size=(40, 40))
         exit_btn = ctk.CTkButton(
-            master=self.frame, text="EXIT", font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
-            width=120, height=60, fg_color="#d9534f", text_color="white",
-            command=exit_button, corner_radius=15,
-            image=exit_icon, compound="left"
+            master=self.frame,
+            text="EXIT",
+            font=ctk.CTkFont(family="Garet", size=30, weight="bold"),
+            width=120,
+            height=60,
+            fg_color="#d9534f",
+            text_color="white",
+            command=exit_button,
+            corner_radius=15,
+            image=exit_icon,
+            compound="left"
         )
         exit_btn.place(relx=0.5, rely=0.95, anchor=tk.CENTER)  # Centered at bottom
 

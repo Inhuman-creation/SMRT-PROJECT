@@ -1,11 +1,13 @@
 """
-The Word class models a Word for the purposes of lang learning
-It contains a foreign lang word and the corresponding English definition
-It can check if a given definition is correct or not
+Word.py
+================
+The Word class models a Word for the purposes of language learning.
+It contains a foreign language word and the corresponding English translation.
+It can check if a given definition is correct or not.
 
-Last Edited: 11/8/2024
+Version: 2.0
+Since: 11/8/2024
 """
-
 import logging
 import Settings
 
