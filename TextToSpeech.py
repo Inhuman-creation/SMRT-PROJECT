@@ -14,7 +14,7 @@ import Settings
 
 #Base directory for audio files
 BASE_AUDIO_DIR = "audio_files"
-LANGUAGES = {"english": "en", "spanish": "es", "french": "fr", "arabic": "ar", "japanese": "ja", "mandarin": "zh-CN"}
+LANGUAGES = {"english": "en", "spanish": "es", "french": "fr", "arabic": "ar", "japanese": "ja", "mandarin": "zh"}
 
 # Ensure lang-specific directories exist
 for language in LANGUAGES:
