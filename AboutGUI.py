@@ -58,7 +58,7 @@ class AboutGUI:
             text_color="white",
             fg_color="#acb87c",
             corner_radius=15,
-            wraplength=650,
+            wraplength=700,
             anchor=tk.CENTER,
             justify=tk.LEFT
         )
