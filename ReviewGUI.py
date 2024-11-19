@@ -144,7 +144,7 @@ class ReviewGUI:
                     text_color="white",
                     font=self.feedbackfont,
                     fg_color=feedback_color,
-                    wraplength=400,
+                    wraplength=800,
                     justify="center",
                     corner_radius=5
                 )
@@ -167,7 +167,7 @@ class ReviewGUI:
                     text_color="white",
                     font=self.feedbackfont,
                     fg_color=feedback_color,
-                    wraplength=400,
+                    wraplength=800,
                     justify="center",
                     corner_radius=5
                 )
@@ -291,7 +291,7 @@ class ReviewGUI:
                 text_color="white",
                 font=self.feedbackfont,
                 fg_color=feedback_color,
-                wraplength=400,
+                wraplength=800,
                 justify="center",
                 corner_radius=5
             )

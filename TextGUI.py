@@ -93,7 +93,7 @@ class TextGUI:
             # Create a label to display feedback
             feedback_label = ctk.CTkLabel(
                 master=self.frame, text=feedback_text, text_color="white",
-                font=feedbackfont, fg_color=feedback_color, wraplength=400, justify="center", corner_radius=5
+                font=feedbackfont, fg_color=feedback_color, wraplength=800, justify="center", corner_radius=5
             )
             feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
