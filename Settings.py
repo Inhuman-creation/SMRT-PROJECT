@@ -19,7 +19,7 @@ username = ""
 # Study Settings
 FOREIGN_TO_ENGLISH:bool = True
 LANGUAGE = "Spanish"
-LANGUAGE_OPTIONS = ["Spanish", "French", "Arabic", "Japanese"]
+LANGUAGE_OPTIONS = ["Spanish", "French", "Arabic", "Japanese", "Mandarin"]
 AUTO_TTS:bool = False
 VOLUME:int = 100
 
