@@ -1,6 +1,6 @@
 # SMRT Vocab
 ![Logo](Assets/SMRT_Vocab_logo.png)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
+[![License](https://img.shields.io/badge/license-ECL%202.0-blue.svg)](LICENSE)  
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Inhuman-creation/SMRT-PROJECT/actions)  
 [![Contributors](https://img.shields.io/badge/contributors-7-brightgreen.svg)](#team-members)
 
@@ -11,7 +11,7 @@
 - [Developer Set-up Guide](#developer-set-up-guide)
 - [Feature Development Guide](#feature-development-guide)
 - [Team Members](#team-members)
-- License:[ECL 2.0](https://opensource.org/license/ecl-2-0)
+- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -107,7 +107,7 @@ The following steps should be taken to add a new feature to the Main Menu. Featu
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **ECL License 2.0** - see the [ECL site](https://opensource.org/license/ecl-2-0) for details.
 
 ---
 
