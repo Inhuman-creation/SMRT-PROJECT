@@ -79,7 +79,7 @@ class LoginGUI:
                 corner_radius=5,
                 command = feedback_function
             )
-            feedback_button.place(relx=0.5, rely=0.6, relwidth=0.1, relheight=0.08,
+            feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08,
                                   anchor=tk.CENTER)
 
         # Button functions
