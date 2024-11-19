@@ -162,7 +162,7 @@ class ChoiceGUI:
             else:
                 # Print the correct response
                 feedback_text = "Not quite! {} means {}.".format(self.flashword.foreign, self.flashword.english.lower()) \
-                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{self.flashword.english.lower()} translates to {self.flashword.foreign}"
+                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite! {self.flashword.english.lower()} translates to {self.flashword.foreign}"
 
                 # Display corrective feedback
                 feedback_label = ctk.CTkLabel(

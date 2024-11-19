@@ -159,7 +159,7 @@ class ReviewGUI:
             else:
                 # Provide the correct translation for the user
                 feedback_text = "Not quite! {} means {}.".format(flashword.foreign, flashword.english.lower()) \
-                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite!\n{flashword.english.lower()} translates to {flashword.foreign}"
+                    if Settings.FOREIGN_TO_ENGLISH else f"Not quite! {flashword.english.lower()} translates to {flashword.foreign}"
 
                 feedback_label = ctk.CTkLabel(
                     master=self.frame,
@@ -281,7 +281,7 @@ class ReviewGUI:
                 feedback_text = random.choice(supportive_messages)
                 feedback_color = "#77721f"  # Correct color
             else:
-                feedback_text = "Not quite!\n{} means {}".format(flashword.foreign, flashword.english.lower())
+                feedback_text = "Not quite! {} means {}".format(flashword.foreign, flashword.english.lower())
                 feedback_color = "#f37d59"  # Incorrect color
 
             # Create feedback label

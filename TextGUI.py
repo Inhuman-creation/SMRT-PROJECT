@@ -87,7 +87,7 @@ class TextGUI:
                 feedback_text = random.choice(supportive_messages)
                 feedback_color = "#77721f"  # Color for correct answer
             else:
-                feedback_text = "Not quite!\n{} means {}".format(flashword.foreign, flashword.english.lower())
+                feedback_text = "Not quite! {} means {}".format(flashword.foreign, flashword.english.lower())
                 feedback_color = "#f37d59"  # Color for incorrect answer
 
             # Create a label to display feedback
