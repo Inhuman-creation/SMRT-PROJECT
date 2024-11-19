@@ -11,7 +11,7 @@
 - [Developer Set-up Guide](#developer-set-up-guide)
 - [Feature Development Guide](#feature-development-guide)
 - [Team Members](#team-members)
-- [License](#license)
+- License:[ECL 2.0](https://opensource.org/license/ecl-2-0)
 - [Acknowledgements](#acknowledgements)
 
 ---
