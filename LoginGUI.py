@@ -97,6 +97,22 @@ class LoginGUI:
             )
             feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08,
                                   anchor=tk.CENTER)
+            
+        def registration_succ():
+            """
+            Provides feedback to the user depending on if they need to take action,
+            or if their account was successfully registered.
+            """
+            feedback_text = "Registration Successful!"
+            feedback_label = ctk.CTkLabel(
+                master=self.frame,
+                text=feedback_text,
+                font=feedbackbuttonfont,
+                text_color="white",
+                fg_color="#77721f",
+                corner_radius=5
+            )
+            feedback_label.place(relx=0.5, rely=0.5, relwidth=0.5, relheight=0.15, anchor=tk.CENTER)
 
         # Button functions
         def login_function():
@@ -190,8 +206,8 @@ class LoginGUI:
             self.controller.study_window = WalkingWindow(size=Settings.WALKING_WINDOW_SIZE)
             self.app.protocol("WM_DELETE_WINDOW", self.controller.save_and_close)
 
-            # Confirm to the user that their registration was successful
-            show_feedback("Registration Successful!")
+            # Display to the user that their registration was successful
+            registration_succ() 
             self.frame.after(1000, self.controller.show_menu_gui)
 
         def exit_button():
