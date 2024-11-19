@@ -1,7 +1,6 @@
 # SMRT Vocab
 ![Logo](Assets/SMRT_Vocab_logo.png)
 [![License](https://img.shields.io/badge/license-ECL%202.0-blue.svg)](LICENSE)  
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Inhuman-creation/SMRT-PROJECT/actions)  
 [![Contributors](https://img.shields.io/badge/contributors-7-brightgreen.svg)](#team-members)
 
 ## Table of Contents
