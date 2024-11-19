@@ -172,8 +172,19 @@ class StatsGUI:
         canvas.draw()
         canvas.get_tk_widget().place(relx=0.38, rely=0.52, anchor=tk.CENTER)
 
-        # Add a slider to control the x-axis position
-        self.x_slider = ctk.CTkSlider(master=self.frame, from_=1, to=5000, command=self.update_feedback)
+        # Add a slider to see potential progress (what if calculator)
+        self.x_slider = ctk.CTkSlider(
+            master=self.frame,
+            from_=1,
+            to=5000,
+            command=self.update_feedback,
+            fg_color="#dcdcdc",
+            progress_color="#4682b4",
+            button_color="#5f9ea0",
+            button_hover_color="#4682b4"
+        )
+        self.x_slider.place(relx=0.38, rely=0.88, relwidth=0.6, anchor=tk.CENTER)
+
         self.x_slider.place(relx=0.38, rely=0.88, relwidth=0.6, anchor=tk.CENTER)
 
         # Display feedback based on the x position
