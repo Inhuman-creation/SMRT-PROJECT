@@ -199,7 +199,7 @@ class ChoiceGUI:
                     text_color="white",
                     corner_radius=5
                 )
-                feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08,
+                feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08,
                                       anchor=tk.CENTER)
 
         # Word in foreign lang
@@ -210,11 +210,35 @@ class ChoiceGUI:
         )
         flashcard.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
 
+        # Define a function to wrap text if it is too long for the multiple choice button
+        def wrap_text(text, max_length=30):
+            """
+            Wraps the text to a new line if it exceeds max_length.
+            Inserts a newline character at spaces to prevent breaking words.
+            """
+            if len(text) > max_length:
+                wrapped_text = ""
+                current_line_length = 0
+                for word in text.split():
+                    if current_line_length + len(word) + 1 > max_length:
+                        wrapped_text += "\n"  # Start a new line
+                        current_line_length = 0
+                    elif current_line_length > 0:
+                        wrapped_text += " "  # Add space between words
+                        current_line_length += 1
+                    wrapped_text += word
+                    current_line_length += len(word)
+                return wrapped_text
+            return text
+
         # Create multiple choice buttons with white text and hover effect
         buttons = []
         for i in range(4):
+            choice_text = self.choices[i].english.lower() if Settings.FOREIGN_TO_ENGLISH else self.choices[i].foreign
+            wrapped_text = wrap_text(choice_text, max_length=25)  # Adjust max_length as needed for line length
             button = ctk.CTkButton(
-                master=self.frame, text=self.choices[i].english.lower() if Settings.FOREIGN_TO_ENGLISH else self.choices[i].foreign,
+                master=self.frame,
+                text = wrapped_text,
                 font=buttonfont,
                 width=480, height=250, text_color="#ffffff",  # Set font color to white
                 command=partial(display_feedback, self.choices[i]),

@@ -39,6 +39,7 @@ class GUI:
 
         # Initialize the main application window
         self.app = ctk.CTk()
+        self.app.iconbitmap("Assets/SMRT_Vocab_logo.ico")
         self.app.geometry("1000x1000")
         self.app._state_before_windows_set_titlebar_color = 'zoomed'
         self.app.title("SMRT")

@@ -1,1 +1,1 @@
-pyinstaller Main.py --onefile --noconsole --clean
+pyinstaller Main.py --onefile --noconsole --clean --icon=.\Assets\SMRT_Vocab_logo.ico

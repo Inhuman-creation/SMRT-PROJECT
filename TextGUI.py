@@ -113,7 +113,7 @@ class TextGUI:
                     width=160, height=100, command=lambda: hide_feedback(feedback_label, feedback_button),
                     fg_color="#d9534f", text_color="white", corner_radius=5
                 )
-                feedback_button.place(relx=0.5, rely=0.62, relwidth=0.1, relheight=0.08, anchor=tk.CENTER)
+                feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08, anchor=tk.CENTER)
 
                 # Play sound effect for incorrect answer
                 sound = pygame.mixer.Sound("assets/incorrect.wav")
