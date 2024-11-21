@@ -11,6 +11,7 @@ import os
 import logging
 import threading
 import Settings
+import re
 
 #Base directory for audio files
 BASE_AUDIO_DIR = "audio_files"
@@ -34,6 +35,13 @@ def generate_pronunciation(word, lang):
     if not lang_code:
         logging.info(f"Language '{lang.lower()}' is not supported.")
         return None
+
+    # Ignore latinized words or pinyin in FOREIGN cells of CSV AKA Avoid double pronunciations of words.
+    if lang.lower() == "mandarin":
+        word = "".join(re.findall(r"[\u4e00-\u9fff]+", word))
+        if not word:
+            logging.warning(f"No valid Chinese characters found for pronunciation.")
+            return None
 
     # Get the path for the audio file
     audio_file_path = get_audio_file_path(word, lang)

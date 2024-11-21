@@ -58,6 +58,9 @@ class StatsGUI:
     This class contains the GUI for User progress and statistics
     """
     def __init__(self, controller):
+        self.canvas = None
+        self.x_value = None
+        self.dynamic_line = None
         self.x_slider = None
         self.feedback_label = None
         self.controller = controller
@@ -162,6 +165,8 @@ class StatsGUI:
         #Graph the users progress through the language
         ax.axvline(count_known_words(self.controller.study_window.words_dict),
                     color='red', linestyle='--', label="You are here")
+        self.dynamic_line, = ax.plot([self.default_x, self.default_x], [0, custom_function(self.default_x)],
+                                     color="green", linestyle='-', label="Goal")
         ax.set_title("Check your progress")
         ax.set_xlabel("Number of Known Words")
         ax.set_ylabel("Percentage of Language Known")
@@ -177,7 +182,7 @@ class StatsGUI:
             master=self.frame,
             from_=1,
             to=5000,
-            command=self.update_feedback,
+            command=lambda value: self.update_feedback(value, canvas),
             fg_color="#dcdcdc",
             progress_color="#4682b4",
             button_color="#5f9ea0",
@@ -185,21 +190,23 @@ class StatsGUI:
         )
         self.x_slider.place(relx=0.38, rely=0.88, relwidth=0.6, anchor=tk.CENTER)
 
-        self.x_slider.place(relx=0.38, rely=0.88, relwidth=0.6, anchor=tk.CENTER)
-
         # Display feedback based on the x position
         self.feedback_label = ctk.CTkLabel(master=self.frame, font=backbuttonfont, text="Slide to Compare!", text_color="black")
         self.feedback_label.place(relx=0.38, rely=0.8, anchor=tk.CENTER)
 
         self.x_slider.set(self.default_x)
-        self.update_feedback(self.default_x)
+        self.update_feedback(self.default_x, canvas)
 
     # Shows user how many words they need to know in order to reach a certain percentage of language acquisition
-    def update_feedback(self, x_value):
+    def update_feedback(self, x_value, canvas=None):
         # Calculate corresponding y-value from the function
         y_value = custom_function(int(x_value))
         # Update feedback label with current x and y values
         self.feedback_label.configure(text=f"{x_value:.0f} words ~ {y_value:.0f} Percent")
+        
+        self.dynamic_line.set_xdata([x_value, x_value])
+        self.dynamic_line.set_ydata([0,y_value])
+        canvas.draw()
 
     def destroy(self):
         plt.close('all')
