@@ -1,0 +1,5001 @@
+Foreign,English,seen,correct,wrong,known
+的de,"possessive, adjectival suffix",0,0,0,0
+一yī,one,0,0,0,0
+是shì,"indeed, yes, right",0,0,0,0
+不bù,"no, not",0,0,0,0
+了le,to finish,0,0,0,0
+在zài,"be at, in, on",0,0,0,0
+人rén,man,0,0,0,0
+有yǒu,"have, own, possess",0,0,0,0
+我wǒ,"our, us, i, me, my, we",0,0,0,0
+他tā,"other, another",0,0,0,0
+这zhè,"this, the, here",0,0,0,0
+个gè,"numerary adjunct, piece",0,0,0,0
+们men,adjunct pronoun indicate plural,0,0,0,0
+中zhōng,central,0,0,0,0
+来lái,"come, coming",0,0,0,0
+上shàng,top,0,0,0,0
+大dà,"big, great, vast, large, high",0,0,0,0
+为wèi,"do, handle, govern, act",0,0,0,0
+和hé,"harmony, peace",0,0,0,0
+国guó,"nation, country, nation-state",0,0,0,0
+地de,earth,0,0,0,0
+到dào,"go to, arrive, been to",0,0,0,0
+以yǐ,by means of,0,0,0,0
+说shuō,"speak, say, talk",0,0,0,0
+时shí,"time, season",0,0,0,0
+要yào,"necessary, essential",0,0,0,0
+就jiù,"just, simply",0,0,0,0
+出chū,"go out, send out",0,0,0,0
+会huì,"assemble, meet together",0,0,0,0
+可kě,"may, can, -able",0,0,0,0
+也yě,also,0,0,0,0
+你nǐ,"you, second person pronoun",0,0,0,0
+对duì,"correct, right",0,0,0,0
+生shēng,"life, living, lifetime",0,0,0,0
+能néng,to be able,0,0,0,0
+而ér,and,0,0,0,0
+子zi,"offspring, child",0,0,0,0
+那nà,"that, that one, those",0,0,0,0
+得dé,"obtain, get, gain, acquire",0,0,0,0
+于yú,"in, on, at",0,0,0,0
+着zhe,"make move, take action",0,0,0,0
+下xià,"under, underneath, below",0,0,0,0
+自zì,"self, private, personal",0,0,0,0
+之zhī,marks preceding phrase as modifier of following phrase,0,0,0,0
+年nián,,0,0,0,0
+过guò,"pass, pass through, go across",0,0,0,0
+发fā,"issue, dispatch, send out",0,0,0,0
+后hòu,"queen, empress, sovereign",0,0,0,0
+作zuò,make,0,0,0,0
+里lǐ,unit of distance,0,0,0,0
+用yòng,"use, employ, apply, operate",0,0,0,0
+道dào,"path, road, street",0,0,0,0
+行xíng,go,0,0,0,0
+所suǒ,"place, location",0,0,0,0
+然rán,"yes, certainly",0,0,0,0
+家jiā,"house, home, residence",0,0,0,0
+种zhǒng,seed,0,0,0,0
+事shì,"affair, matter, business",0,0,0,0
+成chéng,"completed, finished, fixed",0,0,0,0
+方fāng,"a square, rectangle",0,0,0,0
+多duō,"much, many",0,0,0,0
+经jīng,classic works,0,0,0,0
+么me,interrogative particle,0,0,0,0
+去qù,"go away, leave, depart",0,0,0,0
+法fǎ,"law, rule, regulation, statute",0,0,0,0
+学xué,"learning, knowledge",0,0,0,0
+如rú,"if, supposing",0,0,0,0
+都dōu,"metropolis, capital",0,0,0,0
+同tóng,"same, similar",0,0,0,0
+现xiàn,"appear, manifest, become visible",0,0,0,0
+当dāng,"bear, accept, undertake",0,0,0,0
+没méi,"not, have not, none",0,0,0,0
+动dòng,"move, happen",0,0,0,0
+面miàn,face,0,0,0,0
+起qǐ,"rise, stand up",0,0,0,0
+看kàn,"look, see",0,0,0,0
+定dìng,"decide, settle, fix",0,0,0,0
+天tiān,"sky, heaven",0,0,0,0
+分fēn,divide,0,0,0,0
+还hái,"still, yet, also, besides",0,0,0,0
+进jìn,"advance, make progress, enter",0,0,0,0
+好hǎo,"good, excellent, fine",0,0,0,0
+小xiǎo,"small, tiny, insignificant",0,0,0,0
+部bù,"part, division, section",0,0,0,0
+其qí,"his, her, its, their",0,0,0,0
+些xiē,"little, few",0,0,0,0
+主zhǔ,"master, chief owner",0,0,0,0
+样yàng,"shape, form, pattern, style",0,0,0,0
+理lǐ,"reason, logic",0,0,0,0
+心xīn,heart,0,0,0,0
+她tā,"she, her",0,0,0,0
+本běn,"root, origin, source",0,0,0,0
+前qián,"in front, forward",0,0,0,0
+开kāi,open,0,0,0,0
+但dàn,only,0,0,0,0
+因yīn,"cause, reason",0,0,0,0
+只zhǐ,"only, just, simply",0,0,0,0
+从cóng,"from, by, since, whence, through",0,0,0,0
+想xiǎng,"think, speculate, plan, consider",0,0,0,0
+实shí,"real, true",0,0,0,0
+日rì,sun,0,0,0,0
+军jūn,"army, military",0,0,0,0
+者zhě,that which,0,0,0,0
+意yì,"thought, idea, opinion",0,0,0,0
+无wú,"negative, no, not",0,0,0,0
+力lì,"power, capability, influence",0,0,0,0
+它tā,it,0,0,0,0
+与yǔ,and,0,0,0,0
+长zhǎng,long,0,0,0,0
+把bǎ,"hold, take",0,0,0,0
+机jī,desk,0,0,0,0
+十shí,"ten, tenth",0,0,0,0
+民mín,"people, subjects, citizens",0,0,0,0
+第dì,"sequence, number",0,0,0,0
+公gōng,"fair, equitable",0,0,0,0
+此cǐ,"this, these",0,0,0,0
+已yǐ,already,0,0,0,0
+工gōng,"labor, work",0,0,0,0
+使shǐ,"cause, send on a mission, order",0,0,0,0
+情qíng,"feeling, sentiment, emotion",0,0,0,0
+明míng,"bright, light, brilliant",0,0,0,0
+性xìng,"nature, character, sex",0,0,0,0
+知zhī,"know, perceive, comprehend",0,0,0,0
+全quán,"maintain, keep whole or intact",0,0,0,0
+三sān,three,0,0,0,0
+又yòu,"and, also, again, in addition",0,0,0,0
+关guān,frontier pass,0,0,0,0
+点diǎn,"dot, speck, spot",0,0,0,0
+正zhèng,"right, proper, correct",0,0,0,0
+业yè,"profession, business",0,0,0,0
+外wài,"out, outside, external",0,0,0,0
+将jiāng,"will, going to, future",0,0,0,0
+两liǎng,"two, both, pair, couple",0,0,0,0
+高gāo,"high, tall",0,0,0,0
+间jiān,"midpoint, space",0,0,0,0
+由yóu,"cause, reason",0,0,0,0
+问wèn,"ask about, inquire after",0,0,0,0
+很hěn,"very, quite, much",0,0,0,0
+最zuì,"most, extremely, exceedingly",0,0,0,0
+重zhòng,"heavy, weighty",0,0,0,0
+并bìng,,0,0,0,0
+物wù,"thing, substance, creature",0,0,0,0
+手shǒu,hand,0,0,0,0
+应yīng,"should, ought to, must",0,0,0,0
+战zhàn,"war, fighting, battle",0,0,0,0
+向xiàng,"toward, direction, trend",0,0,0,0
+头tóu,head,0,0,0,0
+文wén,"literature, culture, writing",0,0,0,0
+体tǐ,body,0,0,0,0
+政zhèng,"government, political affairs",0,0,0,0
+美měi,"beautiful, pretty",0,0,0,0
+相xiāng,"mutual, reciprocal, each other",0,0,0,0
+见jiàn,"see, observe, behold",0,0,0,0
+被bèi,,0,0,0,0
+利lì,"gains, advantage, profit, merit",0,0,0,0
+什shén,file of ten soldiers,0,0,0,0
+二èr,two,0,0,0,0
+等děng,,0,0,0,0
+产chǎn,"give birth, bring forth, produce",0,0,0,0
+或huò,"or, either, else",0,0,0,0
+新xīn,"new, recent, fresh, modern",0,0,0,0
+己jǐ,"self, oneself",0,0,0,0
+制zhì,system,0,0,0,0
+身shēn,body,0,0,0,0
+果guǒ,fruit,0,0,0,0
+加jiā,"add to, increase, augment",0,0,0,0
+西xī,west(ern),0,0,0,0
+斯sī,"this, thus, such",0,0,0,0
+月yuè,moon,0,0,0,0
+话huà,"speech, talk, language",0,0,0,0
+合hé,"combine, unite, join",0,0,0,0
+回huí,"return, turn around",0,0,0,0
+特tè,"special, unique, distinguished",0,0,0,0
+代dài,"replace, replacement (of person or generation)",0,0,0,0
+内nèi,inside,0,0,0,0
+信xìn,"trust, believe",0,0,0,0
+表biǎo,"show, express, manifest, display",0,0,0,0
+化huà,"change, convert, reform",0,0,0,0
+老lǎo,"old, aged",0,0,0,0
+给gěi,give,0,0,0,0
+世shì,generation,0,0,0,0
+位wèi,throne,0,0,0,0
+次cì,"order, sequence",0,0,0,0
+度dù,"degree, system",0,0,0,0
+门mén,"gate, door, entrance, opening",0,0,0,0
+任rèn,"trust to, rely on, appoint",0,0,0,0
+常cháng,"common, normal, frequent, regular",0,0,0,0
+先xiān,"first, former, previous",0,0,0,0
+海hǎi,"sea, ocean",0,0,0,0
+通tōng,"pass through, common, communicate",0,0,0,0
+教jiào,"teach, class",0,0,0,0
+儿ér,"son, child",0,0,0,0
+原yuán,"source, origin, beginning",0,0,0,0
+东dōng,"east, eastern, eastward",0,0,0,0
+声shēng,"sound, voice, noise",0,0,0,0
+提tí,hold in hand,0,0,0,0
+立lì,stand,0,0,0,0
+及jí,extend,0,0,0,0
+比bǐ,"to compare, liken",0,0,0,0
+员yuán,member,0,0,0,0
+解jiě,"loosen, unfasten, untie",0,0,0,0
+水shuǐ,"water, liquid, lotion, juice",0,0,0,0
+名míng,"name, rank, title, position",0,0,0,0
+真zhēn,"real, actual, true, genuine",0,0,0,0
+论lùn,debate,0,0,0,0
+处chù,"place, locale",0,0,0,0
+走zǒu,"walk, go on foot",0,0,0,0
+义yì,"right conduct, righteousness",0,0,0,0
+各gè,"each, individually, every, all",0,0,0,0
+入rù,"enter, come in(to), join",0,0,0,0
+几jǐ,small table,0,0,0,0
+口kǒu,mouth,0,0,0,0
+认rèn,"recognize, know, understand",0,0,0,0
+条tiáo,"clause, condition",0,0,0,0
+平píng,"flat, level, even",0,0,0,0
+系xì,system,0,0,0,0
+气qì,"steam, vapor",0,0,0,0
+题tí,forehead,0,0,0,0
+活huó,"live, exist, survive",0,0,0,0
+尔ěr,you,0,0,0,0
+更gèng,"more, still further, much more",0,0,0,0
+别bié,"separate, other",0,0,0,0
+打dǎ,"strike, hit, beat",0,0,0,0
+女nǚ,"woman, girl",0,0,0,0
+变biàn,"change, transform, alter",0,0,0,0
+四sì,four,0,0,0,0
+神shén,"spirit, god, supernatural being",0,0,0,0
+总zǒng,collect,0,0,0,0
+何hé,"what, why, where, which, how",0,0,0,0
+电diàn,electricity,0,0,0,0
+数shù,number,0,0,0,0
+安ān,"peaceful, tranquil, quiet",0,0,0,0
+少shǎo,"few, less, inadequate",0,0,0,0
+报bào,"report, tell, announce",0,0,0,0
+才cái,"talent, ability",0,0,0,0
+结jié,"knot, tie",0,0,0,0
+反fǎn,"reverse, opposite, contrary, anti",0,0,0,0
+受shòu,"receive, accept, get",0,0,0,0
+目mù,eye,0,0,0,0
+太tài,"very, too, much",0,0,0,0
+量liàng,"measure, quantity, capacity",0,0,0,0
+再zài,"again, twice, re-",0,0,0,0
+感gǎn,"feel, perceive, emotion",0,0,0,0
+建jiàn,"build, establish, erect, found",0,0,0,0
+务wù,"affairs, business",0,0,0,0
+做zuò,"work, make",0,0,0,0
+接jiē,receive,0,0,0,0
+必bì,"surely, most certainly",0,0,0,0
+场chǎng,"open space, field, market",0,0,0,0
+件jiàn,numerary adjunct for article,0,0,0,0
+计jì,"plan, plot",0,0,0,0
+管guǎn,"pipe, tube, duct",0,0,0,0
+期qī,period of time,0,0,0,0
+市shì,"market, fair",0,0,0,0
+直zhí,"straight, erect, vertical",0,0,0,0
+德dé,"ethics, morality, virtue",0,0,0,0
+资zī,property,0,0,0,0
+命mìng,life,0,0,0,0
+山shān,"mountain, hill, peak",0,0,0,0
+金jīn,gold,0,0,0,0
+指zhǐ,"finger, toe",0,0,0,0
+克kè,gram,0,0,0,0
+许xǔ,"allow, permit",0,0,0,0
+统tǒng,"govern, command, control",0,0,0,0
+区qū,"area, district, region, ward",0,0,0,0
+保bǎo,"protect, safeguard, defend, care",0,0,0,0
+至zhì,"reach, arrive",0,0,0,0
+队duì,"team, group",0,0,0,0
+形xíng,"form, shape, appearance",0,0,0,0
+社shè,god of the soil and altars to him,0,0,0,0
+便biàn,"convenience, ease",0,0,0,0
+空kōng,"empty, hollow, bare, deserted",0,0,0,0
+决jué,"decide, determine, judge",0,0,0,0
+治zhì,"govern, regulate, administer",0,0,0,0
+展zhǎn,"open, unfold",0,0,0,0
+马mǎ,horse,0,0,0,0
+科kē,"section, department, science",0,0,0,0
+司sī,"take charge of, control, manage",0,0,0,0
+五wǔ,five,0,0,0,0
+基jī,"foundation, base",0,0,0,0
+眼yǎn,eye,0,0,0,0
+书shū,"book, letter, document",0,0,0,0
+非fēi,"not, negative, non-",0,0,0,0
+则zé,"rule, law, regulation",0,0,0,0
+听tīng,hear,0,0,0,0
+白bái,white,0,0,0,0
+却què,"still, but",0,0,0,0
+界jiè,"boundary, limit",0,0,0,0
+达dá,"arrive at, reach",0,0,0,0
+光guāng,"light, brilliant, shine",0,0,0,0
+放fàng,"put, release, free, liberate",0,0,0,0
+强qiáng,"strong, powerful, energetic",0,0,0,0
+即jí,"promptly, quickly, immediately",0,0,0,0
+像xiàng,"a picture, image, figure",0,0,0,0
+难nán,"difficult, arduous, hard",0,0,0,0
+且qiě,"moreover, also (post-subject)",0,0,0,0
+权quán,"power, right, authority",0,0,0,0
+思sī,"think, consider, ponder",0,0,0,0
+王wáng,"king, ruler",0,0,0,0
+象xiàng,elephant,0,0,0,0
+完wán,"complete, finish, settle",0,0,0,0
+设shè,build,0,0,0,0
+式shì,"style, system, formula, rule",0,0,0,0
+色sè,"color, tint, hue, shade",0,0,0,0
+路lù,"road, path, street",0,0,0,0
+记jì,record,0,0,0,0
+南nán,south,0,0,0,0
+品pǐn,"article, product, commodity",0,0,0,0
+住zhù,"reside, live at, dwell, lodge",0,0,0,0
+告gào,"tell, announce, inform",0,0,0,0
+类lèi,"class, group, kind, category",0,0,0,0
+求qiú,seek,0,0,0,0
+据jù,"to occupy, take possession of",0,0,0,0
+程chéng,"journey, trip",0,0,0,0
+北běi,north,0,0,0,0
+边biān,"edge, margin, side, border",0,0,0,0
+死sǐ,die,0,0,0,0
+张zhāng,"stretch, extend, expand",0,0,0,0
+该gāi,"should, ought to, need to",0,0,0,0
+交jiāo,mix,0,0,0,0
+规guī,"rules, regulations, customs, law",0,0,0,0
+万wàn,ten thousand,0,0,0,0
+取qǔ,"take, receive, obtain",0,0,0,0
+拉lā,"pull, drag",0,0,0,0
+格gé,"pattern, standard, form",0,0,0,0
+望wàng,"to look at, look forward",0,0,0,0
+觉jué,to wake up from sleep,0,0,0,0
+术shù,"art, skill, special feat",0,0,0,0
+领lǐng,neck,0,0,0,0
+共gòng,"together with, all, total",0,0,0,0
+确què,"sure, certain",0,0,0,0
+传chuán,summon,0,0,0,0
+师shī,"teacher, master, specialist",0,0,0,0
+观guān,"see, observe, view",0,0,0,0
+清qīng,"clear, pure, clean",0,0,0,0
+今jīn,"now, today, modern era",0,0,0,0
+切qiè,"cut, mince, slice, carve",0,0,0,0
+院yuàn,"courtyard, yard, court",0,0,0,0
+让ràng,"allow, permit, yield, concede",0,0,0,0
+识shí,"recognize, understand, know",0,0,0,0
+候hòu,wait,0,0,0,0
+带dài,"belt, girdle, band, strap, zone",0,0,0,0
+导dǎo,"direct, guide, lead, conduct",0,0,0,0
+争zhēng,"dispute, fight, contend, strive",0,0,0,0
+运yùn,run,0,0,0,0
+笑xiào,"smile, laugh, giggle",0,0,0,0
+飞fēi,fly,0,0,0,0
+风fēng,wind,0,0,0,0
+步bù,"step, pace",0,0,0,0
+改gǎi,"change, alter",0,0,0,0
+收shōu,"gather together, collect",0,0,0,0
+根gēn,"root, base(d on)",0,0,0,0
+干gàn,"oppose, offend",0,0,0,0
+造zào,"construct, build, make, begin",0,0,0,0
+言yán,"words, speech",0,0,0,0
+联lián,"connect, join",0,0,0,0
+持chí,"sustain, support",0,0,0,0
+组zǔ,class,0,0,0,0
+每měi,"every, each",0,0,0,0
+济jì,"help, aid, relieve",0,0,0,0
+车chē,"cart, vehicle",0,0,0,0
+亲qīn,"relatives, parents",0,0,0,0
+极jí,"extreme, utmost, furthest, final",0,0,0,0
+林lín,"forest, grove",0,0,0,0
+服fú,clothes,0,0,0,0
+快kuài,"rapid, quick, speedy, fast",0,0,0,0
+办bàn,"manage, do, handle",0,0,0,0
+议yì,"consult, talk over, discuss",0,0,0,0
+往wǎng,"go, depart",0,0,0,0
+元yuán,first,0,0,0,0
+英yīng,"petal, flower, leaf",0,0,0,0
+士shì,"scholar, gentleman",0,0,0,0
+证zhèng,"prove, confirm, verify",0,0,0,0
+近jìn,"near, close",0,0,0,0
+失shī,lose,0,0,0,0
+转zhuǎn,"shift, move, turn",0,0,0,0
+夫fū,"man, male adult, husband",0,0,0,0
+令lìng,,0,0,0,0
+准zhǔn,"approve, allow, permit",0,0,0,0
+布bù,"cotton cloth, textiles, linen",0,0,0,0
+始shǐ,"begin, start",0,0,0,0
+怎zěn,what? why? how?,0,0,0,0
+呢ne,interrogative or emphatic final,0,0,0,0
+存cún,"exist, live, be",0,0,0,0
+未wèi,not yet,0,0,0,0
+远yuǎn,"distant, remote, far",0,0,0,0
+叫jiào,"cry, shout",0,0,0,0
+台tái,platform,0,0,0,0
+单dān,"single, individual, only",0,0,0,0
+影yǐng,shadow,0,0,0,0
+具jù,"tool, implement",0,0,0,0
+罗luō,net for catching birds,0,0,0,0
+字zì,"letter, character, word",0,0,0,0
+爱ài,"love, be fond of, like",0,0,0,0
+击jī,"strike, hit, beat",0,0,0,0
+流liú,"flow, circulate, drift",0,0,0,0
+备bèi,"prepare, ready, perfect",0,0,0,0
+兵bīng,"soldier, troops",0,0,0,0
+连lián,"join, connect",0,0,0,0
+调diào,"transfer, move, change",0,0,0,0
+深shēn,deep,0,0,0,0
+商shāng,"commerce, business, trade",0,0,0,0
+算suàn,"count, calculate, figure",0,0,0,0
+质zhì,"matter, material, substance",0,0,0,0
+团tuán,"sphere, ball, circle",0,0,0,0
+集jí,"assemble, collect together",0,0,0,0
+百bǎi,one hundred,0,0,0,0
+需xū,"need, require, must",0,0,0,0
+价jià,"price, value",0,0,0,0
+花huā,flower,0,0,0,0
+党dǎng,"political party, gang, faction",0,0,0,0
+华huá,flowery,0,0,0,0
+城chéng,castle,0,0,0,0
+石shí,"stone, rock, mineral",0,0,0,0
+级jí,"level, rank, class",0,0,0,0
+整zhěng,"orderly, neat, tidy",0,0,0,0
+府fǔ,prefecture,0,0,0,0
+离lí,rare beast,0,0,0,0
+况kuàng,"condition, situation",0,0,0,0
+亚yà,Asia,0,0,0,0
+请qǐng,"ask, request",0,0,0,0
+技jì,"skill, ability, talent, ingenuity",0,0,0,0
+际jì,"border, boundary, juncture",0,0,0,0
+约yuē,"treaty, agreement, covenant",0,0,0,0
+示shì,"show, manifest",0,0,0,0
+复fù,return,0,0,0,0
+病bìng,"illness, sickness, disease",0,0,0,0
+息xī,"rest, put stop to, end, cease",0,0,0,0
+究jiū,"examine, investigate",0,0,0,0
+线xiàn,"line, thread, wire",0,0,0,0
+似shì,"resemble, similar to",0,0,0,0
+官guān,"official, public servant",0,0,0,0
+火huǒ,"fire, flame",0,0,0,0
+断duàn,"sever, cut off",0,0,0,0
+精jīng,essence,0,0,0,0
+满mǎn,fill,0,0,0,0
+支zhī,"disperse, pay",0,0,0,0
+视shì,"look at, inspect, observe, see",0,0,0,0
+消xiāo,"vanish, die out",0,0,0,0
+越yuè,"exceed, go beyond",0,0,0,0
+器qì,"receptacle, vessel",0,0,0,0
+容róng,"looks, appearance",0,0,0,0
+照zhào,"shine, illumine, reflect",0,0,0,0
+须xū,"must, have to, necessary",0,0,0,0
+九jiǔ,nine,0,0,0,0
+增zēng,"increase, add to, augment",0,0,0,0
+研yán,"grind, rub",0,0,0,0
+写xiě,write,0,0,0,0
+称chēng,call,0,0,0,0
+企qǐ,plan a project,0,0,0,0
+八bā,eight,0,0,0,0
+功gōng,"achievement, merit, good result",0,0,0,0
+吗ma,final interrogative particle,0,0,0,0
+包bāo,"wrap, pack, bundle",0,0,0,0
+片piàn,"slice, splinter, strip",0,0,0,0
+史shǐ,"history, chronicle, annals",0,0,0,0
+委wěi,"appoint, send, commission",0,0,0,0
+乎hū,interrogative or exclamatory final particle,0,0,0,0
+查chá,"investigate, examine, seek into",0,0,0,0
+轻qīng,light,0,0,0,0
+易yì,change,0,0,0,0
+早zǎo,early,0,0,0,0
+曾céng,already,0,0,0,0
+除chú,"eliminate, remove, except",0,0,0,0
+农nóng,"agriculture, farming",0,0,0,0
+找zhǎo,"search, seek, look for",0,0,0,0
+装zhuāng,"dress, clothes, attire",0,0,0,0
+广guǎng,"wide, extensive, broad",0,0,0,0
+显xiǎn,"manifest, display",0,0,0,0
+吧ba,emphatic final particle,0,0,0,0
+阿ā,,0,0,0,0
+李lǐ,plum,0,0,0,0
+标biāo,"mark, symbol, label, sign",0,0,0,0
+谈tán,talk,0,0,0,0
+吃chī,eat,0,0,0,0
+图tú,diagram,0,0,0,0
+念niàn,"think of, recall, study",0,0,0,0
+六liù,number six,0,0,0,0
+引yǐn,"to pull, draw out, attract",0,0,0,0
+历lì,history,0,0,0,0
+首shǒu,head,0,0,0,0
+医yī,"cure, heal",0,0,0,0
+局jú,"bureau, office",0,0,0,0
+突tū,"suddenly, abruptly, unexpectedly",0,0,0,0
+专zhuān,"monopolize, take sole possession",0,0,0,0
+费fèi,"expenses, expenditures, fee",0,0,0,0
+号hào,"mark, sign",0,0,0,0
+尽jǐn,"exhaust, use up",0,0,0,0
+另lìng,"another, separate, other",0,0,0,0
+周zhōu,Zhou dynasty,0,0,0,0
+较jiào,compare,0,0,0,0
+注zhù,"concentrate, focus, direct",0,0,0,0
+语yǔ,"language, words",0,0,0,0
+仅jǐn,"only, merely, solely, just",0,0,0,0
+考kǎo,"examine, test",0,0,0,0
+落luò,"fall, drop",0,0,0,0
+青qīng,"blue, green, black",0,0,0,0
+随suí,"follow, listen to, submit to",0,0,0,0
+选xuǎn,"choose, select",0,0,0,0
+列liè,a line,0,0,0,0
+武wǔ,military,0,0,0,0
+红hóng,"red, vermillion",0,0,0,0
+响xiǎng,"make sound, make noise",0,0,0,0
+虽suī,"although, even if",0,0,0,0
+推tuī,"push, expel",0,0,0,0
+势shì,"power, force",0,0,0,0
+参cān,"take part in, intervene",0,0,0,0
+希xī,rare,0,0,0,0
+古gǔ,"old, classic, ancient",0,0,0,0
+众zhòng,"multitude, crowd",0,0,0,0
+构gòu,"frame, building, structure",0,0,0,0
+房fáng,"house, building",0,0,0,0
+半bàn,half,0,0,0,0
+节jié,"knot, node, joint",0,0,0,0
+土tǔ,"soil, earth",0,0,0,0
+投tóu,"throw, cast, fling, pitch",0,0,0,0
+某mǒu,certain thing or person,0,0,0,0
+案àn,"table, bench",0,0,0,0
+黑hēi,black,0,0,0,0
+维wéi,"maintain, preserve, safeguard",0,0,0,0
+革gé,"leather, animal hides",0,0,0,0
+划huà,to row or paddle boat,0,0,0,0
+敌dí,"enemy, foe, rival",0,0,0,0
+致zhì,"send, deliver, present",0,0,0,0
+陈chén,"exhibit, display",0,0,0,0
+律lǜ,"statute, principle, regulation",0,0,0,0
+足zú,foot,0,0,0,0
+态tài,"manner, bearing, attitude",0,0,0,0
+护hù,"protect, guard, defend, shelter",0,0,0,0
+七qī,seven,0,0,0,0
+兴xìng,"thrive, prosper, flourish",0,0,0,0
+派pài,"school of thought, sect, branch",0,0,0,0
+孩hái,"baby, child",0,0,0,0
+验yàn,"test, examine, inspect",0,0,0,0
+责zé,,0,0,0,0
+营yíng,"encampment, barracks",0,0,0,0
+星xīng,"a star, planet",0,0,0,0
+够gòu,"enough, adequate",0,0,0,0
+章zhāng,composition,0,0,0,0
+音yīn,"sound, tone, pitch, pronunciation",0,0,0,0
+跟gēn,heel,0,0,0,0
+志zhì,"purpose, will, determination",0,0,0,0
+底dǐ,"bottom, underneath, underside",0,0,0,0
+站zhàn,stand up,0,0,0,0
+严yán,"strict, rigorous, rigid",0,0,0,0
+巴bā,"greatly desire, anxiously hope",0,0,0,0
+例lì,"precedent, example",0,0,0,0
+防fáng,defend,0,0,0,0
+族zú,"a family clan, ethnic group, tribe",0,0,0,0
+供gōng,"supply, provide for",0,0,0,0
+效xiào,"result, effect",0,0,0,0
+续xù,"continue, carry on",0,0,0,0
+施shī,"grant, bestow",0,0,0,0
+留liú,"stop, halt",0,0,0,0
+讲jiǎng,explain,0,0,0,0
+型xíng,"pattern, model, type",0,0,0,0
+料liào,"consider, conjecture",0,0,0,0
+终zhōng,end,0,0,0,0
+答dá,"answer, reply",0,0,0,0
+紧jǐn,"tense, tight, taut",0,0,0,0
+黄huáng,yellow,0,0,0,0
+绝jué,"to cut, sever, break off, terminate",0,0,0,0
+奇qí,"strange, unusual, uncanny, occult",0,0,0,0
+察chá,"examine, investigate",0,0,0,0
+母mǔ,mother,0,0,0,0
+京jīng,capital city,0,0,0,0
+段duàn,"section, piece, division",0,0,0,0
+依yī,"rely on, be set in",0,0,0,0
+批pī,"comment, criticize",0,0,0,0
+群qún,(same as ,0,0,0,0
+项xiàng,"neck, nape of neck",0,0,0,0
+故gù,"ancient, old",0,0,0,0
+按àn,"put hand on, press down with hand",0,0,0,0
+河hé,river,0,0,0,0
+米mǐ,hulled or husked uncooked rice,0,0,0,0
+围wéi,"surround, encircle, corral",0,0,0,0
+江jiāng,large river,0,0,0,0
+织zhī,"weave, knit",0,0,0,0
+害hài,"injure, harm",0,0,0,0
+斗dòu,Chinese peck,0,0,0,0
+双shuāng,"set of two, pair, couple",0,0,0,0
+境jìng,"boundary, frontier",0,0,0,0
+客kè,"guest, traveller",0,0,0,0
+纪jì,"record, annal, historical account",0,0,0,0
+采cǎi,"collect, gather",0,0,0,0
+举jǔ,"raise, lift up",0,0,0,0
+杀shā,"kill, slaughter, murder",0,0,0,0
+攻gōng,"attack, assault",0,0,0,0
+父fù,father,0,0,0,0
+苏sū,,0,0,0,0
+密mì,"dense, thick, close",0,0,0,0
+低dī,low,0,0,0,0
+朝cháo,dynasty,0,0,0,0
+友yǒu,"friend, companion",0,0,0,0
+诉sù,accuse,0,0,0,0
+止zhǐ,"stop, halt, desist",0,0,0,0
+细xì,"fine, tiny",0,0,0,0
+愿yuàn,"sincere, honest, virtuous",0,0,0,0
+千qiān,thousand,0,0,0,0
+值zhí,price,0,0,0,0
+仍réng,"yet, still, as ever",0,0,0,0
+男nán,"male, man",0,0,0,0
+钱qián,"money, currency, coins",0,0,0,0
+破pò,"break, ruin, destroy",0,0,0,0
+网wǎng,net,0,0,0,0
+热rè,hot,0,0,0,0
+助zhù,"help, aid, assist",0,0,0,0
+倒dào,fall over,0,0,0,0
+育yù,"produce, give birth to",0,0,0,0
+属shǔ,"class, category, type",0,0,0,0
+坐zuò,sit,0,0,0,0
+帝dì,"supreme ruler, emperor",0,0,0,0
+限xiàn,"boundary, limit, line",0,0,0,0
+船chuán,"ship, boat, vessel",0,0,0,0
+脸liǎn,face,0,0,0,0
+职zhí,"duty, profession",0,0,0,0
+速sù,"quick, prompt, speedy",0,0,0,0
+刻kè,"carve, engrave",0,0,0,0
+乐lè,"happy, glad",0,0,0,0
+否fǒu,"not, no, negative",0,0,0,0
+刚gāng,"hard, tough, rigid, strong",0,0,0,0
+威wēi,"pomp, power",0,0,0,0
+毛máo,"hair, fur, feathers",0,0,0,0
+状zhuàng,form,0,0,0,0
+率lǜ,to lead,0,0,0,0
+甚shén,great extent,0,0,0,0
+独dú,"alone, single, solitary, only",0,0,0,0
+球qiú,"ball, sphere, globe",0,0,0,0
+般bān,"sort, manner, kind, category",0,0,0,0
+普pǔ,"universal, general, widespread",0,0,0,0
+怕pà,"to fear, be afraid of",0,0,0,0
+弹dàn,"pellet, bullet, shot, shell",0,0,0,0
+校xiào,school,0,0,0,0
+苦kǔ,bitter,0,0,0,0
+创chuàng,"establish, create",0,0,0,0
+假jiǎ,"falsehood, deception",0,0,0,0
+久jiǔ,long time (ago),0,0,0,0
+错cuò,"error, blunder, mistake",0,0,0,0
+承chéng,"inherit, receive",0,0,0,0
+印yìn,"print, seal, stamp, chop, mark",0,0,0,0
+晚wǎn,"night, evening",0,0,0,0
+兰lán,orchid,0,0,0,0
+试shì,"test, try, experiment",0,0,0,0
+股gǔ,"thighs, haunches, rump",0,0,0,0
+拿ná,"take, hold, grasp",0,0,0,0
+脑nǎo,brain,0,0,0,0
+预yù,"prepare, arrange",0,0,0,0
+谁shuí,who? whom? whose? anyone?,0,0,0,0
+益yì,"profit, benefit",0,0,0,0
+阳yáng,,0,0,0,0
+若ruò,"if, supposing, assuming",0,0,0,0
+哪nǎ,which? where? how?,0,0,0,0
+微wēi,"small, prefix micro-, trifling",0,0,0,0
+尼ní,Buddhist nun,0,0,0,0
+继jì,"continue, maintain, carry on",0,0,0,0
+送sòng,"see off, send off",0,0,0,0
+急jí,"quick, quickly",0,0,0,0
+血xuè,blood,0,0,0,0
+惊jīng,"frighten, surprise, startle",0,0,0,0
+伤shāng,"wound, injury",0,0,0,0
+素sù,white (silk),0,0,0,0
+药yào,leaf of Dahurian angelica plant,0,0,0,0
+适shì,"go, reach",0,0,0,0
+波bō,"waves, breakers",0,0,0,0
+夜yè,"night, dark",0,0,0,0
+省shěng,province,0,0,0,0
+初chū,"beginning, initial, primary",0,0,0,0
+喜xǐ,"like, love, enjoy",0,0,0,0
+卫wèi,"guard, protect, defend",0,0,0,0
+源yuán,spring,0,0,0,0
+食shí,eat,0,0,0,0
+险xiǎn,"narrow pass, strategic point",0,0,0,0
+待dài,"treat, entertain, receive",0,0,0,0
+述shù,"narrate, state, express",0,0,0,0
+陆lù,"land, continental",0,0,0,0
+习xí,practice,0,0,0,0
+置zhì,"place, lay out",0,0,0,0
+居jū,"live, dwell, reside, sit",0,0,0,0
+劳láo,"labor, toil, do manual work",0,0,0,0
+财cái,"wealth, valuables, riches",0,0,0,0
+环huán,jade ring or bracelet,0,0,0,0
+排pái,"row, rank, line",0,0,0,0
+福fú,"happiness, good fortune, blessing",0,0,0,0
+纳nà,"admit, take, receive, accept",0,0,0,0
+欢huān,"happy, pleased, glad",0,0,0,0
+雷léi,thunder,0,0,0,0
+警jǐng,"guard, watch",0,0,0,0
+获huò,"obtain, get, receive",0,0,0,0
+模mó,"model, standard, pattern",0,0,0,0
+充chōng,"fill, be full, supply",0,0,0,0
+负fù,"load, burden",0,0,0,0
+云yún,"say, speak",0,0,0,0
+停tíng,"stop, suspend, delay",0,0,0,0
+木mù,tree,0,0,0,0
+游yóu,to swim,0,0,0,0
+龙lóng,dragon,0,0,0,0
+树shù,tree,0,0,0,0
+疑yí,"doubt, question, suspect",0,0,0,0
+层céng,"storey, layer, floor, stratum",0,0,0,0
+冷lěng,"cold, cool",0,0,0,0
+洲zhōu,continent,0,0,0,0
+冲chōng,soar,0,0,0,0
+射shè,"shoot, eject, issue forth, emit",0,0,0,0
+略lüè,"approximately, roughly",0,0,0,0
+范fàn,surname,0,0,0,0
+竟jìng,"finally, after all, at last",0,0,0,0
+句jù,sentence,0,0,0,0
+室shì,"room, home, house, chamber",0,0,0,0
+异yì,"different, unusual, strange",0,0,0,0
+激jī,"arouse, excite, incite",0,0,0,0
+汉hàn,Chinese people,0,0,0,0
+村cūn,"village, hamlet",0,0,0,0
+哈hā,sound of laughter,0,0,0,0
+策cè,"scheme, plan",0,0,0,0
+演yǎn,"perform, put on",0,0,0,0
+简jiǎn,"simple, terse, succinct, a letter",0,0,0,0
+卡kǎ,"card, punch card",0,0,0,0
+罪zuì,"crime, sin, vice",0,0,0,0
+判pàn,judge,0,0,0,0
+担dān,"carry, bear, undertake",0,0,0,0
+州zhōu,"administrative division, state",0,0,0,0
+静jìng,"quiet, still, motionless",0,0,0,0
+退tuì,"step back, retreat, withdraw",0,0,0,0
+既jì,already,0,0,0,0
+衣yī,"clothes, clothing",0,0,0,0
+您nín,,0,0,0,0
+宗zōng,"lineage, ancestry",0,0,0,0
+积jī,"accumulate, store up, amass",0,0,0,0
+余yú,"I, my, me",0,0,0,0
+痛tòng,"pain, ache",0,0,0,0
+检jiǎn,check,0,0,0,0
+差chà,to differ,0,0,0,0
+富fù,"abundant, ample",0,0,0,0
+灵líng,"spirit, soul",0,0,0,0
+协xié,be united,0,0,0,0
+角jiǎo,horn,0,0,0,0
+占zhàn,divine,0,0,0,0
+配pèi,"match, pair",0,0,0,0
+征zhēng,"invade, attack, conquer",0,0,0,0
+修xiū,study,0,0,0,0
+皮pí,"skin, hide, fur, feather",0,0,0,0
+挥huī,direct,0,0,0,0
+胜shèng,victory,0,0,0,0
+降jiàng,"descend, fall, drop",0,0,0,0
+阶jiē,"stairs, steps",0,0,0,0
+审shěn,"examine, investigate",0,0,0,0
+沉chén,"sink, submerge",0,0,0,0
+坚jiān,"hard, strong, firm",0,0,0,0
+善shàn,"good, virtuous, charitable, kind",0,0,0,0
+妈mā,"mother, mama",0,0,0,0
+刘liú,surname,0,0,0,0
+读dú,"read, study",0,0,0,0
+啊a,exclamatory particle,0,0,0,0
+超chāo,"jump over, leap over",0,0,0,0
+免miǎn,spare,0,0,0,0
+压yā,press,0,0,0,0
+银yín,silver,0,0,0,0
+买mǎi,"buy, purchase",0,0,0,0
+皇huáng,"royal, imperial",0,0,0,0
+养yǎng,"raise, rear, bring up",0,0,0,0
+伊yī,third person pronoun,0,0,0,0
+怀huái,"bosom, breast",0,0,0,0
+执zhí,hold in hand,0,0,0,0
+副fù,assist,0,0,0,0
+乱luàn,"confusion, state of chaos, revolt",0,0,0,0
+抗kàng,"resist, oppose, defy, reject",0,0,0,0
+犯fàn,"commit crime, violate",0,0,0,0
+追zhuī,"pursue, chase after",0,0,0,0
+帮bāng,"help, assist",0,0,0,0
+宣xuān,"declare, announce, proclaim",0,0,0,0
+佛fú,Buddha,0,0,0,0
+岁suì,year,0,0,0,0
+航háng,sail,0,0,0,0
+优yōu,"superior, excellent",0,0,0,0
+怪guài,"strange, unusual, peculiar",0,0,0,0
+香xiāng,"fragrant, sweet smelling, incense",0,0,0,0
+著zhe,manifest,0,0,0,0
+田tián,"field, arable land, cultivated",0,0,0,0
+铁tiě,iron,0,0,0,0
+控kòng,"accuse, charge",0,0,0,0
+税shuì,taxes,0,0,0,0
+左zuǒ,left,0,0,0,0
+右yòu,right,0,0,0,0
+份fèn,"portion, part",0,0,0,0
+穿chuān,"penetrate, pierce, drill",0,0,0,0
+艺yì,art,0,0,0,0
+背bèi,back,0,0,0,0
+阵zhèn,"column, row or file of troops",0,0,0,0
+草cǎo,"grass, straw, thatch, herbs",0,0,0,0
+脚jiǎo,"leg, foot",0,0,0,0
+概gài,"generally, approximately",0,0,0,0
+恶è,"evil, wicked, bad, foul",0,0,0,0
+块kuài,"piece, lump",0,0,0,0
+顿dùn,"pause, stop",0,0,0,0
+敢gǎn,"to dare, venture",0,0,0,0
+守shǒu,"defend, protect, guard, conserve",0,0,0,0
+酒jiǔ,"wine, spirits, liquor, alcoholic beverage",0,0,0,0
+岛dǎo,island,0,0,0,0
+托tuō,to hold up with palm,0,0,0,0
+央yāng,"center, conclude, run out",0,0,0,0
+户hù,door,0,0,0,0
+烈liè,"fiery, violent, vehement, ardent",0,0,0,0
+洋yáng,"ocean, sea",0,0,0,0
+哥gē,elder brother,0,0,0,0
+索suǒ,"large rope, cable",0,0,0,0
+胡hú,"recklessly, foolishly",0,0,0,0
+款kuǎn,"item, article",0,0,0,0
+靠kào,"lean on, trust, depend on",0,0,0,0
+评píng,"appraise, criticize, evaluate",0,0,0,0
+版bǎn,printing blocks,0,0,0,0
+宝bǎo,"treasure, jewel",0,0,0,0
+座zuò,seat,0,0,0,0
+释shì,"interprete, elucidate",0,0,0,0
+景jǐng,"scenery, view",0,0,0,0
+顾gù,look back,0,0,0,0
+弟dì,young brother,0,0,0,0
+登dēng,"rise, mount, board, climb",0,0,0,0
+货huò,"goods, commodities, products",0,0,0,0
+互hù,"mutually, reciprocally",0,0,0,0
+付fù,"give, deliver, pay, hand over",0,0,0,0
+伯bó,,0,0,0,0
+慢màn,"slow(ly), leisurely, sluggish",0,0,0,0
+欧ōu,translit.: Europe,0,0,0,0
+换huàn,change,0,0,0,0
+闻wén,hear,0,0,0,0
+危wēi,"dangerous, precarious",0,0,0,0
+忙máng,"busy, pressed for time",0,0,0,0
+核hé,"seed, kernel, core, nut",0,0,0,0
+暗àn,dark,0,0,0,0
+姐jiě,"elder sister, young lady",0,0,0,0
+介jiè,"forerunner, herald, harbinger",0,0,0,0
+坏huài,"rotten, spoilt, bad, broken down",0,0,0,0
+讨tǎo,to discuss,0,0,0,0
+丽lì,"beautiful, magnificent, elegant",0,0,0,0
+良liáng,"good, virtuous, respectable",0,0,0,0
+序xù,"series, serial order, sequence",0,0,0,0
+升shēng,"arise, go up",0,0,0,0
+监jiān,"supervise, control, direct",0,0,0,0
+临lín,"draw near, approach",0,0,0,0
+亮liàng,"bright, brilliant, radiant, light",0,0,0,0
+露lù,dew,0,0,0,0
+永yǒng,"long, perpetual, eternal, forever",0,0,0,0
+呼hū,"breathe sigh, exhale",0,0,0,0
+味wèi,"taste, smell, odor",0,0,0,0
+野yě,"open country, field",0,0,0,0
+架jià,"rack, stand, prop",0,0,0,0
+域yù,"district, region, boundary",0,0,0,0
+沙shā,"sand, gravel, pebbles",0,0,0,0
+掉diào,"turn, move",0,0,0,0
+括kuò,"include, embrace, enclose",0,0,0,0
+舰jiàn,warship,0,0,0,0
+鱼yú,fish,0,0,0,0
+杂zá,"mixed, blended",0,0,0,0
+误wù,"err, make mistake",0,0,0,0
+湾wān,"bay, cove, inlet, bend of stream",0,0,0,0
+吉jí,"lucky, propitious, good",0,0,0,0
+减jiǎn,"decrease, subtract, diminish",0,0,0,0
+编biān,"knit, weave",0,0,0,0
+楚chǔ,name of feudal state,0,0,0,0
+肯kěn,willing,0,0,0,0
+测cè,"measure, estimate, conjecture",0,0,0,0
+败bài,"be defeated, decline, fail",0,0,0,0
+屋wū,house,0,0,0,0
+跑pǎo,"run, flee, leave in hurry",0,0,0,0
+梦mèng,dream,0,0,0,0
+散sàn,"scatter, disperse, break up",0,0,0,0
+温wēn,lukewarm,0,0,0,0
+困kùn,"to surround, beseige",0,0,0,0
+剑jiàn,"sword, dagger, saber",0,0,0,0
+渐jiàn,gradually,0,0,0,0
+封fēng,"letter, envelope",0,0,0,0
+救jiù,"save, rescue, relieve",0,0,0,0
+贵guì,"expensive, costly, valuable",0,0,0,0
+枪qiāng,"spear, lance",0,0,0,0
+缺quē,"be short of, lack",0,0,0,0
+楼lóu,building of two or more stories,0,0,0,0
+县xiàn,"county, district, subdivision",0,0,0,0
+尚shàng,"still, yet",0,0,0,0
+毫háo,fine hair,0,0,0,0
+移yí,"change place, shift",0,0,0,0
+娘niáng,mother,0,0,0,0
+朋péng,"friend, pal, acquaintance",0,0,0,0
+画huà,"a painting, picture, drawing",0,0,0,0
+班bān,"class, group, grade",0,0,0,0
+智zhì,"wisdom, knowledge, intelligence",0,0,0,0
+亦yì,"also, too",0,0,0,0
+耳ěr,ear,0,0,0,0
+恩ēn,"kindness, mercy, charity",0,0,0,0
+短duǎn,short,0,0,0,0
+掌zhǎng,"palm of hand, sole of foot, paw",0,0,0,0
+恐kǒng,fear,0,0,0,0
+遗yí,lose,0,0,0,0
+固gù,"to become solid, solidify",0,0,0,0
+席xí,seat,0,0,0,0
+松sōng,pine tree,0,0,0,0
+秘mì,"secret, mysterious, abstruse",0,0,0,0
+谢xiè,thank,0,0,0,0
+鲁lǔ,"foolish, stupid, rash",0,0,0,0
+遇yù,"meet, come across, encounter",0,0,0,0
+康kāng,"peaceful, quiet",0,0,0,0
+虑lǜ,"be concerned, worry about",0,0,0,0
+幸xìng,"luck(ily), favor, fortunately",0,0,0,0
+均jūn,"equal, even, fair",0,0,0,0
+销xiāo,"melt, fuse",0,0,0,0
+钟zhōng,clock,0,0,0,0
+诗shī,poetry,0,0,0,0
+藏cáng,"hide, conceal",0,0,0,0
+赶gǎn,"pursue, follow",0,0,0,0
+剧jù,"theatrical plays, opera, drama",0,0,0,0
+票piào,slip of paper or bamboo,0,0,0,0
+损sǔn,diminish,0,0,0,0
+忽hū,"suddenly, abruptly",0,0,0,0
+巨jù,"large, great, enormous",0,0,0,0
+炮pào,"large gun, cannon",0,0,0,0
+旧jiù,"old, ancient",0,0,0,0
+端duān,"end, extreme",0,0,0,0
+探tàn,"find, locate",0,0,0,0
+湖hú,a lake,0,0,0,0
+录lù,"copy, write down, record",0,0,0,0
+叶yè,"to harmonize, to rhyme",0,0,0,0
+春chūn,spring,0,0,0,0
+乡xiāng,country,0,0,0,0
+附fù,"adhere to, append",0,0,0,0
+吸xī,"inhale, suck in",0,0,0,0
+予yǔ,"I, me",0,0,0,0
+礼lǐ,social custom,0,0,0,0
+港gǎng,"port, harbor",0,0,0,0
+雨yǔ,rain,0,0,0,0
+呀ya,particle used to express surprise or mild emphasis,0,0,0,0
+板bǎn,"plank, board",0,0,0,0
+庭tíng,courtyard,0,0,0,0
+妇fù,married women,0,0,0,0
+归guī,return,0,0,0,0
+睛jīng,eyeball,0,0,0,0
+饭fàn,cooked rice,0,0,0,0
+额é,forehead,0,0,0,0
+含hán,hold in mouth,0,0,0,0
+顺shùn,"obey, submit to, go along with",0,0,0,0
+输shū,"transport, carry, haul",0,0,0,0
+摇yáo,"wag, swing, wave",0,0,0,0
+招zhāo,"beckon, summon",0,0,0,0
+婚hūn,get married,0,0,0,0
+脱tuō,take off,0,0,0,0
+补bǔ,"mend, patch, fix, repair, restore",0,0,0,0
+谓wèi,"say, tell",0,0,0,0
+督dū,"supervise, oversee, direct",0,0,0,0
+毒dú,"poison, venom",0,0,0,0
+油yóu,"oil, fat, grease, lard",0,0,0,0
+疗liáo,"be healed, cured, recover",0,0,0,0
+旅lǚ,"trip, journey",0,0,0,0
+泽zé,"marsh, swamp",0,0,0,0
+材cái,"material, stuff",0,0,0,0
+灭miè,extinguish,0,0,0,0
+逐zhú,"chase, expel",0,0,0,0
+莫mò,"do not, is not, can not",0,0,0,0
+笔bǐ,writing brush,0,0,0,0
+亡wáng,"death, destroyed",0,0,0,0
+鲜xiān,fresh,0,0,0,0
+词cí,words,0,0,0,0
+圣shèng,"holy, sacred",0,0,0,0
+择zé,"select, choose, pick out",0,0,0,0
+寻xún,"seek, search, look for",0,0,0,0
+厂chǎng,"factory, workshop",0,0,0,0
+睡shuì,"sleep, doze",0,0,0,0
+博bó,"gamble, play games",0,0,0,0
+勒lēi,"strangle, tighten",0,0,0,0
+烟yān,"smoke, soot",0,0,0,0
+授shòu,"give to, transmit",0,0,0,0
+诺nuò,promise,0,0,0,0
+伦lún,normal human relationships,0,0,0,0
+岸àn,"bank, shore",0,0,0,0
+奥ào,"mysterious, obscure, profound",0,0,0,0
+唐táng,Tang dynasty,0,0,0,0
+卖mài,sell,0,0,0,0
+俄é,"sudden(ly), soon",0,0,0,0
+炸zhà,to fry in oil,0,0,0,0
+载zài,load,0,0,0,0
+洛luò,river in Shanxi province,0,0,0,0
+健jiàn,"strong, robust, healthy",0,0,0,0
+堂táng,hall,0,0,0,0
+旁páng,side,0,0,0,0
+宫gōng,palace,0,0,0,0
+喝hē,drink,0,0,0,0
+借jiè,borrow,0,0,0,0
+君jūn,"sovereign, monarch, ruler, chief, prince",0,0,0,0
+禁jìn,"restrict, prohibit, forbid",0,0,0,0
+阴yīn,,0,0,0,0
+园yuán,garden,0,0,0,0
+谋móu,"plan, scheme",0,0,0,0
+宋sòng,Song dynasty,0,0,0,0
+避bì,avoid,0,0,0,0
+抓zhuā,scratch,0,0,0,0
+荣róng,"glory, honor",0,0,0,0
+姑gū,,0,0,0,0
+孙sūn,"grandchild, descendent",0,0,0,0
+逃táo,"escape, flee",0,0,0,0
+牙yá,"tooth, molars, teeth",0,0,0,0
+束shù,"bind, control, restrain",0,0,0,0
+跳tiào,"jump, leap, vault, bounce",0,0,0,0
+顶dǐng,"top, summit, peak",0,0,0,0
+玉yù,"jade, precious stone, gem",0,0,0,0
+镇zhèn,"town, market place",0,0,0,0
+雪xuě,snow,0,0,0,0
+午wǔ,noon,0,0,0,0
+练liàn,"to practice, drill, exercise, train",0,0,0,0
+迫pò,"coerce, force, compel",0,0,0,0
+爷yé,"father, grandfather",0,0,0,0
+篇piān,"chapter, section, essay, article",0,0,0,0
+肉ròu,flesh,0,0,0,0
+嘴zuǐ,"mouth, lips",0,0,0,0
+馆guǎn,public building,0,0,0,0
+遍biàn,"everywhere, all over, throughout",0,0,0,0
+凡fán,"all, any, every",0,0,0,0
+础chǔ,"foundation stone, plinth",0,0,0,0
+洞dòng,"cave, grotto",0,0,0,0
+卷juǎn,scroll,0,0,0,0
+坦tǎn,"flat, smooth",0,0,0,0
+牛niú,"cow, ox, bull",0,0,0,0
+宁níng,"calm, peaceful, serene",0,0,0,0
+纸zhǐ,paper,0,0,0,0
+诸zhū,"various, all, these",0,0,0,0
+训xùn,"teach, instruct",0,0,0,0
+私sī,"private, personal",0,0,0,0
+庄zhuāng,"village, hamlet",0,0,0,0
+祖zǔ,"ancestor, forefather",0,0,0,0
+丝sī,silk,0,0,0,0
+翻fān,"flip over, upset, capsize",0,0,0,0
+暴bào,"violent, brutal, tyrannical",0,0,0,0
+森sēn,forest,0,0,0,0
+塔tǎ,"tower, spire, tall building",0,0,0,0
+默mò,silent,0,0,0,0
+握wò,"grasp, hold fast, take by hand",0,0,0,0
+戏xì,"theatrical play, show",0,0,0,0
+隐yǐn,"hide, conceal",0,0,0,0
+熟shú,well-cooked,0,0,0,0
+骨gǔ,bone,0,0,0,0
+访fǎng,visit,0,0,0,0
+弱ruò,weak,0,0,0,0
+蒙méng,cover,0,0,0,0
+歌gē,"song, lyrics",0,0,0,0
+店diàn,"shop, store",0,0,0,0
+鬼guǐ,ghost,0,0,0,0
+软ruǎn,"soft, flexible, pliable",0,0,0,0
+典diǎn,"law, canon",0,0,0,0
+欲yù,"desire, want, long for",0,0,0,0
+萨sà,Buddhist gods or immortals,0,0,0,0
+伙huǒ,"companion, colleague",0,0,0,0
+遭zāo,"come across, meet with, encounter",0,0,0,0
+盘pán,"tray, plate, dish",0,0,0,0
+爸bà,"father, papa",0,0,0,0
+扩kuò,"expand, enlarge, stretch",0,0,0,0
+盖gài,"cover, hide, protect",0,0,0,0
+弄nòng,"do, play or fiddle with",0,0,0,0
+雄xióng,male of species,0,0,0,0
+稳wěn,"stable, firm, solid, steady",0,0,0,0
+忘wàng,forget,0,0,0,0
+亿yì,hundred million,0,0,0,0
+刺cì,stab,0,0,0,0
+拥yōng,"embrace, hug, squeeze",0,0,0,0
+徒tú,"disciple, follower",0,0,0,0
+姆mǔ,,0,0,0,0
+杨yáng,"willow, poplar, aspen",0,0,0,0
+齐qí,"even, uniform, of equal length",0,0,0,0
+赛sài,"compete, contend",0,0,0,0
+趣qù,,0,0,0,0
+曲qū,"crooked, bent",0,0,0,0
+刀dāo,knife,0,0,0,0
+床chuáng,"bed, couch",0,0,0,0
+迎yíng,"receive, welcome, greet",0,0,0,0
+冰bīng,ice,0,0,0,0
+虚xū,FALSE,0,0,0,0
+玩wán,"play with, joke, enjoy",0,0,0,0
+析xī,split wood,0,0,0,0
+窗chuāng,window,0,0,0,0
+醒xǐng,wake up,0,0,0,0
+妻qī,wife,0,0,0,0
+透tòu,"penetrate, pass through",0,0,0,0
+购gòu,"buy, purchase",0,0,0,0
+替tì,"change, replace, substitute for",0,0,0,0
+塞sāi,"stop up, block, seal, cork",0,0,0,0
+努nǔ,"to exert, strive, make an effort",0,0,0,0
+休xiū,"rest, stop",0,0,0,0
+虎hǔ,tiger,0,0,0,0
+扬yáng,"scatter, spread",0,0,0,0
+途tú,"way, road, path, journey",0,0,0,0
+侵qīn,"invade, encroach upon, raid",0,0,0,0
+刑xíng,"punishment, penalty",0,0,0,0
+绿lǜ,green,0,0,0,0
+兄xiōng,elder brother,0,0,0,0
+迅xùn,"quick, hasty, rapid, sudden",0,0,0,0
+套tào,"case, cover, wrapper, envelope",0,0,0,0
+贸mào,"trade, barter",0,0,0,0
+毕bì,"end, finish, conclude",0,0,0,0
+唯wéi,only,0,0,0,0
+谷gǔ,"valley, gorge, ravine",0,0,0,0
+轮lún,wheel,0,0,0,0
+库kù,"armory, treasury, storehouse",0,0,0,0
+迹jī,"traces, impressions, footprints",0,0,0,0
+尤yóu,"especially, particularly",0,0,0,0
+竞jìng,"contend, vie, compete",0,0,0,0
+街jiē,"street, road, thoroughfare",0,0,0,0
+促cù,"urge, press, hurry",0,0,0,0
+延yán,"delay, postpone, defer",0,0,0,0
+震zhèn,"shake, quake, tremor",0,0,0,0
+弃qì,"reject, abandon, discard",0,0,0,0
+甲jiǎ,"armor, shell",0,0,0,0
+伟wěi,"great, robust",0,0,0,0
+麻má,"hemp, jute, flax",0,0,0,0
+川chuān,"stream, river",0,0,0,0
+申shēn,"to state to a superior, report",0,0,0,0
+缓huǎn,"slow, leisurely",0,0,0,0
+潜qián,hide,0,0,0,0
+闪shǎn,flash,0,0,0,0
+售shòu,sell,0,0,0,0
+灯dēng,"lantern, lamp",0,0,0,0
+针zhēn,needle,0,0,0,0
+哲zhé,"wise, sagacious",0,0,0,0
+络luò,"enmesh, wrap around",0,0,0,0
+抵dǐ,"resist, oppose",0,0,0,0
+朱zhū,"cinnabar, vermilion",0,0,0,0
+埃āi,"fine dust, dirt",0,0,0,0
+抱bào,"embrace, hold in arms, enfold",0,0,0,0
+鼓gǔ,drum,0,0,0,0
+植zhí,"plant, trees, plants",0,0,0,0
+纯chún,"pure, clean, simple",0,0,0,0
+夏xià,summer,0,0,0,0
+忍rěn,"endure, bear, suffer",0,0,0,0
+页yè,"page, sheet, leaf",0,0,0,0
+杰jié,hero,0,0,0,0
+筑zhù,ancient lute,0,0,0,0
+折zhé,"break off, snap",0,0,0,0
+郑zhèng,,0,0,0,0
+贝bèi,sea shell,0,0,0,0
+尊zūn,"respect, revere, venerate",0,0,0,0
+吴wú,name of warring state,0,0,0,0
+秀xiù,ear of grain,0,0,0,0
+混hùn,"to mix, blend, mingle",0,0,0,0
+臣chén,"minister, statesman, official",0,0,0,0
+雅yǎ,"elegant, graceful, refined",0,0,0,0
+振zhèn,"raise, excite, arouse action",0,0,0,0
+染rǎn,dye,0,0,0,0
+盛shèng,"abundant, flourishing",0,0,0,0
+怒nù,"anger, rage, passion",0,0,0,0
+舞wǔ,"dance, posture, prance",0,0,0,0
+圆yuán,circle,0,0,0,0
+搞gǎo,"to clear, clarify",0,0,0,0
+狂kuáng,"insane, mad",0,0,0,0
+措cuò,place,0,0,0,0
+姓xìng,,0,0,0,0
+残cán,"injure, spoil",0,0,0,0
+秋qiū,"autumn, fall",0,0,0,0
+培péi,bank up with dirt,0,0,0,0
+迷mí,"bewitch, charm, infatuate",0,0,0,0
+诚chéng,"sincere, honest",0,0,0,0
+宽kuān,"broad, wide",0,0,0,0
+宇yǔ,house,0,0,0,0
+猛měng,"violent, savage, cruel",0,0,0,0
+摆bǎi,"put, place",0,0,0,0
+梅méi,plums,0,0,0,0
+毁huǐ,destroy,0,0,0,0
+伸shēn,"extend, stretch out, open up",0,0,0,0
+摩mó,"rub, scour, grind",0,0,0,0
+盟méng,swear,0,0,0,0
+末mò,"final, last, end",0,0,0,0
+乃nǎi,then,0,0,0,0
+悲bēi,"sorrow, grief",0,0,0,0
+拍pāi,"clap, tap, beat",0,0,0,0
+丁dīng,male adult,0,0,0,0
+赵zhào,surname,0,0,0,0
+硬yìng,"hard, firm, strong",0,0,0,0
+麦mài,"wheat, barley, oats",0,0,0,0
+蒋jiǎng,surname,0,0,0,0
+操cāo,"conduct, run, control, manage",0,0,0,0
+耶yé,used in transliteration,0,0,0,0
+阻zǔ,"impede, hinder, obstruct",0,0,0,0
+订dìng,draw up agreement,0,0,0,0
+彩cǎi,"hue, color",0,0,0,0
+抽chōu,"draw out, pull out",0,0,0,0
+赞zàn,"help, support, assist, aid",0,0,0,0
+魔mó,"demon, evil spirits",0,0,0,0
+纷fēn,"in disorder, scattered, tangled",0,0,0,0
+沿yán,"follow a course, go along",0,0,0,0
+喊hǎn,"shout, call out, yell",0,0,0,0
+违wéi,"disobey, violate, defy",0,0,0,0
+妹mèi,younger sister,0,0,0,0
+浪làng,wave,0,0,0,0
+汇huì,concourse,0,0,0,0
+币bì,"currency, coins, legal tender",0,0,0,0
+丰fēng,"abundant, lush, bountiful, plenty",0,0,0,0
+蓝lán,blue,0,0,0,0
+殊shū,"different, special, unusual",0,0,0,0
+献xiàn,"offer, present",0,0,0,0
+桌zhuō,"table, desk, stand",0,0,0,0
+啦la,final particle of assertion,0,0,0,0
+瓦wǎ,tile,0,0,0,0
+莱lái,"goosefoot, weed",0,0,0,0
+援yuán,"aid, assist",0,0,0,0
+译yì,translate,0,0,0,0
+夺duó,"take by force, rob, snatch",0,0,0,0
+汽qì,"steam, vapor, gas",0,0,0,0
+烧shāo,burn,0,0,0,0
+距jù,,0,0,0,0
+裁cái,cut out,0,0,0,0
+偏piān,inclined one side,0,0,0,0
+符fú,"i.d. tag, tally, symbol, charm",0,0,0,0
+勇yǒng,"brave, courageous, fierce",0,0,0,0
+触chù,"butt, ram, gore",0,0,0,0
+课kè,lesson,0,0,0,0
+敬jìng,"respect, honor",0,0,0,0
+哭kū,"weep, cry, wail",0,0,0,0
+懂dǒng,"understand, comprehend",0,0,0,0
+墙qiáng,wall,0,0,0,0
+袭xí,"raid, attack",0,0,0,0
+召zhào,imperial decree,0,0,0,0
+罚fá,"penalty, fine",0,0,0,0
+侠xiá,chivalrous person,0,0,0,0
+厅tīng,"hall, central room",0,0,0,0
+拜bài,"do obeisance, bow, kowtow",0,0,0,0
+巧qiǎo,"skillful, ingenious, clever",0,0,0,0
+侧cè,side,0,0,0,0
+韩hán,fence,0,0,0,0
+冒mào,"risk, brave, dare",0,0,0,0
+债zhài,"debt, loan, liabilities",0,0,0,0
+曼màn,"long, extended, vast",0,0,0,0
+融róng,"melt, fuse",0,0,0,0
+惯guàn,"habit, custom",0,0,0,0
+享xiǎng,enjoy,0,0,0,0
+戴dài,wear on top,0,0,0,0
+童tóng,"child, boy, servant boy",0,0,0,0
+犹yóu,"like, similar to, just like, as",0,0,0,0
+乘chéng,"ride, ascend",0,0,0,0
+挂guà,"hang, suspend",0,0,0,0
+奖jiǎng,"prize, reward",0,0,0,0
+绍shào,"continue, carry on",0,0,0,0
+厚hòu,thick,0,0,0,0
+纵zòng,"indulge in, give free reign to",0,0,0,0
+障zhàng,separate,0,0,0,0
+讯xùn,inquire,0,0,0,0
+涉shè,"ford stream, wade across",0,0,0,0
+彻chè,"penetrate, pervade",0,0,0,0
+刊kān,"publication, periodical",0,0,0,0
+丈zhàng,unit of length equal 3.3 meters,0,0,0,0
+爆bào,"crackle, pop, burst, explode",0,0,0,0
+乌wū,"crow, rook, raven",0,0,0,0
+役yì,service,0,0,0,0
+描miáo,"copy, trace, sketch",0,0,0,0
+洗xǐ,"wash, rinse",0,0,0,0
+玛mǎ,agate,0,0,0,0
+患huàn,"suffer, worry about",0,0,0,0
+妙miào,"mysterious, subtle",0,0,0,0
+镜jìng,mirror,0,0,0,0
+唱chàng,"sing, chant, call",0,0,0,0
+烦fán,"bother, vex, trouble",0,0,0,0
+签qiān,"sign, endorse",0,0,0,0
+仙xiān,"Taoist super-being, transcendent, immortal",0,0,0,0
+彼bǐ,"that, there, those",0,0,0,0
+弗fú,"not, negative",0,0,0,0
+症zhèng,"disease, illness, ailment",0,0,0,0
+仿fǎng,"imitate, copy",0,0,0,0
+倾qīng,"upset, pour out, overflow",0,0,0,0
+牌pái,"signboard, placard",0,0,0,0
+陷xiàn,"submerge, sink, plunge",0,0,0,0
+鸟niǎo,bird,0,0,0,0
+轰hōng,"rumble, explosion, blast",0,0,0,0
+咱zán,"we, us",0,0,0,0
+菜cài,vegetables,0,0,0,0
+闭bì,"shut, close",0,0,0,0
+奋fèn,"strive, exert effort",0,0,0,0
+庆qìng,"congratulate, celebrate",0,0,0,0
+撤chè,omit,0,0,0,0
+泪lèi,tears,0,0,0,0
+茶chá,tea,0,0,0,0
+疾jí,"illness, disease, sickness",0,0,0,0
+缘yuán,"hem, margin",0,0,0,0
+播bō,"sow, spread",0,0,0,0
+朗lǎng,"clear, bright",0,0,0,0
+杜dù,"stop, prevent",0,0,0,0
+奶nǎi,,0,0,0,0
+季jì,quarter of year,0,0,0,0
+丹dān,cinnabar (native HgS),0,0,0,0
+狗gǒu,"dog, canis familiaris",0,0,0,0
+尾wěi,"tail, extremity",0,0,0,0
+仪yí,"ceremony, rites gifts",0,0,0,0
+偷tōu,"to steal, burglar, thief",0,0,0,0
+奔bēn,"run fast, flee",0,0,0,0
+珠zhū,"precious stone, gem, jewel, pearl",0,0,0,0
+虫chóng,"insects, worms",0,0,0,0
+驻zhù,"to be stationed at, reside at",0,0,0,0
+孔kǒng,"opening, hole, orifice",0,0,0,0
+宜yí,"suitable, right, fitting, proper",0,0,0,0
+艾ài,"artemisia, mugwort",0,0,0,0
+桥qiáo,bridge,0,0,0,0
+淡dàn,"weak, watery",0,0,0,0
+翼yì,wings,0,0,0,0
+恨hèn,"hatred, dislike",0,0,0,0
+繁fán,"complicated, complex, difficult",0,0,0,0
+寒hán,"cold, wintry, chilly",0,0,0,0
+伴bàn,"companion, comrade, partner",0,0,0,0
+叹tàn,"sigh, admire",0,0,0,0
+旦dàn,dawn,0,0,0,0
+愈yù,"more and more, even more",0,0,0,0
+潮cháo,tide,0,0,0,0
+粮liáng,"food, grain, provisions",0,0,0,0
+缩suō,"contract, draw in, reduce",0,0,0,0
+罢bà,"cease, finish, stop",0,0,0,0
+聚jù,"assemble, meet together, collect",0,0,0,0
+径jìng,narrow path,0,0,0,0
+恰qià,"just, exactly, precisely",0,0,0,0
+挑tiāo,a load carried on the shoulders,0,0,0,0
+袋dài,"pocket, bag, sack, pouch",0,0,0,0
+灰huī,ashes,0,0,0,0
+捕bǔ,"arrest, catch, seize",0,0,0,0
+徐xú,"slowly, quietly, calmly",0,0,0,0
+珍zhēn,"precious, valuable, rare",0,0,0,0
+幕mù,"curtain, screen, tent",0,0,0,0
+映yìng,project,0,0,0,0
+裂liè,"split, crack, break open",0,0,0,0
+泰tài,"great, exalted, superior",0,0,0,0
+隔gé,"separate, partition",0,0,0,0
+启qǐ,open,0,0,0,0
+尖jiān,"sharp, pointed, acute, keen",0,0,0,0
+忠zhōng,"loyalty, devotion, fidelity",0,0,0,0
+累lèi,tired,0,0,0,0
+炎yán,"flame, blaze",0,0,0,0
+暂zàn,temporary,0,0,0,0
+估gū,merchant,0,0,0,0
+泛fàn,"to drift, float",0,0,0,0
+荒huāng,"wasteland, desert",0,0,0,0
+偿cháng,"repay, recompense",0,0,0,0
+横héng,across,0,0,0,0
+拒jù,"ward off with hand, defend",0,0,0,0
+瑞ruì,felicitous omen,0,0,0,0
+忆yì,"remember, reflect upon",0,0,0,0
+孤gū,"orphan, fatherless",0,0,0,0
+鼻bí,nose,0,0,0,0
+闹nào,quarrel,0,0,0,0
+羊yáng,"sheep, goat",0,0,0,0
+呆dāi,dull,0,0,0,0
+厉lì,whetstone,0,0,0,0
+衡héng,"measure, weigh, judge, consider",0,0,0,0
+胞bāo,"womb, placenta, fetal membrane",0,0,0,0
+零líng,zero,0,0,0,0
+穷qióng,"poor, destitute, impoverished",0,0,0,0
+舍shě,"house, dwelling",0,0,0,0
+码mǎ,"number, numerals",0,0,0,0
+赫hè,"bright, radiant, glowing",0,0,0,0
+婆pó,old woman,0,0,0,0
+魂hún,"soul, spirit",0,0,0,0
+灾zāi,"calamity, disaster, catastrophe",0,0,0,0
+洪hóng,"vast, immense",0,0,0,0
+腿tuǐ,"legs, thighs",0,0,0,0
+胆dǎn,gall bladder,0,0,0,0
+津jīn,ferry,0,0,0,0
+俗sú,social customs,0,0,0,0
+辩biàn,"dispute, argue, debate, discuss",0,0,0,0
+胸xiōng,"breast, bosom, chest",0,0,0,0
+晓xiǎo,"dawn, daybreak",0,0,0,0
+劲jìn,"strong, unyielding, tough, power",0,0,0,0
+贫pín,"poor, impoverished, needy",0,0,0,0
+仁rén,"humaneness, benevolence, kindness",0,0,0,0
+偶ǒu,"accidentally, coincidently",0,0,0,0
+辑jí,"gather up, collect",0,0,0,0
+邦bāng,"nation, country, state",0,0,0,0
+恢huī,restore,0,0,0,0
+赖lài,"rely, depend on",0,0,0,0
+圈quān,to circle,0,0,0,0
+摸mō,gently touch with hand,0,0,0,0
+仰yǎng,raise the head to look,0,0,0,0
+润rùn,"soft, moist",0,0,0,0
+堆duī,"heap, pile, crowd",0,0,0,0
+碰pèng,"collide, bump into",0,0,0,0
+艇tǐng,"small boat, dugout, punt",0,0,0,0
+稍shāo,"little, slightly",0,0,0,0
+迟chí,"late, tardy",0,0,0,0
+辆liàng,numerary adjunct for vehicles,0,0,0,0
+废fèi,"abrogate, terminate, discard",0,0,0,0
+净jìng,"clean, pure",0,0,0,0
+凶xiōng,culprit,0,0,0,0
+署shǔ,public office,0,0,0,0
+壁bì,partition wall,0,0,0,0
+御yù,"drive, ride",0,0,0,0
+奉fèng,offer,0,0,0,0
+旋xuán,"revolve, move in orbit",0,0,0,0
+冬dōng,"winter, 11th lunar month",0,0,0,0
+矿kuàng,mine,0,0,0,0
+抬tái,"lift, carry",0,0,0,0
+蛋dàn,eggs,0,0,0,0
+晨chén,"early morning, daybreak",0,0,0,0
+伏fú,"crouch, crawl, lie hidden, conceal",0,0,0,0
+吹chuī,blow,0,0,0,0
+鸡jī,chicken,0,0,0,0
+倍bèi,"times, fold, multiple times",0,0,0,0
+糊hú,"paste, stick on with paste",0,0,0,0
+秦qín,,0,0,0,0
+盾dùn,"shield, shield-shaped object",0,0,0,0
+杯bēi,"cup, glass",0,0,0,0
+租zū,"rent, lease",0,0,0,0
+骑qí,ride horseback,0,0,0,0
+乏fá,lack,0,0,0,0
+隆lóng,"prosperous, plentiful, abundant",0,0,0,0
+诊zhěn,"examine patient, diagnose",0,0,0,0
+奴nú,"slave, servant",0,0,0,0
+摄shè,"take in, absorb",0,0,0,0
+丧sàng,mourning,0,0,0,0
+污wū,"filthy, dirty, impure, polluted",0,0,0,0
+渡dù,"cross, ferry over",0,0,0,0
+旗qí,"banner, flag, streamer",0,0,0,0
+甘gān,sweetness,0,0,0,0
+耐nài,"endure, bear",0,0,0,0
+凭píng,"lean on, depend on, rely on",0,0,0,0
+扎zhā,pull up,0,0,0,0
+抢qiǎng,"plunder, rob, take by force",0,0,0,0
+绪xù,end of thread,0,0,0,0
+粗cū,"rough, thick, course",0,0,0,0
+肩jiān,shoulders,0,0,0,0
+梁liáng,bridge,0,0,0,0
+幻huàn,"illusion, fantasy, mirage",0,0,0,0
+菲fēi,"fragrant, luxuriant",0,0,0,0
+皆jiē,"all, every, everybody",0,0,0,0
+碎suì,"break, smash",0,0,0,0
+宙zhòu,time as concept,0,0,0,0
+叔shū,,0,0,0,0
+岩yán,cliff,0,0,0,0
+荡dàng,"pond, pool",0,0,0,0
+综zōng,arrange threads for weaving,0,0,0,0
+爬pá,"crawl, creep",0,0,0,0
+荷hé,"lotus, water lily, holland",0,0,0,0
+悉xī,"know, learn about, comprehend",0,0,0,0
+蒂dì,peduncle or stem of plants,0,0,0,0
+返fǎn,"return, revert to, restore",0,0,0,0
+井jǐng,"well, mine shaft, pit",0,0,0,0
+壮zhuàng,"big, large",0,0,0,0
+薄báo,"thin, slight, weak",0,0,0,0
+悄qiāo,"silent, quiet, still",0,0,0,0
+扫sǎo,"sweep, clear away",0,0,0,0
+敏mǐn,"fast, quick, clever, smart",0,0,0,0
+碍ài,"obstruct, hinder, block, deter",0,0,0,0
+殖zhí,"breed, spawn",0,0,0,0
+详xiáng,"detailed, complete, thorough",0,0,0,0
+迪dí,"enlighten, advance",0,0,0,0
+矛máo,"spear, lance",0,0,0,0
+霍huò,"quickly, suddenly",0,0,0,0
+允yǔn,"to grant, to allow, to consent",0,0,0,0
+幅fú,"piece, strip, breadth of, hem",0,0,0,0
+撒sā,"release, cast away, let go",0,0,0,0
+剩shèng,"leftovers, residue, remains",0,0,0,0
+凯kǎi,triumphant,0,0,0,0
+颗kē,"grain, kernel",0,0,0,0
+骂mà,"accuse, blame, curse, scold",0,0,0,0
+赏shǎng,"reward, grant, bestow",0,0,0,0
+液yè,"sap, juice, liquid, fluid",0,0,0,0
+番fān,to take turns,0,0,0,0
+箱xiāng,"case, box, chest, trunk",0,0,0,0
+贴tiē,"paste to, stick on",0,0,0,0
+漫màn,overflow of water,0,0,0,0
+酸suān,"tart, sour",0,0,0,0
+郎láng,"gentleman, young man",0,0,0,0
+腰yāo,waist,0,0,0,0
+舒shū,"open up, unfold, stretch out",0,0,0,0
+眉méi,eyebrows,0,0,0,0
+忧yōu,"sad, grieved",0,0,0,0
+浮fú,"to float, drift, waft",0,0,0,0
+辛xīn,bitter,0,0,0,0
+恋liàn,love,0,0,0,0
+餐cān,"eat, dine",0,0,0,0
+吓xià,"scare, frighten",0,0,0,0
+挺tǐng,"to stand upright, straighten",0,0,0,0
+励lì,strive,0,0,0,0
+辞cí,"words, speech, expression, phrase",0,0,0,0
+艘sōu,"counter for ships, vessels",0,0,0,0
+键jiàn,"door bolt, lock bolt",0,0,0,0
+伍wǔ,"five, company of five",0,0,0,0
+峰fēng,"peak, summit",0,0,0,0
+尺chǐ,,0,0,0,0
+昨zuó,yesterday,0,0,0,0
+黎lí,surname,0,0,0,0
+辈bèi,"generation, lifetime",0,0,0,0
+贯guàn,a string of 1000 coins,0,0,0,0
+侦zhēn,"spy, reconnoiter",0,0,0,0
+滑huá,"slip, slide",0,0,0,0
+券quàn,"certificate, ticket",0,0,0,0
+崇chóng,"esteem, honor, revere, venerate",0,0,0,0
+扰rǎo,"disturb, annoy, agitate",0,0,0,0
+宪xiàn,"constitution, statute, law",0,0,0,0
+绕rào,entwine,0,0,0,0
+趋qū,"hasten, hurry",0,0,0,0
+慈cí,"kind, charitable, benevolent",0,0,0,0
+乔qiáo,"tall, lofty",0,0,0,0
+阅yuè,"examine, inspect, review, read",0,0,0,0
+汗hàn,"perspiration, sweat",0,0,0,0
+枝zhī,"branches, limbs",0,0,0,0
+拖tuō,"drag, tow, haul",0,0,0,0
+墨mò,ink,0,0,0,0
+胁xié,"ribs, armpits",0,0,0,0
+插chā,"insert, stick into",0,0,0,0
+箭jiàn,arrow,0,0,0,0
+腊là,year end sacrifice,0,0,0,0
+粉fěn,"powder, face powder",0,0,0,0
+泥ní,"mud, mire",0,0,0,0
+氏shì,"clan, family",0,0,0,0
+彭péng,name of ancient country,0,0,0,0
+拔bá,"uproot, pull out",0,0,0,0
+骗piàn,"swindle, cheat out of, defraud",0,0,0,0
+凤fèng,male phoenix,0,0,0,0
+慧huì,"bright, intelligent",0,0,0,0
+媒méi,"go-between, matchmaker",0,0,0,0
+佩pèi,"belt ornament, pendant",0,0,0,0
+愤fèn,"resent, hate",0,0,0,0
+扑pū,"pound, beat, strike",0,0,0,0
+龄líng,age,0,0,0,0
+驱qū,spur a horse on,0,0,0,0
+惜xī,"pity, regret, rue, begrudge",0,0,0,0
+豪háo,"brave, heroic, chivalrous",0,0,0,0
+掩yǎn,to cover (with the hand),0,0,0,0
+兼jiān,"unite, combine",0,0,0,0
+跃yuè,"skip, jump, frolic",0,0,0,0
+尸shī,corpse,0,0,0,0
+肃sù,pay respects,0,0,0,0
+帕pà,"turban, kerchief, veil",0,0,0,0
+驶shǐ,"sail, drive, pilot",0,0,0,0
+堡bǎo,"fort, fortress",0,0,0,0
+届jiè,"numerary adjunct for time, term",0,0,0,0
+欣xīn,"happy, joyous, delighted",0,0,0,0
+惠huì,"favor, benefit, confer kindness",0,0,0,0
+册cè,"book, volume, register, list",0,0,0,0
+储chǔ,"save money, store, reserve",0,0,0,0
+飘piāo,"whirlwind, cyclone",0,0,0,0
+桑sāng,mulberry tree,0,0,0,0
+闲xián,"fence, guard",0,0,0,0
+惨cǎn,"sad, pitiful, wretched",0,0,0,0
+洁jié,"clean, purify, pure",0,0,0,0
+踪zōng,"footprints, traces, tracks",0,0,0,0
+勃bó,"suddenly, sudden, quick",0,0,0,0
+宾bīn,"guest, visitor",0,0,0,0
+频pín,"frequently, again and again",0,0,0,0
+仇chóu,"enemy, hate, hatred, enmity",0,0,0,0
+磨mó,grind,0,0,0,0
+递dì,"hand over, deliver",0,0,0,0
+邪xié,"wrong, evil, depraved, vicious, perverse, heterodox",0,0,0,0
+撞zhuàng,"knock against, bump into, collide",0,0,0,0
+拟nǐ,draft,0,0,0,0
+滚gǔn,turn,0,0,0,0
+奏zòu,memorialize emperor,0,0,0,0
+巡xún,"patrol, go on circuit, cruise",0,0,0,0
+颜yán,"face, facial appearance",0,0,0,0
+剂jì,medicinal preparation,0,0,0,0
+绩jī,spin,0,0,0,0
+贡gòng,offer tribute,0,0,0,0
+疯fēng,"crazy, insane, mentally ill",0,0,0,0
+坡pō,"slope, bank, hillside",0,0,0,0
+瞧qiáo,"glance at, look at, see",0,0,0,0
+截jié,"cut off, stop, obstruct, intersect",0,0,0,0
+燃rán,burn,0,0,0,0
+焦jiāo,"burned, scorched",0,0,0,0
+殿diàn,hall,0,0,0,0
+伪wěi,"false, counterfeit, bogus",0,0,0,0
+柳liǔ,willow tree,0,0,0,0
+锁suǒ,"lock, padlock",0,0,0,0
+逼bī,"compel, pressure, force",0,0,0,0
+颇pō,lean one side,0,0,0,0
+昏hūn,"dusk, nightfall, twilight, dark",0,0,0,0
+劝quàn,"recommend, advise, urge",0,0,0,0
+呈chéng,"submit, show",0,0,0,0
+搜sōu,"search, seek",0,0,0,0
+勤qín,"industrious, diligent, attentive",0,0,0,0
+戒jiè,"warn, caution, admonish",0,0,0,0
+驾jià,"to drive, sail, fly",0,0,0,0
+漂piào,"float, drift",0,0,0,0
+饮yǐn,drink,0,0,0,0
+曹cáo,ministry officials,0,0,0,0
+朵duǒ,cluster of flowers,0,0,0,0
+仔zǐ,"small thing, child",0,0,0,0
+柔róu,soft,0,0,0,0
+俩liǎ,"two, pair",0,0,0,0
+孟mèng,first in series,0,0,0,0
+腐fǔ,"rot, decay, spoil",0,0,0,0
+幼yòu,"infant, young child",0,0,0,0
+践jiàn,"trample, tread upon, walk on",0,0,0,0
+籍jí,"record, register, list",0,0,0,0
+牧mù,"tend cattle, shepherd",0,0,0,0
+凉liáng,"cool, cold",0,0,0,0
+牲shēng,sacrificial animal,0,0,0,0
+佳jiā,"good, auspicious",0,0,0,0
+娜nà,"elegant, graceful, delicate",0,0,0,0
+浓nóng,"thick, strong, concentrated",0,0,0,0
+芳fāng,fragrant,0,0,0,0
+稿gǎo,"draft, manuscript, rough copy",0,0,0,0
+竹zhú,bamboo,0,0,0,0
+腹fù,"stomach, belly, abdomen",0,0,0,0
+跌diē,"stumble, slip, fall down",0,0,0,0
+逻luó,patrol,0,0,0,0
+垂chuí,let down,0,0,0,0
+遵zūn,"obey, comply with, follow",0,0,0,0
+脉mài,"blood vessels, veins, arteries",0,0,0,0
+貌mào,"countenance, appearance",0,0,0,0
+柏bǎi,"cypress, cedar",0,0,0,0
+狱yù,"prison, jail",0,0,0,0
+猜cāi,"guess, conjecture, suppose",0,0,0,0
+怜lián,"pity, sympathize",0,0,0,0
+惑huò,"confuse, mislead, baffle",0,0,0,0
+陶táo,"pottery, ceramics",0,0,0,0
+兽shòu,"beast, animal",0,0,0,0
+帐zhàng,tent,0,0,0,0
+饰shì,"decorate, ornament, adorn",0,0,0,0
+贷dài,lend,0,0,0,0
+昌chāng,light of sun,0,0,0,0
+叙xù,"express, state, relate, narrate",0,0,0,0
+躺tǎng,"lie down, recline",0,0,0,0
+钢gāng,steel,0,0,0,0
+沟gōu,"ditch, drain, narrow waterway",0,0,0,0
+寄jì,"send, transmit, mail",0,0,0,0
+扶fú,"support, help",0,0,0,0
+铺pù,"shop, store",0,0,0,0
+邓dèng,surname,0,0,0,0
+寿shòu,"old age, long life",0,0,0,0
+惧jù,"fear, be afraid of, dread",0,0,0,0
+询xún,"inquire into, ask about",0,0,0,0
+汤tāng,hot water,0,0,0,0
+盗dào,"rob, steal",0,0,0,0
+肥féi,"fat, plump, obese",0,0,0,0
+尝cháng,taste,0,0,0,0
+匆cōng,"hastily, in haste, hurriedly",0,0,0,0
+辉huī,"brightness, luster, brilliance",0,0,0,0
+奈nài,"but, how",0,0,0,0
+扣kòu,"knock, strike, rap, tap",0,0,0,0
+廷tíng,court,0,0,0,0
+澳ào,"inlet, bay",0,0,0,0
+嘛ma,final exclamatory particle,0,0,0,0
+董dǒng,"direct, supervise",0,0,0,0
+迁qiān,"move, shift, change",0,0,0,0
+凝níng,coagulate,0,0,0,0
+慰wèi,"comfort, console, calm",0,0,0,0
+厌yàn,"dislike, detest, reject",0,0,0,0
+脏zàng,"internal organs, viscera",0,0,0,0
+腾téng,fly,0,0,0,0
+幽yōu,"quiet, secluded, tranquil",0,0,0,0
+怨yuàn,"hatred, enmity, resentment",0,0,0,0
+鞋xié,"shoes, footwear in general",0,0,0,0
+丢diū,discard,0,0,0,0
+埋mái,"bury, secrete, conceal",0,0,0,0
+泉quán,"spring, fountain",0,0,0,0
+涌yǒng,"surge up, bubble up, gush forth",0,0,0,0
+辖xiá,linchpin of wheel,0,0,0,0
+躲duǒ,"hide, secrete",0,0,0,0
+晋jìn,"advance, increase",0,0,0,0
+紫zǐ,"purple, violet",0,0,0,0
+艰jiān,"difficult, hard",0,0,0,0
+魏wèi,kingdom of Wei,0,0,0,0
+吾wú,"i, my, our",0,0,0,0
+慌huāng,"nervous, panicky, frantic",0,0,0,0
+祝zhù,pray for happiness or blessings,0,0,0,0
+邮yóu,"postal, mail",0,0,0,0
+吐tǔ,"vomit, spew out, cough up",0,0,0,0
+狠hěn,"vicious, cruel",0,0,0,0
+鉴jiàn,"mirror, looking glass",0,0,0,0
+曰yuē,say,0,0,0,0
+械xiè,weapons,0,0,0,0
+咬yǎo,"bite, gnaw",0,0,0,0
+邻lín,neighbor,0,0,0,0
+赤chì,,0,0,0,0
+挤jǐ,"crowd, squeeze, push against",0,0,0,0
+弯wān,"bend, curve",0,0,0,0
+椅yǐ,"chair, seat",0,0,0,0
+陪péi,"accompany, be with, keep company",0,0,0,0
+割gē,"cut, divide, partition",0,0,0,0
+揭jiē,"raise, lift up",0,0,0,0
+韦wéi,tanned leather,0,0,0,0
+悟wù,"to apprehend, realize, become aware",0,0,0,0
+聪cōng,"intelligent, clever, bright",0,0,0,0
+雾wù,"fog, mist, vapor, fine spray",0,0,0,0
+锋fēng,"point of spear, sharp point",0,0,0,0
+梯tī,"ladder, steps, stairs",0,0,0,0
+猫māo,cat,0,0,0,0
+祥xiáng,"good luck, good omen",0,0,0,0
+阔kuò,"broad, ample, wide",0,0,0,0
+誉yù,"fame, reputation",0,0,0,0
+筹chóu,"chip, tally, token",0,0,0,0
+丛cóng,"bush, shrub",0,0,0,0
+牵qiān,"drag, pull, lead by hand",0,0,0,0
+鸣míng,cry of bird or animal,0,0,0,0
+沈chén,"sink, submerge",0,0,0,0
+阁gé,"chamber, pavilion",0,0,0,0
+穆mù,"majestic, solemn, reverent",0,0,0,0
+屈qū,"bend, flex",0,0,0,0
+旨zhǐ,"purpose, aim",0,0,0,0
+袖xiù,sleeve,0,0,0,0
+猎liè,hunt,0,0,0,0
+臂bì,arm,0,0,0,0
+蛇shé,snake,0,0,0,0
+贺hè,congratulate,0,0,0,0
+柱zhù,"pillar, post",0,0,0,0
+抛pāo,throw (away),0,0,0,0
+鼠shǔ,"rat, mouse",0,0,0,0
+瑟sè,large stringed musical instrument,0,0,0,0
+戈gē,"halberd, spear, lance",0,0,0,0
+牢láo,prison,0,0,0,0
+逊xùn,"humble, modest",0,0,0,0
+迈mài,take a big stride,0,0,0,0
+欺qī,"cheat, double-cross, deceive",0,0,0,0
+吨dūn,metric ton,0,0,0,0
+琴qín,Chinese lute or guitar,0,0,0,0
+衰shuāi,"decline, falter, decrease",0,0,0,0
+瓶píng,"jug, pitcher, vase, jar, bottle",0,0,0,0
+恼nǎo,"angered, filled with hate",0,0,0,0
+燕yàn,swallow (bird),0,0,0,0
+仲zhòng,middle brother,0,0,0,0
+诱yòu,"persuade, entice, induce",0,0,0,0
+狼láng,wolf,0,0,0,0
+池chí,"pool, pond",0,0,0,0
+疼téng,"aches, pains",0,0,0,0
+卢lú,"cottage, hut",0,0,0,0
+仗zhàng,rely upon,0,0,0,0
+冠guān,"cap, crown, headgear",0,0,0,0
+粒lì,grain,0,0,0,0
+遥yáo,"far away, distant, remote",0,0,0,0
+吕lǚ,surname,0,0,0,0
+玄xuán,"deep, profound, abstruse",0,0,0,0
+尘chén,"dust, dirt, ashes, cinders",0,0,0,0
+冯féng,surname,0,0,0,0
+抚fǔ,"pat, console, comfort",0,0,0,0
+浅qiǎn,"shallow, not deep",0,0,0,0
+敦dūn,esteem,0,0,0,0
+纠jiū,"investigate, inspect",0,0,0,0
+钻zuān,"drill, bore",0,0,0,0
+晶jīng,crystal,0,0,0,0
+岂qǐ,how? what?,0,0,0,0
+峡xiá,"gorge, strait, ravine",0,0,0,0
+苍cāng,blue,0,0,0,0
+喷pēn,"spurt, blow out, puff out",0,0,0,0
+耗hào,"consume, use up",0,0,0,0
+凌líng,pure,0,0,0,0
+敲qiāo,"strike, beat, pound, hammer",0,0,0,0
+菌jūn,mushroom,0,0,0,0
+赔péi,"indemnify, suffer loss",0,0,0,0
+涂tú,surname,0,0,0,0
+粹cuì,pure,0,0,0,0
+扁biǎn,flat,0,0,0,0
+亏kuī,"lose, fail",0,0,0,0
+寂jì,"still, silent, quiet, desolate",0,0,0,0
+煤méi,"coal, coke, charcoal, carbon",0,0,0,0
+熊xióng,a bear,0,0,0,0
+恭gōng,"respectful, polite, reverent",0,0,0,0
+湿shī,"wet, moist, humid, damp",0,0,0,0
+循xún,"obey, comply with, follow",0,0,0,0
+暖nuǎn,"warm, genial",0,0,0,0
+糖táng,sugar,0,0,0,0
+赋fù,tax,0,0,0,0
+抑yì,"press down, repress",0,0,0,0
+秩zhì,order,0,0,0,0
+帽mào,"hat, cap",0,0,0,0
+哀āi,"sad, mournful, pitiful",0,0,0,0
+宿sù,"stop, rest, lodge, stay overnight",0,0,0,0
+踏tà,"step on, trample, tread on, walk",0,0,0,0
+烂làn,"rotten, spoiled, decayed",0,0,0,0
+袁yuán,robe,0,0,0,0
+侯hóu,"marquis, lord",0,0,0,0
+抖dǒu,"tremble, shake, rouse",0,0,0,0
+夹jiā,be wedged or inserted between,0,0,0,0
+昆kūn,elder brother,0,0,0,0
+肝gān,liver,0,0,0,0
+擦cā,"wipe, scrub, rub, scour",0,0,0,0
+猪zhū,"pig, hog, wild boar",0,0,0,0
+炼liàn,"smelt, refine",0,0,0,0
+恒héng,"constant, regular, persistent",0,0,0,0
+慎shèn,"act with care, be cautious",0,0,0,0
+搬bān,"transfer, move, remove, shift",0,0,0,0
+纽niǔ,knot,0,0,0,0
+纹wén,"line, streak, stripe",0,0,0,0
+玻bō,glass,0,0,0,0
+渔yú,to fish,0,0,0,0
+磁cí,magnetic,0,0,0,0
+铜tóng,"copper, brass, bronze",0,0,0,0
+齿chǐ,teeth,0,0,0,0
+跨kuà,"straddle, bestride, ride",0,0,0,0
+押yā,"mortgage, pledge",0,0,0,0
+怖bù,"terror, fear",0,0,0,0
+漠mò,desert,0,0,0,0
+疲pí,"feel tired, be exhausted",0,0,0,0
+叛pàn,rebel,0,0,0,0
+遣qiǎn,"send, dispatch",0,0,0,0
+兹zī,"now, here",0,0,0,0
+祭jì,"sacrifice to, worship",0,0,0,0
+醉zuì,"intoxicated, drunk",0,0,0,0
+拳quán,fist,0,0,0,0
+弥mí,"extensive, full",0,0,0,0
+斜xié,"slanting, sloping, inclined",0,0,0,0
+档dàng,shelf,0,0,0,0
+稀xī,"rare, unusual, scarce",0,0,0,0
+捷jié,"win, victory, triumph",0,0,0,0
+肤fū,skin,0,0,0,0
+疫yì,"epidemic, plague, pestilence",0,0,0,0
+肿zhǒng,swell,0,0,0,0
+豆dòu,"beans, peas",0,0,0,0
+削xuē,"scrape off, pare, trim",0,0,0,0
+岗gǎng,post,0,0,0,0
+晃huǎng,"bright, dazzling",0,0,0,0
+吞tūn,swallow,0,0,0,0
+宏hóng,"wide, spacious, great, vast",0,0,0,0
+癌ái,cancer,0,0,0,0
+肚dù,belly,0,0,0,0
+隶lì,subservient,0,0,0,0
+履lǚ,"footwear, shoes",0,0,0,0
+涨zhǎng,rise in price,0,0,0,0
+耀yào,"shine, sparkle, dazzle",0,0,0,0
+扭niǔ,"turn, twist, wrench",0,0,0,0
+坛tán,altar,0,0,0,0
+拨bō,move,0,0,0,0
+沃wò,"water, irrigate",0,0,0,0
+绘huì,"draw, sketch, paint",0,0,0,0
+伐fá,"cut down, subjugate, attack",0,0,0,0
+堪kān,"adequately capable of, worthy of",0,0,0,0
+仆pū,fall forward,0,0,0,0
+郭guō,outer part (of a city),0,0,0,0
+牺xī,"sacrifice, give up",0,0,0,0
+歼jiān,"annihilate, wipe out, kill off",0,0,0,0
+墓mù,"grave, tomb",0,0,0,0
+雇gù,"employ, to hire",0,0,0,0
+廉lián,"upright, honorable, honest",0,0,0,0
+契qì,"deed, contract, bond",0,0,0,0
+拼pīn,"join together, link, incorporate",0,0,0,0
+惩chéng,"punish, reprimand",0,0,0,0
+捉zhuō,"grasp, clutch",0,0,0,0
+覆fù,cover,0,0,0,0
+刷shuā,brush,0,0,0,0
+劫jié,"take by force, coerce",0,0,0,0
+嫌xián,"hate, detest",0,0,0,0
+瓜guā,"melon, gourd, cucumber",0,0,0,0
+歇xiē,"rest, stop, lodge",0,0,0,0
+雕diāo,"engrave, inlay, carve",0,0,0,0
+闷mèn,"gloomy, depressed, melancholy",0,0,0,0
+乳rǔ,"breast, nipples",0,0,0,0
+串chuàn,string,0,0,0,0
+娃wá,baby,0,0,0,0
+缴jiǎo,"deliver, submit",0,0,0,0
+唤huàn,call,0,0,0,0
+赢yíng,win,0,0,0,0
+莲lián,"lotus, water lily",0,0,0,0
+霸bà,rule by might rather than right,0,0,0,0
+桃táo,peach,0,0,0,0
+妥tuǒ,"satisfactory, appropriate",0,0,0,0
+瘦shòu,"thin, emaciated, lean",0,0,0,0
+搭dā,"join together, attach to",0,0,0,0
+赴fù,go to,0,0,0,0
+岳yuè,mountain peak,0,0,0,0
+嘉jiā,excellent,0,0,0,0
+舱cāng,hold of ship,0,0,0,0
+俊jùn,"talented, capable",0,0,0,0
+址zhǐ,"site, location, land for house",0,0,0,0
+庞páng,"disorderly, messy",0,0,0,0
+耕gēng,"plow, cultivate",0,0,0,0
+锐ruì,"sharp, keen, acute, pointed",0,0,0,0
+缝fèng,"sew, mend",0,0,0,0
+悔huǐ,"repent, show remorse, regret",0,0,0,0
+邀yāo,"invite, welcome",0,0,0,0
+玲líng,tinkling of jade,0,0,0,0
+惟wéi,"but, however, nevertheless",0,0,0,0
+斥chì,"to scold, upbraid, accuse, reproach",0,0,0,0
+宅zhái,"residence, dwelling, home",0,0,0,0
+添tiān,"append, add to",0,0,0,0
+挖wā,"dig, dig out, gouge out, scoop",0,0,0,0
+呵ā,scold,0,0,0,0
+讼sòng,accuse,0,0,0,0
+氧yǎng,oxygen,0,0,0,0
+浩hào,"great, numerous, vast, abundant",0,0,0,0
+羽yǔ,"feather, plume",0,0,0,0
+斤jīn,a catty (approximately 500 g),0,0,0,0
+酷kù,"strong, stimulating",0,0,0,0
+掠lüè,"rob, ransack, plunder",0,0,0,0
+妖yāo,"strange, weird, supernatural",0,0,0,0
+祸huò,"misfortune, calamity, disaster",0,0,0,0
+侍shì,"serve, attend upon",0,0,0,0
+乙yǐ,second,0,0,0,0
+妨fáng,"interfere with, impede, obstruct",0,0,0,0
+贪tān,"be greedy, covet",0,0,0,0
+挣zhēng,"strive, endeavor, struggle",0,0,0,0
+汪wāng,"vast, extensive, deep",0,0,0,0
+尿niào,urine,0,0,0,0
+莉lì,white jasmine,0,0,0,0
+悬xuán,"hang, suspend, hoist",0,0,0,0
+唇chún,lips,0,0,0,0
+翰hàn,"writing brush, pen, pencil",0,0,0,0
+仓cāng,granary,0,0,0,0
+轨guǐ,"track, rut, path",0,0,0,0
+枚méi,"stalk of shrub, trunk of tree",0,0,0,0
+盐yán,salt,0,0,0,0
+览lǎn,"look at, inspect",0,0,0,0
+傅fù,"tutor, teacher",0,0,0,0
+帅shuài,"commander, commander-in-chief",0,0,0,0
+庙miào,"temple, shrine",0,0,0,0
+芬fēn,"fragrance, aroma",0,0,0,0
+屏píng,"folding screen, shield",0,0,0,0
+寺sì,"court, office",0,0,0,0
+胖pàng,"fat, obese",0,0,0,0
+璃lí,glass,0,0,0,0
+愚yú,"stupid, doltish, foolish",0,0,0,0
+滴dī,drip,0,0,0,0
+疏shū,neglect,0,0,0,0
+萧xiāo,common artemisia,0,0,0,0
+姿zī,,0,0,0,0
+颤chàn,"shiver, tremble",0,0,0,0
+丑chǒu,"clown, comedian",0,0,0,0
+劣liè,"bad, inferior",0,0,0,0
+柯kē,axe-handle,0,0,0,0
+寸cùn,inch,0,0,0,0
+扔rēng,"throw, hurl",0,0,0,0
+盯dīng,"rivet gaze upon, keep eyes on",0,0,0,0
+辱rǔ,"humiliate, insult, abuse",0,0,0,0
+匹pǐ,bolt of cloth,0,0,0,0
+俱jù,"all, together",0,0,0,0
+辨biàn,"distinguish, discriminate",0,0,0,0
+饿è,hungry,0,0,0,0
+蜂fēng,"bee, wasp, hornet",0,0,0,0
+哦ó,oh? really? is that so?,0,0,0,0
+腔qiāng,chest cavity,0,0,0,0
+郁yù,"sweet smelling, rich in aroma",0,0,0,0
+溃kuì,flooding river,0,0,0,0
+谨jǐn,"prudent, cautious",0,0,0,0
+糟zāo,"sediment, dregs",0,0,0,0
+葛gé,edible bean,0,0,0,0
+苗miáo,sprouts,0,0,0,0
+肠cháng,intestines,0,0,0,0
+忌jì,"jealous, envious",0,0,0,0
+溜liū,"slide, glide, slip",0,0,0,0
+鸿hóng,species of wild swan,0,0,0,0
+爵jué,feudal title or rank,0,0,0,0
+鹏péng,fabulous bird of enormous size,0,0,0,0
+鹰yīng,falcon,0,0,0,0
+笼lóng,cage,0,0,0,0
+丘qiū,hill,0,0,0,0
+桂guì,cassia or cinnamon,0,0,0,0
+滋zī,"grow, multiply, increase",0,0,0,0
+聊liáo,"somewhat, slightly, at least",0,0,0,0
+挡dǎng,"obstruct, impede",0,0,0,0
+纲gāng,"heavy rope, hawser",0,0,0,0
+肌jī,muscle tissue,0,0,0,0
+茨cí,thatching,0,0,0,0
+壳ké,"casing, shell, husk",0,0,0,0
+痕hén,scar,0,0,0,0
+碗wǎn,"bowl, small dish",0,0,0,0
+穴xué,"cave, den, hole",0,0,0,0
+膀bǎng,upper arm,0,0,0,0
+卓zhuō,"profound, brilliant, lofty",0,0,0,0
+贤xián,"virtuous, worthy, good",0,0,0,0
+卧wò,lie down,0,0,0,0
+膜mó,membrane,0,0,0,0
+毅yì,"resolute, decisive, firm, persist",0,0,0,0
+锦jǐn,"brocade, tapestry",0,0,0,0
+欠qiàn,"owe, lack, be deficient",0,0,0,0
+哩lī,mile,0,0,0,0
+函hán,correspondence,0,0,0,0
+茫máng,"vast, boundless, widespread",0,0,0,0
+昂áng,"rise, raise",0,0,0,0
+薛xuē,kind of marsh grass,0,0,0,0
+皱zhòu,"wrinkles, creases, folds",0,0,0,0
+夸kuā,"extravagant, luxurious",0,0,0,0
+豫yù,"relaxed, comfortable, at ease",0,0,0,0
+胃wèi,stomach,0,0,0,0
+舌shé,tongue,0,0,0,0
+剥bō,peel,0,0,0,0
+傲ào,"proud, haughty, overbearing",0,0,0,0
+拾shí,"pick up, collect, tidy up",0,0,0,0
+窝wō,nest,0,0,0,0
+睁zhēng,open eyes,0,0,0,0
+携xié,"lead by hand, take with",0,0,0,0
+陵líng,"hill, mound",0,0,0,0
+哼hēng,hum,0,0,0,0
+棉mián,cotton,0,0,0,0
+晴qíng,"clear weather, fine weather",0,0,0,0
+铃líng,bell,0,0,0,0
+填tián,"fill in, fill up",0,0,0,0
+饲sì,raise animals,0,0,0,0
+渴kě,"thirsty, parched",0,0,0,0
+吻wěn,kiss,0,0,0,0
+扮bàn,dress up,0,0,0,0
+逆nì,"disobey, rebel",0,0,0,0
+脆cuì,crisp,0,0,0,0
+喘chuǎn,"pant, gasp, breathe heavily",0,0,0,0
+罩zhào,basket for catching fish,0,0,0,0
+卜bo,fortune telling,0,0,0,0
+炉lú,"fireplace, stove, oven, furnace",0,0,0,0
+柴chái,"firewood, faggots, fuel",0,0,0,0
+愉yú,"pleasant, delightful",0,0,0,0
+绳shéng,"rope, string, cord",0,0,0,0
+胎tāi,"unborn child, embryo, fetus",0,0,0,0
+蓄xù,"store, save, hoard, gather",0,0,0,0
+眠mián,"close eyes, sleep",0,0,0,0
+竭jié,put forth great effort,0,0,0,0
+喂wèi,interjection to call attention,0,0,0,0
+傻shǎ,"foolish, silly, stupid",0,0,0,0
+慕mù,"long for, desire",0,0,0,0
+浑hún,"muddy, turbid",0,0,0,0
+奸jiān,"crafty, villainous, false",0,0,0,0
+扇shàn,fan,0,0,0,0
+柜guì,"cabinet, cupboard",0,0,0,0
+悦yuè,"pleased, contented, gratified",0,0,0,0
+拦lán,"obstruct, impede, bar, hinder",0,0,0,0
+诞dàn,"bear children, give birth",0,0,0,0
+饱bǎo,,0,0,0,0
+乾gān,dry,0,0,0,0
+泡pào,"bubbles, suds",0,0,0,0
+贼zéi,"thief, traitor",0,0,0,0
+亭tíng,pavilion,0,0,0,0
+夕xī,"evening, night, dusk",0,0,0,0
+爹diē,"father, daddy",0,0,0,0
+酬chóu,toast,0,0,0,0
+儒rú,Confucian scholar,0,0,0,0
+姻yīn,relatives by marriage,0,0,0,0
+卵luǎn,egg,0,0,0,0
+氛fēn,"gas, vapor, air",0,0,0,0
+泄xiè,leak,0,0,0,0
+杆gān,pole,0,0,0,0
+挨āi,"near, close by, next to, towards, against",0,0,0,0
+僧sēng,"Buddhist priest, monk",0,0,0,0
+蜜mì,honey,0,0,0,0
+吟yín,"sing, hum",0,0,0,0
+猩xīng,species of orangutan,0,0,0,0
+遂suì,"comply with, follow along",0,0,0,0
+狭xiá,"narrow, limited",0,0,0,0
+肖xiào,"look like, resemble, be like",0,0,0,0
+甜tián,"sweet, sweetness",0,0,0,0
+霞xiá,rosy clouds,0,0,0,0
+驳bó,"varicolored, variegated",0,0,0,0
+裕yù,"abundant, rich, plentiful",0,0,0,0
+顽wán,"obstinate, stubborn",0,0,0,0
+於yú,"in, at, on",0,0,0,0
+摘zhāi,"pluck, pick",0,0,0,0
+矮ǎi,"short, dwarf",0,0,0,0
+秒miǎo,beard of grain or corn,0,0,0,0
+卿qīng,"noble, high officer",0,0,0,0
+畜chù,"livestock, domestic animals",0,0,0,0
+咽yàn,throat,0,0,0,0
+披pī,wear,0,0,0,0
+辅fǔ,cheek bone,0,0,0,0
+勾gōu,"hook, join, connect",0,0,0,0
+盆pén,"basin, tub, pot, bowl",0,0,0,0
+疆jiāng,"boundary, border, frontier",0,0,0,0
+赌dǔ,"bet, gamble, wager",0,0,0,0
+塑sù,"model in clay, sculpt",0,0,0,0
+畏wèi,"fear, dread, awe, reverence",0,0,0,0
+吵chǎo,"argue, dispute",0,0,0,0
+囊náng,"bag, purse, sack",0,0,0,0
+嗯ń,final particle,0,0,0,0
+泊pō,anchor vessel,0,0,0,0
+肺fèi,lungs,0,0,0,0
+骤zhòu,procedure,0,0,0,0
+缠chán,"wrap, wind around",0,0,0,0
+冈gāng,ridge or crest of hill,0,0,0,0
+羞xiū,"disgrace, shame",0,0,0,0
+瞪dèng,stare at,0,0,0,0
+吊diào,"condole, mourn, pity",0,0,0,0
+贾jiǎ,surname,0,0,0,0
+漏lòu,"leak, drip",0,0,0,0
+斑bān,"mottled, striped, freckle",0,0,0,0
+涛tāo,large waves,0,0,0,0
+悠yōu,"long, far, remote, distant",0,0,0,0
+鹿lù,deer,0,0,0,0
+俘fú,prisoner of war,0,0,0,0
+锡xī,"tin, stannum",0,0,0,0
+卑bēi,"humble, low, inferior",0,0,0,0
+葬zàng,"bury, inter",0,0,0,0
+铭míng,"inscribe, engrave",0,0,0,0
+滩tān,"bank, a sandbar, shoal",0,0,0,0
+嫁jià,"to marry, give a daughter in marriage",0,0,0,0
+催cuī,"press, urge",0,0,0,0
+璇xuán,beautiful jade,0,0,0,0
+翅chì,wings,0,0,0,0
+盒hé,small box or case,0,0,0,0
+蛮mán,barbarians,0,0,0,0
+矣yǐ,particle of completed action,0,0,0,0
+潘pān,surname,0,0,0,0
+歧qí,fork of road,0,0,0,0
+赐cì,"give, bestow favors",0,0,0,0
+鲍bào,abalone,0,0,0,0
+锅guō,"cooking-pot, saucepan",0,0,0,0
+廊láng,"corridor, porch, veranda",0,0,0,0
+拆chāi,"to break up, split apart, rip open",0,0,0,0
+灌guàn,pour,0,0,0,0
+勉miǎn,"endeavor, make effort",0,0,0,0
+盲máng,blind,0,0,0,0
+宰zǎi,to slaughter,0,0,0,0
+佐zuǒ,"assist, aid, second",0,0,0,0
+啥shà,what?,0,0,0,0
+胀zhàng,"swell, inflate, expand",0,0,0,0
+扯chě,"rip up, tear down",0,0,0,0
+禧xǐ,happiness,0,0,0,0
+辽liáo,"distant, far",0,0,0,0
+抹mǒ,"smear, apply, wipe off, erase",0,0,0,0
+筒tǒng,thick piece of bamboo,0,0,0,0
+棋qí,chess,0,0,0,0
+裤kù,"trousers, pants",0,0,0,0
+唉āi,"alas, exclamation of surprise or pain",0,0,0,0
+朴pǔ,"simple, unadorned",0,0,0,0
+咐fù,"instruct, order",0,0,0,0
+孕yùn,"be pregnant, pregnancy",0,0,0,0
+誓shì,"swear, pledge",0,0,0,0
+喉hóu,"throat, gullet, larynx",0,0,0,0
+妄wàng,"absurd, foolish, reckless",0,0,0,0
+拘jū,"restrain, seize, detain",0,0,0,0
+链liàn,"chain, wire, cable",0,0,0,0
+驰chí,go quickly or swiftly,0,0,0,0
+栏lán,"railing, balustrade",0,0,0,0
+逝shì,pass away,0,0,0,0
+窃qiè,"secretly, stealthily",0,0,0,0
+艳yàn,"beautiful, sexy, voluptuous",0,0,0,0
+臭chòu,"smell, stink, emit foul odor",0,0,0,0
+纤xiān,"fine, delicate",0,0,0,0
+玑jī,pearl that is not quite round,0,0,0,0
+棵kē,numerary adjunct for trees,0,0,0,0
+趁chèn,"take advantage of, avail oneself",0,0,0,0
+匠jiàng,"craftsman, artisan",0,0,0,0
+盈yíng,fill,0,0,0,0
+翁wēng,old man,0,0,0,0
+愁chóu,anxiety,0,0,0,0
+瞬shùn,"wink, blink",0,0,0,0
+婴yīng,"baby, infant",0,0,0,0
+孝xiào,"filial piety, obedience",0,0,0,0
+颈jǐng,"neck, throat",0,0,0,0
+倘tǎng,"if, supposing, in event of",0,0,0,0
+浙zhè,Zhejiang province,0,0,0,0
+谅liàng,"excuse, forgive",0,0,0,0
+蔽bì,"cover, hide, conceal",0,0,0,0
+畅chàng,"smoothly, freely, unrestrained",0,0,0,0
+赠zèng,give present,0,0,0,0
+妮nī,"maid, servant girl",0,0,0,0
+莎shā,"kind of sedge grass, used anciently for raincoats",0,0,0,0
+尉wèi,"officer, military rank",0,0,0,0
+冻dòng,freeze,0,0,0,0
+跪guì,kneel,0,0,0,0
+闯chuǎng,"rush in, burst in, charge in",0,0,0,0
+葡pú,grapes,0,0,0,0
+後hòu,"behind, rear, after",0,0,0,0
+厨chú,kitchen,0,0,0,0
+鸭yā,duck,0,0,0,0
+颠diān,"top, peak, summit",0,0,0,0
+遮zhē,"cover, shield, protect",0,0,0,0
+谊yì,friendship,0,0,0,0
+圳zhèn,"furrow in field, small drainage ditch",0,0,0,0
+吁xū,,0,0,0,0
+仑lún,"logical reasons, logical order",0,0,0,0
+辟pì,"law, rule",0,0,0,0
+瘤liú,"tumor, lump, goiter",0,0,0,0
+嫂sǎo,,0,0,0,0
+陀tuó,"steep bank, rough terrain",0,0,0,0
+框kuāng,frame,0,0,0,0
+谭tán,surname,0,0,0,0
+亨hēng,"smoothly, progressing, no trouble",0,0,0,0
+钦qīn,"respect, admire",0,0,0,0
+庸yōng,"usual, common, ordinary, mediocre",0,0,0,0
+歉qiàn,"deficient, lacking, insufficient",0,0,0,0
+芝zhī,,0,0,0,0
+吼hǒu,"roar, shout",0,0,0,0
+甫fǔ,begin,0,0,0,0
+衫shān,shirt,0,0,0,0
+摊tān,"spread out, open",0,0,0,0
+宴yàn,"to entertain, feast",0,0,0,0
+嘱zhǔ,"order, tell, instruct, leave word",0,0,0,0
+衷zhōng,,0,0,0,0
+娇jiāo,seductive and loveable,0,0,0,0
+陕shǎn,mountain pass,0,0,0,0
+矩jǔ,,0,0,0,0
+浦pǔ,"bank of river, shore",0,0,0,0
+讶yà,"express surprise, be surprised",0,0,0,0
+耸sǒng,urge on,0,0,0,0
+裸luǒ,"bare, nude",0,0,0,0
+碧bì,jade,0,0,0,0
+摧cuī,"destroy, break, injure",0,0,0,0
+薪xīn,"fuel, firewood",0,0,0,0
+淋lín,"drip, soak, drench",0,0,0,0
+耻chǐ,"shame, humiliation",0,0,0,0
+胶jiāo,"glue, gum, resin, rubber",0,0,0,0
+屠tú,"butcher, slaughter, massacre",0,0,0,0
+鹅é,goose,0,0,0,0
+饥jī,"hunger, starving",0,0,0,0
+盼pàn,"look, gaze",0,0,0,0
+脖bó,neck,0,0,0,0
+虹hóng,rainbow,0,0,0,0
+翠cuì,color green,0,0,0,0
+崩bēng,"rupture, split apart, collapse",0,0,0,0
+账zhàng,accounts,0,0,0,0
+萍píng,duckweed,0,0,0,0
+逢féng,"come upon, happen meet",0,0,0,0
+赚zhuàn,"make money, earn",0,0,0,0
+撑chēng,"prop up, support",0,0,0,0
+翔xiáng,"soar, glide, hover",0,0,0,0
+倡chàng,"guide, leader",0,0,0,0
+绵mián,cotton wad,0,0,0,0
+猴hóu,"monkey, ape",0,0,0,0
+枯kū,"dried out, withered, decayed",0,0,0,0
+巫wū,"wizard, sorcerer, witch, shaman",0,0,0,0
+昭zhāo,"bright, luminous",0,0,0,0
+怔zhēng,a disease resembling neurosis,0,0,0,0
+渊yuān,"surge up, bubble up, gush forth",0,0,0,0
+凑còu,"piece together, assemble",0,0,0,0
+溪xī,"mountain stream, creek",0,0,0,0
+蠢chǔn,wriggle,0,0,0,0
+禅chán,,0,0,0,0
+阐chǎn,"explain, clarify, elucidate",0,0,0,0
+旺wàng,prosper,0,0,0,0
+寓yù,residence,0,0,0,0
+藤téng,"rattan, cane",0,0,0,0
+匪fěi,"bandits, robbers, gangsters",0,0,0,0
+伞sǎn,"umbrella, parasol, parachute",0,0,0,0
+碑bēi,stone tablet,0,0,0,0
+挪nuó,"move, shift on one side",0,0,0,0
+琼qióng,jade,0,0,0,0
+脂zhī,"fat, grease, lard",0,0,0,0
+谎huǎng,lie,0,0,0,0
+慨kǎi,"sigh, regret",0,0,0,0
+菩pú,"herb, aromatic plant",0,0,0,0
+萄táo,grapes,0,0,0,0
+狮shī,lion,0,0,0,0
+掘jué,"dig, excavate",0,0,0,0
+抄chāo,"copy, confiscate, seize",0,0,0,0
+岭lǐng,"mountain ridge, mountain peak",0,0,0,0
+晕yūn,halo in sky,0,0,0,0
+逮dǎi,"seize, catch",0,0,0,0
+砍kǎn,"hack, chop, cut, fell",0,0,0,0
+掏tāo,take out,0,0,0,0
+狄dí,tribe from northern china,0,0,0,0
+晰xī,"clear, evident",0,0,0,0
+罕hǎn,"rare, scarce",0,0,0,0
+挽wǎn,pull,0,0,0,0
+脾pí,"spleen, pancreas",0,0,0,0
+舟zhōu,"boat, ship",0,0,0,0
+痴chī,"foolish, stupid, dumb, silly",0,0,0,0
+蔡cài,surname,0,0,0,0
+剪jiǎn,scissors,0,0,0,0
+脊jí,"spine, backbone",0,0,0,0
+弓gōng,bow,0,0,0,0
+懒lǎn,"lazy, languid, listless",0,0,0,0
+叉chā,crotch,0,0,0,0
+拐guǎi,"kidnap, abduct",0,0,0,0
+喃nán,"keep talking, chattering",0,0,0,0
+僚liáo,"companion, colleague",0,0,0,0
+捐juān,contribute,0,0,0,0
+姊zǐ,elder sister,0,0,0,0
+骚sāo,"harass, bother, annoy, disturb",0,0,0,0
+拓tà,expand,0,0,0,0
+歪wāi,slant,0,0,0,0
+粘zhān,"viscous, mucous",0,0,0,0
+柄bǐng,"handle, lever, knob",0,0,0,0
+坑kēng,"pit, hole",0,0,0,0
+陌mò,foot path between rice fields,0,0,0,0
+窄zhǎi,"narrow, tight",0,0,0,0
+湘xiāng,Hunan province,0,0,0,0
+兆zhào,omen,0,0,0,0
+崖yá,"cliff, precipice",0,0,0,0
+骄jiāo,spirited horse,0,0,0,0
+刹shā,"temple, shrine, monastary",0,0,0,0
+鞭biān,whip,0,0,0,0
+芒máng,Miscanthus sinensis,0,0,0,0
+筋jīn,muscles,0,0,0,0
+聘pìn,"engage, employ",0,0,0,0
+钩gōu,"hook, barb",0,0,0,0
+棍gùn,"stick, cudgel",0,0,0,0
+嚷rǎng,"shout, brawl, make uproar, cry",0,0,0,0
+腺xiàn,gland,0,0,0,0
+弦xián,string,0,0,0,0
+焰yàn,"flame, blaze",0,0,0,0
+耍shuǎ,"frolic, play, amuse, play with",0,0,0,0
+俯fǔ,"bow down, face down, look down",0,0,0,0
+厘lí,thousandth part of tael,0,0,0,0
+愣lèng,be in a daze,0,0,0,0
+厦shà,"big building, mansion",0,0,0,0
+恳kěn,"sincere, earnest, cordial",0,0,0,0
+饶ráo,"bountiful, abundant, plentiful",0,0,0,0
+钉dīng,"nail, spike",0,0,0,0
+寡guǎ,widowed,0,0,0,0
+憾hàn,"to regret, remorse",0,0,0,0
+摔shuāi,"fall ground, stumble, trip",0,0,0,0
+叠dié,pile,0,0,0,0
+惹rě,"irritate, vex, offend, incite",0,0,0,0
+喻yù,"metaphor, analogy",0,0,0,0
+谱pǔ,"list, table",0,0,0,0
+愧kuì,"ashamed, conscience-stricken",0,0,0,0
+煌huáng,"bright, shining, luminous",0,0,0,0
+徽huī,"a badge, insignia",0,0,0,0
+溶róng,"to melt, dissolve",0,0,0,0
+坠zhuì,"fall down, drop, sink, go to ruin",0,0,0,0
+煞shā,malignant deity,0,0,0,0
+巾jīn,kerchief,0,0,0,0
+滥làn,"flood, overflow",0,0,0,0
+洒sǎ,sprinkle,0,0,0,0
+堵dǔ,wall,0,0,0,0
+瓷cí,"crockery, porcelain, chinaware",0,0,0,0
+咒zhòu,"curse, damn, incantation",0,0,0,0
+姨yí,,0,0,0,0
+棒bàng,"stick, club, truncheon",0,0,0,0
+郡jùn,administrative division,0,0,0,0
+浴yù,"bathe, wash",0,0,0,0
+媚mèi,"charming, attractive",0,0,0,0
+稣sū,"revive, to rise again",0,0,0,0
+淮huái,river in Anhui province,0,0,0,0
+哎āi,interjection of surprise,0,0,0,0
+屁pì,break wind,0,0,0,0
+漆qī,"varnish, lacquer, paint",0,0,0,0
+淫yín,"obscene, licentious, lewd",0,0,0,0
+巢cháo,"nest, living quarter in tree",0,0,0,0
+吩fēn,"order, command, instruct",0,0,0,0
+撰zhuàn,"compose, write, compile",0,0,0,0
+啸xiào,"roar, howl, scream",0,0,0,0
+滞zhì,"block up, obstruct",0,0,0,0
+玫méi,rose,0,0,0,0
+硕shuò,"great, eminent",0,0,0,0
+钓diào,fish,0,0,0,0
+蝶dié,butterfly,0,0,0,0
+膝xī,knee,0,0,0,0
+姚yáo,"handsome, elegant",0,0,0,0
+茂mào,"thick, lush, dense",0,0,0,0
+躯qū,body,0,0,0,0
+吏lì,"government official, magistrate",0,0,0,0
+猿yuán,ape,0,0,0,0
+寨zhài,"stockade, stronghold, outpost",0,0,0,0
+恕shù,"forgive, excuse, show mercy",0,0,0,0
+渠qú,"ditch, canal, channel, gutter",0,0,0,0
+戚qī,relative,0,0,0,0
+辰chén,early morning,0,0,0,0
+舶bó,"large, ocean-going vessel",0,0,0,0
+颁bān,"confer, bestow",0,0,0,0
+惶huáng,"fearful, afraid, anxious, nervous",0,0,0,0
+狐hú,species of fox,0,0,0,0
+讽fěng,"recite, incant",0,0,0,0
+笨bèn,"foolish, stupid, dull",0,0,0,0
+袍páo,"long gown, robe, cloak",0,0,0,0
+嘲cháo,"ridicule, deride, scorn, jeer at",0,0,0,0
+啡fēi,morphine,0,0,0,0
+泼pō,"pour, splash, water, sprinkle",0,0,0,0
+衔xián,bit,0,0,0,0
+倦juàn,"be tired of, weary",0,0,0,0
+涵hán,"soak, wet",0,0,0,0
+雀què,sparrow,0,0,0,0
+旬xún,ten-day period,0,0,0,0
+僵jiāng,"stiff and motionless, stock still",0,0,0,0
+撕sī,"rip, tear",0,0,0,0
+肢zhī,human limbs,0,0,0,0
+垄lǒng,"grave, mound",0,0,0,0
+夷yí,ancient barbarian tribes,0,0,0,0
+逸yì,"flee, escape, break loose",0,0,0,0
+茅máo,"reeds, rushes, grass",0,0,0,0
+侨qiáo,"sojourn, lodge",0,0,0,0
+舆yú,"cart, palanquin, sedan chair",0,0,0,0
+窑yáo,kiln,0,0,0,0
+涅niè,blacken,0,0,0,0
+蒲pú,type of rush,0,0,0,0
+谦qiān,"humble, modest",0,0,0,0
+杭háng,cross stream,0,0,0,0
+噢ō,moan,0,0,0,0
+弊bì,"evil, wrong, bad",0,0,0,0
+勋xūn,meritorious deed,0,0,0,0
+刮guā,"shave, pare off, scrape",0,0,0,0
+郊jiāo,suburbs,0,0,0,0
+凄qī,"bitter cold, miserable, dreary",0,0,0,0
+捧pěng,hold up in two hands,0,0,0,0
+浸jìn,"soak, immerse, dip, percolate",0,0,0,0
+砖zhuān,"tile, brick",0,0,0,0
+鼎dǐng,"large, three-legged bronze caldron",0,0,0,0
+篮lán,basket,0,0,0,0
+蒸zhēng,steam,0,0,0,0
+饼bǐng,"rice-cakes, biscuits",0,0,0,0
+亩mǔ,Chinese land measure,0,0,0,0
+肾shèn,kidneys,0,0,0,0
+陡dǒu,"steep, sloping",0,0,0,0
+爪zhǎo,"claw, nail, talon",0,0,0,0
+兔tù,"rabbit, hare",0,0,0,0
+殷yīn,"many, great",0,0,0,0
+贞zhēn,"virtuous, chaste, pure",0,0,0,0
+荐jiàn,"repeat, reoccur",0,0,0,0
+哑yǎ,"dumb, mute",0,0,0,0
+炭tàn,charcoal,0,0,0,0
+坟fén,"grave, mound",0,0,0,0
+眨zhǎ,wink,0,0,0,0
+搏bó,seize,0,0,0,0
+咳hāi,cough,0,0,0,0
+拢lǒng,"collect, bring together",0,0,0,0
+舅jiù,,0,0,0,0
+昧mèi,"obscure, dark",0,0,0,0
+擅shàn,monopolize,0,0,0,0
+爽shuǎng,"happy, cheerful",0,0,0,0
+咖kā,coffee,0,0,0,0
+搁gē,"place, put, lay down",0,0,0,0
+禄lù,"blessing, happiness, prosperity",0,0,0,0
+雌cí,female,0,0,0,0
+哨shào,"whistle, blow whistle",0,0,0,0
+巩gǒng,bind,0,0,0,0
+绢juàn,kind of thick stiff silk,0,0,0,0
+螺luó,spiral shell,0,0,0,0
+裹guǒ,"wrap, bind",0,0,0,0
+昔xī,formerly,0,0,0,0
+轩xuān,carriage,0,0,0,0
+谬miù,"error, exaggeration",0,0,0,0
+谍dié,an intelligence report,0,0,0,0
+龟guī,turtle or tortoise,0,0,0,0
+媳xí,daughter-in-law,0,0,0,0
+姜jiāng,surname,0,0,0,0
+瞎xiā,"blind, reckless",0,0,0,0
+冤yuān,"grievance, injustice, wrong",0,0,0,0
+鸦yā,crow,0,0,0,0
+蓬péng,type of raspberry,0,0,0,0
+巷xiàng,"alley, lane",0,0,0,0
+琳lín,"beautiful jade, gem",0,0,0,0
+栽zāi,"to cultivate, plant",0,0,0,0
+沾zhān,"moisten, wet, soak",0,0,0,0
+诈zhà,"cheat, defraud, swindle",0,0,0,0
+斋zhāi,vegetarian diet,0,0,0,0
+瞒mán,"deceive, lie",0,0,0,0
+彪biāo,tiger,0,0,0,0
+厄è,"adversity, difficulty, distress",0,0,0,0
+咨zī,"inquire, consult, discuss",0,0,0,0
+纺fǎng,"spin, reel, weave",0,0,0,0
+罐guàn,"jar, jug, pitcher, pot",0,0,0,0
+桶tǒng,"pail, bucket, tub",0,0,0,0
+壤rǎng,"soil, loam, earth",0,0,0,0
+糕gāo,"cakes, pastry",0,0,0,0
+颂sòng,"laud, acclaim",0,0,0,0
+膨péng,to swell,0,0,0,0
+谐xié,"harmonize, agree",0,0,0,0
+垒lěi,"rampart, military wall",0,0,0,0
+咕gū,"mumble, mutter, murmur",0,0,0,0
+隙xì,"crack, split, fissure",0,0,0,0
+辣là,"peppery, pungent, hot",0,0,0,0
+绑bǎng,"bind, tie, fasten",0,0,0,0
+宠chǒng,"favorite, concubine",0,0,0,0
+嘿hēi,"be silent, be quiet",0,0,0,0
+兑duì,cash,0,0,0,0
+霉méi,"mildew, mold",0,0,0,0
+挫cuò,push down,0,0,0,0
+稽jī,"examine, investigate",0,0,0,0
+辐fú,spokes of wheel,0,0,0,0
+乞qǐ,beg,0,0,0,0
+纱shā,"gauze, thin silk",0,0,0,0
+裙qún,"skirt, apron, petticoat",0,0,0,0
+嘻xī,"mirthful, happy",0,0,0,0
+哇wa,vomit,0,0,0,0
+绣xiù,embroider,0,0,0,0
+杖zhàng,"cane, walking stick",0,0,0,0
+塘táng,pond,0,0,0,0
+衍yǎn,"overflow, spill over, spread out",0,0,0,0
+轴zhóu,"axle, axletree",0,0,0,0
+攀pān,climb,0,0,0,0
+膊bó,"shoulders, upper arms",0,0,0,0
+譬pì,"metaphor, simile, example",0,0,0,0
+斌bīn,"refined, having both appearance",0,0,0,0
+祈qí,pray,0,0,0,0
+踢tī,kick,0,0,0,0
+肆sì,indulge,0,0,0,0
+坎kǎn,"pit, hole",0,0,0,0
+轿jiào,"sedan-chair, palanquin",0,0,0,0
+棚péng,"tent, awning",0,0,0,0
+泣qì,"cry, sob, weep",0,0,0,0
+屡lǚ,"frequently, often, again and again",0,0,0,0
+躁zào,"tense, excited, irritable",0,0,0,0
+邱qiū,surname,0,0,0,0
+凰huáng,female phoenix,0,0,0,0
+溢yì,"overflow, brim over",0,0,0,0
+椎chuí,"hammer, mallet",0,0,0,0
+砸zá,"smash, crush, break",0,0,0,0
+趟tàng,"time, occasion",0,0,0,0
+帘lián,flag-sign of a tavern,0,0,0,0
+帆fān,sail,0,0,0,0
+栖qī,perch,0,0,0,0
+窜cuàn,run away,0,0,0,0
+丸wán,small round object,0,0,0,0
+斩zhǎn,"cut, chop, sever",0,0,0,0
+堤dī,dike,0,0,0,0
+塌tā,"fall in ruins, collapse",0,0,0,0
+贩fàn,"peddler, hawker, street merchant",0,0,0,0
+厢xiāng,"side-room, wing",0,0,0,0
+掀xiān,"lift, raise",0,0,0,0
+喀kā,vomit,0,0,0,0
+乖guāi,rebel,0,0,0,0
+谜mí,"riddle, conundrum",0,0,0,0
+捏niē,pick with fingers,0,0,0,0
+阎yán,village gate,0,0,0,0
+滨bīn,"beach, sea coast",0,0,0,0
+虏lǔ,"to capture, imprison, seize",0,0,0,0
+匙shi,spoon,0,0,0,0
+芦lú,"rushes, reeds",0,0,0,0
+苹píng,artemisia,0,0,0,0
+卸xiè,lay down,0,0,0,0
+沼zhǎo,"lake, fishpond, swamps",0,0,0,0
+钥yào,key,0,0,0,0
+株zhū,numerary adjunct for trees,0,0,0,0
+祷dǎo,pray,0,0,0,0
+剖pōu,"split in two, slice",0,0,0,0
+熙xī,"bright, splendid, glorious",0,0,0,0
+哗huā,rushing sound,0,0,0,0
+劈pī,"cut apart, split, chop",0,0,0,0
+怯qiè,"lacking in courage, afraid",0,0,0,0
+棠táng,crab apple tree,0,0,0,0
+胳gē,"armpit, arms",0,0,0,0
+桩zhuāng,"stake, post",0,0,0,0
+瑰guī,"extraordinary, fabulous",0,0,0,0
+娱yú,"pleasure, enjoyment, amusement",0,0,0,0
+娶qǔ,"marry, take wife",0,0,0,0
+沫mò,"froth, foam, bubbles, suds",0,0,0,0
+嗓sǎng,voice,0,0,0,0
+蹲dūn,"squat, crouch",0,0,0,0
+焚fén,burn,0,0,0,0
+淘táo,wash in sieve,0,0,0,0
+嫩nèn,"soft, tender, delicate",0,0,0,0
+韵yùn,rhyme,0,0,0,0
+衬chèn,underwear,0,0,0,0
+匈xiōng,,0,0,0,0
+钧jūn,unit of measure equivalent to thirty catties,0,0,0,0
+竖shù,"perpendicular, vertical",0,0,0,0
+峻jùn,"high, steep, towering",0,0,0,0
+豹bào,"leopard, panther",0,0,0,0
+捞lāo,scoop out of water,0,0,0,0
+菊jú,chrysanthemum,0,0,0,0
+鄙bǐ,mean,0,0,0,0
+魄pò,vigor,0,0,0,0
+兜dōu,pouch,0,0,0,0
+哄hōng,coax,0,0,0,0
+颖yǐng,rice tassel,0,0,0,0
+镑bàng,pound sterling,0,0,0,0
+屑xiè,"bits, scraps, crumbs, fragments",0,0,0,0
+蚁yǐ,ants,0,0,0,0
+壶hú,"jar, pot, jug, vase",0,0,0,0
+怡yí,harmony,0,0,0,0
+渗shèn,"soak through, infiltrate",0,0,0,0
+秃tū,bald,0,0,0,0
+迦jiā,character for transliteration,0,0,0,0
+旱hàn,drought,0,0,0,0
+哟yō,"ah, final particle",0,0,0,0
+咸xián,together,0,0,0,0
+焉yān,"thereupon, then",0,0,0,0
+谴qiǎn,"reprimand, scold, abuse",0,0,0,0
+宛wǎn,"seem, as if, crooked",0,0,0,0
+稻dào,"rice growing in field, rice plant",0,0,0,0
+铸zhù,"melt, cast",0,0,0,0
+锻duàn,forge metal,0,0,0,0
+伽jiā,,0,0,0,0
+詹zhān,surname,0,0,0,0
+毙bì,kill,0,0,0,0
+恍huǎng,seemingly,0,0,0,0
+贬biǎn,"decrease, lower",0,0,0,0
+烛zhú,"candle, taper",0,0,0,0
+骇hài,"terrify, frighten, scare",0,0,0,0
+芯xīn,pith from rush (juncus effusus),0,0,0,0
+汁zhī,"juice, liquor, fluid, sap, gravy, sauce",0,0,0,0
+桓huán,variety of tree,0,0,0,0
+坊fāng,,0,0,0,0
+驴lǘ,"donkey, ass",0,0,0,0
+朽xiǔ,"decayed, rotten",0,0,0,0
+靖jìng,pacify,0,0,0,0
+佣yōng,commission fee,0,0,0,0
+汝rǔ,you,0,0,0,0
+碌lù,"rough, uneven, rocky",0,0,0,0
+迄qì,"extend, reach",0,0,0,0
+冀jì,hope for,0,0,0,0
+荆jīng,thorns,0,0,0,0
+崔cuī,"high, lofty, towering",0,0,0,0
+雁yàn,wild goose,0,0,0,0
+绅shēn,girdle,0,0,0,0
+珊shān,coral,0,0,0,0
+榜bǎng,placard,0,0,0,0
+诵sòng,"recite, chant, repeat",0,0,0,0
+傍bàng,"by side of, beside, near, close",0,0,0,0
+彦yàn,elegant,0,0,0,0
+醇chún,"rich, good as wine",0,0,0,0
+笛dí,bamboo flute,0,0,0,0
+禽qín,"birds, fowl",0,0,0,0
+勿wù,"must not, do not",0,0,0,0
+娟juān,"beautiful, graceful",0,0,0,0
+瞄miáo,take aim at,0,0,0,0
+幢chuáng,carriage curtain,0,0,0,0
+寇kòu,"bandits, thieves",0,0,0,0
+睹dǔ,"look at, gaze at",0,0,0,0
+贿huì,bribe,0,0,0,0
+踩cǎi,step on,0,0,0,0
+霆tíng,a sudden peal of thunder,0,0,0,0
+呜wū,"sound of crying, sobbing",0,0,0,0
+拱gǒng,fold hands on breast,0,0,0,0
+妃fēi,"wife, spouse",0,0,0,0
+蔑miè,"disdain, disregard",0,0,0,0
+谕yù,"proclaim, instruct",0,0,0,0
+缚fù,to tie,0,0,0,0
+诡guǐ,"deceive, cheat, defraud",0,0,0,0
+篷péng,"awning, covering",0,0,0,0
+淹yān,drown,0,0,0,0
+腕wàn,wrist,0,0,0,0
+煮zhǔ,cook,0,0,0,0
+倩qiàn,"beautiful, lovely",0,0,0,0
+卒zú,soldier,0,0,0,0
+勘kān,investigate,0,0,0,0
+馨xīn,"fragrant, aromatic",0,0,0,0
+逗dòu,"tempt, allure, arouse, stir",0,0,0,0
+甸diān,suburbs of capital,0,0,0,0
+贱jiàn,"mean, low",0,0,0,0
+炒chǎo,"fry, saute, roast, boil, cook",0,0,0,0
+灿càn,"vivid, illuminating",0,0,0,0
+敞chǎng,"roomy, spacious, open, broad",0,0,0,0
+蜡là,wax,0,0,0,0
+囚qiú,"prisoner, convict",0,0,0,0
+栗lì,"chestnut tree, chestnuts",0,0,0,0
+辜gū,"crime, criminal offense",0,0,0,0
+垫diàn,"advance money, pay for another",0,0,0,0
+妒dù,"jealous, envious",0,0,0,0
+魁kuí,chief,0,0,0,0
+谣yáo,sing,0,0,0,0
+寞mò,"silent, still, lonely, solitary",0,0,0,0
+蜀shǔ,name of an ancient state,0,0,0,0
+甩shuǎi,"throw away, discard",0,0,0,0
+涯yá,,0,0,0,0
+枕zhěn,pillow,0,0,0,0
+丐gài,beggar,0,0,0,0
+泳yǒng,dive,0,0,0,0
+奎kuí,stride of man,0,0,0,0
+泌mì,"to seep out, excrete",0,0,0,0
+逾yú,"go over, pass over, exceed",0,0,0,0
+叮dīng,exhort or enjoin repeatedly,0,0,0,0
+黛dài,blacken eyebrows,0,0,0,0
+燥zào,"dry, parched, arid",0,0,0,0
+掷zhì,"throw, hurl, cast, fling",0,0,0,0
+藉jí,"mat, pad",0,0,0,0
+枢shū,door hinge,0,0,0,0
+憎zēng,"hate, detest, abhor",0,0,0,0
+鲸jīng,whale,0,0,0,0
+弘hóng,"enlarge, expand",0,0,0,0
+倚yǐ,"rely on, depend on",0,0,0,0
+侮wǔ,"insult, ridicule, disgrace",0,0,0,0
+藩fān,fence,0,0,0,0
+拂fú,"shake off, brush away",0,0,0,0
+鹤hè,crane,0,0,0,0
+蚀shí,nibble away,0,0,0,0
+浆jiāng,any thick fluid,0,0,0,0
+芙fú,hibiscus,0,0,0,0
+垃lā,"garbage, refuse, waste",0,0,0,0
+烤kǎo,"bake, roast, toast, cook",0,0,0,0
+晒shài,"dry in sun, expose to sun",0,0,0,0
+霜shuāng,frost,0,0,0,0
+剿jiǎo,"destroy, exterminate, annihilate",0,0,0,0
+蕴yùn,"to collect, gather, store",0,0,0,0
+圾jī,"garbage, rubbish",0,0,0,0
+绸chóu,"silk cloth, satin damask",0,0,0,0
+屿yǔ,island,0,0,0,0
+氢qīng,ammonia,0,0,0,0
+驼tuó,a camel,0,0,0,0
+妆zhuāng,"to adorn oneself, dress up, use make-up",0,0,0,0
+捆kǔn,tie up,0,0,0,0
+铅qiān,lead,0,0,0,0
+逛guàng,"ramble, stroll, roam, wander",0,0,0,0
+淑shū,"good, pure, virtuous, charming",0,0,0,0
+榴liú,pomegranate,0,0,0,0
+丙bǐng,third,0,0,0,0
+痒yǎng,itch,0,0,0,0
+钞chāo,"paper money, bank notes",0,0,0,0
+蹄tí,hoof,0,0,0,0
+犬quǎn,dog,0,0,0,0
+躬gōng,body,0,0,0,0
+昼zhòu,"daytime, daylight",0,0,0,0
+藻zǎo,"splendid, magnificent",0,0,0,0
+蛛zhū,spider,0,0,0,0
+褐hè,coarse woolen cloth,0,0,0,0
+颊jiá,"cheeks, jaw",0,0,0,0
+奠diàn,pay respect,0,0,0,0
+募mù,"levy, raise",0,0,0,0
+耽dān,indulge in,0,0,0,0
+蹈dǎo,stamp feet,0,0,0,0
+陋lòu,narrow,0,0,0,0
+侣lǚ,companion,0,0,0,0
+魅mèi,"kind of forest demon, elf",0,0,0,0
+岚lán,"mountain mist, mountain haze",0,0,0,0
+侄zhí,nephew,0,0,0,0
+虐nüè,"cruel, harsh, oppressive",0,0,0,0
+堕duò,"fall, sink, let fall",0,0,0,0
+陛bì,steps leading throne,0,0,0,0
+莹yíng,luster of gems,0,0,0,0
+荫yīn,"shade, shelter",0,0,0,0
+狡jiǎo,"cunning, deceitful, treacherous",0,0,0,0
+阀fá,powerful and influential group,0,0,0,0
+绞jiǎo,"twist, wring",0,0,0,0
+膏gāo,"grease, fat",0,0,0,0
+垮kuǎ,"be defeated, fail, collapse",0,0,0,0
+茎jīng,"stem, stalk",0,0,0,0
+缅miǎn,"distant, remote",0,0,0,0
+喇lǎ,"horn, bugle",0,0,0,0
+绒róng,"silk, cotton, or woolen fabric",0,0,0,0
+搅jiǎo,"disturb, agitate, stir up",0,0,0,0
+凳dèng,bench,0,0,0,0
+梭suō,,0,0,0,0
+丫yā,forked,0,0,0,0
+姬jī,beauty,0,0,0,0
+诏zhào,"decree, proclaim",0,0,0,0
+钮niǔ,"button, knob",0,0,0,0
+棺guān,coffin,0,0,0,0
+耿gěng,"bright, shining",0,0,0,0
+缔dì,"tie, join, connect",0,0,0,0
+懈xiè,"idle, relaxed, remiss",0,0,0,0
+嫉jí,jealousy,0,0,0,0
+灶zào,"kitchen stove, cooking stove",0,0,0,0
+匀yún,equal,0,0,0,0
+嗣sì,"to connect, inherit",0,0,0,0
+鸽gē,"pigeon, dove",0,0,0,0
+澡zǎo,"wash, bathe",0,0,0,0
+凿záo,chisel,0,0,0,0
+纬wěi,woof,0,0,0,0
+沸fèi,"boil, bubble up, gush",0,0,0,0
+畴chóu,"farmland, arable land",0,0,0,0
+刃rèn,"edged tool, cutlery, knife edge",0,0,0,0
+遏è,"stop, suppress, curb, check",0,0,0,0
+烁shuò,"shine, glitter, sparkle",0,0,0,0
+嗅xiù,"smell, scent, sniff",0,0,0,0
+叭bā,trumpet,0,0,0,0
+熬áo,"cook down, to boil",0,0,0,0
+瞥piē,take fleeting glance at,0,0,0,0
+骸hái,"skeleton, body",0,0,0,0
+奢shē,"extravagant, wasteful",0,0,0,0
+拙zhuō,"stupid, clumsy, crude",0,0,0,0
+栋dòng,main beams supporting house,0,0,0,0
+毯tǎn,"rug, carpet, blanket",0,0,0,0
+桐tóng,name applied various trees,0,0,0,0
+砂shā,sand,0,0,0,0
+莽mǎng,"thicket, underbrush",0,0,0,0
+泻xiè,"drain off, leak",0,0,0,0
+坪píng,level ground,0,0,0,0
+梳shū,comb,0,0,0,0
+杉shān,various species of pine and fir,0,0,0,0
+晤wù,have interview with,0,0,0,0
+稚zhì,"young, immature",0,0,0,0
+蔬shū,"vegetables, greens",0,0,0,0
+蝇yíng,flies,0,0,0,0
+捣dǎo,hull,0,0,0,0
+顷qǐng,a moment,0,0,0,0
+麽mó,interrogative final particle,0,0,0,0
+尴gān,embarrassed,0,0,0,0
+镖biāo,"dart, spear, harpoon",0,0,0,0
+诧chà,"be surprised, be shocked",0,0,0,0
+尬gà,"limp, staggering gait",0,0,0,0
+硫liú,sulfur,0,0,0,0
+嚼jué,"prattle, be glib",0,0,0,0
+羡xiàn,"envy, admire",0,0,0,0
+沦lún,be lost,0,0,0,0
+沪hù,Shanghai,0,0,0,0
+旷kuàng,"extensive, wide, broad",0,0,0,0
+彬bīn,"cultivated, well-bred",0,0,0,0
+芽yá,"bud, sprout, shoot",0,0,0,0
+狸lí,fox,0,0,0,0
+冥míng,"dark, gloomy, night",0,0,0,0
+碳tàn,carbon,0,0,0,0
+咧liě,"stretch mouth, grimace, grin",0,0,0,0
+惕tì,"be cautious, careful, alert",0,0,0,0
+暑shǔ,hot,0,0,0,0
+咯gē,final particle,0,0,0,0
+萝luó,type of creeping plant,0,0,0,0
+汹xiōng,turbulent,0,0,0,0
+腥xīng,raw meat,0,0,0,0
+窥kuī,"peep, watch, spy on, pry",0,0,0,0
+俺ǎn,"personal pronoun, I",0,0,0,0
+潭tán,"deep pool, lake",0,0,0,0
+崎qí,"rough, uneven, jagged, rugged",0,0,0,0
+麟lín,female of Chinese unicorn,0,0,0,0
+捡jiǎn,to pick up,0,0,0,0
+拯zhěng,"help, save, aid",0,0,0,0
+厥jué,"personal pronoun he, she, it",0,0,0,0
+澄chéng,purify water by allowing sediment to settle,0,0,0,0
+萎wēi,"wither, wilt",0,0,0,0
+哉zāi,final exclamatory particle,0,0,0,0
+涡wō,"swirl, whirlpool, eddy",0,0,0,0
+滔tāo,overflow,0,0,0,0
+暇xiá,"leisure, relaxation, spare time",0,0,0,0
+溯sù,"go upstream, go against current",0,0,0,0
+鳞lín,fish scales,0,0,0,0
+酿niàng,"brew, ferment",0,0,0,0
+茵yīn,"a cushion, mattress",0,0,0,0
+愕è,"startled, alarmed, astonished",0,0,0,0
+瞅chǒu,"see, look, gaze at",0,0,0,0
+暮mù,"evening, dusk, sunset",0,0,0,0
+衙yá,public office,0,0,0,0
+诫jiè,"warn, admonish",0,0,0,0
+斧fǔ,"axe, hatchet",0,0,0,0
+兮xī,exclamatory particle,0,0,0,0
+焕huàn,shining,0,0,0,0
+棕zōng,hemp palm,0,0,0,0
+佑yòu,"help, protect, bless",0,0,0,0
+嘶sī,neighing of a horse,0,0,0,0
+妓jì,prostitute,0,0,0,0
+喧xuān,"lively, noisy",0,0,0,0
+蓉róng,hibiscus,0,0,0,0
+删shān,to cut,0,0,0,0
+樱yīng,"cherry, cherry blossom",0,0,0,0
+伺cì,"serve, wait upon, attend",0,0,0,0
+嗡wēng,"sound of flying bees, airplanes",0,0,0,0
+娥é,be beautiful,0,0,0,0
+梢shāo,pointed tip of something long like a branch,0,0,0,0
+坝bà,embankment,0,0,0,0
+蚕cán,silkworms,0,0,0,0
+敷fū,"spread, diffuse",0,0,0,0
+澜lán,overflowing,0,0,0,0
+杏xìng,apricot,0,0,0,0
+绥suí,"soothe, appease, pacify",0,0,0,0
+冶yě,"smelt, fuse metals",0,0,0,0
+庇bì,"cover, shield, shelter, protect",0,0,0,0
+挠náo,scratch,0,0,0,0
+搂lǒu,"hug, embrace",0,0,0,0
+倏shū,"hastily, suddenly, abruptly",0,0,0,0
+聂niè,whisper,0,0,0,0
+婉wǎn,"amiable, congenial",0,0,0,0
+噪zào,be noisy,0,0,0,0
+稼jià,sow grain,0,0,0,0
+鳍qí,fin,0,0,0,0
+菱líng,"water-chestnut, water caltrop",0,0,0,0
+盏zhǎn,small cup or container,0,0,0,0
+匿nì,hide,0,0,0,0
+吱zhī,"chirping, squeaking, hissing",0,0,0,0
+寝qǐn,"sleep, rest",0,0,0,0
+揽lǎn,"grasp, take hold of",0,0,0,0
+髓suǐ,bone marrow,0,0,0,0
+秉bǐng,"grasp, hold",0,0,0,0
+哺bǔ,chew food,0,0,0,0
+矢shǐ,"arrow, dart",0,0,0,0
+啪pā,syllable,0,0,0,0
+帜zhì,"flag, pennant",0,0,0,0
+邵shào,surname,0,0,0,0
+嗽sòu,"cough, gargle, clear throat",0,0,0,0
+挟xié,clasp under arm,0,0,0,0
+缸gāng,"earthen jug, crock, cistern",0,0,0,0
+揉róu,"rub, massage",0,0,0,0
+腻nì,"greasy, oily, dirty",0,0,0,0
+驯xún,"tame, docile, obedient",0,0,0,0
+缆lǎn,"hawser, heavy-duty rope, cable",0,0,0,0
+晌shǎng,"noon, midday",0,0,0,0
+瘫tān,"paralysis, palsy, numbness",0,0,0,0
+贮zhù,"store, stockpile, hoard",0,0,0,0
+觅mì,seek,0,0,0,0
+朦méng,condition or appearance of moon,0,0,0,0
+僻pì,"out-of-the-way, remote",0,0,0,0
+隋suí,Sui dynasty,0,0,0,0
+蔓màn,"creeping plants, tendrils, vines",0,0,0,0
+咋zǎ,"question-forming particle, why? how? what?",0,0,0,0
+嵌qiàn,"inlay, set in",0,0,0,0
+虔qián,act with reverence,0,0,0,0
+畔pàn,boundary path dividing fields,0,0,0,0
+琐suǒ,"trifling, petty",0,0,0,0
+碟dié,"small dish, plate",0,0,0,0
+涩sè,astringent,0,0,0,0
+胧lóng,condition or appearance of moon,0,0,0,0
+嘟dū,sound of horn tooting,0,0,0,0
+蹦bèng,"hop, leap, jump",0,0,0,0
+冢zhǒng,"burial mound, mausoleum",0,0,0,0
+浏liú,clear,0,0,0,0
+裔yì,"progeny, descendants, posterity",0,0,0,0
+襟jīn,"lapel, collar",0,0,0,0
+叨dāo,talkative,0,0,0,0
+诀jué,"take leave of, bid farewell",0,0,0,0
+旭xù,rising sun,0,0,0,0
+虾xiā,"shrimp, prawn",0,0,0,0
+簿bù,"register, account book, notebook",0,0,0,0
+啤pí,beer,0,0,0,0
+擒qín,"catch, capture, seize, arrest",0,0,0,0
+枣zǎo,date tree,0,0,0,0
+嘎gā,sound of laughter,0,0,0,0
+苑yuàn,"pasture, park, garden",0,0,0,0
+牟móu,make,0,0,0,0
+呕ǒu,vomit,0,0,0,0
+骆luò,a white horse with black mane,0,0,0,0
+凸tū,"protrude, bulge out, convex",0,0,0,0
+熄xī,"put out, extinguish, quash",0,0,0,0
+兀wù,to cut off the feet,0,0,0,0
+喔ō,descriptive of crying or of crowing,0,0,0,0
+裳shang,clothes,0,0,0,0
+凹āo,"concave, hollow, depressed",0,0,0,0
+赎shú,"buy, redeem",0,0,0,0
+屯tún,"village, hamlet",0,0,0,0
+膛táng,chest,0,0,0,0
+浇jiāo,"spray, water, sprinkle",0,0,0,0
+灼zhuó,burn,0,0,0,0
+裘qiú,fur garments,0,0,0,0
+砰pēng,"sound of crashing stones, bang!",0,0,0,0
+棘jí,jujube tree,0,0,0,0
+橡xiàng,chestnut oak,0,0,0,0
+碱jiǎn,"alkaline, alkali, lye, salt",0,0,0,0
+聋lóng,deaf,0,0,0,0
+姥lǎo,maternal grandmother,0,0,0,0
+瑜yú,flawless gem or jewel,0,0,0,0
+毋wú,do not,0,0,0,0
+娅yà,mutual term of address used by sons-in-law,0,0,0,0
+沮jǔ,"stop, prevent",0,0,0,0
+萌méng,"bud, sprout",0,0,0,0
+俏qiào,"like, similar",0,0,0,0
+黯àn,"dark, black",0,0,0,0
+撇piē,"discard, abandon, throw away",0,0,0,0
+粟sù,unhusked millet,0,0,0,0
+粪fèn,"manure, dung, shit, excrement, night soil",0,0,0,0
+尹yǐn,govern,0,0,0,0
+苟gǒu,"careless, frivolous",0,0,0,0
+癫diān,"crazy, mad",0,0,0,0
+蚂mǎ,ant,0,0,0,0
+禹yǔ,legendary hsia dynasty founder,0,0,0,0
+廖liào,surname,0,0,0,0
+俭jiǎn,"temperate, frugal, economical",0,0,0,0
+帖tiē,invitation card,0,0,0,0
+煎jiān,fry in fat or oil,0,0,0,0
+缕lǚ,thread,0,0,0,0
+窦dòu,surname,0,0,0,0
+簇cù,"swarm, crowd together, cluster",0,0,0,0
+棱léng,squared timber,0,0,0,0
+叩kòu,"knock, ask",0,0,0,0
+呐nà,"raise voice, yell out loud, shout",0,0,0,0
+瑶yáo,precious jade,0,0,0,0
+墅shù,"villa, country house",0,0,0,0
+莺yīng,"oriole, green finch",0,0,0,0
+烫tàng,"scald, heat",0,0,0,0
+蛙wā,frog,0,0,0,0
+歹dǎi,"bad, vicious, depraved, wicked",0,0,0,0
+伶líng,"lonely, solitary",0,0,0,0
+葱cōng,"scallions, leeks, green onions",0,0,0,0
+哮xiāo,cough,0,0,0,0
+眩xuàn,to confuse,0,0,0,0
+坤kūn,earth,0,0,0,0
+廓kuò,"broad, wide, open, empty",0,0,0,0
+讳huì,conceal,0,0,0,0
+啼tí,"weep, whimper",0,0,0,0
+乍zhà,"first time, for the first time",0,0,0,0
+瓣bàn,petal,0,0,0,0
+矫jiǎo,"correct, rectify, straighten out",0,0,0,0
+跋bá,go by foot,0,0,0,0
+枉wǎng,"useless, in vain",0,0,0,0
+梗gěng,"stem of flower, branch of plant",0,0,0,0
+厕cè,mingle with,0,0,0,0
+琢zuó,polish jade,0,0,0,0
+讥jī,"ridicule, jeer, mock",0,0,0,0
+釉yòu,glaze,0,0,0,0
+窟kū,"hole, cave",0,0,0,0
+敛liǎn,"draw back, fold back",0,0,0,0
+轼shì,horizontal wooden bar in front,0,0,0,0
+庐lú,"hut, cottage",0,0,0,0
+胚pēi,embryo,0,0,0,0
+呻shēn,"groan, moan",0,0,0,0
+绰chuò,"graceful, delicate",0,0,0,0
+扼è,"grasp, clutch",0,0,0,0
+懿yì,"virtuous, admirable, esteemed",0,0,0,0
+炯jiǒng,"bright, brilliant, clear",0,0,0,0
+竿gān,bamboo pole,0,0,0,0
+慷kāng,ardent,0,0,0,0
+虞yú,"concerned about, anxious, worried",0,0,0,0
+锤chuí,balance weight on scale,0,0,0,0
+栓shuān,"wooden peg, post or stick",0,0,0,0
+桨jiǎng,"oar, paddle",0,0,0,0
+蚊wén,mosquito,0,0,0,0
+磅bàng,pound,0,0,0,0
+孽niè,evil,0,0,0,0
+惭cán,"ashamed, humiliated",0,0,0,0
+戳chuō,"prick, stab",0,0,0,0
+禀bǐng,"report to, petition",0,0,0,0
+鄂è,Hubei province,0,0,0,0
+馈kuì,offer food superior,0,0,0,0
+垣yuán,low wall,0,0,0,0
+溅jiàn,"sprinkle, spray",0,0,0,0
+咚dōng,"onomatopoetic, a thumping sound",0,0,0,0
+钙gài,calcium,0,0,0,0
+礁jiāo,reef,0,0,0,0
+彰zhāng,"clear, manifest, obvious",0,0,0,0
+豁huō,"open up, clear",0,0,0,0
+眯mī,be blinded,0,0,0,0
+磷lín,phosphorus,0,0,0,0
+雯wén,"cloud patterns, coloring of cloud",0,0,0,0
+墟xū,high mound,0,0,0,0
+迂yū,"doctrinaire, abstruse, unrealistic",0,0,0,0
+瞻zhān,look,0,0,0,0
+颅lú,skull,0,0,0,0
+琉liú,sparkling stone,0,0,0,0
+悼dào,"grieve, mourn, lament",0,0,0,0
+蝴hú,butterfly,0,0,0,0
+拣jiǎn,choose,0,0,0,0
+渺miǎo,"endlessly long, boundless, vast",0,0,0,0
+眷juàn,"take interest in, care for",0,0,0,0
+悯mǐn,"pity, sympathize with, grieve for",0,0,0,0
+汰tài,excessive,0,0,0,0
+慑shè,"afraid, scared, fearful",0,0,0,0
+婶shěn,,0,0,0,0
+斐fěi,"graceful, elegant, beautiful",0,0,0,0
+嘘xū,exhale,0,0,0,0
+镶xiāng,"insert, inlay, set, mount",0,0,0,0
+炕kàng,the brick-bed in northern China,0,0,0,0
+宦huàn,"officialdom, government official",0,0,0,0
+趴pā,"lying prone, leaning over",0,0,0,0
+绷běng,"bind, draw firmly, strap",0,0,0,0
+窘jiǒng,embarrassed,0,0,0,0
+襄xiāng,"aid, help, assist",0,0,0,0
+珀pò,amber,0,0,0,0
+嚣xiāo,be noisy,0,0,0,0
+拚pàn,"risk, disregard",0,0,0,0
+酌zhuó,serve wine,0,0,0,0
+浊zhuó,"muddy, turbid, dirty, filthy",0,0,0,0
+毓yù,give birth to,0,0,0,0
+撼hàn,"move, shake",0,0,0,0
+嗜shì,"be fond of, have weakness for",0,0,0,0
+扛káng,carry on shoulders,0,0,0,0
+峭qiào,"steep, precipitous, rugged",0,0,0,0
+磕kē,hit,0,0,0,0
+翘qiào,"turn up, lift, elevate, raise",0,0,0,0
+槽cáo,trough,0,0,0,0
+淌tǎng,trickle,0,0,0,0
+栅zhà,fence,0,0,0,0
+颓tuí,"ruined, decayed",0,0,0,0
+熏xūn,"smoke, fog, vapor",0,0,0,0
+瑛yīng,luster of gem,0,0,0,0
+颐yí,cheeks,0,0,0,0
+忖cǔn,"guess, suppose, conjecture",0,0,0,0
+牡mǔ,male of animals,0,0,0,0
+缀zhuì,"patch together, link, connect",0,0,0,0
+徊huái,"linger, walk to and fro, hesitain",0,0,0,0
+梨lí,pear,0,0,0,0
+肪fáng,animal fat,0,0,0,0
+涕tì,tear,0,0,0,0
+惫bèi,"tired, weary, fatigued",0,0,0,0
+摹mó,"trace, copy, duplicate",0,0,0,0
+踱duó,"stroll, pace, walk slowly",0,0,0,0
+肘zhǒu,the elbow,0,0,0,0
+熔róng,"melt, smelt, fuse",0,0,0,0
+挚zhì,"sincere, warm, cordial",0,0,0,0
+氯lǜ,chlorine,0,0,0,0
+凛lǐn,to shiver with cold or fear,0,0,0,0
+绎yì,to unravel or unreel silk,0,0,0,0
+庶shù,"numerous, various",0,0,0,0
+脯pú,dried meat,0,0,0,0
+迭dié,"repeatedly, frequently",0,0,0,0
+睦mù,"friendly, amiable, peaceful",0,0,0,0
+窍qiào,"hole, opening, aperture",0,0,0,0
+粥zhōu,"rice gruel, congee",0,0,0,0
+庵ān,Buddhist monastery or nunnery,0,0,0,0
+沧cāng,"blue, dark green",0,0,0,0
+怠dài,"idle, remiss, negligent",0,0,0,0
+沁qìn,"soak into, seep in, percolate",0,0,0,0
+奕yì,"in sequence, orderly",0,0,0,0
+咙lóng,throat,0,0,0,0
+氨ān,ammonia,0,0,0,0
+矗chù,"straight, upright, erect, lofty",0,0,0,0
+盔kuī,helmet,0,0,0,0
+拇mǔ,thumb,0,0,0,0
+沛pèi,"abundant, full, copious",0,0,0,0
+榻tà,"cot, couch, bed",0,0,0,0
+揣chuāi,put things under clothes,0,0,0,0
+崭zhǎn,"high, steep, precipitous",0,0,0,0
+鞘qiào,"scabbard, sheath",0,0,0,0
+鞠jū,"bow, bend",0,0,0,0
+垦kěn,"cultivate, reclaim, to farm land",0,0,0,0
+洽qià,"to blend with, be in harmony",0,0,0,0
+唾tuò,"spit, spit on",0,0,0,0
+橱chú,"cabinet, wardrobe, cupboard",0,0,0,0
+仕shì,official,0,0,0,0
+蜘zhī,spider,0,0,0,0
+痰tán,"phlegm, mucus, spittle",0,0,0,0
+袜wà,"socks, stockings",0,0,0,0
+峙zhì,"stand erect, stand up",0,0,0,0
+柬jiǎn,"letter, invitation",0,0,0,0
+蝉chán,cicada,0,0,0,0
+蟹xiè,"crab, brachyura",0,0,0,0
+谏jiàn,"remonstrate, admonish",0,0,0,0
+鹃juān,cuckoo,0,0,0,0
+擎qíng,"lift up, hold up, support",0,0,0,0
+皓hào,"bright, luminous",0,0,0,0
+朕zhèn,,0,0,0,0
+疤bā,"scar, cicatrix",0,0,0,0
+禺yú,district,0,0,0,0
+铲chǎn,"spade, shovel, trowel, scoop",0,0,0,0
+酶méi,enzymes,0,0,0,0
+钝dùn,"blunt, obtuse",0,0,0,0
+氓máng,people,0,0,0,0
+匣xiá,"small box, case, coffer",0,0,0,0
+弧hú,wooden bow,0,0,0,0
+峨é,lofty,0,0,0,0
+锥zhuī,"gimlet, awl, drill, auger",0,0,0,0
+揪jiū,"grasp with hand, pinch",0,0,0,0
+杠gāng,"lever, pole, crowbar",0,0,0,0
+吭kēng,throat,0,0,0,0
+崛jué,"towering, eminent",0,0,0,0
+诬wū,make false accusation,0,0,0,0
+冉rǎn,tender,0,0,0,0
+抒shū,express,0,0,0,0
+庚gēng,7th heavenly stem,0,0,0,0
+悍hàn,"courageous, brave",0,0,0,0
+靡mí,"divide, disperse, scatter",0,0,0,0
+晦huì,"dark, unclear, obscure",0,0,0,0
+醋cù,vinegar,0,0,0,0
+壕háo,"trench, ditch, channel, moat",0,0,0,0
+锯jù,a saw,0,0,0,0
+夭yāo,"young, fresh-looking",0,0,0,0
+咦yí,exclamation of surprise,0,0,0,0
+侈chǐ,"luxurious, extravagant",0,0,0,0
+婢bì,servant girl,0,0,0,0
+猾huá,"crafty, cunning, shrewd",0,0,0,0
+徘pái,"walk back and forth, hesitate",0,0,0,0
+硝xiāo,"saltpeter, niter",0,0,0,0
+煽shān,"stir up, incite, agitate, provoke",0,0,0,0
+皂zào,soap,0,0,0,0
+舵duò,"rudder, helm",0,0,0,0
+嗦suo,suck,0,0,0,0
+狈bèi,a legendary animal with short forelegs which rode a wolf,0,0,0,0
+靴xuē,boots,0,0,0,0
+捂wǔ,resist,0,0,0,0
+疮chuāng,"tumor, boil, sore, wound",0,0,0,0
+郝hǎo,surname,0,0,0,0
+苛kē,"small, petty",0,0,0,0
+秽huì,"dirty, unclean",0,0,0,0
+茜qiàn,"madder, rubia cordifolia",0,0,0,0
+搓cuō,to rub or roll between the hands,0,0,0,0
+芸yún,"rue, herb used to keep insects away",0,0,0,0
+酱jiàng,any jam-like or paste-like food,0,0,0,0
+赁lìn,"rent, hire",0,0,0,0
+檐yán,eaves of house,0,0,0,0
+饷xiǎng,rations and pay for soldiers,0,0,0,0
+蕉jiāo,banana,0,0,0,0
+铀yóu,uranium,0,0,0,0
+苔tái,"moss, lichen",0,0,0,0
+赦shè,"forgive, remit, pardon",0,0,0,0
+缎duàn,satin,0,0,0,0
+舷xián,"the sides of a boat, bulwarks",0,0,0,0
+筷kuài,chopsticks,0,0,0,0
+朔shuò,first day of lunar month,0,0,0,0
+婪lán,covet,0,0,0,0
+紊wěn,"confused, disorder",0,0,0,0
+厮sī,servant,0,0,0,0
+婿xù,son-in-law,0,0,0,0
+寥liáo,"few, scarce",0,0,0,0
+兢jīng,"fearful, cautious, wary",0,0,0,0
+糙cāo,"coarse, harsh, rough, unpolished rice",0,0,0,0
+卦guà,fortune telling,0,0,0,0
+槐huái,locust tree,0,0,0,0
+扒bā,scratch,0,0,0,0
+裴péi,surname,0,0,0,0
+祀sì,"to sacrifice, worship",0,0,0,0
+埔bù,"plain, arena",0,0,0,0
+絮xù,"waste cotton, raw silk or cotton",0,0,0,0
+芭bā,plantain or banana palm,0,0,0,0
+屉tì,drawer,0,0,0,0
+痪huàn,"paralysis, numbness of limbs",0,0,0,0
+霄xiāo,sky,0,0,0,0
+绽zhàn,"ripped seam, rend, crack",0,0,0,0
+宵xiāo,"night, evening, dark",0,0,0,0
+邑yì,"area, district, city, state",0,0,0,0
+霖lín,"long spell of rain, copious rain",0,0,0,0
+岔chà,"diverge, branch off",0,0,0,0
+饵ěr,bait,0,0,0,0
+茄jiā,eggplant,0,0,0,0
+韧rèn,"strong and pliable, resilient",0,0,0,0
+琪qí,type of jade,0,0,0,0
+邹zōu,name of an ancient state,0,0,0,0
+瑚hú,coral,0,0,0,0
+憋biē,to suppress inner feelings,0,0,0,0
+殆dài,"dangerous, perilous",0,0,0,0
+噜lū,"verbose, talkative",0,0,0,0
+忒tè,excessive,0,0,0,0
+忿fèn,get angry,0,0,0,0
+衅xìn,consecrate sacrificial vessels by smearing blood,0,0,0,0
+淳chún,"honest, simple, unsophisticated",0,0,0,0
+悖bèi,"be contradictory to, go counter",0,0,0,0
+髦máo,flowing hair of young child,0,0,0,0
+孜zī,be as diligent as possible,0,0,0,0
+粤yuè,Guangdong and Guangxi provinces,0,0,0,0
+隘ài,"narrow, confined",0,0,0,0
+濒bīn,"approach, be on verge of",0,0,0,0
+铮zhēng,clanging sound,0,0,0,0
+畸jī,"odd, fractional, remainder, odds",0,0,0,0
+剔tī,pick out,0,0,0,0
+坞wù,"entrenchment, bank, low wall",0,0,0,0
+篱lí,bamboo or wooden fence,0,0,0,0
+淀diàn,"shallow water, swamp",0,0,0,0
+蓦mò,"suddenly, quickly, abruptly",0,0,0,0
+唬hǔ,to intimidate,0,0,0,0
+锣luó,gong,0,0,0,0
+汀tīng,"sandbar, beach, bank, shore",0,0,0,0
+趾zhǐ,toe,0,0,0,0
+缉jī,to sew in close stitches,0,0,0,0
+嫦cháng,name of a moon goddess,0,0,0,0
+斟zhēn,to pour wine or tea into a cup,0,0,0,0
+鞍ān,saddle,0,0,0,0
+扳bān,pull,0,0,0,0
+拴shuān,"bind with rope, fasten",0,0,0,0
+诅zǔ,curse,0,0,0,0
+谟mó,"scheme, plan",0,0,0,0
+呃è,belch,0,0,0,0
+懦nuò,"weak, timid, cowardly",0,0,0,0
+逞chěng,indulge oneself,0,0,0,0
+犁lí,plow,0,0,0,0
+忏chàn,"regret, repent",0,0,0,0
+拧níng,pinch,0,0,0,0
+亥hài,12th terrestrial branch,0,0,0,0
+佟tóng,a name,0,0,0,0
+叱chì,"scold, shout at, bawl out",0,0,0,0
+舜shùn,legendary ruler,0,0,0,0
+绊bàn,"loop, catch",0,0,0,0
+龚gōng,"give, present",0,0,0,0
+腮sāi,lower part of face,0,0,0,0
+邸dǐ,"official residence, residence of",0,0,0,0
+椒jiāo,"pepper, spices",0,0,0,0
+蔚wèi,"luxuriant, thick",0,0,0,0
+湛zhàn,deep,0,0,0,0
+狩shòu,winter hunting,0,0,0,0
+眶kuàng,eye socket,0,0,0,0
+栈zhàn,warehouse,0,0,0,0
+薇wēi,"Osmunda regalis, a species of fern",0,0,0,0
+肮āng,dirty,0,0,0,0
+瀑pù,"waterfall, cascade",0,0,0,0
+渣zhā,"refuse, dregs, lees, sediment",0,0,0,0
+褂guà,"jacket, overcoat, coat",0,0,0,0
+叽jī,sigh in disapproval,0,0,0,0
+臀tún,buttocks,0,0,0,0
+妞niū,girl,0,0,0,0
+巍wēi,"high, lofty, majestic, eminent",0,0,0,0
+唔wú,hold in mouth,0,0,0,0
+疚jiù,"chronic disease, chronic illness",0,0,0,0
+鲤lǐ,carp,0,0,0,0
+戎róng,"arms, armaments",0,0,0,0
+肇zhào,"begin, commence, originate",0,0,0,0
+笃dǔ,"deep, true, sincere, genuine",0,0,0,0
+辙zhé,"wagon ruts, wheel tracks",0,0,0,0
+娴xián,"elegant, refined",0,0,0,0
+阮ruǎn,ancient musical instrument: surname,0,0,0,0
+札zhá,"letter, note",0,0,0,0
+懊ào,"vexed, worried, nervous",0,0,0,0
+焘dào,"shine, illuminate",0,0,0,0
+恤xù,show pity,0,0,0,0
+疹zhěn,measles,0,0,0,0
+潇xiāo,sound of beating wind and rain,0,0,0,0
+铝lǚ,aluminum,0,0,0,0
+涤dí,"wash, cleanse, purify",0,0,0,0
+恃shì,"rely on, presume on, trust to",0,0,0,0
+喽lóu,used in onomatopoetic expressions,0,0,0,0
+砌qì,"to build, pile up",0,0,0,0
+遁dùn,"hide, conceal oneself",0,0,0,0
+楞léng,used for Ceylon in Buddhist texts,0,0,0,0
+阱jǐng,"pitfall, trap, snare",0,0,0,0
+咎jiù,"fault, defect",0,0,0,0
+洼wā,hollow,0,0,0,0
+炳bǐng,"bright, luminous",0,0,0,0
+噬shì,bite,0,0,0,0
+枫fēng,maple tree,0,0,0,0
+拷kǎo,torture and interrogate,0,0,0,0
+哆duō,"tremble, shiver, shudder, quiver",0,0,0,0
+矶jī,jetty,0,0,0,0
+苇wěi,reed,0,0,0,0
+翩piān,"fly, flutter",0,0,0,0
+窒zhì,"stop up, obstruct",0,0,0,0
+侬nóng,I,0,0,0,0
+靶bǎ,target,0,0,0,0
+胰yí,pancreas,0,0,0,0
+芜wú,luxurious growth of weeds,0,0,0,0
+辫biàn,braid,0,0,0,0
+嚎háo,"cry loudly, yell, scream",0,0,0,0
+妾qiè,concubine,0,0,0,0
+幌huǎng,"curtain, cloth screen",0,0,0,0
+踉liáng,"hop, jump",0,0,0,0
+佃diàn,tenant farmer,0,0,0,0
+葫hú,bottle-gourd,0,0,0,0
+皖wǎn,Anhui province,0,0,0,0
+拽zhuāi,"drag, tow",0,0,0,0
+滤lǜ,"strain out, filter",0,0,0,0
+睬cǎi,notice,0,0,0,0
+俞yú,surname,0,0,0,0
+匕bǐ,"spoon, ladle",0,0,0,0
+谤bàng,"slander, libel",0,0,0,0
+嗤chī,"laugh at, ridicule, sneer",0,0,0,0
+捍hàn,"ward off, guard against, defend",0,0,0,0
+孵fū,"sit on eggs, hatch",0,0,0,0
+倪ní,"feeble, tiny, young and weak",0,0,0,0
+瘾yǐn,rash,0,0,0,0
+敝bì,"break, destroy",0,0,0,0
+匡kuāng,"correct, restore, revise",0,0,0,0
+磋cuō,"polish, buff",0,0,0,0
+绫líng,"thin silk, damask silk",0,0,0,0
+淆xiáo,"confused, in disarray, mixed up",0,0,0,0
+尧yáo,a legendary ancient emperor-sage,0,0,0,0
+蕊ruǐ,"unopened flowers, flower buds",0,0,0,0
+烘hōng,"bake, roast",0,0,0,0
+璋zhāng,jade plaything,0,0,0,0
+亢kàng,"high, proud",0,0,0,0
+轧yà,crush by weight,0,0,0,0
+赂lù,bribe,0,0,0,0
+蝗huáng,kind of locust,0,0,0,0
+榆yú,elm tree,0,0,0,0
+骏jùn,"excellent horse, noble steed",0,0,0,0
+诛zhū,"execute, kill, put to death",0,0,0,0
+勺sháo,"spoon, ladle",0,0,0,0
+梵fàn,"Buddhist, Sanskrit",0,0,0,0
+炽chì,"burning-hot, intense",0,0,0,0
+笠lì,bamboo hat,0,0,0,0
+颌hé,mouth,0,0,0,0
+闸zhá,sluice,0,0,0,0
+狒fèi,baboon,0,0,0,0
+樊fán,a railing,0,0,0,0
+镕róng,"fuse, melt, smelt",0,0,0,0
+垢gòu,"dirt, filth, stains",0,0,0,0
+瘟wēn,"epidemic, plague, pestilence",0,0,0,0
+缪móu,"wind around, bind",0,0,0,0
+菇gū,mushrooms,0,0,0,0
+琦qí,"gem, precious stone, jade",0,0,0,0
+剃tì,shave,0,0,0,0
+迸bèng,gush out,0,0,0,0
+溺nì,drown,0,0,0,0
+炫xuàn,"shine, glitter",0,0,0,0
+惚hū,"absent-minded, confused",0,0,0,0
+嗨hāi,an exclamation,0,0,0,0
+陨yǔn,"fall, slip",0,0,0,0
+赃zāng,"booty, loot, stolen goods",0,0,0,0
+羁jī,halter,0,0,0,0
+臻zhēn,"reach, arrive",0,0,0,0
+嘀dí,backbite,0,0,0,0
+膳shàn,"meals, provisions, board",0,0,0,0
+赣gàn,Jiangxi province,0,0,0,0
+踌chóu,"hesitate, falter",0,0,0,0
+殉xùn,"die for cause, be martyr for",0,0,0,0
+桔jú,Chinese bellflower,0,0,0,0
+瞿qú,surname,0,0,0,0
+闽mǐn,fujian province,0,0,0,0
+豚tún,"small pig, suckling pig",0,0,0,0
+掺càn,"mix, blend, adulterate",0,0,0,0
+沌dùn,"chaotic, confused",0,0,0,0
+惰duò,"indolent, careless, lazy, idle",0,0,0,0
+喳zhā,whispering,0,0,0,0
+椭tuǒ,"oval-shaped, elliptical, tubular",0,0,0,0
+咪mī,,0,0,0,0
+霎shà,"light rain, drizzle",0,0,0,0
+侃kǎn,upright and strong,0,0,0,0
+猝cù,"abruptly, suddenly",0,0,0,0
+窖jiào,"pit, cellar",0,0,0,0
+戮lù,"kill, massacre",0,0,0,0
+祠cí,ancestral temple,0,0,0,0
+瞩zhǔ,"watch carefully, stare at, focus on",0,0,0,0
+菁jīng,flower of leek family,0,0,0,0
+躇chú,"hesitate, falter, be undecided",0,0,0,0
+佬lǎo,"(Cant.) man, person",0,0,0,0
+肋lē,ribs,0,0,0,0
+咄duō,"noise of rage, cry out in anger",0,0,0,0
+忡chōng,"a sad, uneasy countenance",0,0,0,0
+雍yōng,"harmony, union",0,0,0,0
+忱chén,"truth, sincerity",0,0,0,0
+蕾lěi,"buds, unopened flowers",0,0,0,0
+跄qiāng,walk rapidly,0,0,0,0
+硅guī,silicon,0,0,0,0
+伎jì,"talent, skill, ability",0,0,0,0
+炊chuī,cook,0,0,0,0
+钊zhāo,"endeavor, strive",0,0,0,0
+蝠fú,kind of bat,0,0,0,0
+屎shǐ,"excrement, shit, dung",0,0,0,0
+拭shì,wipe away stains with cloth,0,0,0,0
+谛dì,"careful, attentive",0,0,0,0
+褪tuì,"strip, undress",0,0,0,0
+丞chéng,"assist, aid, rescue",0,0,0,0
+卉huì,general term for plants,0,0,0,0
+隧suì,"tunnel, underground passageway, path to a tomb",0,0,0,0
+茸rōng,"soft, downy",0,0,0,0
+钳qián,"pincers, pliers, tongs",0,0,0,0
+啃kěn,"gnaw, chew, bite",0,0,0,0
+伢yá,child,0,0,0,0
+闺guī,,0,0,0,0
+舔tiǎn,lick with tongue,0,0,0,0
+蹬dēng,"step on, tread on",0,0,0,0
+挛luán,tangled,0,0,0,0
+眺tiào,"look at, gaze at, scan, survey",0,0,0,0
+袱fú,a piece of cloth used wrap bundles,0,0,0,0
+陇lǒng,mountain located between Shanxi,0,0,0,0
+殴ōu,"beat, fight with fists, hit",0,0,0,0
+柿shì,persimmon,0,0,0,0
+梧wú,"Chinese parasoltree, Sterculia platanifolia",0,0,0,0
+惺xīng,"intelligent, clever, astute",0,0,0,0
+弛chí,"loosen, relax, unstring a bow",0,0,0,0
+侥jiǎo,be lucky,0,0,0,0
+琛chēn,"treasure, valuables",0,0,0,0
+捅tǒng,jab,0,0,0,0
+酝yùn,"liquor, spirits, wine",0,0,0,0
+薯shǔ,"yam, tuber, potato",0,0,0,0
+曳yè,"trail, tow, drag, pull",0,0,0,0
+澈chè,"thoroughly, completely",0,0,0,0
+锈xiù,"rust, corrode",0,0,0,0
+稠chóu,"dense, crowded, packed",0,0,0,0
+眸móu,pupil of eye,0,0,0,0
+咆páo,roar,0,0,0,0
+簧huáng,reed of woodwind instrument,0,0,0,0
+鸥ōu,"seagull, tern",0,0,0,0
+疡yáng,"ulcers, sores",0,0,0,0
+渎dú,"ditch, sluice, gutter, drain",0,0,0,0
+汲jí,draw water from well,0,0,0,0
+嬉xī,enjoy,0,0,0,0
+脓nóng,pus,0,0,0,0
+骡luó,mule,0,0,0,0
+穗suì,ear of grain,0,0,0,0
+槛kǎn,"threshold, door-sill",0,0,0,0
+拎līn,to haul,0,0,0,0
+巳sì,the hours from 9 to 11,0,0,0,0
+邢xíng,,0,0,0,0
+廿niàn,"twenty, twentieth",0,0,0,0
+搀chān,give helping hand,0,0,0,0
+曙shǔ,"bright, light of rising sun",0,0,0,0
+樵qiáo,woodcutter,0,0,0,0
+隅yú,"corner, nook, remote place",0,0,0,0
+筛shāi,"sieve, filter, screen",0,0,0,0
+谒yè,"visit, pay respects",0,0,0,0
+倭wō,dwarf,0,0,0,0
+痹bì,"paralysis, numbness",0,0,0,0
+猖chāng,"mad, wild, reckless, unruly",0,0,0,0
+佯yáng,"pretend, feign",0,0,0,0
+肛gāng,anus,0,0,0,0
+奚xī,where? what? how? why?,0,0,0,0
+甭béng,there is no need,0,0,0,0
+抨pēng,"impeach, censure",0,0,0,0
+蛾é,moth,0,0,0,0
+唠láo,"chat, jaw, gossip, talk",0,0,0,0
+荧yíng,"shine, shimmer",0,0,0,0
+嵩sōng,"high, lofty",0,0,0,0
+漱shù,"gargle, rinse",0,0,0,0
+酋qiú,"chief of tribe, chieftain",0,0,0,0
+攘rǎng,"seize, take by force",0,0,0,0
+诘jí,"question, interrogate",0,0,0,0
+篡cuàn,usurp,0,0,0,0
+睿ruì,"shrewd, astute, clever, keen",0,0,0,0
+噩è,"bad, ill-omened, unlucky",0,0,0,0
+怅chàng,"disappointed, dissatisfied",0,0,0,0
+盎àng,cup,0,0,0,0
+徙xǐ,,0,0,0,0
+鞅yāng,,0,0,0,0
+漓lí,river in Guangxi province,0,0,0,0
+祟suì,evil spirit,0,0,0,0
+睫jié,eyelashes,0,0,0,0
+攸yōu,"distant, far",0,0,0,0
+翎líng,feather,0,0,0,0
+呛qiāng,choke by smoke,0,0,0,0
+筐kuāng,bamboo basket or chest,0,0,0,0
+堑qiàn,"moat, trench, pit, cavity",0,0,0,0
+檀tán,"sandalwood, hardwood",0,0,0,0
+寅yín,"to respect, reverence",0,0,0,0
+磊lěi,pile of rocks or stones,0,0,0,0
+驭yù,"drive, ride",0,0,0,0
+惘wǎng,"disconcerted, dejected, discouraged",0,0,0,0
+吠fèi,bark,0,0,0,0
+驮tuó,carry on back,0,0,0,0
+瑙nǎo,agate,0,0,0,0
+炬jù,torch,0,0,0,0
+痉jìng,"convulsions, fits",0,0,0,0
+曝pù,"sun, air in sun, expose or dry in the sun",0,0,0,0
+恺kǎi,"enjoy, be contented, joyful",0,0,0,0
+胺àn,amine,0,0,0,0
+萤yíng,"glow-worm, luminous insect",0,0,0,0
+敕chì,an imperial order or decree,0,0,0,0
+筝zhēng,stringed musical instrument,0,0,0,0
+幡fān,"pennant, banner, streamer, flag",0,0,0,0
+霹pī,"thunder, crashing thunder",0,0,0,0
+竺zhú,India,0,0,0,0
+烙lào,"brand, burn",0,0,0,0
+毗pí,"help, assist",0,0,0,0
+鸠jiū,pigeon,0,0,0,0
+埠bù,port city,0,0,0,0
+蒜suàn,garlic,0,0,0,0
+阜fù,mound,0,0,0,0
+嘈cáo,noisy,0,0,0,0
+乒pīng,used with pong for ping pong,0,0,0,0
+帷wéi,tent,0,0,0,0
+啄zhuó,to peck,0,0,0,0
+鳌áo,huge sea turtle,0,0,0,0
+毡zhān,felt,0,0,0,0
+阙quē,watch tower,0,0,0,0
+褥rù,"mattress, cushion",0,0,0,0
+搔sāo,to scratch,0,0,0,0
+笋sǔn,bamboo shoots,0,0,0,0
+冕miǎn,crown,0,0,0,0
+狞níng,ferocious appearance,0,0,0,0
+韶sháo,music of the emperor Shun,0,0,0,0
+骼gé,bone,0,0,0,0
+蔼ǎi,lush,0,0,0,0
+烹pēng,"boil, cook",0,0,0,0
+奄yǎn,ere long,0,0,0,0
+嫖piáo,"patronize prostitutes, frequent",0,0,0,0
+沐mù,"bathe, cleanse, wash, shampoo",0,0,0,0
+噗pū,burst,0,0,0,0
+岑cén,"steep, precipitous",0,0,0,0
+蛟jiāo,scaly dragon with four legs,0,0,0,0
+掳lǔ,"capture, seize",0,0,0,0
+咏yǒng,"sing song or poem, hum, chant",0,0,0,0
+弩nǔ,"cross-bow, bow",0,0,0,0
+捻niǎn,to twist or nip with the fingers,0,0,0,0
+圃pǔ,"garden, cultivated field",0,0,0,0
+孚fú,brood over eggs,0,0,0,0
+悴cuì,"suffer, become emaciated, haggard",0,0,0,0
+诣yì,reach,0,0,0,0
+呱gū,"wail, crying of child",0,0,0,0
+祁qí,pray,0,0,0,0
+捶chuí,"strike with stick, lash, beat",0,0,0,0
+钠nà,"sodium, natrium",0,0,0,0
+袄ǎo,outer garments,0,0,0,0
+澎pēng,splatter,0,0,0,0
+氮dàn,nitrogen,0,0,0,0
+恪kè,"respectful, reverent",0,0,0,0
+雏chú,"chick, fledging",0,0,0,0
+撮cuō,"little bit, small amount, pinch",0,0,0,0
+堰yàn,dam,0,0,0,0
+彷fǎng,"like, resembling",0,0,0,0
+鹦yīng,parrot,0,0,0,0
+晖huī,sunshine,0,0,0,0
+犀xī,rhinoceros,0,0,0,0
+腑fǔ,"bowels, entrails, internal organs",0,0,0,0
+沽gū,buy and sell,0,0,0,0
+橄gǎn,olive,0,0,0,0
+掐qiā,hold,0,0,0,0
+亵xiè,"slight, insult, treat with disrespect",0,0,0,0
+龋qǔ,tooth decay,0,0,0,0
+嗒dā,absent-minded,0,0,0,0
+咀jǔ,suck,0,0,0,0
+祺qí,"good luck, good fortune",0,0,0,0
+锚máo,anchor,0,0,0,0
+匾biǎn,"flat, round split-bamboo contain",0,0,0,0
+乓pāng,used with ping for ping pong,0,0,0,0
+萃cuì,"dense, thick, close-set",0,0,0,0
+贻yí,"give to, hand down, bequeath",0,0,0,0
+揖yī,"salute, bow",0,0,0,0
+觑qù,peep at,0,0,0,0
+吝lìn,"stingy, miserly, parsimonious",0,0,0,0
+憔qiáo,"be worn-out, emaciated, haggard",0,0,0,0
+羌qiāng,Qiang nationality,0,0,0,0
+诲huì,"teach, instruct",0,0,0,0
+砾lì,"gravel, pebbles",0,0,0,0
+蠕rú,"eumenes polifomis, kind of wasp",0,0,0,0
+肴yáo,cooked or prepared meat,0,0,0,0
+撩liāo,"lift up, raise",0,0,0,0
+坍tān,collapse,0,0,0,0
+酥sū,butter,0,0,0,0
+袅niǎo,curling upwards,0,0,0,0
+黝yǒu,black,0,0,0,0
+俾bǐ,"so that, in order that",0,0,0,0
+嫣yān,"charming, fascinating",0,0,0,0
+穹qióng,high and vast,0,0,0,0
+秧yāng,"rice seedlings, young rice plants",0,0,0,0
+妊rèn,"conceive, be pregnant",0,0,0,0
+溉gài,"water, irrigate, flood",0,0,0,0
+鹊què,magpie,0,0,0,0
+聿yù,"writing brush, pencil",0,0,0,0
+疙gē,"pimple, sore, boil, wart, pustule",0,0,0,0
+蘑mó,type of edible mushroom,0,0,0,0
+睾gāo,testicle,0,0,0,0
+楷kǎi,model style of Chinese writing,0,0,0,0
+酵jiào,"yeast, leaven",0,0,0,0
+茹rú,roots,0,0,0,0
+锌xīn,zinc,0,0,0,0
+滇diān,Yunnan province,0,0,0,0
+辗niǎn,"turn over, roll",0,0,0,0
+纂zuǎn,"edit, compile",0,0,0,0
+圭guī,jade pointed at top,0,0,0,0
+幔màn,"curtain, screen, tent",0,0,0,0
+褒bāo,"praise, commend, honor, cite",0,0,0,0
+揍zòu,"hit, beat",0,0,0,0
+诽fěi,"slander, vilify, condemn",0,0,0,0
+倔jué,"stubborn, obstinate, intransigent",0,0,0,0
+腓féi,calf,0,0,0,0
+颉jié,"fly upward, soar",0,0,0,0
+锄chú,hoe,0,0,0,0
+嗔chēn,"be angry at, scold, rebuke",0,0,0,0
+磺huáng,sulphur,0,0,0,0
+攒zǎn,"save, hoard",0,0,0,0
+瘩da,pimples,0,0,0,0
+雳lì,"thunderclap, crashing thunder",0,0,0,0
+吆yāo,"bawl, yell, shout, cry out",0,0,0,0
+悚sǒng,"afraid, scared, frightened",0,0,0,0
+墩dūn,"heap, mound, block of stone",0,0,0,0
+彝yí,Yi (nationality),0,0,0,0
+囱cōng,chimney,0,0,0,0
+逍xiāo,"ramble, stroll, jaunt, loiter",0,0,0,0
+辄zhé,sides of chariot where weapons,0,0,0,0
+桅wéi,mast of ship,0,0,0,0
+俨yǎn,"grave, respectful, majestic",0,0,0,0
+纶lún,green silk thread or tassel,0,0,0,0
+悸jì,"fearful, apprehensive, perturbed",0,0,0,0
+殃yāng,"misfortune, disaster, calamity",0,0,0,0
+帧zhèng,"picture, scroll",0,0,0,0
+俐lì,smooth,0,0,0,0
+绮qǐ,fine thin silk,0,0,0,0
+袒tǎn,strip,0,0,0,0
+籽zǐ,"seed, pip, pit, stone",0,0,0,0
+孰shú,who? which? what? which one?,0,0,0,0
+愫sù,"guileless, sincere, honest",0,0,0,0
+拌bàn,mix,0,0,0,0
+橙chéng,orange,0,0,0,0
+暨jì,and,0,0,0,0
+敖áo,"ramble, play about",0,0,0,0
+赘zhuì,"unnecessary, superfluous",0,0,0,0
+抉jué,"choose, select",0,0,0,0
+淤yū,"mud, sediment",0,0,0,0
+剌lá,"slash, cut in two",0,0,0,0
+娼chāng,"prostitute, harlot",0,0,0,0
+顼xū,grieved,0,0,0,0
+葵kuí,sunflower,0,0,0,0
+哝nóng,whisper,0,0,0,0
+酣hān,enjoy intoxicants,0,0,0,0
+麓lù,foot of hill,0,0,0,0
+钵bō,earthenware basin,0,0,0,0
+琅láng,a variety of white carnelian,0,0,0,0
+簸bǒ,winnower,0,0,0,0
+禾hé,grain still on stalk,0,0,0,0
+铢zhū,"unit of weight, one twenty-fourth of a Chinese ounce (liang)",0,0,0,0
+璧bì,piece of jade with hole in it,0,0,0,0
+娠shēn,pregnant,0,0,0,0
+彗huì,broomstick,0,0,0,0
+惋wǎn,"regret, be sorry",0,0,0,0
+腋yè,armpit,0,0,0,0
+螂láng,"mantis, dung beetle",0,0,0,0
+阪bǎn,hillside farmland,0,0,0,0
+掣chè,"drag, pull",0,0,0,0
+劾hé,"examine into, impeach, charge",0,0,0,0
+沥lì,"trickle, drip",0,0,0,0
+粱liáng,better varieties of millet,0,0,0,0
+嚓cā,a cracking or snapping sound,0,0,0,0
+惮dàn,"dread, shrink from, shirk, fear",0,0,0,0
+氖nǎi,neon,0,0,0,0
+捎shāo,to select,0,0,0,0
+羔gāo,"lamb, kid",0,0,0,0
+俟qí,"wait for, wait until, as soon as",0,0,0,0
+渲xuàn,add repeated washes of color,0,0,0,0
+榄lǎn,olive,0,0,0,0
+茧jiǎn,cocoon,0,0,0,0
+霓ní,rainbow,0,0,0,0
+鹉wǔ,species of parrot,0,0,0,0
+胥xū,"all, together, mutually",0,0,0,0
+琶pá,guitar-like instrument,0,0,0,0
+撬qiào,"lift, raise",0,0,0,0
+橘jú,"orange, tangerine",0,0,0,0
+醫yī,"cure, heal",0,0,0,0
+拈niān,pick up with fingers,0,0,0,0
+笆bā,bamboo fence,0,0,0,0
+痊quán,"be healed, be cured",0,0,0,0
+亟jí,"urgently, immediately, extremely",0,0,0,0
+渭wèi,name of a river in Shanxi,0,0,0,0
+狙jū,"an ape, monkey",0,0,0,0
+珂kē,inferior kind of jade,0,0,0,0
+刨páo,,0,0,0,0
+蜕tuì,molt,0,0,0,0
+谚yàn,"proverb, maxim",0,0,0,0
+憧chōng,"irresolute, indecisive",0,0,0,0
+瞟piǎo,glare at,0,0,0,0
+馒mán,steamed bread,0,0,0,0
+拗ǎo,"to pull, drag, break off, to pluck (a flower)",0,0,0,0
+帚zhǒu,"broom, broomstick",0,0,0,0
+钗chāi,ornamental hairpin,0,0,0,0
+哧chī,sound of ripping or giggling,0,0,0,0
+喋dié,nag,0,0,0,0
+箫xiāo,bamboo flute,0,0,0,0
+刁diāo,"tricky, sly, crafty, cunning",0,0,0,0
+怦pēng,"eager, ardent, impulsive",0,0,0,0
+缭liáo,"wind round, rap around, bind",0,0,0,0
+迥jiǒng,"distant, far",0,0,0,0
+湄méi,,0,0,0,0
+磐pán,"large rock, boulder",0,0,0,0
+渝yú,change,0,0,0,0
+冗rǒng,excessive,0,0,0,0
+闵mǐn,"mourn, grieve",0,0,0,0
+噶gá,used in transliterations,0,0,0,0
+黏nián,stick to,0,0,0,0
+蕃fān,foreign things,0,0,0,0
+弼bì,"aid, assist, help",0,0,0,0
+驿yì,relay station,0,0,0,0
+淄zī,river in Shandong province,0,0,0,0
+饺jiǎo,stuffed dumplings,0,0,0,0
+踞jù,"crouch, squat",0,0,0,0
+韬tāo,"sheath, scabbard, bow case",0,0,0,0
+婷tíng,pretty,0,0,0,0
+唆suō,"make mischief, incite, instigate",0,0,0,0
+蜒yán,millipede,0,0,0,0
+偎wēi,"cling to, cuddle, embrace, fondle",0,0,0,0
+榨zhà,to press or extract juices,0,0,0,0
+漉lù,"filter, strain",0,0,0,0
+碉diāo,room made of stone,0,0,0,0
+皈guī,"follow, comply with",0,0,0,0
+矜jīn,"pity, feel sorry for, show sympat",0,0,0,0
+笈jí,bamboo box used carry books,0,0,0,0
+枷jiā,cangue scaffold,0,0,0,0
+鲨shā,shark,0,0,0,0
+蹑niè,"tread, step on",0,0,0,0
+瀚hàn,"vast, wide, extensive",0,0,0,0
+酪lào,"cream, cheese",0,0,0,0
+谑xuè,jeer,0,0,0,0
+癖pǐ,"craving, weakness for",0,0,0,0
+烬jìn,"cinders, ashes, embers",0,0,0,0
+揩kāi,"rub and wipe, dust, clean",0,0,0,0
+炙zhì,"roast, broil",0,0,0,0
+蜷quán,,0,0,0,0
+侏zhū,"small, little, tiny, dwarf",0,0,0,0
+凋diāo,"be withered, fallen",0,0,0,0
+漪yī,ripples on water,0,0,0,0
+悻xìng,"anger, vexation",0,0,0,0
+蹋tà,"step on, tread on",0,0,0,0
+讪shàn,"abuse, slander",0,0,0,0
+搐chù,"cramp, spasm, convulsion",0,0,0,0
+碘diǎn,iodine,0,0,0,0
+帛bó,"silks, fabrics",0,0,0,0
+诠quán,"explain, expound, comment on",0,0,0,0
+碾niǎn,"roller, crush",0,0,0,0
+擂léi,"rub, grind",0,0,0,0
+苯běn,benzene,0,0,0,0
+诃hē,"scold loudly, curse, abuse",0,0,0,0
+铎duó,bell,0,0,0,0
+戊wù,5th heavenly stem,0,0,0,0
+荀xún,surname,0,0,0,0
+驹jū,colt,0,0,0,0
+攫jué,"snatch away, seize",0,0,0,0
+憬jǐng,"rouse, awaken",0,0,0,0
+哽gěng,choke (with grief),0,0,0,0
+踵zhǒng,heel,0,0,0,0
+蟒mǎng,"python, boa constrictor",0,0,0,0
+漾yàng,overflow,0,0,0,0
+啧zé,interjection of approval or admiration,0,0,0,0
+吮shǔn,"suck with mouth, sip, lick",0,0,0,0
+楠nán,"name of tree, machilus nanmu",0,0,0,0
+氟fú,fluorine,0,0,0,0
+怂sǒng,"instigate, arouse, incite",0,0,0,0
+叼diāo,holding in mouth,0,0,0,0
+竣jùn,"terminate, end, finish",0,0,0,0
+偕xié,together,0,0,0,0
+漩xuán,"eddy, whirlpool",0,0,0,0
+蹭cèng,"to shuffle, procrastinate, dilly-dally",0,0,0,0
+翌yì,bright,0,0,0,0
+臆yì,"chest, breast, bosom",0,0,0,0
+挝wō,to beat,0,0,0,0
+绚xuàn,"variegated, adorned",0,0,0,0
+崽zǎi,"a child, a servant",0,0,0,0
+糜mí,"rice gruel, congee",0,0,0,0
+瘢bān,"scar, mole",0,0,0,0
+跤jiāo,"stumble, fall down",0,0,0,0
+阑lán,door screen,0,0,0,0
+恬tián,"quiet, calm, tranquil, peaceful",0,0,0,0
+豢huàn,domestic animals,0,0,0,0
+汶wèn,a river in Shandong province,0,0,0,0
+跷qiāo,,0,0,0,0
+琵pí,guitar-like instrument,0,0,0,0
+憨hān,"foolish, silly, coquettish",0,0,0,0
+蜗wō,"a snail, Eulota callizoma",0,0,0,0
+螅xī,intestinal worm,0,0,0,0
+惴zhuì,"afraid, apprehensive, nervous",0,0,0,0
+戟jǐ,halberd with crescent blade,0,0,0,0
+匮kuì,to lack,0,0,0,0
+恙yàng,"illness, sickness",0,0,0,0
+抿mǐn,pucker up lips in smile,0,0,0,0
+桢zhēn,hardwood,0,0,0,0
+笺jiān,"note, memo",0,0,0,0
+蛤há,clam,0,0,0,0
+瞳tóng,pupil of eye,0,0,0,0
+藥yào,"drugs, pharmaceuticals, medicine",0,0,0,0
+瓢piáo,ladle made from dried gourd,0,0,0,0
+衹zhǐ,"only, merely, but",0,0,0,0
+秤chèng,"balance, scale, steelyard",0,0,0,0
+跺duò,"stamp feet, step",0,0,0,0
+潦lǎo,to flood,0,0,0,0
+芹qín,celery,0,0,0,0
+哒dā,a sound made to get a horse to move forward,0,0,0,0
+饬chì,order,0,0,0,0
+栩xǔ,species of oak,0,0,0,0
+曦xī,"sunlight, sunshine, early dawn",0,0,0,0
+骷kū,skeleton,0,0,0,0
+嫡dí,"legal wife, child of legal wife",0,0,0,0
+卤lǔ,salt,0,0,0,0
+丕pī,"great, grand, glorious, distinguished",0,0,0,0
+鬓bìn,hair on temples,0,0,0,0
+梓zǐ,catalpa ovata,0,0,0,0
+嗖sōu,whizzing sound,0,0,0,0
+惦diàn,"think of, remember, miss",0,0,0,0
+浚jùn,dredge,0,0,0,0
+咔kā,used in translation,0,0,0,0
+藐miǎo,"disregard, slight, disdain",0,0,0,0
+荃quán,aromatic herb,0,0,0,0
+唧jī,chirping of insects,0,0,0,0
+玺xǐ,"imperial signet, royal signet",0,0,0,0
+汛xùn,"high water, flood tides",0,0,0,0
+铐kào,"shackles, manacles",0,0,0,0
+髅lóu,skull,0,0,0,0
+渤bó,swelling,0,0,0,0
+皿mǐn,shallow container,0,0,0,0
+箍gū,hoop,0,0,0,0
+馅xiàn,"filling, stuffing",0,0,0,0
+汾fén,river in Shanxi province,0,0,0,0
+戍shù,"defend borders, guard frontiers",0,0,0,0
+痔zhì,"hemorrhoids, piles",0,0,0,0
+褶zhě,"pleat, crease, wrinkles",0,0,0,0
+聆líng,"listen, hear",0,0,0,0
+涎xián,saliva,0,0,0,0
+汞gǒng,element mercury,0,0,0,0
+渍zì,"soak, steep",0,0,0,0
+奂huàn,"be numerous, brilliant",0,0,0,0
+巅diān,"summit of mountain, mountain top",0,0,0,0
+疣yóu,wart,0,0,0,0
+傩nuó,rich,0,0,0,0
+逵kuí,"thoroughfare, crossroads",0,0,0,0
+耆qí,man of sixty,0,0,0,0
+蟋xī,cricket,0,0,0,0
+鳄è,alligator,0,0,0,0
+讹é,"swindle, cheat",0,0,0,0
+膺yīng,"breast, chest",0,0,0,0
+蹿cuān,leap,0,0,0,0
+筏fá,raft,0,0,0,0
+釜fǔ,"cauldron, pot, kettle",0,0,0,0
+沂yí,river in southeast Shandong,0,0,0,0
+坯pī,"dam, embankment",0,0,0,0
+峦luán,mountain range,0,0,0,0
+茬chá,harvest,0,0,0,0
+摒bǐng,"expel, cast off",0,0,0,0
+蟀shuài,cricket,0,0,0,0
+撵niǎn,"drive away, expel, oust",0,0,0,0
+浒hǔ,"riverbank, shore",0,0,0,0
+缤bīn,"flourishing, thriving, abundant",0,0,0,0
+嵋méi,Omei mountain in Sichuan,0,0,0,0
+珑lóng,a gem cut like dragon,0,0,0,0
+苞bāo,a variety of rush,0,0,0,0
+瑾jǐn,brilliance of gems,0,0,0,0
+泵bèng,pump,0,0,0,0
+钾jiǎ,potassium,0,0,0,0
+暧ài,"obscure, dim, ambiguous, vague",0,0,0,0
+赓gēng,continue,0,0,0,0
+叟sǒu,old man,0,0,0,0
+佚yì,indulge in pleasures,0,0,0,0
+沓dá,"connected, joined",0,0,0,0
+撂liào,"put down, put aside",0,0,0,0
+蛊gǔ,poison,0,0,0,0
+甥shēng,,0,0,0,0
+璐lù,beautiful variety of jade,0,0,0,0
+晏yàn,"peaceful, quiet",0,0,0,0
+瘪biě,"shrivelled up, dried up",0,0,0,0
+漳zhāng,name of a river in Henan,0,0,0,0
+阉yān,castrate,0,0,0,0
+蹂róu,"trample under foot, tread on",0,0,0,0
+鳃sāi,fish gills,0,0,0,0
+琏liǎn,vessel used to hold grain offerings,0,0,0,0
+湃pài,sound of waves,0,0,0,0
+辘lù,"windlass, pulley, capstan",0,0,0,0
+僭jiàn,"assume, usurp",0,0,0,0
+躏lìn,"trample down, oppress, overrun",0,0,0,0
+鼾hān,snore loudly,0,0,0,0
+懵měng,"stupid, ignorant, dull",0,0,0,0
+镰lián,sickle,0,0,0,0
+寐mèi,sleep,0,0,0,0
+褚chǔ,"bag, valise",0,0,0,0
+攥zuàn,(coll.) hold,0,0,0,0
+涧jiàn,"brook, mountain stream",0,0,0,0
+蝙biān,bat,0,0,0,0
+脐qí,abdominal area of crab,0,0,0,0
+辕yuán,,0,0,0,0
+涣huàn,scatter,0,0,0,0
+杞qǐ,willow,0,0,0,0
+煜yù,"bright, shining, brilliant",0,0,0,0
+骥jì,thoroughbred horse,0,0,0,0
+傣dǎi,the Dai minority living in South China,0,0,0,0
+嗳āi,interjection,0,0,0,0
+祯zhēn,"lucky, auspicious, good omen",0,0,0,0
+酉yǒu,10th terrestrial branch,0,0,0,0
+秸jiē,"stalks of millet, corn",0,0,0,0
+捺nà,to press down heavily with the fingers,0,0,0,0
+瑕xiá,flaw in gem,0,0,0,0
+鑫xīn,used in names,0,0,0,0
+馋chán,"gluttonous, greedy",0,0,0,0
+窿lóng,mine shaft,0,0,0,0
+楔xiē,wedge,0,0,0,0
+胱guāng,bladder,0,0,0,0
+荔lì,lichee,0,0,0,0
+蟆má,"frog, toad",0,0,0,0
+湍tuān,"rapid water current, rapids",0,0,0,0
+屹yì,to rise high,0,0,0,0
+遐xiá,"afar, distant",0,0,0,0
+轲kē,axle,0,0,0,0
+镯zhuó,"bracelet, armband",0,0,0,0
+缰jiāng,"reins, bridle",0,0,0,0
+桦huà,type of birch,0,0,0,0
+炖dùn,heat with fire,0,0,0,0
+钡bèi,barium,0,0,0,0
+羚líng,species of antelope,0,0,0,0
+啬sè,"miserly, thrifty",0,0,0,0
+诩xǔ,"boast, brag",0,0,0,0
+绯fēi,"scarlet, dark red, crimson",0,0,0,0
+掖yē,support with the arms,0,0,0,0
+箓lù,book,0,0,0,0
+涸hé,dried up,0,0,0,0
+鸳yuān,male mandarin duck (Aix galericulata),0,0,0,0
+塾shú,village school,0,0,0,0
+呸pēi,expression of reprimand,0,0,0,0
+抡lūn,"swing, brandish, flourish",0,0,0,0
+擞sǒu,"shake, tremble, quake",0,0,0,0
+熹xī,"dim light, glimmer",0,0,0,0
+坷kě,"clod of earth, lump of soil",0,0,0,0
+瓮wèng,earthen jar,0,0,0,0
+亘gèn,"extend across, through",0,0,0,0
+嗟jiē,"sigh, alas",0,0,0,0
+筵yán,bamboo mat,0,0,0,0
+跛bǒ,lame,0,0,0,0
+汕shàn,basket for catching fish,0,0,0,0
+欤yú,"a final particle used to express admiration, doubt, surprise, or to mark a question",0,0,0,0
+壑hè,"bed of torrent, narrow ravine",0,0,0,0
+颍yǐng,river in Anhui,0,0,0,0
+溥pǔ,"big, great, vast, wide",0,0,0,0
+姗shān,slander,0,0,0,0
+踊yǒng,"leap, jump",0,0,0,0
+枭xiāo,"owl thus, something evil",0,0,0,0
+暄xuān,"warm, comfortable",0,0,0,0
+稷jì,god of cereals,0,0,0,0
+跚shān,"stagger, limp",0,0,0,0
+涟lián,flowing water,0,0,0,0
+瀛yíng,"sea, ocean",0,0,0,0
+笙shēng,small gourd-shaped musical instrument,0,0,0,0
+滕téng,an ancient state in Shandong province,0,0,0,0
+踝huái,ankle,0,0,0,0
+贰èr,number two,0,0,0,0
+瞰kàn,"watch, spy",0,0,0,0
+恻cè,"feel anguish, feel compassion",0,0,0,0
+嚏tì,sneeze,0,0,0,0
+迢tiáo,far,0,0,0,0
+獗jué,"unruly, wild, violent, lawless",0,0,0,0
+邯hán,city in Hebei province,0,0,0,0
+睑jiǎn,eyelid,0,0,0,0
+赡shàn,"support, aid",0,0,0,0
+萦yíng,"entangle, entwine, coil",0,0,0,0
+珥ěr,ear ornament,0,0,0,0
+酮tóng,ketones,0,0,0,0
+璞pú,"unpolished gem, uncarved gem",0,0,0,0
+羹gēng,"soup, broth",0,0,0,0
+缄jiān,"seal, close",0,0,0,0
+晾liàng,air-dry,0,0,0,0
+俸fèng,"wages, salary, official emolument",0,0,0,0
+媲pì,"marry off, pair, match",0,0,0,0
+鸾luán,fabulous bird,0,0,0,0
+恿yǒng,"instigate, incite",0,0,0,0
+蜿wān,"creep, crawl",0,0,0,0
+犊dú,calf,0,0,0,0
+讷nè,slow of speech,0,0,0,0
+扈hù,"escort, retinue",0,0,0,0
+蜈wú,centipede,0,0,0,0
+翟dí,surname,0,0,0,0
+藕ǒu,lotus root,0,0,0,0
+戌xū,11th terrestrial branch,0,0,0,0
+蓓bèi,bud,0,0,0,0
+鋆yún,gold,0,0,0,0
+谩mán,"deceive, insult",0,0,0,0
+谀yú,"flatter, truckle",0,0,0,0
+卯mǎo,4th terrestrial branch,0,0,0,0
+谙ān,"versed in, fully acquainted with",0,0,0,0
+岐qí,high,0,0,0,0
+蝎xiē,scorpion,0,0,0,0
+荼tú,bitter vegetable,0,0,0,0
+镀dù,"plate, coat, gild",0,0,0,0
+椰yē,"palm tree, coconut palm",0,0,0,0
+甄zhēn,"to examine, discern",0,0,0,0
+蟾chán,toad,0,0,0,0
+蹊qī,"footpath, trail",0,0,0,0
+泞nìng,mud,0,0,0,0
+撸lū,,0,0,0,0
+螃páng,crab,0,0,0,0
+檬méng,type of locust oracacia,0,0,0,0
+猓guǒ,monkey,0,0,0,0
+蔷qiáng,rose,0,0,0,0
+羲xī,ancient emperor,0,0,0,0
+瘸qué,"lameness, paralysis of hands, leg",0,0,0,0
+蘸zhàn,dip (a brush),0,0,0,0
+蔗zhè,sugar cane,0,0,0,0
+傀guī,"great, gigantic",0,0,0,0
+蚌bàng,"oysters, mussels",0,0,0,0
+锢gù,run metal into cracks,0,0,0,0
+遽jù,"suddenly, unexpectedly",0,0,0,0
+邃suì,"profound, detailed",0,0,0,0
+恚huì,"anger, rage",0,0,0,0
+皑ái,brilliant white,0,0,0,0
+锵qiāng,"tinkle, clang, jingle",0,0,0,0
+簌sù,(of flower petals) falling,0,0,0,0
+焙bèi,dry over slow fire,0,0,0,0
+昊hào,summer time,0,0,0,0
+鹳guàn,"crane, grus japonensis",0,0,0,0
+睽kuí,staring,0,0,0,0
+刽guì,"amputate, cut off",0,0,0,0
+鳖biē,turtle,0,0,0,0
+噎yē,choke,0,0,0,0
+呗bei,final particle of assertion,0,0,0,0
+寰huán,"great domain, country, world",0,0,0,0
+唷yō,final particle,0,0,0,0
+殡bìn,encoffin,0,0,0,0
+淖nào,slush,0,0,0,0
+诰gào,"inform, notify, admonish, order",0,0,0,0
+恣zì,"indulge oneself, unrestrained",0,0,0,0
+睐lài,squint at,0,0,0,0
+婵chán,"beautiful, lovely, pretty, graceful",0,0,0,0
+榈lǘ,palm,0,0,0,0
+氦hài,helium,0,0,0,0
+靳jìn,,0,0,0,0
+蛹yǒng,"chrysalis, larva",0,0,0,0
+鸯yāng,female mandarin duck (Aix galericulata),0,0,0,0
+惬qiè,"be satisfied, be comfortable",0,0,0,0
+蹙cù,"urgent, suddenly",0,0,0,0
+诙huī,"tease, joke with",0,0,0,0
+眈dān,"gloat, stare at",0,0,0,0
+罡gāng,the name of a certain stars,0,0,0,0
+缮shàn,"repair, mend",0,0,0,0
+胤yìn,"heir, successor",0,0,0,0
+皋gāo,the high land along a river,0,0,0,0
+蛀zhù,"insects that eat books, clothes",0,0,0,0
+偌ruò,"thus, so, like, such",0,0,0,0
+疵cī,"flaw, fault, defect",0,0,0,0
+绛jiàng,deep red,0,0,0,0
+葆bǎo,"reserve, preserve",0,0,0,0
+黔qián,black,0,0,0,0
+喙huì,"beak, bill, snout",0,0,0,0
+烽fēng,signal fire,0,0,0,0
+儡lěi,"puppet, dummy",0,0,0,0
+佼jiǎo,"beautiful, handsome, good-looking",0,0,0,0
+斓lán,multicolored,0,0,0,0
+嫔pín,court lady,0,0,0,0
+颚è,jaw,0,0,0,0
+龈kěn,gums,0,0,0,0
+盅zhōng,small cup or bowl,0,0,0,0
+娓wěi,comply,0,0,0,0
+坂bǎn,"hillside, inconvenient places",0,0,0,0
+町tīng,raised path between fields,0,0,0,0
+芥jiè,mustard plant,0,0,0,0
+瘠jí,"thin, emaciated",0,0,0,0
+阂hé,blocked or separated,0,0,0,0
+挎kuà,carry,0,0,0,0
+橇qiāo,a sledge for transportation,0,0,0,0
+荟huì,"luxuriant, flourishing, abundant",0,0,0,0
+啜chuài,"sip, suck up",0,0,0,0
+垛duǒ,"heap, pile",0,0,0,0
+淇qí,river in Henan province,0,0,0,0
+瓒zàn,ceremonial libation cup,0,0,0,0
+篓lǒu,bamboo basket,0,0,0,0
+虱shī,louse,0,0,0,0
+跻jī,"ascend, go up, rise",0,0,0,0
+龛kān,"niche, shrine",0,0,0,0
+蹒pán,to jump over,0,0,0,0
+髯rán,beard,0,0,0,0
+瞠chēng,"look at, stare at, gaze at",0,0,0,0
+痫xián,"epilepsy, convulsions",0,0,0,0
+掂diān,"heft, hold or weigh in palm",0,0,0,0
+潼tóng,"high, lofty",0,0,0,0
+酰xiān,acyl,0,0,0,0
+镁měi,magnesium,0,0,0,0
+灸jiǔ,cauterize with moxa,0,0,0,0
+腆tiǎn,prosperous,0,0,0,0
+筱xiǎo,,0,0,0,0
+谆zhūn,"patient, earnest",0,0,0,0
+骋chěng,gallop horse,0,0,0,0
+壬rén,9th heavenly stem,0,0,0,0
+茗míng,tea,0,0,0,0
+椋liáng,fruit,0,0,0,0
+蛔huí,tapeworm,0,0,0,0
+潺chán,sound of flowing water,0,0,0,0
+扉fēi,door panel,0,0,0,0
+耘yún,weed,0,0,0,0
+槟bīn,"betel-nut, areca nut",0,0,0,0
+雹báo,hail,0,0,0,0
+甬yǒng,path,0,0,0,0
+谥shì,to confer posthumous titles,0,0,0,0
+淞sōng,name of a river in Jiangsu,0,0,0,0
+燎liáo,"to burn, set afire",0,0,0,0
+蕙huì,species of fragrant orchid,0,0,0,0
+蚪dǒu,tadpole,0,0,0,0
+蜻qīng,dragonfly,0,0,0,0
+郸dān,county in Hebei province,0,0,0,0
+轶yì,rush forth,0,0,0,0
+狰zhēng,"fierce-looking, ferocious",0,0,0,0
+楣méi,crossbeam above or under gate,0,0,0,0
+捋lǚ,to pluck,0,0,0,0
+涓juān,"brook, stream",0,0,0,0
+荪sūn,aromatic grass,0,0,0,0
+娄lóu,surname,0,0,0,0
+麝shè,musk deer,0,0,0,0
+蚤zǎo,flea,0,0,0,0
+薰xūn,a medicinal herb,0,0,0,0
+醮jiào,religious service,0,0,0,0
+搪táng,"ward off, evade",0,0,0,0
+谧mì,"calm, quiet, still",0,0,0,0
+湮yān,"bury, sink, block up",0,0,0,0
+辍chuò,"stop, suspend, halt",0,0,0,0
+瞌kē,doze off,0,0,0,0
+梆bāng,,0,0,0,0
+樟zhāng,camphor tree,0,0,0,0
+茉mò,white jasmine,0,0,0,0
+岖qū,"steep, sheer",0,0,0,0
+臼jiù,mortar,0,0,0,0
+癣xuǎn,ringworms,0,0,0,0
+穑sè,"farm, harvest grain",0,0,0,0
+玷diàn,flaw in gem,0,0,0,0
+馍mó,bread,0,0,0,0
+呷gā,"suck, swallow, drink",0,0,0,0
+萼è,the stem and calyx of a flower,0,0,0,0
+妩wǔ,"charming, enchanting",0,0,0,0
+伫zhù,,0,0,0,0
+彤tóng,"red, vermilion",0,0,0,0
+莓méi,moss,0,0,0,0
+岬jiǎ,cape,0,0,0,0
+媛yuàn,"beauty, beautiful woman",0,0,0,0
+惆chóu,"distressed, regretful, sad",0,0,0,0
+鳎tǎ,sole,0,0,0,0
+啾jiū,wailing of child,0,0,0,0
+囔nāng,"muttering, indistinct speech",0,0,0,0
+蜓tíng,dragonfly,0,0,0,0
+孺rú,child,0,0,0,0
+徇xùn,"comply with, follow",0,0,0,0
+徵zhēng,"summon, recruit",0,0,0,0
+焊hàn,"weld, solder",0,0,0,0
+岱dài,"Daishan, one of the Five Sacred Mountains in China",0,0,0,0
+昵nì,"intimate, close",0,0,0,0
+卅sà,"thirty, thirtieth",0,0,0,0
+飙biāo,"whirlwind, stormy gale",0,0,0,0
+邙máng,mountain in Henan province,0,0,0,0
+痞pǐ,"dyspepsia, spleen infection",0,0,0,0
+隼sǔn,aquiline (nose),0,0,0,0
+恫dòng,"in pain, sorrowful",0,0,0,0
+怆chuàng,"sad, broken-hearted, disconsolate",0,0,0,0
+桀jié,chicken roost,0,0,0,0
+绶shòu,silk ribbon attached as a seal,0,0,0,0
+裆dāng,crotch or seat of pants,0,0,0,0
+盂yú,basin,0,0,0,0
+桧guì,"Chinese cypress, Chinese juniper",0,0,0,0
+蚓yǐn,earthworm,0,0,0,0
+抠kōu,"raise, lift up",0,0,0,0
+嗷áo,loud clamor,0,0,0,0
+槌chuí,"hammer, mallet",0,0,0,0
+痘dòu,smallpox,0,0,0,0
+痢lì,dysentery,0,0,0,0
+芮ruì,,0,0,0,0
+蚣gōng,centipede,0,0,0,0
+闩shuān,"bolt, latch, crossbar",0,0,0,0
+铿kēng,"strike, beat, stroke",0,0,0,0
+飓jù,"cyclone, typhoon, gale",0,0,0,0
+疱pào,acne,0,0,0,0
+蝌kē,tadpole,0,0,0,0
+撅juē,protrude,0,0,0,0
+蚯qiū,earthworm,0,0,0,0
+斡wò,"revolve, rotate, turn",0,0,0,0
+窠kē,nest,0,0,0,0
+荚jiá,pods of leguminous plants,0,0,0,0
+耷dā,ears hanging down,0,0,0,0
+砚yàn,inkstone,0,0,0,0
+牒dié,"documents, records",0,0,0,0
+赈zhèn,"relieve, aid distressed",0,0,0,0
+煦xù,"kind, gentle, gracious, genial",0,0,0,0
+嗫niè,move lips as when speaking,0,0,0,0
+耙bà,rake,0,0,0,0
+榕róng,banyan tree,0,0,0,0
+鞑dá,tatars,0,0,0,0
+袤mào,"longitude, lengthwise",0,0,0,0
+谌chén,"sincere, faithful",0,0,0,0
+醺xūn,"get drunk, be intoxicated",0,0,0,0
+秆gǎn,straw,0,0,0,0
+徨huáng,"doubtful, irresolute, vacillating",0,0,0,0
+橹lǔ,"oar, scull",0,0,0,0
+翡fěi,kingfisher,0,0,0,0
+缨yīng,a chin strap,0,0,0,0
+锹qiāo,shovel,0,0,0,0
+嵇jī,mountain in Henan,0,0,0,0
+圪gē,,0,0,0,0
+髻jì,"hair rolled up in a bun, topknot",0,0,0,0
+嗬hē,(Cant.) interrogative particle,0,0,0,0
+辎zī,"a supply cart, covered wagon, dray",0,0,0,0
+痣zhì,"spots, moles",0,0,0,0
+娩miǎn,give birth child,0,0,0,0
+谄chǎn,"flatter, truckle, toady",0,0,0,0
+蛐qū,cricket,0,0,0,0
+鹞yào,sparrow hawk,0,0,0,0
+翱áo,"soar, roam",0,0,0,0
+庖páo,kitchen,0,0,0,0
+籁lài,bamboo flute,0,0,0,0
+蓿xu,"clover, lucerne",0,0,0,0
+鳗mán,eel,0,0,0,0
+疟nüè,intermittent fever,0,0,0,0
+鲇nián,"sheatfish, parasilurus asotus",0,0,0,0
+這zhè,"this, the, here",0,0,0,0
+嚅rú,talk indistinctly and falteringly,0,0,0,0
+瘀yū,"a hematoma, contusion",0,0,0,0
+颔hàn,"chin, jowl",0,0,0,0
+黜chù,dismiss,0,0,0,0
+黠xiá,"sly, cunning, shrewd",0,0,0,0
+濑lài,swift current,0,0,0,0
+馁něi,"hungry, starving, famished",0,0,0,0
+洵xún,"true, real, truly, really",0,0,0,0
+忐tǎn,timorous,0,0,0,0
+忑tè,fearful,0,0,0,0
+砥dǐ,a whetstone,0,0,0,0
+咂zā,"to suck, to smack the lips",0,0,0,0
+罹lí,"sorrow, grief",0,0,0,0
+糠kāng,"chaff, bran, husks",0,0,0,0
+匝zā,full circle,0,0,0,0
+偃yǎn,"cease, lay off, lay down",0,0,0,0
+淙cóng,gurgling sound of water,0,0,0,0
+纫rèn,"thread needle, sew stitch, string",0,0,0,0
+喏nuò,respectful reply of assent to superiors,0,0,0,0
+闾lǘ,village of twenty-five families,0,0,0,0
+祛qū,"expel, disperse, exorcise",0,0,0,0
+蛰zhé,to hibernate,0,0,0,0
+腼miǎn,modest,0,0,0,0
+涝lào,"inundate, flood",0,0,0,0
+曜yào,"glorious, as sun",0,0,0,0
+厩jiù,stable,0,0,0,0
+疽jū,"ulcer, carbuncle, abscess",0,0,0,0
+闰rùn,intercalary,0,0,0,0
+洄huí,a back-water,0,0,0,0
+煊xuān,warm,0,0,0,0
+汐xī,"night tides, evening ebb tide",0,0,0,0
+藓xiǎn,"moss, lichen",0,0,0,0
+璜huáng,a semicircular jade ornament used as a pendant,0,0,0,0
+铬gè,chromium,0,0,0,0
+經jīng,classic works,0,0,0,0
+渥wò,"moisten, soak",0,0,0,0
+靼dá,tartars,0,0,0,0
+酗xù,"drunk, to become violent under the influence of alcohol",0,0,0,0
+苓líng,"fungus, tuber",0,0,0,0
+噤jìn,close,0,0,0,0
+咫zhǐ,foot measure of Zhou dynasty,0,0,0,0
+椿chūn,father,0,0,0,0
+鲫jì,"Carassius auratus, crucian carp",0,0,0,0
+锭dìng,"spindle, slab, cake, tablet",0,0,0,0
+罔wǎng,net,0,0,0,0
+锺zhōng,"cup, glass, goblet",0,0,0,0
+匍pú,crawl,0,0,0,0
+祗zhī,"respect, look up to, revere",0,0,0,0
+锰měng,manganese,0,0,0,0
+岌jí,"perilous, hazardous",0,0,0,0
+馀yú,"surplus, excess, remainder",0,0,0,0
+畹wǎn,,0,0,0,0
+糯nuò,glutinous rice,0,0,0,0
+胫jìng,shinbone,0,0,0,0
+熠yì,bright and sparkling,0,0,0,0
+銮luán,bells hung on horse,0,0,0,0
+沅yuán,name of a river in western Hunan that flows into Dongting lake,0,0,0,0
+棣dì,"kerria japonica plant, cherry",0,0,0,0
+旌jīng,banner or flag adorned with feathers,0,0,0,0
+豌wān,peas,0,0,0,0
+孢bāo,spore,0,0,0,0
+镭léi,radium,0,0,0,0
+驸fù,extra horse,0,0,0,0
+腌yān,"salt, pickle",0,0,0,0
+盹dǔn,to doze,0,0,0,0
+熵shāng,entropy,0,0,0,0
+镐gǎo,stove,0,0,0,0
+馐xiū,"food, meal",0,0,0,0
+嘤yīng,seek friends,0,0,0,0
+癞lài,"leprosy, scabies, mange",0,0,0,0
+骰tóu,"die, dice",0,0,0,0
+韭jiǔ,"scallion, leek",0,0,0,0
+阖hé,close,0,0,0,0
+瞑míng,close eyes,0,0,0,0
+裨bì,"aid, benefit, help",0,0,0,0
+宕dàng,stone quarry,0,0,0,0
+戾lì,"perverse, recalcitrant, rebellious",0,0,0,0
+镌juān,engraving tool,0,0,0,0
+溟míng,drizzling rain,0,0,0,0
+牍dú,writing tablet,0,0,0,0
+隽juàn,"superior, outstanding, talented",0,0,0,0
+婊biǎo,"whore, prostitute",0,0,0,0
+鹄gǔ,target,0,0,0,0
+埂gěng,ditches for irrigation,0,0,0,0
+拄zhǔ,lean on,0,0,0,0
+娲wā,"a goddess, the mythological sister and successor to Fuxi",0,0,0,0
+虬qiú,young dragon,0,0,0,0
+萱xuān,"day-lily, hemerocallisflava",0,0,0,0
+啵bo,phonetic,0,0,0,0
+蠡lí,wood-boring insect,0,0,0,0
+芋yù,taro,0,0,0,0
+胭yān,"rouge, cosmetics",0,0,0,0
+豺chái,wolf,0,0,0,0
+啻chì,"only, merely",0,0,0,0
+褛lǚ,"lapel, collar",0,0,0,0
+蛆qū,maggots,0,0,0,0
+柠níng,lemon,0,0,0,0
+掰bāi,"(Cant.) to tear, to rip",0,0,0,0
+篆zhuàn,seal script,0,0,0,0
+倌guān,"assistant in wine shop, groom",0,0,0,0
+咛níng,"enjoin, instruct",0,0,0,0
+蛭zhì,leech,0,0,0,0
+谡sù,rise up,0,0,0,0
+荨xún,nettle,0,0,0,0
+莞guǎn,smiling,0,0,0,0
+澹dàn,"calm, quiet, tranquil",0,0,0,0
+纭yún,"confused, in disorder",0,0,0,0
+潞lù,river in northern china,0,0,0,0
+郅zhì,to go up to. flourishing a superlative,0,0,0,0
+弋yì,"catch, arrest",0,0,0,0
+飕sōu,sound of wind,0,0,0,0
+螳táng,mantis,0,0,0,0
+胄zhòu,"helmet, headpiece",0,0,0,0
+蟑zhāng,cockroach,0,0,0,0
+猥wěi,"vulgar, low, cheap",0,0,0,0
+宓mì,"quiet, silent",0,0,0,0
+昙tán,"become cloudy, overcast",0,0,0,0
+锏jiǎn,kind of rapier,0,0,0,0
+蟠pán,coil,0,0,0,0
+過guò,"pass, pass through, go across",0,0,0,0
+柑gān,"tangerine, loose-skinned orange",0,0,0,0
+烯xī,alkene,0,0,0,0
+匐fú,fall prostrate,0,0,0,0
+濮pú,county in Henan province,0,0,0,0
+蟮shàn,type of earthworm,0,0,0,0
+祐yòu,"divine intervention, protection",0,0,0,0
+仄zè,"slanting, oblique",0,0,0,0
+偈jì,brave,0,0,0,0
+蜃shèn,marine monster which can change its shape,0,0,0,0
+箴zhēn,"needle, probe",0,0,0,0
+粼lín,,0,0,0,0
+嗥háo,"roar, call out, wail",0,0,0,0
+褴lán,"ragged, tattered, threadbare",0,0,0,0
+蕨jué,"pteris aquilina, common bracken",0,0,0,0
+蓟jì,"circium, thistles",0,0,0,0
+圩wéi,"dike, embankment",0,0,0,0
+孪luán,twins,0,0,0,0
+杳yǎo,"obscure, dark, mysterious, deep",0,0,0,0
+魇yǎn,"nightmare, bad dreams",0,0,0,0
+荤hūn,meat diet,0,0,0,0
+诿wěi,"pass buck, lay blame on others",0,0,0,0
+簪zān,"hairpin, clasp",0,0,0,0
+氲yūn,life giving influences of nature,0,0,0,0
+摞luò,to pile up,0,0,0,0
+飒sà,the sound of the wind,0,0,0,0
+镂lòu,"carve, inlay, engrave, tattoo",0,0,0,0
+舀yǎo,"dip, ladle",0,0,0,0
+夙sù,"early in morning, dawn",0,0,0,0
+臧zāng,"good, right, generous",0,0,0,0
+蒿hāo,"mugwort, artemisia",0,0,0,0
+貂diāo,"marten, sable, mink",0,0,0,0
+蜥xī,lizard,0,0,0,0
+蹩bié,to limp,0,0,0,0
+噼pī,,0,0,0,0
+钛tài,titanium,0,0,0,0
+钚bù,plutonium,0,0,0,0
+獾huān,the badger,0,0,0,0
+濂lián,a waterfall,0,0,0,0
+铠kǎi,"armor, chain mail",0,0,0,0
+皙xī,white,0,0,0,0
+霭ǎi,"cloudy sky, haze",0,0,0,0
+鲈lú,"sea perch, sea bass",0,0,0,0
+叵pǒ,"cannot, be unable do, improbable",0,0,0,0
+霾mái,"misty, foggy",0,0,0,0
+泯mǐn,"destroy, eliminate",0,0,0,0
+碴chá,chipped edge of a container,0,0,0,0
+鸵tuó,ostrich,0,0,0,0
+峪yù,"valley, ravine",0,0,0,0
+饕tāo,"gluttonous, greedy, covetous",0,0,0,0
+瘁cuì,"feel tired, be weary, be worn out",0,0,0,0
+睢suī,"gaze at, stare at",0,0,0,0
+鬃zōng,mane,0,0,0,0
+迩ěr,"be near, be close",0,0,0,0
+纣zhòu,name of an emperor,0,0,0,0
+夔kuí,one-legged monster,0,0,0,0
+垠yín,"boundary, bank of stream or river",0,0,0,0
+饨tún,stuffed dumplings,0,0,0,0
+榭xiè,"kiosk, pavilion",0,0,0,0
+隍huáng,"dry ditch, dry moat",0,0,0,0
+娑suō,"dance, frolic",0,0,0,0
+篝gōu,bamboo basket,0,0,0,0
+榔láng,betel-nut tree,0,0,0,0
+洌liè,clear,0,0,0,0
+浜bāng,"creek, stream",0,0,0,0
+鲑guī,salmon,0,0,0,0
+谔è,"honest speech, straightforward",0,0,0,0
+汩gǔ,run swiftly,0,0,0,0
+浣huàn,"to wash, to rinse",0,0,0,0
+舐shì,lick with tongue,0,0,0,0
+瞭liǎo,"bright, clear",0,0,0,0
+忻xīn,"delightful, joyful, pleasant",0,0,0,0
+咻xiū,shout,0,0,0,0
+鹑chún,quail,0,0,0,0
+唑zuò,(chem.) azole,0,0,0,0
+懋mào,"splendid, grand, majestic",0,0,0,0
+皎jiǎo,white,0,0,0,0
+诒yí,"bequeath, pass on to future generations",0,0,0,0
+麾huī,"a pennant, flag, banner",0,0,0,0
+辏còu,hubs of wheel,0,0,0,0
+氐dī,name of an ancient tribe,0,0,0,0
+冽liè,cold and raw,0,0,0,0
+箕jī,sieve,0,0,0,0
+俚lǐ,"rustic, vulgar, unpolished",0,0,0,0
+汴biàn,name of a river in Henan,0,0,0,0
+宸chén,imperial,0,0,0,0
+芍sháo,peony,0,0,0,0
+捱ái,"put off, procrastinate",0,0,0,0
+摈bìn,"exclude, expel, reject",0,0,0,0
+摺zhé,"fold, bend",0,0,0,0
+簦dēng,"large umbrella with a long handle, used for street stalls",0,0,0,0
+箔bó,reed screen,0,0,0,0
+咝sī,hiss,0,0,0,0
+孀shuāng,widow,0,0,0,0
+怏yàng,"discontented, dispirited, sad",0,0,0,0
+谝piǎn,"brag, boast",0,0,0,0
+砧zhēn,anvil,0,0,0,0
+馕náng,bread (persian naan),0,0,0,0
+耄mào,elderly person,0,0,0,0
+罂yīng,long necked jar or bottle,0,0,0,0
+漕cáo,transport by water,0,0,0,0
+沣fēng,river in Shanxi province,0,0,0,0
+栾luán,name of tree,0,0,0,0
+榘jǔ,,0,0,0,0
+烷wán,alkane,0,0,0,0
+榷què,footbridge,0,0,0,0
+俑yǒng,wooden figure buried with dead,0,0,0,0
+沱tuó,"rivers, streams, waterways",0,0,0,0
+缜zhěn,"detailed, fine",0,0,0,0
+鹫jiù,"condor, vulture",0,0,0,0
+蛳sī,kind of snail with spiral shell,0,0,0,0
+剽piāo,"rob, plunder",0,0,0,0
+衢qú,highway,0,0,0,0
+泗sì,mucous,0,0,0,0
+臊sāo,rank,0,0,0,0
+瘴zhàng,malaria pestilential vapors,0,0,0,0
+酚fēn,carbolic acid,0,0,0,0
+纾shū,"loosen, relax, relieve",0,0,0,0
+晁cháo,"morning, dawn",0,0,0,0
+孛bèi,comet,0,0,0,0
+炀yáng,roast,0,0,0,0
+叁sān,,0,0,0,0
+憩qì,"rest, take rest",0,0,0,0
+掬jū,to grasp or hold with both hands,0,0,0,0
+椤luó,tree,0,0,0,0
+啮niè,"bite, gnaw",0,0,0,0
+畿jī,imperial domain,0,0,0,0
+掸dǎn,to dust,0,0,0,0
+镣liào,fetters,0,0,0,0
+骁xiāo,excellent horse,0,0,0,0
+椽chuán,"beams, rafters, supports",0,0,0,0
+侗dòng,big,0,0,0,0
+滦luán,river and county in Hebei province,0,0,0,0
+荩jìn,a kind of weed,0,0,0,0
+泓hóng,"clear, deep pool of water",0,0,0,0
+蚱zhà,grasshopper,0,0,0,0
+癜diàn,erythema,0,0,0,0
+酯zhǐ,ester,0,0,0,0
+體tǐ,body,0,0,0,0
+癸guǐ,10th heavenly stem,0,0,0,0
+蚜yá,"plant louse, aphids",0,0,0,0
+扪mén,"stoke, pat, feel by hand, grope",0,0,0,0
+庑wǔ,"corridor, hallway",0,0,0,0
+歆xīn,"like, admire",0,0,0,0
+蝮fù,"venomous snake, viper",0,0,0,0
+蹶jué,"stumble, fall down",0,0,0,0
+弈yì,Chinese chess,0,0,0,0
+庋guǐ,a cupboard or pantry to store,0,0,0,0
+喟kuì,"heave sigh, sigh",0,0,0,0
+滂pāng,torrential,0,0,0,0
+啕táo,wail,0,0,0,0
+蛎lì,oyster,0,0,0,0
+獭tǎ,otter,0,0,0,0
+槁gǎo,wither,0,0,0,0
+翊yì,flying,0,0,0,0
+龊chuò,"narrow, small",0,0,0,0
+邺yè,,0,0,0,0
+莘shēn,long,0,0,0,0
+燮xiè,"harmonize, blend",0,0,0,0
+剁duò,"chop by pounding, mince, hash",0,0,0,0
+觐jìn,have imperial audience,0,0,0,0
+铛dāng,frying pan,0,0,0,0
+谗chán,"slander, defame, misrepresent",0,0,0,0
+镍niè,nickel,0,0,0,0
+臃yōng,swell up,0,0,0,0
+墒shāng,wet tilth,0,0,0,0
+晔yè,bright,0,0,0,0
+燔fán,to roast,0,0,0,0
+嘭pēng,syllable,0,0,0,0
+涿zhuō,"drip, dribble, trickle",0,0,0,0
+醯xī,vinegar,0,0,0,0
+箩luó,bamboo basket,0,0,0,0
+鄱pó,county and lake in Jiangxi,0,0,0,0
+睨nì,"look askance at, glare at",0,0,0,0
+诤zhēng,to expostulate,0,0,0,0
+坳ào,"a hollow in the ground, a cavity, depression",0,0,0,0
+鹭lù,"heron, egret",0,0,0,0
+砷shēn,arsenic,0,0,0,0
+唏xī,weep or sob,0,0,0,0
+伲nì,we (Shanghai dialect),0,0,0,0
+猬wèi,vulgar,0,0,0,0
+琥hǔ,jewel in shape of tiger,0,0,0,0
+殁mò,die,0,0,0,0
+蚩chī,worm,0,0,0,0
+泾jīng,name of a river,0,0,0,0
+缥piāo,light blue silk,0,0,0,0
+殓liàn,dress corpse for burial,0,0,0,0
+鳅qiū,loach,0,0,0,0
+氰qíng,cyanogen,0,0,0,0
+诋dǐ,"slander, comdemn, reproach",0,0,0,0
+刍chú,"mow, cut grass",0,0,0,0
+芷zhǐ,"angelica, type of iris",0,0,0,0
+嶙lín,precipitous,0,0,0,0
+逅hòu,meet unexpectedly,0,0,0,0
+舫fǎng,"fancy boat, yacht",0,0,0,0
+呓yì,,0,0,0,0
+唰shuā,"swish, rustle",0,0,0,0
+茁zhuó,"to sprout, flourish",0,0,0,0
+馑jǐn,time of famine or crop failure,0,0,0,0
+妫guī,family name,0,0,0,0
+骧xiāng,gallop about with head uplifted,0,0,0,0
+苷gān,licorice,0,0,0,0
+擢zhuó,"pull up, draw up",0,0,0,0
+峋xún,ranges of hills stretching on beyond another irregular peaks,0,0,0,0
+袂mèi,sleeves,0,0,0,0
+懑mèn,"be sick at heart, sorrowful, sad",0,0,0,0
+蓑suō,"rain coat made of straw, coir, etc.",0,0,0,0
+與yǔ,and,0,0,0,0
+涞lái,river in Hebei province,0,0,0,0
+祉zhǐ,"happiness, blessings, good luck",0,0,0,0
+踹chuài,"trample, tread on, kick",0,0,0,0
+掇duō,"collect, gather up, pick up",0,0,0,0
+沏qī,infuse,0,0,0,0
+诳kuáng,"deceive, lie, delude, cheat",0,0,0,0
+噫yī,belch,0,0,0,0
+饽bō,ferrule,0,0,0,0
+饪rèn,cooked food,0,0,0,0
+绺liǔ,skein,0,0,0,0
+谘zī,"consult, confer",0,0,0,0
+飧sūn,"evening meal, supper",0,0,0,0
+迳jìng,"pass by, approach",0,0,0,0
+铡zhá,sickle for cutting grass or hay,0,0,0,0
+枞cōng,fir tree,0,0,0,0
+熨yùn,"iron, press",0,0,0,0
+鋈wù,silver plating,0,0,0,0
+荭hóng,herb,0,0,0,0
+赊shē,"buy and sell on credit, distant",0,0,0,0
+俦chóu,"companion, mate, colleague",0,0,0,0
+戛jiá,lance,0,0,0,0
+湎miǎn,"flushed with drink, drunk",0,0,0,0
+幺yāo,one,0,0,0,0
+凇sōng,dewdrop,0,0,0,0
+芪qí,celery,0,0,0,0
+觯zhì,wine goblet made from horn,0,0,0,0
+龌wò,"narrow, small",0,0,0,0
+挞tà,"flog, whip",0,0,0,0
+嬴yíng,to win,0,0,0,0
+苻fú,kind of herb,0,0,0,0
+嘁qī,to be grieved,0,0,0,0
+鞯jiān,saddle blanket,0,0,0,0
+肽tài,a chemical compound,0,0,0,0
+恸tòng,"sadness, grief",0,0,0,0
+迨dài,"until, when",0,0,0,0
+钰yù,rare treasure,0,0,0,0
+儆jǐng,warn,0,0,0,0
+觎yú,"desire strongly, covet, long for",0,0,0,0
+讫qì,finish,0,0,0,0
+滓zǐ,"sediment, lees, dregs",0,0,0,0
+僮tóng,"page, boy servant",0,0,0,0
+媾gòu,marry,0,0,0,0
+龇zī,to show the teeth,0,0,0,0
+胯kuà,pelvis,0,0,0,0
+涮shuàn,rinse,0,0,0,0
+绾wǎn,"to string together, to bind up",0,0,0,0
+杈chā,fork of a tree,0,0,0,0
+赳jiū,"grand, valiant",0,0,0,0
+斛hú,dry measure equal to some five or ten dou (,0,0,0,0
+觥gōng,a cup made of horn obstinate,0,0,0,0
+疸dǎn,jaundice,0,0,0,0
+卞biàn,"to be impatient, in a hurry",0,0,0,0
+愠yùn,angry,0,0,0,0
+拮jié,"laboring hard, occupied",0,0,0,0
+庠xiáng,village school,0,0,0,0
+烨yè,"bright, glorious, splendid, flame",0,0,0,0
+龢hé,in harmony,0,0,0,0
+菠bō,spinach and similar greens,0,0,0,0
+窈yǎo,"obscure, secluded",0,0,0,0
+罄qìng,"exhaust, run out, use up",0,0,0,0
+囤dùn,"grain basket, bin for grain",0,0,0,0
+弁biàn,conical cap worn during Zhou dynasty,0,0,0,0
+奘zàng,"large, powerful, stout, thick",0,0,0,0
+咣guāng,the sound of large door closing,0,0,0,0
+缫sāo,"draw, reel",0,0,0,0
+腴yú,fat,0,0,0,0
+缈miǎo,"indistinct, dim",0,0,0,0
+喵miāo,the mew of the cat,0,0,0,0
+潢huáng,"expanse of water, lake, pond",0,0,0,0
+遛liú,"take walk, stroll",0,0,0,0
+柚yòu,"pomelo, grapefruit",0,0,0,0
+郏jiá,county in Henan province,0,0,0,0
+荻dí,"reed, Miscanthus saccariflorus",0,0,0,0
+藜lí,"Chenopodium album, pigweed",0,0,0,0
+琨kūn,"beautiful jade, precious stones",0,0,0,0
+镳biāo,"bit, bridle",0,0,0,0
+雉zhì,pheasant,0,0,0,0
+橐tuó,"a sack, a bag opening at both ends",0,0,0,0
+陽yáng,,0,0,0,0
+骈pián,team of horses,0,0,0,0
+蛉líng,"dragonfly, libellulidae",0,0,0,0
+艮gěn,seventh of eight diagrams,0,0,0,0
+搽chá,smear,0,0,0,0
+濡rú,"immerse, moisten",0,0,0,0
+寮liáo,"shanty, hut, shack",0,0,0,0
+柩jiù,coffin which contains corpse,0,0,0,0
+佗tuó,"other, he",0,0,0,0
+啷lāng,a clanging or rattling sound,0,0,0,0
+诜shēn,"inquire, question",0,0,0,0
+視shì,"look at, inspect, observe, see",0,0,0,0
+偻lóu,humpback,0,0,0,0
+夯hāng,"heavy load, burden",0,0,0,0
+闱wéi,"gate, door",0,0,0,0
+谖xuān,forget,0,0,0,0
+夥huǒ,companion,0,0,0,0
+枸gǒu,kind of aspen found in Sichuan,0,0,0,0
+膑bìn,the kneecap,0,0,0,0
+虻méng,"horsefly, gadfly",0,0,0,0
+筠yún,bamboo skin,0,0,0,0
+埽sào,broom,0,0,0,0
+笞chī,bamboo rod used for beatings,0,0,0,0
+臾yú,"moment, instant, short while",0,0,0,0
+婀ē,"be beautiful, be graceful",0,0,0,0
+珞luò,kind of necklace,0,0,0,0
+粑bā,tsamba (food in Tibet),0,0,0,0
+怵chù,"fear, be afraid",0,0,0,0
+绻quǎn,"affectionate, solicitous",0,0,0,0
+殒yǔn,"die, perish",0,0,0,0
+觊jì,"covet, long for, desire",0,0,0,0
+崂láo,"Laoshan, mountain in Shandong",0,0,0,0
+颧quán,cheek bones,0,0,0,0
+嗑kē,eat seeds,0,0,0,0
+榛zhēn,hazelnut,0,0,0,0
+昱yù,"bright light, sunlight",0,0,0,0
+蜴yì,lizard,0,0,0,0
+鳝shàn,eel,0,0,0,0
+噙qín,hold in mouth,0,0,0,0
+淼miǎo,a wide expanse of water,0,0,0,0
+矾fán,alum,0,0,0,0
+硼péng,"borax, boron",0,0,0,0
+囿yòu,pen up,0,0,0,0
+泅qiú,"swim, float, wade",0,0,0,0
+邂xiè,unexpected meeting,0,0,0,0
+钜jù,"steel, iron",0,0,0,0
+蠹dù,moth,0,0,0,0
+垩è,"holy, sacred, sage",0,0,0,0
+乩jī,to divine,0,0,0,0
+嗝gé,"cackling of fowls to gag, to vomit",0,0,0,0
+淦gàn,river in Jiangxi province,0,0,0,0
+樽zūn,goblet,0,0,0,0
+诮qiào,"criticize, scold, blame, ridicule",0,0,0,0
+揆kuí,prime minister,0,0,0,0
+啐cuì,"to taste, to sip",0,0,0,0
+淅xī,water used wash rice,0,0,0,0
+榉jǔ,type of elm,0,0,0,0
+馗kuí,cheekbone,0,0,0,0
+辔pèi,"bridle of horse, reins",0,0,0,0
+暹xiān,rise,0,0,0,0
+骛wù,gallop,0,0,0,0
+鱿yóu,cuttlefish,0,0,0,0
+苫shān,rush or straw matting,0,0,0,0
+犷guǎng,"fierce, rude, uncivilized",0,0,0,0
+獠liáo,to hunt at night by torches,0,0,0,0
+詈lì,"scold, abuse verbally, curse",0,0,0,0
+竦sǒng,"revere, respect, be in awe of",0,0,0,0
+篙gāo,pole used punt boat,0,0,0,0
+诨hùn,"jokes, obsene jests",0,0,0,0
+铰jiǎo,hinge,0,0,0,0
+馄hún,"dumpling soup, wonton",0,0,0,0
+蜚fēi,cockroach,0,0,0,0
+峒dòng,mountain in Gansu province,0,0,0,0
+滢yíng,"clear, pure water",0,0,0,0
+琬wǎn,the virtue of a gentleman,0,0,0,0
+靓jìng,make up face,0,0,0,0
+狻suān,a fabulous beast,0,0,0,0
+璨càn,gems,0,0,0,0
+犟jiàng,stubborn,0,0,0,0
+鸬lú,cormorant,0,0,0,0
+螨mǎn,insect,0,0,0,0
+芩qín,salt marsh plant,0,0,0,0
+嘹liáo,used describe clarity of voice,0,0,0,0
+锟kūn,ancient treasured sword,0,0,0,0
+蜇zhē,jellyfish,0,0,0,0
+洹huán,river in Henan province,0,0,0,0
+栉zhì,comb,0,0,0,0
+俪lì,"spouse, couple, pair",0,0,0,0
+钍tǔ,thorium,0,0,0,0
+锨xiān,shovel,0,0,0,0
+瑁mào,fine piece of jade,0,0,0,0
+壹yī,number one,0,0,0,0
+痿wěi,paralysis,0,0,0,0
+竑hóng,be vast and endless,0,0,0,0
+粕pò,"lees, dregs, sediments left after distilling liquor",0,0,0,0
+犄jī,animal horns,0,0,0,0
+瘙sào,itch,0,0,0,0
+饯jiàn,farewell party,0,0,0,0
+抟tuán,roll around with hand,0,0,0,0
+衲nà,"mend, sew, patch",0,0,0,0
+踮diǎn,tip toe,0,0,0,0
+龅bāo,teeth protrude,0,0,0,0
+愎bì,"obstinate, stubborn, headstrong",0,0,0,0
+馥fù,"fragrance, scent, aroma",0,0,0,0
+梏gù,"handcuffs, manacles, fetters",0,0,0,0
+讣fù,obituary,0,0,0,0
+邝kuàng,surname,0,0,0,0
+艿nǎi,,0,0,0,0
+趺fū,sit cross-legged,0,0,0,0
+鲟xún,sturgeon,0,0,0,0
+剜wān,"cut, cut out, pick out, scoop out",0,0,0,0
+绉zhòu,"crepe, crape, wrinkles, creases",0,0,0,0
+罅xià,"crack, fissure, split",0,0,0,0
+笥sì,"a hamper, wicker basket",0,0,0,0
+衩chǎ,the open seam of a garment which allows freedom of movement,0,0,0,0
+姣jiāo,"beautiful, handsome, pretty",0,0,0,0
+斫zhuó,"cut, chop, lop off",0,0,0,0
+鹗è,"osprey, fishhawk",0,0,0,0
+腎shèn,kidneys,0,0,0,0
+爻yáo,diagrams for divination,0,0,0,0
+猕mí,macacus monkey,0,0,0,0
+晗hán,pre-dawn,0,0,0,0
+铩shā,moult,0,0,0,0
+窕tiǎo,slender,0,0,0,0
+仨sā,(coll.) three (cannot be followed by a measure word),0,0,0,0
+搡sǎng,to push over or push back,0,0,0,0
+崴wǎi,"high, lofty",0,0,0,0
+酢cù,,0,0,0,0
+檄xí,call arms,0,0,0,0
+佞nìng,flattery,0,0,0,0
+孑jié,"remaining, left-over",0,0,0,0
+璀cuǐ,lustre of gems,0,0,0,0
+岷mín,"min mountain, min river",0,0,0,0
+舛chuǎn,"oppose, deviate, be contrary to",0,0,0,0
+邕yōng,former or literary name for Nanning (in Guangxi),0,0,0,0
+闿kǎi,open,0,0,0,0
+铂bó,platinum,0,0,0,0
+霁jì,to clear up after rain,0,0,0,0
+犒kào,entertain victorious soldiers,0,0,0,0
+馏liú,"distill, distillation",0,0,0,0
+阈yù,threshold,0,0,0,0
+麋mí,elk,0,0,0,0
+麒qí,legendary auspicious animal,0,0,0,0
+苁cōng,medicinal herb,0,0,0,0
+摁èn,to press with the hand,0,0,0,0
+涔cén,river in Shaanxi,0,0,0,0
+宥yòu,"forgive, pardon, indulge",0,0,0,0
+妍yán,"beautiful, handsome",0,0,0,0
+铤dìng,"ingots, bars of metal",0,0,0,0
+锷è,"high, lofty",0,0,0,0
+嗲diǎ,,0,0,0,0
+恽yùn,"devise, plan, deliberate",0,0,0,0
+麂jǐ,species of deer,0,0,0,0
+赝yàn,FALSE,0,0,0,0
+胛jiǎ,"the shoulder, shoulder blade",0,0,0,0
+哂shěn,"smile, laugh at, sneer at",0,0,0,0
+撷xié,"pick up, gather up",0,0,0,0
+呶náo,talkative,0,0,0,0
+噘juē,pouting,0,0,0,0
+懔lǐn,"be afraid of, to be in awe of",0,0,0,0
+栎lì,chestnut-leaved oak,0,0,0,0
+桎zhì,"fetters, shackles, handcuffs",0,0,0,0
+霰sǎn,"hail, sleet",0,0,0,0
+飨xiǎng,host banquet,0,0,0,0
+揄yú,"lift, raise",0,0,0,0
+噔dēng,syllable,0,0,0,0
+娣dì,"younger sister, sister-in-law",0,0,0,0
+薏yì,,0,0,0,0
+忝tiǎn,disgraced,0,0,0,0
+咤zhà,"scold, bellow, shout at, roar",0,0,0,0
+嗵tōng,used for sound,0,0,0,0
+迤yí,wind,0,0,0,0
+贲bēn,forge ahead,0,0,0,0
+胪lú,arrange in order,0,0,0,0
+鍪móu,an iron pan,0,0,0,0
+泸lú,river in Jiangxi province,0,0,0,0
+蔫niān,"withered, faded, decayed",0,0,0,0
+刈yì,"cut off, reap, mow",0,0,0,0
+僖xī,"joy, gladness, delight",0,0,0,0
+咿yī,descriptive of creaking,0,0,0,0
+鹌ān,quail,0,0,0,0
+嗪qín,character used in translation,0,0,0,0
+茏lóng,tall grass,0,0,0,0
+茯fú,china root,0,0,0,0
+岫xiù,mountain peak,0,0,0,0
+嵘róng,"high, steep",0,0,0,0
+轱gū,wheel,0,0,0,0
+怼duì,"hate, abhor",0,0,0,0
+铨quán,"weigh, measure",0,0,0,0
+昕xīn,dawn,0,0,0,0
+郢yǐng,,0,0,0,0
+咩miē,the bleating of sheep,0,0,0,0
+馊sōu,"spoiled, rotten, stale, rancid",0,0,0,0
+髡kūn,to shear tree,0,0,0,0
+澧lǐ,river in northern Hunan province,0,0,0,0
+苣jù,kind of lettuce,0,0,0,0
+濯zhuó,"wash out, rinse",0,0,0,0
+盥guàn,wash,0,0,0,0
+囡nān,,0,0,0,0
+砺lì,whetstone,0,0,0,0
+佘shé,surname,0,0,0,0
+谶chèn,"prophecy, hint, omen",0,0,0,0
+弑shì,,0,0,0,0
+楂zhā,"a raft, to hew, to fell trees",0,0,0,0
+翦jiǎn,scissors,0,0,0,0
+怩ní,"shy, timid, bashful",0,0,0,0
+蠼qú,,0,0,0,0
+霏fēi,falling of snow and rain,0,0,0,0
+楹yíng,"column, pillar",0,0,0,0
+讴ōu,sing,0,0,0,0
+锲qiè,sickle,0,0,0,0
+慵yōng,"indolent, easy-going, lazy",0,0,0,0
+胝zhī,"callous, corn",0,0,0,0
+砭biān,stone probe,0,0,0,0
+潍wéi,county in Shandong province,0,0,0,0
+杵chǔ,pestle,0,0,0,0
+樾yuè,the shade of trees,0,0,0,0
+帼guó,,0,0,0,0
+碣jié,stone tablet,0,0,0,0
+诌zhōu,"play with words, quip",0,0,0,0
+徕lái,"induce, encourage to come",0,0,0,0
+胴dòng,the large intestine,0,0,0,0
+钴gǔ,cobalt,0,0,0,0
+裟shā,a cassock or robe of a monk,0,0,0,0
+啶dìng,phonetic used in pyridine and pyrimidine,0,0,0,0
+铣xǐ,mill,0,0,0,0
+铱yī,iridium,0,0,0,0
+楫jí,"oar, paddle",0,0,0,0
+赭zhě,reddish brown,0,0,0,0
+碛qì,sand and gravel,0,0,0,0
+酊dīng,"drunk, intoxicated",0,0,0,0
+魑chī,a mountain demon resembling a tiger,0,0,0,0
+醛quán,aldehyde,0,0,0,0
+剐guǎ,"cut, cut flesh from bones",0,0,0,0
+畦qí,sections in vegetable farm,0,0,0,0
+陂bēi,"dam, embankment",0,0,0,0
+闶kāng,door,0,0,0,0
+阄jiū,lots (to be drawn),0,0,0,0
+祚zuò,throne,0,0,0,0
+鹘gǔ,a kind of pigeon,0,0,0,0
+泱yāng,"great, expansive",0,0,0,0
+趄jū,"weak, lame",0,0,0,0
+骅huá,an excellent horse,0,0,0,0
+陲chuí,"frontier, border",0,0,0,0
+郧yún,county in Hubei province,0,0,0,0
+倜tì,raise high,0,0,0,0
+呤lìng,purine,0,0,0,0
+燧suì,flintstone,0,0,0,0
+铉xuàn,device for carrying a tripod,0,0,0,0
+粲càn,polish,0,0,0,0
+骶dǐ,coccyx,0,0,0,0
+峁mǎo,yellow dirt mount,0,0,0,0
+忸niǔ,"blush, be bashful, be ashamed",0,0,0,0
+渌lù,strain,0,0,0,0
+骞qiān,"raise, hold high",0,0,0,0
+髭zī,mustache,0,0,0,0
+戡kān,"subjugate, subdue, quell",0,0,0,0
+钨wū,"tungsten, wolfram",0,0,0,0
+谲jué,"cunning, crafty, sly, wily",0,0,0,0
+苋xiàn,amaranth,0,0,0,0
+锃zèng,polish,0,0,0,0
+蜊lí,clam,0,0,0,0
+幄wò,tent,0,0,0,0
+闼tà,door,0,0,0,0
+戕qiāng,"kill, slay",0,0,0,0
+骊lí,a pure black horse,0,0,0,0
+虢guó,name of ancient feudal State in Shenxi and Hunan,0,0,0,0
+烩huì,"ragout, cook, braise",0,0,0,0
+傥tǎng,"if, supposing, in case",0,0,0,0
+妲dá,concubine of last ruler of the Shang dynasty,0,0,0,0
+绌chù,"sew, stitch",0,0,0,0
+桠yā,the forking branch of a tree,0,0,0,0
+袈jiā,Buddhist cassock,0,0,0,0
+鎗qiāng,"rifle, small arms, hand gun",0,0,0,0
+薮sǒu,"marsh, swamp",0,0,0,0
+揿qìn,press,0,0,0,0
+杲gǎo,bright sun,0,0,0,0
+肓huāng,region between heart and diaphragm,0,0,0,0
+厝cuò,cut or engrave,0,0,0,0
+莅lì,"attend, be present",0,0,0,0
+氤yīn,"hanging fog, misty",0,0,0,0
+缙jìn,red silk,0,0,0,0
+衮gǔn,ceremonial dress worn by the emperor,0,0,0,0
+诟gòu,"abuse, scold, berate, insult",0,0,0,0
+旖yǐ,romantic,0,0,0,0
+硒xī,selenium,0,0,0,0
+唁yàn,express condolence,0,0,0,0
+嬗shàn,succession to the throne,0,0,0,0
+硎xíng,whetstone,0,0,0,0
+裱biǎo,to mount maps or scrolls to paste,0,0,0,0
+颦pín,"frown, knit brows",0,0,0,0
+質zhì,"matter, material, substance",0,0,0,0
+靥yè,dimples,0,0,0,0
+纥gē,inferior silk,0,0,0,0
+煨wēi,"to stew, simmer",0,0,0,0
+礴bó,"fill, extend",0,0,0,0
+鏖áo,"to fight to the end, engage in a fierce battle",0,0,0,0
+蝈guō,small green frog,0,0,0,0
+笏hù,tablet held by someone having authority,0,0,0,0
+羿yì,legendary archer,0,0,0,0
+鼐nài,incense tripod,0,0,0,0
+湟huáng,river in qinghai province,0,0,0,0
+甑zèng,"boiler for steaming rice, pot",0,0,0,0
+炜wěi,brilliant red,0,0,0,0
+煲bāo,to heat,0,0,0,0
+锉cuò,,0,0,0,0
+笕jiǎn,bamboo water pipe,0,0,0,0
+喑yīn,to be dumb,0,0,0,0
+嶂zhàng,cliff,0,0,0,0
+浔xún,steep bank by stream,0,0,0,0
+弭mǐ,"stop, desist, end, quell",0,0,0,0
+妪yù,"old woman, hag",0,0,0,0
+锂lǐ,lithium,0,0,0,0
+苡yǐ,barley,0,0,0,0
+孳zī,breed in large numbers,0,0,0,0
+颏kē,chin,0,0,0,0
+醴lǐ,sweet wine,0,0,0,0
+間jiān,"interval, space",0,0,0,0
+渚zhǔ,"small sand bank, islet",0,0,0,0
+轭è,"yoke, collar",0,0,0,0
+鹬yù,"snipe, kingfisher",0,0,0,0
+蚝háo,hairy and poisonous caterpillars,0,0,0,0
+黃huáng,yellow,0,0,0,0
+膘biāo,fat,0,0,0,0
+邛qióng,in distress,0,0,0,0
+痨láo,consumption,0,0,0,0
+褡dā,girdle,0,0,0,0
+耦ǒu,plow side by side,0,0,0,0
+覃tán,"reach to, spread to",0,0,0,0
+虛xū,"false, worthless",0,0,0,0
+馔zhuàn,"to feed, support, provide for",0,0,0,0
+篾miè,bamboo splints or slats,0,0,0,0
+兖yǎn,establish,0,0,0,0
+阋xì,"feud, fight, quarrel",0,0,0,0
+遨áo,"ramble, roam",0,0,0,0
+爰yuán,lead on to,0,0,0,0
+痂jiā,scab,0,0,0,0
+艄shāo,stern of a vessel,0,0,0,0
+耨nòu,"hoe, rake",0,0,0,0
+沤ōu,"soak, steep",0,0,0,0
+邋lā,rags,0,0,0,0
+焓hán,"(Cant.) onomatopoetic, the sound of a fiercely-burning fire",0,0,0,0
+秣mò,"fodder, horse feed",0,0,0,0
+昶chǎng,a long day. bright. extended. clear,0,0,0,0
+種zhǒng,seed,0,0,0,0
+變biàn,"change, transform, alter",0,0,0,0
+窣sū,to rush out of a den,0,0,0,0
+绦tāo,"silk cord, ribbon",0,0,0,0
+俎zǔ,chopping board or block,0,0,0,0
+榫sǔn,mortise and tenon,0,0,0,0
+蟪huì,a kind of cicada,0,0,0,0
+稗bài,"darnels, weeds, tares small",0,0,0,0
+謇jiǎn,stutter,0,0,0,0
+氩yà,argonium,0,0,0,0
+類lèi,"class, group, kind, category",0,0,0,0
+锴kǎi,high quality iron,0,0,0,0
+龉yǔ,uneven teeth,0,0,0,0
+烃tīng,hydrocarbon,0,0,0,0
+俣yǔ,big,0,0,0,0
+嬷mā,mother,0,0,0,0
+肱gōng,forearm,0,0,0,0
+鸢yuān,kite,0,0,0,0
+笫zǐ,"bed boards, sleeping mat",0,0,0,0
+痤cuó,a swelling of the lymph nodes,0,0,0,0
+陰yīn,,0,0,0,0
+菏hé,river in Shandong province,0,0,0,0
+莆pú,a kind of legendary tree,0,0,0,0
+芨jī,"name of a plant, the roots are used for various purposes",0,0,0,0
+阕què,"close, shut",0,0,0,0
+砣tuó,a stone roller,0,0,0,0
+碜chěn,gritty,0,0,0,0
+鼹yǎn,a kind of insectivorous rodent,0,0,0,0
+長zhǎng,long,0,0,0,0
+猷yóu,"plan, scheme",0,0,0,0
+竽yú,ancient woodwind instrument,0,0,0,0
+舸gě,"large boat, barge",0,0,0,0
+诓kuāng,"cheat, swindle, lie",0,0,0,0
+錾zàn,"engraving tool, chisel",0,0,0,0
+淬cuì,temper,0,0,0,0
+隗kuí,high,0,0,0,0
+悌tì,"brotherly, respectful",0,0,0,0
+姘pīn,illicit sexual relations,0,0,0,0
+槭qī,maple,0,0,0,0
+邈miǎo,"far, distant, remote",0,0,0,0
+婕jié,handsome,0,0,0,0
+歙shè,,0,0,0,0
+稹zhěn,,0,0,0,0
+蹴cù,kick,0,0,0,0
+砒pī,arsenic,0,0,0,0
+痈yōng,"carbuncle, sore, ulcer, abscess",0,0,0,0
+镏liú,distil,0,0,0,0
+羯jié,"wether, castrated ram",0,0,0,0
+豕shǐ,"a pig, boar",0,0,0,0
+鲂fáng,bream,0,0,0,0
+蓖bì,"castor-oil plant, Ricinus commumis",0,0,0,0
+匦guǐ,small box,0,0,0,0
+笤tiáo,"a broom, a besom",0,0,0,0
+峥zhēng,"high, lofty, noble",0,0,0,0
+徭yáo,"conscript labor, compulsory labor",0,0,0,0
+浃jiā,"saturate, drench",0,0,0,0
+烊yáng,to smelt,0,0,0,0
+補bǔ,"mend, patch, fix, repair, restore",0,0,0,0
+窸xī,"faint sound, whisper",0,0,0,0
+酆fēng,name of Zhou period state,0,0,0,0
+缢yì,"hang, strangle",0,0,0,0
+褓bǎo,swaddling cloth,0,0,0,0
+蚨fú,"a kind of water-beetle cash, then dollars and money generally",0,0,0,0
+翳yì,"shade, screen",0,0,0,0
+趔liè,not progressing,0,0,0,0
+炔guì,acetylene,0,0,0,0
+誊téng,"copy, transcribe",0,0,0,0
+赜zé,"abstruse, deep, profound",0,0,0,0
+仃dīng,"lonely, solitary",0,0,0,0
+勖xù,"enjoin, advise, preach to",0,0,0,0
+葺qì,thatch,0,0,0,0
+蚴yòu,larva,0,0,0,0
+泷lóng,raining,0,0,0,0
+蛴qí,"maggots, grubs",0,0,0,0
+結jié,"knot, tie",0,0,0,0
+媸chī,an ugly woman,0,0,0,0
+俳pái,actor,0,0,0,0
+诖guà,"error, mistake",0,0,0,0
+茑niǎo,the convovulvus,0,0,0,0
+逡qūn,"retreat, withdraw, fall back",0,0,0,0
+孱càn,"weak, unfit, frail, feeble",0,0,0,0
+砦zhài,"stockade, fort, military outpost",0,0,0,0
+跸bì,"clear way, make room for",0,0,0,0
+祜hù,"blessing, happiness, prosperity",0,0,0,0
+伉kàng,"compare, match",0,0,0,0
+溴xiù,bromine,0,0,0,0
+屐jī,"wooden shoes, clogs",0,0,0,0
+飚biāo,whirlwind,0,0,0,0
+蛞kuò,snail,0,0,0,0
+鏡jìng,mirror,0,0,0,0
+掮qián,to bear on the shoulders,0,0,0,0
+崆kōng,Kongtong mountain,0,0,0,0
+庾yǔ,granary,0,0,0,0
+橛jué,"a post, a stake",0,0,0,0
+矸gān,a rock or cliff,0,0,0,0
+鸨bǎo,bustard,0,0,0,0
