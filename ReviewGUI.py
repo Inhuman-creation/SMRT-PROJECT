@@ -17,6 +17,7 @@ import random
 import Settings
 from TextToSpeech import play_pronunciation
 from PIL import Image
+import pygame
 
 class ReviewGUI:
     """
@@ -29,6 +30,10 @@ class ReviewGUI:
 
         # Pull all known words out of the dictionary
         self.review_window = [word for word in self.controller.study_window.words_dict.values() if word.is_known]
+
+        # Set the volume multiplier for sound effects
+        self.app = controller.app
+        self.volume_mult = 0.5
 
         # Initialize fonts (all "Garet")
         self.flashfont = ctk.CTkFont(family="Garet", size=150, weight="bold")
@@ -150,6 +155,11 @@ class ReviewGUI:
                 )
                 feedback_label.place(relx=0.5, rely=0.5, relwidth=0.6, relheight=0.2, anchor=tk.CENTER)
 
+                # Play sound effect for correct answer
+                sound = pygame.mixer.Sound("assets/correct.wav")
+                sound.set_volume((Settings.VOLUME / 100) * self.volume_mult)
+                sound.play()
+
                 # Disable all choice buttons after a guess is made
                 for btn in buttons:
                     btn.configure(state="disabled")
@@ -191,6 +201,10 @@ class ReviewGUI:
                 )
                 feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08,
                                       anchor=tk.CENTER)
+                # Play sound effect for wrong answer
+                sound = pygame.mixer.Sound("assets/incorrect.wav")
+                sound.set_volume((Settings.VOLUME / 100) * self.volume_mult)
+                sound.play()
 
         # Create flashcard label
         flashcard = ctk.CTkLabel(
@@ -301,6 +315,11 @@ class ReviewGUI:
             if feedback_color == "#77721f":
                 self.frame.after(1000, hide_feedback, feedback_label, None)  # Auto-hide after 1 second
 
+                # Play sound effect for correct answer
+                sound = pygame.mixer.Sound("assets/correct.wav")
+                sound.set_volume((Settings.VOLUME / 100) * self.volume_mult)
+                sound.play()
+
             # If the answer is wrong, show an "OK" button to dismiss the feedback
             else:
                 feedback_button = ctk.CTkButton(
@@ -315,6 +334,11 @@ class ReviewGUI:
                     corner_radius=5
                 )
                 feedback_button.place(relx=0.5, rely=0.7, relwidth=0.1, relheight=0.08, anchor=tk.CENTER)
+
+                # Play sound effect for incorrect answer
+                sound = pygame.mixer.Sound("assets/incorrect.wav")
+                sound.set_volume((Settings.VOLUME / 100) * self.volume_mult)
+                sound.play()
 
             text_entry.unbind("<Return>")
             submit_button.configure(state="disabled")
