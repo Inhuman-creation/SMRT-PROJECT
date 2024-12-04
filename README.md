@@ -112,5 +112,5 @@ This project is licensed under the **ECL License 2.0** - see the [ECL site](http
 
 ## Acknowledgements
 
-Special thanks to Texas A&M - Corpus Christi and Dr. Kadir Alpaslan Demir for providing us
+Special thanks to Texas A&M University- Corpus Christi and Dr. Kadir Alpaslan Demir for providing us
 with an environment to learn Software Engineering.
